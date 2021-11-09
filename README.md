@@ -1,0 +1,1 @@
+Panasonic_LinkaPowerCP_A2019059
