@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=4.7.3.93 SP?>
+<?AutomationStudio FileVersion="4.9"?>
 <Package xmlns="http://br-automation.co.at/AS/Package">
   <Objects>
     <Object Type="File">XUWE4CJ8.ext</Object>
@@ -51,5 +51,6 @@
     <Object Type="File">H9UYJOFY.ext</Object>
     <Object Type="File">NZ2R6SRK.ext</Object>
     <Object Type="File">YJ7WDSF9.ext</Object>
+    <Object Type="File">JTCCJ7W8.ext</Object>
   </Objects>
 </Package>

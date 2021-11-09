@@ -387,7 +387,7 @@ TYPE
 		mcSAHM_ABS := 4, (*Absolute - Homing by setting the home offset*)
 		mcSAHM_ABS_CORR := 5, (*Absolute correction - Homing by setting the home offset with counting range correction*)
 		mcSAHM_BLK_LAG_ERR := 9, (*Block lag error - Homing on block, criterion for homing event: lag error*)
-		mcSAHM_RES_POS := 10, (*Restore position - Homing by restoring the position from permanent variable data*)
+		mcSAHM_RES_POS := 10, (*Restore position - Homing by restoring the position from remanent variable data*)
 		mcSAHM_NOT_USE := 100 (*Not used - No preconfigured homing settings used*)
 		);
 	McSAHModDirRefPEnum :
@@ -502,7 +502,7 @@ TYPE
 	END_STRUCT;
 	McSAHType : STRUCT (*Homing mode and parameters which can be used within the application program as preconfigured setting*)
 		Mode : McSAHModType; (*Homing mode*)
-		RestorePositionVariable : STRING[250]; (*Permanent variable used for homing mode: Restore position*)
+		RestorePositionVariable : STRING[250]; (*Remanent variable used for homing mode: Restore position*)
 	END_STRUCT;
 	McSASRDEEnum :
 		( (*Drive error selector setting*)
@@ -565,15 +565,20 @@ TYPE
 	McSAJFEnum :
 		( (*Jerk filter selector setting*)
 		mcSAJF_NOT_USE := 0, (*Not used - No jerk filter is applied*)
-		mcSAJF_USE := 1 (*Used - Jerk filter is applied*)
+		mcSAJF_USE := 1, (*Used - Jerk filter is applied*)
+		mcSAJF_JERK_LIM := 2 (*Jerk limited - Jerk is considered in the profile generator*)
 		);
 	McSAJFUseType : STRUCT (*Type mcSAJF_USE settings*)
 		MaximumJerkTime : REAL; (*Maximum configurable jerk filter time [s]*)
 		JerkTime : REAL; (*Jerk filter time [s]*)
 	END_STRUCT;
+	McSAJFJerkLimType : STRUCT (*Type mcSAJF_JERK_LIM settings*)
+		JerkLimit : REAL; (*Jerk limit in any movement direction [Measurement units/s³]*)
+	END_STRUCT;
 	McSAJFType : STRUCT (*Jerk filter*)
 		Type : McSAJFEnum; (*Jerk filter selector setting*)
 		Used : McSAJFUseType; (*Type mcSAJF_USE settings*)
+		JerkLimited : McSAJFJerkLimType; (*Type mcSAJF_JERK_LIM settings*)
 	END_STRUCT;
 	McSADIAllSrcEnum :
 		( (*Source selector setting*)
@@ -586,27 +591,97 @@ TYPE
 		mcSADIAS_DIG_IN_3 := 6, (*Digital input 3 -*)
 		mcSADIAS_DIG_IN_4 := 7, (*Digital input 4 -*)
 		mcSADIAS_DIG_IN_5 := 8, (*Digital input 5 -*)
-		mcSADIAS_DIG_IN_6 := 9 (*Digital input 6 -*)
+		mcSADIAS_DIG_IN_6 := 9, (*Digital input 6 -*)
+		mcSADIAS_IO_CH := 10 (*I/O channel - Get value from an I/O channel*)
 		);
 	McSADIAllSrcVarTSEnum :
 		( (*Time stamp selector setting*)
 		mcSADIAllSVTS_NOT_USE := 0, (*Not used - Not used*)
-		mcSADIAllSVTS_USE := 1 (*Used - Used*)
+		mcSADIAllSVTS_USE := 1, (*Used - Used*)
+		mcSADIAllSVTS_RIS_AND_FALL_EDG := 2 (*Rising and falling edge - Detect the trigger by using a rising and a falling time stamp*)
 		);
 	McSADIAllSrcVarTSUseType : STRUCT (*Type mcSADIAllSVTS_USE settings*)
 		PVMapping : STRING[250]; (*Name of the process variable (DINT) representing trigger time stamp*)
 	END_STRUCT;
+	McSADIASVTSRAFERECntType : STRUCT (*Count*)
+		PVMapping : STRING[250]; (*Name of the process variable (SINT) representing the rising trigger edge count*)
+	END_STRUCT;
+	McSADIASVTSRAFERETimStmpType : STRUCT (*Time stamp*)
+		PVMapping : STRING[250]; (*Name of the process variable (INT) representing the rising trigger edge time*)
+	END_STRUCT;
+	McSADIASVTSRAFERisEdgType : STRUCT (*Parameters for the rising trigger edge*)
+		Count : McSADIASVTSRAFERECntType; (*Count*)
+		TimeStamp : McSADIASVTSRAFERETimStmpType; (*Time stamp*)
+	END_STRUCT;
+	McSADIASVTSRAFEFECntType : STRUCT (*Count*)
+		PVMapping : STRING[250]; (*Name of the process variable (SINT) representing the falling trigger edge count*)
+	END_STRUCT;
+	McSADIASVTSRAFEFETimStmpType : STRUCT (*Time stamp*)
+		PVMapping : STRING[250]; (*Name of the process variable (INT) representing the falling trigger edge time*)
+	END_STRUCT;
+	McSADIASVTSRAFEFallEdgType : STRUCT (*Parameters for the falling trigger edge*)
+		Count : McSADIASVTSRAFEFECntType; (*Count*)
+		TimeStamp : McSADIASVTSRAFEFETimStmpType; (*Time stamp*)
+	END_STRUCT;
+	McSADIASVTSRisAndFallEdgType : STRUCT (*Type mcSADIAllSVTS_RIS_AND_FALL_EDG settings*)
+		RisingEdge : McSADIASVTSRAFERisEdgType; (*Parameters for the rising trigger edge*)
+		FallingEdge : McSADIASVTSRAFEFallEdgType; (*Parameters for the falling trigger edge*)
+	END_STRUCT;
 	McSADIAllSrcVarTSType : STRUCT (*Trigger time stamp*)
 		Type : McSADIAllSrcVarTSEnum; (*Time stamp selector setting*)
 		Used : McSADIAllSrcVarTSUseType; (*Type mcSADIAllSVTS_USE settings*)
+		RisingAndFallingEdge : McSADIASVTSRisAndFallEdgType; (*Type mcSADIAllSVTS_RIS_AND_FALL_EDG settings*)
 	END_STRUCT;
 	McSADIAllSrcVarType : STRUCT (*Type mcSADIAS_VAR settings*)
 		PVMapping : STRING[250]; (*Name of the process variable (BOOL) representing trigger*)
 		TimeStamp : McSADIAllSrcVarTSType; (*Trigger time stamp*)
 	END_STRUCT;
+	McSADIAllSrcIOChTSEnum :
+		( (*Time stamp selector setting*)
+		mcSADIAllSIOCTS_NOT_USE := 0, (*Not used - Not used*)
+		mcSADIAllSIOCTS_USE := 1, (*Used - Used*)
+		mcSADIAllSIOCTS_RIS_AND_FALL_EDG := 2 (*Rising and falling edge - Detect the trigger by using a rising and a falling time stamp*)
+		);
+	McSADIAllSrcIOChTSUseType : STRUCT (*Type mcSADIAllSIOCTS_USE settings*)
+		ChannelMapping : STRING[250]; (*Input source for representing the trigger time stamp*)
+	END_STRUCT;
+	McSADIASIOCTSRAFERECntType : STRUCT (*Count*)
+		ChannelMapping : STRING[250]; (*Input source for representing the rising trigger edge count*)
+	END_STRUCT;
+	McSADIASIOCTSRAFERETimStmpType : STRUCT (*Time stamp*)
+		ChannelMapping : STRING[250]; (*Input source for representing the rising trigger edge time*)
+	END_STRUCT;
+	McSADIASIOCTSRAFERisEdgType : STRUCT (*Parameters for the rising trigger edge*)
+		Count : McSADIASIOCTSRAFERECntType; (*Count*)
+		TimeStamp : McSADIASIOCTSRAFERETimStmpType; (*Time stamp*)
+	END_STRUCT;
+	McSADIASIOCTSRAFEFECntType : STRUCT (*Count*)
+		ChannelMapping : STRING[250]; (*Input source for representing the falling trigger edge count*)
+	END_STRUCT;
+	McSADIASIOCTSRAFEFETimStmpType : STRUCT (*Time stamp*)
+		ChannelMapping : STRING[250]; (*Input source for representing the falling trigger edge time*)
+	END_STRUCT;
+	McSADIASIOCTSRAFEFallEdgType : STRUCT (*Parameters for the falling trigger edge*)
+		Count : McSADIASIOCTSRAFEFECntType; (*Count*)
+		TimeStamp : McSADIASIOCTSRAFEFETimStmpType; (*Time stamp*)
+	END_STRUCT;
+	McSADIASIOCTSRisAndFallEdgType : STRUCT (*Type mcSADIAllSIOCTS_RIS_AND_FALL_EDG settings*)
+		RisingEdge : McSADIASIOCTSRAFERisEdgType; (*Parameters for the rising trigger edge*)
+		FallingEdge : McSADIASIOCTSRAFEFallEdgType; (*Parameters for the falling trigger edge*)
+	END_STRUCT;
+	McSADIAllSrcIOChTSType : STRUCT (*Trigger time stamp*)
+		Type : McSADIAllSrcIOChTSEnum; (*Time stamp selector setting*)
+		Used : McSADIAllSrcIOChTSUseType; (*Type mcSADIAllSIOCTS_USE settings*)
+		RisingAndFallingEdge : McSADIASIOCTSRisAndFallEdgType; (*Type mcSADIAllSIOCTS_RIS_AND_FALL_EDG settings*)
+	END_STRUCT;
+	McSADIAllSrcIOChType : STRUCT (*Type mcSADIAS_IO_CH settings*)
+		ChannelMapping : STRING[250]; (*Channel input source*)
+		TimeStamp : McSADIAllSrcIOChTSType; (*Trigger time stamp*)
+	END_STRUCT;
 	McSADIAllSrcType : STRUCT (*Source of the digital input hardware which is used for this functionality*)
 		Type : McSADIAllSrcEnum; (*Source selector setting*)
 		Variable : McSADIAllSrcVarType; (*Type mcSADIAS_VAR settings*)
+		IOChannel : McSADIAllSrcIOChType; (*Type mcSADIAS_IO_CH settings*)
 	END_STRUCT;
 	McSADIHomeSwLvlEnum :
 		( (*Level of the digital input hardware which leads to an active level of the functionality*)
@@ -661,14 +736,19 @@ TYPE
 		mcSADIQI_POS_LIM_SW := 3, (*Positive limit switch -*)
 		mcSADIQI_NEG_LIM_SW := 4, (*Negative limit switch -*)
 		mcSADIQI_HOME_SW := 5, (*Homing switch -*)
-		mcSADIQI_VAR := 6 (*Variable -*)
+		mcSADIQI_VAR := 6, (*Variable -*)
+		mcSADIQI_IO_CH := 7 (*I/O channel - Get value from an I/O channel*)
 		);
 	McSADIQstopInVarType : STRUCT (*Type mcSADIQI_VAR settings*)
 		PVMapping : STRING[250]; (*Name of the process variable (BOOL) representing trigger*)
 	END_STRUCT;
+	McSADIQstopInIOChType : STRUCT (*Type mcSADIQI_IO_CH settings*)
+		ChannelMapping : STRING[250]; (*Channel input source*)
+	END_STRUCT;
 	McSADIQstopInType : STRUCT (*Digital input functionality triggering an axis quickstop*)
 		Type : McSADIQstopInEnum; (*Input selector setting*)
 		Variable : McSADIQstopInVarType; (*Type mcSADIQI_VAR settings*)
+		IOChannel : McSADIQstopInIOChType; (*Type mcSADIQI_IO_CH settings*)
 	END_STRUCT;
 	McSADIQstopType : STRUCT (*Quickstop functionality*)
 		Input : McSADIQstopInType; (*Digital input functionality triggering an axis quickstop*)

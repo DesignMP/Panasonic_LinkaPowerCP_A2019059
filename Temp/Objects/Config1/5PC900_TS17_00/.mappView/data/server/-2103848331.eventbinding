@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Content id="AreaPageManualP4_FunkcnyTestA">
+    <EventBinding id="AreaPageManualP4_FunkcnyTestA.Button_ZdvihCentrovania.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageManualP4_FunkcnyTestA_Button_ZdvihCentrovania" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::P4_StoperF:Centrovacku_VYSUN">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Content id="AreaPageManualP4_FunkcnyTestA">
+    <EventBinding id="AreaPageManualP4_FunkcnyTestA.Button_ZostupCentrovania.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageManualP4_FunkcnyTestA_Button_ZostupCentrovania" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::P4_StoperF:Centrovacku_ZASUN">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Content id="AreaPageManualP4_FunkcnyTestA">
+    <EventBinding id="AreaPageManualP4_FunkcnyTestA.Button_HorneKontaktyZdvih.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageManualP4_FunkcnyTestA_Button_HorneKontaktyZdvih" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::P4_StoperF:HorneKontakty_ZASUN">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Content id="AreaPageManualP4_FunkcnyTestA">
+    <EventBinding id="AreaPageManualP4_FunkcnyTestA.Button_HorneKontaktyZostup.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageManualP4_FunkcnyTestA_Button_HorneKontaktyZostup" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::P4_StoperF:HorneKontakty_VYSUN">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Content id="AreaPageManualP4_FunkcnyTestA">
+    <EventBinding id="AreaPageManualP4_FunkcnyTestA.Button_SpodneKontaktyZdvih.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageManualP4_FunkcnyTestA_Button_SpodneKontaktyZdvih" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::P4_StoperF:SpodneKontakty_VYSUN">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Content id="AreaPageManualP4_FunkcnyTestA">
+    <EventBinding id="AreaPageManualP4_FunkcnyTestA.Button_SpodneKontaktyZostup.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageManualP4_FunkcnyTestA_Button_SpodneKontaktyZostup" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::P4_StoperF:SpodneKontakty_ZASUN">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+</EventBindingDefinition>

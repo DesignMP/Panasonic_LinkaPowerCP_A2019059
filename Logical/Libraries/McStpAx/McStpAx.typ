@@ -11,7 +11,7 @@ TYPE
         ReferencePulse : McSwitchEnum; (*The encoder's reference pulse is used for homing*)
         KeepDirection : McSwitchEnum; (*The direction of movement is or is not permitted to be changed during the homing procedure*)
 		ReferencePulseBlockingDistance : REAL; (*Distance for blocking activation of "triggering reference pulse" [Measurement units]*)
-		RestorePositionVariableAddress : UDINT; (*Address of a permanent variable of type McStpAxRestorePosType that is needed for "HomingMode" mcHOMING_RESTORE_POSITION*)
+		RestorePositionVariableAddress : UDINT; (*Address of a remanent variable of type McStpAxRestorePosType that is needed for "HomingMode" mcHOMING_RESTORE_POSITION*)
 		BlockDetectionPositionError : REAL; (*Lag error for block detection [Measurement units]*)
 		PositionErrorStopLimit : REAL; (*Lag error for canceling homing procedure [Measurement units]*)
     END_STRUCT;

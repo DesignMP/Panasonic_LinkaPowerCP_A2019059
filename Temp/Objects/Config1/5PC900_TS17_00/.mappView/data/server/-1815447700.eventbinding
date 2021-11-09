@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Content id="AreaPageManualP2_Skrutkovanie">
+    <EventBinding id="AreaPageManualP2_Skrutkovanie.Button_ZostupCentrovania.Click">
+			<Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageManualP2_Skrutkovanie_Button_ZostupCentrovania" />
+			<EventHandler>
+				<Action>
+					<Target type="opcUa.NodeAction" refId="::P2_StoperS:Centrovacku_ZASUN">
+						<Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="AreaPageManualP2_Skrutkovanie">
+    <EventBinding id="AreaPageManualP2_Skrutkovanie.Button_ZdvihCentrovania.Click">
+			<Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageManualP2_Skrutkovanie_Button_ZdvihCentrovania" />
+			<EventHandler>
+				<Action>
+					<Target type="opcUa.NodeAction" refId="::P2_StoperS:Centrovacku_VYSUN">
+						<Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="AreaPageManualP2_Skrutkovanie">
+    <EventBinding id="AreaPageManualP2_Skrutkovanie.Button_HomingOsX.Click">
+			<Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageManualP2_Skrutkovanie_Button_HomingOsX" />
+			<EventHandler>
+				<Action>
+					<Target type="opcUa.NodeAction" refId="::P2_Srobova:OsX_HOME">
+						<Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="AreaPageManualP2_Skrutkovanie">
+    <EventBinding id="AreaPageManualP2_Skrutkovanie.Button_HomingOsY.Click">
+			<Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageManualP2_Skrutkovanie_Button_HomingOsY" />
+			<EventHandler>
+				<Action>
+					<Target type="opcUa.NodeAction" refId="::P2_Srobova:OsY_HOME">
+						<Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="AreaPageManualP2_Skrutkovanie_page2">
+    <EventBinding id="AreaPageManualP2_Skrutkovanie_page2.Button_CistenieSkrutkovackyM4.Click">
+			<Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageManualP2_Skrutkovanie_page2_Button_CistenieSkrutkovackyM4" />
+			<EventHandler>
+				<Action>
+					<Target type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Srobovanie.RR_SkrutkovackaM4_CISTENIE">
+						<Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="AreaPageManualP2_Skrutkovanie_page2">
+    <EventBinding id="AreaPageManualP2_Skrutkovanie_page2.Button_CistenieSkrutkovackyM5.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageManualP2_Skrutkovanie_page2_Button_CistenieSkrutkovackyM5" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Srobovanie.RR_SkrutkovackaM5_CISTENIE">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="AreaPageManualP2_Skrutkovanie_page2">
+    <EventBinding id="AreaPageManualP2_Skrutkovanie_page2.Button_CistenieSkrutkovackyM6.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageManualP2_Skrutkovanie_page2_Button_CistenieSkrutkovackyM6" />
+            <EventHandler>
+                <Action>
+					<Target type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Srobovanie.RR_SkrutkovackaM6_CISTENIE">
+						<Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="AreaPageManualP2_Skrutkovanie_page2">
+    <EventBinding id="AreaPageManualP2_Skrutkovanie_page2.Button_TestPozicii_4F.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageManualP2_Skrutkovanie_page2_Button_TestPozicii_4F" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Srobovanie.RR_PolohujNaPoziciuSkrutky_4F">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Content id="AreaPageManualP2_Skrutkovanie_page2">
+    <EventBinding id="AreaPageManualP2_Skrutkovanie_page2.Button_TestPozicii_5F.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageManualP2_Skrutkovanie_page2_Button_TestPozicii_5F" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Srobovanie.RR_PolohujNaPoziciuSkrutky_5F">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Content id="AreaPageManualP2_Skrutkovanie_page2">
+    <EventBinding id="AreaPageManualP2_Skrutkovanie_page2.Button_TestPozicii_5H.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageManualP2_Skrutkovanie_page2_Button_TestPozicii_5H" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Srobovanie.RR_PolohujNaPoziciuSkrutky_5H">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+</EventBindingDefinition>

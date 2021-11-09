@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1">
+  <Content id="PataP1">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.TL_RezimAutomat_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="PataP1_NavigationButton_Automat" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="PataP1">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.TL_RezimManual_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="PataP1_NavigationButton_Manual" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie1_ST1">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM2.RESULT.Paletka.Pritom_Busbaru_Spodny_4F" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie1_ST1_ImageList1" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie1_ST1">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM2.RESULT.Paletka.Pritom_DPS_4F5F" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie1_ST1_ImageList2" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie1_ST1">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM2.RESULT.Paletka.Pritom_Foamu_4F5F" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie1_ST1_ImageList3" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie1_ST1">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM2.RESULT.Paletka.Pritom_PowerCP_4F" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie1_ST1_ImageList4" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie1_ST1">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM2.RESULT.Paletka.Pritomn_Skeletonu_4F5F" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie1_ST1_ImageList5" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie2_ST1">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM2.RESULT.Paletka.Pritomn_Skeletonu_4F5F" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie2_ST1_ImageList5" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie2_ST1">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM2.RESULT.Paletka.Pritom_PowerCP_5F" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie2_ST1_ImageList4" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie2_ST1">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM2.RESULT.Paletka.Pritom_Foamu_4F5F" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie2_ST1_ImageList3" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie2_ST1">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM2.RESULT.Paletka.Pritom_DPS_4F5F" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie2_ST1_ImageList2" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie2_ST1">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM2.RESULT.Paletka.Pritom_Busbaru_Spodny_5F" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie2_ST1_ImageList1" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie3_ST1">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM2.RESULT.Paletka.Pritomn_Skeletonu_5H" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie3_ST1_ImageList5" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie3_ST1">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM2.RESULT.Paletka.Pritom_PowerCP_5H" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie3_ST1_ImageList4" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie3_ST1">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM2.RESULT.Paletka.Pritom_KrytuBusbarov_5H" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie3_ST1_ImageList3" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie3_ST1">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM2.RESULT.Paletka.Pritom_Busbar_SpodnyPravy_5H" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie3_ST1_ImageList2" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie3_ST1">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM2.RESULT.Paletka.Pritom_Busbar_SpodnyLavy_5H" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie3_ST1_ImageList1" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaPageAutomatP1">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:Linka.PAR.IndexModelu" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaPageAutomatP1_DropDownBox1" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding><Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:Linka.PAR.IndexModelu" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaPageAutomatP1_DropDownBox1" attribute="editable::selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaPageAutomatP1">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.TL_VolbaModelu_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaPageAutomatP1_DropDownBox1" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie1_ST1">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM2.RESULT.Paletka.OsadeniePlastuDPS_OK" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie1_ST1_ImageList7" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie1_ST1">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM2.RESULT.Paletka.Pritomn_LavyMVcase" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie1_ST1_ImageList9" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie1_ST1">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM2.RESULT.Paletka.Pritomn_PravyMVcase" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie1_ST1_ImageList10" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie2_ST1">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM2.RESULT.Paletka.Pritomn_LavyMVcase" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie2_ST1_ImageList10" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie2_ST1">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM2.RESULT.Paletka.Pritomn_PravyMVcase" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie2_ST1_ImageList9" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie2_ST1">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM2.RESULT.Paletka.OsadeniePlastuDPS_OK" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie2_ST1_ImageList7" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie3_ST1">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM2.RESULT.Paletka.Pritomn_LavyMVcase" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie3_ST1_ImageList9" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie3_ST1">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM2.RESULT.Paletka.Pritomn_PravyMVcase" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie3_ST1_ImageList8" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="PataP1">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.TL_Uzivatelia_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="PataP1_NavigationButton_Parametre1" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie1_ST2">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM6.RESULT.PowerCP.Pritom_PravejSkrutkyK30" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie1_ST2_ImageList5" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie1_ST2">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM6.RESULT.PowerCP.Pritom_LavejSkrutkyK30" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie1_ST2_ImageList6" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie2_ST2">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM6.RESULT.PowerCP.Nepritom_LavyFoam_4F5F" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie2_ST2_ImageList8" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie2_ST2">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM6.RESULT.PowerCP.Nepritom_PravyFoam_4F5F" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie2_ST2_ImageList7" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie3_ST2">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM6.RESULT.PowerCP.Pritom_LavejSkrutkyK30" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie3_ST2_ImageList6" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie3_ST2">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM6.RESULT.PowerCP.Pritom_PravejSkrutkyK30" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie3_ST2_ImageList5" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie3_ST2">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM6.RESULT.Paletka.Pritom_SpodnyBusbar_4F" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie3_ST2_ImageList12" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie4_ST2">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM6.RESULT.PowerCP.Pritom_LavejSkrutkyK30" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie4_ST2_ImageList6" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie4_ST2">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM6.RESULT.PowerCP.Pritom_PravejSkrutkyK30" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie4_ST2_ImageList5" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie5_ST2">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM6.RESULT.PowerCP.Nepritom_LavyFoam_4F5F" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie5_ST2_ImageList8" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie5_ST2">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM6.RESULT.PowerCP.Nepritom_PravyFoam_4F5F" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie5_ST2_ImageList7" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie6_ST2">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM6.RESULT.Paletka.Pritom_SpodnyBusbar_5F" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie6_ST2_ImageList12" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie6_ST2">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM6.RESULT.PowerCP.Pritom_LavejSkrutkyK30" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie6_ST2_ImageList6" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie6_ST2">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM6.RESULT.PowerCP.Pritom_PravejSkrutkyK30" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie6_ST2_ImageList5" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie7_ST2">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM6.RESULT.PowerCP.Pritom_LavejSkrutkyK30" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie7_ST2_ImageList6" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie7_ST2">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM6.RESULT.PowerCP.Pritom_PravejSkrutkyK30" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie7_ST2_ImageList5" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie8_ST2">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM6.RESULT.Paletka.Pritom_KrytuBusbarov_5H" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie8_ST2_ImageList10" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie8_ST2">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM6.RESULT.PowerCP.Pritom_LavejSkrutkyK30" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie8_ST2_ImageList6" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie8_ST2">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM6.RESULT.PowerCP.Pritom_PravejSkrutkyK30" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie8_ST2_ImageList5" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaHlasenie8_ST2">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM6.RESULT.Paletka.Pritom_SpodnychBusbarov_5H" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaHlasenie8_ST2_ImageList11" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+</BindingDefinition>

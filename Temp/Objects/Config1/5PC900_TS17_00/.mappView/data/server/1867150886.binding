@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1">
+  <Content id="AreaPageManualP2_Zvaranie">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.Zvaranie_OvlZdvihu_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageManualP2_Zvaranie_MomentaryPushButton_JoggZdvihuHORE" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageManualP2_Zvaranie">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.Zvaranie_OvlZdvihu_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageManualP2_Zvaranie_MomentaryPushButton_JoggZdvihuDOLE" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageManualP2_Zvaranie">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::P2_Zvarani:Zdvih_JoggHORE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageManualP2_Zvaranie_MomentaryPushButton_JoggZdvihuHORE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::P2_Zvarani:Zdvih_JoggHORE" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageManualP2_Zvaranie_MomentaryPushButton_JoggZdvihuHORE" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageManualP2_Zvaranie">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::P2_Zvarani:Zdvih_JoggDOLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageManualP2_Zvaranie_MomentaryPushButton_JoggZdvihuDOLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::P2_Zvarani:Zdvih_JoggDOLE" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageManualP2_Zvaranie_MomentaryPushButton_JoggZdvihuDOLE" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageManualP2_Zvaranie">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Zvaranie.STAV.ServoZdvihu_HomingOK" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageManualP2_Zvaranie_ImageList6" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageManualP2_Zvaranie">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Zvaranie.STAV.Zdvih_AktualnaPozicia" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageManualP2_Zvaranie_NumericOutput_ZdvihAktualnaPozicia" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageManualP2_Zvaranie">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Zvaranie.PAR.ServoZdvihu_JoggRychlost" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageManualP2_Zvaranie_NumericInput_ZdvihZadanaRychlost" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Zvaranie.PAR.ServoZdvihu_JoggRychlost" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageManualP2_Zvaranie_NumericInput_ZdvihZadanaRychlost" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageManualP2_Zvaranie">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Zvaranie.IN.ZdvihZvarania_RefSnimac_IS9" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageManualP2_Zvaranie_ImageList15" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageManualP2_Zvaranie">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Zvaranie.IN.PojazdZvarania_PozVLAVO_IS11" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageManualP2_Zvaranie_ImageList7" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageManualP2_Zvaranie">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Zvaranie.IN.PojazdZvarania_PozVPRAVO_IS10" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageManualP2_Zvaranie_ImageList8" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageManualP2_Zvaranie">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_StoperZvarania.IN.PritomnostPaletky_S9" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageManualP2_Zvaranie_ImageList17" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageManualP2_Zvaranie">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_StoperZvarania.IN.Centrovanie_VYSUNUTE_IS16" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageManualP2_Zvaranie_ImageList4" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageManualP2_Zvaranie">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_StoperZvarania.IN.Centrovanie_ZASUNUTE_IS17" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageManualP2_Zvaranie_ImageList5" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageManualP2_Zvaranie">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_StoperZvarania.OUT.ZasunStoper_YV59" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageManualP2_Zvaranie_ToggleSwitch_Stoper" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_StoperZvarania.OUT.ZasunStoper_YV59" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageManualP2_Zvaranie_ToggleSwitch_Stoper" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageManualP2_Zvaranie_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Cistenie.IN.Dvere_OTVORENE_MS7" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageManualP2_Zvaranie_page2_ImageList4" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageManualP2_Zvaranie_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Cistenie.IN.Dvere_ZATVORENE_MS8" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageManualP2_Zvaranie_page2_ImageList5" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageManualP2_Zvaranie_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Cistenie.OUT.Odsavanie_RUN_YV49" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageManualP2_Zvaranie_page2_ToggleSwitch_Stoper2" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Cistenie.OUT.Odsavanie_RUN_YV49" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageManualP2_Zvaranie_page2_ToggleSwitch_Stoper2" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageManualP2_Zvaranie_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Cistenie.OUT.VzduchPreIonizator_RUN_YV51" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageManualP2_Zvaranie_page2_ToggleSwitch_Stoper1" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Cistenie.OUT.VzduchPreIonizator_RUN_YV51" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageManualP2_Zvaranie_page2_ToggleSwitch_Stoper1" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageManualP2_Zvaranie_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Cistenie.OUT.Ionizator_RUN_ZX2" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageManualP2_Zvaranie_page2_ToggleSwitch_Stoper" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Cistenie.OUT.Ionizator_RUN_ZX2" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageManualP2_Zvaranie_page2_ToggleSwitch_Stoper" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageManualP2_Zvaranie">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Zvaranie.IN.ZvarackaStav_READY" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageManualP2_Zvaranie_ImageList16" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+</BindingDefinition>

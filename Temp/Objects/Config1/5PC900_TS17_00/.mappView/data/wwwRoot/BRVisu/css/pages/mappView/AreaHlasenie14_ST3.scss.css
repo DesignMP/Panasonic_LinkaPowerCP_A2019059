@@ -1,0 +1,167 @@
+#AreaHlasenie14_ST3_GroupBox6 {
+  top: 0px;
+  position: absolute;
+}
+
+#AreaHlasenie14_ST3_GroupBox6 {
+  left: 0px;
+  position: absolute;
+}
+
+#AreaHlasenie14_ST3_GroupBox6 {
+  width: 500px;
+}
+
+#AreaHlasenie14_ST3_GroupBox6 {
+  height: 300px;
+}
+
+#AreaHlasenie14_ST3_GroupBox6 {
+  z-index: 0;
+}
+
+#AreaHlasenie14_ST3_GroupBox6 {
+  border-width: 7px;
+}
+
+#AreaHlasenie14_ST3_GroupBox6 > .header {
+  border-width: 7px;
+}
+
+#AreaHlasenie14_ST3_GroupBox6 {
+  border-radius: 6px 6px 6px 6px;
+}
+
+#AreaHlasenie14_ST3_GroupBox6 {
+  background-color: #ffc080;
+}
+
+#AreaHlasenie14_ST3_GroupBox6 {
+  border-style: groove;
+}
+
+#AreaHlasenie14_ST3_GroupBox6 > .header {
+  border-bottom-style: groove;
+}
+
+#AreaHlasenie14_ST3_GroupBox6 > .header span {
+  color: black;
+}
+
+#AreaHlasenie14_ST3_GroupBox6 {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaHlasenie14_ST3_Image1 {
+  top: 7px;
+  position: absolute;
+}
+
+#AreaHlasenie14_ST3_Image1 {
+  left: 415px;
+  position: absolute;
+}
+
+#AreaHlasenie14_ST3_Image1 {
+  width: 62px;
+}
+
+#AreaHlasenie14_ST3_Image1 {
+  height: 62px;
+}
+
+#AreaHlasenie14_ST3_Image1 {
+  z-index: 0;
+}
+
+#AreaHlasenie14_ST3_Label1 {
+  top: 93px;
+  position: absolute;
+}
+
+#AreaHlasenie14_ST3_Label1 {
+  left: 22px;
+  position: absolute;
+}
+
+#AreaHlasenie14_ST3_Label1 {
+  width: 443px;
+}
+
+#AreaHlasenie14_ST3_Label1 {
+  height: 100px;
+}
+
+#AreaHlasenie14_ST3_Label1 {
+  z-index: 1;
+}
+
+#AreaHlasenie14_ST3_Label1 span {
+  color: black;
+}
+
+#AreaHlasenie14_ST3_Label1 {
+  justify-content: center;
+  text-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#AreaHlasenie14_ST3_Label1 {
+  font-size: 24px;
+}
+
+#AreaHlasenie14_ST3_Label1 {
+  font-weight: bold;
+}
+
+#AreaHlasenie14_ST3_Button_OznacPaletkuNG {
+  top: 213px;
+  position: absolute;
+}
+
+#AreaHlasenie14_ST3_Button_OznacPaletkuNG {
+  left: 169px;
+  position: absolute;
+}
+
+#AreaHlasenie14_ST3_Button_OznacPaletkuNG {
+  width: 149px;
+}
+
+#AreaHlasenie14_ST3_Button_OznacPaletkuNG {
+  height: 45px;
+}
+
+#AreaHlasenie14_ST3_Button_OznacPaletkuNG {
+  z-index: 2;
+}
+
+#AreaHlasenie14_ST3_Button_OznacPaletkuNG {
+  border-radius: 10px;
+}
+
+#AreaHlasenie14_ST3_Button_OznacPaletkuNG:not(.disabled):not(.active):not(.checked) {
+  background-image: linear-gradient(to bottom, rgba(255, 192, 192, 1) 20%,rgba(255,0,0,1) 100%);
+}
+
+#AreaHlasenie14_ST3_Button_OznacPaletkuNG:not(.disabled):not(.active):not(.checked) span {
+  color: black;
+}
+
+#AreaHlasenie14_ST3_Button_OznacPaletkuNG {
+  justify-content: center;
+  text-align: center;
+}
+
+#AreaHlasenie14_ST3_Button_OznacPaletkuNG:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaHlasenie14_ST3_Button_OznacPaletkuNG.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaHlasenie14_ST3_Button_OznacPaletkuNG.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}

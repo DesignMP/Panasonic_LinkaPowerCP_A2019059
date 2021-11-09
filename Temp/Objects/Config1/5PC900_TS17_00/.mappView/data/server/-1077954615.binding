@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1">
+  <Content id="AreaPageManualP3_Skrutkovanie">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_StoperSrobovania.OUT.ZasunStoper_YV132" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_ToggleSwitch_Stoper" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_StoperSrobovania.OUT.ZasunStoper_YV132" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_ToggleSwitch_Stoper" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_StoperSrobovania.IN.PritomnostPaletky_S22" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_ImageList19" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_StoperSrobovania.IN.Centrovanie_VYSUNUTE_MS43" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_ImageList4" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_StoperSrobovania.IN.Centrovanie_ZASUNUTE_MS42" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_ImageList5" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::P3_Srobova:OsY_JoggVPRED" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_MomentaryPushButton_JoggOsY_VPRED" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::P3_Srobova:OsY_JoggVPRED" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_MomentaryPushButton_JoggOsY_VPRED" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::P3_Srobova:OsY_JoggVZAD" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_MomentaryPushButton_JoggOsY_VZAD" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::P3_Srobova:OsY_JoggVZAD" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_MomentaryPushButton_JoggOsY_VZAD" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.STAV.OsY_HomingOK" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_ImageList7" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.IN.ManipulOsY_LimSnimacPOS_IS75" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_ImageList17" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.PAR.OsY_JoggRychlost" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_NumericInput_OsY_ZadanaRychlost" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.PAR.OsY_JoggRychlost" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_NumericInput_OsY_ZadanaRychlost" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.STAV.OsY_AktualnaPozicia" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_NumericOutput_OsY_AktualnaPozicia" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie_page2">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.OUT.SkrutkK40_PrisavSkrut_RUN_YV120" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page2_ToggleSwitch_PrisavanieSkrutkyK40" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.OUT.SkrutkK40_PrisavSkrut_RUN_YV120" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page2_ToggleSwitch_PrisavanieSkrutkyK40" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie_page2">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.IN.SkrutkK40_ZASUNUTY_MS52" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page2_ImageList18" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie_page2">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.IN.SkrutkK40_VysunutieHrotu_IOS11" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page2_NumericOutput_PoziciaVysunutiaSkrutkovackyK40" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie_page2">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.STAV.Cistenie_K40_BUSY" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page2_ImageList7" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie_page2">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.RR_PrisavanieSkrutkyM5" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page2_ToggleSwitch_PrisavanieSkrutkyM5" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.RR_PrisavanieSkrutkyM5" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page2_ToggleSwitch_PrisavanieSkrutkyM5" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie_page2">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.RR_SkrutkovackuM5_VYSUN" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page2_ToggleSwitch_VysunutieSkrutkovackyM5" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.RR_SkrutkovackuM5_VYSUN" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page2_ToggleSwitch_VysunutieSkrutkovackyM5" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie_page2">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.IN.SkrutkM5_VysunutieHrotu_IOS12" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page2_NumericOutput_PoziciaVysunutiaSkrutkovackyM5" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie_page2">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.IN.SkrutkM5_ZASUNUTY_MS57" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page2_ImageList20" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie_page2">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.STAV.Podanie_M5_BUSY" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page2_ImageList9" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie_page2">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.RR_SkrutkovackuK40_VYSUN" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page2_ToggleSwitch_VysunutieSkrutkovackyK40" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.RR_SkrutkovackuK40_VYSUN" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page2_ToggleSwitch_VysunutieSkrutkovackyK40" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie_page2">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.IN.HVTest_Kontakty_VYSUNUTE_MS45" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page2_ImageList8" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie_page2">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.IN.HVTest_Kontakty_ZASUNUTE_MS44" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page2_ImageList6" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie_page2">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.IN.HVTest_ZASUNUTY_MS51" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page2_ImageList4" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie_page2">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.IN.HVTest_VYSUNUTY_MS50" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page2_ImageList5" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie_page2">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.RR_HVTest_AktivujPruzinu" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page2_ToggleSwitch_PneuPruzina" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.RR_HVTest_AktivujPruzinu" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page2_ToggleSwitch_PneuPruzina" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie_page2">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.OUT.HVTest_PritlacKontTestera_YV140" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page2_ToggleSwitch_KontaktyTestera" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.OUT.HVTest_PritlacKontTestera_YV140" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page2_ToggleSwitch_KontaktyTestera" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie_page2">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.IN.HVTest_TypKonektoru_4F" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page2_ImageList21" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie_page2">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.IN.HVTest_TypKonektoru_5F_5H" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page2_ImageList22" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie_page3">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.RR_ZapniHrniec_M5" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page3_ToggleSwitch_VibracieZasobnikaM5" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.RR_ZapniHrniec_M5" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page3_ToggleSwitch_VibracieZasobnikaM5" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie_page3">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.IN.ZasobSrobM5_PRAZDNY_IS83" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page3_ImageList21" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie_page3">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.IN.ZasobSrobK40_PRAZDNY_IS79" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page3_ImageList19" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie_page3">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.RR_ZapniHrniec_K40" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page3_ToggleSwitch_VibracieZasobnikaK40" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.RR_ZapniHrniec_K40" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page3_ToggleSwitch_VibracieZasobnikaK40" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie_page3">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.RR_ZapniVibrolistu_M5" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page3_ToggleSwitch_VibracieVibrolistyM5" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.RR_ZapniVibrolistu_M5" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page3_ToggleSwitch_VibracieVibrolistyM5" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie_page3">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.IN.OddelSrobM5_SrobaNaVystupe_OS20" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page3_ImageList26" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie_page3">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.IN.OddelSrobM5_SrobaNaVstupe_OS19" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page3_ImageList25" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie_page3">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.IN.OddelSrobM5_OtocenyVZAD_MS55" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page3_ImageList24" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie_page3">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.IN.OddelSrobM5_OtocenyVPRED_MS56" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page3_ImageList23" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie_page2">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.RR_CistenieSkrutkovaciek_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page2_Button_CistenieSkrutkovackyK40" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.Srobovanie_OvlManipOsY_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_MomentaryPushButton_JoggOsY_VZAD" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.Srobovanie_OvlManipOsY_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_MomentaryPushButton_JoggOsY_VPRED" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie_page3">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.IN.VibrolistaSrobM5_ZACIATOK_OS18" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page3_ImageList22" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie_page2">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.RR_PozicieSkrutiek_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page2_DropDownBox1" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie_page2">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.RR_PozicieSkrutiek_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page2_Button_TestPozicii_5H" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie_page2">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.RR_PozicieSkrutiek_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page2_Button_TestPozicii_4F5F" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie_page2">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.RR_PozicieSkrutiek_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page2_DropDownBox2" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie_page2">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.PAR.RR_IndexPozicieSkrutky_5H" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page2_DropDownBox2" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.PAR.RR_IndexPozicieSkrutky_5H" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page2_DropDownBox2" attribute="editable::selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Skrutkovanie_page2">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.PAR.RR_IndexPozicieSkrutky_4F5F" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page2_DropDownBox1" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobovanie.PAR.RR_IndexPozicieSkrutky_4F5F" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Skrutkovanie_page2_DropDownBox1" attribute="editable::selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+</BindingDefinition>

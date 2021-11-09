@@ -1,0 +1,12 @@
+$(AS_CPU_PATH)/sktcp/sktcpclientftp.c.o:
+$(AS_PROJECT_PATH)/logical/libraries/sktcp/sktcpclientftp.c
+$(AS_GNU_INST_PATH)/4.9/i686-elf/include/bur/plctypes.h
+$(AS_GNU_INST_PATH)/4.9/i686-elf/include/bur/plc.h
+$(AS_TEMP_PATH)/includes/sktcp.h
+$(AS_TEMP_PATH)/includes/fileio.h
+$(AS_TEMP_PATH)/includes/runtime.h
+$(AS_TEMP_PATH)/includes/asbrstr.h
+$(AS_TEMP_PATH)/includes/sys_lib.h
+$(AS_TEMP_PATH)/includes/standard.h
+$(AS_TEMP_PATH)/includes/astcp.h
+$(AS_TEMP_PATH)/includes/ieccheck.h

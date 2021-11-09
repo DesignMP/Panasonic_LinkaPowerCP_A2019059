@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1">
+  <Content id="PataP1">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:P1_AlarmyVizu.FarbaTlacitka_Alarmy" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="PataP1_NavigationButton_Alarmy" attribute="style" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaPageAlarmP1">
+    <Binding mode="twoWay">
+<Source xsi:type="mapp" refId="gAlarmXHistory" attribute="link" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageAlarmP1_AlarmHistory1" attribute="mpLink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageAlarmP1">
+    <Binding mode="twoWay">
+<Source xsi:type="mapp" refId="gAlarmXCore" attribute="link" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageAlarmP1_AlarmList1" attribute="mpLink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageAlarmP1">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:FilterVizu_P1" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageAlarmP1_AlarmList1" attribute="filterConfiguration" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageAlarmP1">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:FilterVizu_P1" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageAlarmP1_AlarmHistory1" attribute="filterConfiguration" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+</BindingDefinition>

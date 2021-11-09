@@ -1,0 +1,635 @@
+#PataP1_NavigationBar1 {
+  top: 0px;
+  position: absolute;
+}
+
+#PataP1_NavigationBar1 {
+  left: 0px;
+  position: absolute;
+}
+
+#PataP1_NavigationBar1 {
+  width: 2000px;
+}
+
+#PataP1_NavigationBar1 {
+  height: 80px;
+}
+
+#PataP1_NavigationBar1 {
+  z-index: 0;
+}
+
+#PataP1_NavigationButton_Automat {
+  top: 10px;
+  position: absolute;
+}
+
+#PataP1_NavigationButton_Automat {
+  left: 15px;
+  position: absolute;
+}
+
+#PataP1_NavigationButton_Automat {
+  width: 160px;
+}
+
+#PataP1_NavigationButton_Automat {
+  height: 60px;
+}
+
+#PataP1_NavigationButton_Automat {
+  z-index: 0;
+}
+
+#PataP1_NavigationButton_Automat {
+  border-style: solid;
+}
+
+#PataP1_NavigationButton_Automat.active {
+  border-style: solid;
+}
+
+#PataP1_NavigationButton_Automat.checked {
+  border-style: solid;
+}
+
+#PataP1_NavigationButton_Automat.disabled {
+  border-style: solid;
+}
+
+#PataP1_NavigationButton_Automat {
+  border-radius: 8px;
+}
+
+#PataP1_NavigationButton_Automat.active:not(.disabled) {
+  background-image: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%);
+}
+
+#PataP1_NavigationButton_Automat.checked:not(.disabled) {
+  background-image: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%);
+}
+
+#PataP1_NavigationButton_Automat:not(.disabled):not(.active):not(.checked) span {
+  color: black;
+}
+
+#PataP1_NavigationButton_Automat.active:not(.disabled):not(.editMode) {
+  border-width: 1px 1px 1px 1px;
+}
+
+#PataP1_NavigationButton_Automat.checked:not(.disabled) {
+  border-width: 1px 1px 1px 1px;
+}
+
+#PataP1_NavigationButton_Automat.active:not(.disabled):not(.editMode) span {
+  color: black;
+}
+
+#PataP1_NavigationButton_Automat.checked:not(.disabled) span {
+  color: black;
+}
+
+#PataP1_NavigationButton_Automat span {
+  font-size: 20px;
+}
+
+#PataP1_NavigationButton_Automat:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#PataP1_NavigationButton_Automat.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#PataP1_NavigationButton_Automat.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}
+
+#PataP1_NavigationButton_Automat.checked:not(.active):not(.disabled) {
+  border-color: #ff8000;
+}
+
+#PataP1_NavigationButton_Manual {
+  top: 10px;
+  position: absolute;
+}
+
+#PataP1_NavigationButton_Manual {
+  left: 200px;
+  position: absolute;
+}
+
+#PataP1_NavigationButton_Manual {
+  width: 160px;
+}
+
+#PataP1_NavigationButton_Manual {
+  height: 60px;
+}
+
+#PataP1_NavigationButton_Manual {
+  z-index: 1;
+}
+
+#PataP1_NavigationButton_Manual {
+  border-style: solid;
+}
+
+#PataP1_NavigationButton_Manual.active {
+  border-style: solid;
+}
+
+#PataP1_NavigationButton_Manual.checked {
+  border-style: solid;
+}
+
+#PataP1_NavigationButton_Manual.disabled {
+  border-style: solid;
+}
+
+#PataP1_NavigationButton_Manual {
+  border-radius: 8px;
+}
+
+#PataP1_NavigationButton_Manual.active:not(.disabled) {
+  background-image: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%);
+}
+
+#PataP1_NavigationButton_Manual.checked:not(.disabled) {
+  background-image: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%);
+}
+
+#PataP1_NavigationButton_Manual:not(.disabled):not(.active):not(.checked) span {
+  color: black;
+}
+
+#PataP1_NavigationButton_Manual.active:not(.disabled):not(.editMode) {
+  border-width: 1px 1px 1px 1px;
+}
+
+#PataP1_NavigationButton_Manual.checked:not(.disabled) {
+  border-width: 1px 1px 1px 1px;
+}
+
+#PataP1_NavigationButton_Manual.active:not(.disabled):not(.editMode) span {
+  color: black;
+}
+
+#PataP1_NavigationButton_Manual.checked:not(.disabled) span {
+  color: black;
+}
+
+#PataP1_NavigationButton_Manual span {
+  font-size: 20px;
+}
+
+#PataP1_NavigationButton_Manual:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#PataP1_NavigationButton_Manual.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#PataP1_NavigationButton_Manual.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}
+
+#PataP1_NavigationButton_Alarmy {
+  top: 10px;
+  position: absolute;
+}
+
+#PataP1_NavigationButton_Alarmy {
+  left: 385px;
+  position: absolute;
+}
+
+#PataP1_NavigationButton_Alarmy {
+  width: 160px;
+}
+
+#PataP1_NavigationButton_Alarmy {
+  height: 60px;
+}
+
+#PataP1_NavigationButton_Alarmy {
+  z-index: 2;
+}
+
+#PataP1_NavigationButton_Alarmy {
+  border-style: solid;
+}
+
+#PataP1_NavigationButton_Alarmy.active {
+  border-style: solid;
+}
+
+#PataP1_NavigationButton_Alarmy.checked {
+  border-style: solid;
+}
+
+#PataP1_NavigationButton_Alarmy.disabled {
+  border-style: solid;
+}
+
+#PataP1_NavigationButton_Alarmy {
+  border-radius: 8px;
+}
+
+#PataP1_NavigationButton_Alarmy.active:not(.disabled) {
+  background-image: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%);
+}
+
+#PataP1_NavigationButton_Alarmy.checked:not(.disabled) {
+  background-image: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%);
+}
+
+#PataP1_NavigationButton_Alarmy:not(.disabled):not(.active):not(.checked) span {
+  color: black;
+}
+
+#PataP1_NavigationButton_Alarmy.active:not(.disabled):not(.editMode) {
+  border-width: 1px 1px 1px 1px;
+}
+
+#PataP1_NavigationButton_Alarmy.checked:not(.disabled) {
+  border-width: 1px 1px 1px 1px;
+}
+
+#PataP1_NavigationButton_Alarmy.active:not(.disabled):not(.editMode) span {
+  color: black;
+}
+
+#PataP1_NavigationButton_Alarmy.checked:not(.disabled) span {
+  color: black;
+}
+
+#PataP1_NavigationButton_Alarmy span {
+  font-size: 20px;
+}
+
+#PataP1_NavigationButton_Alarmy:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#PataP1_NavigationButton_Alarmy.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#PataP1_NavigationButton_Alarmy.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}
+
+#PataP1_NavigationButton_Info {
+  top: 10px;
+  position: absolute;
+}
+
+#PataP1_NavigationButton_Info {
+  left: 1192px;
+  position: absolute;
+}
+
+#PataP1_NavigationButton_Info {
+  width: 160px;
+}
+
+#PataP1_NavigationButton_Info {
+  height: 60px;
+}
+
+#PataP1_NavigationButton_Info {
+  z-index: 3;
+}
+
+#PataP1_NavigationButton_Info:not(.active):not(.disabled):not(.checked) svg {
+  fill: rgba(255, 255, 255, 0);
+}
+
+#PataP1_NavigationButton_Info.active svg {
+  fill: rgba(255, 255, 255, 0);
+}
+
+#PataP1_NavigationButton_Info {
+  border-style: solid;
+}
+
+#PataP1_NavigationButton_Info.active {
+  border-style: solid;
+}
+
+#PataP1_NavigationButton_Info.checked {
+  border-style: solid;
+}
+
+#PataP1_NavigationButton_Info.disabled {
+  border-style: solid;
+}
+
+#PataP1_NavigationButton_Info {
+  border-radius: 8px;
+}
+
+#PataP1_NavigationButton_Info.active:not(.disabled) {
+  background-image: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%);
+}
+
+#PataP1_NavigationButton_Info.checked:not(.disabled) {
+  background-image: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%);
+}
+
+#PataP1_NavigationButton_Info:not(.disabled):not(.active):not(.checked) span {
+  color: black;
+}
+
+#PataP1_NavigationButton_Info.active:not(.disabled):not(.editMode) {
+  border-width: 1px 1px 1px 1px;
+}
+
+#PataP1_NavigationButton_Info.checked:not(.disabled) {
+  border-width: 1px 1px 1px 1px;
+}
+
+#PataP1_NavigationButton_Info.active:not(.disabled):not(.editMode) span {
+  color: black;
+}
+
+#PataP1_NavigationButton_Info.checked:not(.disabled) span {
+  color: black;
+}
+
+#PataP1_NavigationButton_Info span {
+  font-size: 20px;
+}
+
+#PataP1_NavigationButton_Info:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#PataP1_NavigationButton_Info.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#PataP1_NavigationButton_Info.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}
+
+#PataP1_NavigationButton_Parametre {
+  top: 10px;
+  position: absolute;
+}
+
+#PataP1_NavigationButton_Parametre {
+  left: 572px;
+  position: absolute;
+}
+
+#PataP1_NavigationButton_Parametre {
+  width: 160px;
+}
+
+#PataP1_NavigationButton_Parametre {
+  height: 60px;
+}
+
+#PataP1_NavigationButton_Parametre {
+  z-index: 4;
+}
+
+#PataP1_NavigationButton_Parametre {
+  border-style: solid;
+}
+
+#PataP1_NavigationButton_Parametre.active {
+  border-style: solid;
+}
+
+#PataP1_NavigationButton_Parametre.checked {
+  border-style: solid;
+}
+
+#PataP1_NavigationButton_Parametre.disabled {
+  border-style: solid;
+}
+
+#PataP1_NavigationButton_Parametre {
+  border-radius: 8px;
+}
+
+#PataP1_NavigationButton_Parametre.active:not(.disabled) {
+  background-image: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%);
+}
+
+#PataP1_NavigationButton_Parametre.checked:not(.disabled) {
+  background-image: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%);
+}
+
+#PataP1_NavigationButton_Parametre:not(.disabled):not(.active):not(.checked) span {
+  color: black;
+}
+
+#PataP1_NavigationButton_Parametre.active:not(.disabled):not(.editMode) {
+  border-width: 1px 1px 1px 1px;
+}
+
+#PataP1_NavigationButton_Parametre.checked:not(.disabled) {
+  border-width: 1px 1px 1px 1px;
+}
+
+#PataP1_NavigationButton_Parametre.active:not(.disabled):not(.editMode) span {
+  color: black;
+}
+
+#PataP1_NavigationButton_Parametre.checked:not(.disabled) span {
+  color: black;
+}
+
+#PataP1_NavigationButton_Parametre span {
+  font-size: 20px;
+}
+
+#PataP1_NavigationButton_Parametre:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#PataP1_NavigationButton_Parametre.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#PataP1_NavigationButton_Parametre.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}
+
+#PataP1_NavigationButton_Setup {
+  top: 10px;
+  position: absolute;
+}
+
+#PataP1_NavigationButton_Setup {
+  left: 760px;
+  position: absolute;
+}
+
+#PataP1_NavigationButton_Setup {
+  width: 160px;
+}
+
+#PataP1_NavigationButton_Setup {
+  height: 60px;
+}
+
+#PataP1_NavigationButton_Setup {
+  z-index: 5;
+}
+
+#PataP1_NavigationButton_Setup {
+  border-style: solid;
+}
+
+#PataP1_NavigationButton_Setup.active {
+  border-style: solid;
+}
+
+#PataP1_NavigationButton_Setup.checked {
+  border-style: solid;
+}
+
+#PataP1_NavigationButton_Setup.disabled {
+  border-style: solid;
+}
+
+#PataP1_NavigationButton_Setup {
+  border-radius: 8px;
+}
+
+#PataP1_NavigationButton_Setup.active:not(.disabled) {
+  background-image: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%);
+}
+
+#PataP1_NavigationButton_Setup.checked:not(.disabled) {
+  background-image: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%);
+}
+
+#PataP1_NavigationButton_Setup:not(.disabled):not(.active):not(.checked) span {
+  color: black;
+}
+
+#PataP1_NavigationButton_Setup.active:not(.disabled):not(.editMode) {
+  border-width: 1px 1px 1px 1px;
+}
+
+#PataP1_NavigationButton_Setup.checked:not(.disabled) {
+  border-width: 1px 1px 1px 1px;
+}
+
+#PataP1_NavigationButton_Setup.active:not(.disabled):not(.editMode) span {
+  color: black;
+}
+
+#PataP1_NavigationButton_Setup.checked:not(.disabled) span {
+  color: black;
+}
+
+#PataP1_NavigationButton_Setup span {
+  font-size: 20px;
+}
+
+#PataP1_NavigationButton_Setup:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#PataP1_NavigationButton_Setup.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#PataP1_NavigationButton_Setup.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}
+
+#PataP1_NavigationButton_Parametre1 {
+  top: 10px;
+  position: absolute;
+}
+
+#PataP1_NavigationButton_Parametre1 {
+  left: 946px;
+  position: absolute;
+}
+
+#PataP1_NavigationButton_Parametre1 {
+  width: 160px;
+}
+
+#PataP1_NavigationButton_Parametre1 {
+  height: 60px;
+}
+
+#PataP1_NavigationButton_Parametre1 {
+  z-index: 6;
+}
+
+#PataP1_NavigationButton_Parametre1 {
+  border-style: solid;
+}
+
+#PataP1_NavigationButton_Parametre1.active {
+  border-style: solid;
+}
+
+#PataP1_NavigationButton_Parametre1.checked {
+  border-style: solid;
+}
+
+#PataP1_NavigationButton_Parametre1.disabled {
+  border-style: solid;
+}
+
+#PataP1_NavigationButton_Parametre1 {
+  border-radius: 8px;
+}
+
+#PataP1_NavigationButton_Parametre1.active:not(.disabled) {
+  background-image: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%);
+}
+
+#PataP1_NavigationButton_Parametre1.checked:not(.disabled) {
+  background-image: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%);
+}
+
+#PataP1_NavigationButton_Parametre1:not(.disabled):not(.active):not(.checked) span {
+  color: black;
+}
+
+#PataP1_NavigationButton_Parametre1.active:not(.disabled):not(.editMode) {
+  border-width: 1px 1px 1px 1px;
+}
+
+#PataP1_NavigationButton_Parametre1.checked:not(.disabled) {
+  border-width: 1px 1px 1px 1px;
+}
+
+#PataP1_NavigationButton_Parametre1.active:not(.disabled):not(.editMode) span {
+  color: black;
+}
+
+#PataP1_NavigationButton_Parametre1.checked:not(.disabled) span {
+  color: black;
+}
+
+#PataP1_NavigationButton_Parametre1 span {
+  font-size: 20px;
+}
+
+#PataP1_NavigationButton_Parametre1:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#PataP1_NavigationButton_Parametre1.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#PataP1_NavigationButton_Parametre1.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}

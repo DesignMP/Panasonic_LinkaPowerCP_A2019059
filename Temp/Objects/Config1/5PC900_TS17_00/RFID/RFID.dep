@@ -1,0 +1,8 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/RFID/RFID.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/RFID/RFID.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/dvframe/dvframe.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AsUSB/AsUSB.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AsUSB/AsUSB.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/IecCheck/IecCheck.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/asstring/asstring.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/RFID/RFID.var

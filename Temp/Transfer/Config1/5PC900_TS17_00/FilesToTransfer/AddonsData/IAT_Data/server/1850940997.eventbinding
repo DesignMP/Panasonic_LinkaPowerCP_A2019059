@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Content id="AreaTimeP2">
+    <EventBinding id="AreaTimeP2.LogoutButton2.Click">
+			<Source type="widgets.brease.LogoutButton.Event" event="Click" refId="AreaTimeP2_LogoutButton2" />
+			<EventHandler>
+				<Action>
+					<Target type="clientSystem.Action">
+						<Method type="clientSystem.Action.CloseDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="TimeDialogP2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="AreaTimeP2">
+    <EventBinding id="AreaTimeP2.DateTimeInput1.ValueChanged">
+			<Source type="widgets.brease.DateTimeInput.Event" event="ValueChanged" refId="AreaTimeP2_DateTimeInput1" />
+			<EventHandler>
+				<Action>
+					<Target type="opcUa.NodeAction" refId="::AsGlobalPV:Vizu.NastavCasPLC">
+						<Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="AreaTimeP2">
+    <EventBinding id="AreaTimeP2.DateTimeInput2.ValueChanged">
+			<Source type="widgets.brease.DateTimeInput.Event" event="ValueChanged" refId="AreaTimeP2_DateTimeInput2" />
+			<EventHandler>
+				<Action>
+					<Target type="opcUa.NodeAction" refId="::AsGlobalPV:Vizu.NastavCasPLC">
+						<Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="HlavickaP2">
+    <EventBinding id="HlavickaP2.DateTimeOutput1.Click">
+			<Source type="widgets.brease.DateTimeOutput.Event" event="Click" refId="HlavickaP2_DateTimeOutput1" />
+			<EventHandler>
+				<Action>
+					<Target type="clientSystem.Action">
+						<Method type="clientSystem.Action.OpenDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="TimeDialogP2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="horizontalPos" xsi:type="ANY_STRING" value="center" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="verticalPos" xsi:type="ANY_STRING" value="middle" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+</EventBindingDefinition>

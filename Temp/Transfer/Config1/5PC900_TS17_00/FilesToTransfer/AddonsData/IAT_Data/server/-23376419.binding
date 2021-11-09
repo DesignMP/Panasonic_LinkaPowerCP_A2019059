@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1">
+  <Content id="HlavickaP1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.KartaPrilozena_Panel1" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="HlavickaP1_Image3" attribute="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="HlavickaP1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.MenoPrihlasenehoUzivatela_Panel1" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="HlavickaP1_TextOutput1" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageUsers">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.LB_Index" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageUsers_ZoznamUzivatelov" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageUsers">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.ZoznamUzivatelov" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageUsers_ZoznamUzivatelov" attribute="dataProvider" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Session>
+    <Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.StavyUsers_Index" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="snippet" refId="Snippet_StavyUsers" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Session>
+  <Content id="AreaPageUsers">
+    <Binding mode="oneWay">
+            <Source xsi:type="snippet" refId="Snippet_StavyUsers" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageUsers_TextOut_StavyUsers" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageUsers">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.Edit_CisloKarty" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageUsers_txtRecFilter2" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.Edit_CisloKarty" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageUsers_txtRecFilter2" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageUsers">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.EditaciaKarty_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageUsers_txtRecFilter2" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageUsers">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.Edit_HesloUzivatela" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageUsers_txtRecFilter1" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.Edit_HesloUzivatela" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageUsers_txtRecFilter1" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageUsers">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.EditaciaHesla_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageUsers_txtRecFilter1" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageUsers">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.Edit_MenoUzivatela" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageUsers_txtRecFilter" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.Edit_MenoUzivatela" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageUsers_txtRecFilter" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageUsers">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.LB_IndexSTRING" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageUsers_ZoznamUzivatelov" attribute="selectedValue" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageUsers">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.Edit_UrovenUzivatela" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageUsers_DropDownBox1" attribute="selectedValue" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.Edit_UrovenUzivatela" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageUsers_DropDownBox1" attribute="editable::selectedValue" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageUsers">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.KartaPrilozena_Panel1" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageUsers_Image2" attribute="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageUsers">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.TL_UlozUzivatela_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageUsers_btnUlozUzivatela" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaLoginP1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.MenoPrihlasenehoUzivatela_Panel1" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaLoginP1_TextOutput1" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageUsers">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.TL_PrihlasovOperatora_AKTIVNE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageUsers_ToggleButton_Prihlasenie" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.TL_PrihlasovOperatora_AKTIVNE" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageUsers_ToggleButton_Prihlasenie" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+</BindingDefinition>

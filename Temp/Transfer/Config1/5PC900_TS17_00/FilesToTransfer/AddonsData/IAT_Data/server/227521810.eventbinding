@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Content id="AreaPageManualP4_Vytah">
+    <EventBinding id="AreaPageManualP4_Vytah.Button_HomingServaZdvihu.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageManualP4_Vytah_Button_HomingServaZdvihu" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::P4_Vytah:Zdvih_HOME">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+</EventBindingDefinition>

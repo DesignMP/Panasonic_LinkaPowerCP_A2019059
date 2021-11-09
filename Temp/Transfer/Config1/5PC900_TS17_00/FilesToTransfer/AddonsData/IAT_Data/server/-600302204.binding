@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1">
+  <Content id="AreaPageManualP3_Dopravniky">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Dopravniky.OUT.HornyDoprav_ChodVPRED_M33" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Dopravniky_ToggleSwitch_HornyDopravnik" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Dopravniky.OUT.HornyDoprav_ChodVPRED_M33" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Dopravniky_ToggleSwitch_HornyDopravnik" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Dopravniky">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Dopravniky.OUT.SpodnyDoprav_ChodVPRED_M34" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Dopravniky_ToggleSwitch_SpodnyDopravnik" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Dopravniky.OUT.SpodnyDoprav_ChodVPRED_M34" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Dopravniky_ToggleSwitch_SpodnyDopravnik" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Dopravniky">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_VstupnyStoper.OUT.ZasunStoper_YV193" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Dopravniky_ToggleSwitch_VstupnyStoper" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_VstupnyStoper.OUT.ZasunStoper_YV193" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Dopravniky_ToggleSwitch_VstupnyStoper" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Dopravniky">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_VstupnyStoper.IN.PritomnPaletky_IS85" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Dopravniky_ImageList19" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Dopravniky">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_AkumulacnyStoper.IN.PritomnPaletky_IS65" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Dopravniky_ImageList20" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Dopravniky">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_AkumulacnyStoper.OUT.ZasunStoper_YV133" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Dopravniky_ToggleSwitch_AkumulacnyStoper" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_AkumulacnyStoper.OUT.ZasunStoper_YV133" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Dopravniky_ToggleSwitch_AkumulacnyStoper" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Dopravniky">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_SpodnyStoper.IN.PritomnPaletky_IS66" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Dopravniky_ImageList21" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="AreaPageManualP3_Dopravniky">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_SpodnyStoper.OUT.ZasunStoper_YV136" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Dopravniky_ToggleSwitch_VstupnyStoper1" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_SpodnyStoper.OUT.ZasunStoper_YV136" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="AreaPageManualP3_Dopravniky_ToggleSwitch_VstupnyStoper1" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+</BindingDefinition>

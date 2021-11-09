@@ -1,0 +1,976 @@
+﻿@import "mixins.scss";
+#AreaPageStavyStanicP1_Image1 {
+	@include elemTop(0);
+}
+#AreaPageStavyStanicP1_Image1 {
+	@include elemLeft(0);
+}
+#AreaPageStavyStanicP1_Image1 {
+	@include elemAutoWidth(1366);
+}
+#AreaPageStavyStanicP1_Image1 {
+	@include elemAutoHeight(588);
+}
+#AreaPageStavyStanicP1_Image1 {
+		z-index: 0;
+}
+#AreaPageStavyStanicP1_Image1 {
+		opacity: 0.2;
+}
+#AreaPageStavyStanicP1_Label1 {
+	@include elemTop(20);
+}
+#AreaPageStavyStanicP1_Label1 {
+	@include elemLeft(483);
+}
+#AreaPageStavyStanicP1_Label1 {
+	@include elemAutoWidth(400);
+}
+#AreaPageStavyStanicP1_Label1 {
+	@include elemAutoHeight(35);
+}
+#AreaPageStavyStanicP1_Label1 {
+		z-index: 1;
+}
+#AreaPageStavyStanicP1_Label1 {
+		border-width: 5px;
+}
+#AreaPageStavyStanicP1_Label1 {
+	@include border-radius(5px);
+}
+#AreaPageStavyStanicP1_Label1 {
+		border-color: rgba(153, 153, 153, 1);
+}
+#AreaPageStavyStanicP1_Label1 {
+	&:before{
+		border-color: rgba(153, 153, 153, 1);
+	}
+}
+#AreaPageStavyStanicP1_Label1 {
+	&:after{
+		border-color: rgba(153, 153, 153, 1);
+	}
+}
+#AreaPageStavyStanicP1_Label1 {
+		border-style: ridge;
+}
+#AreaPageStavyStanicP1_Label1 {
+	&:before{
+		border-style: ridge;
+	}
+}
+#AreaPageStavyStanicP1_Label1 {
+	&:after{
+		border-style: ridge;
+	}
+}
+#AreaPageStavyStanicP1_Label1 {
+	& span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageStavyStanicP1_Label1 {
+	@include text-alignment-all('center');
+}
+#AreaPageStavyStanicP1_Label1 {
+		font-size: 20px;
+}
+#AreaPageStavyStanicP1_Label1 {
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+}
+#AreaPageStavyStanicP1_Label8 {
+	@include elemTop(70);
+}
+#AreaPageStavyStanicP1_Label8 {
+	@include elemLeft(11);
+}
+#AreaPageStavyStanicP1_Label8 {
+	@include elemAutoWidth(1344);
+}
+#AreaPageStavyStanicP1_Label8 {
+	@include elemAutoHeight(42);
+}
+#AreaPageStavyStanicP1_Label8 {
+		z-index: 2;
+}
+#AreaPageStavyStanicP1_Label8 {
+		border-width: 2px;
+}
+#AreaPageStavyStanicP1_Label8 {
+	@include border-radius(2px);
+}
+#AreaPageStavyStanicP1_Label8 {
+		background-color: rgba(253, 245, 230, 1);
+}
+#AreaPageStavyStanicP1_Label8 {
+	@include backGroundGradient('linear-gradient(to bottom, rgba(235,235,235,0.5) 0%, rgba(235,235,235,0.5) 100%)');
+}
+#AreaPageStavyStanicP1_Label8 {
+		border-color: rgba(0, 0, 0, 1);
+}
+#AreaPageStavyStanicP1_Label8 {
+	&:before{
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageStavyStanicP1_Label8 {
+	&:after{
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageStavyStanicP1_Label8 {
+		border-style: solid;
+}
+#AreaPageStavyStanicP1_Label8 {
+	&:before{
+		border-style: solid;
+	}
+}
+#AreaPageStavyStanicP1_Label8 {
+	&:after{
+		border-style: solid;
+	}
+}
+#AreaPageStavyStanicP1_Label8 {
+	& span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageStavyStanicP1_Label8 {
+		font-size: 15px;
+}
+#AreaPageStavyStanicP1_Label8 {
+	@include font-weight-bold(true);
+}
+#AreaPageStavyStanicP1_Label8 {
+	@include box-shadow(4px 4px 8px rgba(0, 0, 0, 1));
+}
+#AreaPageStavyStanicP1_TextOutput1 {
+	@include elemAutoHeight(30);
+}
+#AreaPageStavyStanicP1_TextOutput1 {
+	@include elemTop(76);
+}
+#AreaPageStavyStanicP1_TextOutput1 {
+	@include elemLeft(120);
+}
+#AreaPageStavyStanicP1_TextOutput1 {
+	@include elemAutoWidth(1226);
+}
+#AreaPageStavyStanicP1_TextOutput1 {
+		z-index: 3;
+}
+#AreaPageStavyStanicP1_TextOutput1 {
+		border-width: 4px 4px 4px 4px;
+}
+#AreaPageStavyStanicP1_TextOutput1 {
+	@include border-radius(4px);
+}
+#AreaPageStavyStanicP1_TextOutput1 {
+		background-color: rgba(169, 169, 169, 1);
+}
+#AreaPageStavyStanicP1_TextOutput1 {
+		border-color: rgba(153, 153, 153, 1);
+}
+#AreaPageStavyStanicP1_TextOutput1 {
+	&:before{
+		border-color: rgba(153, 153, 153, 1);
+	}
+}
+#AreaPageStavyStanicP1_TextOutput1 {
+	&:after{
+		border-color: rgba(153, 153, 153, 1);
+	}
+}
+#AreaPageStavyStanicP1_TextOutput1 {
+		border-style: ridge;
+}
+#AreaPageStavyStanicP1_TextOutput1 {
+	&:before{
+		border-style: ridge;
+	}
+}
+#AreaPageStavyStanicP1_TextOutput1 {
+	&:after{
+		border-style: ridge;
+	}
+}
+#AreaPageStavyStanicP1_TextOutput1 {
+	& span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageStavyStanicP1_TextOutput1 {
+	@include text-alignment-all('center');
+}
+#AreaPageStavyStanicP1_TextOutput1 {
+		font-size: 12px;
+}
+#AreaPageStavyStanicP1_Label9 {
+	@include elemTop(170);
+}
+#AreaPageStavyStanicP1_Label9 {
+	@include elemLeft(11);
+}
+#AreaPageStavyStanicP1_Label9 {
+	@include elemAutoWidth(1344);
+}
+#AreaPageStavyStanicP1_Label9 {
+	@include elemAutoHeight(42);
+}
+#AreaPageStavyStanicP1_Label9 {
+		z-index: 4;
+}
+#AreaPageStavyStanicP1_Label9 {
+		border-width: 2px;
+}
+#AreaPageStavyStanicP1_Label9 {
+	@include border-radius(2px);
+}
+#AreaPageStavyStanicP1_Label9 {
+		background-color: rgba(253, 245, 230, 1);
+}
+#AreaPageStavyStanicP1_Label9 {
+	@include backGroundGradient('linear-gradient(to bottom, rgba(235,235,235,0.5) 0%, rgba(235,235,235,0.5) 100%)');
+}
+#AreaPageStavyStanicP1_Label9 {
+		border-color: rgba(0, 0, 0, 1);
+}
+#AreaPageStavyStanicP1_Label9 {
+	&:before{
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageStavyStanicP1_Label9 {
+	&:after{
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageStavyStanicP1_Label9 {
+		border-style: solid;
+}
+#AreaPageStavyStanicP1_Label9 {
+	&:before{
+		border-style: solid;
+	}
+}
+#AreaPageStavyStanicP1_Label9 {
+	&:after{
+		border-style: solid;
+	}
+}
+#AreaPageStavyStanicP1_Label9 {
+	& span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageStavyStanicP1_Label9 {
+		font-size: 15px;
+}
+#AreaPageStavyStanicP1_Label9 {
+	@include font-weight-bold(true);
+}
+#AreaPageStavyStanicP1_Label9 {
+	@include box-shadow(4px 4px 8px rgba(0, 0, 0, 1));
+}
+#AreaPageStavyStanicP1_TextOutput2 {
+	@include elemAutoHeight(30);
+}
+#AreaPageStavyStanicP1_TextOutput2 {
+	@include elemTop(176);
+}
+#AreaPageStavyStanicP1_TextOutput2 {
+	@include elemLeft(120);
+}
+#AreaPageStavyStanicP1_TextOutput2 {
+	@include elemAutoWidth(1226);
+}
+#AreaPageStavyStanicP1_TextOutput2 {
+		z-index: 5;
+}
+#AreaPageStavyStanicP1_TextOutput2 {
+		border-width: 4px 4px 4px 4px;
+}
+#AreaPageStavyStanicP1_TextOutput2 {
+	@include border-radius(4px);
+}
+#AreaPageStavyStanicP1_TextOutput2 {
+		background-color: rgba(169, 169, 169, 1);
+}
+#AreaPageStavyStanicP1_TextOutput2 {
+		border-color: rgba(153, 153, 153, 1);
+}
+#AreaPageStavyStanicP1_TextOutput2 {
+	&:before{
+		border-color: rgba(153, 153, 153, 1);
+	}
+}
+#AreaPageStavyStanicP1_TextOutput2 {
+	&:after{
+		border-color: rgba(153, 153, 153, 1);
+	}
+}
+#AreaPageStavyStanicP1_TextOutput2 {
+		border-style: ridge;
+}
+#AreaPageStavyStanicP1_TextOutput2 {
+	&:before{
+		border-style: ridge;
+	}
+}
+#AreaPageStavyStanicP1_TextOutput2 {
+	&:after{
+		border-style: ridge;
+	}
+}
+#AreaPageStavyStanicP1_TextOutput2 {
+	& span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageStavyStanicP1_TextOutput2 {
+	@include text-alignment-all('center');
+}
+#AreaPageStavyStanicP1_TextOutput2 {
+		font-size: 12px;
+}
+#AreaPageStavyStanicP1_Label10 {
+	@include elemTop(220);
+}
+#AreaPageStavyStanicP1_Label10 {
+	@include elemLeft(11);
+}
+#AreaPageStavyStanicP1_Label10 {
+	@include elemAutoWidth(1344);
+}
+#AreaPageStavyStanicP1_Label10 {
+	@include elemAutoHeight(42);
+}
+#AreaPageStavyStanicP1_Label10 {
+		z-index: 6;
+}
+#AreaPageStavyStanicP1_Label10 {
+		border-width: 2px;
+}
+#AreaPageStavyStanicP1_Label10 {
+	@include border-radius(2px);
+}
+#AreaPageStavyStanicP1_Label10 {
+		background-color: rgba(253, 245, 230, 1);
+}
+#AreaPageStavyStanicP1_Label10 {
+	@include backGroundGradient('linear-gradient(to bottom, rgba(235,235,235,0.5) 0%, rgba(235,235,235,0.5) 100%)');
+}
+#AreaPageStavyStanicP1_Label10 {
+		border-color: rgba(0, 0, 0, 1);
+}
+#AreaPageStavyStanicP1_Label10 {
+	&:before{
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageStavyStanicP1_Label10 {
+	&:after{
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageStavyStanicP1_Label10 {
+		border-style: solid;
+}
+#AreaPageStavyStanicP1_Label10 {
+	&:before{
+		border-style: solid;
+	}
+}
+#AreaPageStavyStanicP1_Label10 {
+	&:after{
+		border-style: solid;
+	}
+}
+#AreaPageStavyStanicP1_Label10 {
+	& span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageStavyStanicP1_Label10 {
+		font-size: 15px;
+}
+#AreaPageStavyStanicP1_Label10 {
+	@include font-weight-bold(true);
+}
+#AreaPageStavyStanicP1_Label10 {
+	@include box-shadow(4px 4px 8px rgba(0, 0, 0, 1));
+}
+#AreaPageStavyStanicP1_TextOutput3 {
+	@include elemAutoHeight(30);
+}
+#AreaPageStavyStanicP1_TextOutput3 {
+	@include elemTop(226);
+}
+#AreaPageStavyStanicP1_TextOutput3 {
+	@include elemLeft(120);
+}
+#AreaPageStavyStanicP1_TextOutput3 {
+	@include elemAutoWidth(1226);
+}
+#AreaPageStavyStanicP1_TextOutput3 {
+		z-index: 7;
+}
+#AreaPageStavyStanicP1_TextOutput3 {
+		border-width: 4px 4px 4px 4px;
+}
+#AreaPageStavyStanicP1_TextOutput3 {
+	@include border-radius(4px);
+}
+#AreaPageStavyStanicP1_TextOutput3 {
+		background-color: rgba(169, 169, 169, 1);
+}
+#AreaPageStavyStanicP1_TextOutput3 {
+		border-color: rgba(153, 153, 153, 1);
+}
+#AreaPageStavyStanicP1_TextOutput3 {
+	&:before{
+		border-color: rgba(153, 153, 153, 1);
+	}
+}
+#AreaPageStavyStanicP1_TextOutput3 {
+	&:after{
+		border-color: rgba(153, 153, 153, 1);
+	}
+}
+#AreaPageStavyStanicP1_TextOutput3 {
+		border-style: ridge;
+}
+#AreaPageStavyStanicP1_TextOutput3 {
+	&:before{
+		border-style: ridge;
+	}
+}
+#AreaPageStavyStanicP1_TextOutput3 {
+	&:after{
+		border-style: ridge;
+	}
+}
+#AreaPageStavyStanicP1_TextOutput3 {
+	& span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageStavyStanicP1_TextOutput3 {
+	@include text-alignment-all('center');
+}
+#AreaPageStavyStanicP1_TextOutput3 {
+		font-size: 12px;
+}
+#AreaPageStavyStanicP1_Label11 {
+	@include elemTop(120);
+}
+#AreaPageStavyStanicP1_Label11 {
+	@include elemLeft(11);
+}
+#AreaPageStavyStanicP1_Label11 {
+	@include elemAutoWidth(1344);
+}
+#AreaPageStavyStanicP1_Label11 {
+	@include elemAutoHeight(42);
+}
+#AreaPageStavyStanicP1_Label11 {
+		z-index: 8;
+}
+#AreaPageStavyStanicP1_Label11 {
+		border-width: 2px;
+}
+#AreaPageStavyStanicP1_Label11 {
+	@include border-radius(2px);
+}
+#AreaPageStavyStanicP1_Label11 {
+		background-color: rgba(253, 245, 230, 1);
+}
+#AreaPageStavyStanicP1_Label11 {
+	@include backGroundGradient('linear-gradient(to bottom, rgba(235,235,235,0.5) 0%, rgba(235,235,235,0.5) 100%)');
+}
+#AreaPageStavyStanicP1_Label11 {
+		border-color: rgba(0, 0, 0, 1);
+}
+#AreaPageStavyStanicP1_Label11 {
+	&:before{
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageStavyStanicP1_Label11 {
+	&:after{
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageStavyStanicP1_Label11 {
+		border-style: solid;
+}
+#AreaPageStavyStanicP1_Label11 {
+	&:before{
+		border-style: solid;
+	}
+}
+#AreaPageStavyStanicP1_Label11 {
+	&:after{
+		border-style: solid;
+	}
+}
+#AreaPageStavyStanicP1_Label11 {
+	& span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageStavyStanicP1_Label11 {
+		font-size: 15px;
+}
+#AreaPageStavyStanicP1_Label11 {
+	@include font-weight-bold(true);
+}
+#AreaPageStavyStanicP1_Label11 {
+	@include box-shadow(4px 4px 8px rgba(0, 0, 0, 1));
+}
+#AreaPageStavyStanicP1_TextOutput4 {
+	@include elemAutoHeight(30);
+}
+#AreaPageStavyStanicP1_TextOutput4 {
+	@include elemTop(126);
+}
+#AreaPageStavyStanicP1_TextOutput4 {
+	@include elemLeft(120);
+}
+#AreaPageStavyStanicP1_TextOutput4 {
+	@include elemAutoWidth(1226);
+}
+#AreaPageStavyStanicP1_TextOutput4 {
+		z-index: 9;
+}
+#AreaPageStavyStanicP1_TextOutput4 {
+		border-width: 4px 4px 4px 4px;
+}
+#AreaPageStavyStanicP1_TextOutput4 {
+	@include border-radius(4px);
+}
+#AreaPageStavyStanicP1_TextOutput4 {
+		background-color: rgba(169, 169, 169, 1);
+}
+#AreaPageStavyStanicP1_TextOutput4 {
+		border-color: rgba(153, 153, 153, 1);
+}
+#AreaPageStavyStanicP1_TextOutput4 {
+	&:before{
+		border-color: rgba(153, 153, 153, 1);
+	}
+}
+#AreaPageStavyStanicP1_TextOutput4 {
+	&:after{
+		border-color: rgba(153, 153, 153, 1);
+	}
+}
+#AreaPageStavyStanicP1_TextOutput4 {
+		border-style: ridge;
+}
+#AreaPageStavyStanicP1_TextOutput4 {
+	&:before{
+		border-style: ridge;
+	}
+}
+#AreaPageStavyStanicP1_TextOutput4 {
+	&:after{
+		border-style: ridge;
+	}
+}
+#AreaPageStavyStanicP1_TextOutput4 {
+	& span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageStavyStanicP1_TextOutput4 {
+	@include text-alignment-all('center');
+}
+#AreaPageStavyStanicP1_TextOutput4 {
+		font-size: 12px;
+}
+#AreaPageStavyStanicP1_Label12 {
+	@include elemTop(270);
+}
+#AreaPageStavyStanicP1_Label12 {
+	@include elemLeft(11);
+}
+#AreaPageStavyStanicP1_Label12 {
+	@include elemAutoWidth(1344);
+}
+#AreaPageStavyStanicP1_Label12 {
+	@include elemAutoHeight(42);
+}
+#AreaPageStavyStanicP1_Label12 {
+		z-index: 10;
+}
+#AreaPageStavyStanicP1_Label12 {
+		border-width: 2px;
+}
+#AreaPageStavyStanicP1_Label12 {
+	@include border-radius(2px);
+}
+#AreaPageStavyStanicP1_Label12 {
+		background-color: rgba(253, 245, 230, 1);
+}
+#AreaPageStavyStanicP1_Label12 {
+	@include backGroundGradient('linear-gradient(to bottom, rgba(235,235,235,0.5) 0%, rgba(235,235,235,0.5) 100%)');
+}
+#AreaPageStavyStanicP1_Label12 {
+		border-color: rgba(0, 0, 0, 1);
+}
+#AreaPageStavyStanicP1_Label12 {
+	&:before{
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageStavyStanicP1_Label12 {
+	&:after{
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageStavyStanicP1_Label12 {
+		border-style: solid;
+}
+#AreaPageStavyStanicP1_Label12 {
+	&:before{
+		border-style: solid;
+	}
+}
+#AreaPageStavyStanicP1_Label12 {
+	&:after{
+		border-style: solid;
+	}
+}
+#AreaPageStavyStanicP1_Label12 {
+	& span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageStavyStanicP1_Label12 {
+		font-size: 15px;
+}
+#AreaPageStavyStanicP1_Label12 {
+	@include font-weight-bold(true);
+}
+#AreaPageStavyStanicP1_Label12 {
+	@include box-shadow(4px 4px 8px rgba(0, 0, 0, 1));
+}
+#AreaPageStavyStanicP1_TextOutput5 {
+	@include elemAutoHeight(30);
+}
+#AreaPageStavyStanicP1_TextOutput5 {
+	@include elemTop(276);
+}
+#AreaPageStavyStanicP1_TextOutput5 {
+	@include elemLeft(120);
+}
+#AreaPageStavyStanicP1_TextOutput5 {
+	@include elemAutoWidth(1226);
+}
+#AreaPageStavyStanicP1_TextOutput5 {
+		z-index: 11;
+}
+#AreaPageStavyStanicP1_TextOutput5 {
+		border-width: 4px 4px 4px 4px;
+}
+#AreaPageStavyStanicP1_TextOutput5 {
+	@include border-radius(4px);
+}
+#AreaPageStavyStanicP1_TextOutput5 {
+		background-color: rgba(169, 169, 169, 1);
+}
+#AreaPageStavyStanicP1_TextOutput5 {
+		border-color: rgba(153, 153, 153, 1);
+}
+#AreaPageStavyStanicP1_TextOutput5 {
+	&:before{
+		border-color: rgba(153, 153, 153, 1);
+	}
+}
+#AreaPageStavyStanicP1_TextOutput5 {
+	&:after{
+		border-color: rgba(153, 153, 153, 1);
+	}
+}
+#AreaPageStavyStanicP1_TextOutput5 {
+		border-style: ridge;
+}
+#AreaPageStavyStanicP1_TextOutput5 {
+	&:before{
+		border-style: ridge;
+	}
+}
+#AreaPageStavyStanicP1_TextOutput5 {
+	&:after{
+		border-style: ridge;
+	}
+}
+#AreaPageStavyStanicP1_TextOutput5 {
+	& span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageStavyStanicP1_TextOutput5 {
+	@include text-alignment-all('center');
+}
+#AreaPageStavyStanicP1_TextOutput5 {
+		font-size: 12px;
+}
+#AreaPageStavyStanicP1_Label13 {
+	@include elemTop(320);
+}
+#AreaPageStavyStanicP1_Label13 {
+	@include elemLeft(11);
+}
+#AreaPageStavyStanicP1_Label13 {
+	@include elemAutoWidth(1344);
+}
+#AreaPageStavyStanicP1_Label13 {
+	@include elemAutoHeight(42);
+}
+#AreaPageStavyStanicP1_Label13 {
+		z-index: 12;
+}
+#AreaPageStavyStanicP1_Label13 {
+		border-width: 2px;
+}
+#AreaPageStavyStanicP1_Label13 {
+	@include border-radius(2px);
+}
+#AreaPageStavyStanicP1_Label13 {
+		background-color: rgba(253, 245, 230, 1);
+}
+#AreaPageStavyStanicP1_Label13 {
+	@include backGroundGradient('linear-gradient(to bottom, rgba(235,235,235,0.5) 0%, rgba(235,235,235,0.5) 100%)');
+}
+#AreaPageStavyStanicP1_Label13 {
+		border-color: rgba(0, 0, 0, 1);
+}
+#AreaPageStavyStanicP1_Label13 {
+	&:before{
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageStavyStanicP1_Label13 {
+	&:after{
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageStavyStanicP1_Label13 {
+		border-style: solid;
+}
+#AreaPageStavyStanicP1_Label13 {
+	&:before{
+		border-style: solid;
+	}
+}
+#AreaPageStavyStanicP1_Label13 {
+	&:after{
+		border-style: solid;
+	}
+}
+#AreaPageStavyStanicP1_Label13 {
+	& span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageStavyStanicP1_Label13 {
+		font-size: 15px;
+}
+#AreaPageStavyStanicP1_Label13 {
+	@include font-weight-bold(true);
+}
+#AreaPageStavyStanicP1_Label13 {
+	@include box-shadow(4px 4px 8px rgba(0, 0, 0, 1));
+}
+#AreaPageStavyStanicP1_TextOutput6 {
+	@include elemAutoHeight(30);
+}
+#AreaPageStavyStanicP1_TextOutput6 {
+	@include elemTop(326);
+}
+#AreaPageStavyStanicP1_TextOutput6 {
+	@include elemLeft(120);
+}
+#AreaPageStavyStanicP1_TextOutput6 {
+	@include elemAutoWidth(1226);
+}
+#AreaPageStavyStanicP1_TextOutput6 {
+		z-index: 13;
+}
+#AreaPageStavyStanicP1_TextOutput6 {
+		border-width: 4px 4px 4px 4px;
+}
+#AreaPageStavyStanicP1_TextOutput6 {
+	@include border-radius(4px);
+}
+#AreaPageStavyStanicP1_TextOutput6 {
+		background-color: rgba(169, 169, 169, 1);
+}
+#AreaPageStavyStanicP1_TextOutput6 {
+		border-color: rgba(153, 153, 153, 1);
+}
+#AreaPageStavyStanicP1_TextOutput6 {
+	&:before{
+		border-color: rgba(153, 153, 153, 1);
+	}
+}
+#AreaPageStavyStanicP1_TextOutput6 {
+	&:after{
+		border-color: rgba(153, 153, 153, 1);
+	}
+}
+#AreaPageStavyStanicP1_TextOutput6 {
+		border-style: ridge;
+}
+#AreaPageStavyStanicP1_TextOutput6 {
+	&:before{
+		border-style: ridge;
+	}
+}
+#AreaPageStavyStanicP1_TextOutput6 {
+	&:after{
+		border-style: ridge;
+	}
+}
+#AreaPageStavyStanicP1_TextOutput6 {
+	& span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageStavyStanicP1_TextOutput6 {
+	@include text-alignment-all('center');
+}
+#AreaPageStavyStanicP1_TextOutput6 {
+		font-size: 12px;
+}
+#AreaPageStavyStanicP1_Label14 {
+	@include elemTop(370);
+}
+#AreaPageStavyStanicP1_Label14 {
+	@include elemLeft(11);
+}
+#AreaPageStavyStanicP1_Label14 {
+	@include elemAutoWidth(1344);
+}
+#AreaPageStavyStanicP1_Label14 {
+	@include elemAutoHeight(42);
+}
+#AreaPageStavyStanicP1_Label14 {
+		z-index: 14;
+}
+#AreaPageStavyStanicP1_Label14 {
+		border-width: 2px;
+}
+#AreaPageStavyStanicP1_Label14 {
+	@include border-radius(2px);
+}
+#AreaPageStavyStanicP1_Label14 {
+		background-color: rgba(253, 245, 230, 1);
+}
+#AreaPageStavyStanicP1_Label14 {
+	@include backGroundGradient('linear-gradient(to bottom, rgba(235,235,235,0.5) 0%, rgba(235,235,235,0.5) 100%)');
+}
+#AreaPageStavyStanicP1_Label14 {
+		border-color: rgba(0, 0, 0, 1);
+}
+#AreaPageStavyStanicP1_Label14 {
+	&:before{
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageStavyStanicP1_Label14 {
+	&:after{
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageStavyStanicP1_Label14 {
+		border-style: solid;
+}
+#AreaPageStavyStanicP1_Label14 {
+	&:before{
+		border-style: solid;
+	}
+}
+#AreaPageStavyStanicP1_Label14 {
+	&:after{
+		border-style: solid;
+	}
+}
+#AreaPageStavyStanicP1_Label14 {
+	& span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageStavyStanicP1_Label14 {
+		font-size: 15px;
+}
+#AreaPageStavyStanicP1_Label14 {
+	@include font-weight-bold(true);
+}
+#AreaPageStavyStanicP1_Label14 {
+	@include box-shadow(4px 4px 8px rgba(0, 0, 0, 1));
+}
+#AreaPageStavyStanicP1_TextOutput7 {
+	@include elemAutoHeight(30);
+}
+#AreaPageStavyStanicP1_TextOutput7 {
+	@include elemTop(376);
+}
+#AreaPageStavyStanicP1_TextOutput7 {
+	@include elemLeft(120);
+}
+#AreaPageStavyStanicP1_TextOutput7 {
+	@include elemAutoWidth(1226);
+}
+#AreaPageStavyStanicP1_TextOutput7 {
+		z-index: 15;
+}
+#AreaPageStavyStanicP1_TextOutput7 {
+		border-width: 4px 4px 4px 4px;
+}
+#AreaPageStavyStanicP1_TextOutput7 {
+	@include border-radius(4px);
+}
+#AreaPageStavyStanicP1_TextOutput7 {
+		background-color: rgba(169, 169, 169, 1);
+}
+#AreaPageStavyStanicP1_TextOutput7 {
+		border-color: rgba(153, 153, 153, 1);
+}
+#AreaPageStavyStanicP1_TextOutput7 {
+	&:before{
+		border-color: rgba(153, 153, 153, 1);
+	}
+}
+#AreaPageStavyStanicP1_TextOutput7 {
+	&:after{
+		border-color: rgba(153, 153, 153, 1);
+	}
+}
+#AreaPageStavyStanicP1_TextOutput7 {
+		border-style: ridge;
+}
+#AreaPageStavyStanicP1_TextOutput7 {
+	&:before{
+		border-style: ridge;
+	}
+}
+#AreaPageStavyStanicP1_TextOutput7 {
+	&:after{
+		border-style: ridge;
+	}
+}
+#AreaPageStavyStanicP1_TextOutput7 {
+	& span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageStavyStanicP1_TextOutput7 {
+	@include text-alignment-all('center');
+}
+#AreaPageStavyStanicP1_TextOutput7 {
+		font-size: 12px;
+}

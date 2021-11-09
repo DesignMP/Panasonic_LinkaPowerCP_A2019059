@@ -1,0 +1,463 @@
+#AreaPageSetupP1_page1_Image1 {
+  top: 0px;
+  position: absolute;
+}
+
+#AreaPageSetupP1_page1_Image1 {
+  left: 0px;
+  position: absolute;
+}
+
+#AreaPageSetupP1_page1_Image1 {
+  width: 1366px;
+}
+
+#AreaPageSetupP1_page1_Image1 {
+  height: 588px;
+}
+
+#AreaPageSetupP1_page1_Image1 {
+  z-index: 0;
+}
+
+#AreaPageSetupP1_page1_Image1 {
+  opacity: 0.2;
+}
+
+#AreaPageSetupP1_page1_Label1 {
+  top: 20px;
+  position: absolute;
+}
+
+#AreaPageSetupP1_page1_Label1 {
+  left: 483px;
+  position: absolute;
+}
+
+#AreaPageSetupP1_page1_Label1 {
+  width: 400px;
+}
+
+#AreaPageSetupP1_page1_Label1 {
+  height: 35px;
+}
+
+#AreaPageSetupP1_page1_Label1 {
+  z-index: 1;
+}
+
+#AreaPageSetupP1_page1_Label1 {
+  border-width: 5px;
+}
+
+#AreaPageSetupP1_page1_Label1 {
+  border-radius: 5px;
+}
+
+#AreaPageSetupP1_page1_Label1 {
+  border-color: #999999;
+}
+
+#AreaPageSetupP1_page1_Label1:before {
+  border-color: #999999;
+}
+
+#AreaPageSetupP1_page1_Label1:after {
+  border-color: #999999;
+}
+
+#AreaPageSetupP1_page1_Label1 {
+  border-style: ridge;
+}
+
+#AreaPageSetupP1_page1_Label1:before {
+  border-style: ridge;
+}
+
+#AreaPageSetupP1_page1_Label1:after {
+  border-style: ridge;
+}
+
+#AreaPageSetupP1_page1_Label1 span {
+  color: black;
+}
+
+#AreaPageSetupP1_page1_Label1 {
+  justify-content: center;
+  text-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#AreaPageSetupP1_page1_Label1 {
+  font-size: 20px;
+}
+
+#AreaPageSetupP1_page1_Label1 {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageSetupP1_page1_GroupBox5 {
+  top: 68px;
+  position: absolute;
+}
+
+#AreaPageSetupP1_page1_GroupBox5 {
+  left: 38px;
+  position: absolute;
+}
+
+#AreaPageSetupP1_page1_GroupBox5 {
+  width: 250px;
+}
+
+#AreaPageSetupP1_page1_GroupBox5 {
+  height: 495px;
+}
+
+#AreaPageSetupP1_page1_GroupBox5 {
+  z-index: 2;
+}
+
+#AreaPageSetupP1_page1_GroupBox5 {
+  background-color: oldlace;
+}
+
+#AreaPageSetupP1_page1_GroupBox5 > .header span {
+  color: black;
+}
+
+#AreaPageSetupP1_page1_GroupBox5 {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Vytah_KameraOFF {
+  top: 113px;
+  position: absolute;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Vytah_KameraOFF {
+  left: 24px;
+  position: absolute;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Vytah_KameraOFF {
+  width: 200px;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Vytah_KameraOFF {
+  height: 45px;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Vytah_KameraOFF {
+  z-index: 0;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Vytah_KameraOFF:not(.disabled):not(.checked) .breaseToggleSwitch_toggle .before {
+  color: black;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Vytah_KameraOFF:not(.disabled):not(.checked) .breaseToggleSwitch_toggle .after {
+  color: black;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Vytah_KameraOFF .breaseToggleSwitch_toggle .wrapper .before {
+  font-size: 16px;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Vytah_KameraOFF .breaseToggleSwitch_toggle .wrapper .after {
+  font-size: 16px;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Vytah_KameraOFF:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Vytah_KameraOFF.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Vytah_KameraOFF.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageSetupP1_page1_Button_Vytah_IgnorujKameru {
+  top: 11px;
+  position: absolute;
+}
+
+#AreaPageSetupP1_page1_Button_Vytah_IgnorujKameru {
+  left: 24px;
+  position: absolute;
+}
+
+#AreaPageSetupP1_page1_Button_Vytah_IgnorujKameru {
+  width: 200px;
+}
+
+#AreaPageSetupP1_page1_Button_Vytah_IgnorujKameru {
+  height: 45px;
+}
+
+#AreaPageSetupP1_page1_Button_Vytah_IgnorujKameru {
+  z-index: 1;
+}
+
+#AreaPageSetupP1_page1_Button_Vytah_IgnorujKameru {
+  border-radius: 10px;
+}
+
+#AreaPageSetupP1_page1_Button_Vytah_IgnorujKameru:not(.disabled):not(.active):not(.checked) span {
+  color: black;
+}
+
+#AreaPageSetupP1_page1_Button_Vytah_IgnorujKameru {
+  justify-content: flex-start;
+  text-align: left;
+}
+
+#AreaPageSetupP1_page1_Button_Vytah_IgnorujKameru:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageSetupP1_page1_Button_Vytah_IgnorujKameru.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageSetupP1_page1_Button_Vytah_IgnorujKameru.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageSetupP1_page1_GroupBox6 {
+  top: 68px;
+  position: absolute;
+}
+
+#AreaPageSetupP1_page1_GroupBox6 {
+  left: 342px;
+  position: absolute;
+}
+
+#AreaPageSetupP1_page1_GroupBox6 {
+  width: 250px;
+}
+
+#AreaPageSetupP1_page1_GroupBox6 {
+  height: 495px;
+}
+
+#AreaPageSetupP1_page1_GroupBox6 {
+  z-index: 3;
+}
+
+#AreaPageSetupP1_page1_GroupBox6 {
+  background-color: oldlace;
+}
+
+#AreaPageSetupP1_page1_GroupBox6 > .header span {
+  color: black;
+}
+
+#AreaPageSetupP1_page1_GroupBox6 {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_KameraOFF {
+  top: 11px;
+  position: absolute;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_KameraOFF {
+  left: 24px;
+  position: absolute;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_KameraOFF {
+  width: 200px;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_KameraOFF {
+  height: 45px;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_KameraOFF {
+  z-index: 0;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_KameraOFF:not(.disabled):not(.checked) .breaseToggleSwitch_toggle .before {
+  color: black;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_KameraOFF:not(.disabled):not(.checked) .breaseToggleSwitch_toggle .after {
+  color: black;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_KameraOFF .breaseToggleSwitch_toggle .wrapper .before {
+  font-size: 16px;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_KameraOFF .breaseToggleSwitch_toggle .wrapper .after {
+  font-size: 16px;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_KameraOFF:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_KameraOFF.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_KameraOFF.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_K30_VysledkyOFF {
+  top: 247px;
+  position: absolute;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_K30_VysledkyOFF {
+  left: 24px;
+  position: absolute;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_K30_VysledkyOFF {
+  width: 200px;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_K30_VysledkyOFF {
+  height: 45px;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_K30_VysledkyOFF {
+  z-index: 1;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_K30_VysledkyOFF:not(.disabled):not(.checked) .breaseToggleSwitch_toggle .before {
+  color: black;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_K30_VysledkyOFF:not(.disabled):not(.checked) .breaseToggleSwitch_toggle .after {
+  color: black;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_K30_VysledkyOFF .breaseToggleSwitch_toggle .wrapper .before {
+  font-size: 16px;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_K30_VysledkyOFF .breaseToggleSwitch_toggle .wrapper .after {
+  font-size: 16px;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_K30_VysledkyOFF:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_K30_VysledkyOFF.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_K30_VysledkyOFF.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_M5_VysledkyOFF {
+  top: 385px;
+  position: absolute;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_M5_VysledkyOFF {
+  left: 24px;
+  position: absolute;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_M5_VysledkyOFF {
+  width: 200px;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_M5_VysledkyOFF {
+  height: 45px;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_M5_VysledkyOFF {
+  z-index: 2;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_M5_VysledkyOFF:not(.disabled):not(.checked) .breaseToggleSwitch_toggle .before {
+  color: black;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_M5_VysledkyOFF:not(.disabled):not(.checked) .breaseToggleSwitch_toggle .after {
+  color: black;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_M5_VysledkyOFF .breaseToggleSwitch_toggle .wrapper .before {
+  font-size: 16px;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_M5_VysledkyOFF .breaseToggleSwitch_toggle .wrapper .after {
+  font-size: 16px;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_M5_VysledkyOFF:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_M5_VysledkyOFF.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_M5_VysledkyOFF.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_M4_VysledkyOFF {
+  top: 315px;
+  position: absolute;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_M4_VysledkyOFF {
+  left: 24px;
+  position: absolute;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_M4_VysledkyOFF {
+  width: 200px;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_M4_VysledkyOFF {
+  height: 45px;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_M4_VysledkyOFF {
+  z-index: 3;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_M4_VysledkyOFF:not(.disabled):not(.checked) .breaseToggleSwitch_toggle .before {
+  color: black;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_M4_VysledkyOFF:not(.disabled):not(.checked) .breaseToggleSwitch_toggle .after {
+  color: black;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_M4_VysledkyOFF .breaseToggleSwitch_toggle .wrapper .before {
+  font-size: 16px;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_M4_VysledkyOFF .breaseToggleSwitch_toggle .wrapper .after {
+  font-size: 16px;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_M4_VysledkyOFF:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_M4_VysledkyOFF.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_M4_VysledkyOFF.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}

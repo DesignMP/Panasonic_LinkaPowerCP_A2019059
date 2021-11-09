@@ -1,0 +1,1685 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.10.3.60 SP"?>
+<ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
+  <TaskClass
+    Name="Cyclic#1">
+    <Task
+      Name="RiadenieSe"
+      Disable="false"
+      Source="RiadenieServ.RiadenieServ"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\RiadenieSe\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\RiadenieServ\RiadenieServ\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\RiadenieServ\RiadenieServ\Variables.var" />
+    </Task>
+    <Task
+      Name="P1_Skrutk1"
+      Disable="false"
+      Source="Program.Pracovisko_1.P1_SkrutkovaciSet_M5"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P1_Skrutk1\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_1\P1_SkrutkovaciSet_M5\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_1\P1_SkrutkovaciSet_M5\Variables.var" />
+    </Task>
+    <Task
+      Name="P1_Skrutk2"
+      Disable="false"
+      Source="Program.Pracovisko_1.P1_SkrutkovaciSet_M4"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P1_Skrutk2\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_1\P1_SkrutkovaciSet_M4\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_1\P1_SkrutkovaciSet_M4\Variables.var" />
+    </Task>
+    <Task
+      Name="P1_Skrutko"
+      Disable="false"
+      Source="Program.Pracovisko_1.P1_SkrutkovaciSet_K30"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P1_Skrutko\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_1\P1_SkrutkovaciSet_K30\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_1\P1_SkrutkovaciSet_K30\Variables.var" />
+    </Task>
+    <Task
+      Name="P2_Skrutko"
+      Disable="false"
+      Source="Program.Pracovisko_2.P2_SkrutkovaciSet_MaticaM4"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Skrutko\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_2\P2_SkrutkovaciSet_MaticaM4\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_2\P2_SkrutkovaciSet_MaticaM4\Variables.var" />
+    </Task>
+    <Task
+      Name="P2_Skrutk2"
+      Disable="false"
+      Source="Program.Pracovisko_2.P2_SkrutkovaciSet_M5"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Skrutk2\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_2\P2_SkrutkovaciSet_M5\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_2\P2_SkrutkovaciSet_M5\Variables.var" />
+    </Task>
+    <Task
+      Name="P2_Skrutk3"
+      Disable="false"
+      Source="Program.Pracovisko_2.P2_SkrutkovaciSet_M6"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Skrutk3\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_2\P2_SkrutkovaciSet_M6\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_2\P2_SkrutkovaciSet_M6\Variables.var" />
+    </Task>
+    <Task
+      Name="P2_Skrutk1"
+      Disable="false"
+      Source="Program.Pracovisko_2.P2_SkrutkovaciSet_M4"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Skrutk1\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_2\P2_SkrutkovaciSet_M4\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_2\P2_SkrutkovaciSet_M4\Variables.var" />
+    </Task>
+    <Task
+      Name="P3_Skrutk1"
+      Disable="false"
+      Source="Program.Pracovisko_3.P3_SkrutkovaciSet_M5"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P3_Skrutk1\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_3\P3_SkrutkovaciSet_M5\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_3\P3_SkrutkovaciSet_M5\Variables.var" />
+    </Task>
+    <Task
+      Name="P3_Skrutko"
+      Disable="false"
+      Source="Program.Pracovisko_3.P3_SkrutkovaciSet_K40"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P3_Skrutko\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_3\P3_SkrutkovaciSet_K40\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_3\P3_SkrutkovaciSet_K40\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#2">
+    <Task
+      Name="TaktimePra"
+      Disable="false"
+      Source="MeranieTaktimePracovisk.TaktimeVytah_ST1"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\TaktimePra\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\MeranieTaktimePracovisk\TaktimeVytah_ST1\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\MeranieTaktimePracovisk\TaktimeVytah_ST1\Variables.var" />
+    </Task>
+    <Task
+      Name="TaktimeSro"
+      Disable="false"
+      Source="MeranieTaktimePracovisk.TaktimeSrobovanie_ST2"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\TaktimeSro\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\MeranieTaktimePracovisk\TaktimeSrobovanie_ST2\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\MeranieTaktimePracovisk\TaktimeSrobovanie_ST2\Variables.var" />
+    </Task>
+    <Task
+      Name="TaktimeZak"
+      Disable="false"
+      Source="MeranieTaktimePracovisk.TaktimeZaklTesnenia_ST3"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\TaktimeZak\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\MeranieTaktimePracovisk\TaktimeZaklTesnenia_ST3\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\MeranieTaktimePracovisk\TaktimeZaklTesnenia_ST3\Variables.var" />
+    </Task>
+    <Task
+      Name="TaktimeMat"
+      Disable="false"
+      Source="MeranieTaktimePracovisk.TaktimeMaticovacka_ST4"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\TaktimeMat\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\MeranieTaktimePracovisk\TaktimeMaticovacka_ST4\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\MeranieTaktimePracovisk\TaktimeMaticovacka_ST4\Variables.var" />
+    </Task>
+    <Task
+      Name="TaktimeSr1"
+      Disable="false"
+      Source="MeranieTaktimePracovisk.TaktimeSrobovanie_ST5"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\TaktimeSr1\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\MeranieTaktimePracovisk\TaktimeSrobovanie_ST5\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\MeranieTaktimePracovisk\TaktimeSrobovanie_ST5\Variables.var" />
+    </Task>
+    <Task
+      Name="TaktimeZva"
+      Disable="false"
+      Source="MeranieTaktimePracovisk.TaktimeZvaranie_ST6"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\TaktimeZva\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\MeranieTaktimePracovisk\TaktimeZvaranie_ST6\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\MeranieTaktimePracovisk\TaktimeZvaranie_ST6\Variables.var" />
+    </Task>
+    <Task
+      Name="Taktime_Sr"
+      Disable="false"
+      Source="MeranieTaktimePracovisk.Taktime_Srobovanie_ST7"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\Taktime_Sr\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\MeranieTaktimePracovisk\Taktime_Srobovanie_ST7\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\MeranieTaktimePracovisk\Taktime_Srobovanie_ST7\Variables.var" />
+    </Task>
+    <Task
+      Name="Taktime_Le"
+      Disable="false"
+      Source="MeranieTaktimePracovisk.Taktime_LeakageTestA_ST8A"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\Taktime_Le\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\MeranieTaktimePracovisk\Taktime_LeakageTestA_ST8A\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\MeranieTaktimePracovisk\Taktime_LeakageTestA_ST8A\Variables.var" />
+    </Task>
+    <Task
+      Name="Taktime_L1"
+      Disable="false"
+      Source="MeranieTaktimePracovisk.Taktime_LeakageTestB_ST8B"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\Taktime_L1\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\MeranieTaktimePracovisk\Taktime_LeakageTestB_ST8B\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\MeranieTaktimePracovisk\Taktime_LeakageTestB_ST8B\Variables.var" />
+    </Task>
+    <Task
+      Name="Taktime_Fu"
+      Disable="false"
+      Source="MeranieTaktimePracovisk.Taktime_FunkcnyTestA_ST9A"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\Taktime_Fu\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\MeranieTaktimePracovisk\Taktime_FunkcnyTestA_ST9A\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\MeranieTaktimePracovisk\Taktime_FunkcnyTestA_ST9A\Variables.var" />
+    </Task>
+    <Task
+      Name="Taktime_F1"
+      Disable="false"
+      Source="MeranieTaktimePracovisk.Taktime_FunkcnyTestB_ST9B"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\Taktime_F1\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\MeranieTaktimePracovisk\Taktime_FunkcnyTestB_ST9B\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\MeranieTaktimePracovisk\Taktime_FunkcnyTestB_ST9B\Variables.var" />
+    </Task>
+    <Task
+      Name="Taktime_Et"
+      Disable="false"
+      Source="MeranieTaktimePracovisk.Taktime_Etiketovacka_ST9"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\Taktime_Et\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\MeranieTaktimePracovisk\Taktime_Etiketovacka_ST9\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\MeranieTaktimePracovisk\Taktime_Etiketovacka_ST9\Variables.var" />
+    </Task>
+    <Task
+      Name="Taktime_Vy"
+      Disable="false"
+      Source="MeranieTaktimePracovisk.Taktime_Vytah_ST10"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\Taktime_Vy\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\MeranieTaktimePracovisk\Taktime_Vytah_ST10\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\MeranieTaktimePracovisk\Taktime_Vytah_ST10\Variables.var" />
+    </Task>
+    <Task
+      Name="FTP_CAM1"
+      Disable="false"
+      Source="OdosielanieFotiek.FTP_CAM1"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\FTP_CAM1\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_CAM1\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_CAM1\Variables.var" />
+    </Task>
+    <Task
+      Name="FTP_CAM2"
+      Disable="false"
+      Source="OdosielanieFotiek.FTP_CAM2"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\FTP_CAM2\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_CAM2\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_CAM2\Variables.var" />
+    </Task>
+    <Task
+      Name="FTP_CAM4"
+      Disable="false"
+      Source="OdosielanieFotiek.FTP_CAM4"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\FTP_CAM4\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_CAM4\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_CAM4\Variables.var" />
+    </Task>
+    <Task
+      Name="FTP_CAM6"
+      Disable="false"
+      Source="OdosielanieFotiek.FTP_CAM6"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\FTP_CAM6\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_CAM6\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_CAM6\Variables.var" />
+    </Task>
+    <Task
+      Name="FTP_CAM9"
+      Disable="false"
+      Source="OdosielanieFotiek.FTP_CAM9"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\FTP_CAM9\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_CAM9\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_CAM9\Variables.var" />
+    </Task>
+    <Task
+      Name="FTP_CAM10"
+      Disable="false"
+      Source="OdosielanieFotiek.FTP_CAM10"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\FTP_CAM10\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_CAM10\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_CAM10\Variables.var" />
+    </Task>
+    <Task
+      Name="FTP_CAM11"
+      Disable="false"
+      Source="OdosielanieFotiek.FTP_CAM11"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\FTP_CAM11\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_CAM11\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_CAM11\Variables.var" />
+    </Task>
+    <Task
+      Name="FTP_CAM12"
+      Disable="false"
+      Source="OdosielanieFotiek.FTP_CAM12"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\FTP_CAM12\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_CAM12\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_CAM12\Variables.var" />
+    </Task>
+    <Task
+      Name="FTP_CAM13"
+      Disable="false"
+      Source="OdosielanieFotiek.FTP_CAM13"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\FTP_CAM13\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_CAM13\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_CAM13\Variables.var" />
+    </Task>
+    <Task
+      Name="FTP_CAM15"
+      Disable="false"
+      Source="OdosielanieFotiek.FTP_CAM15"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\FTP_CAM15\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_CAM15\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_CAM15\Variables.var" />
+    </Task>
+    <Task
+      Name="FTP_CAM16"
+      Disable="false"
+      Source="OdosielanieFotiek.FTP_CAM16"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\FTP_CAM16\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_CAM16\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_CAM16\Variables.var" />
+    </Task>
+    <Task
+      Name="FTP_CAM17"
+      Disable="false"
+      Source="OdosielanieFotiek.FTP_CAM17"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\FTP_CAM17\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_CAM17\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_CAM17\Variables.var" />
+    </Task>
+    <Task
+      Name="FTP_DMP_CA"
+      Disable="false"
+      Source="OdosielanieFotiek.FTP_DMP_CAM1"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\FTP_DMP_CA\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_DMP_CAM1\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_DMP_CAM1\Variables.var" />
+    </Task>
+    <Task
+      Name="FTP_DMP_C1"
+      Disable="false"
+      Source="OdosielanieFotiek.FTP_DMP_CAM2"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\FTP_DMP_C1\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_DMP_CAM2\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_DMP_CAM2\Variables.var" />
+    </Task>
+    <Task
+      Name="FTP_DMP_C2"
+      Disable="false"
+      Source="OdosielanieFotiek.FTP_DMP_CAM3"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\FTP_DMP_C2\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_DMP_CAM3\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_DMP_CAM3\Variables.var" />
+    </Task>
+    <Task
+      Name="FTP_DMP_C3"
+      Disable="false"
+      Source="OdosielanieFotiek.FTP_DMP_CAM4"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\FTP_DMP_C3\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_DMP_CAM4\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_DMP_CAM4\Variables.var" />
+    </Task>
+    <Task
+      Name="FTP_DMP_C4"
+      Disable="false"
+      Source="OdosielanieFotiek.FTP_DMP_CAM5"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\FTP_DMP_C4\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_DMP_CAM5\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_DMP_CAM5\Variables.var" />
+    </Task>
+    <Task
+      Name="FTP_DMP_C5"
+      Disable="false"
+      Source="OdosielanieFotiek.FTP_DMP_CAM6"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\FTP_DMP_C5\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_DMP_CAM6\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_DMP_CAM6\Variables.var" />
+    </Task>
+    <Task
+      Name="FTP_DMP_C6"
+      Disable="false"
+      Source="OdosielanieFotiek.FTP_DMP_CAM7"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\FTP_DMP_C6\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_DMP_CAM7\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_DMP_CAM7\Variables.var" />
+    </Task>
+    <Task
+      Name="FTP_DMP_C7"
+      Disable="false"
+      Source="OdosielanieFotiek.FTP_DMP_CAM8"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\FTP_DMP_C7\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_DMP_CAM8\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_DMP_CAM8\Variables.var" />
+    </Task>
+    <Task
+      Name="FTP_DMP_C8"
+      Disable="false"
+      Source="OdosielanieFotiek.FTP_DMP_CAM9"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\FTP_DMP_C8\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_DMP_CAM9\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_DMP_CAM9\Variables.var" />
+    </Task>
+    <Task
+      Name="FTP_DMP_C9"
+      Disable="false"
+      Source="OdosielanieFotiek.FTP_DMP_CAM10"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\FTP_DMP_C9\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_DMP_CAM10\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_DMP_CAM10\Variables.var" />
+    </Task>
+    <Task
+      Name="FTP_DMP_10"
+      Disable="false"
+      Source="OdosielanieFotiek.FTP_DMP_CAM11"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\FTP_DMP_10\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_DMP_CAM11\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_DMP_CAM11\Variables.var" />
+    </Task>
+    <Task
+      Name="FTP_DMP_11"
+      Disable="false"
+      Source="OdosielanieFotiek.FTP_DMP_CAM12"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\FTP_DMP_11\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_DMP_CAM12\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_DMP_CAM12\Variables.var" />
+    </Task>
+    <Task
+      Name="FTP_DMP_12"
+      Disable="false"
+      Source="OdosielanieFotiek.FTP_DMP_CAM13"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\FTP_DMP_12\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_DMP_CAM13\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_DMP_CAM13\Variables.var" />
+    </Task>
+    <Task
+      Name="FTP_DMP_13"
+      Disable="false"
+      Source="OdosielanieFotiek.FTP_DMP_CAM14"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\FTP_DMP_13\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_DMP_CAM14\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_DMP_CAM14\Variables.var" />
+    </Task>
+    <Task
+      Name="FTP_DMP_14"
+      Disable="false"
+      Source="OdosielanieFotiek.FTP_DMP_CAM15"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\FTP_DMP_14\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_DMP_CAM15\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_DMP_CAM15\Variables.var" />
+    </Task>
+    <Task
+      Name="FTP_DMP_15"
+      Disable="false"
+      Source="OdosielanieFotiek.FTP_DMP_CAM16"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\FTP_DMP_15\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_DMP_CAM16\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_DMP_CAM16\Variables.var" />
+    </Task>
+    <Task
+      Name="FTP_DMP_16"
+      Disable="false"
+      Source="OdosielanieFotiek.FTP_DMP_CAM17"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\FTP_DMP_16\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_DMP_CAM17\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\OdosielanieFotiek\FTP_DMP_CAM17\Variables.var" />
+    </Task>
+    <Task
+      Name="Users_Pane"
+      Disable="false"
+      Source="Uzivatelia.Users_Panel1"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\Users_Pane\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Uzivatelia\Users_Panel1\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Uzivatelia\Users_Panel1\Variables.var" />
+    </Task>
+    <Task
+      Name="Users_Pan1"
+      Disable="false"
+      Source="Uzivatelia.Users_Panel2"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\Users_Pan1\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Uzivatelia\Users_Panel2\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Uzivatelia\Users_Panel2\Variables.var" />
+    </Task>
+    <Task
+      Name="Program12"
+      Disable="false"
+      Source="Uzivatelia.Users_Panel3"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\Program12\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Uzivatelia\Users_Panel3\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Uzivatelia\Users_Panel3\Variables.var" />
+    </Task>
+    <Task
+      Name="Users_Main"
+      Disable="false"
+      Source="Uzivatelia.Users_Main"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\Users_Main\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Uzivatelia\Users_Main\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Uzivatelia\Users_Main\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#3">
+    <Task
+      Name="P1_Vytah_S"
+      Disable="false"
+      Source="TracebilitySystem.P1_Vytah_ST1"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P1_Vytah_S\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\TracebilitySystem\P1_Vytah_ST1\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\TracebilitySystem\P1_Vytah_ST1\Variables.var" />
+    </Task>
+    <Task
+      Name="Program2"
+      Disable="false"
+      Source="TracebilitySystem.P1_Srobovanie_ST2"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\Program2\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\TracebilitySystem\P1_Srobovanie_ST2\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\TracebilitySystem\P1_Srobovanie_ST2\Variables.var" />
+    </Task>
+    <Task
+      Name="Program3"
+      Disable="false"
+      Source="TracebilitySystem.P2_ZakladacTesnenia_ST3"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\Program3\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\TracebilitySystem\P2_ZakladacTesnenia_ST3\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\TracebilitySystem\P2_ZakladacTesnenia_ST3\Variables.var" />
+    </Task>
+    <Task
+      Name="Program4"
+      Disable="false"
+      Source="TracebilitySystem.P2_Maticovacka_ST4"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\Program4\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\TracebilitySystem\P2_Maticovacka_ST4\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\TracebilitySystem\P2_Maticovacka_ST4\Variables.var" />
+    </Task>
+    <Task
+      Name="Program5"
+      Disable="false"
+      Source="TracebilitySystem.P2_Srobovanie_ST5"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\Program5\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\TracebilitySystem\P2_Srobovanie_ST5\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\TracebilitySystem\P2_Srobovanie_ST5\Variables.var" />
+    </Task>
+    <Task
+      Name="Program6"
+      Disable="false"
+      Source="TracebilitySystem.P2_Zvaranie_ST6"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\Program6\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\TracebilitySystem\P2_Zvaranie_ST6\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\TracebilitySystem\P2_Zvaranie_ST6\Variables.var" />
+    </Task>
+    <Task
+      Name="Program7"
+      Disable="false"
+      Source="TracebilitySystem.P3_Srobovanie_ST7"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\Program7\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\TracebilitySystem\P3_Srobovanie_ST7\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\TracebilitySystem\P3_Srobovanie_ST7\Variables.var" />
+    </Task>
+    <Task
+      Name="Program8"
+      Disable="false"
+      Source="TracebilitySystem.P3_LeakageTestA_ST8A"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\Program8\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\TracebilitySystem\P3_LeakageTestA_ST8A\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\TracebilitySystem\P3_LeakageTestA_ST8A\Variables.var" />
+    </Task>
+    <Task
+      Name="Program9"
+      Disable="false"
+      Source="TracebilitySystem.P3_LeakageTestB_ST8B"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\Program9\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\TracebilitySystem\P3_LeakageTestB_ST8B\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\TracebilitySystem\P3_LeakageTestB_ST8B\Variables.var" />
+    </Task>
+    <Task
+      Name="Program10"
+      Disable="false"
+      Source="TracebilitySystem.P4_Etiketovacka_ST9"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\Program10\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\TracebilitySystem\P4_Etiketovacka_ST9\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\TracebilitySystem\P4_Etiketovacka_ST9\Variables.var" />
+    </Task>
+    <Task
+      Name="Program11"
+      Disable="false"
+      Source="TracebilitySystem.P4_Vytah_ST10"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\Program11\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\TracebilitySystem\P4_Vytah_ST10\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\TracebilitySystem\P4_Vytah_ST10\Variables.var" />
+    </Task>
+    <Task
+      Name="LimitneSni"
+      Disable="false"
+      Source="RiadenieServ.LimitneSnimace"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\LimitneSni\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\RiadenieServ\LimitneSnimace\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\RiadenieServ\LimitneSnimace\Variables.var" />
+    </Task>
+    <Task
+      Name="P4_StoperF"
+      Disable="false"
+      Source="Program.Pracovisko_4.P4_StoperFunkcnyTestA"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P4_StoperF\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_4\P4_StoperFunkcnyTestA\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_4\P4_StoperFunkcnyTestA\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P4_StoperF\IOLinkKomunikacia.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P4_StoperF\OvlCentrovacky.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P4_StoperF\OvlHornychKontaktov.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P4_StoperF\OvlSpodnychKontaktov.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P4_StoperF\OvlTestera.st.var" />
+    </Task>
+    <Task
+      Name="P4_Stoper1"
+      Disable="false"
+      Source="Program.Pracovisko_4.P4_StoperFunkcnyTestB"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P4_Stoper1\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_4\P4_StoperFunkcnyTestB\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_4\P4_StoperFunkcnyTestB\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P4_Stoper1\IOLinkKomunikacia.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P4_Stoper1\OvlCentrovacky.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P4_Stoper1\OvlHornychKontaktov.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P4_Stoper1\OvlSpodnychKontaktov.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P4_Stoper1\OvlTestera.st.var" />
+    </Task>
+    <Task
+      Name="P3_Srobova"
+      Disable="false"
+      Source="Program.Pracovisko_3.P3_Srobovanie"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P3_Srobova\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_3\P3_Srobovanie\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_3\P3_Srobovanie\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P3_Srobova\OvlManipulatora_OsY.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P3_Srobova\AtlasCopcoKomunikacia.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P3_Srobova\OvlZdvihuHV_Testu.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P3_Srobova\OvlKontaktovHV_Testu.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P3_Srobova\OvlTestera.st.var" />
+    </Task>
+    <Task
+      Name="Blikanie10"
+      Disable="false"
+      Source="Blikace.Blikanie100ms"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\Blikanie10\Blikanie100ms.st.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#4">
+    <Task
+      Name="Blikanie20"
+      Disable="false"
+      Source="Blikace.Blikanie200ms"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\Blikanie20\Blikanie200ms.st.var" />
+    </Task>
+    <Task
+      Name="RFID_Prg"
+      Disable="false"
+      Source="Uzivatelia.RFID_Prg"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\RFID_Prg\RFID_Prg.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Uzivatelia\RFID_Prg\RFID_Prg.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Uzivatelia\RFID_Prg\RFID_Prg.var" />
+    </Task>
+    <Task
+      Name="P1_Main"
+      Disable="false"
+      Source="Program.Pracovisko_1.P1_Main"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P1_Main\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_1\P1_Main\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_1\P1_Main\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P1_Main\OvlVentilovychTerminalov.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P1_Main\ProfinetKomunikaciaKAM3.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P1_Main\ProfinetKomunikaciaKAM2.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P1_Main\ProfinetKomunikaciaKAM4.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P1_Main\ProfinetKomunikaciaKAM6.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P1_Main\ProfinetKomunikaciaKAM5.st.var" />
+    </Task>
+    <Task
+      Name="P1_Dopravn"
+      Disable="false"
+      Source="Program.Pracovisko_1.P1_Dopravniky"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P1_Dopravn\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_1\P1_Dopravniky\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_1\P1_Dopravniky\Variables.var" />
+    </Task>
+    <Task
+      Name="P1_SpodnyS"
+      Disable="false"
+      Source="Program.Pracovisko_1.P1_SpodnyStoper"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P1_SpodnyS\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_1\P1_SpodnyStoper\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_1\P1_SpodnyStoper\Variables.var" />
+    </Task>
+    <Task
+      Name="P1_Akumula"
+      Disable="false"
+      Source="Program.Pracovisko_1.P1_AkumulacnyStoper"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P1_Akumula\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_1\P1_AkumulacnyStoper\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_1\P1_AkumulacnyStoper\Variables.var" />
+    </Task>
+    <Task
+      Name="P1_Ovlada1"
+      Disable="false"
+      Source="Program.Pracovisko_1.P1_OvladanieSafety"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P1_Ovlada1\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_1\P1_OvladanieSafety\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_1\P1_OvladanieSafety\Variables.var" />
+    </Task>
+    <Task
+      Name="P2_Main"
+      Disable="false"
+      Source="Program.Pracovisko_2.P2_Main"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Main\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_2\P2_Main\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_2\P2_Main\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Main\OvlVentilovychTerminalov.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Main\ProfinetKomunikaciaKAM1.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Main\ProfinetKomunikaciaKAM7.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Main\ProfinetKomunikaciaKAM8.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Main\ProfinetKomunikaciaKAM9.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Main\ProfinetKomunikaciaKAM10.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Main\ProfinetKomunikaciaKAM11.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Main\ProfinetKomunikaciaKAM12.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Main\ProfinetKomunikaciaKAM17.st.var" />
+    </Task>
+    <Task
+      Name="P2_Dopravn"
+      Disable="false"
+      Source="Program.Pracovisko_2.P2_Dopravniky"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Dopravn\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_2\P2_Dopravniky\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_2\P2_Dopravniky\Variables.var" />
+    </Task>
+    <Task
+      Name="P2_Akumula"
+      Disable="false"
+      Source="Program.Pracovisko_3.P3_VstupnyStoper"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Akumula\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_3\P3_VstupnyStoper\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_3\P3_VstupnyStoper\Variables.var" />
+    </Task>
+    <Task
+      Name="P2_Ovlada1"
+      Disable="false"
+      Source="Program.Pracovisko_2.P2_OvladanieSafety"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Ovlada1\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_2\P2_OvladanieSafety\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_2\P2_OvladanieSafety\Variables.var" />
+    </Task>
+    <Task
+      Name="P3_Main"
+      Disable="false"
+      Source="Program.Pracovisko_3.P3_Main"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P3_Main\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_3\P3_Main\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_3\P3_Main\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P3_Main\OvlVentilovychTerminalov.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P3_Main\ProfinetKomunikaciaKAM13.st.var" />
+    </Task>
+    <Task
+      Name="P3_Dopravn"
+      Disable="false"
+      Source="Program.Pracovisko_3.P3_Dopravniky"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P3_Dopravn\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_3\P3_Dopravniky\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_3\P3_Dopravniky\Variables.var" />
+    </Task>
+    <Task
+      Name="P3_SpodnyS"
+      Disable="false"
+      Source="Program.Pracovisko_3.P3_SpodnyStoper"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P3_SpodnyS\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_3\P3_SpodnyStoper\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_3\P3_SpodnyStoper\Variables.var" />
+    </Task>
+    <Task
+      Name="P3_Akumula"
+      Disable="false"
+      Source="Program.Pracovisko_3.P3_AkumulacnyStoper"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P3_Akumula\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_3\P3_AkumulacnyStoper\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_3\P3_AkumulacnyStoper\Variables.var" />
+    </Task>
+    <Task
+      Name="P3_Ovlada1"
+      Disable="false"
+      Source="Program.Pracovisko_3.P3_OvladanieSafety"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P3_Ovlada1\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_3\P3_OvladanieSafety\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_3\P3_OvladanieSafety\Variables.var" />
+    </Task>
+    <Task
+      Name="P4_Main"
+      Disable="false"
+      Source="Program.Pracovisko_4.P4_Main"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P4_Main\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_4\P4_Main\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_4\P4_Main\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P4_Main\OvlVentilovychTerminalov.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P4_Main\ProfinetKomunikaciaKAM14.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P4_Main\ProfinetKomunikaciaKAM15.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P4_Main\ProfinetKomunikaciaKAM16.st.var" />
+    </Task>
+    <Task
+      Name="P4_Dopravn"
+      Disable="false"
+      Source="Program.Pracovisko_4.P4_Dopravniky"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P4_Dopravn\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_4\P4_Dopravniky\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_4\P4_Dopravniky\Variables.var" />
+    </Task>
+    <Task
+      Name="P4_Ovlada1"
+      Disable="false"
+      Source="Program.Pracovisko_4.P4_OvladanieSafety"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P4_Ovlada1\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_4\P4_OvladanieSafety\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_4\P4_OvladanieSafety\Variables.var" />
+    </Task>
+    <Task
+      Name="DatumCasPL"
+      Disable="false"
+      Source="DatumCasPLC.DatumCasPLC"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\DatumCasPL\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\DatumCasPLC\DatumCasPLC\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\DatumCasPLC\DatumCasPLC\Variables.var" />
+    </Task>
+    <Task
+      Name="Main"
+      Disable="false"
+      Source="Program.Linka.Main"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\Main\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Linka\Main\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Linka\Main\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\Main\ProfinetKomunikaciaCU.st.var" />
+    </Task>
+    <Task
+      Name="OvladanieS"
+      Disable="false"
+      Source="Program.Linka.OvladanieSafety"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\OvladanieS\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Linka\OvladanieSafety\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Linka\OvladanieSafety\Variables.var" />
+    </Task>
+    <Task
+      Name="UkladacieB"
+      Disable="false"
+      Source="UkladacieBuffery.UkladacieBuffery"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\UkladacieB\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\UkladacieBuffery\UkladacieBuffery\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\UkladacieBuffery\UkladacieBuffery\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#5">
+    <Task
+      Name="P1_Ovlada2"
+      Disable="false"
+      Source="Program.Linka.OvladanieVizu"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P1_Ovlada2\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Linka\OvladanieVizu\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Linka\OvladanieVizu\Variables.var" />
+    </Task>
+    <Task
+      Name="P1_Ovladan"
+      Disable="false"
+      Source="Program.Pracovisko_1.P1_OvladanieVizu"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P1_Ovladan\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_1\P1_OvladanieVizu\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_1\P1_OvladanieVizu\Variables.var" />
+    </Task>
+    <Task
+      Name="P2_Ovladan"
+      Disable="false"
+      Source="Program.Pracovisko_2.P2_OvladanieVizu"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Ovladan\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_2\P2_OvladanieVizu\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_2\P2_OvladanieVizu\Variables.var" />
+    </Task>
+    <Task
+      Name="P3_Ovladan"
+      Disable="false"
+      Source="Program.Pracovisko_3.P34_OvladanieVizu"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P3_Ovladan\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_3\P34_OvladanieVizu\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_3\P34_OvladanieVizu\Variables.var" />
+    </Task>
+    <Task
+      Name="P1_Remanen"
+      Disable="false"
+      Source="RemanentnePremenne.P1_RemanentnePremenne"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P1_Remanen\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\RemanentnePremenne\P1_RemanentnePremenne\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\RemanentnePremenne\P1_RemanentnePremenne\Variables.var" />
+    </Task>
+    <Task
+      Name="Remanentne"
+      Disable="false"
+      Source="RemanentnePremenne.P2_RemanentnePremenne"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\Remanentne\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\RemanentnePremenne\P2_RemanentnePremenne\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\RemanentnePremenne\P2_RemanentnePremenne\Variables.var" />
+    </Task>
+    <Task
+      Name="P34_Remane"
+      Disable="false"
+      Source="RemanentnePremenne.P34_RemanentnePremenne"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P34_Remane\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\RemanentnePremenne\P34_RemanentnePremenne\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\RemanentnePremenne\P34_RemanentnePremenne\Variables.var" />
+    </Task>
+    <Task
+      Name="Blikanie50"
+      Disable="false"
+      Source="Blikace.Blikanie500ms"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\Blikanie50\Blikanie500ms.st.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#6">
+    <Task
+      Name="Blikanie1s"
+      Disable="false"
+      Source="Blikace.Blikanie1s"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\Blikanie1s\Blikanie1s.st.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#7" />
+  <TaskClass
+    Name="Cyclic#8">
+    <Task
+      Name="P1_Alarmy"
+      Disable="false"
+      Source="Alarmy.P1_Alarmy"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P1_Alarmy\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Alarmy\P1_Alarmy\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Alarmy\P1_Alarmy\Variables.var" />
+    </Task>
+    <Task
+      Name="P2_Alarmy"
+      Disable="false"
+      Source="Alarmy.P2_Alarmy"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Alarmy\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Alarmy\P2_Alarmy\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Alarmy\P2_Alarmy\Variables.var" />
+    </Task>
+    <Task
+      Name="P34_Alarmy"
+      Disable="false"
+      Source="Alarmy.P34_Alarmy"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P34_Alarmy\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Alarmy\P34_Alarmy\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Alarmy\P34_Alarmy\Variables.var" />
+    </Task>
+    <Task
+      Name="P1_Vytah"
+      Disable="false"
+      Source="Program.Pracovisko_1.P1_Vytah"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P1_Vytah\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_1\P1_Vytah\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_1\P1_Vytah\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P1_Vytah\IOLinkKomunikacia.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P1_Vytah\StratoveSekundy.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P1_Vytah\OvlServaZdvihu.st.var" />
+    </Task>
+    <Task
+      Name="P1_Srobova"
+      Disable="false"
+      Source="Program.Pracovisko_1.P1_Srobovanie"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P1_Srobova\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_1\P1_Srobovanie\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_1\P1_Srobovanie\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P1_Srobova\OvlManipulatora_OsX.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P1_Srobova\OvlManipulatora_OsY.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P1_Srobova\AtlasCopcoKomunikacia.st.var" />
+    </Task>
+    <Task
+      Name="P1_StoperS"
+      Disable="false"
+      Source="Program.Pracovisko_1.P1_StoperSrobovania"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P1_StoperS\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_1\P1_StoperSrobovania\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_1\P1_StoperSrobovania\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P1_StoperS\OvlCentrovacky.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P1_StoperS\IOLinkKomunikacia.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P1_StoperS\StratoveSekundy.st.var" />
+    </Task>
+    <Task
+      Name="P1_Robot"
+      Disable="false"
+      Source="Program.Pracovisko_1.P1_Robot"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P1_Robot\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_1\P1_Robot\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_1\P1_Robot\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P1_Robot\IOLinkKomunikacia.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P1_Robot\ProfinetKomunikaciaRobot.st.var" />
+    </Task>
+    <Task
+      Name="P2_Zaklada"
+      Disable="false"
+      Source="Program.Pracovisko_2.P2_ZakladacTesnenia"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Zaklada\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_2\P2_ZakladacTesnenia\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_2\P2_ZakladacTesnenia\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Zaklada\OvlServaZdvihu.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Zaklada\OvlServaPojazdu.st.var" />
+    </Task>
+    <Task
+      Name="P2_StoperZ"
+      Disable="false"
+      Source="Program.Pracovisko_2.P2_StoperZaklTesnenia"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_StoperZ\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_2\P2_StoperZaklTesnenia\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_2\P2_StoperZaklTesnenia\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_StoperZ\StratoveSekundy.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_StoperZ\IOLinkKomunikacia.st.var" />
+    </Task>
+    <Task
+      Name="P2_StoperM"
+      Disable="false"
+      Source="Program.Pracovisko_2.P2_StoperMaticovacky"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_StoperM\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_2\P2_StoperMaticovacky\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_2\P2_StoperMaticovacky\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_StoperM\OvlCentrovacky.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_StoperM\StratoveSekundy.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_StoperM\IOLinkKomunikacia.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_StoperM\AtlasCopcoKomunikacia.st.var" />
+    </Task>
+    <Task
+      Name="P2_Srobova"
+      Disable="false"
+      Source="Program.Pracovisko_2.P2_Srobovanie"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Srobova\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_2\P2_Srobovanie\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_2\P2_Srobovanie\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Srobova\OvlManipulatora_OsX.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Srobova\OvlManipulatora_OsY.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Srobova\AtlasCopcoKomunikacia.st.var" />
+    </Task>
+    <Task
+      Name="P2_StoperS"
+      Disable="false"
+      Source="Program.Pracovisko_2.P2_StoperSrobovania"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_StoperS\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_2\P2_StoperSrobovania\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_2\P2_StoperSrobovania\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_StoperS\OvlCentrovacky.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_StoperS\StratoveSekundy.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_StoperS\IOLinkKomunikacia.st.var" />
+    </Task>
+    <Task
+      Name="P2_Robot"
+      Disable="false"
+      Source="Program.Pracovisko_2.P2_Robot"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Robot\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_2\P2_Robot\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_2\P2_Robot\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Robot\IOLinkKomunikacia.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Robot\ProfinetKomunikaciaRobot.st.var" />
+    </Task>
+    <Task
+      Name="P2_Zvarani"
+      Disable="false"
+      Source="Program.Pracovisko_2.P2_Zvaranie"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Zvarani\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_2\P2_Zvaranie\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_2\P2_Zvaranie\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Zvarani\OvlServaZdvihu.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Zvarani\OvlPojazdu.st.var" />
+    </Task>
+    <Task
+      Name="P2_Cisteni"
+      Disable="false"
+      Source="Program.Pracovisko_2.P2_Cistenie"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Cisteni\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_2\P2_Cistenie\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_2\P2_Cistenie\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Cisteni\OvlDveri.st.var" />
+    </Task>
+    <Task
+      Name="P2_Stoper1"
+      Disable="false"
+      Source="Program.Pracovisko_2.P2_StoperZvarania"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Stoper1\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_2\P2_StoperZvarania\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_2\P2_StoperZvarania\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Stoper1\OvlCentrovacky.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Stoper1\StratoveSekundy.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P2_Stoper1\IOLinkKomunikacia.st.var" />
+    </Task>
+    <Task
+      Name="P3_StoperS"
+      Disable="false"
+      Source="Program.Pracovisko_3.P3_StoperSrobovania"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P3_StoperS\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_3\P3_StoperSrobovania\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_3\P3_StoperSrobovania\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P3_StoperS\IOLinkKomunikacia.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P3_StoperS\OvlCentrovacky.st.var" />
+    </Task>
+    <Task
+      Name="P3_StoperL"
+      Disable="false"
+      Source="Program.Pracovisko_3.P3_StoperLeakageTestA"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P3_StoperL\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_3\P3_StoperLeakageTestA\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_3\P3_StoperLeakageTestA\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P3_StoperL\IOLinkKomunikacia.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P3_StoperL\OvlCentrovacky.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P3_StoperL\OvlPritlaku.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P3_StoperL\TesterKomunikacia.st.var" />
+    </Task>
+    <Task
+      Name="P3_Stoper1"
+      Disable="false"
+      Source="Program.Pracovisko_3.P3_StoperLeakageTestB"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P3_Stoper1\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_3\P3_StoperLeakageTestB\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_3\P3_StoperLeakageTestB\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P3_Stoper1\IOLinkKomunikacia.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P3_Stoper1\OvlCentrovacky.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P3_Stoper1\OvlPritlaku.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P3_Stoper1\TesterKomunikacia.st.var" />
+    </Task>
+    <Task
+      Name="P4_StoperE"
+      Disable="false"
+      Source="Program.Pracovisko_4.P4_StoperEtiketovacky"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P4_StoperE\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_4\P4_StoperEtiketovacky\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_4\P4_StoperEtiketovacky\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P4_StoperE\IOLinkKomunikacia.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P4_StoperE\OvlCentrovacky.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P4_StoperE\OvlServaZdvihu.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P4_StoperE\KOM_Tlaciaren.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P4_StoperE\VytvorenieEtikety.st.var" />
+    </Task>
+    <Task
+      Name="P4_Vytah"
+      Disable="false"
+      Source="Program.Pracovisko_4.P4_Vytah"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P4_Vytah\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_4\P4_Vytah\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\Program\Pracovisko_4\P4_Vytah\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P4_Vytah\IOLinkKomunikacia.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Temp\Objects\Config1\5PC900_TS17_00\P4_Vytah\OvlServaZdvihu.st.var" />
+    </Task>
+  </TaskClass>
+</ConfigInfo>

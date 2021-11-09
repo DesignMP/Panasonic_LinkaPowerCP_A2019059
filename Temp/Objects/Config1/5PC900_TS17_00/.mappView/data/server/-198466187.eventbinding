@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Content id="AreaLoginP1">
+    <EventBinding id="AreaLoginP1.LogoutButton2.Click">
+            <Source type="widgets.brease.LogoutButton.Event" event="Click" refId="AreaLoginP1_LogoutButton2" />
+            <EventHandler>
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.CloseDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="LoginDialogP1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Content id="AreaLoginP1">
+    <EventBinding id="AreaLoginP1.LogoutButton1.Click">
+            <Source type="widgets.brease.LogoutButton.Event" event="Click" refId="AreaLoginP1_LogoutButton1" />
+            <EventHandler>
+                <Parallel>
+                    <Action>
+                        <Target type="opcUa.NodeAction" refId="::AsGlobalPV:UsersVizu.OdhlasUzivatela_Panel1">
+                            <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                        </Target>
+                    </Action>
+                    <Action>
+                        <Target type="clientSystem.Action">
+                            <Method type="clientSystem.Action.CloseDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="LoginDialogP1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                        </Target>
+                    </Action>
+                </Parallel>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Content id="AreaPageUsers">
+    <EventBinding id="AreaPageUsers.btnNacitajUzivatela.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageUsers_btnNacitajUzivatela" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::AsGlobalPV:UsersVizu.NacitajUzivatela">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Content id="AreaPageUsers">
+    <EventBinding id="AreaPageUsers.btnUlozUzivatela.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageUsers_btnUlozUzivatela" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::AsGlobalPV:UsersVizu.UlozUzivatela">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Content id="AreaPageUsers">
+    <EventBinding id="AreaPageUsers.btnVymazUzivatela.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageUsers_btnVymazUzivatela" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::AsGlobalPV:UsersVizu.VymazUzivatela">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+</EventBindingDefinition>

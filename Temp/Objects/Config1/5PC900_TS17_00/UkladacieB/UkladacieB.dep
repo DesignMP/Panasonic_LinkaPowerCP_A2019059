@@ -1,0 +1,5 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/IecCheck/IecCheck.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AsBrStr/AsBrStr.fun
+$(AS_PROJECT_PATH)/Physical/Config1/5PC900_TS17_00/Cpu.per
+$(AS_PROJECT_PATH)/Logical/UkladacieBuffery/UkladacieBufferyGlobal.var
+$(AS_PROJECT_PATH)/Logical/UkladacieBuffery/UkladacieBufferyGlobal.typ

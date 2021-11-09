@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1">
+  <Content id="AreaPageSetupP1_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vytah_KAM_Result_OFF" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageSetupP1_page1_ToggleSwitch_Vytah_KameraOFF" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vytah_KAM_Result_OFF" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageSetupP1_page1_ToggleSwitch_Vytah_KameraOFF" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageSetupP1_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobov_K30_Result_OFF" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_K30_VysledkyOFF" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobov_K30_Result_OFF" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_K30_VysledkyOFF" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageSetupP1_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobov_KAM_Result_OFF" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_KameraOFF" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobov_KAM_Result_OFF" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_KameraOFF" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageSetupP1_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobov_M4_Result_OFF" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_M4_VysledkyOFF" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobov_M4_Result_OFF" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_M4_VysledkyOFF" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageSetupP1_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobov_M5_Result_OFF" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_M5_VysledkyOFF" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobov_M5_Result_OFF" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageSetupP1_page1_ToggleSwitch_Skrutkovanie_M5_VysledkyOFF" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+</BindingDefinition>

@@ -1,0 +1,1020 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1">
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_ZaklTesnenia_Zdvih_Rychlost" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_1" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_ZaklTesnenia_Zdvih_Rychlost" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_1" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_ZaklTesnenia_PocetZatlaceni" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_4" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_ZaklTesnenia_PocetZatlaceni" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_4" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_ZaklTesnenia_MomentPritlaku" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_5" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_ZaklTesnenia_MomentPritlaku" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_5" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_ZaklTesnenia_RychlostPritlaku" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_6" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_ZaklTesnenia_RychlostPritlaku" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_6" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob4F_PozY_PravejSkrutkyM6" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_12" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob4F_PozY_PravejSkrutkyM6" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_12" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob4F_PozX_PravejSkrutkyM6" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_8" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob4F_PozX_PravejSkrutkyM6" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_8" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob4F_PozY_LavejSkrutkyM6" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_11" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob4F_PozY_LavejSkrutkyM6" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_11" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob4F_PozX_LavejSkrutkyM6" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_7" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob4F_PozX_LavejSkrutkyM6" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_7" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_ManipSrob_OsY_Rychlost" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_16" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_ManipSrob_OsY_Rychlost" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_16" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_ManipSrob_OsX_Rychlost" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_15" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_ManipSrob_OsX_Rychlost" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_15" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob4F_PozX_LavejSkrutkyM4" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_9" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob4F_PozX_LavejSkrutkyM4" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_9" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob4F_PozY_LavejSkrutkyM4" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_13" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob4F_PozY_LavejSkrutkyM4" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_13" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob4F_PozX_PravejSkrutkyM4" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_10" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob4F_PozX_PravejSkrutkyM4" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_10" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob4F_PozY_PravejSkrutkyM4" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_14" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob4F_PozY_PravejSkrutkyM4" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_14" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5F_PozX_LavejSkrutkyM6" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_1" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5F_PozX_LavejSkrutkyM6" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_1" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5F_PozY_LavejSkrutkyM6" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_5" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5F_PozY_LavejSkrutkyM6" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_5" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5F_PozX_PravejSkrutkyM6" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_2" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5F_PozX_PravejSkrutkyM6" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_2" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5F_PozY_PravejSkrutkyM6" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_6" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5F_PozY_PravejSkrutkyM6" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_6" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5F_PozX_LavejSkrutkyM4" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_3" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5F_PozX_LavejSkrutkyM4" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_3" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5F_PozY_LavejSkrutkyM4" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_7" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5F_PozY_LavejSkrutkyM4" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_7" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5F_PozX_PravejSkrutkyM4" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_4" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5F_PozX_PravejSkrutkyM4" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_4" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5F_PozY_PravejSkrutkyM4" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_8" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5F_PozY_PravejSkrutkyM4" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_8" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5H_PozY_SkrutkyM4" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_14" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5H_PozY_SkrutkyM4" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_14" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5H_PozX_SkrutkyM4" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_11" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5H_PozX_SkrutkyM4" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_11" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5H_PozY_PravejSkrutkyM5" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_13" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5H_PozY_PravejSkrutkyM5" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_13" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5H_PozX_PravejSkrutkyM5" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_10" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5H_PozX_PravejSkrutkyM5" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_10" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5H_PozY_LavejSkrutkyM5" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_12" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5H_PozY_LavejSkrutkyM5" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_12" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5H_PozX_LavejSkrutkyM5" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_9" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5H_PozX_LavejSkrutkyM5" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_9" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Zvaranie_MomentZvarania" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_20" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Zvaranie_MomentZvarania" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_20" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Zvaranie_CasZvarania" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_19" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Zvaranie_CasZvarania" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_19" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Zvaranie_RychlostZvarania" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_18" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Zvaranie_RychlostZvarania" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_18" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_8" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_11" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_16" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_6" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_9" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_13" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_18" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_7" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_1" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_10" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_2" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_15" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_12" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_3" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_17" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_4" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_5" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_14" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_19" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_8" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_11" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_6" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_9" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_13" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_7" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_1" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_10" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_2" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_12" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_3" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_4" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_5" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page2_NumericInput_14" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_ZaklTesnenia_RychlVysunutia" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_2" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_ZaklTesnenia_RychlVysunutia" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_2" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_ZaklTesnenia_RychlZasunutia" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_21" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_ZaklTesnenia_RychlZasunutia" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_21" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_21" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_ZaklTesn_Pojazd_PozZatlacenia" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_22" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_ZaklTesn_Pojazd_PozZatlacenia" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_22" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_ZaklTesn_Pojazd_PozVkladania" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_3" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_ZaklTesn_Pojazd_PozVkladania" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_3" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_22" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page2_NumericInput_3" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page2_NumericInput_2" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_5" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_14" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_17" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_3" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_20" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_12" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_15" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_2" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_23" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_21" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_18" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_9" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_24" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_6" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_11" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_8" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_32" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_27" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_30" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_33" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_26" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_29" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5F_PravaM4_Vysunutie_LO" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_24" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5F_PravaM4_Vysunutie_LO" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_24" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5F_PravaM4_Vysunutie_HI" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_23" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5F_PravaM4_Vysunutie_HI" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_23" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5F_LavaM4_Vysunutie_LO" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_21" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5F_LavaM4_Vysunutie_LO" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_21" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5F_LavaM4_Vysunutie_HI" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_20" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5F_LavaM4_Vysunutie_HI" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_20" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5F_PravaM6_Vysunutie_LO" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_18" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5F_PravaM6_Vysunutie_LO" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_18" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5F_PravaM6_Vysunutie_HI" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_17" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5F_PravaM6_Vysunutie_HI" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_17" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5F_LavaM6_Vysunutie_LO" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_15" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5F_LavaM6_Vysunutie_LO" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_15" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5F_LavaM6_Vysunutie_HI" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_14" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5F_LavaM6_Vysunutie_HI" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_14" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob4F_PravaM4_Vysunutie_LO" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_12" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob4F_PravaM4_Vysunutie_LO" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_12" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob4F_PravaM4_Vysunutie_HI" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_11" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob4F_PravaM4_Vysunutie_HI" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_11" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob4F_LavaM4_Vysunutie_LO" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_9" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob4F_LavaM4_Vysunutie_LO" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_9" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob4F_LavaM4_Vysunutie_HI" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_8" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob4F_LavaM4_Vysunutie_HI" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_8" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob4F_PravaM6_Vysunutie_LO" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_6" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob4F_PravaM6_Vysunutie_LO" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_6" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob4F_PravaM6_Vysunutie_HI" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_5" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob4F_PravaM6_Vysunutie_HI" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_5" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob4F_LavaM6_Vysunutie_LO" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_3" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob4F_LavaM6_Vysunutie_LO" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_3" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob4F_LavaM6_Vysunutie_HI" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_2" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob4F_LavaM6_Vysunutie_HI" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_2" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5H_LavaM5_Vysunutie_HI" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_26" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5H_LavaM5_Vysunutie_HI" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_26" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5H_LavaM5_Vysunutie_LO" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_27" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5H_LavaM5_Vysunutie_LO" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_27" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5H_PravaM5_Vysunutie_HI" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_29" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5H_PravaM5_Vysunutie_HI" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_29" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5H_PravaM5_Vysunutie_LO" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_30" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5H_PravaM5_Vysunutie_LO" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_30" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5H_StrednaM4_Vysunutie_HI" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_32" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5H_StrednaM4_Vysunutie_HI" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_32" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5H_StrednaM4_Vysunutie_LO" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_33" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Srob5H_StrednaM4_Vysunutie_LO" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericInput_33" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Maticovacka_Vysunutie_LO" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page2_NumericInput_3" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Maticovacka_Vysunutie_LO" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page2_NumericInput_3" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Maticovacka_Vysunutie_HI" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page2_NumericInput_2" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Maticovacka_Vysunutie_HI" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page2_NumericInput_2" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Skrutk_4F_LavaM6_Vysunutie" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericOutput1" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Skrutk_4F_PravaM6_Vysunutie" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericOutput2" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Skrutk_4F_LavaM4_Vysunutie" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericOutput3" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Skrutk_4F_PravaM4_Vysunutie" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericOutput4" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Skrutk_5F_LavaM6_Vysunutie" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericOutput8" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Skrutk_5F_PravaM6_Vysunutie" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericOutput5" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Skrutk_5F_LavaM4_Vysunutie" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericOutput6" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Skrutk_5F_PravaM4_Vysunutie" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericOutput7" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Skrutk_5H_PravaM5_Vysunutie" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericOutput9" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Skrutk_5H_LavaM5_Vysunutie" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericOutput11" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Skrutk_5H_StrednaM4_Vysunutie" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page1_NumericOutput10" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageTolerancieSkrutkovaniaP2_page2">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Maticovacka_5H_Vysunutie" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageTolerancieSkrutkovaniaP2_page2_NumericOutput9" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_20" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_24" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_23" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.EditaciaParametrov_ENABLE" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_26" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Zvaranie_MomentZatlacania" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_24" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Zvaranie_MomentZatlacania" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_24" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Zvaranie_CasZatlacania" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_26" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Zvaranie_CasZatlacania" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_26" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Zvaranie_RychlostZatlacania" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_23" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_Zvaranie_RychlostZatlacania" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_23" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageParametreP2_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_ZdvihZvarania_Rychlost" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_17" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_RemPremenne.P2_ZdvihZvarania_Rychlost" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageParametreP2_page1_NumericInput_17" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+</BindingDefinition>

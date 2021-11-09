@@ -1,0 +1,8 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/MpRecipe/MpRecipe.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/MpBase/MpBase.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/MpRecipe/MpRecipeError.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/MpRecipe/MpRecipe.typ
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/RemanentnePremenne/P34_RemanentnePremenne/Variables.var
+$(AS_PROJECT_PATH)/Physical/Config1/5PC900_TS17_00/mappServices/Config_9.mprecipexml
+$(AS_PROJECT_PATH)/Logical/Global.typ

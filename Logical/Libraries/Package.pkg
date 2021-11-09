@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=4.7.6.114 SP?>
+<?AutomationStudio FileVersion="4.9"?>
 <Package xmlns="http://br-automation.co.at/AS/Package">
   <Objects>
     <Object Type="Library" Language="binary" Description="This library contains function interfaces for IEC 61131-3 operator functions. For the most part, these are mathematical and logical functions.">operator</Object>
@@ -30,14 +30,14 @@
     <Object Type="Library" Language="ANSIC" Description="Panasonic TCP Client Traceabilita">SKTcp</Object>
     <Object Type="Library" Language="IEC" Description="A new source library">RFID</Object>
     <Object Type="Library" Language="binary" Description="[mapp Motion] Base library">McBase</Object>
-    <Object Type="Library" Language="binary" Description="[mapp Motion] ACOPOS parameter ID library">McAcpPar</Object>
     <Object Type="Library" Language="binary" Description="[mapp Motion] ACOPOS axis library">McAcpAx</Object>
-    <Object Type="Library" Language="binary" Description="[mapp Motion] PLCopen axis library">McAxis</Object>
     <Object Type="Library" Language="binary" Description="[mapp Motion] Stepper axis library">McStpAx</Object>
+    <Object Type="Library" Language="binary" Description="[mapp Motion] PLCopen axis library">McAxis</Object>
+    <Object Type="Library" Language="binary" Description="[mapp Motion] ACOPOS parameter ID library">McAcpPar</Object>
     <Object Type="Library" Language="binary" Description="[mapp Motion] Axis library">MpAxis</Object>
     <Object Type="Library" Language="Binary" Description="Core library for mapp components">MpBase</Object>
-    <Object Type="Library" Language="Binary" Description="Advanced alarm management">MpAlarmX</Object>
     <Object Type="Library" Language="Binary" Description="Recipe management">MpRecipe</Object>
+    <Object Type="Library" Language="Binary" Description="Advanced alarm management">MpAlarmX</Object>
     <Object Type="Library" Language="Binary" Description="Communication library for mappView widgets">MpServer</Object>
     <Object Type="Library" Language="binary" Description="This library contains functionality to execute traces (to sample numeric values periodically for a defined time-span)">CoTrace</Object>
   </Objects>

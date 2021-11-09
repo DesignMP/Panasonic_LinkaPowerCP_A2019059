@@ -1,0 +1,3 @@
+$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw
+$(AS_PROJECT_PATH)\Physical\Config1\5PC900_TS17_00\DTM\5ACPCI_XPNM_00\5ACPCI_XPNM_00.dtm
+$(AS_PROJECT_PATH)\Physical\Config1\5PC900_TS17_00\DTM\AB2_1_Profinet\AB2_1_Profinet.dtm

@@ -1,0 +1,153 @@
+﻿@import "mixins.scss";
+#AreaLoginP2_Rectangle1 {
+	@include elemTop(0);
+}
+#AreaLoginP2_Rectangle1 {
+	@include elemLeft(0);
+}
+#AreaLoginP2_Rectangle1 {
+	@include elemWidth(500);
+}
+#AreaLoginP2_Rectangle1 {
+	@include elemHeight(350);
+}
+#AreaLoginP2_Rectangle1 {
+		z-index: 0;
+}
+#AreaLoginP2_Rectangle1 {
+		border-width: 2px;
+}
+#AreaLoginP2_Rectangle1 {
+	@include border-radius(10px);
+}
+#AreaLoginP2_Rectangle1 {
+		background-color: rgba(153, 180, 209, 1);
+}
+#AreaLoginP2_Line1 {
+		z-index: 1;
+}
+#AreaLoginP2_Line1 {
+	line{
+		stroke: rgba(255, 255, 255, 1);
+	}
+}
+#AreaLoginP2_Line1 {
+	line{
+		stroke-width: 3px;
+	}
+}
+#AreaLoginP2_Image1 {
+	@include elemTop(10);
+}
+#AreaLoginP2_Image1 {
+	@include elemLeft(20);
+}
+#AreaLoginP2_Image1 {
+	@include elemAutoWidth(60);
+}
+#AreaLoginP2_Image1 {
+	@include elemAutoHeight(60);
+}
+#AreaLoginP2_Image1 {
+		z-index: 2;
+}
+#AreaLoginP2_LogoutButton1 {
+	@include elemTop(260);
+}
+#AreaLoginP2_LogoutButton1 {
+	@include elemLeft(315);
+}
+#AreaLoginP2_LogoutButton1 {
+	@include elemAutoWidth(150);
+}
+#AreaLoginP2_LogoutButton1 {
+	@include elemAutoHeight(40);
+}
+#AreaLoginP2_LogoutButton1 {
+		z-index: 3;
+}
+#AreaLoginP2_LogoutButton1 {
+	@include border-radius(10px);
+}
+#AreaLoginP2_LogoutButton1 {
+	&:not(.disabled):not(.active):not(.checked) span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaLoginP2_LogoutButton1 {
+	&:not(.active):not(.checked){
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaLoginP2_LogoutButton1 {
+	&.disabled.active{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaLoginP2_LogoutButton1 {
+	&.disabled.checked{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaLoginP2_LogoutButton2 {
+	@include elemTop(260);
+}
+#AreaLoginP2_LogoutButton2 {
+	@include elemLeft(35);
+}
+#AreaLoginP2_LogoutButton2 {
+	@include elemAutoWidth(150);
+}
+#AreaLoginP2_LogoutButton2 {
+	@include elemAutoHeight(40);
+}
+#AreaLoginP2_LogoutButton2 {
+		z-index: 4;
+}
+#AreaLoginP2_LogoutButton2 {
+	@include border-radius(10px);
+}
+#AreaLoginP2_LogoutButton2 {
+	&:not(.disabled):not(.active):not(.checked) span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaLoginP2_LogoutButton2 {
+	@include text-alignment(center);
+}
+#AreaLoginP2_LogoutButton2 {
+	&:not(.active):not(.checked){
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaLoginP2_LogoutButton2 {
+	&.disabled.active{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaLoginP2_LogoutButton2 {
+	&.disabled.checked{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaLoginP2_TextOutput1 {
+	@include elemTop(15);
+}
+#AreaLoginP2_TextOutput1 {
+	@include elemLeft(134);
+}
+#AreaLoginP2_TextOutput1 {
+	@include elemAutoWidth(236);
+}
+#AreaLoginP2_TextOutput1 {
+	@include elemAutoHeight(50);
+}
+#AreaLoginP2_TextOutput1 {
+		z-index: 5;
+}
+#AreaLoginP2_TextOutput1 {
+	@include text-alignment-all('center');
+}
+#AreaLoginP2_TextOutput1 {
+		font-size: 30px;
+}

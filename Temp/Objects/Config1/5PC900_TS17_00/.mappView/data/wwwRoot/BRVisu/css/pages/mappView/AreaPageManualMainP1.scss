@@ -1,0 +1,368 @@
+﻿@import "mixins.scss";
+#AreaPageManualMainP1_Image1 {
+	@include elemTop(0);
+}
+#AreaPageManualMainP1_Image1 {
+	@include elemLeft(0);
+}
+#AreaPageManualMainP1_Image1 {
+	@include elemAutoWidth(1366);
+}
+#AreaPageManualMainP1_Image1 {
+	@include elemAutoHeight(588);
+}
+#AreaPageManualMainP1_Image1 {
+		z-index: 0;
+}
+#AreaPageManualMainP1_Image1 {
+		opacity: 0.2;
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Vytah {
+	@include elemTop(230);
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Vytah {
+	@include elemLeft(76);
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Vytah {
+	@include elemAutoWidth(340);
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Vytah {
+	@include elemAutoHeight(75);
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Vytah {
+		z-index: 1;
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Vytah {
+		border-style: solid;
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Vytah {
+	&.active{
+		border-style: solid;
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Vytah {
+	&.checked{
+		border-style: solid;
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Vytah {
+	&.disabled{
+		border-style: solid;
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Vytah {
+	@include border-radius(8px);
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Vytah {
+	&:not(.disabled):not(.active):not(.checked){
+	@include backGroundGradient('');
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Vytah {
+	&.active:not(.disabled){
+	@include backGroundGradient('linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%)');
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Vytah {
+	&.checked:not(.disabled){
+	@include backGroundGradient('linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%)');
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Vytah {
+	&:not(.disabled):not(.active):not(.checked) span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Vytah {
+	&.active:not(.disabled):not(.editMode){
+		border-width: 1px 1px 1px 1px;
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Vytah {
+	&.checked:not(.disabled){
+		border-width: 1px 1px 1px 1px;
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Vytah {
+	&.active:not(.disabled):not(.editMode) span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Vytah {
+	&.checked:not(.disabled) span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Vytah {
+	span{
+		font-size: 20px;
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Vytah {
+	&:not(.active):not(.checked){
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Vytah {
+	&.disabled.active{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Vytah {
+	&.disabled.checked{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Dopravniky {
+	@include elemTop(112);
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Dopravniky {
+	@include elemLeft(76);
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Dopravniky {
+	@include elemAutoWidth(340);
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Dopravniky {
+	@include elemAutoHeight(75);
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Dopravniky {
+		z-index: 2;
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Dopravniky {
+		border-style: solid;
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Dopravniky {
+	&.active{
+		border-style: solid;
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Dopravniky {
+	&.checked{
+		border-style: solid;
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Dopravniky {
+	&.disabled{
+		border-style: solid;
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Dopravniky {
+	@include border-radius(8px);
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Dopravniky {
+	&:not(.disabled):not(.active):not(.checked){
+	@include backGroundGradient('');
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Dopravniky {
+	&.active:not(.disabled){
+	@include backGroundGradient('linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%)');
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Dopravniky {
+	&.checked:not(.disabled){
+	@include backGroundGradient('linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%)');
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Dopravniky {
+	&:not(.disabled):not(.active):not(.checked) span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Dopravniky {
+	&.active:not(.disabled):not(.editMode){
+		border-width: 1px 1px 1px 1px;
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Dopravniky {
+	&.checked:not(.disabled){
+		border-width: 1px 1px 1px 1px;
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Dopravniky {
+	&.active:not(.disabled):not(.editMode) span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Dopravniky {
+	&.checked:not(.disabled) span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Dopravniky {
+	span{
+		font-size: 20px;
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Dopravniky {
+	&:not(.active):not(.checked){
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Dopravniky {
+	&.disabled.active{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Dopravniky {
+	&.disabled.checked{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Skrutkovanie {
+	@include elemTop(112);
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Skrutkovanie {
+	@include elemLeft(513);
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Skrutkovanie {
+	@include elemAutoWidth(340);
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Skrutkovanie {
+	@include elemAutoHeight(75);
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Skrutkovanie {
+		z-index: 3;
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Skrutkovanie {
+		border-style: solid;
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Skrutkovanie {
+	&.active{
+		border-style: solid;
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Skrutkovanie {
+	&.checked{
+		border-style: solid;
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Skrutkovanie {
+	&.disabled{
+		border-style: solid;
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Skrutkovanie {
+	@include border-radius(8px);
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Skrutkovanie {
+	&:not(.disabled):not(.active):not(.checked){
+	@include backGroundGradient('');
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Skrutkovanie {
+	&.active:not(.disabled){
+	@include backGroundGradient('linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%)');
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Skrutkovanie {
+	&.checked:not(.disabled){
+	@include backGroundGradient('linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%)');
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Skrutkovanie {
+	&:not(.disabled):not(.active):not(.checked) span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Skrutkovanie {
+	&.active:not(.disabled):not(.editMode){
+		border-width: 1px 1px 1px 1px;
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Skrutkovanie {
+	&.checked:not(.disabled){
+		border-width: 1px 1px 1px 1px;
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Skrutkovanie {
+	&.active:not(.disabled):not(.editMode) span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Skrutkovanie {
+	&.checked:not(.disabled) span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Skrutkovanie {
+	span{
+		font-size: 20px;
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Skrutkovanie {
+	&:not(.active):not(.checked){
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Skrutkovanie {
+	&.disabled.active{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaPageManualMainP1_NavigationButtonPageRR_Skrutkovanie {
+	&.disabled.checked{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaPageManualMainP1_Label2 {
+	@include elemTop(20);
+}
+#AreaPageManualMainP1_Label2 {
+	@include elemLeft(483);
+}
+#AreaPageManualMainP1_Label2 {
+	@include elemAutoWidth(400);
+}
+#AreaPageManualMainP1_Label2 {
+	@include elemAutoHeight(35);
+}
+#AreaPageManualMainP1_Label2 {
+		z-index: 4;
+}
+#AreaPageManualMainP1_Label2 {
+		border-width: 5px;
+}
+#AreaPageManualMainP1_Label2 {
+	@include border-radius(5px);
+}
+#AreaPageManualMainP1_Label2 {
+		border-color: rgba(153, 153, 153, 1);
+}
+#AreaPageManualMainP1_Label2 {
+	&:before{
+		border-color: rgba(153, 153, 153, 1);
+	}
+}
+#AreaPageManualMainP1_Label2 {
+	&:after{
+		border-color: rgba(153, 153, 153, 1);
+	}
+}
+#AreaPageManualMainP1_Label2 {
+		border-style: ridge;
+}
+#AreaPageManualMainP1_Label2 {
+	&:before{
+		border-style: ridge;
+	}
+}
+#AreaPageManualMainP1_Label2 {
+	&:after{
+		border-style: ridge;
+	}
+}
+#AreaPageManualMainP1_Label2 {
+	& span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualMainP1_Label2 {
+	@include text-alignment-all('center');
+}
+#AreaPageManualMainP1_Label2 {
+		font-size: 20px;
+}
+#AreaPageManualMainP1_Label2 {
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+}

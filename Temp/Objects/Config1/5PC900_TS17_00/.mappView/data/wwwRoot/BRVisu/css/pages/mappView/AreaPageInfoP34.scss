@@ -1,0 +1,199 @@
+﻿@import "mixins.scss";
+#AreaPageInfoP34_Image1 {
+	@include elemTop(0);
+}
+#AreaPageInfoP34_Image1 {
+	@include elemLeft(0);
+}
+#AreaPageInfoP34_Image1 {
+	@include elemAutoWidth(1366);
+}
+#AreaPageInfoP34_Image1 {
+	@include elemAutoHeight(588);
+}
+#AreaPageInfoP34_Image1 {
+		z-index: 0;
+}
+#AreaPageInfoP34_Image1 {
+		opacity: 0.2;
+}
+#AreaPageInfoP34_Image2 {
+	@include elemTop(146);
+}
+#AreaPageInfoP34_Image2 {
+	@include elemLeft(98);
+}
+#AreaPageInfoP34_Image2 {
+	@include elemAutoWidth(368);
+}
+#AreaPageInfoP34_Image2 {
+	@include elemAutoHeight(140);
+}
+#AreaPageInfoP34_Image2 {
+		z-index: 1;
+}
+#AreaPageInfoP34_Image2 {
+		background-color: rgba(255, 255, 255, 0);
+}
+#AreaPageInfoP34_Image2 {
+		border-style: ridge;
+}
+#AreaPageInfoP34_Image2 {
+		border-width: 8px;
+}
+#AreaPageInfoP34_Image2 {
+	@include border-radius(8px);
+}
+#AreaPageInfoP34_Image2 {
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+}
+#AreaPageInfoP34_Label2 {
+	@include elemTop(162);
+}
+#AreaPageInfoP34_Label2 {
+	@include elemLeft(758);
+}
+#AreaPageInfoP34_Label2 {
+	@include elemAutoWidth(280);
+}
+#AreaPageInfoP34_Label2 {
+	@include elemAutoHeight(42);
+}
+#AreaPageInfoP34_Label2 {
+		z-index: 2;
+}
+#AreaPageInfoP34_Label2 {
+		font-size: 35px;
+}
+#AreaPageInfoP34_Label2 {
+	@include font-weight-bold(true);
+}
+#AreaPageInfoP34_Label2 {
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+}
+#AreaPageInfoP34_Label3 {
+	@include elemAutoHeight(30);
+}
+#AreaPageInfoP34_Label3 {
+	@include elemTop(240);
+}
+#AreaPageInfoP34_Label3 {
+	@include elemLeft(758);
+}
+#AreaPageInfoP34_Label3 {
+	@include elemAutoWidth(214);
+}
+#AreaPageInfoP34_Label3 {
+		z-index: 3;
+}
+#AreaPageInfoP34_Label3 {
+		font-size: 20px;
+}
+#AreaPageInfoP34_Label3 {
+	@include font-weight-bold(true);
+}
+#AreaPageInfoP34_Label4 {
+	@include elemAutoHeight(30);
+}
+#AreaPageInfoP34_Label4 {
+	@include elemTop(282);
+}
+#AreaPageInfoP34_Label4 {
+	@include elemLeft(758);
+}
+#AreaPageInfoP34_Label4 {
+	@include elemAutoWidth(258);
+}
+#AreaPageInfoP34_Label4 {
+		z-index: 4;
+}
+#AreaPageInfoP34_Label4 {
+		font-size: 20px;
+}
+#AreaPageInfoP34_Label4 {
+	@include font-weight-bold(true);
+}
+#AreaPageInfoP34_Label5 {
+	@include elemAutoWidth(80);
+}
+#AreaPageInfoP34_Label5 {
+	@include elemAutoHeight(30);
+}
+#AreaPageInfoP34_Label5 {
+	@include elemTop(322);
+}
+#AreaPageInfoP34_Label5 {
+	@include elemLeft(758);
+}
+#AreaPageInfoP34_Label5 {
+		z-index: 5;
+}
+#AreaPageInfoP34_Label5 {
+		font-size: 20px;
+}
+#AreaPageInfoP34_Label5 {
+	@include font-weight-bold(true);
+}
+#AreaPageInfoP34_Label6 {
+	@include elemAutoHeight(30);
+}
+#AreaPageInfoP34_Label6 {
+	@include elemTop(390);
+}
+#AreaPageInfoP34_Label6 {
+	@include elemLeft(758);
+}
+#AreaPageInfoP34_Label6 {
+	@include elemAutoWidth(258);
+}
+#AreaPageInfoP34_Label6 {
+		z-index: 6;
+}
+#AreaPageInfoP34_Label6 {
+		font-size: 20px;
+}
+#AreaPageInfoP34_Label6 {
+	@include font-weight-bold(true);
+}
+#AreaPageInfoP34_Label7 {
+	@include elemAutoHeight(30);
+}
+#AreaPageInfoP34_Label7 {
+	@include elemTop(436);
+}
+#AreaPageInfoP34_Label7 {
+	@include elemLeft(758);
+}
+#AreaPageInfoP34_Label7 {
+	@include elemAutoWidth(298);
+}
+#AreaPageInfoP34_Label7 {
+		z-index: 7;
+}
+#AreaPageInfoP34_Label7 {
+		font-size: 20px;
+}
+#AreaPageInfoP34_Label7 {
+	@include font-weight-bold(true);
+}
+#AreaPageInfoP34_Label8 {
+	@include elemAutoHeight(30);
+}
+#AreaPageInfoP34_Label8 {
+	@include elemTop(484);
+}
+#AreaPageInfoP34_Label8 {
+	@include elemLeft(758);
+}
+#AreaPageInfoP34_Label8 {
+	@include elemAutoWidth(284);
+}
+#AreaPageInfoP34_Label8 {
+		z-index: 8;
+}
+#AreaPageInfoP34_Label8 {
+		font-size: 20px;
+}
+#AreaPageInfoP34_Label8 {
+	@include font-weight-bold(true);
+}

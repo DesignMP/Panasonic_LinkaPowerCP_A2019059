@@ -1,0 +1,5 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
+$(AS_PROJECT_PATH)/Logical/Program/Pracovisko_2/P2_SkrutkovaciSet_MaticaM4/Variables.var
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/Global.typ
+$(AS_PROJECT_PATH)/Logical/Program/Pracovisko_2/P2_SkrutkovaciSet_MaticaM4/Types.typ

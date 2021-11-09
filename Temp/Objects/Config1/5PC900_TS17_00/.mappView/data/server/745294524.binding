@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1">
+  <Content id="AreaPageSetupP34_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P4_Vytah_KAM_Result_OFF" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageSetupP34_page1_ToggleSwitch_Vytah_KameraOFF" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P4_Vytah_KAM_Result_OFF" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageSetupP34_page1_ToggleSwitch_Vytah_KameraOFF" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageSetupP34_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P4_Etiketov_KAM_Result_OFF" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageSetupP34_page1_ToggleSwitch_Etiketovacka_KameraOFF" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P4_Etiketov_KAM_Result_OFF" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageSetupP34_page1_ToggleSwitch_Etiketovacka_KameraOFF" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageSetupP34_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobov_M5_Result_OFF" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageSetupP34_page1_ToggleSwitch_Skrutkovanie_M5_VysledkyOFF" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobov_M5_Result_OFF" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageSetupP34_page1_ToggleSwitch_Skrutkovanie_M5_VysledkyOFF" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageSetupP34_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobov_K40_Result_OFF" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageSetupP34_page1_ToggleSwitch_Skrutkovanie_K40_VysledkyOFF" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobov_K40_Result_OFF" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageSetupP34_page1_ToggleSwitch_Skrutkovanie_K40_VysledkyOFF" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageSetupP34_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobov_KAM_Result_OFF" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageSetupP34_page1_ToggleSwitch_Skrutkovanie_KameraOFF" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding><Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Srobov_KAM_Result_OFF" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageSetupP34_page1_ToggleSwitch_Skrutkovanie_KameraOFF" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageSetupP34_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:NameranyCas_InitTestera" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageSetupP34_page1_NumericOutput_PoziciaVysunutiaMaticovacky2" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageSetupP34_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:NameranyCas_PoslanieQRkodu" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageSetupP34_page1_NumericOutput_PoziciaVysunutiaMaticovacky3" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageSetupP34_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:NameranyCas_CelkovyCasTestovania" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageSetupP34_page1_NumericOutput_PoziciaVysunutiaMaticovacky4" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+  <Content id="AreaPageSetupP34_page1">
+    <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:NameranyCasPresunuSkrutky" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <Target xsi:type="brease" refId="AreaPageSetupP34_page1_NumericOutput_PoziciaVysunutiaMaticovacky7" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        </Binding>
+  </Content>
+</BindingDefinition>

@@ -1,0 +1,20 @@
+{
+  global:
+    CheckDivSint;
+    CheckDivUsint;
+    CheckDivInt;
+    CheckDivUint;
+    CheckDivDint;
+    CheckDivUdint;
+    CheckDivReal;
+    CheckDivLReal;
+    CheckBounds;
+    CheckRange;
+    CheckSignedSubrange;
+    CheckUnsignedSubrange;
+    CheckReadAccess;
+    CheckWriteAccess;
+    MakeEntry;
+  local:
+    *;
+ };

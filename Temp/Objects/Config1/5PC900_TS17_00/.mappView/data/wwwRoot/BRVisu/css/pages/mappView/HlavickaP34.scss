@@ -1,0 +1,596 @@
+﻿@import "mixins.scss";
+#HlavickaP34_ImageList2 {
+	@include elemTop(18);
+}
+#HlavickaP34_ImageList2 {
+	@include elemLeft(404);
+}
+#HlavickaP34_ImageList2 {
+	@include elemWidth(30);
+}
+#HlavickaP34_ImageList2 {
+	@include elemHeight(30);
+}
+#HlavickaP34_ImageList2 {
+		z-index: 1;
+}
+#HlavickaP34_ImageList2 {
+		border-style: none;
+}
+#HlavickaP34_ImageList2 {
+		border-width: 0px;
+}
+#HlavickaP34_ImageList3 {
+	@include elemTop(18);
+}
+#HlavickaP34_ImageList3 {
+	@include elemLeft(570);
+}
+#HlavickaP34_ImageList3 {
+	@include elemWidth(30);
+}
+#HlavickaP34_ImageList3 {
+	@include elemHeight(30);
+}
+#HlavickaP34_ImageList3 {
+		z-index: 4;
+}
+#HlavickaP34_ImageList3 {
+		border-style: none;
+}
+#HlavickaP34_ImageList3 {
+		border-width: 0px;
+}
+#HlavickaP34_Image1 {
+	@include elemTop(14);
+}
+#HlavickaP34_Image1 {
+	@include elemLeft(1126);
+}
+#HlavickaP34_Image1 {
+	@include elemAutoWidth(38);
+}
+#HlavickaP34_Image1 {
+	@include elemAutoHeight(38);
+}
+#HlavickaP34_Image1 {
+		z-index: 2;
+}
+#HlavickaP34_ButtonZadneDvereBunka3 {
+	@include elemTop(8);
+}
+#HlavickaP34_ButtonZadneDvereBunka3 {
+	@include elemLeft(398);
+}
+#HlavickaP34_ButtonZadneDvereBunka3 {
+	@include elemAutoWidth(150);
+}
+#HlavickaP34_ButtonZadneDvereBunka3 {
+	@include elemAutoHeight(50);
+}
+#HlavickaP34_ButtonZadneDvereBunka3 {
+		z-index: 0;
+}
+#HlavickaP34_ButtonZadneDvereBunka3 {
+	&:not(.disabled):not(.active):not(.checked){
+	@include backGroundGradient('');
+	}
+}
+#HlavickaP34_ButtonZadneDvereBunka3 {
+	&:not(.disabled):not(.active):not(.checked) span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#HlavickaP34_ButtonZadneDvereBunka3 {
+	@include text-alignment(right);
+}
+#HlavickaP34_ButtonZadneDvereBunka3 {
+	span{
+		font-size: 16px;
+	}
+}
+#HlavickaP34_ButtonZadneDvereBunka3 {
+	&:not(.active):not(.checked){
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#HlavickaP34_ButtonZadneDvereBunka3 {
+	&.disabled.active{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#HlavickaP34_ButtonZadneDvereBunka3 {
+	&.disabled.checked{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#HlavickaP34_ButtonPredneDvereLSBunka3 {
+	@include elemTop(8);
+}
+#HlavickaP34_ButtonPredneDvereLSBunka3 {
+	@include elemLeft(564);
+}
+#HlavickaP34_ButtonPredneDvereLSBunka3 {
+	@include elemAutoWidth(150);
+}
+#HlavickaP34_ButtonPredneDvereLSBunka3 {
+	@include elemAutoHeight(50);
+}
+#HlavickaP34_ButtonPredneDvereLSBunka3 {
+		z-index: 3;
+}
+#HlavickaP34_ButtonPredneDvereLSBunka3 {
+	&:not(.disabled):not(.active):not(.checked) span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#HlavickaP34_ButtonPredneDvereLSBunka3 {
+	@include text-alignment(right);
+}
+#HlavickaP34_ButtonPredneDvereLSBunka3 {
+	span{
+		font-size: 16px;
+	}
+}
+#HlavickaP34_ButtonPredneDvereLSBunka3 {
+	&:not(.active):not(.checked){
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#HlavickaP34_ButtonPredneDvereLSBunka3 {
+	&.disabled.active{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#HlavickaP34_ButtonPredneDvereLSBunka3 {
+	&.disabled.checked{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#HlavickaP34_DateTimeOutput1 {
+	@include elemTop(8);
+}
+#HlavickaP34_DateTimeOutput1 {
+	@include elemLeft(6);
+}
+#HlavickaP34_DateTimeOutput1 {
+	@include elemAutoWidth(207);
+}
+#HlavickaP34_DateTimeOutput1 {
+	@include elemAutoHeight(50);
+}
+#HlavickaP34_DateTimeOutput1 {
+		z-index: 5;
+}
+#HlavickaP34_DateTimeOutput1 {
+		border-width: 8px;
+}
+#HlavickaP34_DateTimeOutput1 {
+	@include border-radius(5px);
+}
+#HlavickaP34_DateTimeOutput1 {
+		background-color: rgba(211, 211, 211, 1);
+}
+#HlavickaP34_DateTimeOutput1 {
+	@include backGroundGradient('linear-gradient(to bottom, rgba(235,235,235,0.5) 0%, rgba(235,235,235,0.5) 100%)');
+}
+#HlavickaP34_DateTimeOutput1 {
+		border-color: rgba(153, 153, 153, 1);
+}
+#HlavickaP34_DateTimeOutput1 {
+		border-style: ridge;
+}
+#HlavickaP34_DateTimeOutput1 {
+	& span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#HlavickaP34_DateTimeOutput1 {
+	@include text-alignment(center);
+}
+#HlavickaP34_DateTimeOutput1 {
+		font-size: 20px;
+}
+#HlavickaP34_DateTimeOutput1 {
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+}
+#HlavickaP34_TextOut_WarningsP3 {
+	@include elemTop(62);
+}
+#HlavickaP34_TextOut_WarningsP3 {
+	@include elemLeft(8);
+}
+#HlavickaP34_TextOut_WarningsP3 {
+	@include elemAutoWidth(672);
+}
+#HlavickaP34_TextOut_WarningsP3 {
+	@include elemAutoHeight(35);
+}
+#HlavickaP34_TextOut_WarningsP3 {
+		z-index: 6;
+}
+#HlavickaP34_TextOut_WarningsP3 {
+		border-width: 4px;
+}
+#HlavickaP34_TextOut_WarningsP3 {
+	@include border-radius(2px);
+}
+#HlavickaP34_TextOut_WarningsP3 {
+		border-color: rgba(153, 153, 153, 1);
+}
+#HlavickaP34_TextOut_WarningsP3 {
+	&:before{
+		border-color: rgba(153, 153, 153, 1);
+	}
+}
+#HlavickaP34_TextOut_WarningsP3 {
+	&:after{
+		border-color: rgba(153, 153, 153, 1);
+	}
+}
+#HlavickaP34_TextOut_WarningsP3 {
+		border-style: ridge;
+}
+#HlavickaP34_TextOut_WarningsP3 {
+	&:before{
+		border-style: ridge;
+	}
+}
+#HlavickaP34_TextOut_WarningsP3 {
+	&:after{
+		border-style: ridge;
+	}
+}
+#HlavickaP34_TextOut_WarningsP3 {
+	& span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#HlavickaP34_TextOut_WarningsP3 {
+	@include text-alignment-all('center');
+}
+#HlavickaP34_TextOut_WarningsP3 {
+		font-size: 20px;
+}
+#HlavickaP34_TextOut_WarningsP3 {
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 0));
+}
+#HlavickaP34_TextOutput1 {
+	@include elemTop(8);
+}
+#HlavickaP34_TextOutput1 {
+	@include elemLeft(1174);
+}
+#HlavickaP34_TextOutput1 {
+	@include elemAutoWidth(184);
+}
+#HlavickaP34_TextOutput1 {
+	@include elemAutoHeight(50);
+}
+#HlavickaP34_TextOutput1 {
+		z-index: 7;
+}
+#HlavickaP34_TextOutput1 {
+		border-width: 8px;
+}
+#HlavickaP34_TextOutput1 {
+	@include border-radius(5px);
+}
+#HlavickaP34_TextOutput1 {
+		background-color: rgba(211, 211, 211, 1);
+}
+#HlavickaP34_TextOutput1 {
+	@include backGroundGradient('linear-gradient(to bottom, rgba(235,235,235,0.5) 0%, rgba(235,235,235,0.5) 100%)');
+}
+#HlavickaP34_TextOutput1 {
+		border-color: rgba(153, 153, 153, 1);
+}
+#HlavickaP34_TextOutput1 {
+	&:before{
+		border-color: rgba(153, 153, 153, 1);
+	}
+}
+#HlavickaP34_TextOutput1 {
+	&:after{
+		border-color: rgba(153, 153, 153, 1);
+	}
+}
+#HlavickaP34_TextOutput1 {
+		border-style: ridge;
+}
+#HlavickaP34_TextOutput1 {
+	&:before{
+		border-style: ridge;
+	}
+}
+#HlavickaP34_TextOutput1 {
+	&:after{
+		border-style: ridge;
+	}
+}
+#HlavickaP34_TextOutput1 {
+	& span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#HlavickaP34_TextOutput1 {
+	@include text-alignment-all('center');
+}
+#HlavickaP34_TextOutput1 {
+		font-size: 20px;
+}
+#HlavickaP34_TextOutput1 {
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+}
+#HlavickaP34_Image3 {
+	@include elemTop(9);
+}
+#HlavickaP34_Image3 {
+	@include elemLeft(1064);
+}
+#HlavickaP34_Image3 {
+	@include elemAutoWidth(48);
+}
+#HlavickaP34_Image3 {
+	@include elemAutoHeight(48);
+}
+#HlavickaP34_Image3 {
+		z-index: 8;
+}
+#HlavickaP34_ImageList4 {
+	@include elemTop(18);
+}
+#HlavickaP34_ImageList4 {
+	@include elemLeft(738);
+}
+#HlavickaP34_ImageList4 {
+	@include elemWidth(30);
+}
+#HlavickaP34_ImageList4 {
+	@include elemHeight(30);
+}
+#HlavickaP34_ImageList4 {
+		z-index: 10;
+}
+#HlavickaP34_ImageList4 {
+		border-style: none;
+}
+#HlavickaP34_ImageList4 {
+		border-width: 0px;
+}
+#HlavickaP34_ImageList5 {
+	@include elemTop(18);
+}
+#HlavickaP34_ImageList5 {
+	@include elemLeft(906);
+}
+#HlavickaP34_ImageList5 {
+	@include elemWidth(30);
+}
+#HlavickaP34_ImageList5 {
+	@include elemHeight(30);
+}
+#HlavickaP34_ImageList5 {
+		z-index: 12;
+}
+#HlavickaP34_ImageList5 {
+		border-style: none;
+}
+#HlavickaP34_ImageList5 {
+		border-width: 0px;
+}
+#HlavickaP34_ButtonPredneDverePSBunka3 {
+	@include elemTop(8);
+}
+#HlavickaP34_ButtonPredneDverePSBunka3 {
+	@include elemLeft(732);
+}
+#HlavickaP34_ButtonPredneDverePSBunka3 {
+	@include elemAutoWidth(150);
+}
+#HlavickaP34_ButtonPredneDverePSBunka3 {
+	@include elemAutoHeight(50);
+}
+#HlavickaP34_ButtonPredneDverePSBunka3 {
+		z-index: 9;
+}
+#HlavickaP34_ButtonPredneDverePSBunka3 {
+	&:not(.disabled):not(.active):not(.checked){
+	@include backGroundGradient('');
+	}
+}
+#HlavickaP34_ButtonPredneDverePSBunka3 {
+	&:not(.disabled):not(.active):not(.checked) span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#HlavickaP34_ButtonPredneDverePSBunka3 {
+	@include text-alignment(right);
+}
+#HlavickaP34_ButtonPredneDverePSBunka3 {
+	span{
+		font-size: 16px;
+	}
+}
+#HlavickaP34_ButtonPredneDverePSBunka3 {
+	&:not(.active):not(.checked){
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#HlavickaP34_ButtonPredneDverePSBunka3 {
+	&.disabled.active{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#HlavickaP34_ButtonPredneDverePSBunka3 {
+	&.disabled.checked{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#HlavickaP34_ButtonPredneDvereBunka4 {
+	@include elemTop(8);
+}
+#HlavickaP34_ButtonPredneDvereBunka4 {
+	@include elemLeft(900);
+}
+#HlavickaP34_ButtonPredneDvereBunka4 {
+	@include elemAutoWidth(150);
+}
+#HlavickaP34_ButtonPredneDvereBunka4 {
+	@include elemAutoHeight(50);
+}
+#HlavickaP34_ButtonPredneDvereBunka4 {
+		z-index: 11;
+}
+#HlavickaP34_ButtonPredneDvereBunka4 {
+	&:not(.disabled):not(.active):not(.checked) span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#HlavickaP34_ButtonPredneDvereBunka4 {
+	@include text-alignment(right);
+}
+#HlavickaP34_ButtonPredneDvereBunka4 {
+	span{
+		font-size: 16px;
+	}
+}
+#HlavickaP34_ButtonPredneDvereBunka4 {
+	&:not(.active):not(.checked){
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#HlavickaP34_ButtonPredneDvereBunka4 {
+	&.disabled.active{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#HlavickaP34_ButtonPredneDvereBunka4 {
+	&.disabled.checked{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#HlavickaP34_ButtonResetCS {
+	@include elemTop(8);
+}
+#HlavickaP34_ButtonResetCS {
+	@include elemLeft(230);
+}
+#HlavickaP34_ButtonResetCS {
+	@include elemAutoWidth(150);
+}
+#HlavickaP34_ButtonResetCS {
+	@include elemAutoHeight(50);
+}
+#HlavickaP34_ButtonResetCS {
+		z-index: 13;
+}
+#HlavickaP34_ButtonResetCS {
+	&:not(.disabled):not(.active):not(.checked){
+	@include backGroundGradient('');
+	}
+}
+#HlavickaP34_ButtonResetCS {
+	&:not(.disabled):not(.active):not(.checked) span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#HlavickaP34_ButtonResetCS {
+	@include text-alignment(right);
+}
+#HlavickaP34_ButtonResetCS {
+	span{
+		font-size: 16px;
+	}
+}
+#HlavickaP34_ButtonResetCS {
+	&:not(.active):not(.checked){
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#HlavickaP34_ButtonResetCS {
+	&.disabled.active{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#HlavickaP34_ButtonResetCS {
+	&.disabled.checked{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#HlavickaP34_Image2 {
+	@include elemTop(18);
+}
+#HlavickaP34_Image2 {
+	@include elemLeft(240);
+}
+#HlavickaP34_Image2 {
+	@include elemAutoWidth(30);
+}
+#HlavickaP34_Image2 {
+	@include elemAutoHeight(30);
+}
+#HlavickaP34_Image2 {
+		z-index: 14;
+}
+#HlavickaP34_TextOut_WarningsP4 {
+	@include elemTop(62);
+}
+#HlavickaP34_TextOut_WarningsP4 {
+	@include elemLeft(686);
+}
+#HlavickaP34_TextOut_WarningsP4 {
+	@include elemAutoWidth(672);
+}
+#HlavickaP34_TextOut_WarningsP4 {
+	@include elemAutoHeight(35);
+}
+#HlavickaP34_TextOut_WarningsP4 {
+		z-index: 15;
+}
+#HlavickaP34_TextOut_WarningsP4 {
+		border-width: 4px;
+}
+#HlavickaP34_TextOut_WarningsP4 {
+	@include border-radius(2px);
+}
+#HlavickaP34_TextOut_WarningsP4 {
+		border-color: rgba(153, 153, 153, 1);
+}
+#HlavickaP34_TextOut_WarningsP4 {
+	&:before{
+		border-color: rgba(153, 153, 153, 1);
+	}
+}
+#HlavickaP34_TextOut_WarningsP4 {
+	&:after{
+		border-color: rgba(153, 153, 153, 1);
+	}
+}
+#HlavickaP34_TextOut_WarningsP4 {
+		border-style: ridge;
+}
+#HlavickaP34_TextOut_WarningsP4 {
+	&:before{
+		border-style: ridge;
+	}
+}
+#HlavickaP34_TextOut_WarningsP4 {
+	&:after{
+		border-style: ridge;
+	}
+}
+#HlavickaP34_TextOut_WarningsP4 {
+	& span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#HlavickaP34_TextOut_WarningsP4 {
+	@include text-alignment-all('center');
+}
+#HlavickaP34_TextOut_WarningsP4 {
+		font-size: 20px;
+}
+#HlavickaP34_TextOut_WarningsP4 {
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 0));
+}

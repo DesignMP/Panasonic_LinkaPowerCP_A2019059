@@ -1,0 +1,516 @@
+#AreaPageManualMainP2_Image1 {
+  top: 0px;
+  position: absolute;
+}
+
+#AreaPageManualMainP2_Image1 {
+  left: 0px;
+  position: absolute;
+}
+
+#AreaPageManualMainP2_Image1 {
+  width: 1366px;
+}
+
+#AreaPageManualMainP2_Image1 {
+  height: 588px;
+}
+
+#AreaPageManualMainP2_Image1 {
+  z-index: 0;
+}
+
+#AreaPageManualMainP2_Image1 {
+  opacity: 0.2;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia {
+  top: 230px;
+  position: absolute;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia {
+  left: 76px;
+  position: absolute;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia {
+  width: 340px;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia {
+  height: 75px;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia {
+  z-index: 1;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia {
+  border-style: solid;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia.active {
+  border-style: solid;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia.checked {
+  border-style: solid;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia.disabled {
+  border-style: solid;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia {
+  border-radius: 8px;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia.active:not(.disabled) {
+  background-image: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%);
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia.checked:not(.disabled) {
+  background-image: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%);
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia:not(.disabled):not(.active):not(.checked) span {
+  color: black;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia.active:not(.disabled):not(.editMode) {
+  border-width: 1px 1px 1px 1px;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia.checked:not(.disabled) {
+  border-width: 1px 1px 1px 1px;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia.active:not(.disabled):not(.editMode) span {
+  color: black;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia.checked:not(.disabled) span {
+  color: black;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia span {
+  font-size: 20px;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia1 {
+  top: 112px;
+  position: absolute;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia1 {
+  left: 76px;
+  position: absolute;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia1 {
+  width: 340px;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia1 {
+  height: 75px;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia1 {
+  z-index: 2;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia1 {
+  border-style: solid;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia1.active {
+  border-style: solid;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia1.checked {
+  border-style: solid;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia1.disabled {
+  border-style: solid;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia1 {
+  border-radius: 8px;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia1.active:not(.disabled) {
+  background-image: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%);
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia1.checked:not(.disabled) {
+  background-image: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%);
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia1:not(.disabled):not(.active):not(.checked) span {
+  color: black;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia1.active:not(.disabled):not(.editMode) {
+  border-width: 1px 1px 1px 1px;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia1.checked:not(.disabled) {
+  border-width: 1px 1px 1px 1px;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia1.active:not(.disabled):not(.editMode) span {
+  color: black;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia1.checked:not(.disabled) span {
+  color: black;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia1 span {
+  font-size: 20px;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia1:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia1.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia1.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia2 {
+  top: 350px;
+  position: absolute;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia2 {
+  left: 76px;
+  position: absolute;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia2 {
+  width: 340px;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia2 {
+  height: 75px;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia2 {
+  z-index: 3;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia2 {
+  border-style: solid;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia2.active {
+  border-style: solid;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia2.checked {
+  border-style: solid;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia2.disabled {
+  border-style: solid;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia2 {
+  border-radius: 8px;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia2.active:not(.disabled) {
+  background-image: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%);
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia2.checked:not(.disabled) {
+  background-image: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%);
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia2:not(.disabled):not(.active):not(.checked) span {
+  color: black;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia2.active:not(.disabled):not(.editMode) {
+  border-width: 1px 1px 1px 1px;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia2.checked:not(.disabled) {
+  border-width: 1px 1px 1px 1px;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia2.active:not(.disabled):not(.editMode) span {
+  color: black;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia2.checked:not(.disabled) span {
+  color: black;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia2 span {
+  font-size: 20px;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia2:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia2.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia2.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia3 {
+  top: 112px;
+  position: absolute;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia3 {
+  left: 513px;
+  position: absolute;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia3 {
+  width: 340px;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia3 {
+  height: 75px;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia3 {
+  z-index: 4;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia3 {
+  border-style: solid;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia3.active {
+  border-style: solid;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia3.checked {
+  border-style: solid;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia3.disabled {
+  border-style: solid;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia3 {
+  border-radius: 8px;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia3.active:not(.disabled) {
+  background-image: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%);
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia3.checked:not(.disabled) {
+  background-image: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%);
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia3:not(.disabled):not(.active):not(.checked) span {
+  color: black;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia3.active:not(.disabled):not(.editMode) {
+  border-width: 1px 1px 1px 1px;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia3.checked:not(.disabled) {
+  border-width: 1px 1px 1px 1px;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia3.active:not(.disabled):not(.editMode) span {
+  color: black;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia3.checked:not(.disabled) span {
+  color: black;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia3 span {
+  font-size: 20px;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia3:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia3.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia3.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia4 {
+  top: 230px;
+  position: absolute;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia4 {
+  left: 513px;
+  position: absolute;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia4 {
+  width: 340px;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia4 {
+  height: 75px;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia4 {
+  z-index: 5;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia4 {
+  border-style: solid;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia4.active {
+  border-style: solid;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia4.checked {
+  border-style: solid;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia4.disabled {
+  border-style: solid;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia4 {
+  border-radius: 8px;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia4.active:not(.disabled) {
+  background-image: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%);
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia4.checked:not(.disabled) {
+  background-image: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%);
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia4:not(.disabled):not(.active):not(.checked) span {
+  color: black;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia4.active:not(.disabled):not(.editMode) {
+  border-width: 1px 1px 1px 1px;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia4.checked:not(.disabled) {
+  border-width: 1px 1px 1px 1px;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia4.active:not(.disabled):not(.editMode) span {
+  color: black;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia4.checked:not(.disabled) span {
+  color: black;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia4 span {
+  font-size: 20px;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia4:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia4.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageManualMainP2_NavigationButtonPageRR_ZakladanieTesnenia4.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageManualMainP2_Label1 {
+  top: 20px;
+  position: absolute;
+}
+
+#AreaPageManualMainP2_Label1 {
+  left: 483px;
+  position: absolute;
+}
+
+#AreaPageManualMainP2_Label1 {
+  width: 400px;
+}
+
+#AreaPageManualMainP2_Label1 {
+  height: 35px;
+}
+
+#AreaPageManualMainP2_Label1 {
+  z-index: 6;
+}
+
+#AreaPageManualMainP2_Label1 {
+  border-width: 5px;
+}
+
+#AreaPageManualMainP2_Label1 {
+  border-radius: 5px;
+}
+
+#AreaPageManualMainP2_Label1 {
+  border-style: ridge;
+}
+
+#AreaPageManualMainP2_Label1:before {
+  border-style: ridge;
+}
+
+#AreaPageManualMainP2_Label1:after {
+  border-style: ridge;
+}
+
+#AreaPageManualMainP2_Label1 span {
+  color: black;
+}
+
+#AreaPageManualMainP2_Label1 {
+  justify-content: center;
+  text-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#AreaPageManualMainP2_Label1 {
+  font-size: 20px;
+}
+
+#AreaPageManualMainP2_Label1 {
+  box-shadow: 4px 4px 14px black;
+}

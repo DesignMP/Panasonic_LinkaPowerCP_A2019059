@@ -1,0 +1,158 @@
+﻿@import "mixins.scss";
+@import "../../../../../types/Page_base";
+.system_brease_Page_style_default {
+@include system_brease_Page_base; 
+
+}
+@import "../../../../../types/Dialog_base";
+.system_brease_Dialog_style_default {
+@include system_brease_Dialog_base; 
+.breaseDialogWindowHeader {
+	background-image: linear-gradient(to bottom,#F7F7F7 0%,#C6C6C6 100%);
+}
+.breaseDialogWindowHeader .textDiv {
+	font-size: 20px;
+}
+.breaseDialogWindowHeader .textDiv {
+	color: rgba(0, 0, 0, 1);
+}
+@include border-radius(8px 8px 8px 8px);
+.breaseDialogWindowContentBox {
+@include border-bottom-right-radius(8px 8px 8px 8px);
+}
+.breaseDialogWindowContentBox {
+@include border-bottom-left-radius(8px 8px 8px 8px);
+}
+.breaseDialogWindowHeader {
+@include border-radius(8px 8px 8px 8px);
+}
+.breaseDialogWindowContentBox {
+	border-width: 2px;
+}
+.breaseDialogWindowContentBox {
+	border-color: #A899A0 #5F5F5F #5F5F5F #A899A0;
+}
+@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+
+}
+@import "../../../../../types/MessageBox_base";
+.system_brease_MessageBox_style_default {
+@include system_brease_MessageBox_base; 
+.breaseMessageBoxHeader {
+	background-image: linear-gradient(to bottom, #FFAA4D 0%,#FF8500 100%);
+}
+.breaseMessageBoxContentBox div.content {
+	font-size: 20px;
+}
+&.breaseMessageBox.breaseWindow .breaseMessageBoxHeader div {
+	font-size: 20px;
+}
+&.breaseMessageBox.breaseWindow .breaseMessageBoxHeader div {
+@include font-weight-bold(true);
+}
+.breaseMessageBoxContentBox {
+	background-color: rgba(253, 245, 230, 1);
+}
+.breaseMessageBoxContentBox div.content {
+	color: rgba(0, 0, 0, 1);
+}
+.breaseMessageBoxHeader {
+	border-radius: 8px 8px 0px 0px;
+}
+.messageBoxFooter {
+	border-radius: 8px 8px 0px 0px;
+}
+.breaseMessageBoxContentBox {
+	border-width: 1px;
+}
+.breaseMessageBoxContentBox {
+	border-color: rgba(0, 0, 0, 1);
+}
+.messageBoxButton {
+	border-style: solid;
+}
+.messageBoxButton:active {
+	border-style: solid;
+}
+.messageBoxButton.checked {
+	border-style: solid;
+}
+.messageBoxButton.disabled {
+	border-style: solid;
+}
+.messageBoxButton {
+@include border-radius(5px);
+}
+.messageBoxButton span {
+	font-size: 16px;
+}
+.messageBoxButton {
+	background-image: linear-gradient(to bottom,#F7F7F7 0%,#C6C6C6 100%);
+}
+.messageBoxButton span {
+	color: rgba(0, 0, 0, 1);
+}
+.messageBoxButton:not(.disabled) span {
+	color: rgba(0, 0, 0, 1);
+}
+.messageBoxButton.disabled span {
+	color: rgba(0, 0, 0, 1);
+}
+.messageBoxButton:not(.disabled):not(.editMode):active {
+	background-image: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%);
+}
+.messageBoxButton:not(.disabled):not(.editMode).checked {
+	background-image: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%);
+}
+@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+
+}
+@import "../../../../../types/Area_base";
+.system_brease_Area_style_default {
+@include system_brease_Area_base; 
+	background-color: #ffffff;
+
+}
+@import "../../../../../types/Scrollbar_base";
+.system_brease_Scrollbar_style_default {
+@include system_brease_Scrollbar_base; 
+.iScrollIndicator {
+	background-color: rgba(77,77,77,0.5);
+}
+.dataTables_scrollBody::-webkit-scrollbar-thumb {
+	background: rgba(77,77,77,0.5);
+}
+.iScrollIndicator {
+	border-color: rgba(214,214,214,0.9);
+}
+.dataTables_scrollBody::-webkit-scrollbar-thumb {
+	border-color: rgba(214,214,214,0.9);
+}
+
+}
+@import "../../../../../types/Tooltip_base";
+.system_brease_Tooltip_style_default {
+@include system_brease_Tooltip_base; 
+.tooltip-arrow {
+@include display(true);
+}
+.breaseTooltip .breaseTooltipText {
+	font-size: 14px;
+}
+.breaseTooltip {
+@include box-shadow(5px 5px 20px 0px rgba(62, 79, 92, 0.75));
+}
+.breaseTooltip {
+	border-color: #A899A0 #5F5F5F #5F5F5F #A899A0;
+}
+.tooltip-arrow .tooltip-arrow-border {
+	border-top-color: #A899A0 #5F5F5F #5F5F5F #A899A0;
+}
+
+}
+@import "../../../../../types/Area_base";
+.system_brease_Area_style_transparent {
+@include system_brease_Area_base; 
+	background-color: transparent;
+
+}

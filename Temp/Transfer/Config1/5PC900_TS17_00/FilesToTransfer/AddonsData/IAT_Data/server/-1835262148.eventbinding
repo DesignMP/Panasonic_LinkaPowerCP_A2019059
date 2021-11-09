@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Content id="AreaPageManualP4_Etiketovanie">
+    <EventBinding id="AreaPageManualP4_Etiketovanie.Button_HomingServaZdvihu.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageManualP4_Etiketovanie_Button_HomingServaZdvihu" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::P4_StoperE:Zdvih_HOME">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Content id="AreaPageManualP4_Etiketovanie">
+    <EventBinding id="AreaPageManualP4_Etiketovanie.Button_ZdvihCentrovania.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageManualP4_Etiketovanie_Button_ZdvihCentrovania" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::P4_StoperE:Centrovacku_VYSUN">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Content id="AreaPageManualP4_Etiketovanie">
+    <EventBinding id="AreaPageManualP4_Etiketovanie.Button_ZostupCentrovania.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageManualP4_Etiketovanie_Button_ZostupCentrovania" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::P4_StoperE:Centrovacku_ZASUN">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Content id="AreaPageManualP4_Etiketovanie">
+    <EventBinding id="AreaPageManualP4_Etiketovanie.Button_StartTestovacejSekvencie.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageManualP4_Etiketovanie_Button_StartTestovacejSekvencie" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::AsGlobalPV:P4_Etiketovacka.RR_TestovanieEtiketovania">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+</EventBindingDefinition>

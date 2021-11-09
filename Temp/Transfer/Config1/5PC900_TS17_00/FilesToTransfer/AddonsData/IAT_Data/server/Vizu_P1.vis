@@ -1,0 +1,155 @@
+
+<vdef:Visualization id="Vizu_P1" xmlns:vdef="http://www.br-automation.com/iat2015/visualizationDefinition/v2">
+	<StartPage pageRefId="PageBootP1" />
+	<Pages>
+		<Page refId="PageBootP1" />
+        <Page refId="PageAutomatP1" />
+        <Page refId="PageManualMainP1" />
+        <Page refId="PageManualP1_Dopravniky" />
+        <Page refId="PageManualP1_Vytah" />
+        <Page refId="PageManualP1_Skrutkovanie" />
+        <Page refId="PageManualP1_Skrutkovanie_page2" />
+        <Page refId="PageManualP1_Skrutkovanie_page3" />
+        <Page refId="PageAlarmP1" />
+		<Page refId="PageInfoP1" />
+        <Page refId="PageSetupP1_page1" />
+        <Page refId="PageParametreMainP1" />
+		<Page refId="PageParametreP1_page1" />
+        <Page refId="PageParametreP1_page2" />
+        <Page refId="PageStavyStanicP1" />
+        <Page refId="PageTolerancieSkrutkovaniaP1" />
+        <Page refId="PageUsers" />
+	</Pages>
+	<Navigations>
+		<!--<Navigation refId="" />-->
+	</Navigations>  
+	<BindingsSets>
+		<BindingsSet refId="1123621047" />
+		<BindingsSet refId="-1416699278" />
+		<BindingsSet refId="-1260519224" />
+        <BindingsSet refId="636904812" />
+        <BindingsSet refId="361338106" />
+        <BindingsSet refId="-1327835269" />
+        <BindingsSet refId="-1420650861" />
+		<BindingsSet refId="-870634610" />
+		<BindingsSet refId="-306666370" />
+        <BindingsSet refId="1089921054" />
+        <BindingsSet refId="456830551" />
+        <BindingsSet refId="-23376419" />
+	</BindingsSets>
+	
+    
+    
+    
+	<EventBindingsSets>
+		<EventBindingsSet refId="1825503831" />
+		<EventBindingsSet refId="-554006622" />
+		<EventBindingsSet refId="122557236" />
+		<EventBindingsSet refId="2004705158" />
+        <EventBindingsSet refId="-1848853050" />
+        <EventBindingsSet refId="-1194091324" />
+        <EventBindingsSet refId="1731708843" />
+        <EventBindingsSet refId="1647287867" />
+		<EventBindingsSet refId="-1697629772" />
+		<EventBindingsSet refId="434449908" />
+        <EventBindingsSet refId="185464128" />
+        <EventBindingsSet refId="-198466187" />
+	</EventBindingsSets>
+	<Dialogs>
+		<Dialog refId="LoginDialogP1" />
+        <Dialog refId="TimeDialogP1" />
+        <Dialog refId="Hlasenie1_ST1" />
+        <Dialog refId="Hlasenie2_ST1" />
+        <Dialog refId="Hlasenie3_ST1" />
+        <Dialog refId="Hlasenie4_ST1" />
+        <Dialog refId="Hlasenie5_ST1" />
+        <Dialog refId="Hlasenie6_ST1" />
+        <Dialog refId="Hlasenie7_ST1" />
+        <Dialog refId="Hlasenie8_ST1" />
+        <Dialog refId="Hlasenie9_ST1" />
+        <Dialog refId="Hlasenie10_ST1" />
+        <Dialog refId="Hlasenie11_ST1" />
+        <Dialog refId="Hlasenie12_ST1" />
+        <Dialog refId="Hlasenie13_ST1" />
+        <Dialog refId="Hlasenie14_ST1" />
+        <Dialog refId="Hlasenie1_ST2" />
+        <Dialog refId="Hlasenie2_ST2" />
+        <Dialog refId="Hlasenie3_ST2" />
+        <Dialog refId="Hlasenie4_ST2" />
+        <Dialog refId="Hlasenie5_ST2" />
+        <Dialog refId="Hlasenie6_ST2" />
+        <Dialog refId="Hlasenie7_ST2" />
+        <Dialog refId="Hlasenie8_ST2" />
+        <Dialog refId="Hlasenie9_ST2" />
+	</Dialogs>
+	<Contents>
+		<Content refId="AreaPageBootP1" />
+        <Content refId="AreaPageAutomatP1" />
+        <Content refId="AreaPageManualMainP1" />
+        <Content refId="AreaPageManualP1_Dopravniky" />
+        <Content refId="AreaPageManualP1_Vytah" />
+        <Content refId="AreaPageManualP1_Skrutkovanie" />
+        <Content refId="AreaPageManualP1_Skrutkovanie_page2" />
+        <Content refId="AreaPageManualP1_Skrutkovanie_page3" />
+        <Content refId="AreaPageAlarmP1" />
+        <Content refId="AreaPageInfoP1" />
+        <Content refId="AreaHlasenie1_ST1" />
+        <Content refId="AreaHlasenie2_ST1" />
+        <Content refId="AreaHlasenie3_ST1" />
+        <Content refId="AreaHlasenie4_ST1" />
+        <Content refId="AreaHlasenie5_ST1" />
+        <Content refId="AreaHlasenie6_ST1" />
+        <Content refId="AreaHlasenie7_ST1" />
+        <Content refId="AreaHlasenie8_ST1" />
+        <Content refId="AreaHlasenie9_ST1" />
+        <Content refId="AreaHlasenie10_ST1" />
+        <Content refId="AreaHlasenie11_ST1" />
+        <Content refId="AreaHlasenie12_ST1" />
+        <Content refId="AreaHlasenie13_ST1" />
+        <Content refId="AreaHlasenie14_ST1" />
+        <Content refId="AreaHlasenie1_ST2" />
+        <Content refId="AreaHlasenie2_ST2" />
+        <Content refId="AreaHlasenie3_ST2" />
+        <Content refId="AreaHlasenie4_ST2" />
+        <Content refId="AreaHlasenie5_ST2" />
+        <Content refId="AreaHlasenie6_ST2" />
+        <Content refId="AreaHlasenie7_ST2" />
+        <Content refId="AreaHlasenie8_ST2" />
+        <Content refId="AreaHlasenie9_ST2" />
+        <Content refId="AreaPageSetupP1_page1" />
+        <Content refId="AreaPageParametreMainP1" />
+		<Content refId="AreaPageParametreP1_page1" />
+        <Content refId="AreaPageParametreP1_page2" />
+        <Content refId="AreaPageStavyStanicP1" />
+        <Content refId="AreaPageTolerancieSkrutkovaniaP1" />
+        <Content refId="AreaPageUsers" />
+        <Content refId="AreaLoginP1" />
+        <Content refId="AreaTimeP1" />
+	</Contents>
+	<SnippetsSets>
+		<SnippetsSet refId="Snippets" /> 
+		<SnippetsSet refId="StavyUsers_snippet" />
+	</SnippetsSets>
+	<ExpressionsSets>
+		<!--<ExpressionsSet refId=""/>-->
+	</ExpressionsSets>
+	<VariablesSets>
+		<!--<VariablesSet refId="" />-->
+	</VariablesSets>
+	<StartTheme themeRefId="BuRTheme1" />
+	<Themes>
+		<Theme refId="BuRTheme1" />
+	</Themes>
+	<Configurations>
+		<Configuration key="activityCount" value="false" />
+		<Configuration key="zoom" value="true" />
+		<Gestures>
+			<!--<SystemGesture1 touchPoints="2" />
+			<SystemGesture2 touchPoints="2" />
+			<SystemGesture3 touchPoints="2" />-->
+		</Gestures>
+		<VirtualKeyboards>
+			<!--<InputProcessing onKeyDown="true" />-->
+		</VirtualKeyboards> 
+	</Configurations>
+</vdef:Visualization>

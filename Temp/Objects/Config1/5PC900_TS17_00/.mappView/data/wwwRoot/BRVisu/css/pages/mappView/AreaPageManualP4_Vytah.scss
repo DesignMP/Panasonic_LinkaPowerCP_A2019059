@@ -1,0 +1,791 @@
+﻿@import "mixins.scss";
+#AreaPageManualP4_Vytah_Image1 {
+	@include elemTop(0);
+}
+#AreaPageManualP4_Vytah_Image1 {
+	@include elemLeft(0);
+}
+#AreaPageManualP4_Vytah_Image1 {
+	@include elemAutoWidth(1366);
+}
+#AreaPageManualP4_Vytah_Image1 {
+	@include elemAutoHeight(588);
+}
+#AreaPageManualP4_Vytah_Image1 {
+		z-index: 0;
+}
+#AreaPageManualP4_Vytah_Image1 {
+		opacity: 0.2;
+}
+#AreaPageManualP4_Vytah_Label1 {
+	@include elemTop(20);
+}
+#AreaPageManualP4_Vytah_Label1 {
+	@include elemLeft(483);
+}
+#AreaPageManualP4_Vytah_Label1 {
+	@include elemAutoWidth(400);
+}
+#AreaPageManualP4_Vytah_Label1 {
+	@include elemAutoHeight(35);
+}
+#AreaPageManualP4_Vytah_Label1 {
+		z-index: 1;
+}
+#AreaPageManualP4_Vytah_Label1 {
+		border-width: 5px;
+}
+#AreaPageManualP4_Vytah_Label1 {
+	@include border-radius(5px);
+}
+#AreaPageManualP4_Vytah_Label1 {
+		border-style: ridge;
+}
+#AreaPageManualP4_Vytah_Label1 {
+	&:before{
+		border-style: ridge;
+	}
+}
+#AreaPageManualP4_Vytah_Label1 {
+	&:after{
+		border-style: ridge;
+	}
+}
+#AreaPageManualP4_Vytah_Label1 {
+	& span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualP4_Vytah_Label1 {
+	@include text-alignment-all('center');
+}
+#AreaPageManualP4_Vytah_Label1 {
+		font-size: 20px;
+}
+#AreaPageManualP4_Vytah_Label1 {
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+}
+#AreaPageManualP4_Vytah_GroupBox_OvladanieDopravnikov {
+	@include elemTop(68);
+}
+#AreaPageManualP4_Vytah_GroupBox_OvladanieDopravnikov {
+	@include elemLeft(18);
+}
+#AreaPageManualP4_Vytah_GroupBox_OvladanieDopravnikov {
+	@include elemWidth(430);
+}
+#AreaPageManualP4_Vytah_GroupBox_OvladanieDopravnikov {
+	@include elemHeight(250);
+}
+#AreaPageManualP4_Vytah_GroupBox_OvladanieDopravnikov {
+		z-index: 2;
+}
+#AreaPageManualP4_Vytah_GroupBox_OvladanieDopravnikov {
+		background-color: rgba(253, 245, 230, 1);
+}
+#AreaPageManualP4_Vytah_GroupBox_OvladanieDopravnikov {
+	> .header span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualP4_Vytah_GroupBox_OvladanieDopravnikov {
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+}
+#AreaPageManualP4_Vytah_ImageList19 {
+	@include elemTop(21);
+}
+#AreaPageManualP4_Vytah_ImageList19 {
+	@include elemLeft(175);
+}
+#AreaPageManualP4_Vytah_ImageList19 {
+	@include elemWidth(25);
+}
+#AreaPageManualP4_Vytah_ImageList19 {
+	@include elemHeight(25);
+}
+#AreaPageManualP4_Vytah_ImageList19 {
+		z-index: 3;
+}
+#AreaPageManualP4_Vytah_ImageList19 {
+		border-style: none;
+}
+#AreaPageManualP4_Vytah_ImageList19 {
+		border-width: 0px;
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_DopravnikVZAD {
+	@include elemTop(117);
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_DopravnikVZAD {
+	@include elemLeft(11);
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_DopravnikVZAD {
+	@include elemAutoWidth(165);
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_DopravnikVZAD {
+	@include elemAutoHeight(45);
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_DopravnikVZAD {
+		z-index: 0;
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_DopravnikVZAD {
+	@include border-radius(10px);
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_DopravnikVZAD {
+	&:not(.disabled):not(.active):not(.checked) span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_DopravnikVZAD {
+	@include text-alignment(left);
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_DopravnikVZAD {
+	&:not(.active):not(.checked){
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_DopravnikVZAD {
+	&.disabled.active{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_DopravnikVZAD {
+	&.disabled.checked{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_DopravnikVPRED {
+	@include elemTop(117);
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_DopravnikVPRED {
+	@include elemLeft(251);
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_DopravnikVPRED {
+	@include elemAutoWidth(165);
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_DopravnikVPRED {
+	@include elemAutoHeight(45);
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_DopravnikVPRED {
+		z-index: 1;
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_DopravnikVPRED {
+	@include border-radius(10px);
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_DopravnikVPRED {
+	&:not(.disabled):not(.active):not(.checked) span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_DopravnikVPRED {
+	@include text-alignment(left);
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_DopravnikVPRED {
+	&:not(.active):not(.checked){
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_DopravnikVPRED {
+	&.disabled.active{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_DopravnikVPRED {
+	&.disabled.checked{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaPageManualP4_Vytah_Label15 {
+	@include elemTop(16);
+}
+#AreaPageManualP4_Vytah_Label15 {
+	@include elemLeft(11);
+}
+#AreaPageManualP4_Vytah_Label15 {
+	@include elemAutoWidth(195);
+}
+#AreaPageManualP4_Vytah_Label15 {
+	@include elemAutoHeight(35);
+}
+#AreaPageManualP4_Vytah_Label15 {
+		z-index: 2;
+}
+#AreaPageManualP4_Vytah_Label15 {
+		border-width: 2px;
+}
+#AreaPageManualP4_Vytah_Label15 {
+	@include border-radius(5px);
+}
+#AreaPageManualP4_Vytah_Label15 {
+		background-color: rgba(192, 192, 192, 1);
+}
+#AreaPageManualP4_Vytah_Label15 {
+		border-color: rgba(0, 0, 0, 1);
+}
+#AreaPageManualP4_Vytah_Label15 {
+	&:before{
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualP4_Vytah_Label15 {
+	&:after{
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualP4_Vytah_Label15 {
+		border-style: outset;
+}
+#AreaPageManualP4_Vytah_Label15 {
+	&:before{
+		border-style: outset;
+	}
+}
+#AreaPageManualP4_Vytah_Label15 {
+	&:after{
+		border-style: outset;
+	}
+}
+#AreaPageManualP4_Vytah_Label15 {
+	& span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualP4_Vytah_Label15 {
+		font-size: 14px;
+}
+#AreaPageManualP4_Vytah_Label15 {
+	@include font-weight-bold(true);
+}
+#AreaPageManualP4_Vytah_GroupBox2 {
+	@include elemTop(68);
+}
+#AreaPageManualP4_Vytah_GroupBox2 {
+	@include elemLeft(468);
+}
+#AreaPageManualP4_Vytah_GroupBox2 {
+	@include elemWidth(430);
+}
+#AreaPageManualP4_Vytah_GroupBox2 {
+	@include elemHeight(510);
+}
+#AreaPageManualP4_Vytah_GroupBox2 {
+		z-index: 3;
+}
+#AreaPageManualP4_Vytah_GroupBox2 {
+		background-color: rgba(253, 245, 230, 1);
+}
+#AreaPageManualP4_Vytah_GroupBox2 {
+	> .header span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualP4_Vytah_GroupBox2 {
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+}
+#AreaPageManualP4_Vytah_Button_HomingServaZdvihu {
+	@include elemTop(11);
+}
+#AreaPageManualP4_Vytah_Button_HomingServaZdvihu {
+	@include elemLeft(11);
+}
+#AreaPageManualP4_Vytah_Button_HomingServaZdvihu {
+	@include elemAutoWidth(165);
+}
+#AreaPageManualP4_Vytah_Button_HomingServaZdvihu {
+	@include elemAutoHeight(45);
+}
+#AreaPageManualP4_Vytah_Button_HomingServaZdvihu {
+		z-index: 0;
+}
+#AreaPageManualP4_Vytah_Button_HomingServaZdvihu {
+	@include border-radius(10px);
+}
+#AreaPageManualP4_Vytah_Button_HomingServaZdvihu {
+	&:not(.disabled):not(.active):not(.checked) span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualP4_Vytah_Button_HomingServaZdvihu {
+	@include text-alignment(left);
+}
+#AreaPageManualP4_Vytah_Button_HomingServaZdvihu {
+	&:not(.active):not(.checked){
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaPageManualP4_Vytah_Button_HomingServaZdvihu {
+	&.disabled.active{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaPageManualP4_Vytah_Button_HomingServaZdvihu {
+	&.disabled.checked{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaPageManualP4_Vytah_ImageList6 {
+	@include elemTop(21);
+}
+#AreaPageManualP4_Vytah_ImageList6 {
+	@include elemLeft(137);
+}
+#AreaPageManualP4_Vytah_ImageList6 {
+	@include elemWidth(25);
+}
+#AreaPageManualP4_Vytah_ImageList6 {
+	@include elemHeight(25);
+}
+#AreaPageManualP4_Vytah_ImageList6 {
+		z-index: 1;
+}
+#AreaPageManualP4_Vytah_ImageList6 {
+		border-style: none;
+}
+#AreaPageManualP4_Vytah_ImageList6 {
+		border-width: 0px;
+}
+#AreaPageManualP4_Vytah_NumericInput_ZdvihZadanaRychlost {
+	@include elemHeight(30);
+}
+#AreaPageManualP4_Vytah_NumericInput_ZdvihZadanaRychlost {
+	@include elemTop(175);
+}
+#AreaPageManualP4_Vytah_NumericInput_ZdvihZadanaRychlost {
+	@include elemLeft(236);
+}
+#AreaPageManualP4_Vytah_NumericInput_ZdvihZadanaRychlost {
+	@include elemWidth(165);
+}
+#AreaPageManualP4_Vytah_NumericInput_ZdvihZadanaRychlost {
+		z-index: 8;
+}
+#AreaPageManualP4_Vytah_NumericInput_ZdvihZadanaRychlost {
+	&:not(.active):not(.disabled){
+		border-width: 2px 4px 2px 2px;
+	}
+}
+#AreaPageManualP4_Vytah_NumericInput_ZdvihZadanaRychlost {
+	input{
+		font-size: 18px;
+	}
+}
+#AreaPageManualP4_Vytah_NumericInput_ZdvihZadanaRychlost {
+	@include box-shadow(4px 4px 8px rgba(0, 0, 0, 1));
+}
+#AreaPageManualP4_Vytah_NumericOutput_ZdvihAktualnaPozicia {
+	@include elemAutoHeight(30);
+}
+#AreaPageManualP4_Vytah_NumericOutput_ZdvihAktualnaPozicia {
+	@include elemTop(175);
+}
+#AreaPageManualP4_Vytah_NumericOutput_ZdvihAktualnaPozicia {
+	@include elemLeft(26);
+}
+#AreaPageManualP4_Vytah_NumericOutput_ZdvihAktualnaPozicia {
+	@include elemAutoWidth(165);
+}
+#AreaPageManualP4_Vytah_NumericOutput_ZdvihAktualnaPozicia {
+		z-index: 7;
+}
+#AreaPageManualP4_Vytah_NumericOutput_ZdvihAktualnaPozicia {
+		border-width: 4px;
+}
+#AreaPageManualP4_Vytah_NumericOutput_ZdvihAktualnaPozicia {
+		border-style: ridge;
+}
+#AreaPageManualP4_Vytah_NumericOutput_ZdvihAktualnaPozicia {
+	input{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualP4_Vytah_NumericOutput_ZdvihAktualnaPozicia {
+	span.breaseNumericOutput_unit{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualP4_Vytah_NumericOutput_ZdvihAktualnaPozicia {
+	input{
+		font-size: 16px;
+	}
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_JoggZdvihuDOLE {
+	@include elemTop(79);
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_JoggZdvihuDOLE {
+	@include elemLeft(11);
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_JoggZdvihuDOLE {
+	@include elemAutoWidth(165);
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_JoggZdvihuDOLE {
+	@include elemAutoHeight(45);
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_JoggZdvihuDOLE {
+		z-index: 2;
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_JoggZdvihuDOLE {
+	@include border-radius(10px);
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_JoggZdvihuDOLE {
+	&:not(.disabled):not(.active):not(.checked) span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_JoggZdvihuDOLE {
+	@include text-alignment(left);
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_JoggZdvihuDOLE {
+	&:not(.active):not(.checked){
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_JoggZdvihuDOLE {
+	&.disabled.active{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_JoggZdvihuDOLE {
+	&.disabled.checked{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_JoggZdvihuHORE {
+	@include elemTop(79);
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_JoggZdvihuHORE {
+	@include elemLeft(251);
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_JoggZdvihuHORE {
+	@include elemAutoWidth(165);
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_JoggZdvihuHORE {
+	@include elemAutoHeight(45);
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_JoggZdvihuHORE {
+		z-index: 3;
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_JoggZdvihuHORE {
+	@include border-radius(10px);
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_JoggZdvihuHORE {
+	&:not(.disabled):not(.active):not(.checked) span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_JoggZdvihuHORE {
+	@include text-alignment(left);
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_JoggZdvihuHORE {
+	&:not(.active):not(.checked){
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_JoggZdvihuHORE {
+	&.disabled.active{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaPageManualP4_Vytah_MomentaryPushButton_JoggZdvihuHORE {
+	&.disabled.checked{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaPageManualP4_Vytah_ImageList15 {
+	@include elemTop(236);
+}
+#AreaPageManualP4_Vytah_ImageList15 {
+	@include elemLeft(176);
+}
+#AreaPageManualP4_Vytah_ImageList15 {
+	@include elemWidth(25);
+}
+#AreaPageManualP4_Vytah_ImageList15 {
+	@include elemHeight(25);
+}
+#AreaPageManualP4_Vytah_ImageList15 {
+		z-index: 11;
+}
+#AreaPageManualP4_Vytah_ImageList15 {
+		border-style: none;
+}
+#AreaPageManualP4_Vytah_ImageList15 {
+		border-width: 0px;
+}
+#AreaPageManualP4_Vytah_Line3 {
+		z-index: 4;
+}
+#AreaPageManualP4_Vytah_Line3 {
+	line{
+		stroke-width: 2px;
+	}
+}
+#AreaPageManualP4_Vytah_ImageList16 {
+	@include elemTop(281);
+}
+#AreaPageManualP4_Vytah_ImageList16 {
+	@include elemLeft(176);
+}
+#AreaPageManualP4_Vytah_ImageList16 {
+	@include elemWidth(25);
+}
+#AreaPageManualP4_Vytah_ImageList16 {
+	@include elemHeight(25);
+}
+#AreaPageManualP4_Vytah_ImageList16 {
+		z-index: 12;
+}
+#AreaPageManualP4_Vytah_ImageList16 {
+		border-style: none;
+}
+#AreaPageManualP4_Vytah_ImageList16 {
+		border-width: 0px;
+}
+#AreaPageManualP4_Vytah_Label27 {
+	@include elemTop(139);
+}
+#AreaPageManualP4_Vytah_Label27 {
+	@include elemLeft(11);
+}
+#AreaPageManualP4_Vytah_Label27 {
+	@include elemAutoWidth(195);
+}
+#AreaPageManualP4_Vytah_Label27 {
+	@include elemAutoHeight(77);
+}
+#AreaPageManualP4_Vytah_Label27 {
+		z-index: 5;
+}
+#AreaPageManualP4_Vytah_Label27 {
+		border-width: 2px;
+}
+#AreaPageManualP4_Vytah_Label27 {
+	@include border-radius(5px);
+}
+#AreaPageManualP4_Vytah_Label27 {
+		background-color: rgba(192, 192, 192, 1);
+}
+#AreaPageManualP4_Vytah_Label27 {
+		border-color: rgba(0, 0, 0, 1);
+}
+#AreaPageManualP4_Vytah_Label27 {
+	&:before{
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualP4_Vytah_Label27 {
+	&:after{
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualP4_Vytah_Label27 {
+		border-style: outset;
+}
+#AreaPageManualP4_Vytah_Label27 {
+	&:before{
+		border-style: outset;
+	}
+}
+#AreaPageManualP4_Vytah_Label27 {
+	&:after{
+		border-style: outset;
+	}
+}
+#AreaPageManualP4_Vytah_Label27 {
+	& span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualP4_Vytah_Label27 {
+	@include text-alignment-all('center top');
+}
+#AreaPageManualP4_Vytah_Label27 {
+		font-size: 14px;
+}
+#AreaPageManualP4_Vytah_Label27 {
+	@include font-weight-bold(true);
+}
+#AreaPageManualP4_Vytah_Label28 {
+	@include elemTop(139);
+}
+#AreaPageManualP4_Vytah_Label28 {
+	@include elemLeft(221);
+}
+#AreaPageManualP4_Vytah_Label28 {
+	@include elemAutoWidth(195);
+}
+#AreaPageManualP4_Vytah_Label28 {
+	@include elemAutoHeight(77);
+}
+#AreaPageManualP4_Vytah_Label28 {
+		z-index: 6;
+}
+#AreaPageManualP4_Vytah_Label28 {
+		border-width: 2px;
+}
+#AreaPageManualP4_Vytah_Label28 {
+	@include border-radius(5px);
+}
+#AreaPageManualP4_Vytah_Label28 {
+		background-color: rgba(192, 192, 192, 1);
+}
+#AreaPageManualP4_Vytah_Label28 {
+		border-color: rgba(0, 0, 0, 1);
+}
+#AreaPageManualP4_Vytah_Label28 {
+	&:before{
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualP4_Vytah_Label28 {
+	&:after{
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualP4_Vytah_Label28 {
+		border-style: outset;
+}
+#AreaPageManualP4_Vytah_Label28 {
+	&:before{
+		border-style: outset;
+	}
+}
+#AreaPageManualP4_Vytah_Label28 {
+	&:after{
+		border-style: outset;
+	}
+}
+#AreaPageManualP4_Vytah_Label28 {
+	& span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualP4_Vytah_Label28 {
+	@include text-alignment-all('center top');
+}
+#AreaPageManualP4_Vytah_Label28 {
+		font-size: 14px;
+}
+#AreaPageManualP4_Vytah_Label28 {
+	@include font-weight-bold(true);
+}
+#AreaPageManualP4_Vytah_Label11 {
+	@include elemTop(231);
+}
+#AreaPageManualP4_Vytah_Label11 {
+	@include elemLeft(11);
+}
+#AreaPageManualP4_Vytah_Label11 {
+	@include elemAutoWidth(195);
+}
+#AreaPageManualP4_Vytah_Label11 {
+	@include elemAutoHeight(35);
+}
+#AreaPageManualP4_Vytah_Label11 {
+		z-index: 9;
+}
+#AreaPageManualP4_Vytah_Label11 {
+		border-width: 2px;
+}
+#AreaPageManualP4_Vytah_Label11 {
+	@include border-radius(5px);
+}
+#AreaPageManualP4_Vytah_Label11 {
+		background-color: rgba(192, 192, 192, 1);
+}
+#AreaPageManualP4_Vytah_Label11 {
+		border-color: rgba(0, 0, 0, 1);
+}
+#AreaPageManualP4_Vytah_Label11 {
+	&:before{
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualP4_Vytah_Label11 {
+	&:after{
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualP4_Vytah_Label11 {
+		border-style: outset;
+}
+#AreaPageManualP4_Vytah_Label11 {
+	&:before{
+		border-style: outset;
+	}
+}
+#AreaPageManualP4_Vytah_Label11 {
+	&:after{
+		border-style: outset;
+	}
+}
+#AreaPageManualP4_Vytah_Label11 {
+	& span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualP4_Vytah_Label11 {
+		font-size: 14px;
+}
+#AreaPageManualP4_Vytah_Label11 {
+	@include font-weight-bold(true);
+}
+#AreaPageManualP4_Vytah_Label12 {
+	@include elemTop(276);
+}
+#AreaPageManualP4_Vytah_Label12 {
+	@include elemLeft(11);
+}
+#AreaPageManualP4_Vytah_Label12 {
+	@include elemAutoWidth(195);
+}
+#AreaPageManualP4_Vytah_Label12 {
+	@include elemAutoHeight(35);
+}
+#AreaPageManualP4_Vytah_Label12 {
+		z-index: 10;
+}
+#AreaPageManualP4_Vytah_Label12 {
+		border-width: 2px;
+}
+#AreaPageManualP4_Vytah_Label12 {
+	@include border-radius(5px);
+}
+#AreaPageManualP4_Vytah_Label12 {
+		background-color: rgba(192, 192, 192, 1);
+}
+#AreaPageManualP4_Vytah_Label12 {
+		border-color: rgba(0, 0, 0, 1);
+}
+#AreaPageManualP4_Vytah_Label12 {
+	&:before{
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualP4_Vytah_Label12 {
+	&:after{
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualP4_Vytah_Label12 {
+		border-style: outset;
+}
+#AreaPageManualP4_Vytah_Label12 {
+	&:before{
+		border-style: outset;
+	}
+}
+#AreaPageManualP4_Vytah_Label12 {
+	&:after{
+		border-style: outset;
+	}
+}
+#AreaPageManualP4_Vytah_Label12 {
+	& span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualP4_Vytah_Label12 {
+		font-size: 14px;
+}
+#AreaPageManualP4_Vytah_Label12 {
+	@include font-weight-bold(true);
+}

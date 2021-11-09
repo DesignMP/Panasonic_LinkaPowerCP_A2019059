@@ -1,0 +1,14 @@
+{
+  global:
+    TP_Init;
+    TP_Info;
+    TP_Unlock;
+    TP_Lock;
+    TP_PWProtect;
+    TP_OnOff;
+    TP_Crc;
+    TP_Write;
+    TP_Read;
+  local:
+    *;
+ };

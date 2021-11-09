@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Content id="AreaPageManualP2_Zvaranie">
+    <EventBinding id="AreaPageManualP2_Zvaranie.Button_HomingServaZdvihu.Click">
+			<Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageManualP2_Zvaranie_Button_HomingServaZdvihu" />
+			<EventHandler>
+				<Action>
+					<Target type="opcUa.NodeAction" refId="::P2_Zvarani:Zdvih_HOME">
+						<Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="AreaPageManualP2_Zvaranie">
+    <EventBinding id="AreaPageManualP2_Zvaranie.Button_PresunVPRAVO.Click">
+			<Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageManualP2_Zvaranie_Button_PresunVPRAVO" />
+			<EventHandler>
+				<Action>
+					<Target type="opcUa.NodeAction" refId="::P2_Zvarani:PresunVPRAVO">
+						<Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="AreaPageManualP2_Zvaranie">
+    <EventBinding id="AreaPageManualP2_Zvaranie.Button_PresunVLAVO.Click">
+			<Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageManualP2_Zvaranie_Button_PresunVLAVO" />
+			<EventHandler>
+				<Action>
+					<Target type="opcUa.NodeAction" refId="::P2_Zvarani:PresunVLAVO">
+						<Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="AreaPageManualP2_Zvaranie">
+    <EventBinding id="AreaPageManualP2_Zvaranie.Button_ZdvihCentrovania.Click">
+			<Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageManualP2_Zvaranie_Button_ZdvihCentrovania" />
+			<EventHandler>
+				<Action>
+					<Target type="opcUa.NodeAction" refId="::P2_Stoper1:Centrovacku_VYSUN">
+						<Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="AreaPageManualP2_Zvaranie">
+    <EventBinding id="AreaPageManualP2_Zvaranie.Button_ZostupCentrovania.Click">
+			<Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageManualP2_Zvaranie_Button_ZostupCentrovania" />
+			<EventHandler>
+				<Action>
+					<Target type="opcUa.NodeAction" refId="::P2_Stoper1:Centrovacku_ZASUN">
+						<Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="AreaPageManualP2_Zvaranie_page2">
+    <EventBinding id="AreaPageManualP2_Zvaranie_page2.Button_OtvorenieCistenia.Click">
+			<Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageManualP2_Zvaranie_page2_Button_OtvorenieCistenia" />
+			<EventHandler>
+				<Action>
+					<Target type="opcUa.NodeAction" refId="::P2_Cisteni:Dvere_OTVOR">
+						<Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="AreaPageManualP2_Zvaranie_page2">
+    <EventBinding id="AreaPageManualP2_Zvaranie_page2.Button_ZatvorenieCistenia.Click">
+			<Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageManualP2_Zvaranie_page2_Button_ZatvorenieCistenia" />
+			<EventHandler>
+				<Action>
+					<Target type="opcUa.NodeAction" refId="::P2_Cisteni:Dvere_ZATVOR">
+						<Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+</EventBindingDefinition>

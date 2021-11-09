@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Content id="AreaPageSetupP2_page1">
+    <EventBinding id="AreaPageSetupP2_page1.Button_ZaklTesnenia_IgnorujKameru.Click">
+			<Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageSetupP2_page1_Button_ZaklTesnenia_IgnorujKameru" />
+			<EventHandler>
+				<Action>
+					<Target type="opcUa.NodeAction" refId="::AsGlobalPV:P2_ZaklTesn_KAM_Result_Ignoruj">
+						<Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="AreaHlasenie1_ST3">
+    <EventBinding id="AreaHlasenie1_ST3.Button_ZaklTesnenia_IgnorujKameru.Click">
+			<Source type="widgets.brease.Button.Event" event="Click" refId="AreaHlasenie1_ST3_Button_ZaklTesnenia_IgnorujKameru" />
+			<EventHandler>
+				<Action>
+					<Target type="opcUa.NodeAction" refId="::AsGlobalPV:P2_ZaklTesn_KAM_Result_Ignoruj">
+						<Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="AreaHlasenie2_ST3">
+    <EventBinding id="AreaHlasenie2_ST3.Button_ZaklTesnenia_IgnorujKameru.Click">
+			<Source type="widgets.brease.Button.Event" event="Click" refId="AreaHlasenie2_ST3_Button_ZaklTesnenia_IgnorujKameru" />
+			<EventHandler>
+				<Action>
+					<Target type="opcUa.NodeAction" refId="::AsGlobalPV:P2_ZaklTesn_KAM_Result_Ignoruj">
+						<Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="AreaHlasenie3_ST3">
+    <EventBinding id="AreaHlasenie3_ST3.Button_ZaklTesnenia_IgnorujKameru.Click">
+			<Source type="widgets.brease.Button.Event" event="Click" refId="AreaHlasenie3_ST3_Button_ZaklTesnenia_IgnorujKameru" />
+			<EventHandler>
+				<Action>
+					<Target type="opcUa.NodeAction" refId="::AsGlobalPV:P2_ZaklTesn_KAM_Result_Ignoruj">
+						<Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+</EventBindingDefinition>

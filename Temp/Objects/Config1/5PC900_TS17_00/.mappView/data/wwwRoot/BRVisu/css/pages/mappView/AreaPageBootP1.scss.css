@@ -1,0 +1,106 @@
+#AreaPageBootP1_Image1 {
+  top: 0px;
+  position: absolute;
+}
+
+#AreaPageBootP1_Image1 {
+  left: 0px;
+  position: absolute;
+}
+
+#AreaPageBootP1_Image1 {
+  width: 1366px;
+}
+
+#AreaPageBootP1_Image1 {
+  height: 768px;
+}
+
+#AreaPageBootP1_Image1 {
+  z-index: 0;
+}
+
+#AreaPageBootP1_Image1 {
+  opacity: 1;
+}
+
+#AreaPageBootP1_Label1 {
+  top: 668px;
+  position: absolute;
+}
+
+#AreaPageBootP1_Label1 {
+  left: 244px;
+  position: absolute;
+}
+
+#AreaPageBootP1_Label1 {
+  width: 878px;
+}
+
+#AreaPageBootP1_Label1 {
+  height: 66px;
+}
+
+#AreaPageBootP1_Label1 {
+  z-index: 1;
+}
+
+#AreaPageBootP1_Label1 {
+  border-width: 5px;
+}
+
+#AreaPageBootP1_Label1 {
+  border-radius: 10px;
+}
+
+#AreaPageBootP1_Label1 {
+  background-color: lightgray;
+}
+
+#AreaPageBootP1_Label1 {
+  border-color: #999999;
+}
+
+#AreaPageBootP1_Label1:before {
+  border-color: #999999;
+}
+
+#AreaPageBootP1_Label1:after {
+  border-color: #999999;
+}
+
+#AreaPageBootP1_Label1 {
+  border-style: ridge;
+}
+
+#AreaPageBootP1_Label1:before {
+  border-style: ridge;
+}
+
+#AreaPageBootP1_Label1:after {
+  border-style: ridge;
+}
+
+#AreaPageBootP1_Label1 span {
+  color: black;
+}
+
+#AreaPageBootP1_Label1 {
+  justify-content: center;
+  text-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#AreaPageBootP1_Label1 {
+  font-size: 40px;
+}
+
+#AreaPageBootP1_Label1 {
+  font-weight: bold;
+}
+
+#AreaPageBootP1_Label1 {
+  box-shadow: 4px 4px 14px black;
+}

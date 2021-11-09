@@ -1,0 +1,458 @@
+﻿@import "mixins.scss";
+#AreaPageAlarmP1_Image1 {
+	@include elemTop(0);
+}
+#AreaPageAlarmP1_Image1 {
+	@include elemLeft(0);
+}
+#AreaPageAlarmP1_Image1 {
+	@include elemAutoWidth(1366);
+}
+#AreaPageAlarmP1_Image1 {
+	@include elemAutoHeight(588);
+}
+#AreaPageAlarmP1_Image1 {
+		z-index: 0;
+}
+#AreaPageAlarmP1_Image1 {
+		opacity: 0.2;
+}
+#AreaPageAlarmP1_TabControl1 {
+	@include elemTop(16);
+}
+#AreaPageAlarmP1_TabControl1 {
+	@include elemLeft(11);
+}
+#AreaPageAlarmP1_TabControl1 {
+	@include elemWidth(1340);
+}
+#AreaPageAlarmP1_TabControl1 {
+	@include elemHeight(560);
+}
+#AreaPageAlarmP1_TabControl1 {
+		z-index: 1;
+}
+#AreaPageAlarmP1_TabControl1 {
+	> .tabbar{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#AreaPageAlarmP1_TabControl1 {
+	> .tabItemContainer{
+		background-color: rgba(192, 192, 192, 1);
+	}
+}
+#AreaPageAlarmP1_TabControl1 {
+	> .tabItemContainer{
+		border-style: solid;
+	}
+}
+#AreaPageAlarmP1_TabControl1 {
+	> .tabItemContainer{
+		border-width: 1px;
+	}
+}
+#AreaPageAlarmP1_TabControl1 {
+	> .tabItemContainer{
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageAlarmP1_TabItem1_breaseTabItemTab {
+	&.tabItem{
+	@include elemWidth(670);
+	}
+}
+#AreaPageAlarmP1_TabItem1_breaseTabItemTab {
+	&.tabItem{
+	@include elemHeight(40);
+	}
+}
+#AreaPageAlarmP1_TabItem1 {
+		z-index: 0;
+}
+#AreaPageAlarmP1_TabItem1_breaseTabItemTab {
+	&.tabItem:not(.active){
+	@include border-radius(8px 8px 0px 0px);
+	}
+}
+#AreaPageAlarmP1_TabItem1_breaseTabItemTab {
+	&.tabItem:not(.active){
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageAlarmP1_TabItem1_breaseTabItemTab {
+	&.tabItem.active{
+		border-style: solid;
+	}
+}
+#AreaPageAlarmP1_TabItem1_breaseTabItemTab {
+	&.tabItem.active{
+	@include border-radius(0px 0px 0px 0px);
+	}
+}
+#AreaPageAlarmP1_TabItem1_breaseTabItemTab {
+	&.tabItem.active{
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageAlarmP1_TabItem1_breaseTabItemTab {
+	&.tabItem span{
+		font-size: 20px;
+	}
+}
+#AreaPageAlarmP1_AlarmList1 {
+	@include elemTop(7);
+}
+#AreaPageAlarmP1_AlarmList1 {
+	@include elemLeft(8);
+}
+#AreaPageAlarmP1_AlarmList1 {
+	@include elemWidth(1320);
+}
+#AreaPageAlarmP1_AlarmList1 {
+	@include elemHeight(440);
+}
+#AreaPageAlarmP1_AlarmList1 {
+		z-index: 0;
+}
+#AreaPageAlarmP1_AlarmList1 {
+	&.breaseTableWidget{
+		border-style: solid;
+	}
+}
+#AreaPageAlarmP1_AlarmList1 {
+	&.breaseTableWidget{
+		border-width: 1px;
+	}
+}
+#AreaPageAlarmP1_AlarmList1 {
+	&.breaseTableWidget{
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageAlarmP1_AlarmList1 {
+	&.breaseTableWidget{
+		background-color: rgba(253, 245, 230, 1);
+	}
+}
+#AreaPageAlarmP1_AlarmList1 {
+	&.breaseTableWidget .devTableColumnWidget:not(.disabled){
+	@include backGroundGradient('linear-gradient(to bottom, rgba(255, 192, 192, 1) 20%,rgba(255,0,0,1) 100%)');
+	}
+}
+#AreaPageAlarmP1_AlarmList1 {
+	&.breaseTableWidget .devTableColumnWidget:not(.disabled){
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageAlarmP1_AlarmList1 {
+	&.breaseTableWidget .devTableColumnWidget .headerText{
+		font-size: 18px;
+	}
+}
+#AreaPageAlarmP1_AlarmList1 {
+	svg > g > path.unselected{
+		fill: rgba(255, 255, 255, 0);
+	}
+}
+#AreaPageAlarmP1_AlarmList1 {
+	@include box-shadow(4px 4px 8px rgba(0, 0, 0, 1));
+}
+#AreaPageAlarmP1_AlarmList1 {
+	@include border-radius(8px);
+}
+#AreaPageAlarmP1_AlarmList1 {
+	&.breaseTableWidget .devTableColumnWidget > .headerText{
+	@include text-alignment(center);
+	}
+}
+#AreaPageAlarmP1_AlarmList1 {
+	&.breaseTableWidget .devTableColumnWidget{
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageAlarmP1_AlarmList1 {
+	&.breaseTableWidget .devTableColumnWidget{
+		border-width: 1px;
+	}
+}
+#AreaPageAlarmP1_AlarmList1 {
+	&.breaseTableWidget .devTableColumnWidget{
+		border-bottom-style: solid;
+	}
+}
+#AreaPageAlarmP1_AlarmList1 {
+	&.breaseTableWidget .devTableColumnWidget{
+		border-right-style: solid;
+	}
+}
+#AreaPageAlarmP1_AlarmList1 {
+	&.breaseTableWidget .devTableColumnWidget{
+		border-top-style: solid;
+	}
+}
+#AreaPageAlarmP1_AlarmList1 {
+	&.breaseTableWidget .devTableColumnWidget{
+		border-left-style: solid;
+	}
+}
+#AreaPageAlarmP1_AlarmList1 {
+	&.breaseTableWidget .tw_table table tbody tr td{
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageAlarmP1_AlarmList1 {
+	&:not(.disabled){
+	@include backGroundGradient('linear-gradient(to bottom,#F7F7F7 0%,#C6C6C6 100%)');
+	}
+}
+#AreaPageAlarmP1_AlarmListItem1 {
+	@include elemWidth(320);
+}
+#AreaPageAlarmP1_AlarmListItem1 {
+		z-index: 0;
+}
+#AreaPageAlarmP1_AlarmListItem2 {
+	@include elemWidth(1000);
+}
+#AreaPageAlarmP1_AlarmListItem2 {
+		z-index: 1;
+}
+#AreaPageAlarmP1_Button_PotvrdenieAlarmov {
+	@include elemTop(459);
+}
+#AreaPageAlarmP1_Button_PotvrdenieAlarmov {
+	@include elemLeft(1168);
+}
+#AreaPageAlarmP1_Button_PotvrdenieAlarmov {
+	@include elemAutoWidth(158);
+}
+#AreaPageAlarmP1_Button_PotvrdenieAlarmov {
+	@include elemAutoHeight(50);
+}
+#AreaPageAlarmP1_Button_PotvrdenieAlarmov {
+		z-index: 1;
+}
+#AreaPageAlarmP1_Button_PotvrdenieAlarmov {
+	@include border-radius(10px);
+}
+#AreaPageAlarmP1_Button_PotvrdenieAlarmov {
+	&:not(.disabled):not(.active):not(.checked) span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageAlarmP1_Button_PotvrdenieAlarmov {
+	@include text-alignment(center);
+}
+#AreaPageAlarmP1_Button_PotvrdenieAlarmov {
+	&:not(.active):not(.checked){
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaPageAlarmP1_Button_PotvrdenieAlarmov {
+	&.disabled.active{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaPageAlarmP1_Button_PotvrdenieAlarmov {
+	&.disabled.checked{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaPageAlarmP1_TabItem2_breaseTabItemTab {
+	&.tabItem{
+	@include elemWidth(670);
+	}
+}
+#AreaPageAlarmP1_TabItem2_breaseTabItemTab {
+	&.tabItem{
+	@include elemHeight(40);
+	}
+}
+#AreaPageAlarmP1_TabItem2 {
+		z-index: 1;
+}
+#AreaPageAlarmP1_TabItem2_breaseTabItemTab {
+	&.tabItem:not(.active){
+	@include border-radius(8px 8px 0px 0px);
+	}
+}
+#AreaPageAlarmP1_TabItem2_breaseTabItemTab {
+	&.tabItem:not(.active){
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageAlarmP1_TabItem2_breaseTabItemTab {
+	&.tabItem.active{
+	@include border-radius(0px 0px 0px 0px);
+	}
+}
+#AreaPageAlarmP1_TabItem2_breaseTabItemTab {
+	&.tabItem.active{
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageAlarmP1_TabItem2_breaseTabItemTab {
+	&.tabItem.active{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#AreaPageAlarmP1_TabItem2_breaseTabItemTab {
+	&.tabItem span{
+		font-size: 20px;
+	}
+}
+#AreaPageAlarmP1_AlarmHistory1 {
+	@include elemTop(7);
+}
+#AreaPageAlarmP1_AlarmHistory1 {
+	@include elemLeft(8);
+}
+#AreaPageAlarmP1_AlarmHistory1 {
+	@include elemWidth(1320);
+}
+#AreaPageAlarmP1_AlarmHistory1 {
+	@include elemHeight(440);
+}
+#AreaPageAlarmP1_AlarmHistory1 {
+		z-index: 0;
+}
+#AreaPageAlarmP1_AlarmHistory1 {
+	&.breaseTableWidget{
+		border-style: solid;
+	}
+}
+#AreaPageAlarmP1_AlarmHistory1 {
+	&.breaseTableWidget{
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageAlarmP1_AlarmHistory1 {
+	&.breaseTableWidget{
+		background-color: rgba(253, 245, 230, 1);
+	}
+}
+#AreaPageAlarmP1_AlarmHistory1 {
+	&.breaseTableWidget .devTableColumnWidget:not(.disabled){
+	@include backGroundGradient('linear-gradient(to bottom, rgba(192, 255, 192, 1) 20%,rgba(0,255,0,1) 100%)');
+	}
+}
+#AreaPageAlarmP1_AlarmHistory1 {
+	&.breaseTableWidget .devTableColumnWidget:not(.disabled){
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageAlarmP1_AlarmHistory1 {
+	svg > g > path.unselected{
+		fill: rgba(255, 255, 255, 0);
+	}
+}
+#AreaPageAlarmP1_AlarmHistory1 {
+	@include box-shadow(4px 4px 8px rgba(0, 0, 0, 1));
+}
+#AreaPageAlarmP1_AlarmHistory1 {
+	@include border-radius(8px);
+}
+#AreaPageAlarmP1_AlarmHistory1 {
+	&.breaseTableWidget .devTableColumnWidget > .headerText{
+	@include text-alignment(center);
+	}
+}
+#AreaPageAlarmP1_AlarmHistory1 {
+	&.breaseTableWidget .devTableColumnWidget{
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageAlarmP1_AlarmHistory1 {
+	&.breaseTableWidget .devTableColumnWidget{
+		border-width: 1px;
+	}
+}
+#AreaPageAlarmP1_AlarmHistory1 {
+	&.breaseTableWidget .devTableColumnWidget{
+		border-bottom-style: solid;
+	}
+}
+#AreaPageAlarmP1_AlarmHistory1 {
+	&.breaseTableWidget .devTableColumnWidget{
+		border-right-style: solid;
+	}
+}
+#AreaPageAlarmP1_AlarmHistory1 {
+	&.breaseTableWidget .devTableColumnWidget{
+		border-top-style: solid;
+	}
+}
+#AreaPageAlarmP1_AlarmHistory1 {
+	&.breaseTableWidget .devTableColumnWidget{
+		border-left-style: solid;
+	}
+}
+#AreaPageAlarmP1_AlarmHistory1 {
+	&.breaseTableWidget .tw_table table tbody tr td{
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageAlarmP1_AlarmHistory1 {
+	&.breaseTableWidget .tw_table table tbody tr td{
+		border-width: 1px 1px 1px 1px;
+	}
+}
+#AreaPageAlarmP1_AlarmHistory1 {
+	&:not(.disabled){
+	@include backGroundGradient('linear-gradient(to bottom,#F7F7F7 0%,#C6C6C6 100%)');
+	}
+}
+#AreaPageAlarmP1_AlarmHistoryItem1 {
+	@include elemWidth(320);
+}
+#AreaPageAlarmP1_AlarmHistoryItem1 {
+		z-index: 0;
+}
+#AreaPageAlarmP1_AlarmHistoryItem2 {
+	@include elemWidth(1000);
+}
+#AreaPageAlarmP1_AlarmHistoryItem2 {
+		z-index: 1;
+}
+#AreaPageAlarmP1_Button_ArchivaciaAlarmov {
+	@include elemTop(459);
+}
+#AreaPageAlarmP1_Button_ArchivaciaAlarmov {
+	@include elemLeft(1170);
+}
+#AreaPageAlarmP1_Button_ArchivaciaAlarmov {
+	@include elemAutoWidth(158);
+}
+#AreaPageAlarmP1_Button_ArchivaciaAlarmov {
+	@include elemAutoHeight(50);
+}
+#AreaPageAlarmP1_Button_ArchivaciaAlarmov {
+		z-index: 1;
+}
+#AreaPageAlarmP1_Button_ArchivaciaAlarmov {
+	@include border-radius(10px);
+}
+#AreaPageAlarmP1_Button_ArchivaciaAlarmov {
+	&:not(.disabled):not(.active):not(.checked) span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageAlarmP1_Button_ArchivaciaAlarmov {
+	@include text-alignment(center);
+}
+#AreaPageAlarmP1_Button_ArchivaciaAlarmov {
+	&:not(.active):not(.checked){
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaPageAlarmP1_Button_ArchivaciaAlarmov {
+	&.disabled.active{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaPageAlarmP1_Button_ArchivaciaAlarmov {
+	&.disabled.checked{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}

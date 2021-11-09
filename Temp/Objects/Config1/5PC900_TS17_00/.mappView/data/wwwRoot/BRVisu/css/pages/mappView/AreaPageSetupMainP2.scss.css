@@ -1,0 +1,516 @@
+#AreaPageSetupMainP2_Image1 {
+  top: 0px;
+  position: absolute;
+}
+
+#AreaPageSetupMainP2_Image1 {
+  left: 0px;
+  position: absolute;
+}
+
+#AreaPageSetupMainP2_Image1 {
+  width: 1366px;
+}
+
+#AreaPageSetupMainP2_Image1 {
+  height: 588px;
+}
+
+#AreaPageSetupMainP2_Image1 {
+  z-index: 0;
+}
+
+#AreaPageSetupMainP2_Image1 {
+  opacity: 0.2;
+}
+
+#AreaPageSetupMainP2_Label1 {
+  top: 20px;
+  position: absolute;
+}
+
+#AreaPageSetupMainP2_Label1 {
+  left: 533px;
+  position: absolute;
+}
+
+#AreaPageSetupMainP2_Label1 {
+  width: 300px;
+}
+
+#AreaPageSetupMainP2_Label1 {
+  height: 45px;
+}
+
+#AreaPageSetupMainP2_Label1 {
+  z-index: 1;
+}
+
+#AreaPageSetupMainP2_Label1 {
+  border-width: 8px;
+}
+
+#AreaPageSetupMainP2_Label1 {
+  border-radius: 5px;
+}
+
+#AreaPageSetupMainP2_Label1 {
+  border-style: ridge;
+}
+
+#AreaPageSetupMainP2_Label1:before {
+  border-style: ridge;
+}
+
+#AreaPageSetupMainP2_Label1:after {
+  border-style: ridge;
+}
+
+#AreaPageSetupMainP2_Label1 span {
+  color: black;
+}
+
+#AreaPageSetupMainP2_Label1 {
+  justify-content: center;
+  text-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#AreaPageSetupMainP2_Label1 {
+  font-size: 25px;
+}
+
+#AreaPageSetupMainP2_Label1 {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageRecipe {
+  top: 158px;
+  position: absolute;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageRecipe {
+  left: 78px;
+  position: absolute;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageRecipe {
+  width: 340px;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageRecipe {
+  height: 75px;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageRecipe {
+  z-index: 2;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageRecipe {
+  border-style: solid;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageRecipe.active {
+  border-style: solid;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageRecipe.checked {
+  border-style: solid;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageRecipe.disabled {
+  border-style: solid;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageRecipe {
+  border-radius: 8px;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageRecipe.active:not(.disabled) {
+  background-image: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%);
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageRecipe.checked:not(.disabled) {
+  background-image: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%);
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageRecipe:not(.disabled):not(.active):not(.checked) span {
+  color: black;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageRecipe.active:not(.disabled):not(.editMode) {
+  border-width: 1px 1px 1px 1px;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageRecipe.checked:not(.disabled) {
+  border-width: 1px 1px 1px 1px;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageRecipe.active:not(.disabled):not(.editMode) span {
+  color: black;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageRecipe.checked:not(.disabled) span {
+  color: black;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageRecipe span {
+  font-size: 20px;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageRecipe:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageRecipe.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageRecipe.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageUsers {
+  top: 290px;
+  position: absolute;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageUsers {
+  left: 78px;
+  position: absolute;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageUsers {
+  width: 340px;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageUsers {
+  height: 75px;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageUsers {
+  z-index: 3;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageUsers {
+  border-style: solid;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageUsers.active {
+  border-style: solid;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageUsers.checked {
+  border-style: solid;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageUsers.disabled {
+  border-style: solid;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageUsers {
+  border-radius: 8px;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageUsers.active:not(.disabled) {
+  background-image: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%);
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageUsers.checked:not(.disabled) {
+  background-image: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%);
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageUsers:not(.disabled):not(.active):not(.checked) span {
+  color: black;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageUsers.active:not(.disabled):not(.editMode) {
+  border-width: 1px 1px 1px 1px;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageUsers.checked:not(.disabled) {
+  border-width: 1px 1px 1px 1px;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageUsers.active:not(.disabled):not(.editMode) span {
+  color: black;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageUsers.checked:not(.disabled) span {
+  color: black;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageUsers span {
+  font-size: 20px;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageUsers:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageUsers.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageUsers.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageAudit {
+  top: 428px;
+  position: absolute;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageAudit {
+  left: 78px;
+  position: absolute;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageAudit {
+  width: 340px;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageAudit {
+  height: 75px;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageAudit {
+  z-index: 4;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageAudit {
+  border-style: solid;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageAudit.active {
+  border-style: solid;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageAudit.checked {
+  border-style: solid;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageAudit.disabled {
+  border-style: solid;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageAudit {
+  border-radius: 8px;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageAudit.active:not(.disabled) {
+  background-image: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%);
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageAudit.checked:not(.disabled) {
+  background-image: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%);
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageAudit:not(.disabled):not(.active):not(.checked) span {
+  color: black;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageAudit.active:not(.disabled):not(.editMode) {
+  border-width: 1px 1px 1px 1px;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageAudit.checked:not(.disabled) {
+  border-width: 1px 1px 1px 1px;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageAudit.active:not(.disabled):not(.editMode) span {
+  color: black;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageAudit.checked:not(.disabled) span {
+  color: black;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageAudit span {
+  font-size: 20px;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageAudit:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageAudit.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageAudit.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageExplorer {
+  top: 158px;
+  position: absolute;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageExplorer {
+  left: 513px;
+  position: absolute;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageExplorer {
+  width: 340px;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageExplorer {
+  height: 75px;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageExplorer {
+  z-index: 5;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageExplorer {
+  border-style: solid;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageExplorer.active {
+  border-style: solid;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageExplorer.checked {
+  border-style: solid;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageExplorer.disabled {
+  border-style: solid;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageExplorer {
+  border-radius: 8px;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageExplorer.active:not(.disabled) {
+  background-image: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%);
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageExplorer.checked:not(.disabled) {
+  background-image: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%);
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageExplorer:not(.disabled):not(.active):not(.checked) span {
+  color: black;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageExplorer.active:not(.disabled):not(.editMode) {
+  border-width: 1px 1px 1px 1px;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageExplorer.checked:not(.disabled) {
+  border-width: 1px 1px 1px 1px;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageExplorer.active:not(.disabled):not(.editMode) span {
+  color: black;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageExplorer.checked:not(.disabled) span {
+  color: black;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageExplorer span {
+  font-size: 20px;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageExplorer:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageExplorer.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageExplorer.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageParametre {
+  top: 290px;
+  position: absolute;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageParametre {
+  left: 513px;
+  position: absolute;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageParametre {
+  width: 340px;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageParametre {
+  height: 75px;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageParametre {
+  z-index: 6;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageParametre {
+  border-style: solid;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageParametre.active {
+  border-style: solid;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageParametre.checked {
+  border-style: solid;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageParametre.disabled {
+  border-style: solid;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageParametre {
+  border-radius: 8px;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageParametre.active:not(.disabled) {
+  background-image: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%);
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageParametre.checked:not(.disabled) {
+  background-image: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%);
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageParametre:not(.disabled):not(.active):not(.checked) span {
+  color: black;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageParametre.active:not(.disabled):not(.editMode) {
+  border-width: 1px 1px 1px 1px;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageParametre.checked:not(.disabled) {
+  border-width: 1px 1px 1px 1px;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageParametre.active:not(.disabled):not(.editMode) span {
+  color: black;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageParametre.checked:not(.disabled) span {
+  color: black;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageParametre span {
+  font-size: 20px;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageParametre:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageParametre.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageSetupMainP2_NavigationButtonPageParametre.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}

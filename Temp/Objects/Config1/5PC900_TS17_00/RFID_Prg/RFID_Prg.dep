@@ -1,0 +1,11 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/IecCheck/IecCheck.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/RFID/RFID.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AsUSB/AsUSB.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/RFID/RFID.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/AsUSB/AsUSB.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/dvframe/dvframe.fun
+$(AS_PROJECT_PATH)/Logical/Uzivatelia/RFID_Prg/RFID_Prg.var
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/Global.typ
+$(AS_PROJECT_PATH)/Logical/Uzivatelia/UsersGlobal.var

@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Transfer xmlns="http://br-automation.co.at/AS/Transfer">
+  <OperatingSystem Version="B4.91"/>
+  <Hardware Target="SG4"/>
+  <Operation Delete="P4_Vytah.br"/>
+  <Operation Delete="P4_StoperE.br"/>
+  <Operation Delete="P3_Stoper1.br"/>
+  <Operation Delete="P3_StoperL.br"/>
+  <Operation Delete="P3_StoperS.br"/>
+  <Operation Delete="P2_Stoper1.br"/>
+  <Operation Delete="P2_Cisteni.br"/>
+  <Operation Delete="P2_Zvarani.br"/>
+  <Operation Delete="P2_Robot.br"/>
+  <Operation Delete="P2_StoperS.br"/>
+  <Operation Delete="P2_Srobova.br"/>
+  <Operation Delete="P2_StoperM.br"/>
+  <Operation Delete="P2_StoperZ.br"/>
+  <Operation Delete="P2_Zaklada.br"/>
+  <Operation Delete="P1_Robot.br"/>
+  <Operation Delete="P1_StoperS.br"/>
+  <Operation Delete="P1_Srobova.br"/>
+  <Operation Delete="P1_Vytah.br"/>
+  <Operation Delete="P34_Alarmy.br"/>
+  <Operation Delete="P2_Alarmy.br"/>
+  <Operation Delete="P1_Alarmy.br"/>
+  <Operation Delete="Blikanie1s.br"/>
+  <Operation Delete="Blikanie50.br"/>
+  <Operation Delete="P34_Remane.br"/>
+  <Operation Delete="Remanentne.br"/>
+  <Operation Delete="P1_Remanen.br"/>
+  <Operation Delete="P3_Ovladan.br"/>
+  <Operation Delete="P2_Ovladan.br"/>
+  <Operation Delete="P1_Ovladan.br"/>
+  <Operation Delete="P1_Ovlada2.br"/>
+  <Operation Delete="UkladacieB.br"/>
+  <Operation Delete="OvladanieS.br"/>
+  <Operation Delete="Main.br"/>
+  <Operation Delete="DatumCasPL.br"/>
+  <Operation Delete="P4_Ovlada1.br"/>
+  <Operation Delete="P4_Dopravn.br"/>
+  <Operation Delete="P4_Main.br"/>
+  <Operation Delete="P3_Ovlada1.br"/>
+  <Operation Delete="P3_Akumula.br"/>
+  <Operation Delete="P3_SpodnyS.br"/>
+  <Operation Delete="P3_Dopravn.br"/>
+  <Operation Delete="P3_Main.br"/>
+  <Operation Delete="P2_Ovlada1.br"/>
+  <Operation Delete="P2_Akumula.br"/>
+  <Operation Delete="P2_Dopravn.br"/>
+  <Operation Delete="P2_Main.br"/>
+  <Operation Delete="P1_Ovlada1.br"/>
+  <Operation Delete="P1_Akumula.br"/>
+  <Operation Delete="P1_SpodnyS.br"/>
+  <Operation Delete="P1_Dopravn.br"/>
+  <Operation Delete="P1_Main.br"/>
+  <Operation Delete="RFID_Prg.br"/>
+  <Operation Delete="Blikanie20.br"/>
+  <Operation Delete="Blikanie10.br"/>
+  <Operation Delete="P3_Srobova.br"/>
+  <Operation Delete="P4_Stoper1.br"/>
+  <Operation Delete="P4_StoperF.br"/>
+  <Operation Delete="LimitneSni.br"/>
+  <Operation Delete="Program11.br"/>
+  <Operation Delete="Program10.br"/>
+  <Operation Delete="Program9.br"/>
+  <Operation Delete="Program8.br"/>
+  <Operation Delete="Program7.br"/>
+  <Operation Delete="Program6.br"/>
+  <Operation Delete="Program5.br"/>
+  <Operation Delete="Program4.br"/>
+  <Operation Delete="Program3.br"/>
+  <Operation Delete="Program2.br"/>
+  <Operation Delete="P1_Vytah_S.br"/>
+  <Operation Delete="Users_Main.br"/>
+  <Operation Delete="Program12.br"/>
+  <Operation Delete="Users_Pan1.br"/>
+  <Operation Delete="Users_Pane.br"/>
+  <Operation Delete="FTP_DMP_16.br"/>
+  <Operation Delete="FTP_DMP_15.br"/>
+  <Operation Delete="FTP_DMP_14.br"/>
+  <Operation Delete="FTP_DMP_13.br"/>
+  <Operation Delete="FTP_DMP_12.br"/>
+  <Operation Delete="FTP_DMP_11.br"/>
+  <Operation Delete="FTP_DMP_10.br"/>
+  <Operation Delete="FTP_DMP_C9.br"/>
+  <Operation Delete="FTP_DMP_C8.br"/>
+  <Operation Delete="FTP_DMP_C7.br"/>
+  <Operation Delete="FTP_DMP_C6.br"/>
+  <Operation Delete="FTP_DMP_C5.br"/>
+  <Operation Delete="FTP_DMP_C4.br"/>
+  <Operation Delete="FTP_DMP_C3.br"/>
+  <Operation Delete="FTP_DMP_C2.br"/>
+  <Operation Delete="FTP_DMP_C1.br"/>
+  <Operation Delete="FTP_DMP_CA.br"/>
+  <Operation Delete="FTP_CAM17.br"/>
+  <Operation Delete="FTP_CAM16.br"/>
+  <Operation Delete="FTP_CAM15.br"/>
+  <Operation Delete="FTP_CAM13.br"/>
+  <Operation Delete="FTP_CAM12.br"/>
+  <Operation Delete="FTP_CAM11.br"/>
+  <Operation Delete="FTP_CAM10.br"/>
+  <Operation Delete="FTP_CAM9.br"/>
+  <Operation Delete="FTP_CAM6.br"/>
+  <Operation Delete="FTP_CAM4.br"/>
+  <Operation Delete="FTP_CAM2.br"/>
+  <Operation Delete="FTP_CAM1.br"/>
+  <Operation Delete="Taktime_Vy.br"/>
+  <Operation Delete="Taktime_Et.br"/>
+  <Operation Delete="Taktime_F1.br"/>
+  <Operation Delete="Taktime_Fu.br"/>
+  <Operation Delete="Taktime_L1.br"/>
+  <Operation Delete="Taktime_Le.br"/>
+  <Operation Delete="Taktime_Sr.br"/>
+  <Operation Delete="TaktimeZva.br"/>
+  <Operation Delete="TaktimeSr1.br"/>
+  <Operation Delete="TaktimeMat.br"/>
+  <Operation Delete="TaktimeZak.br"/>
+  <Operation Delete="TaktimeSro.br"/>
+  <Operation Delete="TaktimePra.br"/>
+  <Operation Delete="P3_Skrutko.br"/>
+  <Operation Delete="P3_Skrutk1.br"/>
+  <Operation Delete="P2_Skrutk1.br"/>
+  <Operation Delete="P2_Skrutk3.br"/>
+  <Operation Delete="P2_Skrutk2.br"/>
+  <Operation Delete="P2_Skrutko.br"/>
+  <Operation Delete="P1_Skrutko.br"/>
+  <Operation Delete="P1_Skrutk2.br"/>
+  <Operation Delete="P1_Skrutk1.br"/>
+  <Operation Delete="RiadenieSe.br"/>
+  <Operation Delete="McAcpPar.br"/>
+  <Operation Delete="MpAxis.br"/>
+  <Operation Delete="AsMem.br"/>
+  <Operation Delete="AsHttp.br"/>
+  <Operation Delete="AsIODiag.br"/>
+  <Operation Delete="MpServer.br"/>
+  <Operation Delete="AsSafety.br"/>
+  <Operation Delete="CoTrace.br"/>
+  <Operation Delete="mvLoader.br"/>
+  <Operation Delete="MpAlarmX.br"/>
+  <Operation Delete="RFID.br"/>
+  <Operation Delete="AtlasCopco.br"/>
+  <Operation Delete="SKTcp.br"/>
+  <Operation Delete="MpRecipe.br"/>
+  <Operation Delete="SC.br"/>
+  <Operation Delete="AxisLib.br"/>
+  <Operation Delete="McStpAx.br"/>
+  <Operation Delete="mcprofgen.br"/>
+  <Operation Delete="dvframe.br"/>
+  <Operation Delete="AsUSB.br"/>
+  <Operation Delete="AsTCP.br"/>
+  <Operation Delete="asioacc.br"/>
+  <Operation Delete="asio.br"/>
+  <Operation Delete="aruser.br"/>
+  <Operation Delete="DataObj.br"/>
+  <Operation Delete="MpBase.br"/>
+  <Operation Delete="IecCheck.br"/>
+  <Operation Delete="sys_lib.br"/>
+  <Operation Delete="AsIecCon.br"/>
+  <Operation Delete="AsZip.br"/>
+  <Operation Delete="arssl.br"/>
+  <Operation Delete="McAcpAx.br"/>
+  <Operation Delete="McAxis.br"/>
+  <Operation Delete="mcacpdrv.br"/>
+  <Operation Delete="McBase.br"/>
+  <Operation Delete="arflatprv.br"/>
+  <Operation Delete="arcoal.br"/>
+  <Operation Delete="asepl.br"/>
+  <Operation Delete="FileIO.br"/>
+  <Operation Delete="astime.br"/>
+  <Operation Download="asfw.br" Memory="SystemROM"/>
+  <Operation Download="ashwd.br" Memory="SystemROM"/>
+  <Operation Download="asnxdb2.br" Memory="SystemROM"/>
+  <Operation Download="asnxdb1.br" Memory="SystemROM"/>
+  <Operation Download="asiol8.br" Memory="UserROM"/>
+  <Operation Download="asiol9.br" Memory="UserROM"/>
+  <Operation Download="asiol7.br" Memory="UserROM"/>
+  <Operation Download="asiol6.br" Memory="UserROM"/>
+  <Operation Download="asiol5.br" Memory="UserROM"/>
+  <Operation Download="asiol2.br" Memory="UserROM"/>
+  <Operation Download="asiol1.br" Memory="UserROM"/>
+  <Operation Download="asiol3.br" Memory="UserROM"/>
+  <Operation Download="asiol10.br" Memory="UserROM"/>
+  <Operation Download="asiol4.br" Memory="UserROM"/>
+  <Operation Download="arconfig.br" Memory="SystemROM"/>
+  <Operation Download="sysconf.br" Memory="SystemROM"/>
+  <Operation Restart="warm"/>
+  <Operation Download="McAcpSim.br" Memory="UserROM"/>
+  <Operation Download="powerlnk.br" Memory="UserROM"/>
+  <Operation Download="arsvcreg.br" Memory="UserROM"/>
+  <Operation Download="runtime.br" Memory="UserROM"/>
+  <Operation Download="astime.br" Memory="UserROM"/>
+  <Operation Download="FileIO.br" Memory="UserROM"/>
+  <Operation Download="asepl.br" Memory="UserROM"/>
+  <Operation Download="arcoal.br" Memory="UserROM"/>
+  <Operation Download="arflatprv.br" Memory="UserROM"/>
+  <Operation Download="McBase.br" Memory="UserROM"/>
+  <Operation Download="mcacpdrv.br" Memory="UserROM"/>
+  <Operation Download="McAxis.br" Memory="UserROM"/>
+  <Operation Download="McAcpAx.br" Memory="UserROM"/>
+  <Operation Download="McAcpSys.br" Memory="UserROM"/>
+  <Operation Restart="warm"/>
+  <Operation Download="arssl.br" Memory="UserROM"/>
+  <Operation Download="AsZip.br" Memory="UserROM"/>
+  <Operation Download="AsIecCon.br" Memory="UserROM"/>
+  <Operation Download="standard.br" Memory="UserROM"/>
+  <Operation Download="AsBrStr.br" Memory="UserROM"/>
+  <Operation Download="sys_lib.br" Memory="UserROM"/>
+  <Operation Download="IecCheck.br" Memory="UserROM"/>
+  <Operation Download="MpBase.br" Memory="UserROM"/>
+  <Operation Download="DataObj.br" Memory="UserROM"/>
+  <Operation Download="AsXml.br" Memory="UserROM"/>
+  <Operation Download="aruser.br" Memory="UserROM"/>
+  <Operation Download="asio.br" Memory="UserROM"/>
+  <Operation Download="asioacc.br" Memory="UserROM"/>
+  <Operation Download="AsTCP.br" Memory="UserROM"/>
+  <Operation Download="asstring.br" Memory="UserROM"/>
+  <Operation Download="AsUSB.br" Memory="UserROM"/>
+  <Operation Download="dvframe.br" Memory="UserROM"/>
+  <Operation Download="mcprofgen.br" Memory="UserROM"/>
+  <Operation Download="McStpAx.br" Memory="UserROM"/>
+  <Operation Download="AxisLib.br" Memory="UserROM"/>
+  <Operation Download="SC.br" Memory="UserROM"/>
+  <Operation Download="MpRecipe.br" Memory="UserROM"/>
+  <Operation Download="SKTcp.br" Memory="UserROM"/>
+  <Operation Download="AtlasCopco.br" Memory="UserROM"/>
+  <Operation Download="RFID.br" Memory="UserROM"/>
+  <Operation Download="MpAlarmX.br" Memory="UserROM"/>
+  <Operation Download="udbdef.br" Memory="UserROM"/>
+  <Operation Download="mvLoader.br" Memory="UserROM"/>
+  <Operation Download="TCData.br" Memory="SystemROM"/>
+  <Operation Download="FWRules.br" Memory="UserROM"/>
+  <Operation Download="mCoWebSc.br" Memory="UserROM"/>
+  <Operation Download="TCLang.br" Memory="UserROM"/>
+  <Operation Download="ashwac.br" Memory="UserROM"/>
+  <Operation Download="Settings.br" Memory="UserROM"/>
+  <Operation Download="User.br" Memory="UserROM"/>
+  <Operation Download="iomap.br" Memory="UserROM"/>
+  <Operation Download="Role.br" Memory="UserROM"/>
+  <Operation Download="Config_3.br" Memory="UserROM"/>
+  <Operation Download="Config_1.br" Memory="UserROM"/>
+  <Operation Download="Config.br" Memory="UserROM"/>
+  <Operation Download="Config_2.br" Memory="UserROM"/>
+  <Operation Download="Config_4.br" Memory="UserROM"/>
+  <Operation Download="Config_5.br" Memory="UserROM"/>
+  <Operation Download="Config_6.br" Memory="UserROM"/>
+  <Operation Download="Config_7.br" Memory="UserROM"/>
+  <Operation Download="Config_8.br" Memory="UserROM"/>
+  <Operation Download="Config_9.br" Memory="UserROM"/>
+  <Operation Download="Config_15.br" Memory="UserROM"/>
+  <Operation Download="Config_14.br" Memory="UserROM"/>
+  <Operation Download="TC.br" Memory="UserROM"/>
+  <Operation Download="Config_20.br" Memory="UserROM"/>
+  <Operation Download="Config_19.br" Memory="UserROM"/>
+  <Operation Download="Config_18.br" Memory="UserROM"/>
+  <Operation Download="Config_21.br" Memory="UserROM"/>
+  <Operation Download="Config_23.br" Memory="UserROM"/>
+  <Operation Download="Config_22.br" Memory="UserROM"/>
+  <Operation Download="Config_10.br" Memory="UserROM"/>
+  <Operation Download="TraceConfi.br" Memory="UserROM"/>
+  <Operation Download="CoTrace.br" Memory="UserROM"/>
+  <Operation Download="AsSafety.br" Memory="UserROM"/>
+  <Operation Download="MpServer.br" Memory="UserROM"/>
+  <Operation Download="AsBrWStr.br" Memory="UserROM"/>
+  <Operation Download="AsIODiag.br" Memory="UserROM"/>
+  <Operation Download="AsHttp.br" Memory="UserROM"/>
+  <Operation Download="AsMem.br" Memory="UserROM"/>
+  <Operation Download="AsMath.br" Memory="UserROM"/>
+  <Operation Download="MpAxis.br" Memory="UserROM"/>
+  <Operation Download="McAcpPar.br" Memory="UserROM"/>
+  <Operation Download="assl1.br" Memory="UserROM"/>
+  <Operation Download="RiadenieSe.br" Memory="UserROM"/>
+  <Operation Download="P1_Skrutk1.br" Memory="UserROM"/>
+  <Operation Download="P1_Skrutk2.br" Memory="UserROM"/>
+  <Operation Download="P1_Skrutko.br" Memory="UserROM"/>
+  <Operation Download="P2_Skrutko.br" Memory="UserROM"/>
+  <Operation Download="P2_Skrutk2.br" Memory="UserROM"/>
+  <Operation Download="P2_Skrutk3.br" Memory="UserROM"/>
+  <Operation Download="P2_Skrutk1.br" Memory="UserROM"/>
+  <Operation Download="P3_Skrutk1.br" Memory="UserROM"/>
+  <Operation Download="P3_Skrutko.br" Memory="UserROM"/>
+  <Operation Download="TaktimePra.br" Memory="UserROM"/>
+  <Operation Download="TaktimeSro.br" Memory="UserROM"/>
+  <Operation Download="TaktimeZak.br" Memory="UserROM"/>
+  <Operation Download="TaktimeMat.br" Memory="UserROM"/>
+  <Operation Download="TaktimeSr1.br" Memory="UserROM"/>
+  <Operation Download="TaktimeZva.br" Memory="UserROM"/>
+  <Operation Download="Taktime_Sr.br" Memory="UserROM"/>
+  <Operation Download="Taktime_Le.br" Memory="UserROM"/>
+  <Operation Download="Taktime_L1.br" Memory="UserROM"/>
+  <Operation Download="Taktime_Fu.br" Memory="UserROM"/>
+  <Operation Download="Taktime_F1.br" Memory="UserROM"/>
+  <Operation Download="Taktime_Et.br" Memory="UserROM"/>
+  <Operation Download="Taktime_Vy.br" Memory="UserROM"/>
+  <Operation Download="FTP_CAM1.br" Memory="UserROM"/>
+  <Operation Download="FTP_CAM2.br" Memory="UserROM"/>
+  <Operation Download="FTP_CAM4.br" Memory="UserROM"/>
+  <Operation Download="FTP_CAM6.br" Memory="UserROM"/>
+  <Operation Download="FTP_CAM9.br" Memory="UserROM"/>
+  <Operation Download="FTP_CAM10.br" Memory="UserROM"/>
+  <Operation Download="FTP_CAM11.br" Memory="UserROM"/>
+  <Operation Download="FTP_CAM12.br" Memory="UserROM"/>
+  <Operation Download="FTP_CAM13.br" Memory="UserROM"/>
+  <Operation Download="FTP_CAM15.br" Memory="UserROM"/>
+  <Operation Download="FTP_CAM16.br" Memory="UserROM"/>
+  <Operation Download="FTP_CAM17.br" Memory="UserROM"/>
+  <Operation Download="FTP_DMP_CA.br" Memory="UserROM"/>
+  <Operation Download="FTP_DMP_C1.br" Memory="UserROM"/>
+  <Operation Download="FTP_DMP_C2.br" Memory="UserROM"/>
+  <Operation Download="FTP_DMP_C3.br" Memory="UserROM"/>
+  <Operation Download="FTP_DMP_C4.br" Memory="UserROM"/>
+  <Operation Download="FTP_DMP_C5.br" Memory="UserROM"/>
+  <Operation Download="FTP_DMP_C6.br" Memory="UserROM"/>
+  <Operation Download="FTP_DMP_C7.br" Memory="UserROM"/>
+  <Operation Download="FTP_DMP_C8.br" Memory="UserROM"/>
+  <Operation Download="FTP_DMP_C9.br" Memory="UserROM"/>
+  <Operation Download="FTP_DMP_10.br" Memory="UserROM"/>
+  <Operation Download="FTP_DMP_11.br" Memory="UserROM"/>
+  <Operation Download="FTP_DMP_12.br" Memory="UserROM"/>
+  <Operation Download="FTP_DMP_13.br" Memory="UserROM"/>
+  <Operation Download="FTP_DMP_14.br" Memory="UserROM"/>
+  <Operation Download="FTP_DMP_15.br" Memory="UserROM"/>
+  <Operation Download="FTP_DMP_16.br" Memory="UserROM"/>
+  <Operation Download="Users_Pane.br" Memory="UserROM"/>
+  <Operation Download="Users_Pan1.br" Memory="UserROM"/>
+  <Operation Download="Program12.br" Memory="UserROM"/>
+  <Operation Download="Users_Main.br" Memory="UserROM"/>
+  <Operation Download="P1_Vytah_S.br" Memory="UserROM"/>
+  <Operation Download="Program2.br" Memory="UserROM"/>
+  <Operation Download="Program3.br" Memory="UserROM"/>
+  <Operation Download="Program4.br" Memory="UserROM"/>
+  <Operation Download="Program5.br" Memory="UserROM"/>
+  <Operation Download="Program6.br" Memory="UserROM"/>
+  <Operation Download="Program7.br" Memory="UserROM"/>
+  <Operation Download="Program8.br" Memory="UserROM"/>
+  <Operation Download="Program9.br" Memory="UserROM"/>
+  <Operation Download="Program10.br" Memory="UserROM"/>
+  <Operation Download="Program11.br" Memory="UserROM"/>
+  <Operation Download="LimitneSni.br" Memory="UserROM"/>
+  <Operation Download="P4_StoperF.br" Memory="UserROM"/>
+  <Operation Download="P4_Stoper1.br" Memory="UserROM"/>
+  <Operation Download="P3_Srobova.br" Memory="UserROM"/>
+  <Operation Download="Blikanie10.br" Memory="UserROM"/>
+  <Operation Download="Blikanie20.br" Memory="UserROM"/>
+  <Operation Download="RFID_Prg.br" Memory="UserROM"/>
+  <Operation Download="P1_Main.br" Memory="UserROM"/>
+  <Operation Download="P1_Dopravn.br" Memory="UserROM"/>
+  <Operation Download="P1_SpodnyS.br" Memory="UserROM"/>
+  <Operation Download="P1_Akumula.br" Memory="UserROM"/>
+  <Operation Download="P1_Ovlada1.br" Memory="UserROM"/>
+  <Operation Download="P2_Main.br" Memory="UserROM"/>
+  <Operation Download="P2_Dopravn.br" Memory="UserROM"/>
+  <Operation Download="P2_Akumula.br" Memory="UserROM"/>
+  <Operation Download="P2_Ovlada1.br" Memory="UserROM"/>
+  <Operation Download="P3_Main.br" Memory="UserROM"/>
+  <Operation Download="P3_Dopravn.br" Memory="UserROM"/>
+  <Operation Download="P3_SpodnyS.br" Memory="UserROM"/>
+  <Operation Download="P3_Akumula.br" Memory="UserROM"/>
+  <Operation Download="P3_Ovlada1.br" Memory="UserROM"/>
+  <Operation Download="P4_Main.br" Memory="UserROM"/>
+  <Operation Download="P4_Dopravn.br" Memory="UserROM"/>
+  <Operation Download="P4_Ovlada1.br" Memory="UserROM"/>
+  <Operation Download="DatumCasPL.br" Memory="UserROM"/>
+  <Operation Download="Main.br" Memory="UserROM"/>
+  <Operation Download="OvladanieS.br" Memory="UserROM"/>
+  <Operation Download="UkladacieB.br" Memory="UserROM"/>
+  <Operation Download="P1_Ovlada2.br" Memory="UserROM"/>
+  <Operation Download="P1_Ovladan.br" Memory="UserROM"/>
+  <Operation Download="P2_Ovladan.br" Memory="UserROM"/>
+  <Operation Download="P3_Ovladan.br" Memory="UserROM"/>
+  <Operation Download="P1_Remanen.br" Memory="UserROM"/>
+  <Operation Download="Remanentne.br" Memory="UserROM"/>
+  <Operation Download="P34_Remane.br" Memory="UserROM"/>
+  <Operation Download="Blikanie50.br" Memory="UserROM"/>
+  <Operation Download="Blikanie1s.br" Memory="UserROM"/>
+  <Operation Download="P1_Alarmy.br" Memory="UserROM"/>
+  <Operation Download="P2_Alarmy.br" Memory="UserROM"/>
+  <Operation Download="P34_Alarmy.br" Memory="UserROM"/>
+  <Operation Download="P1_Vytah.br" Memory="UserROM"/>
+  <Operation Download="P1_Srobova.br" Memory="UserROM"/>
+  <Operation Download="P1_StoperS.br" Memory="UserROM"/>
+  <Operation Download="P1_Robot.br" Memory="UserROM"/>
+  <Operation Download="P2_Zaklada.br" Memory="UserROM"/>
+  <Operation Download="P2_StoperZ.br" Memory="UserROM"/>
+  <Operation Download="P2_StoperM.br" Memory="UserROM"/>
+  <Operation Download="P2_Srobova.br" Memory="UserROM"/>
+  <Operation Download="P2_StoperS.br" Memory="UserROM"/>
+  <Operation Download="P2_Robot.br" Memory="UserROM"/>
+  <Operation Download="P2_Zvarani.br" Memory="UserROM"/>
+  <Operation Download="P2_Cisteni.br" Memory="UserROM"/>
+  <Operation Download="P2_Stoper1.br" Memory="UserROM"/>
+  <Operation Download="P3_StoperS.br" Memory="UserROM"/>
+  <Operation Download="P3_StoperL.br" Memory="UserROM"/>
+  <Operation Download="P3_Stoper1.br" Memory="UserROM"/>
+  <Operation Download="P4_StoperE.br" Memory="UserROM"/>
+  <Operation Download="P4_Vytah.br" Memory="UserROM"/>
+</Transfer>

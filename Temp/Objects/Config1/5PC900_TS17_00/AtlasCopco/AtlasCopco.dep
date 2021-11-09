@@ -1,0 +1,2 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/AtlasCopco/AtlasCopco.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/IecCheck/IecCheck.fun

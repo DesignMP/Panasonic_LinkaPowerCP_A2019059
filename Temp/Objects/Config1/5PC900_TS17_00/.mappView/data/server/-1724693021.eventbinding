@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Content id="AreaLoginP34">
+    <EventBinding id="AreaLoginP34.LogoutButton2.Click">
+            <Source type="widgets.brease.LogoutButton.Event" event="Click" refId="AreaLoginP34_LogoutButton2" />
+            <EventHandler>
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.CloseDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="LoginDialogP34" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Content id="AreaLoginP34">
+    <EventBinding id="AreaLoginP34.LogoutButton1.Click">
+            <Source type="widgets.brease.LogoutButton.Event" event="Click" refId="AreaLoginP34_LogoutButton1" />
+            <EventHandler>
+                <Parallel>
+                    <Action>
+                        <Target type="opcUa.NodeAction" refId="::AsGlobalPV:UsersVizu.OdhlasUzivatela_Panel3">
+                            <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                        </Target>
+                    </Action>
+                    <Action>
+                        <Target type="clientSystem.Action">
+                            <Method type="clientSystem.Action.CloseDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="LoginDialogP34" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                        </Target>
+                    </Action>
+                </Parallel>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+</EventBindingDefinition>

@@ -1,0 +1,189 @@
+#AreaLoginP2_Rectangle1 {
+  top: 0px;
+  position: absolute;
+}
+
+#AreaLoginP2_Rectangle1 {
+  left: 0px;
+  position: absolute;
+}
+
+#AreaLoginP2_Rectangle1 {
+  width: 500px;
+}
+
+#AreaLoginP2_Rectangle1 {
+  height: 350px;
+}
+
+#AreaLoginP2_Rectangle1 {
+  z-index: 0;
+}
+
+#AreaLoginP2_Rectangle1 {
+  border-width: 2px;
+}
+
+#AreaLoginP2_Rectangle1 {
+  border-radius: 10px;
+}
+
+#AreaLoginP2_Rectangle1 {
+  background-color: #99b4d1;
+}
+
+#AreaLoginP2_Line1 {
+  z-index: 1;
+}
+
+#AreaLoginP2_Line1 line {
+  stroke: white;
+}
+
+#AreaLoginP2_Line1 line {
+  stroke-width: 3px;
+}
+
+#AreaLoginP2_Image1 {
+  top: 10px;
+  position: absolute;
+}
+
+#AreaLoginP2_Image1 {
+  left: 20px;
+  position: absolute;
+}
+
+#AreaLoginP2_Image1 {
+  width: 60px;
+}
+
+#AreaLoginP2_Image1 {
+  height: 60px;
+}
+
+#AreaLoginP2_Image1 {
+  z-index: 2;
+}
+
+#AreaLoginP2_LogoutButton1 {
+  top: 260px;
+  position: absolute;
+}
+
+#AreaLoginP2_LogoutButton1 {
+  left: 315px;
+  position: absolute;
+}
+
+#AreaLoginP2_LogoutButton1 {
+  width: 150px;
+}
+
+#AreaLoginP2_LogoutButton1 {
+  height: 40px;
+}
+
+#AreaLoginP2_LogoutButton1 {
+  z-index: 3;
+}
+
+#AreaLoginP2_LogoutButton1 {
+  border-radius: 10px;
+}
+
+#AreaLoginP2_LogoutButton1:not(.disabled):not(.active):not(.checked) span {
+  color: black;
+}
+
+#AreaLoginP2_LogoutButton1:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaLoginP2_LogoutButton1.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaLoginP2_LogoutButton1.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaLoginP2_LogoutButton2 {
+  top: 260px;
+  position: absolute;
+}
+
+#AreaLoginP2_LogoutButton2 {
+  left: 35px;
+  position: absolute;
+}
+
+#AreaLoginP2_LogoutButton2 {
+  width: 150px;
+}
+
+#AreaLoginP2_LogoutButton2 {
+  height: 40px;
+}
+
+#AreaLoginP2_LogoutButton2 {
+  z-index: 4;
+}
+
+#AreaLoginP2_LogoutButton2 {
+  border-radius: 10px;
+}
+
+#AreaLoginP2_LogoutButton2:not(.disabled):not(.active):not(.checked) span {
+  color: black;
+}
+
+#AreaLoginP2_LogoutButton2 {
+  justify-content: center;
+  text-align: center;
+}
+
+#AreaLoginP2_LogoutButton2:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaLoginP2_LogoutButton2.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaLoginP2_LogoutButton2.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaLoginP2_TextOutput1 {
+  top: 15px;
+  position: absolute;
+}
+
+#AreaLoginP2_TextOutput1 {
+  left: 134px;
+  position: absolute;
+}
+
+#AreaLoginP2_TextOutput1 {
+  width: 236px;
+}
+
+#AreaLoginP2_TextOutput1 {
+  height: 50px;
+}
+
+#AreaLoginP2_TextOutput1 {
+  z-index: 5;
+}
+
+#AreaLoginP2_TextOutput1 {
+  justify-content: center;
+  text-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#AreaLoginP2_TextOutput1 {
+  font-size: 30px;
+}

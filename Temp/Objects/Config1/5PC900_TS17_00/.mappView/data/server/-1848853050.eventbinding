@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Content id="AreaPageAutomatP1">
+    <EventBinding id="AreaPageAutomatP1.Button_START.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageAutomatP1_Button_START" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::AsGlobalPV:P1_Pracovisko.Automat">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Content id="AreaPageAutomatP1">
+    <EventBinding id="AreaPageAutomatP1.Button_STOP.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageAutomatP1_Button_STOP" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::AsGlobalPV:P1_Pracovisko.Reset">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Content id="AreaPageAutomatP1">
+    <EventBinding id="AreaPageAutomatP1.Button_KoniecCyklu.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageAutomatP1_Button_KoniecCyklu" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::AsGlobalPV:P1_Pracovisko.KoniecCyklu">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Content id="AreaPageAutomatP1">
+    <EventBinding id="AreaPageAutomatP1.Button_PaletkaPrechadza.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageAutomatP1_Button_PaletkaPrechadza" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::AsGlobalPV:Linka.PaletkaPrechadza">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+</EventBindingDefinition>

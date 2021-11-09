@@ -1,0 +1,15 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/IecCheck/IecCheck.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/SKTcp/SKTcp.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/SKTcp/Types.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/AsTCP/AsTCP.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AsTCP/AsTCP.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/SKTcp/Constants.var
+$(AS_PROJECT_PATH)/Logical/Libraries/SC/SC.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AsBrStr/AsBrStr.fun
+$(AS_PROJECT_PATH)/Logical/TracebilitySystem/P3_Srobovanie_ST7/Variables.var
+$(AS_PROJECT_PATH)/Physical/Config1/5PC900_TS17_00/Cpu.per
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/Global.typ
+$(AS_PROJECT_PATH)/Logical/TracebilitySystem/P3_Srobovanie_ST7/Types.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/SC/Types.typ

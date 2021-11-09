@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1">
+  <Content id="HlavickaP34">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:Vizu.AktualnyCasPLC" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="HlavickaP34_DateTimeOutput1" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaTimeP34">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:Vizu.ZadanyCasPLC" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaTimeP34_DateTimeInput1" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding><Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:Vizu.ZadanyCasPLC" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaTimeP34_DateTimeInput1" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="AreaTimeP34">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:Vizu.ZadanyCasPLC" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaTimeP34_DateTimeInput2" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding><Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:Vizu.ZadanyCasPLC" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="AreaTimeP34_DateTimeInput2" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+</BindingDefinition>

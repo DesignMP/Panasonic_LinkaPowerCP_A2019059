@@ -1,62 +1,62 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=4.7.6.114?>
+<?AutomationStudio Version=4.10.3.60 FileVersion="4.9"?>
 <Hardware xmlns="http://br-automation.co.at/AS/Hardware">
   <Module Name="0AC808.9-1" Type="0AC808.9-1" Version="1.0.0.0">
     <Connection Connector="ETH1" TargetModule="5LS182.6-1" TargetConnector="IF1">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="ETH2" TargetModule="SL1_SafetyMaster" TargetConnector="PLK1">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="ETH5" TargetModule="AB1.2_Powerlink" TargetConnector="PLK1">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="ETH6" TargetModule="AB2.2_Powerlink" TargetConnector="PLK1">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="ETH7" TargetModule="AB3.2_Powerlink" TargetConnector="PLK1">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="ETH8" TargetModule="AB4.2_Powerlink" TargetConnector="PLK1">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
   </Module>
   <Module Name="0AC808.9-1a" Type="0AC808.9-1" Version="1.0.0.0">
     <Connection Connector="ETH1" TargetModule="PC1" TargetConnector="IF3">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="ETH5" TargetModule="0AC808.9-1b" TargetConnector="ETH1">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="ETH6" TargetModule="0AC808.9-1c" TargetConnector="ETH1">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="ETH8" TargetModule="0AC808.9-1d" TargetConnector="ETH8">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
   </Module>
   <Module Name="0AC808.9-1b" Type="0AC808.9-1" Version="1.0.0.0">
     <Connection Connector="ETH1" TargetModule="0AC808.9-1a" TargetConnector="ETH5">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="ETH5" TargetModule="AB1.0" TargetConnector="ETH1">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
   </Module>
   <Module Name="0AC808.9-1c" Type="0AC808.9-1" Version="1.0.0.0">
     <Connection Connector="ETH1" TargetModule="0AC808.9-1a" TargetConnector="ETH6">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="ETH5" TargetModule="AB2.0" TargetConnector="ETH1">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
   </Module>
   <Module Name="0AC808.9-1d" Type="0AC808.9-1" Version="1.0.0.0">
     <Connection Connector="ETH5" TargetModule="AB4.0" TargetConnector="ETH1">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="ETH8" TargetModule="0AC808.9-1a" TargetConnector="ETH8">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
   </Module>
   <Module Name="5AC901.BX02-00" Type="5AC901.BX02-00" Version="1.0.1.0">
@@ -75,10 +75,11 @@
     <Parameter ID="ConfigModule" Value="asnxdb1" />
     <Parameter ID="CycleTime" Value="2000" />
   </Module>
-  <Module Name="5LS182.6-1" Type="5LS182.6-1" Version="1.3.1.0">
+  <Module Name="5LS182.6-1" Type="5LS182.6-1" Version="1.5.0.0">
     <Connection Connector="SL" TargetModule="5AC901.BX02-00" TargetConnector="SL1" />
     <Connector Name="IF1">
       <Parameter ID="MtuSize" Value="800" />
+      <Parameter ID="DNAConfiguration" Value="manual" />
     </Connector>
     <Parameter ID="Supervision" Value="off" />
   </Module>
@@ -155,9 +156,9 @@
     <Parameter ID="ActivateHypervisor" Value="1" />
     <Parameter ID="ARembDramSizeInMb" Value="2048" />
   </Module>
-  <Module Name="AB1.0" Type="6PPT50.156B-10B" Version="1.3.3.0">
+  <Module Name="AB1.0" Type="6PPT50.156B-10B" Version="1.3.6.0">
     <Connection Connector="ETH1" TargetModule="0AC808.9-1b" TargetConnector="ETH5">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Terminal" Value="true" />
     <Parameter ID="Startmode" Value="2" />
@@ -175,24 +176,24 @@
     <Parameter ID="PasswordService" Value="" />
     <Parameter ID="VncRefreshRate" Value="100" />
   </Module>
-  <Module Name="AB1.10_X2X" Type="X20BT9400" Version="1.2.0.0">
+  <Module Name="AB1.10_X2X" Type="X20BT9400" Version="1.3.0.0">
     <Connection Connector="SS1" TargetModule="X20TB12d" TargetConnector="SS" />
     <Connection Connector="SL" TargetModule="X20BM11h" TargetConnector="SL1" />
     <Parameter ID="Supervision" Value="off" />
     <Parameter ID="PowerInfo" Value="on" />
   </Module>
-  <Module Name="AB1.2_Powerlink" Type="X20BC1083" Version="2.12.0.0">
+  <Module Name="AB1.2_Powerlink" Type="X20BC1083" Version="2.14.0.0">
     <Connection Connector="PLK1" TargetModule="0AC808.9-1" TargetConnector="ETH5" NodeNumber="11">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="PLK2" TargetModule="FM4_ZdvihVytahu" TargetConnector="PLK1" NodeNumber="11">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="SL" TargetModule="X20BB81" TargetConnector="SL1" />
     <Parameter ID="Supervision" Value="off" />
     <Parameter ID="ResponseTimeout" Value="50" />
   </Module>
-  <Module Name="AB1.3_Napajanie" Type="X20PS9400" Version="1.6.0.0">
+  <Module Name="AB1.3_Napajanie" Type="X20PS9400" Version="1.7.0.0">
     <Connection Connector="SS1" TargetModule="X20TB12" TargetConnector="SS" />
     <Connection Connector="PS" TargetModule="X20BB81" TargetConnector="PS1" />
     <Parameter ID="Supervision" Value="off" />
@@ -205,7 +206,7 @@
     <Parameter ID="Supervision" Value="off" />
     <Parameter ID="SafeModuleID" Value="10" />
   </Module>
-  <Module Name="AB1.5_4xSO" Type="X20SO4120" Version="1.10.9.1">
+  <Module Name="AB1.5_4xSO" Type="X20SO4120" Version="1.10.11.0">
     <Connection Connector="SS1" TargetModule="X20TB52i" TargetConnector="SS" />
     <Connection Connector="SL" TargetModule="X20BM33d" TargetConnector="SL1" />
     <Parameter ID="Supervision" Value="off" />
@@ -216,29 +217,29 @@
     <Parameter ID="DigitalOutput03" Value="viaSafeLOGIC" />
     <Parameter ID="DigitalOutput04" Value="viaSafeLOGIC" />
   </Module>
-  <Module Name="AB1.6_16xDI" Type="X20DIF371" Version="1.1.0.0">
+  <Module Name="AB1.6_16xDI" Type="X20DIF371" Version="1.2.0.0">
     <Connection Connector="SS1" TargetModule="X20TB1F" TargetConnector="SS" />
     <Connection Connector="SL" TargetModule="X20BM11" TargetConnector="SL1" />
     <Parameter ID="Supervision" Value="off" />
   </Module>
-  <Module Name="AB1.7_16xDI" Type="X20DIF371" Version="1.1.0.0">
+  <Module Name="AB1.7_16xDI" Type="X20DIF371" Version="1.2.0.0">
     <Connection Connector="SS1" TargetModule="X20TB1F1" TargetConnector="SS" />
     <Connection Connector="SL" TargetModule="X20BM11a" TargetConnector="SL1" />
     <Parameter ID="Supervision" Value="off" />
   </Module>
-  <Module Name="AB1.8_16xDO" Type="X20DOF322" Version="1.4.0.0">
+  <Module Name="AB1.8_16xDO" Type="X20DOF322" Version="1.5.0.0">
     <Connection Connector="SS1" TargetModule="X20TB1F2" TargetConnector="SS" />
     <Connection Connector="SL" TargetModule="X20BM11b" TargetConnector="SL1" />
     <Parameter ID="Supervision" Value="off" />
   </Module>
-  <Module Name="AB1.9_16xDO" Type="X20DOF322" Version="1.4.0.0">
+  <Module Name="AB1.9_16xDO" Type="X20DOF322" Version="1.5.0.0">
     <Connection Connector="SS1" TargetModule="X20TB1F3" TargetConnector="SS" />
     <Connection Connector="SL" TargetModule="X20BM11c" TargetConnector="SL1" />
     <Parameter ID="Supervision" Value="off" />
   </Module>
-  <Module Name="AB2.0" Type="6PPT50.156B-10B" Version="1.3.3.0">
+  <Module Name="AB2.0" Type="6PPT50.156B-10B" Version="1.3.6.0">
     <Connection Connector="ETH1" TargetModule="0AC808.9-1c" TargetConnector="ETH5">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Terminal" Value="true" />
     <Parameter ID="Startmode" Value="2" />
@@ -256,29 +257,29 @@
     <Parameter ID="PasswordService" Value="" />
     <Parameter ID="VncRefreshRate" Value="100" />
   </Module>
-  <Module Name="AB2.10_16xDO" Type="X20DOF322" Version="1.4.0.0">
+  <Module Name="AB2.10_16xDO" Type="X20DOF322" Version="1.5.0.0">
     <Connection Connector="SS1" TargetModule="X20TB1F9" TargetConnector="SS" />
     <Connection Connector="SL" TargetModule="X20BM11m" TargetConnector="SL1" />
     <Parameter ID="Supervision" Value="off" />
   </Module>
-  <Module Name="AB2.11_X2X" Type="X20BT9400" Version="1.2.0.0">
+  <Module Name="AB2.11_X2X" Type="X20BT9400" Version="1.3.0.0">
     <Connection Connector="SS1" TargetModule="X20TB12e" TargetConnector="SS" />
     <Connection Connector="SL" TargetModule="X20BM11i" TargetConnector="SL1" />
     <Parameter ID="Supervision" Value="off" />
     <Parameter ID="PowerInfo" Value="on" />
   </Module>
-  <Module Name="AB2.2_Powerlink" Type="X20BC1083" Version="2.12.0.0">
+  <Module Name="AB2.2_Powerlink" Type="X20BC1083" Version="2.14.0.0">
     <Connection Connector="PLK1" TargetModule="0AC808.9-1" TargetConnector="ETH6" NodeNumber="21">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="PLK2" TargetModule="FM5_ManipSrobovacky_ZdvihZvarania" TargetConnector="PLK1" NodeNumber="21">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="SL" TargetModule="X20BB81a" TargetConnector="SL1" />
     <Parameter ID="Supervision" Value="off" />
     <Parameter ID="ResponseTimeout" Value="50" />
   </Module>
-  <Module Name="AB2.3_Napajanie" Type="X20PS9400" Version="1.6.0.0">
+  <Module Name="AB2.3_Napajanie" Type="X20PS9400" Version="1.7.0.0">
     <Connection Connector="SS1" TargetModule="X20TB12a" TargetConnector="SS" />
     <Connection Connector="PS" TargetModule="X20BB81a" TargetConnector="PS1" />
     <Parameter ID="Supervision" Value="off" />
@@ -291,7 +292,7 @@
     <Parameter ID="Supervision" Value="off" />
     <Parameter ID="SafeModuleID" Value="20" />
   </Module>
-  <Module Name="AB2.5_4xSO" Type="X20SO4120" Version="1.10.9.1">
+  <Module Name="AB2.5_4xSO" Type="X20SO4120" Version="1.10.11.0">
     <Connection Connector="SS1" TargetModule="X20TB52j" TargetConnector="SS" />
     <Connection Connector="SL" TargetModule="X20BM33e" TargetConnector="SL1" />
     <Parameter ID="Supervision" Value="off" />
@@ -302,7 +303,7 @@
     <Parameter ID="DigitalOutput03" Value="viaSafeLOGIC" />
     <Parameter ID="DigitalOutput04" Value="viaSafeLOGIC" />
   </Module>
-  <Module Name="AB2.6_4xSO" Type="X20SO4120" Version="1.10.9.1">
+  <Module Name="AB2.6_4xSO" Type="X20SO4120" Version="1.10.11.0">
     <Connection Connector="SS1" TargetModule="X20TB52k" TargetConnector="SS" />
     <Connection Connector="SL" TargetModule="X20BM33h" TargetConnector="SL1" />
     <Parameter ID="Supervision" Value="off" />
@@ -313,22 +314,22 @@
     <Parameter ID="DigitalOutput03" Value="viaSafeLOGIC" />
     <Parameter ID="DigitalOutput04" Value="viaSafeLOGIC" />
   </Module>
-  <Module Name="AB2.7_16xDI" Type="X20DIF371" Version="1.1.0.0">
+  <Module Name="AB2.7_16xDI" Type="X20DIF371" Version="1.2.0.0">
     <Connection Connector="SS1" TargetModule="X20TB1F4" TargetConnector="SS" />
     <Connection Connector="SL" TargetModule="X20BM11d" TargetConnector="SL1" />
     <Parameter ID="Supervision" Value="off" />
   </Module>
-  <Module Name="AB2.8_16xDI" Type="X20DIF371" Version="1.1.0.0">
+  <Module Name="AB2.8_16xDI" Type="X20DIF371" Version="1.2.0.0">
     <Connection Connector="SS1" TargetModule="X20TB1F5" TargetConnector="SS" />
     <Connection Connector="SL" TargetModule="X20BM11e" TargetConnector="SL1" />
     <Parameter ID="Supervision" Value="off" />
   </Module>
-  <Module Name="AB2.9_16xDO" Type="X20DOF322" Version="1.4.0.0">
+  <Module Name="AB2.9_16xDO" Type="X20DOF322" Version="1.5.0.0">
     <Connection Connector="SS1" TargetModule="X20TB1F8" TargetConnector="SS" />
     <Connection Connector="SL" TargetModule="X20BM11l" TargetConnector="SL1" />
     <Parameter ID="Supervision" Value="off" />
   </Module>
-  <Module Name="AB2_1_Profinet" Type="X20IF10E1-1" Version="1.3.0.0">
+  <Module Name="AB2_1_Profinet" Type="X20IF10E1-1" Version="1.4.0.0">
     <Connection Connector="SS" TargetModule="X20BB81a" TargetConnector="SS1" />
     <Connector Name="IF1">
       <Parameter ID="DtmRef" Value="FBDIF.Hilscher.PNIOControllerDTM2.NETX 100 RE/PNM" />
@@ -338,18 +339,18 @@
     <Parameter ID="ConfigModule" Value="asnxdb2" />
     <Parameter ID="CycleTime" Value="4000" />
   </Module>
-  <Module Name="AB3.2_Powerlink" Type="X20BC1083" Version="2.12.0.0">
+  <Module Name="AB3.2_Powerlink" Type="X20BC1083" Version="2.14.0.0">
     <Connection Connector="PLK1" TargetModule="0AC808.9-1" TargetConnector="ETH7" NodeNumber="31">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="PLK2" TargetModule="FM14_ManipSrobovacky" TargetConnector="PLK1" NodeNumber="31">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="SL" TargetModule="X20BB81b" TargetConnector="SL1" />
     <Parameter ID="Supervision" Value="off" />
     <Parameter ID="ResponseTimeout" Value="50" />
   </Module>
-  <Module Name="AB3.3_Napajanie" Type="X20PS9400" Version="1.6.0.0">
+  <Module Name="AB3.3_Napajanie" Type="X20PS9400" Version="1.7.0.0">
     <Connection Connector="SS1" TargetModule="X20TB12b" TargetConnector="SS" />
     <Connection Connector="PS" TargetModule="X20BB81b" TargetConnector="PS1" />
     <Parameter ID="Supervision" Value="off" />
@@ -362,7 +363,7 @@
     <Parameter ID="Supervision" Value="off" />
     <Parameter ID="SafeModuleID" Value="30" />
   </Module>
-  <Module Name="AB3.6_4xSO" Type="X20SO4120" Version="1.10.9.1">
+  <Module Name="AB3.6_4xSO" Type="X20SO4120" Version="1.10.11.0">
     <Connection Connector="SS1" TargetModule="X20TB52l" TargetConnector="SS" />
     <Connection Connector="SL" TargetModule="X20BM33f" TargetConnector="SL1" />
     <Parameter ID="Supervision" Value="off" />
@@ -373,24 +374,24 @@
     <Parameter ID="DigitalOutput03" Value="viaSafeLOGIC" />
     <Parameter ID="DigitalOutput04" Value="viaSafeLOGIC" />
   </Module>
-  <Module Name="AB3.7_16xDI" Type="X20DIF371" Version="1.1.0.0">
+  <Module Name="AB3.7_16xDI" Type="X20DIF371" Version="1.2.0.0">
     <Connection Connector="SS1" TargetModule="X20TB1F6" TargetConnector="SS" />
     <Connection Connector="SL" TargetModule="X20BM11f" TargetConnector="SL1" />
     <Parameter ID="Supervision" Value="off" />
   </Module>
-  <Module Name="AB3.8_16xDO" Type="X20DOF322" Version="1.4.0.0">
+  <Module Name="AB3.8_16xDO" Type="X20DOF322" Version="1.5.0.0">
     <Connection Connector="SS1" TargetModule="X20TB1F7" TargetConnector="SS" />
     <Connection Connector="SL" TargetModule="X20BM11g" TargetConnector="SL1" />
     <Parameter ID="Supervision" Value="off" />
   </Module>
-  <Module Name="AB3.9_X2X" Type="X20BT9400" Version="1.2.0.0">
+  <Module Name="AB3.9_X2X" Type="X20BT9400" Version="1.3.0.0">
     <Connection Connector="SS1" TargetModule="X20TB12f" TargetConnector="SS" />
     <Connection Connector="SL" TargetModule="X20BM11j" TargetConnector="SL1" />
     <Parameter ID="Supervision" Value="off" />
   </Module>
-  <Module Name="AB4.0" Type="6PPT50.156B-10B" Version="1.3.3.0">
+  <Module Name="AB4.0" Type="6PPT50.156B-10B" Version="1.3.6.0">
     <Connection Connector="ETH1" TargetModule="0AC808.9-1d" TargetConnector="ETH5">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Terminal" Value="true" />
     <Parameter ID="Startmode" Value="2" />
@@ -408,18 +409,18 @@
     <Parameter ID="PasswordService" Value="" />
     <Parameter ID="VncRefreshRate" Value="100" />
   </Module>
-  <Module Name="AB4.2_Powerlink" Type="X20BC1083" Version="2.12.0.0">
+  <Module Name="AB4.2_Powerlink" Type="X20BC1083" Version="2.14.0.0">
     <Connection Connector="PLK1" TargetModule="0AC808.9-1" TargetConnector="ETH8" NodeNumber="41">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="PLK2" TargetModule="FM19_ZdvihEtiketovacky" TargetConnector="PLK1" NodeNumber="41">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="SL" TargetModule="X20BB81c" TargetConnector="SL1" />
     <Parameter ID="Supervision" Value="off" />
     <Parameter ID="ResponseTimeout" Value="50" />
   </Module>
-  <Module Name="AB4.3_Napajanie" Type="X20PS9400" Version="1.6.0.0">
+  <Module Name="AB4.3_Napajanie" Type="X20PS9400" Version="1.7.0.0">
     <Connection Connector="SS1" TargetModule="X20TB12c" TargetConnector="SS" />
     <Connection Connector="PS" TargetModule="X20BB81c" TargetConnector="PS1" />
     <Parameter ID="Supervision" Value="off" />
@@ -432,7 +433,7 @@
     <Parameter ID="Supervision" Value="off" />
     <Parameter ID="SafeModuleID" Value="40" />
   </Module>
-  <Module Name="AB4.5_4xSO" Type="X20SO4120" Version="1.10.9.1">
+  <Module Name="AB4.5_4xSO" Type="X20SO4120" Version="1.10.11.0">
     <Connection Connector="SS1" TargetModule="X20TB52m" TargetConnector="SS" />
     <Connection Connector="SL" TargetModule="X20BM33g" TargetConnector="SL1" />
     <Parameter ID="Supervision" Value="off" />
@@ -443,17 +444,17 @@
     <Parameter ID="DigitalOutput03" Value="viaSafeLOGIC" />
     <Parameter ID="DigitalOutput04" Value="viaSafeLOGIC" />
   </Module>
-  <Module Name="AB4.6_16xDI" Type="X20DIF371" Version="1.1.0.0">
+  <Module Name="AB4.6_16xDI" Type="X20DIF371" Version="1.2.0.0">
     <Connection Connector="SS1" TargetModule="X20TB1F10" TargetConnector="SS" />
     <Connection Connector="SL" TargetModule="X20BM11n" TargetConnector="SL1" />
     <Parameter ID="Supervision" Value="off" />
   </Module>
-  <Module Name="AB4.7_16xDO" Type="X20DOF322" Version="1.4.0.0">
+  <Module Name="AB4.7_16xDO" Type="X20DOF322" Version="1.5.0.0">
     <Connection Connector="SS1" TargetModule="X20TB1F11" TargetConnector="SS" />
     <Connection Connector="SL" TargetModule="X20BM11o" TargetConnector="SL1" />
     <Parameter ID="Supervision" Value="off" />
   </Module>
-  <Module Name="AB4.8_X2X" Type="X20BT9400" Version="1.2.0.0">
+  <Module Name="AB4.8_X2X" Type="X20BT9400" Version="1.3.0.0">
     <Connection Connector="SS1" TargetModule="X20TB12g" TargetConnector="SS" />
     <Connection Connector="SL" TargetModule="X20BM11k" TargetConnector="SL1" />
     <Parameter ID="Supervision" Value="off" />
@@ -461,97 +462,97 @@
   </Module>
   <Module Name="DI1.1_16DI" Type="X67DI1371.L08" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="DS1_1" TargetConnector="X2X2">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Supervision" Value="off" />
   </Module>
   <Module Name="DI1.2_16DI" Type="X67DI1371.L08" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="DM1.1_16DI/DO" TargetConnector="X2X2">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Supervision" Value="off" />
   </Module>
   <Module Name="DI1.3_8DI" Type="X67DI1371" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="AB1.10_X2X" TargetConnector="X2X1">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Supervision" Value="off" />
   </Module>
   <Module Name="DI1.4_8DI" Type="X67DI1371" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="PS1.1" TargetConnector="X2X2">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Supervision" Value="off" />
   </Module>
   <Module Name="DI2.1_8DI" Type="X67DI1371" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="DI2.3_16DI" TargetConnector="X2X2">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Supervision" Value="off" />
   </Module>
   <Module Name="DI2.2_16DI" Type="X67DI1371.L08" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="DS2_1" TargetConnector="X2X2">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Supervision" Value="off" />
   </Module>
   <Module Name="DI2.3_16DI" Type="X67DI1371.L08" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="DI2.2_16DI" TargetConnector="X2X2">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Supervision" Value="off" />
   </Module>
   <Module Name="DI2.4_16DI" Type="X67DI1371.L08" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="SI2.2" TargetConnector="X2X2">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Supervision" Value="off" />
   </Module>
   <Module Name="DI2.5_16DI" Type="X67DI1371.L08" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="AB2.11_X2X" TargetConnector="X2X1">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Supervision" Value="off" />
   </Module>
   <Module Name="DI3.1_16DI" Type="X67DI1371.L08" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="DS3_1" TargetConnector="X2X2">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Supervision" Value="off" />
   </Module>
   <Module Name="DI3.2_16DI" Type="X67DI1371.L08" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="DM3.1" TargetConnector="X2X2">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Supervision" Value="off" />
   </Module>
   <Module Name="DI3.3_16DI" Type="X67DI1371.L08" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="DS3_2" TargetConnector="X2X2">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Supervision" Value="off" />
   </Module>
   <Module Name="DI3.4_8DI" Type="X67DI1371" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="DI3.1_16DI" TargetConnector="X2X2">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Supervision" Value="off" />
   </Module>
   <Module Name="DI4.1_8DI" Type="X67DI1371" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="DS4_1" TargetConnector="X2X2">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Supervision" Value="off" />
   </Module>
   <Module Name="DI4.2_16DI" Type="X67DI1371.L08" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="AB4.8_X2X" TargetConnector="X2X1">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Supervision" Value="off" />
   </Module>
   <Module Name="DM1.1_16DI/DO" Type="X67DM1321.L12" Version="1.3.0.0">
     <Connection Connector="X2X1" TargetModule="SI1.1" TargetConnector="X2X2">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Supervision" Value="off" />
     <Parameter ID="Direction01" Value="output" />
@@ -565,7 +566,7 @@
   </Module>
   <Module Name="DM2.1_16DI/DO" Type="X67DM1321.L12" Version="1.3.0.0">
     <Connection Connector="X2X1" TargetModule="DI2.4_16DI" TargetConnector="X2X2">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Supervision" Value="off" />
     <Parameter ID="Direction01" Value="output" />
@@ -579,7 +580,7 @@
   </Module>
   <Module Name="DM3.1" Type="X67DM1321.L12" Version="1.3.0.0">
     <Connection Connector="X2X1" TargetModule="SI3.1" TargetConnector="X2X2">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Supervision" Value="off" />
     <Parameter ID="Direction01" Value="output" />
@@ -590,14 +591,14 @@
   </Module>
   <Module Name="DM4.1" Type="X67DM1321.L12" Version="1.3.0.0">
     <Connection Connector="X2X1" TargetModule="SI4.2" TargetConnector="X2X2">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Supervision" Value="off" />
     <Parameter ID="Direction01" Value="output" />
   </Module>
   <Module Name="DS1_1" Type="X67DS438A" Version="2.0.2.0">
     <Connection Connector="X2X1" TargetModule="DI1.2_16DI" TargetConnector="X2X2">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="DtmRef" Value="FBD.BRIOLinkModuleDTM.DTMCore.X67DS438A" />
     <Parameter ID="DtmId" Value="5c77c125-df18-49d3-b5f3-4c14169cffef" />
@@ -623,7 +624,7 @@
   </Module>
   <Module Name="DS1_2" Type="X67DS438A" Version="2.0.2.0">
     <Connection Connector="X2X1" TargetModule="DI1.4_8DI" TargetConnector="X2X2">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="DtmRef" Value="FBD.BRIOLinkModuleDTM.DTMCore.X67DS438A" />
     <Parameter ID="DtmId" Value="e8efb28a-4369-4f6e-ba32-6070f12fc839" />
@@ -644,7 +645,7 @@
   </Module>
   <Module Name="DS2_1" Type="X67DS438A" Version="2.0.2.0">
     <Connection Connector="X2X1" TargetModule="PS2.1" TargetConnector="X2X2">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="DtmRef" Value="FBD.BRIOLinkModuleDTM.DTMCore.X67DS438A" />
     <Parameter ID="DtmId" Value="6c6e43c7-21be-4bc5-b72d-9cc8aa168b62" />
@@ -670,7 +671,7 @@
   </Module>
   <Module Name="DS2_2" Type="X67DS438A" Version="2.0.2.0">
     <Connection Connector="X2X1" TargetModule="DI2.5_16DI" TargetConnector="X2X2">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="DtmRef" Value="FBD.BRIOLinkModuleDTM.DTMCore.X67DS438A" />
     <Parameter ID="DtmId" Value="6dcf51c1-a267-435c-afe7-74a87a65980e" />
@@ -694,7 +695,7 @@
   </Module>
   <Module Name="DS2_3" Type="X67DS438A" Version="2.0.2.0">
     <Connection Connector="X2X1" TargetModule="DI2.1_8DI" TargetConnector="X2X2">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="DtmRef" Value="FBD.BRIOLinkModuleDTM.DTMCore.X67DS438A" />
     <Parameter ID="DtmId" Value="340b556e-295f-4e6a-bd8b-75a070d42850" />
@@ -715,7 +716,7 @@
   </Module>
   <Module Name="DS3_1" Type="X67DS438A" Version="2.0.2.0">
     <Connection Connector="X2X1" TargetModule="PS3.1" TargetConnector="X2X2">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="DtmRef" Value="FBD.BRIOLinkModuleDTM.DTMCore.X67DS438A" />
     <Parameter ID="DtmId" Value="9d23c650-c770-4c6e-b46f-8263eb440c8e" />
@@ -736,7 +737,7 @@
   </Module>
   <Module Name="DS3_2" Type="X67DS438A" Version="2.0.2.0">
     <Connection Connector="X2X1" TargetModule="DI3.2_16DI" TargetConnector="X2X2">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="DtmRef" Value="FBD.BRIOLinkModuleDTM.DTMCore.X67DS438A" />
     <Parameter ID="DtmId" Value="a7eb8fb6-db97-4afc-b9d3-8750693ebcbe" />
@@ -754,7 +755,7 @@
   </Module>
   <Module Name="DS3_3" Type="X67DS438A" Version="2.0.2.0">
     <Connection Connector="X2X1" TargetModule="DI3.4_8DI" TargetConnector="X2X2">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="DtmRef" Value="FBD.BRIOLinkModuleDTM.DTMCore.X67DS438A" />
     <Parameter ID="DtmId" Value="368358d0-453a-4650-9d77-1e5a5bfd0086" />
@@ -774,7 +775,7 @@
   </Module>
   <Module Name="DS4_1" Type="X67DS438A" Version="2.0.2.0">
     <Connection Connector="X2X1" TargetModule="DM4.1" TargetConnector="X2X2">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="DtmRef" Value="FBD.BRIOLinkModuleDTM.DTMCore.X67DS438A" />
     <Parameter ID="DtmId" Value="812b7be7-ea90-49cd-bd0f-6922f0b365ce" />
@@ -795,7 +796,7 @@
   </Module>
   <Module Name="DS4_2" Type="X67DS438A" Version="2.0.2.0">
     <Connection Connector="X2X1" TargetModule="SI4.1" TargetConnector="X2X2">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="DtmRef" Value="FBD.BRIOLinkModuleDTM.DTMCore.X67DS438A" />
     <Parameter ID="DtmId" Value="630fd496-1eda-4307-8763-f03027e0c3fb" />
@@ -815,10 +816,10 @@
   </Module>
   <Module Name="FM14_ManipSrobovacky" Type="8EI4X5MWS10.xxxx-1" Version="2.3.1.1">
     <Connection Connector="PLK1" TargetModule="AB3.2_Powerlink" TargetConnector="PLK2">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="PLK2" TargetModule="VentilovyTerminal_VT6" TargetConnector="PLK1">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="EC1" TargetModule="M37_ManipSrobovackyOsY" TargetConnector="EC" />
     <Parameter ID="ResponseTimeout" Value="50" />
@@ -873,10 +874,10 @@
   </Module>
   <Module Name="FM18_ZdvihVytahu" Type="8EI4X5MWS10.xxxx-1" Version="2.3.1.1">
     <Connection Connector="PLK1" TargetModule="FM19_ZdvihEtiketovacky" TargetConnector="PLK2">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="PLK2" TargetModule="VentilovyTerminal_VT8" TargetConnector="PLK1">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="EC1" TargetModule="M26_ZdvihVytahu" TargetConnector="EC" />
     <Parameter ID="ResponseTimeout" Value="50" />
@@ -931,10 +932,10 @@
   </Module>
   <Module Name="FM19_ZdvihEtiketovacky" Type="8EI4X5MWS10.xxxx-1" Version="2.3.1.1">
     <Connection Connector="PLK1" TargetModule="AB4.2_Powerlink" TargetConnector="PLK2">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="PLK2" TargetModule="FM18_ZdvihVytahu" TargetConnector="PLK1">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="EC1" TargetModule="M28_ZdvihEtiketovacky" TargetConnector="EC" />
     <Parameter ID="ResponseTimeout" Value="50" />
@@ -989,10 +990,10 @@
   </Module>
   <Module Name="FM4_ZdvihVytahu" Type="8EI4X5MWS10.xxxx-1" Version="2.3.1.1">
     <Connection Connector="PLK1" TargetModule="AB1.2_Powerlink" TargetConnector="PLK2">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="PLK2" TargetModule="FM5_ManipulatorSrobovacky" TargetConnector="PLK1">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="EC1" TargetModule="M1.0.0" TargetConnector="EC" />
     <Parameter ID="ResponseTimeout" Value="50" />
@@ -1047,10 +1048,10 @@
   </Module>
   <Module Name="FM5_ManipSrobovacky_ZdvihZvarania" Type="8EI4X5MWT10.xxxx-1" Version="2.3.1.1">
     <Connection Connector="PLK1" TargetModule="AB2.2_Powerlink" TargetConnector="PLK2">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="PLK2" TargetModule="FM6_ZdvihZakladacaTesnenia" TargetConnector="PLK1">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="EC1" TargetModule="M10_ManipSrobovackyOsX" TargetConnector="EC" />
     <Connection Connector="EC2" TargetModule="M9_ManipSrobovackyOsY" TargetConnector="EC" />
@@ -1201,10 +1202,10 @@
   </Module>
   <Module Name="FM5_ManipulatorSrobovacky" Type="8EI4X5MWD10.xxxx-1" Version="2.3.1.1">
     <Connection Connector="PLK1" TargetModule="FM4_ZdvihVytahu" TargetConnector="PLK2">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="PLK2" TargetModule="VentilovyTerminal_VT4" TargetConnector="PLK1">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="EC1" TargetModule="M1.1.0" TargetConnector="EC" />
     <Connection Connector="EC2" TargetModule="M1.1.1" TargetConnector="EC" />
@@ -1307,10 +1308,10 @@
   </Module>
   <Module Name="FM6_ZdvihZakladacaTesnenia" Type="8EI8X8HWS10.xxxx-1" Version="2.3.1.1">
     <Connection Connector="PLK1" TargetModule="FM5_ManipSrobovacky_ZdvihZvarania" TargetConnector="PLK2">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="PLK2" TargetModule="FM7_PojazdZakladacaTesnenia" TargetConnector="PLK1">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="EC1" TargetModule="M4_ZdvihZakladacaTesnenia" TargetConnector="EC" />
     <Parameter ID="ResponseTimeout" Value="50" />
@@ -1364,10 +1365,10 @@
   </Module>
   <Module Name="FM7_PojazdZakladacaTesnenia" Type="8EI4X5MWS10.xxxx-1" Version="2.3.1.1">
     <Connection Connector="PLK1" TargetModule="FM6_ZdvihZakladacaTesnenia" TargetConnector="PLK2">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="PLK2" TargetModule="VentilovyTerminal_VT1" TargetConnector="PLK1">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="EC1" TargetModule="M5_PojazdZakladacaTesnenia" TargetConnector="EC" />
     <Parameter ID="ResponseTimeout" Value="50" />
@@ -1550,7 +1551,7 @@
     <Connection Connector="IO-Link1" TargetModule="DS3_1" TargetConnector="IF3" />
     <Parameter ID="DtmId" Value="c04d13be-5f57-42d9-9ba4-447b82f9ca3b" />
   </Module>
-  <Module Name="M1.0.0" Type="8LVA23.B8015S200-0" Version="1.0.1.30">
+  <Module Name="M1.0.0" Type="8LVA23.B8015S200-0" Version="2.2.0.3">
     <Connection Connector="EC" TargetModule="FM4_ZdvihVytahu" TargetConnector="EC1" />
     <Connection Connector="MT" TargetModule="FM4_ZdvihVytahu" TargetConnector="MT1" />
   </Module>
@@ -1569,7 +1570,7 @@
     <Connection Connector="MT" TargetModule="FM5_ManipSrobovacky_ZdvihZvarania" TargetConnector="MT1" />
     <Parameter ID="MOTOR_AMB_TEMP_RATED" Location="M1/MotorParameters" Value="40" />
   </Module>
-  <Module Name="M26_ZdvihVytahu" Type="8LVA23.B8015S200-0" Version="1.0.1.30">
+  <Module Name="M26_ZdvihVytahu" Type="8LVA23.B8015S200-0" Version="2.2.0.3">
     <Connection Connector="EC" TargetModule="FM18_ZdvihVytahu" TargetConnector="EC1" />
     <Connection Connector="MT" TargetModule="FM18_ZdvihVytahu" TargetConnector="MT1" />
   </Module>
@@ -1583,7 +1584,7 @@
     <Connection Connector="MT" TargetModule="FM14_ManipSrobovacky" TargetConnector="MT1" />
     <Parameter ID="MOTOR_AMB_TEMP_RATED" Location="M1/MotorParameters" Value="40" />
   </Module>
-  <Module Name="M4_ZdvihZakladacaTesnenia" Type="8LSA46.DB030S200-3" Version="1.0.8.37">
+  <Module Name="M4_ZdvihZakladacaTesnenia" Type="8LSA46.DB030S200-3" Version="2.2.0.1">
     <Connection Connector="EC" TargetModule="FM6_ZdvihZakladacaTesnenia" TargetConnector="EC1" />
     <Connection Connector="MT" TargetModule="FM6_ZdvihZakladacaTesnenia" TargetConnector="MT1" />
   </Module>
@@ -1770,22 +1771,22 @@
   </Module>
   <Module Name="PS1.1" Type="X67PS1300" Version="1.0.0.0">
     <Connection Connector="X2X1" TargetModule="SI1.2" TargetConnector="X2X2">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
   </Module>
   <Module Name="PS2.1" Type="X67PS1300" Version="1.0.0.0">
     <Connection Connector="X2X1" TargetModule="DM2.1_16DI/DO" TargetConnector="X2X2">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
   </Module>
   <Module Name="PS3.1" Type="X67PS1300" Version="1.0.0.0">
     <Connection Connector="X2X1" TargetModule="DI3.3_16DI" TargetConnector="X2X2">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
   </Module>
   <Module Name="PS4.1" Type="X67PS1300" Version="1.0.0.0">
     <Connection Connector="X2X1" TargetModule="DI4.1_8DI" TargetConnector="X2X2">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
   </Module>
   <Module Name="R1_IRB120" Type="FBD.Hilscher.PNIOGenDevDTM2.ENERGY V1.4" Version="1.4" OrderNumber="ENERGY V1.4" VendorAddress="robot-p1">
@@ -1946,56 +1947,56 @@
   </Module>
   <Module Name="SI1.1" Type="X67SI8103" Version="1.10.12.0">
     <Connection Connector="X2X1" TargetModule="DI1.3_8DI" TargetConnector="X2X2">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Supervision" Value="off" />
     <Parameter ID="SafeModuleID" Value="4" />
   </Module>
   <Module Name="SI1.2" Type="X67SI8103" Version="1.10.12.0">
     <Connection Connector="X2X1" TargetModule="DI1.1_16DI" TargetConnector="X2X2">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Supervision" Value="off" />
     <Parameter ID="SafeModuleID" Value="5" />
   </Module>
   <Module Name="SI2.1" Type="X67SI8103" Version="1.10.12.0">
     <Connection Connector="X2X1" TargetModule="DS2_2" TargetConnector="X2X2">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Supervision" Value="off" />
     <Parameter ID="SafeModuleID" Value="23" />
   </Module>
   <Module Name="SI2.2" Type="X67SI8103" Version="1.10.12.0">
     <Connection Connector="X2X1" TargetModule="SI2.1" TargetConnector="X2X2">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Supervision" Value="off" />
     <Parameter ID="SafeModuleID" Value="24" />
   </Module>
   <Module Name="SI3.1" Type="X67SI8103" Version="1.10.12.0">
     <Connection Connector="X2X1" TargetModule="AB3.9_X2X" TargetConnector="X2X1">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Supervision" Value="off" />
     <Parameter ID="SafeModuleID" Value="32" />
   </Module>
   <Module Name="SI4.1" Type="X67SI8103" Version="1.10.12.0">
     <Connection Connector="X2X1" TargetModule="PS4.1" TargetConnector="X2X2">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Supervision" Value="off" />
     <Parameter ID="SafeModuleID" Value="43" />
   </Module>
   <Module Name="SI4.2" Type="X67SI8103" Version="1.10.12.0">
     <Connection Connector="X2X1" TargetModule="DI4.2_16DI" TargetConnector="X2X2">
-      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Supervision" Value="off" />
     <Parameter ID="SafeModuleID" Value="42" />
   </Module>
   <Module Name="SL1_SafetyMaster" Type="X20SL8100" Version="1.10.10.2">
     <Connection Connector="PLK1" TargetModule="0AC808.9-1" TargetConnector="ETH2" NodeNumber="2">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="SS1" TargetModule="X20TB52" TargetConnector="SS" />
     <Parameter ID="ResponseTimeout" Value="50" />
@@ -2087,68 +2088,68 @@
   </Module>
   <Module Name="VentilovyTerminal_VT1" Type="FBE.FFFF0007_EX260-SPL1" Version="1.0" OrderNumber="EX260-SPL1">
     <Connection Connector="PLK1" TargetModule="FM7_PojazdZakladacaTesnenia" TargetConnector="PLK2">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="PLK2" TargetModule="VentilovyTerminal_VT2" TargetConnector="PLK1">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Supervision" Value="off" />
     <Parameter ID="ResponseTimeout" Value="50" />
   </Module>
   <Module Name="VentilovyTerminal_VT2" Type="FBE.FFFF0007_EX260-SPL1" Version="1.0" OrderNumber="EX260-SPL1">
     <Connection Connector="PLK1" TargetModule="VentilovyTerminal_VT1" TargetConnector="PLK2">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="PLK2" TargetModule="VentilovyTerminal_VT3" TargetConnector="PLK1">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Supervision" Value="off" />
     <Parameter ID="ResponseTimeout" Value="50" />
   </Module>
   <Module Name="VentilovyTerminal_VT3" Type="FBE.FFFF0007_EX260-SPL1" Version="1.0" OrderNumber="EX260-SPL1">
     <Connection Connector="PLK1" TargetModule="VentilovyTerminal_VT2" TargetConnector="PLK2">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Supervision" Value="off" />
     <Parameter ID="ResponseTimeout" Value="50" />
   </Module>
   <Module Name="VentilovyTerminal_VT4" Type="FBE.FFFF0007_EX260-SPL1" Version="1.0" OrderNumber="EX260-SPL1">
     <Connection Connector="PLK1" TargetModule="FM5_ManipulatorSrobovacky" TargetConnector="PLK2">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="PLK2" TargetModule="VentilovyTerminal_VT5" TargetConnector="PLK1">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Supervision" Value="off" />
     <Parameter ID="ResponseTimeout" Value="50" />
   </Module>
   <Module Name="VentilovyTerminal_VT5" Type="FBE.FFFF0007_EX260-SPL1" Version="1.0" OrderNumber="EX260-SPL1">
     <Connection Connector="PLK1" TargetModule="VentilovyTerminal_VT4" TargetConnector="PLK2">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Supervision" Value="off" />
     <Parameter ID="ResponseTimeout" Value="50" />
   </Module>
   <Module Name="VentilovyTerminal_VT6" Type="FBE.FFFF0007_EX260-SPL1" Version="1.0" OrderNumber="EX260-SPL1">
     <Connection Connector="PLK1" TargetModule="FM14_ManipSrobovacky" TargetConnector="PLK2">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Connection Connector="PLK2" TargetModule="VentilovyTerminal_VT7" TargetConnector="PLK1">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Supervision" Value="off" />
     <Parameter ID="ResponseTimeout" Value="50" />
   </Module>
   <Module Name="VentilovyTerminal_VT7" Type="FBE.FFFF0007_EX260-SPL1" Version="1.0" OrderNumber="EX260-SPL1">
     <Connection Connector="PLK1" TargetModule="VentilovyTerminal_VT6" TargetConnector="PLK2">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Supervision" Value="off" />
     <Parameter ID="ResponseTimeout" Value="50" />
   </Module>
   <Module Name="VentilovyTerminal_VT8" Type="FBE.FFFF0007_EX260-SPL1" Version="1.0" OrderNumber="EX260-SPL1">
     <Connection Connector="PLK1" TargetModule="FM18_ZdvihVytahu" TargetConnector="PLK2">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
     <Parameter ID="Supervision" Value="off" />
     <Parameter ID="ResponseTimeout" Value="50" />
@@ -2169,83 +2170,83 @@
     <Connection Connector="IO-Link1" TargetModule="DS1_1" TargetConnector="IF3" />
     <Parameter ID="DtmId" Value="f9cd6e35-af4a-42f2-af08-71c2d09ca6cd" />
   </Module>
-  <Module Name="X20BB81" Type="X20BB81" Version="1.0.2.0" />
-  <Module Name="X20BB81a" Type="X20BB81" Version="1.0.2.0" />
-  <Module Name="X20BB81b" Type="X20BB81" Version="1.0.2.0" />
-  <Module Name="X20BB81c" Type="X20BB81" Version="1.0.2.0" />
-  <Module Name="X20BM11" Type="X20BM11" Version="1.0.0.1">
+  <Module Name="X20BB81" Type="X20BB81" Version="1.1.0.0" />
+  <Module Name="X20BB81a" Type="X20BB81" Version="1.1.0.0" />
+  <Module Name="X20BB81b" Type="X20BB81" Version="1.1.0.0" />
+  <Module Name="X20BB81c" Type="X20BB81" Version="1.1.0.0" />
+  <Module Name="X20BM11" Type="X20BM11" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="X20BM33d" TargetConnector="X2X2" />
   </Module>
-  <Module Name="X20BM11a" Type="X20BM11" Version="1.0.0.1">
+  <Module Name="X20BM11a" Type="X20BM11" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="X20BM11" TargetConnector="X2X2" />
   </Module>
-  <Module Name="X20BM11b" Type="X20BM11" Version="1.0.0.1">
+  <Module Name="X20BM11b" Type="X20BM11" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="X20BM11a" TargetConnector="X2X2" />
   </Module>
-  <Module Name="X20BM11c" Type="X20BM11" Version="1.0.0.1">
+  <Module Name="X20BM11c" Type="X20BM11" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="X20BM11b" TargetConnector="X2X2" />
   </Module>
-  <Module Name="X20BM11d" Type="X20BM11" Version="1.0.0.1">
+  <Module Name="X20BM11d" Type="X20BM11" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="X20BM33h" TargetConnector="X2X2" />
   </Module>
-  <Module Name="X20BM11e" Type="X20BM11" Version="1.0.0.1">
+  <Module Name="X20BM11e" Type="X20BM11" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="X20BM11d" TargetConnector="X2X2" />
   </Module>
-  <Module Name="X20BM11f" Type="X20BM11" Version="1.0.0.1">
+  <Module Name="X20BM11f" Type="X20BM11" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="X20BB81b" TargetConnector="IF1" />
   </Module>
-  <Module Name="X20BM11g" Type="X20BM11" Version="1.0.0.1">
+  <Module Name="X20BM11g" Type="X20BM11" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="X20BM11f" TargetConnector="X2X2" />
   </Module>
-  <Module Name="X20BM11h" Type="X20BM11" Version="1.0.0.1">
+  <Module Name="X20BM11h" Type="X20BM11" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="X20BM11c" TargetConnector="X2X2" />
   </Module>
-  <Module Name="X20BM11i" Type="X20BM11" Version="1.0.0.1">
+  <Module Name="X20BM11i" Type="X20BM11" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="X20BM11m" TargetConnector="X2X2" />
   </Module>
-  <Module Name="X20BM11j" Type="X20BM11" Version="1.0.0.1">
+  <Module Name="X20BM11j" Type="X20BM11" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="X20BM33f" TargetConnector="X2X2" />
   </Module>
-  <Module Name="X20BM11k" Type="X20BM11" Version="1.0.0.1">
+  <Module Name="X20BM11k" Type="X20BM11" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="X20BM11o" TargetConnector="X2X2" />
   </Module>
-  <Module Name="X20BM11l" Type="X20BM11" Version="1.0.0.1">
+  <Module Name="X20BM11l" Type="X20BM11" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="X20BM11e" TargetConnector="X2X2" />
   </Module>
-  <Module Name="X20BM11m" Type="X20BM11" Version="1.0.0.1">
+  <Module Name="X20BM11m" Type="X20BM11" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="X20BM11l" TargetConnector="X2X2" />
   </Module>
-  <Module Name="X20BM11n" Type="X20BM11" Version="1.0.0.1">
+  <Module Name="X20BM11n" Type="X20BM11" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="X20BM33g" TargetConnector="X2X2" />
   </Module>
-  <Module Name="X20BM11o" Type="X20BM11" Version="1.0.0.1">
+  <Module Name="X20BM11o" Type="X20BM11" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="X20BM11n" TargetConnector="X2X2" />
   </Module>
-  <Module Name="X20BM33" Type="X20BM33" Version="1.0.0.6">
+  <Module Name="X20BM33" Type="X20BM33" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="X20BB81" TargetConnector="IF1" />
   </Module>
-  <Module Name="X20BM33a" Type="X20BM33" Version="1.0.0.6">
+  <Module Name="X20BM33a" Type="X20BM33" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="X20BB81a" TargetConnector="IF1" />
   </Module>
-  <Module Name="X20BM33b" Type="X20BM33" Version="1.0.0.6">
+  <Module Name="X20BM33b" Type="X20BM33" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="X20BM11g" TargetConnector="X2X2" />
   </Module>
-  <Module Name="X20BM33c" Type="X20BM33" Version="1.0.0.6">
+  <Module Name="X20BM33c" Type="X20BM33" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="X20BB81c" TargetConnector="IF1" />
   </Module>
-  <Module Name="X20BM33d" Type="X20BM33" Version="1.0.0.6">
+  <Module Name="X20BM33d" Type="X20BM33" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="X20BM33" TargetConnector="X2X2" />
   </Module>
-  <Module Name="X20BM33e" Type="X20BM33" Version="1.0.0.6">
+  <Module Name="X20BM33e" Type="X20BM33" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="X20BM33a" TargetConnector="X2X2" />
   </Module>
-  <Module Name="X20BM33f" Type="X20BM33" Version="1.0.0.6">
+  <Module Name="X20BM33f" Type="X20BM33" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="X20BM33b" TargetConnector="X2X2" />
   </Module>
-  <Module Name="X20BM33g" Type="X20BM33" Version="1.0.0.6">
+  <Module Name="X20BM33g" Type="X20BM33" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="X20BM33c" TargetConnector="X2X2" />
   </Module>
-  <Module Name="X20BM33h" Type="X20BM33" Version="1.0.0.6">
+  <Module Name="X20BM33h" Type="X20BM33" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="X20BM33e" TargetConnector="X2X2" />
   </Module>
   <Module Name="X20MK0211" Type="X20MK0211" Version="1.0.0.3">

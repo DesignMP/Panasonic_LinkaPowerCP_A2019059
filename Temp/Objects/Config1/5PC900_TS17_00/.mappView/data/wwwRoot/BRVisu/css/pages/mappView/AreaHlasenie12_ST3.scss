@@ -1,0 +1,95 @@
+﻿@import "mixins.scss";
+#AreaHlasenie12_ST3_GroupBox6 {
+	@include elemTop(0);
+}
+#AreaHlasenie12_ST3_GroupBox6 {
+	@include elemLeft(0);
+}
+#AreaHlasenie12_ST3_GroupBox6 {
+	@include elemWidth(500);
+}
+#AreaHlasenie12_ST3_GroupBox6 {
+	@include elemHeight(300);
+}
+#AreaHlasenie12_ST3_GroupBox6 {
+		z-index: 0;
+}
+#AreaHlasenie12_ST3_GroupBox6 {
+		border-width: 7px;
+}
+#AreaHlasenie12_ST3_GroupBox6 {
+	> .header{
+		border-width: 7px;
+	}
+}
+#AreaHlasenie12_ST3_GroupBox6 {
+	@include border-radius(6px 6px 6px 6px);
+}
+#AreaHlasenie12_ST3_GroupBox6 {
+		background-color: rgba(255, 192, 128, 1);
+}
+#AreaHlasenie12_ST3_GroupBox6 {
+		border-style: groove;
+}
+#AreaHlasenie12_ST3_GroupBox6 {
+	> .header{
+		border-bottom-style: groove;
+	}
+}
+#AreaHlasenie12_ST3_GroupBox6 {
+	> .header span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaHlasenie12_ST3_GroupBox6 {
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+}
+#AreaHlasenie12_ST3_Image1 {
+	@include elemTop(7);
+}
+#AreaHlasenie12_ST3_Image1 {
+	@include elemLeft(415);
+}
+#AreaHlasenie12_ST3_Image1 {
+	@include elemAutoWidth(62);
+}
+#AreaHlasenie12_ST3_Image1 {
+	@include elemAutoHeight(62);
+}
+#AreaHlasenie12_ST3_Image1 {
+		z-index: 0;
+}
+#AreaHlasenie12_ST3_Label1 {
+	@include elemTop(93);
+}
+#AreaHlasenie12_ST3_Label1 {
+	@include elemLeft(22);
+}
+#AreaHlasenie12_ST3_Label1 {
+	@include elemAutoWidth(443);
+}
+#AreaHlasenie12_ST3_Label1 {
+	@include elemAutoHeight(100);
+}
+#AreaHlasenie12_ST3_Label1 {
+		z-index: 1;
+}
+#AreaHlasenie12_ST3_Label1 {
+	& span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaHlasenie12_ST3_Label1 {
+	@include text-alignment-all('center');
+}
+#AreaHlasenie12_ST3_Label1 {
+		font-size: 24px;
+}
+#AreaHlasenie12_ST3_Label1 {
+	@include font-weight-bold(true);
+}
+#AreaHlasenie12_ST3_Label1 {
+	span{
+	@include text-decoration-underline(false);
+	}
+}

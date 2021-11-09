@@ -1,0 +1,11 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/SKTcp/SKTcp.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/SKTcp/Types.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/FileIO/FileIO.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/FileIO/FileIO.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AsTCP/AsTCP.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AsTCP/AsTCP.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/SKTcp/Constants.var
+$(AS_PROJECT_PATH)/Logical/Libraries/sys_lib/sys_lib.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AsBrStr/AsBrStr.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/asstring/asstring.fun

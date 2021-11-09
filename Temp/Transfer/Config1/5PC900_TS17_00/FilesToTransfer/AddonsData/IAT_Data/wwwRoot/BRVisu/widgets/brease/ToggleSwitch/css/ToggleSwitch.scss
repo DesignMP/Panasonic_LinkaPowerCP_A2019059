@@ -1,0 +1,119 @@
+@import '../../../../css/libs/variables.scss';
+@import '../../../../css/libs/mixins.scss';
+
+.breaseToggleSwitch {
+    @include displayFlexBox(true);
+    @include flex-direction(row);
+    @include justify-content(start);
+    height: 30px;
+    padding: 2px;
+    width: 76px;
+    background-color: #555;
+    border: none;
+    position: relative;
+
+    &.image-right {
+        @include flex-direction(row);
+
+        img, svg {
+            margin: 0px 0px 0px 0px;
+        }
+
+        .wrapper {
+            flex-direction: row;
+        }
+    }
+
+    &.image-left {
+        @include flex-direction(row);
+
+        img, svg {
+            margin: 0px 0px 0px 0px;
+        }
+
+        .wrapper {
+            flex-direction: row;
+        }
+    }
+
+    &.image-top {
+        @include flex-direction(row);
+
+        img, svg {
+            margin: 0px 0px 0px 0px;
+        }
+
+        .wrapper {
+            flex-direction: column;
+        }
+    }
+
+    &.image-bottom {
+        @include flex-direction(row);
+
+        img, svg {
+            margin: 0px 0px 0px 0px;
+        }
+
+        .wrapper {
+            flex-direction: column;
+        }
+    }
+
+    &:not(.editMode) {
+        .breaseToggleSwitch_toggle {
+            @include transition(margin 0.2s ease-in-out);
+        }
+    }
+
+    .breaseToggleSwitch_toggle {
+        height: 100%;
+        width: 30px;
+        background: #FFF;
+        background-size: 100% 100%;
+        position: relative;
+
+        .wrapper {
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            height: 100%;
+
+            .before {
+                position: relative;
+                font-size: 12px;
+                font-weight: normal;
+                align-self: center;
+                line-height: normal;
+            }
+
+            .after {
+                position: relative;
+                font-size: 12px;
+                font-weight: normal;
+                align-self: center;
+                line-height: normal;
+            }
+
+            img, svg {
+                position: relative;
+                align-self: center;
+            }
+        }
+    }
+
+    // &.checked {
+    //     // .breaseToggleSwitch_toggle {
+    //     //     margin-left: 46px;
+    //     // }
+    // }
+
+    &.disabled {
+        background-color: #CCCCCC;
+
+        &.checked {
+            background-color: #CCCCCC;
+        }
+    }
+}
+

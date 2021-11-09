@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Content id="AreaPageManualP2_Maticovacka">
+    <EventBinding id="AreaPageManualP2_Maticovacka.Button_ZostupCentrovania.Click">
+			<Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageManualP2_Maticovacka_Button_ZostupCentrovania" />
+			<EventHandler>
+				<Action>
+					<Target type="opcUa.NodeAction" refId="::P2_StoperM:Centrovacku_ZASUN">
+						<Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="AreaPageManualP2_Maticovacka">
+    <EventBinding id="AreaPageManualP2_Maticovacka.Button_ZdvihCentrovania.Click">
+			<Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageManualP2_Maticovacka_Button_ZdvihCentrovania" />
+			<EventHandler>
+				<Action>
+					<Target type="opcUa.NodeAction" refId="::P2_StoperM:Centrovacku_VYSUN">
+						<Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="AreaPageManualP2_Maticovacka">
+    <EventBinding id="AreaPageManualP2_Maticovacka.Button_PodajMaticu.Click">
+			<Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageManualP2_Maticovacka_Button_PodajMaticu" />
+			<EventHandler>
+				<Action>
+					<Target type="opcUa.NodeAction" refId="::AsGlobalPV:P2_SkrutkovacMatic.RR_PodajMaticu">
+						<Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+</EventBindingDefinition>

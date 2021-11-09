@@ -1,0 +1,220 @@
+#AreaPageManualP4_Dopravniky_Image1 {
+  top: 0px;
+  position: absolute;
+}
+
+#AreaPageManualP4_Dopravniky_Image1 {
+  left: 0px;
+  position: absolute;
+}
+
+#AreaPageManualP4_Dopravniky_Image1 {
+  width: 1366px;
+}
+
+#AreaPageManualP4_Dopravniky_Image1 {
+  height: 588px;
+}
+
+#AreaPageManualP4_Dopravniky_Image1 {
+  z-index: 0;
+}
+
+#AreaPageManualP4_Dopravniky_Image1 {
+  opacity: 0.2;
+}
+
+#AreaPageManualP4_Dopravniky_Label1 {
+  top: 20px;
+  position: absolute;
+}
+
+#AreaPageManualP4_Dopravniky_Label1 {
+  left: 483px;
+  position: absolute;
+}
+
+#AreaPageManualP4_Dopravniky_Label1 {
+  width: 400px;
+}
+
+#AreaPageManualP4_Dopravniky_Label1 {
+  height: 35px;
+}
+
+#AreaPageManualP4_Dopravniky_Label1 {
+  z-index: 1;
+}
+
+#AreaPageManualP4_Dopravniky_Label1 {
+  border-width: 5px;
+}
+
+#AreaPageManualP4_Dopravniky_Label1 {
+  border-radius: 5px;
+}
+
+#AreaPageManualP4_Dopravniky_Label1 {
+  border-style: ridge;
+}
+
+#AreaPageManualP4_Dopravniky_Label1:before {
+  border-style: ridge;
+}
+
+#AreaPageManualP4_Dopravniky_Label1:after {
+  border-style: ridge;
+}
+
+#AreaPageManualP4_Dopravniky_Label1 span {
+  color: black;
+}
+
+#AreaPageManualP4_Dopravniky_Label1 {
+  justify-content: center;
+  text-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#AreaPageManualP4_Dopravniky_Label1 {
+  font-size: 20px;
+}
+
+#AreaPageManualP4_Dopravniky_Label1 {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageManualP4_Dopravniky_GroupBox_OvladanieDopravnikov {
+  top: 74px;
+  position: absolute;
+}
+
+#AreaPageManualP4_Dopravniky_GroupBox_OvladanieDopravnikov {
+  left: 18px;
+  position: absolute;
+}
+
+#AreaPageManualP4_Dopravniky_GroupBox_OvladanieDopravnikov {
+  width: 430px;
+}
+
+#AreaPageManualP4_Dopravniky_GroupBox_OvladanieDopravnikov {
+  height: 250px;
+}
+
+#AreaPageManualP4_Dopravniky_GroupBox_OvladanieDopravnikov {
+  z-index: 2;
+}
+
+#AreaPageManualP4_Dopravniky_GroupBox_OvladanieDopravnikov {
+  background-color: oldlace;
+}
+
+#AreaPageManualP4_Dopravniky_GroupBox_OvladanieDopravnikov > .header span {
+  color: black;
+}
+
+#AreaPageManualP4_Dopravniky_GroupBox_OvladanieDopravnikov {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageManualP4_Dopravniky_ToggleSwitch_HornyDopravnik {
+  top: 31px;
+  position: absolute;
+}
+
+#AreaPageManualP4_Dopravniky_ToggleSwitch_HornyDopravnik {
+  left: 132px;
+  position: absolute;
+}
+
+#AreaPageManualP4_Dopravniky_ToggleSwitch_HornyDopravnik {
+  width: 165px;
+}
+
+#AreaPageManualP4_Dopravniky_ToggleSwitch_HornyDopravnik {
+  height: 45px;
+}
+
+#AreaPageManualP4_Dopravniky_ToggleSwitch_HornyDopravnik {
+  z-index: 0;
+}
+
+#AreaPageManualP4_Dopravniky_ToggleSwitch_HornyDopravnik:not(.disabled):not(.checked) .breaseToggleSwitch_toggle .before {
+  color: black;
+}
+
+#AreaPageManualP4_Dopravniky_ToggleSwitch_HornyDopravnik:not(.disabled):not(.checked) .breaseToggleSwitch_toggle .after {
+  color: black;
+}
+
+#AreaPageManualP4_Dopravniky_ToggleSwitch_HornyDopravnik .breaseToggleSwitch_toggle .wrapper .before {
+  font-size: 16px;
+}
+
+#AreaPageManualP4_Dopravniky_ToggleSwitch_HornyDopravnik .breaseToggleSwitch_toggle .wrapper .after {
+  font-size: 16px;
+}
+
+#AreaPageManualP4_Dopravniky_ToggleSwitch_HornyDopravnik:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageManualP4_Dopravniky_ToggleSwitch_HornyDopravnik.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageManualP4_Dopravniky_ToggleSwitch_HornyDopravnik.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageManualP4_Dopravniky_ToggleSwitch_SpodnyDopravnik {
+  top: 117px;
+  position: absolute;
+}
+
+#AreaPageManualP4_Dopravniky_ToggleSwitch_SpodnyDopravnik {
+  left: 132px;
+  position: absolute;
+}
+
+#AreaPageManualP4_Dopravniky_ToggleSwitch_SpodnyDopravnik {
+  width: 165px;
+}
+
+#AreaPageManualP4_Dopravniky_ToggleSwitch_SpodnyDopravnik {
+  height: 45px;
+}
+
+#AreaPageManualP4_Dopravniky_ToggleSwitch_SpodnyDopravnik {
+  z-index: 1;
+}
+
+#AreaPageManualP4_Dopravniky_ToggleSwitch_SpodnyDopravnik:not(.disabled):not(.checked) .breaseToggleSwitch_toggle .before {
+  color: black;
+}
+
+#AreaPageManualP4_Dopravniky_ToggleSwitch_SpodnyDopravnik:not(.disabled):not(.checked) .breaseToggleSwitch_toggle .after {
+  color: black;
+}
+
+#AreaPageManualP4_Dopravniky_ToggleSwitch_SpodnyDopravnik .breaseToggleSwitch_toggle .wrapper .before {
+  font-size: 16px;
+}
+
+#AreaPageManualP4_Dopravniky_ToggleSwitch_SpodnyDopravnik .breaseToggleSwitch_toggle .wrapper .after {
+  font-size: 16px;
+}
+
+#AreaPageManualP4_Dopravniky_ToggleSwitch_SpodnyDopravnik:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageManualP4_Dopravniky_ToggleSwitch_SpodnyDopravnik.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageManualP4_Dopravniky_ToggleSwitch_SpodnyDopravnik.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}

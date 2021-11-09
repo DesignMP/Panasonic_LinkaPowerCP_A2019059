@@ -1,0 +1,309 @@
+#AreaTimeP34_Rectangle1 {
+  top: 0px;
+  position: absolute;
+}
+
+#AreaTimeP34_Rectangle1 {
+  left: 0px;
+  position: absolute;
+}
+
+#AreaTimeP34_Rectangle1 {
+  width: 500px;
+}
+
+#AreaTimeP34_Rectangle1 {
+  height: 350px;
+}
+
+#AreaTimeP34_Rectangle1 {
+  z-index: 0;
+}
+
+#AreaTimeP34_Rectangle1 {
+  background-color: #99b4d1;
+}
+
+#AreaTimeP34_Line1 {
+  z-index: 1;
+}
+
+#AreaTimeP34_Line1 line {
+  stroke: white;
+}
+
+#AreaTimeP34_Line1 line {
+  stroke-width: 3px;
+}
+
+#AreaTimeP34_Label1 {
+  height: 30px;
+}
+
+#AreaTimeP34_Label1 {
+  top: 24px;
+  position: absolute;
+}
+
+#AreaTimeP34_Label1 {
+  left: 122px;
+  position: absolute;
+}
+
+#AreaTimeP34_Label1 {
+  width: 250px;
+}
+
+#AreaTimeP34_Label1 {
+  z-index: 2;
+}
+
+#AreaTimeP34_Label1 span {
+  color: black;
+}
+
+#AreaTimeP34_Label1 {
+  justify-content: center;
+  text-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#AreaTimeP34_Label1 {
+  font-size: 20px;
+}
+
+#AreaTimeP34_Label1 {
+  font-weight: bold;
+}
+
+#AreaTimeP34_Image1 {
+  top: 8px;
+  position: absolute;
+}
+
+#AreaTimeP34_Image1 {
+  left: 24px;
+  position: absolute;
+}
+
+#AreaTimeP34_Image1 {
+  width: 60px;
+}
+
+#AreaTimeP34_Image1 {
+  height: 58px;
+}
+
+#AreaTimeP34_Image1 {
+  z-index: 3;
+}
+
+#AreaTimeP34_Label2 {
+  width: 80px;
+}
+
+#AreaTimeP34_Label2 {
+  height: 30px;
+}
+
+#AreaTimeP34_Label2 {
+  top: 135px;
+  position: absolute;
+}
+
+#AreaTimeP34_Label2 {
+  left: 24px;
+  position: absolute;
+}
+
+#AreaTimeP34_Label2 {
+  z-index: 4;
+}
+
+#AreaTimeP34_Label2 span {
+  color: black;
+}
+
+#AreaTimeP34_Label2 {
+  font-size: 20px;
+}
+
+#AreaTimeP34_Label2 {
+  font-weight: bold;
+}
+
+#AreaTimeP34_Label3 {
+  width: 80px;
+}
+
+#AreaTimeP34_Label3 {
+  height: 30px;
+}
+
+#AreaTimeP34_Label3 {
+  top: 197px;
+  position: absolute;
+}
+
+#AreaTimeP34_Label3 {
+  left: 24px;
+  position: absolute;
+}
+
+#AreaTimeP34_Label3 {
+  z-index: 5;
+}
+
+#AreaTimeP34_Label3 span {
+  color: black;
+}
+
+#AreaTimeP34_Label3 {
+  font-size: 20px;
+}
+
+#AreaTimeP34_Label3 {
+  font-weight: bold;
+}
+
+#AreaTimeP34_DateTimeInput1 {
+  width: 250px;
+}
+
+#AreaTimeP34_DateTimeInput1 {
+  top: 132px;
+  position: absolute;
+}
+
+#AreaTimeP34_DateTimeInput1 {
+  left: 125px;
+  position: absolute;
+}
+
+#AreaTimeP34_DateTimeInput1 {
+  height: 35px;
+}
+
+#AreaTimeP34_DateTimeInput1 {
+  z-index: 6;
+}
+
+#AreaTimeP34_DateTimeInput1:not(.disabled):not(.active) {
+  border-width: 2px 4px 2px 2px;
+}
+
+#AreaTimeP34_DateTimeInput1.active:not(.disabled) span {
+  color: black;
+}
+
+#AreaTimeP34_DateTimeInput1:not(.active):not(.disabled) span {
+  color: black;
+}
+
+#AreaTimeP34_DateTimeInput1 {
+  justify-content: center;
+  text-align: center;
+}
+
+#AreaTimeP34_DateTimeInput1 {
+  font-size: 20px;
+}
+
+#AreaTimeP34_DateTimeInput1 {
+  box-shadow: 4px 4px 8px black;
+}
+
+#AreaTimeP34_DateTimeInput2 {
+  width: 250px;
+}
+
+#AreaTimeP34_DateTimeInput2 {
+  top: 194px;
+  position: absolute;
+}
+
+#AreaTimeP34_DateTimeInput2 {
+  left: 125px;
+  position: absolute;
+}
+
+#AreaTimeP34_DateTimeInput2 {
+  height: 35px;
+}
+
+#AreaTimeP34_DateTimeInput2 {
+  z-index: 7;
+}
+
+#AreaTimeP34_DateTimeInput2:not(.disabled):not(.active) {
+  border-width: 2px 4px 2px 2px;
+}
+
+#AreaTimeP34_DateTimeInput2.active:not(.disabled) span {
+  color: black;
+}
+
+#AreaTimeP34_DateTimeInput2:not(.active):not(.disabled) span {
+  color: black;
+}
+
+#AreaTimeP34_DateTimeInput2 {
+  justify-content: center;
+  text-align: center;
+}
+
+#AreaTimeP34_DateTimeInput2 {
+  font-size: 20px;
+}
+
+#AreaTimeP34_DateTimeInput2 {
+  box-shadow: 4px 4px 8px black;
+}
+
+#AreaTimeP34_LogoutButton2 {
+  top: 276px;
+  position: absolute;
+}
+
+#AreaTimeP34_LogoutButton2 {
+  left: 175px;
+  position: absolute;
+}
+
+#AreaTimeP34_LogoutButton2 {
+  width: 150px;
+}
+
+#AreaTimeP34_LogoutButton2 {
+  height: 40px;
+}
+
+#AreaTimeP34_LogoutButton2 {
+  z-index: 8;
+}
+
+#AreaTimeP34_LogoutButton2 {
+  border-radius: 10px;
+}
+
+#AreaTimeP34_LogoutButton2:not(.disabled):not(.active):not(.checked) span {
+  color: black;
+}
+
+#AreaTimeP34_LogoutButton2 {
+  justify-content: center;
+  text-align: center;
+}
+
+#AreaTimeP34_LogoutButton2:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaTimeP34_LogoutButton2.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaTimeP34_LogoutButton2.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}

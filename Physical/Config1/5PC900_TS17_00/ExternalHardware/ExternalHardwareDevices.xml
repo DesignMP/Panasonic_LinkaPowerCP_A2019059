@@ -66,6 +66,7 @@
     </Module>
     <Module ModuleID="FBD.Hilscher.PNIOGenDevDTM2.COMX 100XX-RE$002FPNS V3.4.19 - V3.4.x" Version="3.4.19" OrderNumber="COMX 100XX-RE/PNS V3.4.19 - V3.4.x">
       <SourceFile OriginalFile="GSDML-V2.3-HILSCHER-COMX 100XX-RE PNS-20130806.xml" TranslationFile="H9UYJOFY.ext" />
+      <SourceFile OriginalFile="GSDML-V2.33-HILSCHER-COMX 100XX-RE PNS-20161212.xml" TranslationFile="JTCCJ7W8.ext" />
     </Module>
     <Module ModuleID="FBD.Hilscher.PNIOGenDevDTM2.Control Unit V2.2" Version="3.14.0" OrderNumber="Control Unit V2.2">
       <SourceFile OriginalFile="GSDML-V2.35-WENGLOR-WENGLOR IDENT-20200422.xml" TranslationFile="NZ2R6SRK.ext" />

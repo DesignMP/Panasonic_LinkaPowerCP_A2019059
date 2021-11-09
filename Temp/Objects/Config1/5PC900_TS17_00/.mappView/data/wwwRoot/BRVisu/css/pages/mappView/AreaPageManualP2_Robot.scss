@@ -1,0 +1,259 @@
+﻿@import "mixins.scss";
+#AreaPageManualP2_Robot_Image1 {
+	@include elemTop(0);
+}
+#AreaPageManualP2_Robot_Image1 {
+	@include elemLeft(0);
+}
+#AreaPageManualP2_Robot_Image1 {
+	@include elemAutoWidth(1366);
+}
+#AreaPageManualP2_Robot_Image1 {
+	@include elemAutoHeight(588);
+}
+#AreaPageManualP2_Robot_Image1 {
+		z-index: 0;
+}
+#AreaPageManualP2_Robot_Image1 {
+		opacity: 0.2;
+}
+#AreaPageManualP2_Robot_NavigationButton_NextPage {
+	@include elemTop(12);
+}
+#AreaPageManualP2_Robot_NavigationButton_NextPage {
+	@include elemLeft(1234);
+}
+#AreaPageManualP2_Robot_NavigationButton_NextPage {
+	@include elemAutoWidth(105);
+}
+#AreaPageManualP2_Robot_NavigationButton_NextPage {
+	@include elemAutoHeight(50);
+}
+#AreaPageManualP2_Robot_NavigationButton_NextPage {
+		z-index: 1;
+}
+#AreaPageManualP2_Robot_NavigationButton_NextPage {
+		border-style: solid;
+}
+#AreaPageManualP2_Robot_NavigationButton_NextPage {
+	&.active{
+		border-style: solid;
+	}
+}
+#AreaPageManualP2_Robot_NavigationButton_NextPage {
+	&.checked{
+		border-style: solid;
+	}
+}
+#AreaPageManualP2_Robot_NavigationButton_NextPage {
+	&.disabled{
+		border-style: solid;
+	}
+}
+#AreaPageManualP2_Robot_NavigationButton_NextPage {
+	@include border-radius(8px);
+}
+#AreaPageManualP2_Robot_NavigationButton_NextPage {
+	&:not(.disabled):not(.active):not(.checked){
+	@include backGroundGradient('');
+	}
+}
+#AreaPageManualP2_Robot_NavigationButton_NextPage {
+	&.active:not(.disabled){
+	@include backGroundGradient('linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%)');
+	}
+}
+#AreaPageManualP2_Robot_NavigationButton_NextPage {
+	&.checked:not(.disabled){
+	@include backGroundGradient('linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%)');
+	}
+}
+#AreaPageManualP2_Robot_NavigationButton_NextPage {
+	&:not(.disabled):not(.active):not(.checked) span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualP2_Robot_NavigationButton_NextPage {
+	&.active:not(.disabled):not(.editMode){
+		border-width: 1px 1px 1px 1px;
+	}
+}
+#AreaPageManualP2_Robot_NavigationButton_NextPage {
+	&.checked:not(.disabled){
+		border-width: 1px 1px 1px 1px;
+	}
+}
+#AreaPageManualP2_Robot_NavigationButton_NextPage {
+	&.active:not(.disabled):not(.editMode) span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualP2_Robot_NavigationButton_NextPage {
+	&.checked:not(.disabled) span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualP2_Robot_NavigationButton_NextPage {
+	span{
+		font-size: 20px;
+	}
+}
+#AreaPageManualP2_Robot_NavigationButton_NextPage {
+	&:not(.active):not(.checked){
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaPageManualP2_Robot_NavigationButton_NextPage {
+	&.disabled.active{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaPageManualP2_Robot_NavigationButton_NextPage {
+	&.disabled.checked{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaPageManualP2_Robot_NavigationButton_PreviewPage {
+	@include elemTop(12);
+}
+#AreaPageManualP2_Robot_NavigationButton_PreviewPage {
+	@include elemLeft(10);
+}
+#AreaPageManualP2_Robot_NavigationButton_PreviewPage {
+	@include elemAutoWidth(105);
+}
+#AreaPageManualP2_Robot_NavigationButton_PreviewPage {
+	@include elemAutoHeight(50);
+}
+#AreaPageManualP2_Robot_NavigationButton_PreviewPage {
+		z-index: 2;
+}
+#AreaPageManualP2_Robot_NavigationButton_PreviewPage {
+		border-style: solid;
+}
+#AreaPageManualP2_Robot_NavigationButton_PreviewPage {
+	&.active{
+		border-style: solid;
+	}
+}
+#AreaPageManualP2_Robot_NavigationButton_PreviewPage {
+	&.checked{
+		border-style: solid;
+	}
+}
+#AreaPageManualP2_Robot_NavigationButton_PreviewPage {
+	&.disabled{
+		border-style: solid;
+	}
+}
+#AreaPageManualP2_Robot_NavigationButton_PreviewPage {
+	@include border-radius(8px);
+}
+#AreaPageManualP2_Robot_NavigationButton_PreviewPage {
+	&:not(.disabled):not(.active):not(.checked){
+	@include backGroundGradient('');
+	}
+}
+#AreaPageManualP2_Robot_NavigationButton_PreviewPage {
+	&.active:not(.disabled){
+	@include backGroundGradient('linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%)');
+	}
+}
+#AreaPageManualP2_Robot_NavigationButton_PreviewPage {
+	&.checked:not(.disabled){
+	@include backGroundGradient('linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%)');
+	}
+}
+#AreaPageManualP2_Robot_NavigationButton_PreviewPage {
+	&:not(.disabled):not(.active):not(.checked) span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualP2_Robot_NavigationButton_PreviewPage {
+	&.active:not(.disabled):not(.editMode){
+		border-width: 1px 1px 1px 1px;
+	}
+}
+#AreaPageManualP2_Robot_NavigationButton_PreviewPage {
+	&.checked:not(.disabled){
+		border-width: 1px 1px 1px 1px;
+	}
+}
+#AreaPageManualP2_Robot_NavigationButton_PreviewPage {
+	&.active:not(.disabled):not(.editMode) span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualP2_Robot_NavigationButton_PreviewPage {
+	&.checked:not(.disabled) span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualP2_Robot_NavigationButton_PreviewPage {
+	span{
+		font-size: 20px;
+	}
+}
+#AreaPageManualP2_Robot_NavigationButton_PreviewPage {
+	&:not(.active):not(.checked){
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaPageManualP2_Robot_NavigationButton_PreviewPage {
+	&.disabled.active{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaPageManualP2_Robot_NavigationButton_PreviewPage {
+	&.disabled.checked{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaPageManualP2_Robot_Label1 {
+	@include elemTop(20);
+}
+#AreaPageManualP2_Robot_Label1 {
+	@include elemLeft(483);
+}
+#AreaPageManualP2_Robot_Label1 {
+	@include elemAutoWidth(400);
+}
+#AreaPageManualP2_Robot_Label1 {
+	@include elemAutoHeight(35);
+}
+#AreaPageManualP2_Robot_Label1 {
+		z-index: 3;
+}
+#AreaPageManualP2_Robot_Label1 {
+		border-width: 5px;
+}
+#AreaPageManualP2_Robot_Label1 {
+	@include border-radius(5px);
+}
+#AreaPageManualP2_Robot_Label1 {
+		border-style: ridge;
+}
+#AreaPageManualP2_Robot_Label1 {
+	&:before{
+		border-style: ridge;
+	}
+}
+#AreaPageManualP2_Robot_Label1 {
+	&:after{
+		border-style: ridge;
+	}
+}
+#AreaPageManualP2_Robot_Label1 {
+	& span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageManualP2_Robot_Label1 {
+	@include text-alignment-all('center');
+}
+#AreaPageManualP2_Robot_Label1 {
+		font-size: 20px;
+}
+#AreaPageManualP2_Robot_Label1 {
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+}

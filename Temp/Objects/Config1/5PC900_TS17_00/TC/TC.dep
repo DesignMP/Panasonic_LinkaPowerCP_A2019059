@@ -1,0 +1,11 @@
+$(AS_PROJECT_PATH)/Logical/mappView/Resources/Texts/TextyTlacidiel.tmx
+$(AS_PROJECT_PATH)/Logical/mappView/Resources/Texts/TextyDatumu.tmx
+$(AS_PROJECT_PATH)/Logical/mappView/Resources/Texts/TextyVolby.tmx
+$(AS_PROJECT_PATH)/Logical/mappView/Resources/Texts/WarningsP2.tmx
+$(AS_PROJECT_PATH)/Logical/mappView/Resources/Texts/StavyZariadenia.tmx
+$(AS_PROJECT_PATH)/Logical/mappView/Resources/Texts/StavyUsers.tmx
+$(AS_PROJECT_PATH)/Logical/mappView/Resources/Texts/AuditText.tmx
+$(AS_PROJECT_PATH)/Logical/mappView/Resources/Texts/WarningsP1.tmx
+$(AS_PROJECT_PATH)/Logical/mappView/Resources/Texts/WarningsP3.tmx
+$(AS_PROJECT_PATH)/Logical/mappView/Resources/Texts/WarningsP4.tmx
+$(AS_PROJECT_PATH)/Logical/mappView/Project.language

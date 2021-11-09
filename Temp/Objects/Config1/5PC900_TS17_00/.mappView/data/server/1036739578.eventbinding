@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Content id="AreaPageManualP3_LeakageTestA">
+    <EventBinding id="AreaPageManualP3_LeakageTestA.Button_ZdvihCentrovania.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageManualP3_LeakageTestA_Button_ZdvihCentrovania" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::P3_StoperL:Centrovacku_VYSUN">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Content id="AreaPageManualP3_LeakageTestA">
+    <EventBinding id="AreaPageManualP3_LeakageTestA.Button_ZostupCentrovania.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageManualP3_LeakageTestA_Button_ZostupCentrovania" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::P3_StoperL:Centrovacku_ZASUN">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Content id="AreaPageManualP3_LeakageTestA">
+    <EventBinding id="AreaPageManualP3_LeakageTestA.Button_ZostupHornehoPritlaku.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageManualP3_LeakageTestA_Button_ZostupHornehoPritlaku" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::P3_StoperL:Pritlak_VYSUN">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Content id="AreaPageManualP3_LeakageTestA">
+    <EventBinding id="AreaPageManualP3_LeakageTestA.Button_ZdvihHornehoPritlaku.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageManualP3_LeakageTestA_Button_ZdvihHornehoPritlaku" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::P3_StoperL:Pritlak_ZASUN">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Content id="AreaPageManualP3_LeakageTestA">
+    <EventBinding id="AreaPageManualP3_LeakageTestA.Button_StartTestovacejSekvencie.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageManualP3_LeakageTestA_Button_StartTestovacejSekvencie" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::AsGlobalPV:P3_LeakageTestA.RR_TestovaciaSekvencia">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+</EventBindingDefinition>

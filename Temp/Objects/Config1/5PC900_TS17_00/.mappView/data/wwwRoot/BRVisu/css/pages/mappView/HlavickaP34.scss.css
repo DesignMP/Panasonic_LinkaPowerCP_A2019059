@@ -1,0 +1,710 @@
+#HlavickaP34_ImageList2 {
+  top: 18px;
+  position: absolute;
+}
+
+#HlavickaP34_ImageList2 {
+  left: 404px;
+  position: absolute;
+}
+
+#HlavickaP34_ImageList2 {
+  width: 30px;
+}
+
+#HlavickaP34_ImageList2 {
+  height: 30px;
+}
+
+#HlavickaP34_ImageList2 {
+  z-index: 1;
+}
+
+#HlavickaP34_ImageList2 {
+  border-style: none;
+}
+
+#HlavickaP34_ImageList2 {
+  border-width: 0px;
+}
+
+#HlavickaP34_ImageList3 {
+  top: 18px;
+  position: absolute;
+}
+
+#HlavickaP34_ImageList3 {
+  left: 570px;
+  position: absolute;
+}
+
+#HlavickaP34_ImageList3 {
+  width: 30px;
+}
+
+#HlavickaP34_ImageList3 {
+  height: 30px;
+}
+
+#HlavickaP34_ImageList3 {
+  z-index: 4;
+}
+
+#HlavickaP34_ImageList3 {
+  border-style: none;
+}
+
+#HlavickaP34_ImageList3 {
+  border-width: 0px;
+}
+
+#HlavickaP34_Image1 {
+  top: 14px;
+  position: absolute;
+}
+
+#HlavickaP34_Image1 {
+  left: 1126px;
+  position: absolute;
+}
+
+#HlavickaP34_Image1 {
+  width: 38px;
+}
+
+#HlavickaP34_Image1 {
+  height: 38px;
+}
+
+#HlavickaP34_Image1 {
+  z-index: 2;
+}
+
+#HlavickaP34_ButtonZadneDvereBunka3 {
+  top: 8px;
+  position: absolute;
+}
+
+#HlavickaP34_ButtonZadneDvereBunka3 {
+  left: 398px;
+  position: absolute;
+}
+
+#HlavickaP34_ButtonZadneDvereBunka3 {
+  width: 150px;
+}
+
+#HlavickaP34_ButtonZadneDvereBunka3 {
+  height: 50px;
+}
+
+#HlavickaP34_ButtonZadneDvereBunka3 {
+  z-index: 0;
+}
+
+#HlavickaP34_ButtonZadneDvereBunka3:not(.disabled):not(.active):not(.checked) span {
+  color: black;
+}
+
+#HlavickaP34_ButtonZadneDvereBunka3 {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+#HlavickaP34_ButtonZadneDvereBunka3 span {
+  font-size: 16px;
+}
+
+#HlavickaP34_ButtonZadneDvereBunka3:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#HlavickaP34_ButtonZadneDvereBunka3.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#HlavickaP34_ButtonZadneDvereBunka3.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}
+
+#HlavickaP34_ButtonPredneDvereLSBunka3 {
+  top: 8px;
+  position: absolute;
+}
+
+#HlavickaP34_ButtonPredneDvereLSBunka3 {
+  left: 564px;
+  position: absolute;
+}
+
+#HlavickaP34_ButtonPredneDvereLSBunka3 {
+  width: 150px;
+}
+
+#HlavickaP34_ButtonPredneDvereLSBunka3 {
+  height: 50px;
+}
+
+#HlavickaP34_ButtonPredneDvereLSBunka3 {
+  z-index: 3;
+}
+
+#HlavickaP34_ButtonPredneDvereLSBunka3:not(.disabled):not(.active):not(.checked) span {
+  color: black;
+}
+
+#HlavickaP34_ButtonPredneDvereLSBunka3 {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+#HlavickaP34_ButtonPredneDvereLSBunka3 span {
+  font-size: 16px;
+}
+
+#HlavickaP34_ButtonPredneDvereLSBunka3:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#HlavickaP34_ButtonPredneDvereLSBunka3.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#HlavickaP34_ButtonPredneDvereLSBunka3.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}
+
+#HlavickaP34_DateTimeOutput1 {
+  top: 8px;
+  position: absolute;
+}
+
+#HlavickaP34_DateTimeOutput1 {
+  left: 6px;
+  position: absolute;
+}
+
+#HlavickaP34_DateTimeOutput1 {
+  width: 207px;
+}
+
+#HlavickaP34_DateTimeOutput1 {
+  height: 50px;
+}
+
+#HlavickaP34_DateTimeOutput1 {
+  z-index: 5;
+}
+
+#HlavickaP34_DateTimeOutput1 {
+  border-width: 8px;
+}
+
+#HlavickaP34_DateTimeOutput1 {
+  border-radius: 5px;
+}
+
+#HlavickaP34_DateTimeOutput1 {
+  background-color: lightgray;
+}
+
+#HlavickaP34_DateTimeOutput1 {
+  background-image: linear-gradient(to bottom, rgba(235,235,235,0.5) 0%, rgba(235,235,235,0.5) 100%);
+}
+
+#HlavickaP34_DateTimeOutput1 {
+  border-color: #999999;
+}
+
+#HlavickaP34_DateTimeOutput1 {
+  border-style: ridge;
+}
+
+#HlavickaP34_DateTimeOutput1 span {
+  color: black;
+}
+
+#HlavickaP34_DateTimeOutput1 {
+  justify-content: center;
+  text-align: center;
+}
+
+#HlavickaP34_DateTimeOutput1 {
+  font-size: 20px;
+}
+
+#HlavickaP34_DateTimeOutput1 {
+  box-shadow: 4px 4px 14px black;
+}
+
+#HlavickaP34_TextOut_WarningsP3 {
+  top: 62px;
+  position: absolute;
+}
+
+#HlavickaP34_TextOut_WarningsP3 {
+  left: 8px;
+  position: absolute;
+}
+
+#HlavickaP34_TextOut_WarningsP3 {
+  width: 672px;
+}
+
+#HlavickaP34_TextOut_WarningsP3 {
+  height: 35px;
+}
+
+#HlavickaP34_TextOut_WarningsP3 {
+  z-index: 6;
+}
+
+#HlavickaP34_TextOut_WarningsP3 {
+  border-width: 4px;
+}
+
+#HlavickaP34_TextOut_WarningsP3 {
+  border-radius: 2px;
+}
+
+#HlavickaP34_TextOut_WarningsP3 {
+  border-color: #999999;
+}
+
+#HlavickaP34_TextOut_WarningsP3:before {
+  border-color: #999999;
+}
+
+#HlavickaP34_TextOut_WarningsP3:after {
+  border-color: #999999;
+}
+
+#HlavickaP34_TextOut_WarningsP3 {
+  border-style: ridge;
+}
+
+#HlavickaP34_TextOut_WarningsP3:before {
+  border-style: ridge;
+}
+
+#HlavickaP34_TextOut_WarningsP3:after {
+  border-style: ridge;
+}
+
+#HlavickaP34_TextOut_WarningsP3 span {
+  color: black;
+}
+
+#HlavickaP34_TextOut_WarningsP3 {
+  justify-content: center;
+  text-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#HlavickaP34_TextOut_WarningsP3 {
+  font-size: 20px;
+}
+
+#HlavickaP34_TextOut_WarningsP3 {
+  box-shadow: 4px 4px 14px transparent;
+}
+
+#HlavickaP34_TextOutput1 {
+  top: 8px;
+  position: absolute;
+}
+
+#HlavickaP34_TextOutput1 {
+  left: 1174px;
+  position: absolute;
+}
+
+#HlavickaP34_TextOutput1 {
+  width: 184px;
+}
+
+#HlavickaP34_TextOutput1 {
+  height: 50px;
+}
+
+#HlavickaP34_TextOutput1 {
+  z-index: 7;
+}
+
+#HlavickaP34_TextOutput1 {
+  border-width: 8px;
+}
+
+#HlavickaP34_TextOutput1 {
+  border-radius: 5px;
+}
+
+#HlavickaP34_TextOutput1 {
+  background-color: lightgray;
+}
+
+#HlavickaP34_TextOutput1 {
+  background-image: linear-gradient(to bottom, rgba(235,235,235,0.5) 0%, rgba(235,235,235,0.5) 100%);
+}
+
+#HlavickaP34_TextOutput1 {
+  border-color: #999999;
+}
+
+#HlavickaP34_TextOutput1:before {
+  border-color: #999999;
+}
+
+#HlavickaP34_TextOutput1:after {
+  border-color: #999999;
+}
+
+#HlavickaP34_TextOutput1 {
+  border-style: ridge;
+}
+
+#HlavickaP34_TextOutput1:before {
+  border-style: ridge;
+}
+
+#HlavickaP34_TextOutput1:after {
+  border-style: ridge;
+}
+
+#HlavickaP34_TextOutput1 span {
+  color: black;
+}
+
+#HlavickaP34_TextOutput1 {
+  justify-content: center;
+  text-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#HlavickaP34_TextOutput1 {
+  font-size: 20px;
+}
+
+#HlavickaP34_TextOutput1 {
+  box-shadow: 4px 4px 14px black;
+}
+
+#HlavickaP34_Image3 {
+  top: 9px;
+  position: absolute;
+}
+
+#HlavickaP34_Image3 {
+  left: 1064px;
+  position: absolute;
+}
+
+#HlavickaP34_Image3 {
+  width: 48px;
+}
+
+#HlavickaP34_Image3 {
+  height: 48px;
+}
+
+#HlavickaP34_Image3 {
+  z-index: 8;
+}
+
+#HlavickaP34_ImageList4 {
+  top: 18px;
+  position: absolute;
+}
+
+#HlavickaP34_ImageList4 {
+  left: 738px;
+  position: absolute;
+}
+
+#HlavickaP34_ImageList4 {
+  width: 30px;
+}
+
+#HlavickaP34_ImageList4 {
+  height: 30px;
+}
+
+#HlavickaP34_ImageList4 {
+  z-index: 10;
+}
+
+#HlavickaP34_ImageList4 {
+  border-style: none;
+}
+
+#HlavickaP34_ImageList4 {
+  border-width: 0px;
+}
+
+#HlavickaP34_ImageList5 {
+  top: 18px;
+  position: absolute;
+}
+
+#HlavickaP34_ImageList5 {
+  left: 906px;
+  position: absolute;
+}
+
+#HlavickaP34_ImageList5 {
+  width: 30px;
+}
+
+#HlavickaP34_ImageList5 {
+  height: 30px;
+}
+
+#HlavickaP34_ImageList5 {
+  z-index: 12;
+}
+
+#HlavickaP34_ImageList5 {
+  border-style: none;
+}
+
+#HlavickaP34_ImageList5 {
+  border-width: 0px;
+}
+
+#HlavickaP34_ButtonPredneDverePSBunka3 {
+  top: 8px;
+  position: absolute;
+}
+
+#HlavickaP34_ButtonPredneDverePSBunka3 {
+  left: 732px;
+  position: absolute;
+}
+
+#HlavickaP34_ButtonPredneDverePSBunka3 {
+  width: 150px;
+}
+
+#HlavickaP34_ButtonPredneDverePSBunka3 {
+  height: 50px;
+}
+
+#HlavickaP34_ButtonPredneDverePSBunka3 {
+  z-index: 9;
+}
+
+#HlavickaP34_ButtonPredneDverePSBunka3:not(.disabled):not(.active):not(.checked) span {
+  color: black;
+}
+
+#HlavickaP34_ButtonPredneDverePSBunka3 {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+#HlavickaP34_ButtonPredneDverePSBunka3 span {
+  font-size: 16px;
+}
+
+#HlavickaP34_ButtonPredneDverePSBunka3:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#HlavickaP34_ButtonPredneDverePSBunka3.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#HlavickaP34_ButtonPredneDverePSBunka3.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}
+
+#HlavickaP34_ButtonPredneDvereBunka4 {
+  top: 8px;
+  position: absolute;
+}
+
+#HlavickaP34_ButtonPredneDvereBunka4 {
+  left: 900px;
+  position: absolute;
+}
+
+#HlavickaP34_ButtonPredneDvereBunka4 {
+  width: 150px;
+}
+
+#HlavickaP34_ButtonPredneDvereBunka4 {
+  height: 50px;
+}
+
+#HlavickaP34_ButtonPredneDvereBunka4 {
+  z-index: 11;
+}
+
+#HlavickaP34_ButtonPredneDvereBunka4:not(.disabled):not(.active):not(.checked) span {
+  color: black;
+}
+
+#HlavickaP34_ButtonPredneDvereBunka4 {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+#HlavickaP34_ButtonPredneDvereBunka4 span {
+  font-size: 16px;
+}
+
+#HlavickaP34_ButtonPredneDvereBunka4:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#HlavickaP34_ButtonPredneDvereBunka4.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#HlavickaP34_ButtonPredneDvereBunka4.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}
+
+#HlavickaP34_ButtonResetCS {
+  top: 8px;
+  position: absolute;
+}
+
+#HlavickaP34_ButtonResetCS {
+  left: 230px;
+  position: absolute;
+}
+
+#HlavickaP34_ButtonResetCS {
+  width: 150px;
+}
+
+#HlavickaP34_ButtonResetCS {
+  height: 50px;
+}
+
+#HlavickaP34_ButtonResetCS {
+  z-index: 13;
+}
+
+#HlavickaP34_ButtonResetCS:not(.disabled):not(.active):not(.checked) span {
+  color: black;
+}
+
+#HlavickaP34_ButtonResetCS {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+#HlavickaP34_ButtonResetCS span {
+  font-size: 16px;
+}
+
+#HlavickaP34_ButtonResetCS:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#HlavickaP34_ButtonResetCS.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#HlavickaP34_ButtonResetCS.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}
+
+#HlavickaP34_Image2 {
+  top: 18px;
+  position: absolute;
+}
+
+#HlavickaP34_Image2 {
+  left: 240px;
+  position: absolute;
+}
+
+#HlavickaP34_Image2 {
+  width: 30px;
+}
+
+#HlavickaP34_Image2 {
+  height: 30px;
+}
+
+#HlavickaP34_Image2 {
+  z-index: 14;
+}
+
+#HlavickaP34_TextOut_WarningsP4 {
+  top: 62px;
+  position: absolute;
+}
+
+#HlavickaP34_TextOut_WarningsP4 {
+  left: 686px;
+  position: absolute;
+}
+
+#HlavickaP34_TextOut_WarningsP4 {
+  width: 672px;
+}
+
+#HlavickaP34_TextOut_WarningsP4 {
+  height: 35px;
+}
+
+#HlavickaP34_TextOut_WarningsP4 {
+  z-index: 15;
+}
+
+#HlavickaP34_TextOut_WarningsP4 {
+  border-width: 4px;
+}
+
+#HlavickaP34_TextOut_WarningsP4 {
+  border-radius: 2px;
+}
+
+#HlavickaP34_TextOut_WarningsP4 {
+  border-color: #999999;
+}
+
+#HlavickaP34_TextOut_WarningsP4:before {
+  border-color: #999999;
+}
+
+#HlavickaP34_TextOut_WarningsP4:after {
+  border-color: #999999;
+}
+
+#HlavickaP34_TextOut_WarningsP4 {
+  border-style: ridge;
+}
+
+#HlavickaP34_TextOut_WarningsP4:before {
+  border-style: ridge;
+}
+
+#HlavickaP34_TextOut_WarningsP4:after {
+  border-style: ridge;
+}
+
+#HlavickaP34_TextOut_WarningsP4 span {
+  color: black;
+}
+
+#HlavickaP34_TextOut_WarningsP4 {
+  justify-content: center;
+  text-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#HlavickaP34_TextOut_WarningsP4 {
+  font-size: 20px;
+}
+
+#HlavickaP34_TextOut_WarningsP4 {
+  box-shadow: 4px 4px 14px transparent;
+}

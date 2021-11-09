@@ -1,0 +1,762 @@
+#AreaPageUsers_grpRecManagment {
+  top: 12px;
+  position: absolute;
+}
+
+#AreaPageUsers_grpRecManagment {
+  left: 28px;
+  position: absolute;
+}
+
+#AreaPageUsers_grpRecManagment {
+  width: 650px;
+}
+
+#AreaPageUsers_grpRecManagment {
+  height: 560px;
+}
+
+#AreaPageUsers_grpRecManagment {
+  z-index: 1;
+}
+
+#AreaPageUsers_grpRecManagment {
+  border-radius: 8px 8px 8px 8px;
+}
+
+#AreaPageUsers_grpRecManagment {
+  background-color: oldlace;
+}
+
+#AreaPageUsers_grpRecManagment > .header span {
+  color: black;
+}
+
+#AreaPageUsers_grpRecManagment {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageUsers_ZoznamUzivatelov {
+  top: 54px;
+  position: absolute;
+}
+
+#AreaPageUsers_ZoznamUzivatelov {
+  left: 35px;
+  position: absolute;
+}
+
+#AreaPageUsers_ZoznamUzivatelov.ListBoxView {
+  width: 358px;
+}
+
+#AreaPageUsers_ZoznamUzivatelov.ListBoxView {
+  height: 456px;
+}
+
+#AreaPageUsers_ZoznamUzivatelov {
+  z-index: 0;
+}
+
+#AreaPageUsers_ZoznamUzivatelov.ListBoxView {
+  border-width: 2px;
+}
+
+#AreaPageUsers_ZoznamUzivatelov.ListBoxView {
+  border-radius: 5px;
+}
+
+#AreaPageUsers_ZoznamUzivatelov.ListBoxView {
+  border-color: black;
+}
+
+#AreaPageUsers_ZoznamUzivatelov .TextView:not(.textSelected) {
+  color: black;
+}
+
+#AreaPageUsers_ZoznamUzivatelov .TextView {
+  font-size: 15px;
+}
+
+#AreaPageUsers_TextOut_StavyUsers {
+  top: 11px;
+  position: absolute;
+}
+
+#AreaPageUsers_TextOut_StavyUsers {
+  left: 161px;
+  position: absolute;
+}
+
+#AreaPageUsers_TextOut_StavyUsers {
+  width: 395px;
+}
+
+#AreaPageUsers_TextOut_StavyUsers {
+  height: 28px;
+}
+
+#AreaPageUsers_TextOut_StavyUsers {
+  z-index: 1;
+}
+
+#AreaPageUsers_TextOut_StavyUsers {
+  border-width: 4px;
+}
+
+#AreaPageUsers_TextOut_StavyUsers {
+  border-radius: 2px;
+}
+
+#AreaPageUsers_TextOut_StavyUsers {
+  background-color: lightgray;
+}
+
+#AreaPageUsers_TextOut_StavyUsers {
+  background-image: linear-gradient(to bottom, rgba(235,235,235,0.5) 0%, rgba(235,235,235,0.5) 100%);
+}
+
+#AreaPageUsers_TextOut_StavyUsers {
+  border-color: #999999;
+}
+
+#AreaPageUsers_TextOut_StavyUsers:before {
+  border-color: #999999;
+}
+
+#AreaPageUsers_TextOut_StavyUsers:after {
+  border-color: #999999;
+}
+
+#AreaPageUsers_TextOut_StavyUsers {
+  border-style: ridge;
+}
+
+#AreaPageUsers_TextOut_StavyUsers:before {
+  border-style: ridge;
+}
+
+#AreaPageUsers_TextOut_StavyUsers:after {
+  border-style: ridge;
+}
+
+#AreaPageUsers_TextOut_StavyUsers span {
+  color: black;
+}
+
+#AreaPageUsers_TextOut_StavyUsers {
+  justify-content: center;
+  text-align: center;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+#AreaPageUsers_TextOut_StavyUsers {
+  font-weight: bold;
+}
+
+#AreaPageUsers_TextOut_StavyUsers span {
+  padding: 0px 5px 0px 5px;
+}
+
+#AreaPageUsers_labRecStatus {
+  top: 5px;
+  position: absolute;
+}
+
+#AreaPageUsers_labRecStatus {
+  left: 35px;
+  position: absolute;
+}
+
+#AreaPageUsers_labRecStatus {
+  width: 122px;
+}
+
+#AreaPageUsers_labRecStatus {
+  height: 40px;
+}
+
+#AreaPageUsers_labRecStatus {
+  z-index: 2;
+}
+
+#AreaPageUsers_labRecStatus span {
+  color: black;
+}
+
+#AreaPageUsers_labRecStatus {
+  justify-content: flex-start;
+  text-align: left;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#AreaPageUsers_labRecStatus {
+  font-size: 15px;
+}
+
+#AreaPageUsers_labRecStatus {
+  font-weight: bold;
+}
+
+#AreaPageUsers_btnVymazUzivatela {
+  top: 311px;
+  position: absolute;
+}
+
+#AreaPageUsers_btnVymazUzivatela {
+  left: 421px;
+  position: absolute;
+}
+
+#AreaPageUsers_btnVymazUzivatela {
+  width: 215px;
+}
+
+#AreaPageUsers_btnVymazUzivatela {
+  height: 50px;
+}
+
+#AreaPageUsers_btnVymazUzivatela {
+  z-index: 3;
+}
+
+#AreaPageUsers_btnVymazUzivatela {
+  border-radius: 10px;
+}
+
+#AreaPageUsers_btnVymazUzivatela:not(.disabled):not(.active):not(.checked) span {
+  color: black;
+}
+
+#AreaPageUsers_btnVymazUzivatela:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageUsers_btnVymazUzivatela.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageUsers_btnVymazUzivatela.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageUsers_btnNacitajUzivatela {
+  top: 165px;
+  position: absolute;
+}
+
+#AreaPageUsers_btnNacitajUzivatela {
+  left: 421px;
+  position: absolute;
+}
+
+#AreaPageUsers_btnNacitajUzivatela {
+  width: 215px;
+}
+
+#AreaPageUsers_btnNacitajUzivatela {
+  height: 50px;
+}
+
+#AreaPageUsers_btnNacitajUzivatela {
+  z-index: 4;
+}
+
+#AreaPageUsers_btnNacitajUzivatela {
+  border-radius: 10px;
+}
+
+#AreaPageUsers_btnNacitajUzivatela:not(.disabled):not(.active):not(.checked) span {
+  color: black;
+}
+
+#AreaPageUsers_btnNacitajUzivatela:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageUsers_btnNacitajUzivatela.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageUsers_btnNacitajUzivatela.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageUsers_btnUlozUzivatela {
+  top: 237px;
+  position: absolute;
+}
+
+#AreaPageUsers_btnUlozUzivatela {
+  left: 421px;
+  position: absolute;
+}
+
+#AreaPageUsers_btnUlozUzivatela {
+  width: 215px;
+}
+
+#AreaPageUsers_btnUlozUzivatela {
+  height: 50px;
+}
+
+#AreaPageUsers_btnUlozUzivatela {
+  z-index: 5;
+}
+
+#AreaPageUsers_btnUlozUzivatela {
+  border-radius: 10px;
+}
+
+#AreaPageUsers_btnUlozUzivatela:not(.disabled):not(.active):not(.checked) span {
+  color: black;
+}
+
+#AreaPageUsers_btnUlozUzivatela:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageUsers_btnUlozUzivatela.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageUsers_btnUlozUzivatela.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageUsers_GroupBox3 {
+  top: 12px;
+  position: absolute;
+}
+
+#AreaPageUsers_GroupBox3 {
+  left: 736px;
+  position: absolute;
+}
+
+#AreaPageUsers_GroupBox3 {
+  width: 596px;
+}
+
+#AreaPageUsers_GroupBox3 {
+  height: 560px;
+}
+
+#AreaPageUsers_GroupBox3 {
+  z-index: 2;
+}
+
+#AreaPageUsers_GroupBox3 {
+  border-radius: 8px 8px 8px 8px;
+}
+
+#AreaPageUsers_GroupBox3 {
+  background-color: oldlace;
+}
+
+#AreaPageUsers_GroupBox3 > .header span {
+  color: black;
+}
+
+#AreaPageUsers_GroupBox3 {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageUsers_Label8 {
+  top: 9px;
+  position: absolute;
+}
+
+#AreaPageUsers_Label8 {
+  left: 73px;
+  position: absolute;
+}
+
+#AreaPageUsers_Label8 {
+  width: 131px;
+}
+
+#AreaPageUsers_Label8 {
+  height: 40px;
+}
+
+#AreaPageUsers_Label8 {
+  z-index: 0;
+}
+
+#AreaPageUsers_Label8 {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#AreaPageUsers_Label8 {
+  font-size: 15px;
+}
+
+#AreaPageUsers_Label8 {
+  font-weight: bold;
+}
+
+#AreaPageUsers_Label10 {
+  top: 63px;
+  position: absolute;
+}
+
+#AreaPageUsers_Label10 {
+  left: 73px;
+  position: absolute;
+}
+
+#AreaPageUsers_Label10 {
+  width: 131px;
+}
+
+#AreaPageUsers_Label10 {
+  height: 40px;
+}
+
+#AreaPageUsers_Label10 {
+  z-index: 1;
+}
+
+#AreaPageUsers_Label10 {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#AreaPageUsers_Label10 {
+  font-size: 15px;
+}
+
+#AreaPageUsers_Label10 {
+  font-weight: bold;
+}
+
+#AreaPageUsers_Label11 {
+  top: 119px;
+  position: absolute;
+}
+
+#AreaPageUsers_Label11 {
+  left: 75px;
+  position: absolute;
+}
+
+#AreaPageUsers_Label11 {
+  width: 131px;
+}
+
+#AreaPageUsers_Label11 {
+  height: 40px;
+}
+
+#AreaPageUsers_Label11 {
+  z-index: 2;
+}
+
+#AreaPageUsers_Label11 {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#AreaPageUsers_Label11 {
+  font-size: 15px;
+}
+
+#AreaPageUsers_Label11 {
+  font-weight: bold;
+}
+
+#AreaPageUsers_Label12 {
+  top: 177px;
+  position: absolute;
+}
+
+#AreaPageUsers_Label12 {
+  left: 75px;
+  position: absolute;
+}
+
+#AreaPageUsers_Label12 {
+  width: 131px;
+}
+
+#AreaPageUsers_Label12 {
+  height: 40px;
+}
+
+#AreaPageUsers_Label12 {
+  z-index: 3;
+}
+
+#AreaPageUsers_Label12 {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#AreaPageUsers_Label12 {
+  font-size: 15px;
+}
+
+#AreaPageUsers_Label12 {
+  font-weight: bold;
+}
+
+#AreaPageUsers_txtRecFilter {
+  height: 30px;
+}
+
+#AreaPageUsers_txtRecFilter {
+  top: 14px;
+  position: absolute;
+}
+
+#AreaPageUsers_txtRecFilter {
+  left: 225px;
+  position: absolute;
+}
+
+#AreaPageUsers_txtRecFilter {
+  width: 350px;
+}
+
+#AreaPageUsers_txtRecFilter {
+  z-index: 4;
+}
+
+#AreaPageUsers_txtRecFilter:not(.disabled):not(.active) {
+  border-width: 2px 4px 2px 2px;
+}
+
+#AreaPageUsers_txtRecFilter input {
+  justify-content: center;
+  text-align: center;
+}
+
+#AreaPageUsers_txtRecFilter input {
+  font-size: 18px;
+}
+
+#AreaPageUsers_txtRecFilter {
+  box-shadow: 4px 4px 8px black;
+}
+
+#AreaPageUsers_txtRecFilter1 {
+  height: 30px;
+}
+
+#AreaPageUsers_txtRecFilter1 {
+  top: 68px;
+  position: absolute;
+}
+
+#AreaPageUsers_txtRecFilter1 {
+  left: 225px;
+  position: absolute;
+}
+
+#AreaPageUsers_txtRecFilter1 {
+  width: 350px;
+}
+
+#AreaPageUsers_txtRecFilter1 {
+  z-index: 5;
+}
+
+#AreaPageUsers_txtRecFilter1:not(.disabled):not(.active) {
+  border-width: 2px 4px 2px 2px;
+}
+
+#AreaPageUsers_txtRecFilter1 input {
+  justify-content: center;
+  text-align: center;
+}
+
+#AreaPageUsers_txtRecFilter1 input {
+  font-size: 18px;
+}
+
+#AreaPageUsers_txtRecFilter1 {
+  box-shadow: 4px 4px 8px black;
+}
+
+#AreaPageUsers_txtRecFilter2 {
+  height: 30px;
+}
+
+#AreaPageUsers_txtRecFilter2 {
+  top: 125px;
+  position: absolute;
+}
+
+#AreaPageUsers_txtRecFilter2 {
+  left: 225px;
+  position: absolute;
+}
+
+#AreaPageUsers_txtRecFilter2 {
+  width: 350px;
+}
+
+#AreaPageUsers_txtRecFilter2 {
+  z-index: 6;
+}
+
+#AreaPageUsers_txtRecFilter2:not(.disabled):not(.active) {
+  border-width: 2px 4px 2px 2px;
+}
+
+#AreaPageUsers_txtRecFilter2 input {
+  justify-content: center;
+  text-align: center;
+}
+
+#AreaPageUsers_txtRecFilter2 input {
+  font-size: 18px;
+}
+
+#AreaPageUsers_txtRecFilter2 {
+  box-shadow: 4px 4px 8px black;
+}
+
+#AreaPageUsers_DropDownBox1 {
+  top: 182px;
+  position: absolute;
+}
+
+#AreaPageUsers_DropDownBox1 {
+  left: 225px;
+  position: absolute;
+}
+
+#AreaPageUsers_DropDownBox1.DropDownBoxView {
+  width: 179px;
+}
+
+#AreaPageUsers_DropDownBox1.DropDownBoxView {
+  height: 42px;
+}
+
+#AreaPageUsers_DropDownBox1 {
+  z-index: 7;
+}
+
+#AreaPageUsers_DropDownBox1.DropDownBoxView {
+  box-shadow: 4px 4px 8px black;
+}
+
+#AreaPageUsers_DropDownBox1 > .ItemView {
+  border-style: solid;
+}
+
+#AreaPageUsers_DropDownBox1 > .ItemView:not(.itemSelected):not(.itemDisabled) > .TextView:not(.textSelected) {
+  color: black;
+}
+
+#AreaPageUsers_DropDownBox1 .TextView {
+  font-size: 20px;
+}
+
+#AreaPageUsers_DropDownBox1_listBoxWrapper .TextView {
+  font-size: 20px;
+}
+
+#AreaPageUsers_Image2 {
+  top: 273px;
+  position: absolute;
+}
+
+#AreaPageUsers_Image2 {
+  left: 225px;
+  position: absolute;
+}
+
+#AreaPageUsers_Image2 {
+  width: 128px;
+}
+
+#AreaPageUsers_Image2 {
+  height: 128px;
+}
+
+#AreaPageUsers_Image2 {
+  z-index: 8;
+}
+
+#AreaPageUsers_ToggleButton_Prihlasenie {
+  top: 451px;
+  position: absolute;
+}
+
+#AreaPageUsers_ToggleButton_Prihlasenie {
+  left: 217px;
+  position: absolute;
+}
+
+#AreaPageUsers_ToggleButton_Prihlasenie {
+  width: 160px;
+}
+
+#AreaPageUsers_ToggleButton_Prihlasenie {
+  height: 47px;
+}
+
+#AreaPageUsers_ToggleButton_Prihlasenie {
+  z-index: 9;
+}
+
+#AreaPageUsers_ToggleButton_Prihlasenie {
+  border-radius: 10px;
+}
+
+#AreaPageUsers_ToggleButton_Prihlasenie:not(.disabled):not(.active):not(.checked) span {
+  color: black;
+}
+
+#AreaPageUsers_ToggleButton_Prihlasenie span {
+  font-size: 18px;
+}
+
+#AreaPageUsers_ToggleButton_Prihlasenie:not(.active):not(.checked) {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageUsers_ToggleButton_Prihlasenie.disabled.active {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageUsers_ToggleButton_Prihlasenie.disabled.checked {
+  box-shadow: 4px 4px 14px black;
+}
+
+#AreaPageUsers_ToggleButton_Prihlasenie.checked:not(.active):not(.disabled) {
+  background-color: darkgray;
+}
+
+#AreaPageUsers_ToggleButton_Prihlasenie.checked:not(.disabled):not(.active) span {
+  color: #ff8000;
+}
+
+#AreaPageUsers_Image1 {
+  top: 0px;
+  position: absolute;
+}
+
+#AreaPageUsers_Image1 {
+  left: 0px;
+  position: absolute;
+}
+
+#AreaPageUsers_Image1 {
+  width: 1366px;
+}
+
+#AreaPageUsers_Image1 {
+  height: 588px;
+}
+
+#AreaPageUsers_Image1 {
+  z-index: 0;
+}
+
+#AreaPageUsers_Image1 {
+  opacity: 0.2;
+}

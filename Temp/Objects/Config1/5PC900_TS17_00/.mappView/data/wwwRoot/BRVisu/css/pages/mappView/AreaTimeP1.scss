@@ -1,0 +1,247 @@
+﻿@import "mixins.scss";
+#AreaTimeP1_Rectangle1 {
+	@include elemTop(0);
+}
+#AreaTimeP1_Rectangle1 {
+	@include elemLeft(0);
+}
+#AreaTimeP1_Rectangle1 {
+	@include elemWidth(500);
+}
+#AreaTimeP1_Rectangle1 {
+	@include elemHeight(350);
+}
+#AreaTimeP1_Rectangle1 {
+		z-index: 0;
+}
+#AreaTimeP1_Rectangle1 {
+		background-color: rgba(153, 180, 209, 1);
+}
+#AreaTimeP1_Line1 {
+		z-index: 1;
+}
+#AreaTimeP1_Line1 {
+	line{
+		stroke: rgba(255, 255, 255, 1);
+	}
+}
+#AreaTimeP1_Line1 {
+	line{
+		stroke-width: 3px;
+	}
+}
+#AreaTimeP1_Label1 {
+	@include elemAutoHeight(30);
+}
+#AreaTimeP1_Label1 {
+	@include elemTop(24);
+}
+#AreaTimeP1_Label1 {
+	@include elemLeft(122);
+}
+#AreaTimeP1_Label1 {
+	@include elemAutoWidth(250);
+}
+#AreaTimeP1_Label1 {
+		z-index: 2;
+}
+#AreaTimeP1_Label1 {
+	& span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaTimeP1_Label1 {
+	@include text-alignment-all('center');
+}
+#AreaTimeP1_Label1 {
+		font-size: 20px;
+}
+#AreaTimeP1_Label1 {
+	@include font-weight-bold(true);
+}
+#AreaTimeP1_Image1 {
+	@include elemTop(8);
+}
+#AreaTimeP1_Image1 {
+	@include elemLeft(24);
+}
+#AreaTimeP1_Image1 {
+	@include elemAutoWidth(60);
+}
+#AreaTimeP1_Image1 {
+	@include elemAutoHeight(58);
+}
+#AreaTimeP1_Image1 {
+		z-index: 3;
+}
+#AreaTimeP1_Label2 {
+	@include elemAutoWidth(80);
+}
+#AreaTimeP1_Label2 {
+	@include elemAutoHeight(30);
+}
+#AreaTimeP1_Label2 {
+	@include elemTop(135);
+}
+#AreaTimeP1_Label2 {
+	@include elemLeft(24);
+}
+#AreaTimeP1_Label2 {
+		z-index: 4;
+}
+#AreaTimeP1_Label2 {
+	& span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaTimeP1_Label2 {
+		font-size: 20px;
+}
+#AreaTimeP1_Label2 {
+	@include font-weight-bold(true);
+}
+#AreaTimeP1_Label3 {
+	@include elemAutoWidth(80);
+}
+#AreaTimeP1_Label3 {
+	@include elemAutoHeight(30);
+}
+#AreaTimeP1_Label3 {
+	@include elemTop(197);
+}
+#AreaTimeP1_Label3 {
+	@include elemLeft(24);
+}
+#AreaTimeP1_Label3 {
+		z-index: 5;
+}
+#AreaTimeP1_Label3 {
+	& span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaTimeP1_Label3 {
+		font-size: 20px;
+}
+#AreaTimeP1_Label3 {
+	@include font-weight-bold(true);
+}
+#AreaTimeP1_DateTimeInput1 {
+	@include elemWidth(250);
+}
+#AreaTimeP1_DateTimeInput1 {
+	@include elemTop(132);
+}
+#AreaTimeP1_DateTimeInput1 {
+	@include elemLeft(125);
+}
+#AreaTimeP1_DateTimeInput1 {
+	@include elemHeight(35);
+}
+#AreaTimeP1_DateTimeInput1 {
+		z-index: 6;
+}
+#AreaTimeP1_DateTimeInput1 {
+	&:not(.disabled):not(.active){
+		border-width: 2px 4px 2px 2px;
+	}
+}
+#AreaTimeP1_DateTimeInput1 {
+	&.active:not(.disabled) span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaTimeP1_DateTimeInput1 {
+	&:not(.active):not(.disabled) span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaTimeP1_DateTimeInput1 {
+	@include text-alignment(center);
+}
+#AreaTimeP1_DateTimeInput1 {
+		font-size: 20px;
+}
+#AreaTimeP1_DateTimeInput1 {
+	@include box-shadow(4px 4px 8px rgba(0, 0, 0, 1));
+}
+#AreaTimeP1_DateTimeInput2 {
+	@include elemWidth(250);
+}
+#AreaTimeP1_DateTimeInput2 {
+	@include elemTop(194);
+}
+#AreaTimeP1_DateTimeInput2 {
+	@include elemLeft(125);
+}
+#AreaTimeP1_DateTimeInput2 {
+	@include elemHeight(35);
+}
+#AreaTimeP1_DateTimeInput2 {
+		z-index: 7;
+}
+#AreaTimeP1_DateTimeInput2 {
+	&:not(.disabled):not(.active){
+		border-width: 2px 4px 2px 2px;
+	}
+}
+#AreaTimeP1_DateTimeInput2 {
+	&.active:not(.disabled) span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaTimeP1_DateTimeInput2 {
+	&:not(.active):not(.disabled) span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaTimeP1_DateTimeInput2 {
+	@include text-alignment(center);
+}
+#AreaTimeP1_DateTimeInput2 {
+		font-size: 20px;
+}
+#AreaTimeP1_DateTimeInput2 {
+	@include box-shadow(4px 4px 8px rgba(0, 0, 0, 1));
+}
+#AreaTimeP1_LogoutButton2 {
+	@include elemTop(276);
+}
+#AreaTimeP1_LogoutButton2 {
+	@include elemLeft(175);
+}
+#AreaTimeP1_LogoutButton2 {
+	@include elemAutoWidth(150);
+}
+#AreaTimeP1_LogoutButton2 {
+	@include elemAutoHeight(40);
+}
+#AreaTimeP1_LogoutButton2 {
+		z-index: 8;
+}
+#AreaTimeP1_LogoutButton2 {
+	@include border-radius(10px);
+}
+#AreaTimeP1_LogoutButton2 {
+	&:not(.disabled):not(.active):not(.checked) span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaTimeP1_LogoutButton2 {
+	@include text-alignment(center);
+}
+#AreaTimeP1_LogoutButton2 {
+	&:not(.active):not(.checked){
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaTimeP1_LogoutButton2 {
+	&.disabled.active{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}
+#AreaTimeP1_LogoutButton2 {
+	&.disabled.checked{
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+	}
+}

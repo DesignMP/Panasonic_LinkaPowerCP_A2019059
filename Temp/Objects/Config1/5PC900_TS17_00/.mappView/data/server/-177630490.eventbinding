@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Content id="AreaPageAlarmP34">
+    <EventBinding id="AreaPageAlarmP34.Button_PotvrdenieAlarmov.Click">
+			<Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageAlarmP34_Button_PotvrdenieAlarmov" />
+			<EventHandler>
+				<Parallel>
+					<Action>
+						<Target type="opcUa.NodeAction" refId="::AsGlobalPV:P34_AlarmyVizu.PotvrdAlarmy">
+							<Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+						</Target>
+					</Action>
+					<Action>
+						<Target type="widgets.brease.AlarmList.Action" refId="AreaPageAlarmP34_AlarmList1">
+							<Method type="widgets.brease.AlarmList.Action.AcknowledgeAll" />
+						</Target>
+					</Action>	
+				</Parallel>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="AreaPageAlarmP34">
+    <EventBinding id="AreaPageAlarmP34.Button_ArchivaciaAlarmov.Click">
+			<Source type="widgets.brease.Button.Event" event="Click" refId="AreaPageAlarmP34_Button_ArchivaciaAlarmov" />
+			<EventHandler>
+				<Action>
+					<Target type="opcUa.NodeAction" refId="::AsGlobalPV:P34_AlarmyVizu.ArchivaciaAlarmov">
+						<Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+</EventBindingDefinition>

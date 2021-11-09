@@ -1,0 +1,718 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Visualization>
+    <EventBinding>
+            <Source type="opcUa.Event" refId="::AsGlobalPV:P1_Vizu.ZobrazHL1_ST1" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.OpenDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie1_ST1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="horizontalPos" xsi:type="ANY_STRING" value="center" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="verticalPos" xsi:type="ANY_STRING" value="middle" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="headerText" xsi:type="ANY_STRING" value="Info" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.CloseDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie1_ST1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Visualization>
+  <Visualization>
+    <EventBinding>
+            <Source type="opcUa.Event" refId="::AsGlobalPV:P1_Vizu.ZobrazHL2_ST1" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.OpenDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie2_ST1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="horizontalPos" xsi:type="ANY_STRING" value="center" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="verticalPos" xsi:type="ANY_STRING" value="middle" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="headerText" xsi:type="ANY_STRING" value="Info" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.CloseDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie2_ST1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Visualization>
+  <Visualization>
+    <EventBinding>
+            <Source type="opcUa.Event" refId="::AsGlobalPV:P1_Vizu.ZobrazHL3_ST1" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.OpenDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie3_ST1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="horizontalPos" xsi:type="ANY_STRING" value="center" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="verticalPos" xsi:type="ANY_STRING" value="middle" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="headerText" xsi:type="ANY_STRING" value="Info" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.CloseDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie3_ST1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Visualization>
+  <Visualization>
+    <EventBinding>
+            <Source type="opcUa.Event" refId="::AsGlobalPV:P1_Vizu.ZobrazHL4_ST1" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.OpenDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie4_ST1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="horizontalPos" xsi:type="ANY_STRING" value="center" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="verticalPos" xsi:type="ANY_STRING" value="middle" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="headerText" xsi:type="ANY_STRING" value="Info" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.CloseDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie4_ST1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Visualization>
+  <Visualization>
+    <EventBinding>
+            <Source type="opcUa.Event" refId="::AsGlobalPV:P1_Vizu.ZobrazHL5_ST1" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.OpenDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie5_ST1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="horizontalPos" xsi:type="ANY_STRING" value="center" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="verticalPos" xsi:type="ANY_STRING" value="middle" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="headerText" xsi:type="ANY_STRING" value="Info" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.CloseDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie5_ST1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Visualization>
+  <Visualization>
+    <EventBinding>
+            <Source type="opcUa.Event" refId="::AsGlobalPV:P1_Vizu.ZobrazHL6_ST1" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.OpenDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie6_ST1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="horizontalPos" xsi:type="ANY_STRING" value="center" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="verticalPos" xsi:type="ANY_STRING" value="middle" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="headerText" xsi:type="ANY_STRING" value="Info" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.CloseDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie6_ST1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Visualization>
+  <Visualization>
+    <EventBinding>
+            <Source type="opcUa.Event" refId="::AsGlobalPV:P1_Vizu.ZobrazHL7_ST1" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.OpenDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie7_ST1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="horizontalPos" xsi:type="ANY_STRING" value="center" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="verticalPos" xsi:type="ANY_STRING" value="middle" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="headerText" xsi:type="ANY_STRING" value="Info" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.CloseDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie7_ST1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Visualization>
+  <Visualization>
+    <EventBinding>
+            <Source type="opcUa.Event" refId="::AsGlobalPV:P1_Vizu.ZobrazHL8_ST1" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.OpenDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie8_ST1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="horizontalPos" xsi:type="ANY_STRING" value="center" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="verticalPos" xsi:type="ANY_STRING" value="middle" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="headerText" xsi:type="ANY_STRING" value="Info" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.CloseDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie8_ST1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Visualization>
+  <Visualization>
+    <EventBinding>
+            <Source type="opcUa.Event" refId="::AsGlobalPV:P1_Vizu.ZobrazHL9_ST1" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.OpenDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie9_ST1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="horizontalPos" xsi:type="ANY_STRING" value="center" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="verticalPos" xsi:type="ANY_STRING" value="middle" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="headerText" xsi:type="ANY_STRING" value="Info" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.CloseDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie9_ST1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Visualization>
+  <Visualization>
+    <EventBinding>
+            <Source type="opcUa.Event" refId="::AsGlobalPV:P1_Vizu.ZobrazHL10_ST1" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.OpenDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie10_ST1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="horizontalPos" xsi:type="ANY_STRING" value="center" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="verticalPos" xsi:type="ANY_STRING" value="middle" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="headerText" xsi:type="ANY_STRING" value="Info" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.CloseDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie10_ST1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Visualization>
+  <Content id="AreaHlasenie10_ST1">
+    <EventBinding id="AreaHlasenie10_ST1.Button_ANO.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaHlasenie10_ST1_Button_ANO" />
+            <EventHandler>
+                <Parallel>
+                    <Action>
+                        <Target type="opcUa.NodeAction" refId="::AsGlobalPV:Linka.VyprazdnenieLinky">
+                            <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                        </Target>
+                    </Action>
+                    <Action>
+                        <Target type="opcUa.NodeAction" refId="::AsGlobalPV:P1_Vizu.ZobrazHL10_ST1">
+                            <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                        </Target>
+                    </Action>
+                </Parallel>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Content id="AreaHlasenie10_ST1">
+    <EventBinding id="AreaHlasenie10_ST1.Button_NIE.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaHlasenie10_ST1_Button_NIE" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::AsGlobalPV:P1_Vizu.ZobrazHL10_ST1">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Visualization>
+    <EventBinding>
+            <Source type="opcUa.Event" refId="::AsGlobalPV:P1_Vizu.ZobrazHL11_ST1" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.OpenDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie11_ST1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="horizontalPos" xsi:type="ANY_STRING" value="center" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="verticalPos" xsi:type="ANY_STRING" value="middle" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="headerText" xsi:type="ANY_STRING" value="Info" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.CloseDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie11_ST1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Visualization>
+  <Content id="AreaHlasenie11_ST1">
+    <EventBinding id="AreaHlasenie11_ST1.Button_ANO.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaHlasenie11_ST1_Button_ANO" />
+            <EventHandler>
+                <Parallel>
+                    <Action>
+                        <Target type="opcUa.NodeAction" refId="::AsGlobalPV:Linka.TestovaciKus">
+                            <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                        </Target>
+                    </Action>
+                    <Action>
+                        <Target type="opcUa.NodeAction" refId="::AsGlobalPV:P1_Vizu.ZobrazHL11_ST1">
+                            <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                        </Target>
+                    </Action>
+                </Parallel>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Content id="AreaHlasenie11_ST1">
+    <EventBinding id="AreaHlasenie11_ST1.Button_NIE.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaHlasenie11_ST1_Button_NIE" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::AsGlobalPV:P1_Vizu.ZobrazHL11_ST1">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Visualization>
+    <EventBinding>
+            <Source type="opcUa.Event" refId="::AsGlobalPV:P1_Vizu.ZobrazHL12_ST1" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.OpenDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie12_ST1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="horizontalPos" xsi:type="ANY_STRING" value="center" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="verticalPos" xsi:type="ANY_STRING" value="middle" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="headerText" xsi:type="ANY_STRING" value="Info" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.CloseDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie12_ST1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Visualization>
+  <Visualization>
+    <EventBinding>
+            <Source type="opcUa.Event" refId="::AsGlobalPV:P1_Vizu.ZobrazHL13_ST1" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.OpenDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie13_ST1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="horizontalPos" xsi:type="ANY_STRING" value="center" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="verticalPos" xsi:type="ANY_STRING" value="middle" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="headerText" xsi:type="ANY_STRING" value="Info" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.CloseDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie13_ST1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Visualization>
+  <Visualization>
+    <EventBinding>
+            <Source type="opcUa.Event" refId="::AsGlobalPV:P1_Vizu.ZobrazHL14_ST1" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.OpenDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie14_ST1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="horizontalPos" xsi:type="ANY_STRING" value="center" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="verticalPos" xsi:type="ANY_STRING" value="middle" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="headerText" xsi:type="ANY_STRING" value="Info" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.CloseDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie14_ST1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Visualization>
+  <Visualization>
+    <EventBinding>
+            <Source type="opcUa.Event" refId="::AsGlobalPV:P1_Vizu.ZobrazHL1_ST2" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.OpenDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie1_ST2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="horizontalPos" xsi:type="ANY_STRING" value="center" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="verticalPos" xsi:type="ANY_STRING" value="middle" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="headerText" xsi:type="ANY_STRING" value="Info" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.CloseDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie1_ST2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Visualization>
+  <Content id="AreaHlasenie1_ST2">
+    <EventBinding id="AreaHlasenie1_ST2.Button_OznacPaletkuOK.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaHlasenie1_ST2_Button_OznacPaletkuOK" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::AsGlobalPV:P1_Srobov_KAM_Result_OK">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Content id="AreaHlasenie1_ST2">
+    <EventBinding id="AreaHlasenie1_ST2.Button_OznacPaletkuNG.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaHlasenie1_ST2_Button_OznacPaletkuNG" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::AsGlobalPV:P1_Srobov_KAM_Result_NG">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Visualization>
+    <EventBinding>
+            <Source type="opcUa.Event" refId="::AsGlobalPV:P1_Vizu.ZobrazHL2_ST2" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.OpenDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie2_ST2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="horizontalPos" xsi:type="ANY_STRING" value="center" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="verticalPos" xsi:type="ANY_STRING" value="middle" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="headerText" xsi:type="ANY_STRING" value="Info" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.CloseDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie2_ST2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler> 
+        </EventBinding>
+  </Visualization>
+  <Content id="AreaHlasenie2_ST2">
+    <EventBinding id="AreaHlasenie2_ST2.Button_OznacPaletkuOK.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaHlasenie2_ST2_Button_OznacPaletkuOK" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::AsGlobalPV:P1_Srobov_KAM_Result_OK">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Content id="AreaHlasenie2_ST2">
+    <EventBinding id="AreaHlasenie2_ST2.Button_OznacPaletkuNG.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaHlasenie2_ST2_Button_OznacPaletkuNG" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::AsGlobalPV:P1_Srobov_KAM_Result_NG">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Visualization>
+    <EventBinding>
+            <Source type="opcUa.Event" refId="::AsGlobalPV:P1_Vizu.ZobrazHL3_ST2" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.OpenDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie3_ST2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="horizontalPos" xsi:type="ANY_STRING" value="center" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="verticalPos" xsi:type="ANY_STRING" value="middle" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="headerText" xsi:type="ANY_STRING" value="Info" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.CloseDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie3_ST2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Visualization>
+  <Content id="AreaHlasenie3_ST2">
+    <EventBinding id="AreaHlasenie3_ST2.Button_OznacPaletkuOK.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaHlasenie3_ST2_Button_OznacPaletkuOK" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::AsGlobalPV:P1_Srobov_KAM_Result_OK">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Content id="AreaHlasenie3_ST2">
+    <EventBinding id="AreaHlasenie3_ST2.Button_OznacPaletkuNG.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaHlasenie3_ST2_Button_OznacPaletkuNG" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::AsGlobalPV:P1_Srobov_KAM_Result_NG">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Visualization>
+    <EventBinding>
+            <Source type="opcUa.Event" refId="::AsGlobalPV:P1_Vizu.ZobrazHL4_ST2" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.OpenDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie4_ST2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="horizontalPos" xsi:type="ANY_STRING" value="center" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="verticalPos" xsi:type="ANY_STRING" value="middle" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="headerText" xsi:type="ANY_STRING" value="Info" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.CloseDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie4_ST2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Visualization>
+  <Content id="AreaHlasenie4_ST2">
+    <EventBinding id="AreaHlasenie4_ST2.Button_OznacPaletkuOK.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaHlasenie4_ST2_Button_OznacPaletkuOK" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::AsGlobalPV:P1_Srobov_KAM_Result_OK">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Content id="AreaHlasenie4_ST2">
+    <EventBinding id="AreaHlasenie4_ST2.Button_OznacPaletkuNG.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaHlasenie4_ST2_Button_OznacPaletkuNG" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::AsGlobalPV:P1_Srobov_KAM_Result_NG">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Visualization>
+    <EventBinding>
+            <Source type="opcUa.Event" refId="::AsGlobalPV:P1_Vizu.ZobrazHL5_ST2" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.OpenDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie5_ST2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="horizontalPos" xsi:type="ANY_STRING" value="center" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="verticalPos" xsi:type="ANY_STRING" value="middle" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="headerText" xsi:type="ANY_STRING" value="Info" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.CloseDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie5_ST2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Visualization>
+  <Content id="AreaHlasenie5_ST2">
+    <EventBinding id="AreaHlasenie5_ST2.Button_OznacPaletkuOK.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaHlasenie5_ST2_Button_OznacPaletkuOK" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::AsGlobalPV:P1_Srobov_KAM_Result_OK">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Content id="AreaHlasenie5_ST2">
+    <EventBinding id="AreaHlasenie5_ST2.Button_OznacPaletkuNG.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaHlasenie5_ST2_Button_OznacPaletkuNG" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::AsGlobalPV:P1_Srobov_KAM_Result_NG">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Visualization>
+    <EventBinding>
+            <Source type="opcUa.Event" refId="::AsGlobalPV:P1_Vizu.ZobrazHL6_ST2" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.OpenDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie6_ST2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="horizontalPos" xsi:type="ANY_STRING" value="center" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="verticalPos" xsi:type="ANY_STRING" value="middle" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="headerText" xsi:type="ANY_STRING" value="Info" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.CloseDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie6_ST2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Visualization>
+  <Content id="AreaHlasenie6_ST2">
+    <EventBinding id="AreaHlasenie6_ST2.Button_OznacPaletkuOK.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaHlasenie6_ST2_Button_OznacPaletkuOK" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::AsGlobalPV:P1_Srobov_KAM_Result_OK">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Content id="AreaHlasenie6_ST2">
+    <EventBinding id="AreaHlasenie6_ST2.Button_OznacPaletkuNG.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaHlasenie6_ST2_Button_OznacPaletkuNG" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::AsGlobalPV:P1_Srobov_KAM_Result_NG">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Visualization>
+    <EventBinding>
+            <Source type="opcUa.Event" refId="::AsGlobalPV:P1_Vizu.ZobrazHL7_ST2" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.OpenDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie7_ST2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="horizontalPos" xsi:type="ANY_STRING" value="center" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="verticalPos" xsi:type="ANY_STRING" value="middle" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="headerText" xsi:type="ANY_STRING" value="Info" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.CloseDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie7_ST2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Visualization>
+  <Content id="AreaHlasenie7_ST2">
+    <EventBinding id="AreaHlasenie7_ST2.Button_OznacPaletkuOK.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaHlasenie7_ST2_Button_OznacPaletkuOK" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::AsGlobalPV:P1_Srobov_KAM_Result_OK">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Content id="AreaHlasenie7_ST2">
+    <EventBinding id="AreaHlasenie7_ST2.Button_OznacPaletkuNG.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaHlasenie7_ST2_Button_OznacPaletkuNG" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::AsGlobalPV:P1_Srobov_KAM_Result_NG">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Visualization>
+    <EventBinding>
+            <Source type="opcUa.Event" refId="::AsGlobalPV:P1_Vizu.ZobrazHL8_ST2" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.OpenDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie8_ST2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="horizontalPos" xsi:type="ANY_STRING" value="center" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="verticalPos" xsi:type="ANY_STRING" value="middle" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="headerText" xsi:type="ANY_STRING" value="Info" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.CloseDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie8_ST2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Visualization>
+  <Content id="AreaHlasenie8_ST2">
+    <EventBinding id="AreaHlasenie8_ST2.Button_OznacPaletkuOK.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaHlasenie8_ST2_Button_OznacPaletkuOK" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::AsGlobalPV:P1_Srobov_KAM_Result_OK">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Content id="AreaHlasenie8_ST2">
+    <EventBinding id="AreaHlasenie8_ST2.Button_OznacPaletkuNG.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaHlasenie8_ST2_Button_OznacPaletkuNG" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::AsGlobalPV:P1_Srobov_KAM_Result_NG">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Visualization>
+    <EventBinding>
+            <Source type="opcUa.Event" refId="::AsGlobalPV:P1_Vizu.ZobrazHL9_ST2" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.OpenDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie9_ST2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="horizontalPos" xsi:type="ANY_STRING" value="center" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="verticalPos" xsi:type="ANY_STRING" value="middle" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="headerText" xsi:type="ANY_STRING" value="Info" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target type="clientSystem.Action">
+                        <Method type="clientSystem.Action.CloseDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="Hlasenie9_ST2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Visualization>
+  <Content id="AreaHlasenie9_ST2">
+    <EventBinding id="AreaHlasenie9_ST2.Button_OpatovnyDopyt.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaHlasenie9_ST2_Button_OpatovnyDopyt" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::AsGlobalPV:TRCB_P1_Srobov_OpatovnyDopyt">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+  <Content id="AreaHlasenie9_ST2">
+    <EventBinding id="AreaHlasenie9_ST2.Button_OznacPaletkuNG.Click">
+            <Source type="widgets.brease.Button.Event" event="Click" refId="AreaHlasenie9_ST2_Button_OznacPaletkuNG" />
+            <EventHandler>
+                <Action>
+                    <Target type="opcUa.NodeAction" refId="::AsGlobalPV:TRCB_P1_Srobov_PaletkaNG">
+                        <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+  </Content>
+</EventBindingDefinition>

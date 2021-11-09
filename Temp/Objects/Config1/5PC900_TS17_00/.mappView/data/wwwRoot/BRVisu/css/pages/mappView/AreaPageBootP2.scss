@@ -1,0 +1,86 @@
+﻿@import "mixins.scss";
+#AreaPageBootP2_Image1 {
+	@include elemTop(0);
+}
+#AreaPageBootP2_Image1 {
+	@include elemLeft(0);
+}
+#AreaPageBootP2_Image1 {
+	@include elemAutoWidth(1366);
+}
+#AreaPageBootP2_Image1 {
+	@include elemAutoHeight(768);
+}
+#AreaPageBootP2_Image1 {
+		z-index: 0;
+}
+#AreaPageBootP2_Image1 {
+		opacity: 1;
+}
+#AreaPageBootP2_Label1 {
+	@include elemTop(668);
+}
+#AreaPageBootP2_Label1 {
+	@include elemLeft(244);
+}
+#AreaPageBootP2_Label1 {
+	@include elemAutoWidth(878);
+}
+#AreaPageBootP2_Label1 {
+	@include elemAutoHeight(66);
+}
+#AreaPageBootP2_Label1 {
+		z-index: 1;
+}
+#AreaPageBootP2_Label1 {
+		border-width: 5px;
+}
+#AreaPageBootP2_Label1 {
+	@include border-radius(10px);
+}
+#AreaPageBootP2_Label1 {
+		background-color: rgba(211, 211, 211, 1);
+}
+#AreaPageBootP2_Label1 {
+		border-color: rgba(153, 153, 153, 1);
+}
+#AreaPageBootP2_Label1 {
+	&:before{
+		border-color: rgba(153, 153, 153, 1);
+	}
+}
+#AreaPageBootP2_Label1 {
+	&:after{
+		border-color: rgba(153, 153, 153, 1);
+	}
+}
+#AreaPageBootP2_Label1 {
+		border-style: ridge;
+}
+#AreaPageBootP2_Label1 {
+	&:before{
+		border-style: ridge;
+	}
+}
+#AreaPageBootP2_Label1 {
+	&:after{
+		border-style: ridge;
+	}
+}
+#AreaPageBootP2_Label1 {
+	& span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#AreaPageBootP2_Label1 {
+	@include text-alignment-all('center');
+}
+#AreaPageBootP2_Label1 {
+		font-size: 40px;
+}
+#AreaPageBootP2_Label1 {
+	@include font-weight-bold(true);
+}
+#AreaPageBootP2_Label1 {
+	@include box-shadow(4px 4px 14px rgba(0, 0, 0, 1));
+}

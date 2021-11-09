@@ -1,0 +1,7 @@
+{
+  global:
+    PrevodMomentu;
+    Round;
+  local:
+    *;
+ };
