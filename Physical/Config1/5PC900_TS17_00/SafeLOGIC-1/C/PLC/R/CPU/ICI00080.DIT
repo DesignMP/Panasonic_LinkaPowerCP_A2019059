@@ -1,0 +1,382 @@
+(*
+T: PROGRAM Main
+FW: NO
+CI#: 80
+QSL: 62
+QVE: 62
+QVPC: 62
+QPar: 0
+QFBI: 58
+*)
+@V 1 2 0
+P2_CS_DvojrucOvladanie	1	VAR	@FB:81
+		     
+
+;
+
+@V 1 3 0
+P2_CS_Robot	2	VAR	@FB:81
+		     
+
+;
+
+@V 1 4 0
+P2_CS_OvladaciPanel	3	VAR	@FB:81
+		     
+
+;
+
+@V 1 5 0
+P2_CS_Rozvadzac	4	VAR	@FB:81
+		     
+
+;
+
+@V 1 6 0
+Zona_CS	5	VAR	@FB:82
+		     
+
+;
+
+@V 1 7 0
+P2_Zona_ZaklTesnenia_Pojazd	6	VAR	@FB:82
+		     
+
+;
+
+@V 1 8 0
+P2_PrepinacVyblokovaniaSafety	7	VAR	@FB:81
+		     
+
+;
+
+@V 1 9 0
+P2_DvojrucneOvladanie	8	VAR	@FB:81
+		     
+
+;
+
+@V 1 10 0
+P2_Bumper	9	VAR	@FB:81
+		     
+
+;
+
+@V 1 11 0
+P2_Zona_ZaklTesnenia_Zdvih	10	VAR	@FB:82
+		     
+
+;
+
+@V 1 12 0
+P2_ZadnySnimacPojazdu	11	VAR	@FB:81
+		     
+
+;
+
+@V 1 13 0
+P2_ZaklTesnenia_OptickaBariera	12	VAR	@FB:81
+		     
+
+;
+
+@V 1 14 0
+P2_ZamkyBunky	13	VAR	@FB:81
+		     
+
+;
+
+@V 1 15 0
+P2_Zona_Bunky	14	VAR	@FB:82
+		     
+
+;
+
+@V 1 16 0
+P2_Zona_Maticovacky	15	VAR	@FB:82
+		     
+
+;
+
+@V 1 17 0
+P2_BarieraVstupuBunky	16	VAR	@FB:81
+		     
+
+;
+
+@V 1 18 0
+P1_CS_Robot	17	VAR	@FB:81
+		     
+
+;
+
+@V 1 19 0
+P1_CS_OvladaciPanel	18	VAR	@FB:81
+		     
+
+;
+
+@V 1 20 0
+P1_CS_Rozvadzac	19	VAR	@FB:81
+		     
+
+;
+
+@V 1 21 0
+P1_PrepinacVyblokovaniaSafety	20	VAR	@FB:81
+		     
+
+;
+
+@V 1 22 0
+P1_Zona_Vytah	21	VAR	@FB:82
+		     
+
+;
+
+@V 1 23 0
+P1_SnimacHornaPolohaVytahu	22	VAR	@FB:81
+		     
+
+;
+
+@V 1 24 0
+P1_BarieraVytahu	23	VAR	@FB:81
+		     
+
+;
+
+@V 1 25 0
+P1_ZonaBunka	24	VAR	@FB:82
+		     
+
+;
+
+@V 1 26 0
+P1_VstupnaBarieraBunky	25	VAR	@FB:81
+		     
+
+;
+
+@V 1 27 0
+P1_ZamkyBunky	26	VAR	@FB:81
+		     
+
+;
+
+@V 1 28 0
+P1_VystupnaBarieraTunela	27	VAR	@FB:81
+		     
+
+;
+
+@V 1 29 0
+P3_CS_Rozvadzac	28	VAR	@FB:81
+		     
+
+;
+
+@V 1 30 0
+P3_PrepinacVyblokovanieSafety	29	VAR	@FB:81
+		     
+
+;
+
+@V 1 31 0
+P3_ZonaBunka	30	VAR	@FB:82
+		     
+
+;
+
+@V 1 32 0
+P3_VystupnaBarieraBunky	31	VAR	@FB:81
+		     
+
+;
+
+@V 1 33 0
+P3_ZamkyBunky	32	VAR	@FB:81
+		     
+
+;
+
+@V 1 34 0
+P4_CS_OvladaciPanel	33	VAR	@FB:81
+		     
+
+;
+
+@V 1 35 0
+P4_CS_Rozvadzac	34	VAR	@FB:81
+		     
+
+;
+
+@V 1 36 0
+P4_PrepinacVyblokovaniaSafety	35	VAR	@FB:81
+		     
+
+;
+
+@V 1 37 0
+P4_Zona_Vytah	36	VAR	@FB:82
+		     
+
+;
+
+@V 1 38 0
+P4_SnimacHornaPolohaVytahu	37	VAR	@FB:81
+		     
+
+;
+
+@V 1 39 0
+P4_BarieraVytahu	38	VAR	@FB:81
+		     
+
+;
+
+@V 1 40 0
+P4_ZonaBunka	39	VAR	@FB:82
+		     
+
+;
+
+@V 1 41 0
+P4_ZamkyBunky	40	VAR	@FB:81
+		     
+
+;
+
+@V 1 42 0
+Cas_1	41	VAR	@FB:44
+		     
+
+;
+
+@V 1 43 0
+Cas_2	42	VAR	@FB:44
+		     
+
+;
+
+@V 1 44 0
+Cas_3	43	VAR	@FB:44
+		     
+
+;
+
+@V 1 45 0
+Cas_4	44	VAR	@FB:44
+		     
+
+;
+
+@V 1 46 0
+P3_Bunka_VstupnaBariera	45	VAR	@FB:81
+		     
+
+;
+
+@V 1 47 0
+P4_VstupnaBarieraTunela	46	VAR	@FB:81
+		     
+
+;
+
+@V 1 48 0
+P4_VystupnaBarieraTunela	47	VAR	@FB:81
+		     
+
+;
+
+@V 1 49 0
+Cas_MutinguBariery	48	VAR	@FB:44
+		     
+
+;
+
+@V 1 50 0
+CasRelease_ZonaCS	49	VAR	@FB:21
+		     
+
+;
+
+@V 1 51 0
+CasRelease_P1_ZonaVytah	50	VAR	@FB:21
+		     
+
+;
+
+@V 1 52 0
+CasRelease_P1_ZonaBunky	51	VAR	@FB:21
+		     
+
+;
+
+@V 1 53 0
+CasRelease_P4_ZonaBunky	52	VAR	@FB:21
+		     
+
+;
+
+@V 1 54 0
+CasRelease_P2_ZaklTesnPojazd	53	VAR	@FB:21
+		     
+
+;
+
+@V 1 55 0
+CasRelease_P2_ZaklTesnZdvih	54	VAR	@FB:21
+		     
+
+;
+
+@V 1 56 0
+CasRelease_P2_ZonaMaticovacky	55	VAR	@FB:21
+		     
+
+;
+
+@V 1 57 0
+CasRelease_P2_ZonaBunky	56	VAR	@FB:21
+		     
+
+;
+
+@V 1 58 0
+CasRelease_P3_ZonaBunky	57	VAR	@FB:21
+		     
+
+;
+
+@V 1 59 0
+CasRelease_P4_ZonaVytah	58	VAR	@FB:21
+		     
+
+;
+
+@V 5 25 0
+__ZamkyBuniek@0	59	VAR	@TYP:43
+		     
+
+;
+
+@V 5 65 0
+__ZamkyBuniek@1	60	VAR	@TYP:43
+		     
+
+;
+
+@V 5 92 0
+__ZamkyBuniek@2	61	VAR	@TYP:43
+		     
+
+;
+
+@V 5 116 0
+__ZamkyBuniek@3	62	VAR	@TYP:43
+		     
+
+;
+

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="UsersP34_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bindings>
+	
+			
+        <!--Zobrazenie symbolu karty v hlavičke panela-->
+       
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.KartaPrilozena_Panel3" attribute="value" />
+            <Target xsi:type="brease" contentRefId="HlavickaP34" widgetRefId="Image3" attribute="visible" />
+        </Binding>
+        
+        
+               
+        
+        <!--Zobrazenie zvoleného uzivatela v hlavičke panela-->
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.MenoPrihlasenehoUzivatela_Panel3" attribute="value" />
+            <Target xsi:type="brease" contentRefId="HlavickaP34" widgetRefId="TextOutput1" attribute="value" />
+        </Binding>
+        
+        
+      
+       
+       
+	
+
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.MenoPrihlasenehoUzivatela_Panel3" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaLoginP34" widgetRefId="TextOutput1" attribute="value" />
+        </Binding>
+        
+        
+        
+    </Bindings>
+</BindingsSet>

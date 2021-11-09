@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="VizuP1_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Bindings>
+        <!--ZACIATOK - ziskavanie aktualnej stranky DO premennej v PROGRAM - ActualPage -->
+        <EventBinding>
+            <Source xsi:type="session.Event" refId="::SYSTEM:clientInfo.currentPageId" event="ValueChanged" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P1_Vizu.ActualPage" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueString" value="=newValue"/>
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        <!--KONIEC - ziskavanie aktualnej stranky DO premennej v PROGRAM - ActualPage -->
+		
+		
+        <!--ZACIATOK - zmena stranky pomocou premennej z programu - ChangePage -->
+        <EventBinding>
+            <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:P1_Vizu.GoPage" event="ValueChanged" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.Navigate" pageId="=newValue" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        <!--KONIEC - zmena stranky pomocou premennej z programu - ChangePage -->
+   
+		
+        <!--Nasetovanie tlačítka Režim Automat-->
+        <EventBinding id="PataP1.NavigationButton_Automat.Click">
+            <Source contentRefId="PataP1" widgetRefId="NavigationButton_Automat" xsi:type="widgets.brease.NavigationButton.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P1_Vizu.TL_RezimAutomat" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+	
+        
+        
+        
+        <!--Prepnutie pracoviska do režimu manuál-->
+        <EventBinding id="PataP1.NavigationButton_Manual.Click">
+            <Source contentRefId="PataP1" widgetRefId="NavigationButton_Manual" xsi:type="widgets.brease.NavigationButton.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P1_Pracovisko.Manual" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+		
+		
+		
+    </Bindings>
+</EventBindingSet>

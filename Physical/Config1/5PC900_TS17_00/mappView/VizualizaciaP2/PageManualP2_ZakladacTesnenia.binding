@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="PageManualP2_ZakladacTesnenia_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bindings>
+  
+		
+
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.ZaklTesnenia_OvlPojazdu_ENABLE" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageManualP2_ZakladanieTesnenia" widgetRefId="MomentaryPushButton_JoggPojazdVPRED" attribute="enable" />
+		</Binding>
+
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.ZaklTesnenia_OvlZdvihu_ENABLE" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageManualP2_ZakladanieTesnenia" widgetRefId="MomentaryPushButton_JoggZdvihuHORE" attribute="enable" />
+		</Binding>
+
+		
+
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::P2_Zaklada:Zdvih_JoggHORE" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageManualP2_ZakladanieTesnenia" widgetRefId="MomentaryPushButton_JoggZdvihuHORE" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::P2_Zaklada:Zdvih_JoggDOLE" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageManualP2_ZakladanieTesnenia" widgetRefId="MomentaryPushButton_JoggZdvihuDOLE" attribute="value" />
+		</Binding>
+		
+		
+		
+		
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.ZaklTesnenia_OvlZostupu_ENABLE" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageManualP2_ZakladanieTesnenia" widgetRefId="MomentaryPushButton_JoggZdvihuDOLE" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::P2_Zaklada:Pojazd_JoggVZAD" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageManualP2_ZakladanieTesnenia" widgetRefId="MomentaryPushButton_JoggPojazdVZAD" attribute="value" />
+		</Binding>
+		
+		
+		
+		
+		
+		
+	
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P2_ZakladacTesnenia.STAV.Zdvih_AktualnaPozicia" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP2_ZakladanieTesnenia" widgetRefId="NumericOutput_ZdvihAktualnaPozicia" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P2_ZakladacTesnenia.STAV.ServoPojazdu_HomingOK" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP2_ZakladanieTesnenia" widgetRefId="ImageList9" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P2_ZakladacTesnenia.STAV.ServoZdvihu_HomingOK" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP2_ZakladanieTesnenia" widgetRefId="ImageList6" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P2_ZakladacTesnenia.PAR.ServoZdvihu_JoggRychlost" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP2_ZakladanieTesnenia" widgetRefId="NumericInput_ZdvihZadanaRychlost" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P2_ZakladacTesnenia.IN.ZdvihZaklad_RefSnimac_IS8" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP2_ZakladanieTesnenia" widgetRefId="ImageList15" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::P2_Zaklada:Pojazd_JoggVPRED" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP2_ZakladanieTesnenia" widgetRefId="MomentaryPushButton_JoggPojazdVPRED" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P2_ZakladacTesnenia.STAV.Pojazd_AktualnaPozicia" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP2_ZakladanieTesnenia" widgetRefId="NumericOutput_PojazdAktualnaPozicia" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P2_ZakladacTesnenia.PAR.ServoPojazdu_JoggRychlost" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP2_ZakladanieTesnenia" widgetRefId="NumericInput_PojazdZadanaRychlost" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P2_ZakladacTesnenia.IN.Vozik_Zaklad_PritomPowerCP_IOS6" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP2_ZakladanieTesnenia" widgetRefId="ImageList14" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P2_ZakladacTesnenia.IN.Kopito_ZakladPoloha_IS7" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP2_ZakladanieTesnenia" widgetRefId="ImageList16" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Safety.STAV.P2_ZaklTesnenia_Pojazd_ZASUNUTY" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP2_ZakladanieTesnenia" widgetRefId="ImageList17" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P2_StoperZaklTesnenia.IN.BannerNalozeniaPaletky_SB7" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP2_ZakladanieTesnenia" widgetRefId="ImageList18" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P2_StoperZaklTesnenia.IN.PritomnostPaletky_S6" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP2_ZakladanieTesnenia" widgetRefId="ImageList19" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P2_StoperZaklTesnenia.OUT.ZasunStoper_YV53" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP2_ZakladanieTesnenia" widgetRefId="ToggleSwitch_Stoper" attribute="value" />
+</Binding>
+</Bindings>
+</BindingsSet>

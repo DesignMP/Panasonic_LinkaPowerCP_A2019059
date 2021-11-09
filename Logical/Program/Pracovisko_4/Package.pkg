@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.4.67 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Program" Language="IEC">P4_Main</Object>
+    <Object Type="Program" Language="IEC">P4_Dopravniky</Object>
+    <Object Type="Program" Language="IEC">P4_Vytah</Object>
+    <Object Type="Program" Language="IEC">P4_StoperFunkcnyTestA</Object>
+    <Object Type="Program" Language="IEC">P4_StoperFunkcnyTestB</Object>
+    <Object Type="Program" Language="IEC">P4_StoperEtiketovacky</Object>
+    <Object Type="Program" Language="IEC">P4_OvladanieSafety</Object>
+  </Objects>
+</Package>

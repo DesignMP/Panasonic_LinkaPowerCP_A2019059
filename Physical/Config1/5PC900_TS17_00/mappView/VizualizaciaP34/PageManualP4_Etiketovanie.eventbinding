@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="PageManualP4_Etiketovanie_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+    
+        <EventBinding id="AreaPageManualP4_Etiketovanie.Button_HomingServaZdvihu.Click">
+            <Source contentRefId="AreaPageManualP4_Etiketovanie" widgetRefId="Button_HomingServaZdvihu" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::P4_StoperE:Zdvih_HOME" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        
+        
+        
+        <EventBinding id="AreaPageManualP4_Etiketovanie.Button_ZdvihCentrovania.Click">
+            <Source contentRefId="AreaPageManualP4_Etiketovanie" widgetRefId="Button_ZdvihCentrovania" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::P4_StoperE:Centrovacku_VYSUN" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        
+        
+        <EventBinding id="AreaPageManualP4_Etiketovanie.Button_ZostupCentrovania.Click">
+            <Source contentRefId="AreaPageManualP4_Etiketovanie" widgetRefId="Button_ZostupCentrovania" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::P4_StoperE:Centrovacku_ZASUN" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        
+        <EventBinding id="AreaPageManualP4_Etiketovanie.Button_StartTestovacejSekvencie.Click">
+            <Source contentRefId="AreaPageManualP4_Etiketovanie" widgetRefId="Button_StartTestovacejSekvencie" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P4_Etiketovacka.RR_TestovanieEtiketovania" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        
+        
+
+	</Bindings>
+</EventBindingSet>

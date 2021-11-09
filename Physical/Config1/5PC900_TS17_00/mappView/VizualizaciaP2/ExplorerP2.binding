@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="ExplorerP2_binding">
+	<Bindings>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.VIS[0].enable_button_set_2" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="flyConfiguration" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.VIS[0].enable_button_set_1" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="btnClearFilterB" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.VIS[0].enable_button_set_1" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="txtFilterA" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.VIS[0].enable_button_set_1" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="btnClearFilterA" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.PAR[0].new_name" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="txtNewDirA" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.PAR[1].new_name" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="txtNewDirB" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.VIS[1].enable_button_set_1" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="txtFilterB" attribute="enable" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.status" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="txtStatus" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.ERR.text" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="txtError" attribute="value" />
+		</Binding>	
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.DAT[0].item_num" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="numItemsA" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.DAT[1].item_num" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="numItemsB" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.DAT[0].item_list" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="tableNameA" attribute="stringValue" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.DAT[0].item_size" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="tableSizeA" attribute="stringValue" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.DAT[1].item_size" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="tableSizeB" attribute="stringValue" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.DAT[1].item_list" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="tableNameB" attribute="stringValue" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.VIS[0].item_selected" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="tblDirectoryA" attribute="selectedRow" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.PAR[1].dir_path" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="txtDirPathB" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.PAR[0].dir_path" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="txtDirPathA" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.VIS[1].item_selected" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="tblDirectoryB" attribute="selectedRow" />
+		</Binding>	
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.VIS[0].enable_button_set_1" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="btnCopyA" attribute="enable" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.VIS[0].enable_button_set_1" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="btnDeleteA" attribute="enable" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.VIS[0].enable_button_set_1" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="btnCopyAllA" attribute="enable" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.VIS[1].enable_button_set_1" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="btnCopyB" attribute="enable" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.VIS[1].enable_button_set_1" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="btnCopyAllB" attribute="enable" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.VIS[1].enable_button_set_1" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="btnDeleteB" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.PAR[1].item_filter" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="txtFilterB" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.PAR[0].item_filter" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="txtFilterA" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.VIS[0].device_list" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="ddbDeviceA" attribute="dataProvider" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.VIS[1].device_list" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="ddbDeviceB" attribute="dataProvider" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.PAR[0].device_active" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="ddbDeviceA" attribute="selectedValue" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.PAR[1].device_active" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="ddbDeviceB" attribute="selectedValue" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.VIS[0].enable_button_set_2" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="btnDirCreateA" attribute="visible" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.VIS[0].enable_button_set_2" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="btnRefreshA" attribute="visible" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.VIS[1].enable_button_set_2" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="btnRefreshB" attribute="enable" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.ERR.no" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="numErrorNo" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.VIS[1].enable_button_set_2" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="btnDirCreateB" attribute="enable" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:NET.ERR.active" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="btnNETreset" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:NET.PAR.enable_connect" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="btnNETconnect" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:NET.PAR.server_name" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="txtNETserver_name" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:NET.PAR.server_ip" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="txtNETserver_ip" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:NET.PAR.server_port" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="txtNETserver_port" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:NET.PAR.server_domain" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="txtNETserver_domain" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:NET.PAR.server_protocol" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="ddbNETprotocol" attribute="selectedValue" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:NET.PAR.user_name" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="txtNETuser_name" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:NET.PAR.user_password" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="txtNETuser_password" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:NET.ERR.no" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="numNETErrorNo" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:NET.ERR.text" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="txtNETError" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:NET.PAR.is_linked" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="btnNETconnected" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:NET.PAR.state_machine" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="ddbNETstatus" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:NET.PAR.server_share" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="txtNETserver_path" attribute="value" />
+		</Binding>		
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:USB.PAR.refresh_interval" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="numUSBintervall" attribute="value" />
+		</Binding>	
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:USB.PAR.state_machine" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="ddbUSBstatus" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:USB.PAR.is_connected" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="btnUSBconnected" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:USB.PAR.ignore_dongle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="chkUSBdongle" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:USB.ERR.text" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="txtUSBError" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:USB.ERR.no" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="numUSBErrorNo" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:USB.CMD.auto_scan" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="chkUSBenable" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:USB.ERR.active" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="btnUSBreset" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.VIS[1].enable_button_set_1" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="btnViewFileB" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.VIS[0].enable_button_set_1" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="btnViewFileA" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.VIS[0].enable_button_set_2" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="WebUploadA" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.VIS[0].enable_button_set_2" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="btnUploadFileA" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.VIS[0].enable_button_set_1" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="btnDownloadFileA" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.VIS[1].enable_button_set_2" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="WebUploadB" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.VIS[1].enable_button_set_2" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="btnUploadFileB" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.VIS[1].enable_button_set_1" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="btnDownloadFileB" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.VIS[0].download_file_url" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="WebDownloadA" attribute="path" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:EXPL.VIS[1].download_file_url" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageExplorerP2" widgetRefId="WebDownloadB" attribute="path" />
+		</Binding>
+	</Bindings>
+</BindingsSet>

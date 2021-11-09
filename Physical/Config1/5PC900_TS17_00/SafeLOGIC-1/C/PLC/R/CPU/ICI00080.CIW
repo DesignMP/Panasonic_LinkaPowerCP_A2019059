@@ -1,0 +1,17 @@
+(*
+QWS: 00014
+*)
+00001	00002	POE\Main\Main.gb
+00002	00254	POE\Main\ZonaCS.gb
+00003	00080	POE\Main\VyblokovanieSafety.gb
+00004	00112	POE\Main\ZamkyBuniek.gb
+00005	00140	POE\Main\BarieryBuniek.gb
+00006	00079	POE\Main\P1_ZonaVytah.gb
+00007	00052	POE\Main\P1_ZonaBunky.gb
+00008	00079	POE\Main\P4_ZonaBunky.gb
+00009	00087	POE\Main\P2_ZonaZaklTesneniaPojazd.gb
+00010	00087	POE\Main\P2_ZonaZaklTesneniaZdvih.gb
+00011	00039	POE\Main\P2_ZonaMaticovacky.gb
+00012	00052	POE\Main\P2_ZonaBunky.gb
+00013	00062	POE\Main\P3_ZonaBunky.gb
+00014	00079	POE\Main\P4_ZonaVytah.gb

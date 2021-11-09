@@ -1,0 +1,6 @@
+VAR
+	CasResetZonyBunky : TON;
+	CasResetZonyPojazduZaklTesnenia : TON;
+	CasResetZonyZdvihuZaklTesnenia : TON;
+	CasResetZonyMaticovacky : TON;
+END_VAR

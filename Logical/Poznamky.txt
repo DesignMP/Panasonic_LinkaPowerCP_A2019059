@@ -1,0 +1,135 @@
+Prihlasovacie ˙daje na FTP:
+Login - admin
+Heslo - vlmardo
+
+Prihlasovacie ˙daje do Safety:
+Heslo - vlmardo
+
+
+//*********APC Windows*************//
+Heslo - vlmardoDMP
+
+//**********Vzdialen· plocha**********//
+192.168.122.3
+Meno - remote
+Heslo - vlmardo
+
+
+
+
+//***********PrÌstup na FTP SSD disk PLC*******//
+IP 192.168.122.3
+Meno - remote
+Heslo - vlmardo
+
+//************PrÌstup na FTP kameru Ë.1 na disku PLC*********//
+IP 192.168.122.4
+Meno - cam1
+Heslo - .cam1
+
+//************PrÌstup na FTP Panasonic*******************//
+IP 192.168.100.164
+Meno - designMP
+Heslo - Ftp4PAN2020
+
+Pre spojenie je potrebnÈ vypn˙ù wifi
+
+
+**********Pracovisko 1*************
+V˝ùah:
+- Servo zdvihu v˝ùahu - prevod 5mm/ot
+ärobovanie:
+- Servo manipulatora Os X - prevod 10mm/ot
+- Servo manipulatora Os Y - prevod 10mm/ot 
+
+
+
+***********Pracovisko 2*************
+ZakladaË izol·cie:
+- Servo zdvihu - prevod 10mm/ot  Celkov˝ zdvih 100mm
+- Servo pojazdu vozÌka - prevod 132mm/ot
+ärobovanie:
+- Servo manipulatora Os X - prevod 10mm/ot
+- Servo manipulatora Os Y - prevod 10mm/ot 
+Zv·ranie:
+- Servo zdvihu zv·rania - prevod 10mm/ot Celkov˝ zdvih 310mm
+
+
+
+*****************»Ìslovanie kamier*************************
+CAM 1 - Control Unit CAM 4
+CAM 2 - Control Unit CAM 1
+CAM 4 - Control Unit CAM 2
+CAM 6 - Control Unit CAM 3
+CAM 7 - Control Unit CAM 5
+CAM 10 - Control Unit CAM 7
+CAM 11 - Control Unit CAM 9
+CAM 12 - Control Unit CAM 8
+CAM 13 - Control Unit CAM 10
+CAM 15 - Control Unit CAM 11
+CAM 16 - Control Unit CAM 12
+CAM 17 - Control Unit CAM 6 
+
+CAM 9 - Smart kamera CAM9
+IP kamerovÈho systÈmu 192.168.122.128
+Heslo - vision
+
+
+**************************Postup kalibr·cie vysunutia örÛbovaËiek***********************************
+- na pracovisku zacentrujeme paletku
+
+********P1 Skrutkovanie*************
+SkrutkovaËka K30 - diötanc 60mm  v˝chodzia poloha
+                 - opretie o paletku  koncov· poloha
+ 
+SkrutkovaËka M5 - diötanc 60mm v˝chodzia poloha
+                - opretie o paletku koncov· poloha
+                
+SkrutkovaËka M4 - diötanc 60mm v˝chodzia poloha
+                - diötanc 12mm koncov· poloha
+                
+*******P2 MaticovaËka***************
+SkrutkovaËka matice M4 - diötanc 52mm v˝chodzia poloha
+                       - diötanc 12mm koncov· poloha
+                       
+*******P2 Skrutkovanie****************
+SkrutkovaËka M6 - diötanc 72mm v˝chodzia poloha
+                - diötanc 15mm koncov· poloha
+                
+SkrutkovaËka M4 - diötanc 87mm v˝chodzia poloha
+                - diötanc 27mm koncov· poloha
+                
+SkrutkovaËka M5 - diötanc 115 mm v˝chodzia poloha
+                - max vysunutie skrutkovaËky koncov· poloha
+                
+                
+*******P3 Skrutkovanie******************
+SkrutkovaËka K40 - diötanc 52,5mm v˝chodzia poloha
+                 - opretie o paletku  koncov· poloha
+                 
+SkrutkovaËka M5 - diötanc 60mm  v˝chodzia poloha
+                - opretie o paletku  koncov· poloha                                                                                          
+                                                
+ 
+                
+                
+*****************************************************KalibraËnÈ hodnoty skrutkovaËiek***********************************************************
+/Model 5H/
+
+Srutkovanie 1:
+Lav· K30 - 44.6 aû 44.9 
+Prav· K30 - 44.5 aû 44.8
+Lav· M5 - 31.3 aû 31.7
+Prav· M5 - 31.0 aû 31.5
+Stredn· M5 - 31.4 aû 31.8
+
+Skrutkovanie matice:
+Vysunutie skrutkovaËky - 37.5 aû 37.8
+
+Skrutkovanie 2:
+Lav· M5 - 40.7 aû 41.1
+Prav· M5 - 40.7 aû 41.0
+Stredn· M4 - 15.8 aû 16.3
+
+Skrutkovanie 3:
+Stredn· M5 - 42.0 aû 42.3                                

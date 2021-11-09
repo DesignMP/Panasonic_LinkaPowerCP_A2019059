@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="AreaPageSetupP34_page1" height="588" width="1366" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Image" id="Image1" top="0" left="0" width="1366" height="588" zIndex="0" image="Media/Pozadie/BackGround_588x1366.png" opacity="0.2" />
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="20" left="483" width="400" height="35" zIndex="1" text="Ovládanie kontrol pracovísk" borderWidth="5px" cornerRadius="5px" borderColor="rgba(153, 153, 153, 1)" borderStyle="ridge" textColor="rgba(0, 0, 0, 1)" textAlign="center" fontSize="20px" shadow="4px 4px 14px rgba(0, 0, 0, 1)" style="FavoriteWatch" />
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox5" top="68" left="10" width="250" height="495" zIndex="2" text="Skrutkovanie" backColor="rgba(253, 245, 230, 1)" textColor="rgba(0, 0, 0, 1)" shadow="4px 4px 14px rgba(0, 0, 0, 1)">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.ToggleSwitch" id="ToggleSwitch_Skrutkovanie_KameraOFF" top="11" left="24" width="200" height="45" zIndex="0" mouseDownText="Kamerová kontrola\nVYPNUTÁ" multiLine="true" text="Kamerová kontrola\nZAPNUTÁ" textColor="rgba(0, 0, 0, 1)" fontSize="16px" shadow="4px 4px 14px rgba(0, 0, 0, 1)" />
+        <Widget xsi:type="widgets.brease.ToggleSwitch" id="ToggleSwitch_Skrutkovanie_K40_VysledkyOFF" top="75" left="24" width="200" height="45" zIndex="1" mouseDownText="Skrutkovačka K40\nvýsledky OFF" multiLine="true" text="Skrutkovačka K40\nvýsledky ON" textColor="rgba(0, 0, 0, 1)" fontSize="16px" shadow="4px 4px 14px rgba(0, 0, 0, 1)" />
+        <Widget xsi:type="widgets.brease.ToggleSwitch" id="ToggleSwitch_Skrutkovanie_M5_VysledkyOFF" top="141" left="24" width="200" height="45" zIndex="2" mouseDownText="Skrutkovačka M5\nvýsledky OFF" multiLine="true" text="Skrutkovačka M5\nvýsledky ON" textColor="rgba(0, 0, 0, 1)" fontSize="16px" shadow="4px 4px 14px rgba(0, 0, 0, 1)" />
+        <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput_PoziciaVysunutiaMaticovacky2" top="255" left="117" width="118" zIndex="3" unitAlign="right" borderWidth="4px" borderStyle="ridge" textColor="rgba(0, 0, 0, 1)" textAlign="center" fontSize="16px" style="Output" />
+        <Widget xsi:type="widgets.brease.Label" id="Label2" top="259" left="5" width="103" height="21" zIndex="4" text="Init Testera:" textColor="rgba(0, 0, 0, 1)" />
+        <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput_PoziciaVysunutiaMaticovacky3" top="289" left="117" width="118" zIndex="5" unitAlign="right" borderWidth="4px" borderStyle="ridge" textColor="rgba(0, 0, 0, 1)" textAlign="center" fontSize="16px" style="Output" />
+        <Widget xsi:type="widgets.brease.Label" id="Label3" top="293" left="5" width="103" height="21" zIndex="6" text="Send QR kód:" textColor="rgba(0, 0, 0, 1)" />
+        <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput_PoziciaVysunutiaMaticovacky4" top="323" left="117" width="118" zIndex="7" unitAlign="right" borderWidth="4px" borderStyle="ridge" textColor="rgba(0, 0, 0, 1)" textAlign="center" fontSize="16px" style="Output" />
+        <Widget xsi:type="widgets.brease.Label" id="Label4" top="327" left="5" width="103" height="21" zIndex="8" text="Celkový čas:" textColor="rgba(0, 0, 0, 1)" />
+        <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput_PoziciaVysunutiaMaticovacky7" top="359" left="117" width="118" zIndex="9" unitAlign="right" borderWidth="4px" borderStyle="ridge" textColor="rgba(0, 0, 0, 1)" textAlign="center" fontSize="16px" style="Output" />
+        <Widget xsi:type="widgets.brease.Label" id="Label7" top="358" left="5" width="103" height="32" zIndex="10" multiLine="true" text="Čas podania\nskrutky:" textColor="rgba(0, 0, 0, 1)" fontSize="12px" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox7" top="68" left="828" width="250" height="495" zIndex="3" text="Etiketovanie" backColor="rgba(253, 245, 230, 1)" textColor="rgba(0, 0, 0, 1)" shadow="4px 4px 14px rgba(0, 0, 0, 1)">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.ToggleSwitch" id="ToggleSwitch_Etiketovacka_KameraOFF" top="11" left="24" width="200" height="45" zIndex="0" mouseDownText="Kamerová kontrola\nVYPNUTÁ" multiLine="true" text="Kamerová kontrola\nZAPNUTÁ" textColor="rgba(0, 0, 0, 1)" fontSize="16px" shadow="4px 4px 14px rgba(0, 0, 0, 1)" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox8" top="68" left="1100" width="250" height="495" zIndex="4" text="Výťah" backColor="rgba(253, 245, 230, 1)" textColor="rgba(0, 0, 0, 1)" shadow="4px 4px 14px rgba(0, 0, 0, 1)">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.ToggleSwitch" id="ToggleSwitch_Vytah_KameraOFF" top="11" left="24" width="200" height="45" zIndex="0" mouseDownText="Kamerová kontrola\nVYPNUTÁ" multiLine="true" text="Kamerová kontrola\nZAPNUTÁ" textColor="rgba(0, 0, 0, 1)" fontSize="16px" shadow="4px 4px 14px rgba(0, 0, 0, 1)" />
+      </Widgets>
+    </Widget>
+  </Widgets>
+</Content>

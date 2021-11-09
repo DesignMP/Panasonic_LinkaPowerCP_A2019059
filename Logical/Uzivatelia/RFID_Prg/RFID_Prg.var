@@ -1,0 +1,89 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Program: RFID_Prg
+ * File: RFID_Prg.var
+ * Author: borsm
+ * Created: December 23, 2015
+ ********************************************************************
+ * Local variables of program RFID_Prg
+ ********************************************************************)
+VAR
+	TP_Read_4 : TP_Read;
+	TP_Read_1 : TP_Read;
+	TP_Read_2 : TP_Read;
+	TP_Read_3 : TP_Read;
+	DeviceID1 : UDINT;
+	DeviceID2 : UDINT;
+	DeviceID3 : UDINT;
+	DeviceID4 : UDINT;
+	READDATA_Citacka1 : ARRAY[0..19] OF USINT;
+	READDATA_Citacka2 : ARRAY[0..19] OF USINT;
+	READDATA_Citacka3 : ARRAY[0..19] OF USINT;
+	READDATA_Citacka4 : ARRAY[0..19] OF USINT;
+	TP_Write_0 : TP_Write;
+	WRITEDATA : STRING[8];
+	ReadDone_Panel1 : BOOL;
+	ReadDone_Panel2 : BOOL;
+	ReadDone_Panel3 : BOOL;
+	ReadError_Panel1 : BOOL;
+	ReadError_Panel2 : BOOL;
+	ReadError_Panel3 : BOOL;
+	ReadErrorID_Panel1 : UDINT;
+	ReadErrorID_Panel2 : UDINT;
+	ReadErrorID_Panel3 : UDINT;
+	doRead : BOOL;
+	doWrite : BOOL;
+	WriteDone : BOOL;
+	WriteError : BOOL;
+	WriteErrorID : UDINT;
+	TP_Init_0 : TP_Init;
+	TP_OnOff_0 : TP_OnOff;
+	TP_Crc_0 : TP_Crc;
+	TP_Lock_0 : TP_Lock;
+	TP_Info_0 : TP_Info;
+	TP_PWProtect_0 : TP_PWProtect;
+	TP_Unlock_0 : TP_Unlock;
+	doPassword : BOOL;
+	PasswordErrorID : UDINT;
+	PasswordError : BOOL;
+	PasswordDone : BOOL;
+	passwordin : STRING[8];
+	doUnlock : BOOL;
+	UnlockErrorID : UDINT;
+	UnlockError : BOOL;
+	UnlockDone : BOOL;
+	password : STRING[8];
+	doLock : BOOL;
+	LockErrorID : UDINT;
+	LockError : BOOL;
+	LockDone : BOOL;
+	doCrc : BOOL;
+	CrcErrorID : UDINT;
+	CrcError : BOOL;
+	CrcDone : BOOL;
+	doInfo : BOOL;
+	InfoErrorID : UDINT;
+	InfoError : BOOL;
+	InfoDone : BOOL;
+	sl : ARRAY[0..1] OF USINT;
+	KEYTYPE : ARRAY[0..3] OF USINT;
+	Type : ARRAY[0..30] OF USINT;
+	ID : ARRAY[0..9] OF USINT;
+	doOnOff : BOOL;
+	OnOffDone : BOOL;
+	OnOffErrorID : UDINT;
+	OnOffError : BOOL;
+	InitDone : BOOL;
+	InitErrorID : UDINT;
+	InitError : BOOL;
+	poc : USINT;
+	step : INT;
+	doinit : BOOL;
+	CasResetovaniaCitaciekRFID : TON;
+	PoruchaVyhladaniaCitaciek : BOOL;
+	TEST : BOOL;
+	a : USINT;
+	b : USINT;
+	c : USINT;
+END_VAR

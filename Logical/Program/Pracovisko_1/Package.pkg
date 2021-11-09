@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.5.60 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Program" Language="IEC">P1_Main</Object>
+    <Object Type="Program" Language="IEC">P1_Dopravniky</Object>
+    <Object Type="Program" Language="IEC">P1_SpodnyStoper</Object>
+    <Object Type="Program" Language="IEC">P1_StoperSrobovania</Object>
+    <Object Type="Program" Language="IEC">P1_Srobovanie</Object>
+    <Object Type="Program" Language="IEC">P1_SkrutkovaciSet_K30</Object>
+    <Object Type="Program" Language="IEC">P1_SkrutkovaciSet_M5</Object>
+    <Object Type="Program" Language="IEC">P1_SkrutkovaciSet_M4</Object>
+    <Object Type="Program" Language="IEC">P1_AkumulacnyStoper</Object>
+    <Object Type="Program" Language="IEC">P1_Robot</Object>
+    <Object Type="Program" Language="IEC">P1_OvladanieVizu</Object>
+    <Object Type="Program" Language="IEC">P1_OvladanieSafety</Object>
+    <Object Type="Program" Language="IEC">P1_Vytah</Object>
+  </Objects>
+</Package>

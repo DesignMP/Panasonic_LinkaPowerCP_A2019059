@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.5.60 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Program" Language="IEC">P2_Main</Object>
+    <Object Type="Program" Language="IEC">P2_Dopravniky</Object>
+    <Object Type="Program" Language="IEC">P2_StoperZaklTesnenia</Object>
+    <Object Type="Program" Language="IEC">P2_ZakladacTesnenia</Object>
+    <Object Type="Program" Language="IEC">P2_StoperMaticovacky</Object>
+    <Object Type="Program" Language="IEC">P2_SkrutkovaciSet_MaticaM4</Object>
+    <Object Type="Program" Language="IEC">P2_StoperSrobovania</Object>
+    <Object Type="Program" Language="IEC">P2_Srobovanie</Object>
+    <Object Type="Program" Language="IEC">P2_SkrutkovaciSet_M4</Object>
+    <Object Type="Program" Language="IEC">P2_SkrutkovaciSet_M5</Object>
+    <Object Type="Program" Language="IEC">P2_SkrutkovaciSet_M6</Object>
+    <Object Type="Program" Language="IEC">P2_Robot</Object>
+    <Object Type="Program" Language="IEC">P2_StoperZvarania</Object>
+    <Object Type="Program" Language="IEC">P2_Zvaranie</Object>
+    <Object Type="Program" Language="IEC">P2_Cistenie</Object>
+    <Object Type="Program" Language="IEC">P2_OvladanieVizu</Object>
+    <Object Type="Program" Language="IEC">P2_OvladanieSafety</Object>
+  </Objects>
+</Package>

@@ -1,0 +1,3 @@
+VAR
+	MpAuditTrail_0 : MpAuditTrail;
+END_VAR

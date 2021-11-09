@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.5.60 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Program" Language="IEC">FTP_CAM1</Object>
+    <Object Type="Program" Language="IEC">FTP_CAM2</Object>
+    <Object Type="Program" Language="IEC">FTP_CAM3</Object>
+    <Object Type="Program" Language="IEC">FTP_CAM4</Object>
+    <Object Type="Program" Language="IEC">FTP_CAM5</Object>
+    <Object Type="Program" Language="IEC">FTP_CAM6</Object>
+    <Object Type="Program" Language="IEC">FTP_CAM7</Object>
+    <Object Type="Program" Language="IEC">FTP_CAM8</Object>
+    <Object Type="Program" Language="IEC">FTP_CAM9</Object>
+    <Object Type="Program" Language="IEC">FTP_CAM10</Object>
+    <Object Type="Program" Language="IEC">FTP_CAM11</Object>
+    <Object Type="Program" Language="IEC">FTP_CAM12</Object>
+    <Object Type="Program" Language="IEC">FTP_CAM13</Object>
+    <Object Type="Program" Language="IEC">FTP_CAM14</Object>
+    <Object Type="Program" Language="IEC">FTP_CAM15</Object>
+    <Object Type="Program" Language="IEC">FTP_CAM16</Object>
+    <Object Type="Program" Language="IEC">FTP_CAM17</Object>
+    <Object Type="Program" Language="IEC">FTP_DMP_CAM1</Object>
+    <Object Type="Program" Language="IEC">FTP_DMP_CAM2</Object>
+    <Object Type="Program" Language="IEC">FTP_DMP_CAM3</Object>
+    <Object Type="Program" Language="IEC">FTP_DMP_CAM4</Object>
+    <Object Type="Program" Language="IEC">FTP_DMP_CAM5</Object>
+    <Object Type="Program" Language="IEC">FTP_DMP_CAM6</Object>
+    <Object Type="Program" Language="IEC">FTP_DMP_CAM7</Object>
+    <Object Type="Program" Language="IEC">FTP_DMP_CAM8</Object>
+    <Object Type="Program" Language="IEC">FTP_DMP_CAM9</Object>
+    <Object Type="Program" Language="IEC">FTP_DMP_CAM10</Object>
+    <Object Type="Program" Language="IEC">FTP_DMP_CAM11</Object>
+    <Object Type="Program" Language="IEC">FTP_DMP_CAM12</Object>
+    <Object Type="Program" Language="IEC">FTP_DMP_CAM13</Object>
+    <Object Type="Program" Language="IEC">FTP_DMP_CAM14</Object>
+    <Object Type="Program" Language="IEC">FTP_DMP_CAM15</Object>
+    <Object Type="Program" Language="IEC">FTP_DMP_CAM16</Object>
+    <Object Type="Program" Language="IEC">FTP_DMP_CAM17</Object>
+  </Objects>
+</Package>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/WarningsP3</prop>
+  </header>
+  <body>
+    <tu tuid="0">
+      <tuv xml:lang="sk">
+        <seg>Pracovisko je vypnuté.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="1">
+      <tuv xml:lang="sk">
+        <seg>Prebieha inicializácia pracoviska.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Example informational user message. For customer events bit 3 must be always set in the event id</seg>
+      </tuv>
+    </tu>
+    <tu tuid="2">
+      <tuv xml:lang="sk">
+        <seg>Na pracovisku prebieha výroba.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="3">
+      <tuv xml:lang="sk">
+        <seg>Prebieha ukončenie pracovného cyklu pracoviska.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="4">
+      <tuv xml:lang="sk">
+        <seg>Prebieha režim vyprázdnenia linky.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="5">
+      <tuv xml:lang="sk">
+        <seg>Doplň zásobník skrutiek K40 !!!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="6">
+      <tuv xml:lang="sk">
+        <seg>Doplň zásobník skrutiek M5 !!!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="7">
+      <tuv xml:lang="sk">
+        <seg>Niesu založené správne kontakty na HV teste !!!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="8">
+      <tuv xml:lang="sk">
+        <seg>Niesu založené správne kontakty na Leakage teste stanica A !!!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="9">
+      <tuv xml:lang="sk">
+        <seg>Niesu založené správne kontakty na Leakage teste stanica B !!!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="10">
+      <tuv xml:lang="sk">
+        <seg>Na linke nie je zvolený model !!!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="11">
+      <tuv xml:lang="sk">
+        <seg>Prebieha testovací režim linky.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

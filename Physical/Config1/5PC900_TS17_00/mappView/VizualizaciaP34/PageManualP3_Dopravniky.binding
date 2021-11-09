@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="PageManualP3_Dopravniky_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bindings>
+		
+
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Dopravniky.OUT.HornyDoprav_ChodVPRED_M33" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP3_Dopravniky" widgetRefId="ToggleSwitch_HornyDopravnik" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_Dopravniky.OUT.SpodnyDoprav_ChodVPRED_M34" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP3_Dopravniky" widgetRefId="ToggleSwitch_SpodnyDopravnik" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_VstupnyStoper.OUT.ZasunStoper_YV193" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP3_Dopravniky" widgetRefId="ToggleSwitch_VstupnyStoper" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_VstupnyStoper.IN.PritomnPaletky_IS85" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP3_Dopravniky" widgetRefId="ImageList19" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_AkumulacnyStoper.IN.PritomnPaletky_IS65" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP3_Dopravniky" widgetRefId="ImageList20" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_AkumulacnyStoper.OUT.ZasunStoper_YV133" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP3_Dopravniky" widgetRefId="ToggleSwitch_AkumulacnyStoper" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_SpodnyStoper.IN.PritomnPaletky_IS66" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP3_Dopravniky" widgetRefId="ImageList21" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_SpodnyStoper.OUT.ZasunStoper_YV136" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP3_Dopravniky" widgetRefId="ToggleSwitch_VstupnyStoper1" attribute="value" />
+</Binding>
+</Bindings>
+</BindingsSet>

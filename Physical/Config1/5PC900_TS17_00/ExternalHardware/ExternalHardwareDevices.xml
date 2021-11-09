@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExternalHardware>
+  <Modules>
+    <Module ModuleID="FBD.Hilscher.PNIOGenDevDTM2.ENERGY V1.4" Version="1.4" OrderNumber="ENERGY V1.4">
+      <SourceFile OriginalFile="GSDML-V2.33-ABB-Robotics-Robot-Device-20180814.xml" TranslationFile="XUWE4CJ8.ext" />
+    </Module>
+    <Module ModuleID="FBD.IOLink.GenericDeviceDTM.DTMCore.BNI IOL-309-000-K024 IODD1.0.1" Version="1.2" OrderNumber="BNI IOL-309-000-K024 IODD1.0.1">
+      <SourceFile OriginalFile="Balluff-BNI_IOL-309-000-K024-20130308-IODD1.0.1.xml" TranslationFile="AI9JE67U.ext" />
+      <SourceFile OriginalFile="Balluff-logo.png" TranslationFile="UWSS0BZ3.ext" />
+      <SourceFile OriginalFile="Balluff-BNI004K-pic.png" TranslationFile="NIR29AUL.ext" />
+      <SourceFile OriginalFile="Balluff-BNI004K-icon.png" TranslationFile="8LQ4F7TQ.ext" />
+    </Module>
+    <Module ModuleID="FBD.IOLink.GenericDeviceDTM.DTMCore.K50 Pro Device IODD1.1" Version="1.3" OrderNumber="K50 Pro Device IODD1.1">
+      <SourceFile OriginalFile="Banner_Engineering-K50P-20191101-IODD1.1.xml" TranslationFile="EAR3XSFD.ext" />
+      <SourceFile OriginalFile="Banner_Engineering-logo.png" TranslationFile="2NVVIPD4.ext" />
+      <SourceFile OriginalFile="Banner_Engineering-K50PTCKQ-pic.png" TranslationFile="8JUADMXA.ext" />
+      <SourceFile OriginalFile="Banner_Engineering-K50PTCKQ-icon.png" TranslationFile="XYL2PCOW.ext" />
+      <SourceFile OriginalFile="Banner_Engineering-K50PTKQ-pic.png" TranslationFile="DCOZT5F5.ext" />
+      <SourceFile OriginalFile="Banner_Engineering-K50PTKQ-icon.png" TranslationFile="CN9WO9CS.ext" />
+      <SourceFile OriginalFile="Banner_Engineering-K50PTCKQP-pic.png" TranslationFile="HW56MTM2.ext" />
+      <SourceFile OriginalFile="Banner_Engineering-K50PTCKQP-icon.png" TranslationFile="NRG8GMXZ.ext" />
+      <SourceFile OriginalFile="Banner_Engineering-K50PTKQP-pic.png" TranslationFile="88RGBNKC.ext" />
+      <SourceFile OriginalFile="Banner_Engineering-K50PTKQP-icon.png" TranslationFile="EZ7ZMAVX.ext" />
+      <SourceFile OriginalFile="Banner_Engineering-K50PFF50KQ-pic.png" TranslationFile="W2U2GSKT.ext" />
+      <SourceFile OriginalFile="Banner_Engineering-K50PFF50KQ-icon.png" TranslationFile="ZVMCZGY0.ext" />
+      <SourceFile OriginalFile="Banner_Engineering-K50PFF100KQP-pic.png" TranslationFile="ZJYQR6R4.ext" />
+      <SourceFile OriginalFile="Banner_Engineering-K50PFF100KQP-icon.png" TranslationFile="M31XWWPN.ext" />
+      <SourceFile OriginalFile="Banner_Engineering-K50PPBKQ-pic.png" TranslationFile="6SMO15SP.ext" />
+      <SourceFile OriginalFile="Banner_Engineering-K50PPBKQ-icon.png" TranslationFile="Y8QPBHM7.ext" />
+    </Module>
+    <Module ModuleID="FBD.IOLink.GenericDeviceDTM.DTMCore.Magnetic Cylinder Sensors IODD1.1" Version="1.3" OrderNumber="Magnetic Cylinder Sensors IODD1.1">
+      <SourceFile OriginalFile="SICK-MPS-20130902-IODD1.1.xml" TranslationFile="BG9CLEFZ.ext" />
+      <SourceFile OriginalFile="SICK-logo.png" TranslationFile="K0PN0W7C.ext" />
+      <SourceFile OriginalFile="SICK-MPS32-pic.png" TranslationFile="G9FG4J94.ext" />
+      <SourceFile OriginalFile="SICK-MPS32-icon.png" TranslationFile="0I1TPC2E.ext" />
+      <SourceFile OriginalFile="SICK-MPS-pic.png" TranslationFile="R4WPWMB1.ext" />
+      <SourceFile OriginalFile="SICK-MPS-icon.png" TranslationFile="MWDAPFZB.ext" />
+    </Module>
+    <Module ModuleID="FBD.IOLink.GenericDeviceDTM.DTMCore.MMS xx-IOL-Mxx IODD1.1" Version="1.0" OrderNumber="MMS xx-IOL-Mxx IODD1.1">
+      <SourceFile OriginalFile="SCHUNK-MMS-IOL-xxx-20181004-IODD1.1.xml" TranslationFile="T0SC30CL.ext" />
+      <SourceFile OriginalFile="SCHUNK-logo.png" TranslationFile="14IRA7O0.ext" />
+      <SourceFile OriginalFile="SCHUNK-MMS_IOL_P1-pic.png" TranslationFile="M5BFJ3AT.ext" />
+      <SourceFile OriginalFile="SCHUNK-MMS_IOL_P1-icon.png" TranslationFile="7PEXL6VI.ext" />
+      <SourceFile OriginalFile="SCHUNK-MMS_IOL_P2-pic.png" TranslationFile="10UWDHPI.ext" />
+      <SourceFile OriginalFile="SCHUNK-MMS_IOL_P2-icon.png" TranslationFile="HUEFI83A.ext" />
+      <SourceFile OriginalFile="SCHUNK-MMS_IOL-M08-xxx-con-pic.png" TranslationFile="9D4K7JLZ.ext" />
+      <SourceFile OriginalFile="SCHUNK-MMS_IOL-M12-xxx-con-pic.png" TranslationFile="Z9EOVO94.ext" />
+    </Module>
+    <Module ModuleID="FBE.FFFF0007_EX260-SPL1" Version="1.0" OrderNumber="EX260-SPL1">
+      <SourceFile OriginalFile="FFFF0007_EX260-SPL1.xdd" TranslationFile="JA0JN2WF.ext" />
+    </Module>
+    <Module ModuleID="FBD.IOLink.GenericDeviceDTM.DTMCore.BIS M-404-045-401-07-S4 IODD1.0.1" Version="4.0" OrderNumber="BIS M-404-045-401-07-S4 IODD1.0.1">
+      <SourceFile OriginalFile="Balluff-BISM40404540107S4-20190218-IODD1.0.1.xml" TranslationFile="1GAFE7RU.ext" />
+      <SourceFile OriginalFile="Balluff-logo.png" TranslationFile="XA0MTK78.ext" />
+      <SourceFile OriginalFile="Balluff-BISM404-045-401-pic.png" TranslationFile="F5WVF0H5.ext" />
+      <SourceFile OriginalFile="Balluff-BISM404-045-401-icon.png" TranslationFile="28OA45WC.ext" />
+    </Module>
+    <Module ModuleID="FBD.Hilscher.PNIOGenDevDTM2.RT" Version="0.0.0.0" OrderNumber="RT">
+      <SourceFile OriginalFile="GSDML-V2.3-PowerFocus6000-PRT-20141024.xml" TranslationFile="K3Q1ZARI.ext" />
+    </Module>
+    <Module ModuleID="FBD.IOLink.GenericDeviceDTM.DTMCore.BSP00PU IODD1.1" Version="1.1" OrderNumber="BSP00PU IODD1.1">
+      <SourceFile OriginalFile="BALLUFF-BSP00PU-20150729-IODD1.1.xml" TranslationFile="3JH40B8F.ext" />
+      <SourceFile OriginalFile="BALLUFF-logo.png" TranslationFile="GK9VH118.ext" />
+      <SourceFile OriginalFile="BALLUFF-BSP-C-pic.png" TranslationFile="V7TZ6JK8.ext" />
+      <SourceFile OriginalFile="BALLUFF-BSP-C-icon.png" TranslationFile="9LKO69G4.ext" />
+    </Module>
+    <Module ModuleID="FBD.Hilscher.PNIOGenDevDTM2.COMX 100XX-RE$002FPNS V3.4.19 - V3.4.x" Version="3.4.19" OrderNumber="COMX 100XX-RE/PNS V3.4.19 - V3.4.x">
+      <SourceFile OriginalFile="GSDML-V2.3-HILSCHER-COMX 100XX-RE PNS-20130806.xml" TranslationFile="H9UYJOFY.ext" />
+    </Module>
+    <Module ModuleID="FBD.Hilscher.PNIOGenDevDTM2.Control Unit V2.2" Version="3.14.0" OrderNumber="Control Unit V2.2">
+      <SourceFile OriginalFile="GSDML-V2.35-WENGLOR-WENGLOR IDENT-20200422.xml" TranslationFile="NZ2R6SRK.ext" />
+    </Module>
+    <Module ModuleID="FBD.Hilscher.PNIOGenDevDTM2.weQube V1.4" Version="1.1.4" OrderNumber="weQube V1.4">
+      <SourceFile OriginalFile="GSDML-V2.3-wenglor-wenglor ident-20161007-112500.xml" TranslationFile="YJ7WDSF9.ext" />
+    </Module>
+  </Modules>
+</ExternalHardware>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.5.60 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">Vizu34.vis</Object>
+    <Object Type="File">HlavickaP34.binding</Object>
+    <Object Type="File">HlavickaP34.eventbinding</Object>
+    <Object Type="File">TimeP34.binding</Object>
+    <Object Type="File">TimeP34.eventbinding</Object>
+    <Object Type="File">VizuP34.binding</Object>
+    <Object Type="File">VizuP34.eventbinding</Object>
+    <Object Type="File">PagesAutomatP34.eventbinding</Object>
+    <Object Type="File">PagesAutomatP34.binding</Object>
+    <Object Type="File">PopUpWindowsP34.eventbinding</Object>
+    <Object Type="File">AlarmP34.binding</Object>
+    <Object Type="File">AlarmP34.eventbinding</Object>
+    <Object Type="File">SetupP34.binding</Object>
+    <Object Type="File">SetupP34.eventbinding</Object>
+    <Object Type="File">ParametreP34.binding</Object>
+    <Object Type="File">ParametreP34.eventbinding</Object>
+    <Object Type="File">PageManualP3_Dopravniky.binding</Object>
+    <Object Type="File">PageManualP3_Dopravniky.eventbinding</Object>
+    <Object Type="File">PageManualP3_Skrutkovanie.binding</Object>
+    <Object Type="File">PageManualP3_Skrutkovanie.eventbinding</Object>
+    <Object Type="File">PageManualP3_LeakageTestA.binding</Object>
+    <Object Type="File">PageManualP3_LeakageTestA.eventbinding</Object>
+    <Object Type="File">PageManualP3_LeakageTestB.binding</Object>
+    <Object Type="File">PageManualP3_LeakageTestB.eventbinding</Object>
+    <Object Type="File">PageManualP4_Vytah.binding</Object>
+    <Object Type="File">PageManualP4_Vytah.eventbinding</Object>
+    <Object Type="File">PageManualP4_Dopravniky.binding</Object>
+    <Object Type="File">PageManualP4_Dopravniky.eventbinding</Object>
+    <Object Type="File">PageManualP4_Etiketovanie.binding</Object>
+    <Object Type="File">PageManualP4_Etiketovanie.eventbinding</Object>
+    <Object Type="File">PageManualP4_FunkcnyTestA.binding</Object>
+    <Object Type="File">PageManualP4_FunkcnyTestA.eventbinding</Object>
+    <Object Type="File">PageManualP4_FunkcnyTestB.binding</Object>
+    <Object Type="File">PageManualP4_FunkcnyTestB.eventbinding</Object>
+    <Object Type="File">UsersP34.binding</Object>
+    <Object Type="File">UsersP34.eventbinding</Object>
+    <Object Type="File">PageStavyStanicP3.binding</Object>
+    <Object Type="File">PageStavyStanicP4.binding</Object>
+  </Objects>
+</Package>

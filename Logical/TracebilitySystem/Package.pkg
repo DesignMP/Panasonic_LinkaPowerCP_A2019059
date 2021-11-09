@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.4.67 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Program" Language="IEC">P1_Vytah_ST1</Object>
+    <Object Type="Program" Language="IEC">P1_Srobovanie_ST2</Object>
+    <Object Type="Program" Language="IEC">P2_ZakladacTesnenia_ST3</Object>
+    <Object Type="Program" Language="IEC">P2_Maticovacka_ST4</Object>
+    <Object Type="Program" Language="IEC">P2_Srobovanie_ST5</Object>
+    <Object Type="Program" Language="IEC">P2_Zvaranie_ST6</Object>
+    <Object Type="Program" Language="IEC">P3_Srobovanie_ST7</Object>
+    <Object Type="Program" Language="IEC">P3_LeakageTestA_ST8A</Object>
+    <Object Type="Program" Language="IEC">P3_LeakageTestB_ST8B</Object>
+    <Object Type="Program" Language="IEC">P4_Etiketovacka_ST9</Object>
+    <Object Type="Program" Language="IEC">P4_Vytah_ST10</Object>
+  </Objects>
+</Package>

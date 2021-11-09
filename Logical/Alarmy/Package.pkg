@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.5.60 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Global data types">AlarmyGlobal.typ</Object>
+    <Object Type="File" Description="Global variables">AlarmyGlobal.var</Object>
+    <Object Type="Program" Language="IEC">P1_Alarmy</Object>
+    <Object Type="Program" Language="IEC">P2_Alarmy</Object>
+    <Object Type="Program" Language="IEC">P34_Alarmy</Object>
+  </Objects>
+</Package>

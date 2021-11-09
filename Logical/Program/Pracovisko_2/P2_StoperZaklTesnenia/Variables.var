@@ -1,0 +1,15 @@
+VAR
+	PrecitanyQRkodPowerCP : STRING[80];
+	PrecitanyQRkodFiltra5H : STRING[80];
+	PrecitaneCisloPaletky : STRING[3];
+	ServerOdpoved_StavPowerCP : STRING[5];
+	i : USINT;
+	TEST : BOOL;
+	PocetDopytovNaServer : USINT;
+	PrebiehaVyvezeniePaletky : BOOL;
+	OpatovnaKontrolaFiltra_5H : BOOL;
+	TestovaciKus : BOOL;
+	Revork : BOOL;
+	CisloFotky : USINT;
+	PocetTrigrovKamery : USINT;
+END_VAR

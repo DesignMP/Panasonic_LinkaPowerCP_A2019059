@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.6.114 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">AB2_1_Profinet.dtm</Object>
+    <Object Type="Package">AB2_1_Profinet_IF1</Object>
+    <Object Type="Package">R1_IRB120</Object>
+    <Object Type="Package">R2_IRB1200</Object>
+    <Object Type="Package">RJ5_P1_Srobovacka_K30</Object>
+    <Object Type="Package">RJ6_P1_Srobovacka_M5</Object>
+    <Object Type="Package">RJ7_P1_Srobovacka_M4</Object>
+    <Object Type="Package">RJ2_P2_Srobovacka_M6</Object>
+    <Object Type="Package">RJ4_P2_Srobovacka_M5</Object>
+    <Object Type="Package">RJ3_P2_Srobovacka_M4</Object>
+    <Object Type="Package">RJ1_P2_SrobovackaMatic_M4</Object>
+    <Object Type="Package">P3_Srobovacka_K40</Object>
+    <Object Type="Package">P3_Srobovacka_M5</Object>
+    <Object Type="Package">LeakageTester_A</Object>
+    <Object Type="Package">LeakageTester_B</Object>
+  </Objects>
+</Package>

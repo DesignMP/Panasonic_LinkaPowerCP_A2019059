@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.5.60 SP?>
+<Library Version="1.00.8" SubType="ANSIC" Description="Panasonic TCP Client Traceabilita" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File Description="Exported data types">Types.typ</File>
+    <File Description="Exported constants">Constants.var</File>
+    <File Description="Exported functions and function blocks">SKTcp.fun</File>
+    <File Description="SKTcpClientTester">SKTcpClientTester.c</File>
+    <File Description="SKTcpClientTrace">SKTcpClientTrace.c</File>
+    <File Description="SKTcpClientSplitter">SKTcpClientSplitter.c</File>
+    <File Description="SKTcpClientXor">SKTcpClientXor.c</File>
+    <File Description="SKTcpClientNod">SKTcpClientNod.c</File>
+    <File Description="SKTcpClientEdge">SKTcpClientEdge.c</File>
+    <File Description="SKTcpClientNewCsvEntry">SKTcpClientNewCsvEntry.c</File>
+    <File Description="SKTcpClientNewLoggerEntry">SKTcpClientNewLoggerEntry.c</File>
+    <File Description="SKTcpClientFTP">SKTcpClientFTP.c</File>
+    <File Description="SKTcpClientSC">SKTcpClientSC.c</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="AsBrStr" />
+    <Dependency ObjectName="AsTCP" />
+    <Dependency ObjectName="sys_lib" />
+    <Dependency ObjectName="standard" />
+    <Dependency ObjectName="IecCheck" />
+    <Dependency ObjectName="FileIO" />
+  </Dependencies>
+</Library>

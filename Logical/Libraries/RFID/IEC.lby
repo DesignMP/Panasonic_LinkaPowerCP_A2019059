@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.5.60 SP?>
+<Library Version="3.10.0" SubType="IEC" Description="A new source library" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File Description="Exported data types">RFID.typ</File>
+    <File Description="Exported constants">RFID.var</File>
+    <File Description="Exported functions and function blocks">RFID.fun</File>
+    <File>TP_Init.st</File>
+    <File>TP_Info.st</File>
+    <File>TP_Unlock.st</File>
+    <File>TP_Lock.st</File>
+    <File>TP_PWProtect.st</File>
+    <File>TP_OnOff.st</File>
+    <File>TP_Crc.st</File>
+    <File>TP_Write.st</File>
+    <File>TP_Read.st</File>
+  </Files>
+</Library>

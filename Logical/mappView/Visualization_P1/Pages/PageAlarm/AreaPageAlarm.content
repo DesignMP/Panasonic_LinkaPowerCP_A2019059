@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="AreaPageAlarmP1" height="588" width="1366" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Image" id="Image1" top="0" left="0" width="1366" height="588" zIndex="0" image="Media/Pozadie/BackGround_588x1366.png" opacity="0.2" />
+    <Widget xsi:type="widgets.brease.TabControl" id="TabControl1" top="16" left="11" width="1340" height="560" zIndex="1" headerBackColor="rgba(255, 255, 255, 0)" backColor="rgba(192, 192, 192, 1)" borderStyle="solid" borderWidth="1px" borderColor="rgba(0, 0, 0, 1)">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.TabItem" id="TabItem1" left="0" width="670" height="40" zIndex="0" text="Aktuálne alarmy" cornerRadius="8px 8px 0px 0px" borderColor="rgba(0, 0, 0, 1)" activeBorderStyle="solid" activeCornerRadius="0px 0px 0px 0px" activeBorderColor="rgba(0, 0, 0, 1)" fontSize="20px">
+          <Widgets>
+            <Widget xsi:type="widgets.brease.AlarmList" id="AlarmList1" top="7" left="8" width="1320" height="440" zIndex="0" format="dd.MM.yyyy HH:mm" itemsPerPage="10" searchBox="false" borderStyle="solid" borderWidth="1px" borderColor="rgba(0, 0, 0, 1)" backColor="rgba(253, 245, 230, 1)" headerBackGroundGradient="linear-gradient(to bottom, rgba(255, 192, 192, 1) 20%,rgba(255,0,0,1) 100%)" headerTextColor="rgba(0, 0, 0, 1)" headerFontSize="18px" sortingButtonColor="rgba(255, 255, 255, 0)" shadow="4px 4px 8px rgba(0, 0, 0, 1)" cornerRadius="8px" headerTextAlign="center" headerCellBorderColor="rgba(0, 0, 0, 1)" headerCellBorderWidth="1px" headerCellBorderStyle="solid" cellBorderColor="rgba(0, 0, 0, 1)" backGroundGradient="linear-gradient(to bottom,#F7F7F7 0%,#C6C6C6 100%)">
+              <Widgets>
+                <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem1" width="320" zIndex="0" columnType="timestamp" text="Dátum a čas" />
+                <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem2" width="1000" zIndex="1" text="Názov alarmu" />
+              </Widgets>
+            </Widget>
+            <Widget xsi:type="widgets.brease.Button" id="Button_PotvrdenieAlarmov" top="459" left="1168" width="158" height="50" zIndex="1" image="Media/Pictures/PotvrdenieAlarmu_32x32.png" multiLine="true" text="Potvrdenie \n alarmu" cornerRadius="10px" textColor="rgba(0, 0, 0, 1)" textAlign="center" shadow="4px 4px 14px rgba(0, 0, 0, 1)" />
+          </Widgets>
+        </Widget>
+        <Widget xsi:type="widgets.brease.TabItem" id="TabItem2" left="0" width="670" height="40" zIndex="1" text="História alarmov" cornerRadius="8px 8px 0px 0px" borderColor="rgba(0, 0, 0, 1)" activeCornerRadius="0px 0px 0px 0px" activeBorderColor="rgba(0, 0, 0, 1)" activeBackColor="rgba(255, 255, 255, 0)" fontSize="20px">
+          <Widgets>
+            <Widget xsi:type="widgets.brease.AlarmHistory" id="AlarmHistory1" top="7" left="8" width="1320" height="440" zIndex="0" format="dd.MM.yyyy HH:mm" itemsPerPage="10" searchBox="false" borderStyle="solid" borderColor="rgba(0, 0, 0, 1)" backColor="rgba(253, 245, 230, 1)" headerBackGroundGradient="linear-gradient(to bottom, rgba(192, 255, 192, 1) 20%,rgba(0,255,0,1) 100%)" headerTextColor="rgba(0, 0, 0, 1)" sortingButtonColor="rgba(255, 255, 255, 0)" shadow="4px 4px 8px rgba(0, 0, 0, 1)" cornerRadius="8px" headerTextAlign="center" headerCellBorderColor="rgba(0, 0, 0, 1)" headerCellBorderWidth="1px" headerCellBorderStyle="solid" cellBorderColor="rgba(0, 0, 0, 1)" cellBorderWidth="1px 1px 1px 1px" backGroundGradient="linear-gradient(to bottom,#F7F7F7 0%,#C6C6C6 100%)">
+              <Widgets>
+                <Widget xsi:type="widgets.brease.AlarmHistoryItem" id="AlarmHistoryItem1" width="320" zIndex="0" columnType="timestamp" text="Dátum a čas" />
+                <Widget xsi:type="widgets.brease.AlarmHistoryItem" id="AlarmHistoryItem2" width="1000" zIndex="1" text="Názov alarmu" />
+              </Widgets>
+            </Widget>
+            <Widget xsi:type="widgets.brease.Button" id="Button_ArchivaciaAlarmov" top="459" left="1170" width="158" height="50" zIndex="1" image="Media/Pictures/Uloz_32x32.png" multiLine="true" text="Archivácia \n alarmov" cornerRadius="10px" textColor="rgba(0, 0, 0, 1)" textAlign="center" shadow="4px 4px 14px rgba(0, 0, 0, 1)" />
+          </Widgets>
+        </Widget>
+      </Widgets>
+    </Widget>
+  </Widgets>
+</Content>

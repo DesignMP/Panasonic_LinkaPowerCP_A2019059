@@ -1,0 +1,43 @@
+VAR
+	SC_OvlZdvihu : SequenceControlTyp;
+	Zdvih_JoggDOLE : BOOL;
+	Zdvih_JoggHORE : BOOL;
+	Zdvih_POLOHUJ : BOOL;
+	Zdvih_HOME : BOOL;
+	Zdvih_STOP : BOOL;
+	i : USINT;
+	PrecitaneCisloPaletky : STRING[3];
+	ServerOdpoved_StavPowerCP : STRING[5];
+	ZadanaPoziciaUINT : UINT;
+	AktualnaPoziciaUINT : UINT;
+	CasPowerON : TON;
+	SC_KOM_Server : SequenceControlTyp;
+	Server_VyziadajStavPaletky_TYP1 : BOOL;
+	Server_StavVyziadStavuPaletky : STRING[2];
+	Server_PriradQRkod_TYP3 : BOOL;
+	Server_StavPriradenieQRkodu : STRING[2];
+	Server_VyziadajSerioveCislo_TYP0 : BOOL;
+	Server_StavVyziadSeriovehoCisla : STRING[2];
+	Server_OdosliStavPaletky_TYP2 : BOOL;
+	Server_StavOdoslaniaStavuPaletky : STRING[2];
+	Server_KomunikaciaUkoncena : BOOL;
+	SKTcpClientTrace_1 : SKTcpClientTrace;
+	VstupnaPremenna : STRING[80];
+	VystupnaPremenna : STRING[8];
+	Vysledok_OK : BOOL;
+	PocetDopytovNaServer : USINT;
+	CasZastaveniaServa : TON;
+	TestovaciKus : BOOL;
+	Revork : BOOL;
+	TEST : BOOL;
+	Triger_0 : BOOL;
+	CisloFotky : USINT;
+END_VAR
+(******Zápis do ParID serva*************)
+VAR
+	MC_BR_ProcessParID_AcpAx_0 : MC_BR_ProcessParID_AcpAx := (0);
+	McAcpAxProcessParIDType_0 : ARRAY[0..1] OF McAcpAxProcessParIDType;
+	NovaHodnotaMomentu_POS : REAL := 0.0;
+	NovaHodnotaMomentu_NEG : REAL := 0.0;
+	PocetTrigrovKamery : USINT;
+END_VAR

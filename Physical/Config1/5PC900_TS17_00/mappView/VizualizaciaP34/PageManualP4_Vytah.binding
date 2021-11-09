@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="PageManualP4_Vytah_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Bindings>
+		
+
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P4_Vytah.IN.PritomnostPaletky_S13" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP4_Vytah" widgetRefId="ImageList19" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P4_Vytah.STAV.ServoZdvihu_HomingOK" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP4_Vytah" widgetRefId="ImageList6" attribute="selectedIndex" />
+</Binding>
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::P4_Vytah:Zdvih_JoggHORE" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP4_Vytah" widgetRefId="MomentaryPushButton_JoggZdvihuHORE" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::P4_Vytah:Zdvih_JoggDOLE" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP4_Vytah" widgetRefId="MomentaryPushButton_JoggZdvihuDOLE" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P4_Vytah.STAV.Zdvih_AktualnaPozicia" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP4_Vytah" widgetRefId="NumericOutput_ZdvihAktualnaPozicia" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P4_Vytah.PAR.ServoZdvihu_JoggRychlost" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP4_Vytah" widgetRefId="NumericInput_ZdvihZadanaRychlost" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P4_Vytah.IN.ZdvihVytahu_LimSnimacPOS_IS57" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP4_Vytah" widgetRefId="ImageList15" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P4_Vytah.IN.ZdvihVytahu_LimSnimacNEG_IS56" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP4_Vytah" widgetRefId="ImageList16" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P4_Vytah.RR_ChodDopravnika_VPRED" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP4_Vytah" widgetRefId="MomentaryPushButton_DopravnikVZAD" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P4_Vytah.RR_ChodDopravnika_VZAD" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP4_Vytah" widgetRefId="MomentaryPushButton_DopravnikVPRED" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.TL_OvladanieVytahu_ENABLE" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP4_Vytah" widgetRefId="MomentaryPushButton_JoggZdvihuHORE" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.TL_HomingVytahu_ENABLE" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP4_Vytah" widgetRefId="Button_HomingServaZdvihu" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.TL_OvladanieVytahu_ENABLE" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP4_Vytah" widgetRefId="MomentaryPushButton_JoggZdvihuDOLE" attribute="enable" />
+</Binding>
+</Bindings>
+</BindingsSet>

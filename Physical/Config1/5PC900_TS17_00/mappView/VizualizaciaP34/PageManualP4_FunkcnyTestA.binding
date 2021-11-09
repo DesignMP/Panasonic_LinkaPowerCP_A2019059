@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="PageManualP4_FunkcnyTestA_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Bindings>
+  
+ 
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P4_FunkcnyTestA.IN.Centrovanie_VYSUNUTE_MS29" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP4_FunkcnyTestA" widgetRefId="ImageList9" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P4_FunkcnyTestA.IN.Centrovanie_ZASUNUTE_MS27" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP4_FunkcnyTestA" widgetRefId="ImageList7" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P4_FunkcnyTestA.IN.PritomnostPaletky_S10" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP4_FunkcnyTestA" widgetRefId="ImageList19" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P4_FunkcnyTestA.OUT.ZasunStoper_YV163" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP4_FunkcnyTestA" widgetRefId="ToggleSwitch_Stoper" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P4_FunkcnyTestA.IN.HorneKontakty_ZASUNUTE_MS23" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP4_FunkcnyTestA" widgetRefId="ImageList4" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P4_FunkcnyTestA.IN.SpodneKontakty_VYSUNUTE_MS33" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP4_FunkcnyTestA" widgetRefId="ImageList8" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P4_FunkcnyTestA.IN.TypSpodnychKontaktov_4F" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP4_FunkcnyTestA" widgetRefId="ImageList21" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P4_FunkcnyTestA.IN.SpodneKontakty_ZASUNUTE_MS31" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP4_FunkcnyTestA" widgetRefId="ImageList6" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P4_FunkcnyTestA.IN.TypSpodnychKontaktov_5F_5H" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP4_FunkcnyTestA" widgetRefId="ImageList22" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P4_FunkcnyTestA.RR_ZapniOdpruzenieKontaktov" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP4_FunkcnyTestA" widgetRefId="ToggleSwitch_OdpruzenieKontaktov" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P4_FunkcnyTestA.RR_VysunKontaktyTestera" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP4_FunkcnyTestA" widgetRefId="ToggleSwitch_KontaktyTestera" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P4_FunkcnyTestA.IN.HorneKontakty_VYSUNUTE_MS25" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP4_FunkcnyTestA" widgetRefId="ImageList5" attribute="selectedIndex" />
+</Binding>
+</Bindings>
+</BindingsSet>

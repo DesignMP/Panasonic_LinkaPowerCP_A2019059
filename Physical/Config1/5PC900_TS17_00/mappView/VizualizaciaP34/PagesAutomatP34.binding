@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="PagesAutomatP34_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Bindings>
+		
+		
+	
+		
+		
+		
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.TL_StartAutomat_ENABLE_P3" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="Button_START_Bunka3" attribute="enable" />
+        </Binding>
+		
+		
+		
+		
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.TL_StartAutomat_ENABLE_P4" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="Button_START_Bunka4" attribute="enable" />
+        </Binding>
+		
+		
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.TL_KoniecCyklu_ENABLE_P3" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="Button_KoniecCyklu_Bunka3" attribute="enable" />
+        </Binding>
+		
+		
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.TL_KoniecCyklu_ENABLE_P4" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="Button_KoniecCyklu_Bunka4" attribute="enable" />
+        </Binding>
+		
+		
+		
+		
+		
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Linka.PAR.ZvolenyModel" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="TextOutput_NazovModelu" attribute="value" />
+        </Binding>
+		
+		
+		
+	
+
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.IndexStavu_StoperFunkcnyTestA" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="ImageList14" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.IndexStavu_Vytah" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="ImageList13" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.IndexStavu_DopravnikP4" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="ImageList12" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.IndexStavu_StoperLeakageTestB" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="ImageList11" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.IndexStavu_StoperLeakageTestA" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="ImageList10" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.IndexStavu_AkumulacnyStoperP3" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="ImageList9" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.IndexStavu_SrobovanieP3" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="ImageList8" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.IndexStavu_StoperSrobovaniaP3" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="ImageList7" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.IndexStavu_SpodnyStoperP3" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="ImageList6" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.IndexStavu_DopravnikP3" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="ImageList5" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.IndexStavu_StoperFunkcnyTestB" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="ImageList15" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.IndexStavu_StoperEtiketovackyP4" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="ImageList16" attribute="selectedIndex" />
+        </Binding>
+
+
+
+
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.TL_STOP_ENABLE_P3" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="Button_STOP_Bunka3" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.TL_STOP_ENABLE_P4" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="Button_STOP_Bunka4" attribute="enable" />
+        </Binding>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Taktime_FunkcnyTestA.OUTPUTS.NameraneMilisekundy_1" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="NumericOutput_FunkcnyTestA_TaktimeMILISEC" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Taktime_FunkcnyTestA.OUTPUTS.NameraneSekundy_1" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="NumericOutput_FunkcnyTestA_TaktimeSEC" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Taktime_FunkcnyTestA.OUTPUTS.NameraneMinuty_1" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="NumericOutput_FunkcnyTestA_TaktimeMIN" attribute="value" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Taktime_LeakageTestB_ST8B.OUTPUTS.NameraneMilisekundy_1" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="NumericOutput_ST8B_TaktimeMILISEC" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Taktime_LeakageTestB_ST8B.OUTPUTS.NameraneSekundy_1" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="NumericOutput_ST8B_TaktimeSEC" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Taktime_LeakageTestB_ST8B.OUTPUTS.NameraneMinuty_1" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="NumericOutput_ST8B_TaktimeMIN" attribute="value" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Taktime_LeakageTestA_ST8A.OUTPUTS.NameraneMilisekundy_1" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="NumericOutput_ST8A_TaktimeMILISEC" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Taktime_LeakageTestA_ST8A.OUTPUTS.NameraneSekundy_1" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="NumericOutput_ST8A_TaktimeSEC" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Taktime_LeakageTestA_ST8A.OUTPUTS.NameraneMinuty_1" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="NumericOutput_ST8A_TaktimeMIN" attribute="value" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Taktime_Srobovanie_ST7.OUTPUTS.NameraneMilisekundy_1" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="NumericOutput_ST7_TaktimeMILISEC" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Taktime_Srobovanie_ST7.OUTPUTS.NameraneSekundy_1" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="NumericOutput_ST7_TaktimeSEC" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Taktime_Srobovanie_ST7.OUTPUTS.NameraneMinuty_1" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="NumericOutput_ST7_TaktimeMIN" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Taktime_FunkcnyTestB.OUTPUTS.NameraneMinuty_1" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="NumericOutput_FunkcnyTestB_TaktimeMIN" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Taktime_FunkcnyTestB.OUTPUTS.NameraneSekundy_1" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="NumericOutput_FunkcnyTestB_TaktimeSEC" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Taktime_FunkcnyTestB.OUTPUTS.NameraneMilisekundy_1" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="NumericOutput_FunkcnyTestB_TaktimeMILISEC" attribute="value" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Taktime_Etiketovacka_ST9.OUTPUTS.NameraneMinuty_1" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="NumericOutput_ST9_TaktimeMIN" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Taktime_Etiketovacka_ST9.OUTPUTS.NameraneSekundy_1" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="NumericOutput_ST14" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Taktime_Etiketovacka_ST9.OUTPUTS.NameraneMilisekundy_1" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="NumericOutput_ST15" attribute="value" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Taktime_Vytah_ST10.OUTPUTS.NameraneMinuty_1" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="NumericOutput_ST10_TaktimeMIN" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Taktime_Vytah_ST10.OUTPUTS.NameraneSekundy_1" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="NumericOutput_ST17" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Taktime_Vytah_ST10.OUTPUTS.NameraneMilisekundy_1" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="NumericOutput_ST18" attribute="value" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P3_LeakageTestA.STAV.Tester_ON" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="CheckBox1" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P3_LeakageTestB.STAV.Tester_ON" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="CheckBox2" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P4_FunkcnyTestA.STAV.Tester_ON" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="CheckBox3" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P4_FunkcnyTestB.STAV.Tester_ON" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="CheckBox4" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.VolbaLeakageTestu_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="CheckBox2" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.VolbaLeakageTestu_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="CheckBox1" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.VolbaFunkcnehoTestu_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="CheckBox4" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.VolbaFunkcnehoTestu_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="CheckBox3" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.IndexStavu_VstupnyStoper" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="ImageList17" attribute="selectedIndex" />
+        </Binding>
+    
+  
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Linka.VyprazdnenieLinky" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="ToggleButton_VyprazdnenieLinky" attribute="value" />
+        </Binding>
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_LeakageTestA.IN.PreratanyVyrovnavaciTlak_Bar" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="NumericOutput_LeakageTest_VyrovnTlak" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_LeakageTestB.IN.PreratanyVyrovnavaciTlak_Bar" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="NumericOutput_LeakageTest_VyrovnTlak1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.TL_PrihlasenieOperatora_ENABLE" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="ToggleButton_Prihlasenie" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.TL_PrihlasovOperatora_AKTIVNE" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageAutomatP34" widgetRefId="ToggleButton_Prihlasenie" attribute="value" />
+</Binding>
+</Bindings>
+</BindingsSet>

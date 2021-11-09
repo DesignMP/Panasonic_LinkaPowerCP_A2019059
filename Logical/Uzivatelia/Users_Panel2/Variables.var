@@ -1,0 +1,9 @@
+VAR
+	i : USINT;
+	PrecitaneDataSTRING : ARRAY[0..7] OF STRING[1] := [8('')];
+	KodCitackySTRING : STRING[80];
+	CasControlyKarty : TON;
+	SC_Uzivatelia : SequenceControlTyp;
+	PrecitaneCisloKarty : STRING[80];
+	a : USINT;
+END_VAR

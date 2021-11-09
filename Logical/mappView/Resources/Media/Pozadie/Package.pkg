@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.5.60 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">CelaLinka.png</Object>
+    <Object Type="File">PozadieDesignMP_1366x568.jpg</Object>
+    <Object Type="File">BackGroundInkdustry_608x1366.png</Object>
+    <Object Type="File">PozadieDesignMP_1280x800.jpg</Object>
+    <Object Type="File">BackGround_640x1280.png</Object>
+    <Object Type="File">BackGround_620x1280.png</Object>
+    <Object Type="File">BackGround_768x1366.png</Object>
+    <Object Type="File">PozadieDesignMP_1366x768.jpg</Object>
+    <Object Type="File">BackGround_588x1366.png</Object>
+    <Object Type="File">Pracovisko_1_1342x500.png</Object>
+    <Object Type="File">Pracovisko_2_1342x500.png</Object>
+    <Object Type="File">Pracovisko_34_1342x500.png</Object>
+    <Object Type="File">P1_4F_Paletka.jpg</Object>
+    <Object Type="File">P1_5F_Paletka.jpg</Object>
+    <Object Type="File">P1_5H_Paletka.jpg</Object>
+    <Object Type="File">P3_4F_Paletka.jpg</Object>
+    <Object Type="File">P3_5F_Paletka.jpg</Object>
+    <Object Type="File">P3_5H_Paletka.jpg</Object>
+    <Object Type="File">P10_4F_Paletka.jpg</Object>
+    <Object Type="File">P10_5F_Paletka.jpg</Object>
+    <Object Type="File">P10_5H_Paletka.jpg</Object>
+  </Objects>
+</Package>

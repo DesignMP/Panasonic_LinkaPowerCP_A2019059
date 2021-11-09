@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.4.67 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package">Linka</Object>
+    <Object Type="Package">Pracovisko_1</Object>
+    <Object Type="Package">Pracovisko_2</Object>
+    <Object Type="Package">Pracovisko_3</Object>
+    <Object Type="Package">Pracovisko_4</Object>
+  </Objects>
+</Package>

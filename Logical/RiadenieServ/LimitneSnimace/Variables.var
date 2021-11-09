@@ -1,0 +1,13 @@
+VAR
+	ServoLimSnimace_0 : ServoLim;
+	ServoLimSnimace_1 : ServoLim;
+	ServoLimSnimace_2 : ServoLim;
+	ServoLimSnimace_3 : ServoLim;
+	ServoLimSnimace_4 : ServoLim;
+	ServoLimSnimace_5 : ServoLim;
+	ServoLimSnimace_6 : ServoLim;
+	ServoLimSnimace_7 : ServoLim;
+	ServoLimSnimace_8 : ServoLim;
+	ServoLimSnimace_9 : ServoLim;
+	ServoLimSnimace_10 : ServoLim;
+END_VAR

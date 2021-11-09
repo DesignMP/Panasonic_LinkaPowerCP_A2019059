@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.5.60 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">VizuP2.vis</Object>
+    <Object Type="File">HlavickaP2.binding</Object>
+    <Object Type="File">HlavickaP2.eventbinding</Object>
+    <Object Type="File">VizuP2.binding</Object>
+    <Object Type="File">VizuP2.eventbinding</Object>
+    <Object Type="File">TimeP2.binding</Object>
+    <Object Type="File">TimeP2.eventbinding</Object>
+    <Object Type="File">RecipeP2.binding</Object>
+    <Object Type="File">RecipeP2.eventbinding</Object>
+    <Object Type="File">AuditP2.binding</Object>
+    <Object Type="File">AuditP2.eventbinding</Object>
+    <Object Type="File">AlarmP2.binding</Object>
+    <Object Type="File">AlarmP2.eventbinding</Object>
+    <Object Type="File">ExplorerP2.binding</Object>
+    <Object Type="File">ExplorerP2.eventbinding</Object>
+    <Object Type="File">PagesAutomatP2.eventbinding</Object>
+    <Object Type="File">PagesAutomatP2.binding</Object>
+    <Object Type="File">PopUpWindowsP2.eventbinding</Object>
+    <Object Type="File">PageManualP2_Dopravniky.binding</Object>
+    <Object Type="File">PageManualP2_Dopravniky.eventbinding</Object>
+    <Object Type="File">PageManualP2_ZakladacTesnenia.binding</Object>
+    <Object Type="File">PageManualP2_ZakladacTesnenia.eventbinding</Object>
+    <Object Type="File">PageManualP2_Maticovacka.binding</Object>
+    <Object Type="File">PageManualP2_Maticovacka.eventbinding</Object>
+    <Object Type="File">PageManualP2_Skrutkovanie.binding</Object>
+    <Object Type="File">PageManualP2_Skrutkovanie.eventbinding</Object>
+    <Object Type="File">PageManualP2_Zvaranie.binding</Object>
+    <Object Type="File">PageManualP2_Zvaranie.eventbinding</Object>
+    <Object Type="File">SetupP2.binding</Object>
+    <Object Type="File">SetupP2.eventbinding</Object>
+    <Object Type="File">ParametreP2.binding</Object>
+    <Object Type="File">ParametreP2.eventbinding</Object>
+    <Object Type="File">UsersP2.binding</Object>
+    <Object Type="File">UsersP2.eventbinding</Object>
+    <Object Type="File">PageStavyStanicP2.binding</Object>
+  </Objects>
+</Package>

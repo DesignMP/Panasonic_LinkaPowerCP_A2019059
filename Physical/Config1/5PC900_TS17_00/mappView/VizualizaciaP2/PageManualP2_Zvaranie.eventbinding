@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="PageManualP2_Zvaranie_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bindings>
+		
+		
+		<EventBinding id="AreaPageManualP2_Zvaranie.Button_HomingServaZdvihu.Click">
+			<Source contentRefId="AreaPageManualP2_Zvaranie" widgetRefId="Button_HomingServaZdvihu" xsi:type="widgets.brease.Button.Event" event="Click" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="opcUa.NodeAction" refId="::P2_Zvarani:Zdvih_HOME" >
+						<Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		
+		
+		
+		
+		
+		<EventBinding id="AreaPageManualP2_Zvaranie.Button_PresunVPRAVO.Click">
+			<Source contentRefId="AreaPageManualP2_Zvaranie" widgetRefId="Button_PresunVPRAVO" xsi:type="widgets.brease.Button.Event" event="Click" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="opcUa.NodeAction" refId="::P2_Zvarani:PresunVPRAVO" >
+						<Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>	
+		
+		
+		<EventBinding id="AreaPageManualP2_Zvaranie.Button_PresunVLAVO.Click">
+			<Source contentRefId="AreaPageManualP2_Zvaranie" widgetRefId="Button_PresunVLAVO" xsi:type="widgets.brease.Button.Event" event="Click" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="opcUa.NodeAction" refId="::P2_Zvarani:PresunVLAVO" >
+						<Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		
+		
+		<EventBinding id="AreaPageManualP2_Zvaranie.Button_ZdvihCentrovania.Click">
+			<Source contentRefId="AreaPageManualP2_Zvaranie" widgetRefId="Button_ZdvihCentrovania" xsi:type="widgets.brease.Button.Event" event="Click" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="opcUa.NodeAction" refId="::P2_Stoper1:Centrovacku_VYSUN" >
+						<Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		
+		<EventBinding id="AreaPageManualP2_Zvaranie.Button_ZostupCentrovania.Click">
+			<Source contentRefId="AreaPageManualP2_Zvaranie" widgetRefId="Button_ZostupCentrovania" xsi:type="widgets.brease.Button.Event" event="Click" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="opcUa.NodeAction" refId="::P2_Stoper1:Centrovacku_ZASUN" >
+						<Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		
+		<EventBinding id="AreaPageManualP2_Zvaranie_page2.Button_OtvorenieCistenia.Click">
+			<Source contentRefId="AreaPageManualP2_Zvaranie_page2" widgetRefId="Button_OtvorenieCistenia" xsi:type="widgets.brease.Button.Event" event="Click" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="opcUa.NodeAction" refId="::P2_Cisteni:Dvere_OTVOR" >
+						<Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		
+		<EventBinding id="AreaPageManualP2_Zvaranie_page2.Button_ZatvorenieCistenia.Click">
+			<Source contentRefId="AreaPageManualP2_Zvaranie_page2" widgetRefId="Button_ZatvorenieCistenia" xsi:type="widgets.brease.Button.Event" event="Click" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="opcUa.NodeAction" refId="::P2_Cisteni:Dvere_ZATVOR" >
+						<Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		
+		
+		
+		
+	</Bindings>
+</EventBindingSet>
+
+

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="PageManualP2_ZakladacTesnenia_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+    
+		<EventBinding id="AreaPageManualP2_ZakladanieTesnenia.Button_HomingServaZdvihu.Click">
+			<Source contentRefId="AreaPageManualP2_ZakladanieTesnenia" widgetRefId="Button_HomingServaZdvihu" xsi:type="widgets.brease.Button.Event" event="Click" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="opcUa.NodeAction" refId="::P2_Zaklada:Zdvih_HOME" >
+						<Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+					</Target>
+				</Action>
+			</EventHandler>    
+		</EventBinding>
+		
+		   
+		<EventBinding id="AreaPageManualP2_ZakladanieTesnenia.Button_HomingServaPojazdu.Click">
+			<Source contentRefId="AreaPageManualP2_ZakladanieTesnenia" widgetRefId="Button_HomingServaPojazdu" xsi:type="widgets.brease.Button.Event" event="Click" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="opcUa.NodeAction" refId="::P2_Zaklada:Pojazd_HOME" >
+						<Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+					</Target>
+				</Action>
+			</EventHandler>  
+		</EventBinding>
+	
+	
+		
+		
+	</Bindings>
+</EventBindingSet>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="HlavickaP2_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Bindings>
+		
+        <!--Zobrazenie varningov pracoviska v hlavičke-->
+        <Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.Warnings_Index" attribute="value" />
+            <Target xsi:type="snippet" refId="Snippet_WarningsP2" attribute="value" />
+        </Binding>
+		
+        <Binding mode="oneWay">
+            <Source xsi:type="snippet" refId="Snippet_WarningsP2" attribute="value" />
+            <Target xsi:type="brease" widgetRefId="TextOut_Warnings" contentRefId="HlavickaP2" attribute="value" />
+        </Binding>
+		
+		
+		
+		
+	
+		
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.TL_PrednyZamokPS_Farba" attribute="value" />
+            <Target xsi:type="brease" contentRefId="HlavickaP2" widgetRefId="ButtonPredneDverePS" attribute="style" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.TL_PrednyZamokLS_Farba" attribute="value" />
+            <Target xsi:type="brease" contentRefId="HlavickaP2" widgetRefId="ButtonPredneDvereLS" attribute="style" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.TL_ZadnyZamokPS_Farba" attribute="value" />
+            <Target xsi:type="brease" contentRefId="HlavickaP2" widgetRefId="ButtonZadneDverePS" attribute="style" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.TL_ZadnyZamokLS_Farba" attribute="value" />
+            <Target xsi:type="brease" contentRefId="HlavickaP2" widgetRefId="ButtonZadneDvereLS" attribute="style" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.Warnings_Farba" attribute="value" />
+            <Target xsi:type="brease" contentRefId="HlavickaP2" widgetRefId="TextOut_Warnings" attribute="style" />
+        </Binding>
+        <!--<Binding mode="twoWay">
+        <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.KartaPrilozena" attribute="value" />
+        <Target xsi:type="brease" contentRefId="HlavickaP2" widgetRefId="Image3" attribute="visible" />
+        </Binding>-->
+
+		
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Vizu.TL_ResetCS_Farba" attribute="value" />
+            <Target xsi:type="brease" contentRefId="HlavickaP2" widgetRefId="ButtonResetCS" attribute="style" />
+        </Binding>
+
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.TL_OvladaniaZamkov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="HlavickaP2" widgetRefId="ButtonZadneDvereLS" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.TL_OvladaniaZamkov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="HlavickaP2" widgetRefId="ButtonZadneDverePS" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.TL_OvladaniaZamkov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="HlavickaP2" widgetRefId="ButtonPredneDvereLS" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P2_Vizu.TL_OvladaniaZamkov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="HlavickaP2" widgetRefId="ButtonPredneDverePS" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Safety.OUT.P2_ZamkniZamok_PredneDvereLS" attribute="value" />
+            <Target xsi:type="brease" contentRefId="HlavickaP2" widgetRefId="ImageList4" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Safety.OUT.P2_ZamkniZamok_ZadneDverePS" attribute="value" />
+            <Target xsi:type="brease" contentRefId="HlavickaP2" widgetRefId="ImageList3" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Safety.OUT.P2_ZamkniZamok_ZadneDvereLS" attribute="value" />
+            <Target xsi:type="brease" contentRefId="HlavickaP2" widgetRefId="ImageList2" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Safety.OUT.P2_ZamkniZamok_PredneDverePS" attribute="value" />
+            <Target xsi:type="brease" contentRefId="HlavickaP2" widgetRefId="ImageList5" attribute="selectedIndex" />
+        </Binding>
+  
+    </Bindings>
+</BindingsSet>

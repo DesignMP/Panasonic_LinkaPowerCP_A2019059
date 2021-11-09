@@ -1,0 +1,9 @@
+VAR
+	T0_test : TON;
+	timerString : STRING[255];
+	timerREAL : REAL;
+	Cas : TON;
+	timerSekundyREAL : REAL;
+	CasKontrolyVyprazdnenia : TON;
+	CasKontrolyTestovania : TON;
+END_VAR

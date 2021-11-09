@@ -1,0 +1,35 @@
+VAR
+	SC_OvlZvarania : SequenceControlTyp;
+	PocetBlikovREADY : USINT;
+	SC_OvlZdvihu : SequenceControlTyp;
+	Zdvih_JoggDOLE : BOOL;
+	Zdvih_JoggHORE : BOOL;
+	Zdvih_POLOHUJ : BOOL;
+	Zdvih_HOME : BOOL;
+	Zdvih_STOP : BOOL;
+	Zdvih_ZVARANIE : BOOL;
+	Zdvih_ZATLACANIE : BOOL;
+	SC_OvlPojazdu : SequenceControlTyp;
+	PresunVPRAVO : BOOL;
+	PresunVLAVO : BOOL;
+END_VAR
+VAR RETAIN
+	CasZotrvaniaZvarania : TIME;
+	TorqRychlost : REAL;
+	TorqMoment : REAL;
+END_VAR
+VAR
+	ZadanaPoziciaUINT : UINT;
+	AktualnaPoziciaUINT : UINT;
+	MomentDosiahnuty : BOOL;
+	CasPowerON : TON;
+	i : USINT;
+	CasZastaveniaServa : TON;
+END_VAR
+(******Zápis do ParID serva*************)
+VAR
+	MC_BR_ProcessParID_AcpAx_0 : MC_BR_ProcessParID_AcpAx := (0);
+	McAcpAxProcessParIDType_0 : ARRAY[0..1] OF McAcpAxProcessParIDType;
+	NovaHodnotaMomentu_POS : REAL := 0.0;
+	NovaHodnotaMomentu_NEG : REAL := 0.0;
+END_VAR

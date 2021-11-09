@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/TextyTlacidiel</prop>
+  </header>
+  <body>
+    <tu tuid="1">
+      <tuv xml:lang="sk">
+        <seg>Reset CS</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Reset CS</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Beispiel für benutzerdefinierte Informationsnachricht. Bei benutzerdefinierten Events muss Bit 3 immer gesetzt sein.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="2">
+      <tuv xml:lang="sk">
+        <seg>Predné dvere</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Front door</seg>
+      </tuv>
+    </tu>
+    <tu tuid="3">
+      <tuv xml:lang="sk">
+        <seg>Zadné dvere</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Back door</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

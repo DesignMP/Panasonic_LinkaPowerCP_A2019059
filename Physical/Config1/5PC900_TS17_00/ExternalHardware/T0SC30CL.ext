@@ -1,0 +1,832 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IODevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.io-link.com/IODD/2010/10" xsi:schemaLocation="http://www.io-link.com/IODD/2010/10 IODD1.1.xsd">
+  <DocumentInfo copyright="2018" releaseDate="2018-10-04" version="V1.0" />
+  <ProfileHeader>
+    <ProfileIdentification>IO Device Profile</ProfileIdentification>
+    <ProfileRevision>1.1</ProfileRevision>
+    <ProfileName>Device Profile for IO Devices</ProfileName>
+    <ProfileSource>IO-Link Consortium</ProfileSource>
+    <ProfileClassID>Device</ProfileClassID>
+    <ISO15745Reference>
+      <ISO15745Part>1</ISO15745Part>
+      <ISO15745Edition>1</ISO15745Edition>
+      <ProfileTechnology>IODD</ProfileTechnology>
+    </ISO15745Reference>
+  </ProfileHeader>
+  <ProfileBody>
+    <DeviceIdentity vendorId="765" vendorName="SCHUNK GmbH und Co. KG" deviceId="4">
+      <VendorText textId="T_VendorText" />
+      <VendorUrl textId="T_VendorUrl" />
+      <VendorLogo name="SCHUNK-logo.png" />
+      <DeviceName textId="T_Device_Name" />
+      <DeviceFamily textId="T_DeviceFamily" />
+      <DeviceVariantCollection>
+        <DeviceVariant productId="0315830" deviceIcon="SCHUNK-MMS_IOL_P1-icon.png" deviceSymbol="SCHUNK-MMS_IOL_P1-pic.png">
+          <Name textId="T_Device_1_Name" />
+          <Description textId="T_Device_1_Description" />
+        </DeviceVariant>
+        <DeviceVariant productId="0315835" deviceIcon="SCHUNK-MMS_IOL_P2-icon.png" deviceSymbol="SCHUNK-MMS_IOL_P2-pic.png">
+          <Name textId="T_Device_2_Name" />
+          <Description textId="T_Device_2_Description" />
+        </DeviceVariant>
+      </DeviceVariantCollection>
+    </DeviceIdentity>
+    <DeviceFunction>
+      <Features blockParameter="false" dataStorage="false">
+        <SupportedAccessLocks parameter="false" dataStorage="false" localParameterization="false" localUserInterface="false" />
+      </Features>
+      <VariableCollection>
+        <StdVariableRef id="V_SystemCommand" />
+        <StdVariableRef id="V_SerialNumber" />
+        <StdVariableRef id="V_VendorName" defaultValue="SCHUNK GmbH und Co. KG" fixedLengthRestriction="23" />
+        <StdVariableRef id="V_VendorText" defaultValue="schunk.com" fixedLengthRestriction="11"/>
+        <StdVariableRef id="V_ProductName" defaultValue="MMS" />
+        <StdVariableRef id="V_ProductText" defaultValue="magnetic position sensor" />
+        <StdVariableRef id="V_ProductID" />
+        <StdVariableRef id="V_HardwareRevision" defaultValue="HW-V1.0" fixedLengthRestriction="8"/>
+        <StdVariableRef id="V_FirmwareRevision" defaultValue="FW-V1.0" fixedLengthRestriction="8"/>
+        <StdVariableRef id="V_DirectParameters_1" />
+        <StdVariableRef id="V_DirectParameters_2" />
+        <StdVariableRef id="V_ApplicationSpecificTag" excludedFromDataStorage="true" />
+        <Variable id="V_REPLY" accessRights="ro" index="65" defaultValue="0" dynamic="true">
+          <Datatype xsi:type="UIntegerT" bitLength="8">
+            <SingleValue value="0">
+              <Name textId="T_REPLY_NO_PARAMETER" />
+            </SingleValue>
+            <SingleValue value="1">
+              <Name textId="T_REPLY_TEACHING_STARTED" />
+            </SingleValue>
+            <SingleValue value="2">
+              <Name textId="T_REPLY_FINISHED_TEACHING" />
+            </SingleValue>
+            <SingleValue value="3">
+              <Name textId="T_REPLY_SAVING_DONE" />
+            </SingleValue>
+            <SingleValue value="4">
+              <Name textId="T_REPLY_CANCELED" />
+            </SingleValue>
+            <SingleValue value="5">
+              <Name textId="T_REPLY_TEACH_ERROR" />
+            </SingleValue>
+            <SingleValue value="6">
+              <Name textId="T_REPLY_NOT_ALLOWED" />
+            </SingleValue>
+			<SingleValue value="7">
+              <Name textId="T_REPLY_PROGRAMMING_SUCCESSFUL" />
+            </SingleValue>
+			<SingleValue value="8">
+              <Name textId="T_REPLY_FACTORY_SETTINGS_RESTORED" />
+            </SingleValue>
+          </Datatype>
+          <Name textId="V_N_REPLY" />
+          <Description textId="V_D_REPLY" />
+        </Variable>
+        <Variable id="V_TEACH_COMMAND" accessRights="wo" index="66" defaultValue="0">
+          <Datatype xsi:type="UIntegerT" bitLength="8">
+            <SingleValue value="0">
+              <Name textId="T_TEACH_COMMAND_NO_COMMAND" />
+            </SingleValue>
+            <SingleValue value="3">
+              <Name textId="T_TEACH_COMMAND_START_TEACHING_MAGNET_FIELD" />
+            </SingleValue>
+          </Datatype>
+          <Name textId="V_N_TEACH_COMMAND" />
+          <Description textId="V_D_TEACH_COMMAND" />
+        </Variable>
+        <Variable id="V_STROKES_PER_JAW" accessRights="ro" index="67" dynamic="true">
+          <Datatype xsi:type="UIntegerT" bitLength="16" />
+          <Name textId="V_N_STROKES_PER_JAW" />
+          <Description textId="V_D_STROKES_PER_JAW" />
+        </Variable>
+        <Variable id="V_TEMPERATURE" accessRights="ro" index="68" dynamic="true">
+          <Datatype xsi:type="IntegerT" bitLength="8" />
+          <Name textId="V_N_TEMPERATURE" />
+          <Description textId="V_D_TEMPERATURE" />
+        </Variable>
+        <Variable id="V_VOLTAGE" accessRights="ro" index="69" dynamic="true">
+          <Datatype xsi:type="UIntegerT" bitLength="8" />
+          <Name textId="V_N_VOLTAGE" />
+          <Description textId="V_D_VOLTAGE" />
+        </Variable>
+        <Variable id="V_NBROFBOOTEVENTS" accessRights="ro" index="70" dynamic="true">
+          <Datatype xsi:type="UIntegerT" bitLength="32" />
+          <Name textId="V_N_NBROFBOOTEVENTS" />
+          <Description textId="V_D_NBROFBOOTEVENTS" />
+        </Variable>
+        <Variable id="V_OPERATINGHOURS" accessRights="ro" index="71" dynamic="true">
+          <Datatype xsi:type="UIntegerT" bitLength="32" />
+          <Name textId="V_N_OPERATINGHOURS" />
+          <Description textId="V_D_OPERATINGHOURS" />
+        </Variable>
+        <Variable id="V_STROKE_PER_JAW" accessRights="rw" excludedFromDataStorage="true" index="72" dynamic="true" defaultValue="1000">
+          <Datatype xsi:type="UIntegerT" bitLength="16">
+            <ValueRange upperValue="10000" lowerValue="100"/>
+          </Datatype>
+          <Name textId="V_N_STROKE_PER_JAW" />
+          <Description textId="V_D_STROKE_PER_JAW" />
+        </Variable>
+        <Variable id="V_MAGNETTEACHINGTOOL" accessRights="rw" excludedFromDataStorage="true" index="73" dynamic="true" defaultValue="0">
+          <Datatype xsi:type="UIntegerT" bitLength="8" >
+             <SingleValue value="0">
+              <Name textId="T_MAGNET_TEACHING_TOOL_ALLOWED" />
+            </SingleValue>
+            <SingleValue value="1">
+              <Name textId="T_MAGNET_TEACHING_TOOL_DENIED" />
+            </SingleValue>
+          </Datatype>
+          <Name textId="V_N_MAGNETTEACHINGTOOL" />
+          <Description textId="V_D_MAGNETTEACHINGTOOL" />
+        </Variable>
+        <Variable id="V_NBROFALLTEACHINGEVENTS" accessRights="ro" index="74" dynamic="true">
+          <Datatype xsi:type="UIntegerT" bitLength="16" />
+          <Name textId="V_N_NBROFALLTEACHINGEVENTS" />
+          <Description textId="V_D_NBROFALLTEACHINGEVENTS" />
+        </Variable>
+        <Variable id="V_NBROFFAILEDTEACHINGEVENTS" accessRights="ro" index="75" dynamic="true">
+          <Datatype xsi:type="UIntegerT" bitLength="16" />
+          <Name textId="V_N_NBROFFAILEDTEACHINGEVENTS" />
+          <Description textId="V_D_NBROFFAILEDTEACHINGEVENTS" />
+        </Variable>
+        <Variable id="V_MINTEMPERATURE" accessRights="ro" index="78" dynamic="true">
+          <Datatype xsi:type="IntegerT" bitLength="8" />
+          <Name textId="V_N_MINTEMPERATURE" />
+          <Description textId="V_D_MINTEMPERATURE" />
+        </Variable>
+        <Variable id="V_MAXTEMPERATURE" accessRights="ro" index="79" dynamic="true">
+          <Datatype xsi:type="IntegerT" bitLength="8" />
+          <Name textId="V_N_MAXTEMPERATURE" />
+          <Description textId="V_D_MAXTEMPERATURE" />
+        </Variable>
+        <Variable id="V_NBROFTEACHINGSAMPLES" accessRights="ro" index="82" dynamic="true">
+          <Datatype xsi:type="UIntegerT" bitLength="16" />
+          <Name textId="V_N_NBROFTEACHINGSAMPLES" />
+          <Description textId="V_D_NBROFTEACHINGSAMPLES" />
+        </Variable>
+        <Variable id="V_TEMPERATUREDURINGTEACHING" accessRights="ro" index="83" dynamic="true">
+          <Datatype xsi:type="IntegerT" bitLength="8" />
+          <Name textId="V_N_TEMPERATUREDURINGTEACHING" />
+          <Description textId="V_D_TEMPERATUREDURINGTEACHING" />
+        </Variable>
+        <Variable id="V_RAWDATAHALL_1" accessRights="ro" index="87" dynamic="true">
+          <Datatype xsi:type="UIntegerT" bitLength="16" />
+          <Name textId="V_N_RAWDATAHALL_1" />
+          <Description textId="V_D_RAWDATAHALL_1" />
+        </Variable>
+        <Variable id="V_RAWDATAHALL_2" accessRights="ro" index="88" dynamic="true">
+          <Datatype xsi:type="UIntegerT" bitLength="16" />
+          <Name textId="V_N_RAWDATAHALL_2" />
+          <Description textId="V_D_RAWDATAHALL_2" />
+        </Variable>
+        <Variable id="V_RAWDATAHALL_3" accessRights="ro" index="89" dynamic="true">
+          <Datatype xsi:type="UIntegerT" bitLength="16" />
+          <Name textId="V_N_RAWDATAHALL_3" />
+          <Description textId="V_D_RAWDATAHALL_3" />
+        </Variable>
+        <Variable id="V_ERRORMEMORY0" accessRights="ro" index="92" dynamic="true">
+          <Datatype xsi:type="UIntegerT" bitLength="32" />
+          <Name textId="V_N_ERRORMEMORY0" />
+          <Description textId="V_D_ERRORMEMORY0" />
+        </Variable>
+        <Variable id="V_ERRORMEMORY1" accessRights="ro" index="93" dynamic="true">
+          <Datatype xsi:type="UIntegerT" bitLength="32" />
+          <Name textId="V_N_ERRORMEMORY1" />
+          <Description textId="V_D_ERRORMEMORY1" />
+        </Variable>
+        <Variable id="V_ERRORMEMORY2" accessRights="ro" index="94" dynamic="true">
+          <Datatype xsi:type="UIntegerT" bitLength="32" />
+          <Name textId="V_N_ERRORMEMORY2" />
+          <Description textId="V_D_ERRORMEMORY2" />
+        </Variable>
+        <Variable id="V_ERRORMEMORY3" accessRights="ro" index="95" dynamic="true">
+          <Datatype xsi:type="UIntegerT" bitLength="32" />
+          <Name textId="V_N_ERRORMEMORY3" />
+          <Description textId="V_D_ERRORMEMORY3" />
+        </Variable>
+        <Variable id="V_DEVICE_STATUS" accessRights="ro" index="121" dynamic="true">
+          <Datatype xsi:type="UIntegerT" bitLength="8" >
+            <SingleValue value="0">
+              <Name textId="V_T_DEVICE_OPERATIONAL" />
+            </SingleValue>
+            <SingleValue value="1">
+              <Name textId="V_T_DEVICE_FAILURE" />
+            </SingleValue>
+			<SingleValue value="2">
+              <Name textId="V_T_DEVICE_OUT_OF_SPECIFICATION" />
+            </SingleValue>
+          </Datatype>
+          <Name textId="V_N_DEVICE_STATUS" />
+          <Description textId="V_D_DEVICE_STATUS" />
+        </Variable>
+		<Variable id="V_DETAILED_DEVICE_STATUS_0" accessRights="ro"  index="122" dynamic="true">
+         <Datatype xsi:type="UIntegerT" bitLength="8" >
+            <SingleValue value="0">
+              <Name textId="V_T_ERROR_0" />
+            </SingleValue>
+            <SingleValue value="3">
+              <Name textId="V_T_ERROR_3" />
+            </SingleValue>
+            <SingleValue value="4">
+              <Name textId="V_T_ERROR_4" />
+            </SingleValue>
+          </Datatype>
+          <Name textId="V_N_DETAILED_DEVICE_STATUS_0" />
+          <Description textId="V_D_DETAILED_DEVICE_STATUS_0" />
+        </Variable>
+		<Variable id="V_DETAILED_DEVICE_STATUS_1" accessRights="ro"  index="123" dynamic="true">
+         <Datatype xsi:type="UIntegerT" bitLength="8" >
+            <SingleValue value="0">
+              <Name textId="V_T_ERROR_0" />
+            </SingleValue>
+            <SingleValue value="1">
+              <Name textId="V_T_ERROR_1" />
+            </SingleValue>
+            <SingleValue value="2">
+              <Name textId="V_T_ERROR_2" />
+            </SingleValue>
+          </Datatype>
+          <Name textId="V_N_DETAILED_DEVICE_STATUS_1" />
+          <Description textId="V_D_DETAILED_DEVICE_STATUS_1" />
+        </Variable>
+		<Variable id="V_EVENT_AND_FAULT_RECORDER_0" accessRights="ro"  index="106" dynamic="true">
+         <Datatype xsi:type="UIntegerT" bitLength="8" >
+            <SingleValue value="0">
+              <Name textId="V_T_ERROR_0" />
+            </SingleValue>
+            <SingleValue value="1">
+              <Name textId="V_T_ERROR_1" />
+            </SingleValue>
+            <SingleValue value="2">
+              <Name textId="V_T_ERROR_2" />
+            </SingleValue>
+            <SingleValue value="3">
+              <Name textId="V_T_ERROR_3" />
+            </SingleValue>
+            <SingleValue value="4">
+              <Name textId="V_T_ERROR_4" />
+            </SingleValue>
+          </Datatype>
+          <Name textId="V_N_EVENT_AND_FAULT_RECORDER_0" />
+          <Description textId="V_D_EVENT_AND_FAULT_RECORDER_0" />
+        </Variable>
+        <Variable id="V_EVENT_AND_FAULT_RECORDER_1" accessRights="ro"  index="107" dynamic="true">
+         <Datatype xsi:type="UIntegerT" bitLength="8" >
+            <SingleValue value="0">
+              <Name textId="V_T_ERROR_0" />
+            </SingleValue>
+            <SingleValue value="1">
+              <Name textId="V_T_ERROR_1" />
+            </SingleValue>
+            <SingleValue value="2">
+              <Name textId="V_T_ERROR_2" />
+            </SingleValue>
+            <SingleValue value="3">
+              <Name textId="V_T_ERROR_3" />
+            </SingleValue>
+            <SingleValue value="4">
+              <Name textId="V_T_ERROR_4" />
+            </SingleValue>
+          </Datatype>
+          <Name textId="V_N_EVENT_AND_FAULT_RECORDER_1" />
+          <Description textId="V_D_EVENT_AND_FAULT_RECORDER_1" />
+        </Variable>
+        <Variable id="V_EVENT_AND_FAULT_RECORDER_2" accessRights="ro"  index="108" dynamic="true">
+         <Datatype xsi:type="UIntegerT" bitLength="8" >
+            <SingleValue value="0">
+              <Name textId="V_T_ERROR_0" />
+            </SingleValue>
+            <SingleValue value="1">
+              <Name textId="V_T_ERROR_1" />
+            </SingleValue>
+            <SingleValue value="2">
+              <Name textId="V_T_ERROR_2" />
+            </SingleValue>
+            <SingleValue value="3">
+              <Name textId="V_T_ERROR_3" />
+            </SingleValue>
+            <SingleValue value="4">
+              <Name textId="V_T_ERROR_4" />
+            </SingleValue>
+          </Datatype>
+          <Name textId="V_N_EVENT_AND_FAULT_RECORDER_2" />
+          <Description textId="V_D_EVENT_AND_FAULT_RECORDER_2" />
+        </Variable>
+        <Variable id="V_EVENT_AND_FAULT_RECORDER_3" accessRights="ro"  index="109" dynamic="true">
+         <Datatype xsi:type="UIntegerT" bitLength="8" >
+            <SingleValue value="0">
+              <Name textId="V_T_ERROR_0" />
+            </SingleValue>
+            <SingleValue value="1">
+              <Name textId="V_T_ERROR_1" />
+            </SingleValue>
+            <SingleValue value="2">
+              <Name textId="V_T_ERROR_2" />
+            </SingleValue>
+            <SingleValue value="3">
+              <Name textId="V_T_ERROR_3" />
+            </SingleValue>
+            <SingleValue value="4">
+              <Name textId="V_T_ERROR_4" />
+            </SingleValue>
+          </Datatype>
+          <Name textId="V_N_EVENT_AND_FAULT_RECORDER_3" />
+          <Description textId="V_D_EVENT_AND_FAULT_RECORDER_3" />
+        </Variable>
+        <Variable id="V_EVENT_AND_FAULT_RECORDER_4" accessRights="ro"  index="110" dynamic="true">
+         <Datatype xsi:type="UIntegerT" bitLength="8" >
+            <SingleValue value="0">
+              <Name textId="V_T_ERROR_0" />
+            </SingleValue>
+            <SingleValue value="1">
+              <Name textId="V_T_ERROR_1" />
+            </SingleValue>
+            <SingleValue value="2">
+              <Name textId="V_T_ERROR_2" />
+            </SingleValue>
+            <SingleValue value="3">
+              <Name textId="V_T_ERROR_3" />
+            </SingleValue>
+            <SingleValue value="4">
+              <Name textId="V_T_ERROR_4" />
+            </SingleValue>
+          </Datatype>
+          <Name textId="V_N_EVENT_AND_FAULT_RECORDER_4" />
+          <Description textId="V_D_EVENT_AND_FAULT_RECORDER_4" />
+        </Variable>
+        <Variable id="V_OUTPUT_1_STATE" accessRights="ro"  index="111" dynamic="true">
+         <Datatype xsi:type="UIntegerT" bitLength="8" >
+            <SingleValue value="0">
+              <Name textId="V_T_OUTPUT_OFF" />
+            </SingleValue>
+            <SingleValue value="1">
+              <Name textId="V_T_OUTPUT_ON" />
+            </SingleValue>
+          </Datatype>
+          <Name textId="V_N_OUTPUT_1_STATE" />
+          <Description textId="V_D_OUTPUT_1_STATE" />
+        </Variable>
+        <Variable id="V_OUTPUT_2_STATE" accessRights="ro"  index="112" dynamic="true">
+         <Datatype xsi:type="UIntegerT" bitLength="8" >
+            <SingleValue value="0">
+              <Name textId="V_T_OUTPUT_OFF" />
+            </SingleValue>
+            <SingleValue value="1">
+              <Name textId="V_T_OUTPUT_ON" />
+            </SingleValue>
+          </Datatype>
+          <Name textId="V_N_OUTPUT_2_STATE" />
+          <Description textId="V_D_OUTPUT_2_STATE" />
+        </Variable>
+        <Variable id="V_BUTTONS" accessRights="wo" index="124">
+          <Datatype xsi:type="UIntegerT" bitLength="8">
+            <SingleValue value="10">
+              <Name textId="TN_RestoreFactroySettings"/>
+            </SingleValue>
+          <SingleValue value="1">
+            <Name textId="TN_Save_Data"/>
+            </SingleValue>
+          <SingleValue value="2">
+            <Name textId="TN_Cancel"/>
+            </SingleValue>
+          </Datatype>
+         <Name textId="TN_Buttons">
+          </Name>
+        </Variable>
+      </VariableCollection>
+      <ProcessDataCollection>
+        <ProcessData id="PD_IN">
+          <ProcessDataIn id="V_N_PD_IN" bitLength="16">
+            <Datatype xsi:type="UIntegerT" bitLength="16" />
+            <Name textId="V_D_PD_IN" />
+          </ProcessDataIn>
+        </ProcessData>
+      </ProcessDataCollection>
+      <EventCollection>
+        <StdEventRef code="16384" />
+        <StdEventRef code="16912" />
+        <StdEventRef code="16928" />
+        <StdEventRef code="20752" />
+        <StdEventRef code="20753" />
+        <Event code="36000" type="Warning">
+          <Name textId="T_N_EVENT_TEMP_LIMIT" />
+          <Description textId="T_D_EVENT_TEMP_LIMIT" />
+        </Event>
+        <Event code="36001" type="Warning">
+          <Name textId="T_N_EVENT_TEMP_CHANGE" />
+          <Description textId="T_D_EVENT_TEMP_CHANGE" />
+        </Event>
+        <Event code="36002" type="Warning">
+          <Name textId="T_N_EVENT_FIELD_ERROR" />
+          <Description textId="T_D_EVENT_FIELD_ERROR" />
+        </Event>
+        <Event code="36003" type="Error">
+          <Name textId="T_N_EVENT_SAMPLING_POINT_UNDERUN_ERROR" />
+          <Description textId="T_D_EVENT_SAMPLING_POINT_UNDERUN_ERROR" />
+        </Event>
+        <Event code="36004" type="Error">
+          <Name textId="T_N_EVENT_SAMPLING_POINT_OVERRUN_ERROR" />
+          <Description textId="T_D_EVENT_SAMPLING_POINT_OVERRUN_ERROR" />
+        </Event>
+        <Event code="36010" type="Notification">
+          <Name textId="T_N_EVENT_TEACHING_STARTED_NOTIFICATION" />
+          <Description textId="T_D_EVENT_TEACHING_STARTED_NOTIFICATION" />
+        </Event>
+        <Event code="36011" type="Notification">
+          <Name textId="T_N_EVENT_TEACHING_FINISH_NOTIFICATION" />
+          <Description textId="T_D_EVENT_TEACHING_FINISH_NOTIFICATION" />
+        </Event>
+        <Event code="36012" type="Notification">
+          <Name textId="T_N_EVENT_SAVE_DATA_DONE_NOTIFICATION" />
+          <Description textId="T_D_EVENT_SAVE_DATA_DONE_NOTIFICATION" />
+        </Event>
+        <Event code="36013" type="Notification">
+          <Name textId="T_N_EVENT_OPERATION_CANCELED_NOTIFICATION" />
+          <Description textId="T_D_EVENT_OPERATION_CANCELED_NOTIFICATION" />
+        </Event>
+        <Event code="36014" type="Notification">
+          <Name textId="T_N_EVENT_TEACH_ERROR_NOTIFICATION" />
+          <Description textId="T_D_EVENT_TEACH_ERROR_NOTIFICATION" />
+        </Event>
+        <Event code="36015" type="Notification">
+          <Name textId="T_N_EVENT_COMMAND_NOT_ALLOWED_NOTIFICATION" />
+          <Description textId="T_D_EVENT_COMMAND_NOT_ALLOWED_NOTIFICATION" />
+        </Event>
+        <Event code="36016" type="Error">
+          <Name textId="T_N_EVENT_NO_MAGNETIC_FIELD_LEARNED" />
+          <Description textId="T_D_EVENT_NO_MAGNETIC_FIELD_LEARNED" />
+        </Event>
+        <Event code="36017" type="Notification">
+          <Name textId="T_N_EVENT_TEACHING_SUCCESSFULL" />
+          <Description textId="T_D_EVENT_TEACHING_SUCCESSFULL" />
+        </Event>
+		<Event code="36018" type="Notification">
+          <Name textId="T_N_EVENT_FACTORY_SETTINGS_RESTORED" />
+          <Description textId="T_D_EVENT_FACTORY_SETTINGS_RESTORED" />
+        </Event>
+        <Event code="36019" type="Warning">
+          <Name textId="T_N_EVENT_SAMPLING_WARNING" />
+          <Description textId="T_D_EVENT_SAMPLING_WARNING" />
+        </Event>
+      </EventCollection>
+      <UserInterface>
+        <MenuCollection>
+          <Menu id="ME_Ident">
+            <Name textId="T_M_Name_ME_Ident" />
+            <VariableRef variableId="V_VendorName"/>
+            <VariableRef variableId="V_VendorText"/>
+            <VariableRef variableId="V_ProductName"/>
+            <VariableRef variableId="V_ProductText"/>
+            <VariableRef variableId="V_ProductID"/>
+            <VariableRef variableId="V_SerialNumber"/>
+            <VariableRef variableId="V_HardwareRevision"/>
+            <VariableRef variableId="V_FirmwareRevision"/>
+            <VariableRef variableId="V_ApplicationSpecificTag" accessRightRestriction="rw" />
+          </Menu>
+          <Menu id="ME_Observation">
+            <Name textId="T_M_Name_ME_Observation" />
+            <VariableRef variableId="V_STROKES_PER_JAW" unitCode="1013" displayFormat="Dec.2" gradient="0.01" offset="0" accessRightRestriction="ro" />
+            <VariableRef variableId="V_TEMPERATURE" unitCode="1001" displayFormat="Dec.0" accessRightRestriction="ro" />
+            <VariableRef variableId="V_VOLTAGE" unitCode="1240" displayFormat="Dec.0" accessRightRestriction="ro" />
+            <VariableRef variableId="V_RAWDATAHALL_1" accessRightRestriction="ro" />
+            <VariableRef variableId="V_RAWDATAHALL_2" accessRightRestriction="ro" />
+            <VariableRef variableId="V_RAWDATAHALL_3" accessRightRestriction="ro" />
+          </Menu>
+          <Menu id="ME_Parameter">
+            <Name textId="T_M_Name_ME_Parameter" />
+            <MenuRef menuId="ME_Submenu_Parameter_Commands" />
+            <MenuRef menuId="ME_Submenu_Parameter_Teach" />
+            <VariableRef variableId="V_REPLY" accessRightRestriction="ro" />
+          </Menu>
+          <Menu id="ME_Diagnostic">
+            <Name textId="T_M_Name_ME_Diagnostic" />
+            <MenuRef menuId="ME_Submenu_Diagnostic_Device_Status"/>
+            <MenuRef menuId="ME_Submenu_Diagnostic_Monitoring"/>
+            <MenuRef menuId="ME_Submenu_Diagnostic_Teach"/>
+          </Menu>
+          <Menu id="ME_Submenu_Diagnostic_Device_Status">
+            <Name textId="TN_Submenu_Diagnostic_Device_Status"/>
+              <VariableRef variableId="V_DEVICE_STATUS" accessRightRestriction="ro" />
+			  <MenuRef menuId="ME_Submenu_Diagnostic_Device_Status_Detailed"/>
+			  <MenuRef menuId="ME_Submenu_Diagnostic_Last_Error"/>
+          </Menu>
+          <Menu id="ME_Submenu_Diagnostic_Device_Status_Detailed">
+            <Name textId="TN_Submenu_Diagnostic_Device_Status_Detailed"/>
+              <VariableRef variableId="V_DETAILED_DEVICE_STATUS_0" accessRightRestriction="ro" />
+              <VariableRef variableId="V_DETAILED_DEVICE_STATUS_1" accessRightRestriction="ro" />
+          </Menu>
+          <Menu id="ME_Submenu_Diagnostic_Last_Error">
+            <Name textId="TN_Submenu_Diagnostic_Device_Status_Last_Error"/>
+              <VariableRef variableId="V_EVENT_AND_FAULT_RECORDER_0" accessRightRestriction="ro" />
+              <VariableRef variableId="V_EVENT_AND_FAULT_RECORDER_1" accessRightRestriction="ro" />
+			  <VariableRef variableId="V_EVENT_AND_FAULT_RECORDER_2" accessRightRestriction="ro" />
+			  <VariableRef variableId="V_EVENT_AND_FAULT_RECORDER_3" accessRightRestriction="ro" />
+			  <VariableRef variableId="V_EVENT_AND_FAULT_RECORDER_4" accessRightRestriction="ro" />
+          </Menu>
+          <Menu id="ME_Submenu_Diagnostic_Monitoring">
+            <Name textId="TN_Submenu_Diagnostic_Monitoring"/>
+            <VariableRef variableId="V_NBROFBOOTEVENTS" accessRightRestriction="ro" />
+            <VariableRef variableId="V_OPERATINGHOURS" unitCode="1059" displayFormat="Dec.0" accessRightRestriction="ro" />
+            <VariableRef variableId="V_MINTEMPERATURE" unitCode="1001" displayFormat="Dec.0" accessRightRestriction="ro" />
+            <VariableRef variableId="V_MAXTEMPERATURE" unitCode="1001" displayFormat="Dec.0" accessRightRestriction="ro" />
+            <VariableRef variableId="V_ERRORMEMORY2" accessRightRestriction="ro" />
+            <VariableRef variableId="V_ERRORMEMORY3" accessRightRestriction="ro" />
+            <VariableRef variableId="V_ERRORMEMORY0" accessRightRestriction="ro" />
+            <VariableRef variableId="V_ERRORMEMORY1" accessRightRestriction="ro" />
+            <VariableRef variableId="V_OUTPUT_1_STATE" accessRightRestriction="ro" />
+            <VariableRef variableId="V_OUTPUT_2_STATE" accessRightRestriction="ro" />
+          </Menu>
+          <Menu id="ME_Submenu_Diagnostic_Teach">
+            <Name textId="TN_Submenu_Diagnostic_Teach"/>
+            <VariableRef variableId="V_NBROFALLTEACHINGEVENTS" accessRightRestriction="ro" />
+            <VariableRef variableId="V_NBROFFAILEDTEACHINGEVENTS" accessRightRestriction="ro" />
+            <VariableRef variableId="V_NBROFTEACHINGSAMPLES" accessRightRestriction="ro" />
+            <VariableRef variableId="V_TEMPERATUREDURINGTEACHING" unitCode="1001" displayFormat="Dec.0" accessRightRestriction="ro" />
+          </Menu>
+          <Menu id="ME_Submenu_Parameter_Commands">
+            <Name textId="TN_Submenu_Parameter_Commands"/>
+            <VariableRef variableId="V_BUTTONS">
+              <Button buttonValue="10">
+                <Description textId="TD_RestoreFactorySettings"/>
+                <ActionStartedMessage textId="T_RestoreFactory"/>
+              </Button>
+            </VariableRef>
+            <VariableRef variableId="V_BUTTONS">
+              <Button buttonValue="1">
+                <Description textId="TD_Save_Data"/>
+                <ActionStartedMessage textId="T_Save_Data"/>
+              </Button>
+            </VariableRef>
+            <VariableRef variableId="V_BUTTONS">
+              <Button buttonValue="2">
+                <Description textId="TD_Cancel"/>
+                <ActionStartedMessage textId="T_Cancel"/>
+              </Button>
+            </VariableRef>
+          </Menu>
+          <Menu id="ME_Submenu_Parameter_Teach">
+            <Name textId="TN_Submenu_Parameter_Teach"/>
+            <VariableRef variableId="V_TEACH_COMMAND" accessRightRestriction="wo" />
+            <VariableRef variableId="V_STROKE_PER_JAW" unitCode="1013" displayFormat="Dec.2" gradient="0.01" offset="0" accessRightRestriction="rw" />
+            <VariableRef variableId="V_MAGNETTEACHINGTOOL" accessRightRestriction="rw" />
+          </Menu>
+        </MenuCollection>
+        <ObserverRoleMenuSet>
+          <IdentificationMenu menuId="ME_Ident" />
+          <ObservationMenu menuId="ME_Observation" />
+        </ObserverRoleMenuSet>
+        <MaintenanceRoleMenuSet>
+          <IdentificationMenu menuId="ME_Ident" />
+          <ParameterMenu menuId="ME_Parameter" />
+          <ObservationMenu menuId="ME_Observation" />
+        </MaintenanceRoleMenuSet>
+        <SpecialistRoleMenuSet>
+          <IdentificationMenu menuId="ME_Ident" />
+          <ParameterMenu menuId="ME_Parameter" />
+          <ObservationMenu menuId="ME_Observation" />
+          <DiagnosisMenu menuId="ME_Diagnostic" />
+        </SpecialistRoleMenuSet>
+      </UserInterface>
+    </DeviceFunction>
+  </ProfileBody>
+  <CommNetworkProfile xsi:type="IOLinkCommNetworkProfileT" iolinkRevision="V1.1">
+    <TransportLayers>
+      <PhysicalLayer bitrate="COM2" minCycleTime="6000" sioSupported="true" mSequenceCapability="1">
+        <Connection xsi:type="M8ConnectionT" connectionSymbol="SCHUNK-MMS_IOL-M08-xxx-con-pic.png">
+          <ProductRef productId="0315830" />
+          <Description textId="TD_Connection_M8"></Description>
+          <Wire1 function="L+" color="BN" />
+          <Wire2 function="Other" color="WH" />
+          <Wire3 function="L-" color="BU"/>
+          <Wire4 function="C/Q" color="BK"/>
+        </Connection>
+        <Connection xsi:type="M12-4ConnectionT" connectionSymbol="SCHUNK-MMS_IOL-M12-xxx-con-pic.png">
+          <ProductRef productId="0315835" />
+          <Description textId="TD_Connection_M12_4"></Description>
+          <Wire1 function="L+" color="BN" />
+          <Wire2 function="Other" color="WH" />
+          <Wire3 function="L-" color="BU"/>
+          <Wire4 function="C/Q" color="BK"/>
+        </Connection>
+      </PhysicalLayer>
+    </TransportLayers>
+    <Test>
+      <Config1 index="253" testValue="0x01" />
+      <Config2 index="16382" testValue="0xab,0xbc,0xef" />
+      <Config3 index="254" testValue="0xa1,0xa2,0xa3,0xa4,0xa5,0xa6,0xa7,0xa8,0xa9,0xaa,0xab,0xac,0xad,0xae,0xaf" />
+      <Config7 index="252">
+        <EventTrigger appearValue="161" disappearValue="162" />
+        <EventTrigger appearValue="177" disappearValue="178" />
+      </Config7>
+    </Test>
+  </CommNetworkProfile>
+  <ExternalTextCollection>
+    <PrimaryLanguage xml:lang="en">
+      <Text id="T_VendorText" value="Schunk GmbH und Co.KG" />
+      <Text id="T_Device_Name" value="MMS xx-IOL-Mxx" />
+      <Text id="T_DeviceFamily" value="MMS" />
+      <Text id="T_VendorUrl" value="schunk.com" />
+
+      <Text id="T_Device_1_Name" value="MMS 22-IOL-M08" />
+      <Text id="T_Device_1_Description" value="magnetic position sensor" />
+
+      <Text id="T_Device_2_Name" value="MMS 22-IOL-M12" />
+      <Text id="T_Device_2_Description" value="magnetic position  sensor" />
+
+      <Text id="V_N_STROKES_PER_JAW" value="current Position" />
+      <Text id="V_D_STROKES_PER_JAW" value="current Position" />
+
+      <Text id="V_N_TEMPERATURE" value="current Temperature" />
+      <Text id="V_D_TEMPERATURE" value="current Temperature" />
+
+      <Text id="V_N_VOLTAGE" value="current Voltage" />
+      <Text id="V_D_VOLTAGE" value="current Voltage" />
+
+      <Text id="V_N_NBROFBOOTEVENTS" value="Boot Events" />
+      <Text id="V_D_NBROFBOOTEVENTS" value="Number of total Sensor Boot Events" />
+
+      <Text id="V_N_OPERATINGHOURS" value="Operating Hours" />
+      <Text id="V_D_OPERATINGHOURS" value="Number of total Sensor Operating Hours" />
+
+      <Text id="V_N_STROKE_PER_JAW" value="Stroke per jaw" />
+      <Text id="V_D_STROKE_PER_JAW" value="Stroke per jaw" />
+
+      <Text id="V_N_MAGNETTEACHINGTOOL" value="Magnet Teaching Tool" />
+      <Text id="V_D_MAGNETTEACHINGTOOL" value="Allow / Forbid the use of the Magnet-Teaching-Tool" />
+
+      <Text id="T_MAGNET_TEACHING_TOOL_ALLOWED" value="[0] Allowed"/>
+      <Text id="T_MAGNET_TEACHING_TOOL_DENIED" value="[1] Forbidden"/>
+
+      <Text id="V_N_NBROFALLTEACHINGEVENTS" value="Teaching Events" />
+      <Text id="V_D_NBROFALLTEACHINGEVENTS" value="Number of all successfull Sensor Teaching Events" />
+
+      <Text id="V_N_NBROFFAILEDTEACHINGEVENTS" value="Failed Teaching Events" />
+      <Text id="V_D_NBROFFAILEDTEACHINGEVENTS" value="Total Number of all failed Sensor Teaching Events" />
+
+      <Text id="V_N_MINTEMPERATURE" value="Minimum Temperature" />
+      <Text id="V_D_MINTEMPERATURE" value="Minimum Temperature over Sensor Lifetime" />
+
+      <Text id="V_N_MAXTEMPERATURE" value="Maximum Temperature" />
+      <Text id="V_D_MAXTEMPERATURE" value="Maximum Temperature over Sensor Lifetime" />
+
+      <Text id="V_N_ERRORMEMORY0" value="Undervoltage Events" />
+      <Text id="V_D_ERRORMEMORY0" value="Undervoltage Events" />
+
+      <Text id="V_N_ERRORMEMORY1" value="Overvoltage Events" />
+      <Text id="V_D_ERRORMEMORY1" value="Overvoltage Events" />
+
+      <Text id="V_N_ERRORMEMORY2" value="Undertemperature Events" />
+      <Text id="V_D_ERRORMEMORY2" value="Undertemperature Events" />
+
+      <Text id="V_N_ERRORMEMORY3" value="Overtemperature Events" />
+      <Text id="V_D_ERRORMEMORY3" value="Overtemperature Events" />
+
+      <Text id="V_N_DEVICE_STATUS" value="Device status" />
+      <Text id="V_D_DEVICE_STATUS" value="Device status" />
+  
+	  <Text id="V_N_DETAILED_DEVICE_STATUS_0" value="[1]" />
+      <Text id="V_D_DETAILED_DEVICE_STATUS_0" value="Detailed device status" />
+	  
+	  <Text id="V_N_DETAILED_DEVICE_STATUS_1" value="[2]" />
+      <Text id="V_D_DETAILED_DEVICE_STATUS_1" value="Detailed device status" />
+
+	  <Text id="V_N_EVENT_AND_FAULT_RECORDER_0" value="[1]" />
+      <Text id="V_D_EVENT_AND_FAULT_RECORDER_0" value="Error buffer element" />
+	  
+      <Text id="V_N_EVENT_AND_FAULT_RECORDER_1" value="[2]" />
+      <Text id="V_D_EVENT_AND_FAULT_RECORDER_1" value="Error buffer element" />
+
+      <Text id="V_N_EVENT_AND_FAULT_RECORDER_2" value="[3]" />
+      <Text id="V_D_EVENT_AND_FAULT_RECORDER_2" value="Error buffer element" />
+
+      <Text id="V_N_EVENT_AND_FAULT_RECORDER_3" value="[4]" />
+      <Text id="V_D_EVENT_AND_FAULT_RECORDER_3" value="Error buffer element" />
+
+      <Text id="V_N_EVENT_AND_FAULT_RECORDER_4" value="[5]" />
+      <Text id="V_D_EVENT_AND_FAULT_RECORDER_4" value="Error buffer element" />
+
+      <Text id="V_N_OUTPUT_1_STATE" value="State of Output 1" />
+      <Text id="V_D_OUTPUT_1_STATE" value="State of Output 1" />
+
+      <Text id="V_N_OUTPUT_2_STATE" value="State of Output 2" />
+      <Text id="V_D_OUTPUT_2_STATE" value="State of Output 2" />
+
+      <Text id="V_N_NBROFTEACHINGSAMPLES" value="Number of Teaching Samples" />
+      <Text id="V_D_NBROFTEACHINGSAMPLES" value="Total number of gathered samples during teaching for all 3 hall elements" />
+
+      <Text id="V_N_TEMPERATUREDURINGTEACHING" value="Temperature Teaching" />
+      <Text id="V_D_TEMPERATUREDURINGTEACHING" value="Sensor Temperature during teaching" />
+
+      <Text id="V_N_RAWDATAHALL_1" value="Hall 1" />
+      <Text id="V_D_RAWDATAHALL_1" value="Raw Data Hall 1" />
+
+      <Text id="V_N_RAWDATAHALL_2" value="Hall 2" />
+      <Text id="V_D_RAWDATAHALL_2" value="Raw Data Hall 2" />
+
+      <Text id="V_N_RAWDATAHALL_3" value="Hall 3" />
+      <Text id="V_D_RAWDATAHALL_3" value="Raw Data Hall 3" />
+
+      <Text id="V_N_REPLY" value="Sensor Command Reply" />
+      <Text id="V_D_REPLY" value="Read feedback Command from sensor" />
+
+      <Text id="T_REPLY_NO_PARAMETER" value="[0] No Parameter"/>
+      <Text id="T_REPLY_TEACHING_STARTED" value="[1] Teaching started"/>
+      <Text id="T_REPLY_FINISHED_TEACHING" value="[2] Teaching finished"/>
+      <Text id="T_REPLY_SAVING_DONE" value="[3] Saving data done"/>
+      <Text id="T_REPLY_CANCELED" value="[4] Canceled"/>
+      <Text id="T_REPLY_TEACH_ERROR" value="[5] Teach Error"/>
+      <Text id="T_REPLY_NOT_ALLOWED" value="[6] Command not allowed in this state"/>
+      <Text id="T_REPLY_PROGRAMMING_SUCCESSFUL" value="Programming successful." />
+	  <Text id="T_REPLY_FACTORY_SETTINGS_RESTORED" value="Factory settings restored." />
+
+      <Text id="V_N_TEACH_COMMAND" value="Sensor Teach command" />
+      <Text id="V_D_TEACH_COMMAND" value="Send a specific Teach Command to the Sensor" />
+
+      <Text id="T_TEACH_COMMAND_NO_COMMAND" value="[0] No command"/>
+      <Text id="T_TEACH_COMMAND_START_TEACHING_MAGNET_FIELD" value="[3] Start teaching Magnetic Field"/>
+
+      <Text id="T_N_EVENT_TEMP_LIMIT" value="Temperature limit event"/>
+      <Text id="T_D_EVENT_TEMP_LIMIT" value="Temperature exceeded or felt below known limits"/>
+      <Text id="T_N_EVENT_TEMP_CHANGE" value="Temperature change event"/>
+      <Text id="T_D_EVENT_TEMP_CHANGE" value="Temperature changed too fast"/>
+      <Text id="T_N_EVENT_FIELD_ERROR" value="Magnetic field event"/>
+      <Text id="T_D_EVENT_FIELD_ERROR" value="Magnetic field value exceeds or falls below known values"/>
+
+	  <Text id="V_T_DEVICE_OPERATIONAL" value="Device is OK." />
+      <Text id="V_T_DEVICE_FAILURE" value="Device failure." />
+	  <Text id="V_T_DEVICE_OUT_OF_SPECIFICATION" value="Device out of specification." />
+	  
+      <Text id="V_T_ERROR_0" value="-" />
+      <Text id="V_T_ERROR_1" value="Undervoltage" />
+      <Text id="V_T_ERROR_2" value="Overvoltage" />
+      <Text id="V_T_ERROR_3" value="Undertemperature" />
+      <Text id="V_T_ERROR_4" value="Overtemperature" />
+
+      <Text id="V_T_OUTPUT_ON" value="Output ON" />
+      <Text id="V_T_OUTPUT_OFF" value="Output OFF" />
+
+      <Text id="T_N_EVENT_SAMPLING_POINT_UNDERUN_ERROR" value="Sampling Point underrun"/>
+      <Text id="T_D_EVENT_SAMPLING_POINT_UNDERUN_ERROR" value="Too few Sampling Points during teaching"/>
+      
+      <Text id="T_N_EVENT_SAMPLING_POINT_OVERRUN_ERROR" value="Sampling Point overrun"/>
+      <Text id="T_D_EVENT_SAMPLING_POINT_OVERRUN_ERROR" value="Too much Sampling Points during teaching"/>
+
+      <Text id="T_N_EVENT_TEACHING_STARTED_NOTIFICATION" value="Teaching started"/>
+      <Text id="T_D_EVENT_TEACHING_STARTED_NOTIFICATION" value="Teaching Routine is started"/>
+      <Text id="T_N_EVENT_TEACHING_FINISH_NOTIFICATION" value="Teaching finished"/>
+      <Text id="T_D_EVENT_TEACHING_FINISH_NOTIFICATION" value="Teaching Routine is finished"/>
+      <Text id="T_N_EVENT_SAVE_DATA_DONE_NOTIFICATION" value="Saving data done"/>
+      <Text id="T_D_EVENT_SAVE_DATA_DONE_NOTIFICATION" value="Saving data done"/>
+      <Text id="T_N_EVENT_OPERATION_CANCELED_NOTIFICATION" value="Canceled"/>
+      <Text id="T_D_EVENT_OPERATION_CANCELED_NOTIFICATION" value="Canceled actual Command"/>
+      <Text id="T_N_EVENT_TEACH_ERROR_NOTIFICATION" value="Teach Error"/>
+      <Text id="T_D_EVENT_TEACH_ERROR_NOTIFICATION" value="Teaching Error occured during Teach Routine"/>
+      <Text id="T_N_EVENT_COMMAND_NOT_ALLOWED_NOTIFICATION" value="Command not allowed"/>
+      <Text id="T_D_EVENT_COMMAND_NOT_ALLOWED_NOTIFICATION" value="Command not allowed in actual State"/>
+      <Text id="T_N_EVENT_NO_MAGNETIC_FIELD_LEARNED" value="No Magnetic Field learned"/>
+      <Text id="T_D_EVENT_NO_MAGNETIC_FIELD_LEARNED" value="Magnetic Field needs to be learned first !"/>
+      <Text id="T_N_EVENT_TEACHING_SUCCESSFULL" value="Programming successful."/>
+      <Text id="T_D_EVENT_TEACHING_SUCCESSFULL" value="Programming successful."/>
+      <Text id="T_N_EVENT_FACTORY_SETTINGS_RESTORED" value="Factory settings have been restored."/>
+      <Text id="T_D_EVENT_FACTORY_SETTINGS_RESTORED" value="Factory settings have been restored."/>
+	  <Text id="T_N_EVENT_SAMPLING_WARNING" value="Teaching samples to low."/>
+      <Text id="T_D_EVENT_SAMPLING_WARNING" value="The teaching samples are to low. This can cause a bad repeatability. Please check the technical documentation of the sensor. "/>
+
+      <Text id="V_D_PD_IN" value="current Position" />
+
+      <Text id="T_M_Name_ME_Ident" value="Main Menu" />
+      <Text id="T_M_Name_ME_Parameter" value="Parameter Menu" />
+      <Text id="T_M_Name_ME_Observation" value="Observation Menu" />
+      <Text id="T_M_Name_ME_Diagnostic" value="Diagnostic Menu" />
+
+      <Text id="TN_Submenu_Diagnostic_Device_Status" value="Device Status"/>
+      <Text id="TN_Submenu_Diagnostic_Device_Status_Detailed" value="Detailed Device Status"/>
+      <Text id="TN_Submenu_Diagnostic_Device_Status_Last_Error" value="Last Error"/>
+      <Text id="TN_Submenu_Diagnostic_Monitoring" value="Monitoring"/>
+      <Text id="TN_Submenu_Diagnostic_Teach" value="Teach"/>
+
+      <Text id="TN_Submenu_Parameter_Commands" value="Commands"/>
+      <Text id="TN_Submenu_Parameter_Teach" value="Teach"/>
+
+      <Text id="TN_Buttons" value="Standard command"/>
+      
+      <Text id="TN_RestoreFactroySettings" value="Restore Factory Settings"/>
+      <Text id="TD_RestoreFactorySettings" value="Pressing this button restores the Sensor Factory Settings"/>
+      <Text id="T_RestoreFactory" value="Factory Restore is now in progress!"/>
+
+      <Text id="TN_Save_Data" value="Save Data"/>
+      <Text id="TD_Save_Data" value="Pressing this button stores all unsaved Data"/>
+      <Text id="T_Save_Data" value="Saving Data is now in progress!"/>
+
+      <Text id="TN_Cancel" value="Cancel"/>
+      <Text id="TD_Cancel" value="Pressing this button cancel the actual Operation"/>
+      <Text id="T_Cancel" value="Cancel is now in progress!"/>
+
+      <Text id="TD_Connection_M8" value="Direct M8 Connection"/>
+      <Text id="TD_Connection_M12_4" value="Direct M12-4 Connection"/>
+
+      <!--COMMENT -->
+
+    </PrimaryLanguage>
+
+  </ExternalTextCollection>
+  <Stamp crc="1806319463"><Checker name="IODD-Checker V1.1.4" version="V1.1.4.0"/></Stamp>
+</IODevice>

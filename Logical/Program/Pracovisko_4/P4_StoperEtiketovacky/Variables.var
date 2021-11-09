@@ -1,0 +1,51 @@
+VAR
+	SC_OvlCentrovacky : SequenceControlTyp;
+	Centrovacku_VYSUN : BOOL;
+	Centrovacku_ZASUN : BOOL;
+	PrecitaneCisloPaletky : STRING[3];
+	ServerOdpoved_StavPowerCP : STRING[5];
+	i : USINT;
+	SC_OvlZdvihu : SequenceControlTyp;
+	Zdvih_JoggDOLE : BOOL;
+	Zdvih_JoggHORE : BOOL;
+	Zdvih_POLOHUJ : BOOL;
+	Zdvih_HOME : BOOL;
+	Zdvih_STOP : BOOL;
+	ZadanaPoziciaUINT : UINT;
+	AktualnaPoziciaUINT : UINT;
+	CasPowerON : TON;
+	TEST : BOOL;
+	TestovaciKus : BOOL;
+	Revork : BOOL;
+	Server_CasDopytu : TON;
+	Server_NameranyCasDopytu : TIME;
+	Server_CasVyziadSeriovehoCisla : TON;
+	Server_NamerCasVyziadSerCisla : TIME;
+	Server_CasOdoslaniaStavu : TON;
+	Server_NamerCasOdosielania : TIME;
+END_VAR
+(************Ovládanie Komunikácie s tlaèiaròou*******************)
+VAR
+	Client : Client_typ;
+	Tlaciaren : Tlaciaren_typ;
+END_VAR
+(************Etiketa pre Panasonic**************************)
+VAR
+	EtiketaPanasonic : EtiketaPanasonic_typ;
+	SerioveCisloEtikety : STRING[31];
+	VstupnePoleUSINT : ARRAY[1..31] OF USINT;
+	PocetDopytovNaServer : USINT;
+	CasZastaveniaServa : TON;
+	CasPosielaniaFotky : TON;
+	Triger_0 : BOOL;
+	Triger_1 : BOOL;
+	CisloFotky : USINT;
+END_VAR
+(******Zápis do ParID serva*************)
+VAR
+	MC_BR_ProcessParID_AcpAx_0 : MC_BR_ProcessParID_AcpAx := (0);
+	McAcpAxProcessParIDType_0 : ARRAY[0..1] OF McAcpAxProcessParIDType;
+	NovaHodnotaMomentu_POS : REAL := 0.0;
+	NovaHodnotaMomentu_NEG : REAL := 0.0;
+	PocetTrigrovKamery : USINT;
+END_VAR

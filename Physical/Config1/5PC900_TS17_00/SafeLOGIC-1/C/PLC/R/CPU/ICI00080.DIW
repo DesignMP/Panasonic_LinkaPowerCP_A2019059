@@ -1,0 +1,18 @@
+(*
+QWS: 00015
+*)
+00001	00058	POE\Main\Variables.vbb
+00002	00000	POE\Main\Main.gb
+00003	00000	POE\Main\ZonaCS.gb
+00004	00000	POE\Main\VyblokovanieSafety.gb
+00005	00004	POE\Main\ZamkyBuniek.gb
+00006	00000	POE\Main\BarieryBuniek.gb
+00007	00000	POE\Main\P1_ZonaVytah.gb
+00008	00000	POE\Main\P1_ZonaBunky.gb
+00009	00000	POE\Main\P4_ZonaBunky.gb
+00010	00000	POE\Main\P2_ZonaZaklTesneniaPojazd.gb
+00011	00000	POE\Main\P2_ZonaZaklTesneniaZdvih.gb
+00012	00000	POE\Main\P2_ZonaMaticovacky.gb
+00013	00000	POE\Main\P2_ZonaBunky.gb
+00014	00000	POE\Main\P3_ZonaBunky.gb
+00015	00000	POE\Main\P4_ZonaVytah.gb

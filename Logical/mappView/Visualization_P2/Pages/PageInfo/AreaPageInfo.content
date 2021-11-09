@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="AreaPageInfoP2" height="588" width="1366" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Image" id="Image1" top="0" left="0" width="1366" height="588" zIndex="0" image="Media/Pozadie/BackGround_588x1366.png" opacity="0.2" />
+    <Widget xsi:type="widgets.brease.Image" id="Image2" top="146" left="98" width="368" height="140" zIndex="1" image="Media/Pictures/DMP_LogoPriesvitne.jpg" backColor="rgba(255, 255, 255, 0)" borderStyle="ridge" borderWidth="8px" cornerRadius="8px" shadow="4px 4px 14px rgba(0, 0, 0, 1)" />
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="162" left="758" width="280" height="42" zIndex="2" text="Design MP s.r.o." fontSize="35px" bold="true" shadow="4px 4px 14px rgba(0, 0, 0, 1)" />
+    <Widget xsi:type="widgets.brease.Label" id="Label3" top="240" left="758" width="214" zIndex="3" text="Ulica SNP 10/106" fontSize="20px" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label4" top="282" left="758" width="258" zIndex="4" text="Liptovský Mikuláš" fontSize="20px" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label5" top="322" left="758" zIndex="5" text="031 01" fontSize="20px" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label6" top="390" left="758" width="258" zIndex="6" text="Telefón.: +421 445 528 302" fontSize="20px" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label7" top="436" left="758" width="298" zIndex="7" text="Email.: info@designmp.sk" fontSize="20px" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label8" top="484" left="758" width="284" zIndex="8" text="Web.: www.designmp.sk" fontSize="20px" bold="true" />
+  </Widgets>
+</Content>

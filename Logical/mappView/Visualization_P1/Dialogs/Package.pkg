@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.5.60 SP?>
+<Package SubType="DialogsPackage" PackageType="DialogsPackage" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package">LoginDialog</Object>
+    <Object Type="Package">TimeDialog</Object>
+    <Object Type="Package">Hlasenie1_ST1</Object>
+    <Object Type="Package">Hlasenie2_ST1</Object>
+    <Object Type="Package">Hlasenie3_ST1</Object>
+    <Object Type="Package">Hlasenie4_ST1</Object>
+    <Object Type="Package">Hlasenie5_ST1</Object>
+    <Object Type="Package">Hlasenie6_ST1</Object>
+    <Object Type="Package">Hlasenie7_ST1</Object>
+    <Object Type="Package">Hlasenie8_ST1</Object>
+    <Object Type="Package">Hlasenie9_ST1</Object>
+    <Object Type="Package">Hlasenie10_ST1</Object>
+    <Object Type="Package">Hlasenie11_ST1</Object>
+    <Object Type="Package">Hlasenie12_ST1</Object>
+    <Object Type="Package">Hlasenie13_ST1</Object>
+    <Object Type="Package">Hlasenie14_ST1</Object>
+    <Object Type="Package" Description="Model_4F">Hlasenie1_ST2</Object>
+    <Object Type="Package" Description="Model_4F">Hlasenie2_ST2</Object>
+    <Object Type="Package" Description="Model_4F">Hlasenie3_ST2</Object>
+    <Object Type="Package" Description="Model_5F">Hlasenie4_ST2</Object>
+    <Object Type="Package" Description="Model_5F">Hlasenie5_ST2</Object>
+    <Object Type="Package" Description="Model_5F">Hlasenie6_ST2</Object>
+    <Object Type="Package" Description="Model_5H">Hlasenie7_ST2</Object>
+    <Object Type="Package" Description="Model_5H">Hlasenie8_ST2</Object>
+    <Object Type="Package">Hlasenie9_ST2</Object>
+  </Objects>
+</Package>

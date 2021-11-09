@@ -1,0 +1,27 @@
+VAR
+	SC_OvlCentrovacky : SequenceControlTyp;
+	Centrovacku_VYSUN : BOOL;
+	Centrovacku_ZASUN : BOOL;
+	PrecitaneCisloPaletky : STRING[3];
+	ServerOdpoved_StavPowerCP : STRING[5];
+	i : USINT;
+	Triger_0 : BOOL;
+	TEST : BOOL;
+	CasSrobovania : REAL;
+	PocetDopytovNaServer : USINT;
+	DosiahnutyMoment_REAL : REAL;
+	Moment_ToleranciaMAX_REAL : REAL;
+	Moment_ToleranciaMIN_REAL : REAL;
+	M4_PrevodMomentu : PrevodMomentu;
+	FazaNavratu : UINT;
+	CasKontrolyZasobMatic_M4 : TON;
+	TestovaciKus : BOOL;
+	Revork : BOOL;
+	Triger_1 : BOOL;
+	Triger_2 : BOOL;
+	CisloFotky : USINT;
+	Round_0 : Round;
+	a : USINT;
+	VysunutieSkrutkovacky_OK : BOOL;
+	PocetTrigrovKamery : USINT;
+END_VAR

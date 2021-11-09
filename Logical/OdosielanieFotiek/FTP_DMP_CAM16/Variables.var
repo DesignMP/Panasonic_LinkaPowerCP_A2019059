@@ -1,0 +1,36 @@
+VAR
+	SC_Devlink : SequenceControlTyp;
+	DevLink_0 : DevLink;
+	DevUnlink_0 : DevUnlink;
+	DevLink_1 : DevLink;
+	DevUnlink_1 : DevUnlink;
+	DirInfo_0 : DirInfo;
+	DirRead_0 : DirRead;
+	FileRename_0 : FileRename;
+	FileDelete_0 : FileDelete;
+	FileCopy_0 : FileCopy;
+	DirCreate_0 : DirCreate;
+	i : UDINT;
+	FileList : ARRAY[0..100] OF STRING[100];
+	ReadData : fiDIR_READ_DATA; (*data-structure for command bDirRead*)
+	ID_Adresara1 : UDINT;
+	ID_Adresara2 : UDINT;
+	PocetNajdenychAdresarov : UDINT;
+	PocetNajdenychSuborov : UDINT;
+	PocetPremenovanychSuborov : UDINT;
+	PocetSkopirovanychSuborov : UDINT;
+	PocetVymazanychSuborov : UDINT;
+	StaryNazovSuboru : STRING[200];
+	NovyNazovSuboru : STRING[200];
+	ZdrojKopirovaniaSuboru : STRING[200];
+	CielKopirovaniaSuboru : STRING[200];
+	CisloAlarmu : USINT;
+	AdresarPrazdny : BOOL;
+	StruktNovehoNazvuSuboru : StrukturaNovehoNazvuSuboru_typ;
+	StruktNovehoNazvuAdresara : StrukturaNovehoNazvuAdresara_typ;
+	NazovAdresara_LINKA : STRING[50];
+	NazovPodAdresara_PRACOVISKO : STRING[50];
+	NazovPodAdresara_ROK : STRING[50];
+	NazovPodAdresara_DATUM : STRING[50];
+	PocetHladaniFotky : UDINT;
+END_VAR

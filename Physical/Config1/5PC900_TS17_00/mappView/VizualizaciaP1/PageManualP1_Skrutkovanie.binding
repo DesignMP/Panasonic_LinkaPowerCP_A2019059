@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="PageManualP1_Skrutkovanie_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Bindings>
+  
+	
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_StoperSrobovania.IN.Centrovanie_VYSUNUTE_IS62" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie" widgetRefId="ImageList4" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_StoperSrobovania.IN.Centrovanie_ZASUNUTE_IS63" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie" widgetRefId="ImageList5" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_StoperSrobovania.IN.PritomnostPaletky_S16" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie" widgetRefId="ImageList19" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_StoperSrobovania.OUT.ZasunStoper_YV110" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie" widgetRefId="ToggleSwitch_Stoper" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.Srobovanie_OvlManipOsY_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie" widgetRefId="MomentaryPushButton_JoggOsY_VPRED" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.Srobovanie_OvlManipOsX_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie" widgetRefId="MomentaryPushButton_JoggOsX_VPRED" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.Srobovanie_OvlManipOsX_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie" widgetRefId="MomentaryPushButton_JoggOsX_VZAD" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.Srobovanie_OvlManipOsY_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie" widgetRefId="MomentaryPushButton_JoggOsY_VZAD" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.STAV.OsY_HomingOK" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie" widgetRefId="ImageList7" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.STAV.OsX_HomingOK" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie" widgetRefId="ImageList6" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::P1_Srobova:OsX_JoggVPRED" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie" widgetRefId="MomentaryPushButton_JoggOsX_VPRED" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::P1_Srobova:OsX_JoggVZAD" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie" widgetRefId="MomentaryPushButton_JoggOsX_VZAD" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::P1_Srobova:OsY_JoggVZAD" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie" widgetRefId="MomentaryPushButton_JoggOsY_VZAD" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::P1_Srobova:OsY_JoggVPRED" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie" widgetRefId="MomentaryPushButton_JoggOsY_VPRED" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.STAV.OsX_AktualnaPozicia" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie" widgetRefId="NumericOutput_OsX_AktualnaPozicia" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.STAV.OsY_AktualnaPozicia" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie" widgetRefId="NumericOutput_OsY_AktualnaPozicia" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.PAR.OsX_JoggRychlost" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie" widgetRefId="NumericInput_OsX_ZadanaRychlost" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.PAR.OsY_JoggRychlost" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie" widgetRefId="NumericInput_OsY_ZadanaRychlost" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.IN.ManipulOsY_LimSnimacNEG_IS40" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie" widgetRefId="ImageList18" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.IN.ManipulOsY_LimSnimacPOS_IS41" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie" widgetRefId="ImageList17" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.IN.ManipulOsX_LimSnimacNEG_IS42" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie" widgetRefId="ImageList16" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.IN.ManipulOsX_LimSnimacPOS_IS43" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie" widgetRefId="ImageList15" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.RR_SkrutkovackuK30_VYSUN" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page2" widgetRefId="ToggleSwitch_VysunutieSkrutkovackyK30" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.OUT.SkrutkK30_PrisavSkrutky_RUN_YV90" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page2" widgetRefId="ToggleSwitch_PrisavanieSkrutkyK30" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.IN.SkrutkK30_VysunutieHrotu_IOS8" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page2" widgetRefId="NumericOutput_PoziciaVysunutiaSkrutkovackyK30" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.STAV.Cistenie_K30_BUSY" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page2" widgetRefId="ImageList7" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.IN.SkrutkK30_ZASUNUTY_MS20" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page2" widgetRefId="ImageList18" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.RR_CistenieSkrutkovaciek_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page2" widgetRefId="Button_CistenieSkrutkovackyK30" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.STAV.Cistenie_M4_BUSY" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page2" widgetRefId="ImageList11" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.RR_CistenieSkrutkovaciek_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page2" widgetRefId="Button_CistenieSkrutkovackyM4" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.IN.SkrutkM4_VysunutieHrotu_IOS10" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page2" widgetRefId="NumericOutput_PoziciaVysunutiaSkrutkovackyM4" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.IN.SkrutkM4_ZASUNUTY_MS17" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page2" widgetRefId="ImageList19" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.IN.SkrutkM5_ZASUNUTY_MS39" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page2" widgetRefId="ImageList20" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.IN.SkrutkM5_VysunutieHrotu_IOS9" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page2" widgetRefId="NumericOutput_PoziciaVysunutiaSkrutkovackyM5" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.STAV.Podanie_M5_BUSY" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page2" widgetRefId="ImageList9" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.OUT.SkrutkM4_PrisavSkrutky_RUN_YV81" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page2" widgetRefId="ToggleSwitch_PrisavanieSkrutkyM4" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.RR_SkrutkovackuM4_VYSUN" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page2" widgetRefId="ToggleSwitch_VysunutieSkrutkovackyM4" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.RR_PrisavanieSkrutkyM5" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page2" widgetRefId="ToggleSwitch_PrisavanieSkrutkyM5" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.RR_SkrutkovackuM5_VYSUN" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page2" widgetRefId="ToggleSwitch_VysunutieSkrutkovackyM5" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.IN.ZasobSrobM4_PRAZDNY_IS44" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page3" widgetRefId="ImageList20" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.IN.ZasobSrobK30_PRAZDNY_IS49" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page3" widgetRefId="ImageList19" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.RR_ZapniVibrolistu_M5" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page3" widgetRefId="ToggleSwitch_VibracieVibrolistyM5" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.RR_ZapniHrniec_M5" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page3" widgetRefId="ToggleSwitch_VibracieZasobnikaM5" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.RR_ZapniHrniec_M4" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page3" widgetRefId="ToggleSwitch_VibracieZasobnikaM4" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.RR_ZapniHrniec_K30" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page3" widgetRefId="ToggleSwitch_VibracieZasobnikaK30" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.IN.ZasobSrobM5_PRAZDNY_IS53" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page3" widgetRefId="ImageList21" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.IN.VibrolistaSrobM5_KONIEC_OS9" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page3" widgetRefId="ImageList22" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.IN.OddelSrobM5_OtocenyVPRED_MS37" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page3" widgetRefId="ImageList23" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.IN.OddelSrobM5_OtocenyVZAD_MS38" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page3" widgetRefId="ImageList24" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.IN.OddelSrobM5_SrobaNaVstupe_OS13" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page3" widgetRefId="ImageList25" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.IN.OddelSrobM5_SrobaNaVystupe_OS14" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page3" widgetRefId="ImageList26" attribute="selectedIndex" />
+        </Binding>
+
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.RR_PozicieSkrutiek_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page2" widgetRefId="DropDownBox1" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.RR_PozicieSkrutiek_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page2" widgetRefId="Button_TestPozicii_4F" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.RR_PozicieSkrutiek_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page2" widgetRefId="Button_TestPozicii_5F" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.RR_PozicieSkrutiek_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page2" widgetRefId="DropDownBox2" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.RR_PozicieSkrutiek_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page2" widgetRefId="DropDownBox3" attribute="enable" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.PAR.RR_IndexPozicieSkrutky_5H" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page2" widgetRefId="DropDownBox3" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.PAR.RR_IndexPozicieSkrutky_5F" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page2" widgetRefId="DropDownBox2" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobovanie.PAR.RR_IndexPozicieSkrutky_4F" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page2" widgetRefId="DropDownBox1" attribute="selectedIndex" />
+        </Binding>
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.RR_PozicieSkrutiek_ENABLE" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP1_Skrutkovanie_page2" widgetRefId="Button_TestPozicii_5H" attribute="enable" />
+</Binding>
+</Bindings>
+</BindingsSet>

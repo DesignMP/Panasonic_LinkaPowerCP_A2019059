@@ -1,0 +1,426 @@
+﻿{GroupDefinition(0,'SafetyVstupy')}
+{GroupDefinition(67,'SafetyVystupy')}
+{GroupDefinition(96,'Vstupy_z_PLC_do_Safety')}
+{GroupDefinition(142,'Vystupy_zo_Safety_do_PLC')}
+{GroupDefinition(187,'Statusy')}
+
+VAR_GLOBAL {Group(0)}
+    {LINE(1)}
+    siP2_CS_Robot_CH1 AT %IX64.0 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM20.SafeDigitalInput01')};
+    {LINE(2)}
+    siP2_CS_Robot_CH2 AT %IX64.1 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM20.SafeDigitalInput02')};
+    {LINE(3)}
+    siP2_CS_Panel_CH1 AT %IX64.2 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM20.SafeDigitalInput03')};
+    {LINE(4)}
+    siP2_CS_Panel_CH2 AT %IX64.3 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM20.SafeDigitalInput04')};
+    {LINE(5)}
+    siP2_VyblokovanieSafety_CH1 AT %IX64.4 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM20.SafeDigitalInput05')};
+    {LINE(6)}
+    siP2_VyblokovanieSafety_CH2 AT %IX64.5 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM20.SafeDigitalInput06')};
+    {LINE(7)}
+    siP2_CS_Rozvadzac_CH1 AT %IX64.6 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM20.SafeDigitalInput07')};
+    {LINE(8)}
+    siP2_CS_Rozvadzac_CH2 AT %IX64.7 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM20.SafeDigitalInput08')};
+    {LINE(9)}
+    siP2_Snimac_ZaklTesnPojazd_CH1 AT %IX65.0 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM20.SafeDigitalInput09')};
+    {LINE(10)}
+    siP2_Snimac_ZaklTesnPojazd_CH2 AT %IX65.1 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM20.SafeDigitalInput10')};
+    {LINE(11)}
+    siP2_Bumper_ZaklTesnPojazd_CH1 AT %IX65.4 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM20.SafeDigitalInput13')};
+    {LINE(12)}
+    siP2_Bumper_ZaklTesnPojazd_CH2 AT %IX65.5 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM20.SafeDigitalInput14')};
+    {LINE(13)}
+    siP2_ZamkyBunky_CH1 AT %IX96.0 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM23.SafeDigitalInput01')};
+    {LINE(14)}
+    siP2_ZamkyBunky_CH2 AT %IX96.1 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM23.SafeDigitalInput02')};
+    {LINE(15)}
+    siP2_Bariera_ZaklTesn_CH1 AT %IX96.2 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM23.SafeDigitalInput03')};
+    {LINE(16)}
+    siP2_Bariera_ZaklTesn_CH2 AT %IX96.3 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM23.SafeDigitalInput04')};
+    {LINE(17)}
+    siP2_CS_DvojrucneOvladanie_CH1 AT %IX96.4 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM23.SafeDigitalInput05')};
+    {LINE(18)}
+    siP2_CS_DvojrucneOvladanie_CH2 AT %IX96.5 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM23.SafeDigitalInput06')};
+    {LINE(19)}
+    siP2_Bariera_Bunky_CH1 AT %IX100.0 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM24.SafeDigitalInput01')};
+    {LINE(20)}
+    siP2_Bariera_Bunky_CH2 AT %IX100.1 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM24.SafeDigitalInput02')};
+    {LINE(21)}
+    siP2_DvojrucneOvlad_CH1 AT %IX100.4 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM24.SafeDigitalInput05')};
+    {LINE(22)}
+    siP2_DvojrucneOvlad_CH2 AT %IX100.6 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM24.SafeDigitalInput07')};
+    {LINE(23)}
+    siP1_CS_Robot_CH1 AT %IX56.0 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM10.SafeDigitalInput01')};
+    {LINE(24)}
+    siP1_CS_Robot_CH2 AT %IX56.1 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM10.SafeDigitalInput02')};
+    {LINE(25)}
+    siP1_ZamkyBunky_CH1 AT %IX104.0 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM4.SafeDigitalInput01')};
+    {LINE(26)}
+    siP1_ZamkyBunky_CH2 AT %IX104.1 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM4.SafeDigitalInput02')};
+    {LINE(27)}
+    siP1_Bariera_Vytah_CH1 AT %IX104.2 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM4.SafeDigitalInput03')};
+    {LINE(28)}
+    siP1_Bariera_Vytah_CH2 AT %IX104.3 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM4.SafeDigitalInput04')};
+    {LINE(29)}
+    siP1_BarieraBunky_CH1 AT %IX108.0 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM5.SafeDigitalInput01')};
+    {LINE(30)}
+    siP1_BarieraBunky_CH2 AT %IX108.1 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM5.SafeDigitalInput02')};
+    {LINE(31)}
+    siP1_Bariera_VystupTunela_CH1 AT %IX108.2 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM5.SafeDigitalInput03')};
+    {LINE(32)}
+    siP1_Bariera_VystupTunela_CH2 AT %IX108.3 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM5.SafeDigitalInput04')};
+    {LINE(33)}
+    siP1_CS_Panel_CH1 AT %IX56.2 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM10.SafeDigitalInput03')};
+    {LINE(34)}
+    siP1_CS_Panel_CH2 AT %IX56.3 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM10.SafeDigitalInput04')};
+    {LINE(35)}
+    siP1_VyblokovanieSafety_CH1 AT %IX56.4 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM10.SafeDigitalInput05')};
+    {LINE(36)}
+    siP1_VyblokovanieSafety_CH2 AT %IX56.5 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM10.SafeDigitalInput06')};
+    {LINE(37)}
+    siP1_CS_Rozvadzac_CH1 AT %IX56.6 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM10.SafeDigitalInput07')};
+    {LINE(38)}
+    siP1_CS_Rozvadzac_CH2 AT %IX56.7 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM10.SafeDigitalInput08')};
+    {LINE(39)}
+    siP1_Vytah_SnimacHornaPoz_CH1 AT %IX57.0 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM10.SafeDigitalInput09')};
+    {LINE(40)}
+    siP1_Vytah_SnimacHornaPoz_CH2 AT %IX57.1 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM10.SafeDigitalInput10')};
+    {LINE(41)}
+    siP3_CS_Rozvadzac_CH1 AT %IX76.2 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM30.SafeDigitalInput03')};
+    {LINE(42)}
+    siP3_CS_Rozvadzac_CH2 AT %IX76.3 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM30.SafeDigitalInput04')};
+    {LINE(43)}
+    siP3_VyblokovanieSafety_CH1 AT %IX76.0 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM30.SafeDigitalInput01')};
+    {LINE(44)}
+    siP3_VyblokovanieSafety_CH2 AT %IX76.1 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM30.SafeDigitalInput02')};
+    {LINE(45)}
+    siP3_ZamkyBunky_CH1 AT %IX76.6 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM30.SafeDigitalInput07')};
+    {LINE(46)}
+    siP3_ZamkyBunky_CH2 AT %IX76.7 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM30.SafeDigitalInput08')};
+    {LINE(47)}
+    siP3_Bariera_VstupBunky_CH1 AT %IX112.0 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM32.SafeDigitalInput01')};
+    {LINE(48)}
+    siP3_Bariera_VstupBunky_CH2 AT %IX112.1 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM32.SafeDigitalInput02')};
+    {LINE(49)}
+    siP3_Bariera_VystupBunky_CH1 AT %IX112.2 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM32.SafeDigitalInput03')};
+    {LINE(50)}
+    siP3_Bariera_VystupBunky_CH2 AT %IX112.3 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM32.SafeDigitalInput04')};
+    {LINE(51)}
+    siP4_CS_Panel_CH1 AT %IX84.2 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM40.SafeDigitalInput03')};
+    {LINE(52)}
+    siP4_CS_Panel_CH2 AT %IX84.3 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM40.SafeDigitalInput04')};
+    {LINE(53)}
+    siP4_CS_Rozvadzac_CH1 AT %IX84.0 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM40.SafeDigitalInput01')};
+    {LINE(54)}
+    siP4_CS_Rozvadzac_CH2 AT %IX84.1 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM40.SafeDigitalInput02')};
+    {LINE(55)}
+    siP4_VyblokovanieSafety_CH1 AT %IX84.4 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM40.SafeDigitalInput05')};
+    {LINE(56)}
+    siP4_VyblokovanieSafety_CH2 AT %IX84.5 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM40.SafeDigitalInput06')};
+    {LINE(57)}
+    siP4_Vytah_SnimacHornaPoz_CH1 AT %IX84.6 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM40.SafeDigitalInput07')};
+    {LINE(58)}
+    siP4_Vytah_SnimacHornaPoz_CH2 AT %IX84.7 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM40.SafeDigitalInput08')};
+    {LINE(59)}
+    siP4_ZamkyBunky_CH1 AT %IX120.0 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM43.SafeDigitalInput01')};
+    {LINE(60)}
+    siP4_ZamkyBunky_CH2 AT %IX120.1 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM43.SafeDigitalInput02')};
+    {LINE(61)}
+    siP4_Bariera_Vytah_CH1 AT %IX120.2 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM43.SafeDigitalInput03')};
+    {LINE(62)}
+    siP4_Bariera_Vytah_CH2 AT %IX120.3 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM43.SafeDigitalInput04')};
+    {LINE(63)}
+    siP4_Bariera_VstupBunky_CH1 AT %IX116.0 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM42.SafeDigitalInput01')};
+    {LINE(64)}
+    siP4_Bariera_VstupBunky_CH2 AT %IX116.1 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM42.SafeDigitalInput02')};
+    {LINE(65)}
+    siP4_Bariera_VystupBunky_CH1 AT %IX116.2 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM42.SafeDigitalInput03')};
+    {LINE(66)}
+    siP4_Bariera_VystupBunky_CH2 AT %IX116.3 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM42.SafeDigitalInput04')};
+END_VAR
+
+VAR_GLOBAL {Group(67)}
+    {LINE(68)}
+    soP2_ZonaCS AT %QX18.0 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM21.SafeDigitalOutput01')};
+    {LINE(69)}
+    soP2_ZonaBunka AT %QX18.2 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM21.SafeDigitalOutput03')};
+    {LINE(70)}
+    soP2_ZonaZaklTesnPojazd AT %QX18.1 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM21.SafeDigitalOutput02')};
+    {LINE(71)}
+    Release_P2_ZonaSkrutkovMatic AT %QX136.0 : BOOL {Custom('SL1.SM22.ReleaseOutput01')};
+    {LINE(72)}
+    Release_P2_ZonaZaklTesnZdvih AT %QX136.2 : BOOL {Custom('SL1.SM22.ReleaseOutput03')};
+    {LINE(73)}
+    soP2_ZonaSkrutkovacaMatic AT %QX30.0 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM22.SafeDigitalOutput01')};
+    {LINE(74)}
+    soP2_ZonaZaklTesnZdvih AT %QX30.2 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM22.SafeDigitalOutput03')};
+    {LINE(75)}
+    Release_P2_ZonaCS AT %QX133.0 : BOOL {Custom('SL1.SM21.ReleaseOutput01')};
+    {LINE(76)}
+    Release_P2_ZonaBunka AT %QX133.2 : BOOL {Custom('SL1.SM21.ReleaseOutput03')};
+    {LINE(77)}
+    Release_P2_ZonaZaklTesnPojazd AT %QX133.1 : BOOL {Custom('SL1.SM21.ReleaseOutput02')};
+    {LINE(78)}
+    soP1_ZonaCS AT %QX14.0 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM11.SafeDigitalOutput01')};
+    {LINE(79)}
+    soP1_ZonaVytah AT %QX14.1 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM11.SafeDigitalOutput02')};
+    {LINE(80)}
+    soP1_ZonaBunka AT %QX14.2 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM11.SafeDigitalOutput03')};
+    {LINE(81)}
+    Release_P1_ZonaCS AT %QX132.0 : BOOL {Custom('SL1.SM11.ReleaseOutput01')};
+    {LINE(82)}
+    Release_P1_ZonaVytah AT %QX132.1 : BOOL {Custom('SL1.SM11.ReleaseOutput02')};
+    {LINE(83)}
+    Release_P1_ZonaBunka AT %QX132.2 : BOOL {Custom('SL1.SM11.ReleaseOutput03')};
+    {LINE(84)}
+    soP3_ZonaCS AT %QX22.0 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM31.SafeDigitalOutput01')};
+    {LINE(85)}
+    soP3_ZonaBunka AT %QX22.2 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM31.SafeDigitalOutput03')};
+    {LINE(86)}
+    soP3_HVTester AT %QX22.1 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM31.SafeDigitalOutput02')};
+    {LINE(87)}
+    Release_P3_ZonaCS AT %QX134.0 : BOOL {Custom('SL1.SM31.ReleaseOutput01')};
+    {LINE(88)}
+    Release_P3_HVTester AT %QX134.1 : BOOL {Custom('SL1.SM31.ReleaseOutput02')};
+    {LINE(89)}
+    Release_P3_ZonaBunka AT %QX134.2 : BOOL {Custom('SL1.SM31.ReleaseOutput03')};
+    {LINE(90)}
+    soP4_ZonaCS AT %QX26.0 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM41.SafeDigitalOutput01')};
+    {LINE(91)}
+    soP4_ZonaVytah AT %QX26.1 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM41.SafeDigitalOutput02')};
+    {LINE(92)}
+    soP4_ZonaBunka AT %QX26.2 : SAFEBOOL {SafeAdr(true),Custom('SL1.SM41.SafeDigitalOutput03')};
+    {LINE(93)}
+    Release_P4_ZonaCS AT %QX135.0 : BOOL {Custom('SL1.SM41.ReleaseOutput01')};
+    {LINE(94)}
+    Release_P4_ZonaVytah AT %QX135.1 : BOOL {Custom('SL1.SM41.ReleaseOutput02')};
+    {LINE(95)}
+    Release_P4_ZonaBunka AT %QX135.2 : BOOL {Custom('SL1.SM41.ReleaseOutput03')};
+END_VAR
+
+VAR_GLOBAL {Group(96)}
+    {LINE(97)}
+    ResetZony_CS AT %IX0.0 : BOOL {Custom('SL1.SM1.BOOL101')};
+    {LINE(98)}
+    P2_ResetZony_ZaklTesnPojazd AT %IX0.1 : BOOL {Custom('SL1.SM1.BOOL102')};
+    {LINE(99)}
+    P2_ResetZony_ZaklTesnZdvih AT %IX0.2 : BOOL {Custom('SL1.SM1.BOOL103')};
+    {LINE(100)}
+    P2_ResetZony_Maticovacky AT %IX0.3 : BOOL {Custom('SL1.SM1.BOOL104')};
+    {LINE(101)}
+    P2_ResetZony_Bunky AT %IX0.4 : BOOL {Custom('SL1.SM1.BOOL105')};
+    {LINE(102)}
+    P2_TlakVzduchuOK AT %IX0.5 : BOOL {Custom('SL1.SM1.BOOL106')};
+    {LINE(103)}
+    P2_SpatVezba_Ventil_Maticovac AT %IX0.6 : BOOL {Custom('SL1.SM1.BOOL107')};
+    {LINE(104)}
+    P2_SpatVezba_Ventil1_Bunka AT %IX0.7 : BOOL {Custom('SL1.SM1.BOOL108')};
+    {LINE(105)}
+    P2_SpatVezba_Ventil2_Bunka AT %IX1.0 : BOOL {Custom('SL1.SM1.BOOL109')};
+    {LINE(106)}
+    P2_SpatVezba_ZonaBunka AT %IX1.1 : BOOL {Custom('SL1.SM1.BOOL110')};
+    {LINE(107)}
+    P2_SpatVezba_ZonaCS AT %IX1.2 : BOOL {Custom('SL1.SM1.BOOL111')};
+    {LINE(108)}
+    P2_SpatVezba_ZonaZaklTesnPojaz AT %IX1.3 : BOOL {Custom('SL1.SM1.BOOL112')};
+    {LINE(109)}
+    P2_SpatVezba_ZonaZaklTesnZdvih AT %IX1.4 : BOOL {Custom('SL1.SM1.BOOL113')};
+    {LINE(110)}
+    P2_ReleaseKartySO_AB25 AT %IX1.5 : BOOL {Custom('SL1.SM1.BOOL114')};
+    {LINE(111)}
+    P2_ReleaseKartySO_AB26 AT %IX1.6 : BOOL {Custom('SL1.SM1.BOOL115')};
+    {LINE(112)}
+    P2_ZaklTesnenia_Zdvih_BUSY AT %IX3.3 : BOOL {Custom('SL1.SM1.BOOL128')};
+    {LINE(113)}
+    P2_ZaklTesnenia_Vysuvanie_BUSY AT %IX3.1 : BOOL {Custom('SL1.SM1.BOOL126')};
+    {LINE(114)}
+    P2_ZaklTesnenia_Zasuvanie_BUSY AT %IX3.2 : BOOL {Custom('SL1.SM1.BOOL127')};
+    {LINE(115)}
+    P1_TlakVzduchuOK AT %IX1.7 : BOOL {Custom('SL1.SM1.BOOL116')};
+    {LINE(116)}
+    P1_ResetZony_Bunky AT %IX2.0 : BOOL {Custom('SL1.SM1.BOOL117')};
+    {LINE(117)}
+    P1_ResetZony_Vytahu AT %IX2.1 : BOOL {Custom('SL1.SM1.BOOL118')};
+    {LINE(118)}
+    P1_SpatVezba_Ventil1_Bunka AT %IX2.2 : BOOL {Custom('SL1.SM1.BOOL119')};
+    {LINE(119)}
+    P1_SpatVezba_Ventil2_Bunka AT %IX2.3 : BOOL {Custom('SL1.SM1.BOOL120')};
+    {LINE(120)}
+    P1_SpatVezba_ZonaBunka AT %IX2.4 : BOOL {Custom('SL1.SM1.BOOL121')};
+    {LINE(121)}
+    P1_SpatVezba_ZonaCS AT %IX2.5 : BOOL {Custom('SL1.SM1.BOOL122')};
+    {LINE(122)}
+    P1_SpatVezba_ZonaVytah AT %IX2.6 : BOOL {Custom('SL1.SM1.BOOL123')};
+    {LINE(123)}
+    P1_ReleaseKartySO_AB15 AT %IX2.7 : BOOL {Custom('SL1.SM1.BOOL124')};
+    {LINE(124)}
+    P1_Vytah_Zdvih_BUSY AT %IX3.0 : BOOL {Custom('SL1.SM1.BOOL125')};
+    {LINE(125)}
+    P3_TlakVzduchuOK AT %IX3.4 : BOOL {Custom('SL1.SM1.BOOL129')};
+    {LINE(126)}
+    P3_ResetZony_Bunky AT %IX3.5 : BOOL {Custom('SL1.SM1.BOOL130')};
+    {LINE(127)}
+    P3_SpatVezba_Ventil1_Bunka AT %IX3.6 : BOOL {Custom('SL1.SM1.BOOL131')};
+    {LINE(128)}
+    P3_SpatVezba_Ventil2_Bunka AT %IX3.7 : BOOL {Custom('SL1.SM1.BOOL132')};
+    {LINE(129)}
+    P3_SpatVezba_ZonaBunka AT %IX4.0 : BOOL {Custom('SL1.SM1.BOOL133')};
+    {LINE(130)}
+    P3_SpatVezba_ZonaCS AT %IX4.1 : BOOL {Custom('SL1.SM1.BOOL134')};
+    {LINE(131)}
+    P3_ReleaseKartySO_AB36 AT %IX4.2 : BOOL {Custom('SL1.SM1.BOOL135')};
+    {LINE(132)}
+    P4_TlakVzduchuOK AT %IX4.3 : BOOL {Custom('SL1.SM1.BOOL136')};
+    {LINE(133)}
+    P4_ResetZony_Bunky AT %IX4.4 : BOOL {Custom('SL1.SM1.BOOL137')};
+    {LINE(134)}
+    P4_ResetZony_Vytahu AT %IX4.5 : BOOL {Custom('SL1.SM1.BOOL138')};
+    {LINE(135)}
+    P4_SpatVezba_Ventil1_Bunka AT %IX4.6 : BOOL {Custom('SL1.SM1.BOOL139')};
+    {LINE(136)}
+    P4_SpatVezba_Ventil2_Bunka AT %IX4.7 : BOOL {Custom('SL1.SM1.BOOL140')};
+    {LINE(137)}
+    P4_SpatVezba_ZonaBunka AT %IX5.0 : BOOL {Custom('SL1.SM1.BOOL141')};
+    {LINE(138)}
+    P4_SpatVezba_ZonaCS AT %IX5.1 : BOOL {Custom('SL1.SM1.BOOL142')};
+    {LINE(139)}
+    P4_SpatVezba_ZonaVytah AT %IX5.2 : BOOL {Custom('SL1.SM1.BOOL143')};
+    {LINE(140)}
+    P4_ReleaseKartySO_AB45 AT %IX5.3 : BOOL {Custom('SL1.SM1.BOOL144')};
+    {LINE(141)}
+    P4_Vytah_Zdvih_BUSY AT %IX5.4 : BOOL {Custom('SL1.SM1.BOOL145')};
+END_VAR
+
+VAR_GLOBAL {Group(142)}
+    {LINE(143)}
+    SafetyPLC_Nabehlo AT %QX0.0 : BOOL {Custom('SL1.SM1.BOOL001')};
+    {LINE(144)}
+    P2_DvojOvladanie_CS_AKTIVNY AT %QX0.1 : BOOL {Custom('SL1.SM1.BOOL002')};
+    {LINE(145)}
+    P2_OvladaciPanel_CS_AKTIVNY AT %QX0.2 : BOOL {Custom('SL1.SM1.BOOL003')};
+    {LINE(146)}
+    P2_Robot_CS_AKTIVNY AT %QX0.3 : BOOL {Custom('SL1.SM1.BOOL004')};
+    {LINE(147)}
+    P2_Rozvadzac_CS_AKTIVNY AT %QX0.4 : BOOL {Custom('SL1.SM1.BOOL005')};
+    {LINE(148)}
+    P2_VstupBunky_Bariera_AKTIVNA AT %QX0.5 : BOOL {Custom('SL1.SM1.BOOL006')};
+    {LINE(149)}
+    P2_ZaklTesn_Bariera_AKTIVNA AT %QX0.6 : BOOL {Custom('SL1.SM1.BOOL007')};
+    {LINE(150)}
+    P2_ZaklTesn_Bumper_AKTIVNY AT %QX0.7 : BOOL {Custom('SL1.SM1.BOOL008')};
+    {LINE(151)}
+    P2_DvojrucneOvladanie_AKTIVNE AT %QX1.0 : BOOL {Custom('SL1.SM1.BOOL009')};
+    {LINE(152)}
+    P2_ZaklTesn_Pojazd_ZASUNUTY AT %QX2.0 : BOOL {Custom('SL1.SM1.BOOL017')};
+    {LINE(153)}
+    P2_ZamkyBunky_AKTIVNE AT %QX1.1 : BOOL {Custom('SL1.SM1.BOOL010')};
+    {LINE(154)}
+    P2_ZonaMaticovacky_AKTIVNA AT %QX1.2 : BOOL {Custom('SL1.SM1.BOOL011')};
+    {LINE(155)}
+    P2_ZaklTesnPojazd_Zona_AKTIVNA AT %QX1.3 : BOOL {Custom('SL1.SM1.BOOL012')};
+    {LINE(156)}
+    P2_ZaklTesnZdvih_Zona_AKTIVNA AT %QX1.4 : BOOL {Custom('SL1.SM1.BOOL013')};
+    {LINE(157)}
+    ZonaCS_AKTIVNA AT %QX1.5 : BOOL {Custom('SL1.SM1.BOOL014')};
+    {LINE(158)}
+    P2_ZonaBunky_AKTIVNA AT %QX1.6 : BOOL {Custom('SL1.SM1.BOOL015')};
+    {LINE(159)}
+    P2_VyblokovanieSafety_AKTIVNE AT %QX1.7 : BOOL {Custom('SL1.SM1.BOOL016')};
+    {LINE(160)}
+    P1_OvladaciPanel_CS_AKTIVNY AT %QX2.1 : BOOL {Custom('SL1.SM1.BOOL018')};
+    {LINE(161)}
+    P1_Robot_CS_AKTIVNY AT %QX2.2 : BOOL {Custom('SL1.SM1.BOOL019')};
+    {LINE(162)}
+    P1_Rozvadzac_CS_AKTIVNY AT %QX2.3 : BOOL {Custom('SL1.SM1.BOOL020')};
+    {LINE(163)}
+    P1_VstupBunky_Bariera_AKTIVNA AT %QX2.4 : BOOL {Custom('SL1.SM1.BOOL021')};
+    {LINE(164)}
+    P1_VystTunela_Bariera_AKTIVNA AT %QX2.5 : BOOL {Custom('SL1.SM1.BOOL022')};
+    {LINE(165)}
+    P1_Vytah_Bariera_AKTIVNA AT %QX2.6 : BOOL {Custom('SL1.SM1.BOOL023')};
+    {LINE(166)}
+    P1_VyblokovanieSafety_AKTIVNE AT %QX2.7 : BOOL {Custom('SL1.SM1.BOOL024')};
+    {LINE(167)}
+    P1_ZamkyBunky_AKTIVNE AT %QX3.0 : BOOL {Custom('SL1.SM1.BOOL025')};
+    {LINE(168)}
+    P1_ZonaBunky_AKTIVNA AT %QX3.1 : BOOL {Custom('SL1.SM1.BOOL026')};
+    {LINE(169)}
+    P1_ZonaVytahu_AKTIVNA AT %QX3.2 : BOOL {Custom('SL1.SM1.BOOL027')};
+    {LINE(170)}
+    P1_SnimacVytahu_AKTIVNY AT %QX3.3 : BOOL {Custom('SL1.SM1.BOOL028')};
+    {LINE(171)}
+    P3_Rozvadzac_CS_AKTIVNY AT %QX3.4 : BOOL {Custom('SL1.SM1.BOOL029')};
+    {LINE(172)}
+    P3_VstupBunky_Bariera_AKTIVNA AT %QX3.5 : BOOL {Custom('SL1.SM1.BOOL030')};
+    {LINE(173)}
+    P3_VyblokovanieSafety_AKTIVNE AT %QX3.6 : BOOL {Custom('SL1.SM1.BOOL031')};
+    {LINE(174)}
+    P3_VystupBunky_Bariera_AKTIVNA AT %QX3.7 : BOOL {Custom('SL1.SM1.BOOL032')};
+    {LINE(175)}
+    P3_ZamkyBunky_AKTIVNE AT %QX4.0 : BOOL {Custom('SL1.SM1.BOOL033')};
+    {LINE(176)}
+    P3_ZonaBunky_AKTIVNA AT %QX4.1 : BOOL {Custom('SL1.SM1.BOOL034')};
+    {LINE(177)}
+    P4_OvladaciPanel_CS_AKTIVNY AT %QX4.2 : BOOL {Custom('SL1.SM1.BOOL035')};
+    {LINE(178)}
+    P4_Rozvadzac_CS_AKTIVNY AT %QX4.3 : BOOL {Custom('SL1.SM1.BOOL036')};
+    {LINE(179)}
+    P4_VstupBunky_Bariera_AKTIVNA AT %QX4.4 : BOOL {Custom('SL1.SM1.BOOL037')};
+    {LINE(180)}
+    P4_VystupBunky_Bariera_AKTIVNA AT %QX4.5 : BOOL {Custom('SL1.SM1.BOOL038')};
+    {LINE(181)}
+    P4_Vytah_Bariera_AKTIVNA AT %QX4.6 : BOOL {Custom('SL1.SM1.BOOL039')};
+    {LINE(182)}
+    P4_VyblokovanieSafety_AKTIVNE AT %QX4.7 : BOOL {Custom('SL1.SM1.BOOL040')};
+    {LINE(183)}
+    P4_ZamkyBunky_AKTIVNE AT %QX5.0 : BOOL {Custom('SL1.SM1.BOOL041')};
+    {LINE(184)}
+    P4_ZonaBunky_AKTIVNA AT %QX5.1 : BOOL {Custom('SL1.SM1.BOOL042')};
+    {LINE(185)}
+    P4_ZonaVytahu_AKTIVNA AT %QX5.2 : BOOL {Custom('SL1.SM1.BOOL043')};
+    {LINE(186)}
+    P4_SnimacVytahu_AKTIVNY AT %QX5.3 : BOOL {Custom('SL1.SM1.BOOL044')};
+END_VAR
+
+VAR_GLOBAL {Group(187)}
+    {LINE(188)}
+    Status_ZonaCS_AKTIVNA : SAFEBOOL;
+    {LINE(189)}
+    Status_P2_VyblokSafety_AKTIVNE : SAFEBOOL;
+    {LINE(190)}
+    Status_P2_ZonaBunky_AKTIVNA : SAFEBOOL;
+    {LINE(191)}
+    Status_P1_VyblokSafety_AKTIVNE : SAFEBOOL;
+    {LINE(192)}
+    Status_P1_ZonaBunky_AKTIVNA : SAFEBOOL;
+    {LINE(193)}
+    Status_P3_VyblokSafety_AKTIVNE : SAFEBOOL;
+    {LINE(194)}
+    Status_P3_ZonaBunky_AKTIVNA : SAFEBOOL;
+    {LINE(195)}
+    Status_P4_VyblokSafety_AKTIVNE : SAFEBOOL;
+    {LINE(196)}
+    Status_P4_ZonaBunky_AKTIVNA : SAFEBOOL;
+    {LINE(197)}
+    Status_P1_ZamkyBunky_AKTIVNE : SAFEBOOL;
+    {LINE(198)}
+    Status_P2_ZamkyBunky_AKTIVNE : SAFEBOOL;
+    {LINE(199)}
+    Status_P3_ZamkyBunky_AKTIVNE : SAFEBOOL;
+    {LINE(200)}
+    Status_P4_ZamkyBunky_AKTIVNE : SAFEBOOL;
+    {LINE(201)}
+    Status_P1_VstupTunela_AKTIVNY : SAFEBOOL;
+    {LINE(202)}
+    Status_P1_VystupTunela_AKTIVNY : SAFEBOOL;
+    {LINE(203)}
+    Status_P2_VstupBariera_AKTIVNA : SAFEBOOL;
+    {LINE(204)}
+    Status_P3_VstupBariera_AKTIVNA : SAFEBOOL;
+    {LINE(205)}
+    Status_P3_VystBariera_AKTIVNA : SAFEBOOL;
+    {LINE(206)}
+    Status_P4_VstupTunela_AKTIVNY : SAFEBOOL;
+    {LINE(207)}
+    Status_P4_VystupTunela_AKTIVNY : SAFEBOOL;
+END_VAR

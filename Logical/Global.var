@@ -1,0 +1,319 @@
+(**********Nastavenie èasu**************)
+VAR
+	DTSetTime_0 : DTSetTime;
+	DTGetTime_0 : DTGetTime;
+END_VAR
+(**********Blikaèe*******************************)
+VAR
+	Blikac100ms : BOOL;
+	Blikac200ms : BOOL;
+	Blikac500ms : BOOL;
+	Blikac1s : BOOL;
+END_VAR
+(**************Remanentné premenné*********)
+VAR
+	P1_RemPremenne : P1_RemPremenne_typ;
+	P2_RemPremenne : P2_RemPremenne_typ;
+	P34_RemPremenne : P34_RemPremenne_typ;
+	MpRecipeXml_P1 : MpRecipeXml := (0);
+	MpRecipeRegPar_P1 : MpRecipeRegPar := (0);
+	MpRecipeUI_P1 : MpRecipeUI;
+	P1_UlozPremenne : BOOL;
+	P1_NacitajPremenne : BOOL;
+	MpRecipeXml_P2 : MpRecipeXml := (0);
+	MpRecipeRegPar_P2 : MpRecipeRegPar := (0);
+	MpRecipeUI_P2 : MpRecipeUI;
+	P2_UlozPremenne : BOOL;
+	P2_NacitajPremenne : BOOL;
+	MpRecipeXml_P34 : MpRecipeXml := (0);
+	MpRecipeRegPar_P34 : MpRecipeRegPar := (0);
+	MpRecipeUI_P34 : MpRecipeUI;
+	P34_UlozPremenne : BOOL;
+	P34_NacitajPremenne : BOOL;
+END_VAR
+VAR RETAIN
+	P1_Skrutk_4F_LavaK30_Vysunutie : REAL;
+	P1_Skrutk_4F_PravaK30_Vysunutie : REAL;
+	P1_Skrutk_4F_ZadnaM4_Vysunutie : REAL;
+	P1_Skrutk_4F_PrednaM4_Vysunutie : REAL;
+	P1_Skrutk_4F_DPS_M4_Vysunutie : REAL;
+	P1_Skrutk_5F_LavaK30_Vysunutie : REAL;
+	P1_Skrutk_5F_PravaK30_Vysunutie : REAL;
+	P1_Skrutk_5F_ZadnaM4_Vysunutie : REAL;
+	P1_Skrutk_5F_PrednaM4_Vysunutie : REAL;
+	P1_Skrutk_5F_DPS_M4_Vysunutie : REAL;
+	P1_Skrutk_5H_LavaK30_Vysunutie : REAL;
+	P1_Skrutk_5H_PravaK30_Vysunutie : REAL;
+	P1_Skrutk_5H_LavaM5_Vysunutie : REAL;
+	P1_Skrutk_5H_PravaM5_Vysunutie : REAL;
+	P1_Skrutk_5H_StrednaM5_Vysunutie : REAL;
+	P2_Skrutk_4F_LavaM6_Vysunutie : REAL;
+	P2_Skrutk_4F_PravaM6_Vysunutie : REAL;
+	P2_Skrutk_4F_LavaM4_Vysunutie : REAL;
+	P2_Skrutk_4F_PravaM4_Vysunutie : REAL;
+	P2_Skrutk_5F_LavaM6_Vysunutie : REAL;
+	P2_Skrutk_5F_PravaM6_Vysunutie : REAL;
+	P2_Skrutk_5F_LavaM4_Vysunutie : REAL;
+	P2_Skrutk_5F_PravaM4_Vysunutie : REAL;
+	P2_Skrutk_5H_LavaM5_Vysunutie : REAL;
+	P2_Skrutk_5H_PravaM5_Vysunutie : REAL;
+	P2_Skrutk_5H_StrednaM4_Vysunutie : REAL;
+	P2_Maticovacka_5H_Vysunutie : REAL;
+	P3_Skrutk_4F_StredK40_Vysunutie : REAL;
+	P3_Skrutk_4F_StredM5_Vysunutie : REAL;
+	P3_Skrutk_5F_StredK40_Vysunutie : REAL;
+	P3_Skrutk_5F_StredM5_Vysunutie : REAL;
+	P3_Skrutk_5H_StredM5_Vysunutie : REAL;
+END_VAR
+(*************Všeobecné premenné*************)
+VAR
+	FilterVizu_P1 : STRING[300];
+	FilterVizu_P2 : STRING[300];
+	FilterVizu_P34 : STRING[300];
+	Vizu : Vizu_typ;
+	P1_Vizu : P1_Vizu_typ;
+	P2_Vizu : P2_Vizu_typ;
+	P34_Vizu : P34_Vizu_typ;
+END_VAR
+VAR RETAIN
+	Paletka : ARRAY[0..20] OF Paletka_typ;
+END_VAR
+VAR
+	Etiketa : Etiketa_typ;
+	Safety : Safety_typ;
+	Linka : Linka_typ;
+	Reports : Reports_typ;
+	P1_Pracovisko : P1_Pracovisko_typ;
+	SC_P1_Dopravniky : SequenceControlTyp;
+	P1_Dopravniky : P1_Dopravniky_typ;
+	SC_P1_SpodnyStoper : SequenceControlTyp;
+	P1_SpodnyStoper : P1_SpodnyStoper_typ;
+	SC_P1_Vytah : SequenceControlTyp;
+	P1_Vytah : P1_Vytah_typ;
+	SC_P1_StoperSrobovania : SequenceControlTyp;
+	P1_StoperSrobovania : P1_StoperSrobovacky_typ;
+	SC_P1_Srobovanie : SequenceControlTyp;
+	P1_Srobovanie : P1_Srobovanie_typ;
+	SC_P1_AkumulacnyStoper : SequenceControlTyp;
+	P1_AkumulacnyStoper : P1_AkumulacnyStoper_typ;
+	SC_P1_Robot : SequenceControlTyp;
+	P1_Robot : P1_Robot_typ;
+	P2_Pracovisko : P2_Pracovisko_typ;
+	SC_P2_Dopravniky : SequenceControlTyp;
+	P2_Dopravniky : P2_Dopravniky_typ;
+	SC_P2_StoperZaklTesnenia : SequenceControlTyp;
+	P2_StoperZaklTesnenia : P2_StoperZaklTesnenia_typ;
+	SC_P2_ZakladacTesnenia : SequenceControlTyp;
+	P2_ZakladacTesnenia : P2_ZakladacTesnenia_typ;
+	SC_P2_StoperMaticovacky : SequenceControlTyp;
+	P2_StoperMaticovacky : P2_StoperMaticovacky_typ;
+	SC_P2_SkrutkovacMatic : SequenceControlTyp;
+	P2_SkrutkovacMatic : P2_SkrutkovacMatic_typ;
+	SC_P2_StoperSrobovania : SequenceControlTyp;
+	P2_StoperSrobovania : P2_StoperSrobovania_typ;
+	SC_P2_Srobovanie : SequenceControlTyp;
+	P2_Srobovanie : P2_Srobovanie_typ;
+	SC_P2_Robot : SequenceControlTyp;
+	P2_Robot : P2_Robot_typ;
+	SC_P2_StoperZvarania : SequenceControlTyp;
+	P2_StoperZvarania : P2_StoperZvarania_typ;
+	SC_P2_Zvaranie : SequenceControlTyp;
+	P2_Zvaranie : P2_Zvaranie_typ;
+	SC_P2_Cistenie : SequenceControlTyp;
+	P2_Cistenie : P2_Cistenie_typ;
+	P3_Pracovisko : P3_Pracovisko_typ;
+	SC_P3_Dopravniky : SequenceControlTyp;
+	P3_Dopravniky : P3_Dopravniky_typ;
+	SC_P3_SpodnyStoper : SequenceControlTyp;
+	P3_SpodnyStoper : P3_SpodnyStoper_typ;
+	SC_P3_VstupnyStoper : SequenceControlTyp;
+	P3_VstupnyStoper : P3_VstupnyStoper_typ;
+	SC_P3_StoperSrobovania : SequenceControlTyp;
+	P3_StoperSrobovania : P3_StoperSrobovania_typ;
+	SC_P3_Srobovanie : SequenceControlTyp;
+	P3_Srobovanie : P3_Srobovanie_typ;
+	SC_P3_AkumulacnyStoper : SequenceControlTyp;
+	P3_AkumulacnyStoper : P3_AkumulacnyStoper_typ;
+	SC_P3_LeakageTestA : SequenceControlTyp;
+	P3_LeakageTestA : P3_LeakageTestA_typ;
+	AteqLeakageTester_A : AteqTester_typ;
+	SC_P3_LeakageTestB : SequenceControlTyp;
+	P3_LeakageTestB : P3_LeakageTestB_typ;
+	AteqLeakageTester_B : AteqTester_typ;
+	P4_Pracovisko : P4_Pracovisko_typ;
+	SC_P4_Dopravniky : SequenceControlTyp;
+	P4_Dopravniky : P4_Dopravniky_typ;
+	SC_P4_Vytah : SequenceControlTyp;
+	P4_Vytah : P4_Vytah_typ;
+	SC_P4_FunkcnyTestA : SequenceControlTyp;
+	P4_FunkcnyTestA : P4_FunkcnyTestA_typ;
+	SC_P4_FunkcnyTestB : SequenceControlTyp;
+	P4_FunkcnyTestB : P4_FunkcnyTestB_typ;
+	SC_P4_Etiketovacka : SequenceControlTyp;
+	P4_Etiketovacka : P4_Etiketovacka_typ;
+END_VAR
+(**********Príznaky**************************)
+VAR
+	P1_Srobovacky_VychodziaPozicia : BOOL;
+	P2_Srobovacky_VychodziaPozicia : BOOL;
+	P2_Srobov_ManipulaciaUkoncena : BOOL;
+	P2_Zvaranie_ManipulaciaUkoncena : BOOL;
+	P3_Srobovacky_VychodziaPozicia : BOOL;
+	P3_LeakageTestA_VychodziaPozicia : BOOL;
+	P3_LeakageTestB_VychodziaPozicia : BOOL;
+	P4_FunkcnyTestA_VychodziaPozicia : BOOL;
+	P4_FunkcnyTestB_VychodziaPozicia : BOOL;
+	P4_Etiketovacka_VychodziaPozicia : BOOL;
+	CasCakaniaNaDruhePracovisko : TIME;
+	Cas_HVTester : TON;
+	NameranyCas_InitTestera : TIME;
+	NameranyCas_PoslanieQRkodu : TIME;
+	NameranyCas_CelkovyCasTestovania : TIME;
+	Cas_FunkcnyTestA : TON;
+	Cas_FunkcnyTestB : TON;
+	NameranyCasFunkcnehoTestuA : TIME;
+	NameranyCasFunkcnehoTestuB : TIME;
+	Cas_PresunuSkrutky : TON;
+	NameranyCasPresunuSkrutky : TIME;
+END_VAR
+(*************Tracebility***********************)
+VAR
+	TRCB_P1_Vytah_ST1 : KOM_Server_typ;
+	TRCB_P1_Srobovanie_ST2 : KOM_Server_typ;
+	TRCB_P2_ZakladacTesnenia_ST3 : KOM_Server_typ;
+	TRCB_P2_Maticovacka_ST4 : KOM_Server_typ;
+	TRCB_P2_Srobovanie_ST5 : KOM_Server_typ;
+	TRCB_P2_Zvaranie_ST6 : KOM_Server_typ;
+	TRCB_P3_Srobovanie_ST7 : KOM_Server_typ;
+	TRCB_P3_LeakageTestA_ST8A : KOM_Server_typ;
+	TRCB_P3_LeakageTestB_ST8B : KOM_Server_typ;
+	TRCB_P4_Etiketovacka_ST9 : KOM_Server_typ;
+	TRCB_P4_Vytah_ST10 : KOM_Server_typ;
+	TRCB_P1_Srobov_OpatovnyDopyt : BOOL;
+	TRCB_P1_Srobov_PaletkaNG : BOOL;
+	TRCB_P2_ZaklTesn_OpatovnyDopyt : BOOL;
+	TRCB_P2_ZaklTesn_PaletkaNG : BOOL;
+	TRCB_P2_Maticov_OpatovnyDopyt : BOOL;
+	TRCB_P2_Maticov_PaletkaNG : BOOL;
+	TRCB_P2_Srobov_OpatovnyDopyt : BOOL;
+	TRCB_P2_Srobov_PaletkaNG : BOOL;
+	TRCB_P2_Zvaranie_OpatovnyDopyt : BOOL;
+	TRCB_P2_Zvaranie_PaletkaNG : BOOL;
+	TRCB_P3_Srobov_OpatovnyDopyt : BOOL;
+	TRCB_P3_Srobov_PaletkaNG : BOOL;
+	TRCB_P3_LeakTestA_OpatovnyDopyt : BOOL;
+	TRCB_P3_LeakTestA_PaletkaNG : BOOL;
+	TRCB_P3_LeakTestB_OpatovnyDopyt : BOOL;
+	TRCB_P3_LeakTestB_PaletkaNG : BOOL;
+	TRCB_P4_Etiketov_OpatovnyDopyt : BOOL;
+	TRCB_P4_Etiketov_PaletkaNG : BOOL;
+	TRCB_P4_Vytah_OpatovnyDopyt : BOOL;
+	TRCB_P4_Vytah_PaletkaNG : BOOL;
+END_VAR
+(***************Odosielanie fotiek na server**************************)
+VAR
+	FTP_CAM1 : FTP_Kamery_typ; (*ST3 - zakladanie tesnenia - kontrola tesnenia*)
+	FTP_CAM2 : FTP_Kamery_typ; (*ST1 - výtah - kontrola paletky*)
+	FTP_CAM3 : FTP_Kamery_typ; (*ST1 - výtah - kontrola QR kodu DPS modely 4F a 5F*)
+	FTP_CAM4 : FTP_Kamery_typ; (*ST1 - výtah - kontrola krytu DPS modely 4F a 5F*)
+	FTP_CAM5 : FTP_Kamery_typ; (*ST1 - výtah - kontrola QR kodu Power CP*)
+	FTP_CAM6 : FTP_Kamery_typ; (*ST2 - srobovanie - kontrola paletky*)
+	FTP_CAM7 : FTP_Kamery_typ; (*ST3 - zakladanie tesnenia - kontrola filtra 5H*)
+	FTP_CAM8 : FTP_Kamery_typ; (*ST3 - zakladanie tesnenia - kontrola QR kodu Power CP*)
+	FTP_CAM9 : FTP_Kamery_typ; (*ST4 - maticovacka - kontrola paletky*)
+	FTP_CAM10 : FTP_Kamery_typ; (*ST5 - srobovanie - kontrola paletky*)
+	FTP_CAM11 : FTP_Kamery_typ; (*ST6 - zváranie - kontrola Power CP*)
+	FTP_CAM12 : FTP_Kamery_typ; (*ST6 - zváranie - kontrola paletky*)
+	FTP_CAM13 : FTP_Kamery_typ; (*ST7 - srobovanie - kontrola paletky*)
+	FTP_CAM14 : FTP_Kamery_typ; (*ST9 - etiketovacka - kontrola QR kodu Power CP*)
+	FTP_CAM15 : FTP_Kamery_typ; (*ST9 - etiketovacka - kontrola etikety*)
+	FTP_CAM16 : FTP_Kamery_typ; (*ST10 - vytah - kontrola paletky*)
+	FTP_CAM17 : FTP_Kamery_typ; (*ST3 - zakladanie tesnenia - kontrola paletky*)
+	FTP_DMP_CAM1 : FTP_Kamery_typ;
+	FTP_DMP_CAM2 : FTP_Kamery_typ;
+	FTP_DMP_CAM3 : FTP_Kamery_typ;
+	FTP_DMP_CAM4 : FTP_Kamery_typ;
+	FTP_DMP_CAM5 : FTP_Kamery_typ;
+	FTP_DMP_CAM6 : FTP_Kamery_typ;
+	FTP_DMP_CAM7 : FTP_Kamery_typ;
+	FTP_DMP_CAM8 : FTP_Kamery_typ;
+	FTP_DMP_CAM9 : FTP_Kamery_typ;
+	FTP_DMP_CAM10 : FTP_Kamery_typ;
+	FTP_DMP_CAM11 : FTP_Kamery_typ;
+	FTP_DMP_CAM12 : FTP_Kamery_typ;
+	FTP_DMP_CAM13 : FTP_Kamery_typ;
+	FTP_DMP_CAM14 : FTP_Kamery_typ;
+	FTP_DMP_CAM15 : FTP_Kamery_typ;
+	FTP_DMP_CAM16 : FTP_Kamery_typ;
+	FTP_DMP_CAM17 : FTP_Kamery_typ;
+END_VAR
+(***************MeranieTaktimePracovisk***********************)
+VAR
+	Taktime_Vytah_ST1 : Taktime_typ;
+	Taktime_Srobovanie_ST2 : Taktime_typ;
+	Taktime_ZakladacTesnenia_ST3 : Taktime_typ;
+	Taktime_Maticovacka_ST4 : Taktime_typ;
+	Taktime_Srobovanie_ST5 : Taktime_typ;
+	Taktime_Zvaranie_ST6 : Taktime_typ;
+	Taktime_Srobovanie_ST7 : Taktime_typ;
+	Taktime_LeakageTestA_ST8A : Taktime_typ;
+	Taktime_LeakageTestB_ST8B : Taktime_typ;
+	Taktime_FunkcnyTestA : Taktime_typ;
+	Taktime_FunkcnyTestB : Taktime_typ;
+	Taktime_Etiketovacka_ST9 : Taktime_typ;
+	Taktime_Vytah_ST10 : Taktime_typ;
+END_VAR
+(**************Vypnutie výsledkov kamier a skrutkovacov******************)
+VAR
+	P1_Vytah_KAM_Result_OFF : BOOL;
+	P1_Vytah_KAM_Result_Ignoruj : BOOL;
+	P1_Srobov_KAM_Result_OFF : BOOL;
+	P1_Srobov_KAM_Result_OK : BOOL;
+	P1_Srobov_KAM_Result_NG : BOOL;
+	P1_Srobov_K30_Result_OFF : BOOL;
+	P1_Srobov_CakaNaKameru : BOOL;
+	P1_Srobov_M5_Result_OFF : BOOL;
+	P1_Srobov_M4_Result_OFF : BOOL;
+	P2_ZaklTesn_KAM_Result_OFF : BOOL;
+	P2_ZaklTesn_KAM_Result_Ignoruj : BOOL;
+	P2_Maticov_KAM_Result_OFF : BOOL;
+	P2_Maticov_KAM_Result_Ignoruj : BOOL;
+	P2_Maticov_MaticaM4_Result_OFF : BOOL;
+	P2_Maticov_CakaNaKameru : BOOL;
+	P2_Maticov_KAM_Result_OK : BOOL;
+	P2_Maticov_KAM_Result_NG : BOOL;
+	P2_Srobov_KAM_Result_OFF : BOOL;
+	P2_Srobov_KAM_Result_Ignoruj : BOOL;
+	P2_Srobov_CakaNaKameru : BOOL;
+	P2_Srobov_M4_Result_OFF : BOOL;
+	P2_Srobov_M5_Result_OFF : BOOL;
+	P2_Srobov_M6_Result_OFF : BOOL;
+	P2_Srobov_KAM_Result_OK : BOOL;
+	P2_Srobov_KAM_Result_NG : BOOL;
+	P2_Zvaranie_KAM_Result_OFF : BOOL;
+	P2_Zvaranie_KAM_Result_NG : BOOL;
+	P2_Zvaranie_KAM_Result_OK : BOOL;
+	P2_Zvaranie_CakaNaKameru : BOOL;
+	P3_Srobov_KAM_Result_OFF : BOOL;
+	P3_Srobov_KAM_Result_Ignoruj : BOOL;
+	P3_Srobov_CakaNaKameru : BOOL;
+	P3_Srobov_K40_Result_OFF : BOOL;
+	P3_Srobov_M5_Result_OFF : BOOL;
+	P3_HVTest_OTVOR : BOOL;
+	P3_HVTest_ZATVOR : BOOL;
+	P4_Etiketov_KAM_Result_OFF : BOOL;
+	P4_Etiketov_KAM_Result_Ignoruj : BOOL;
+	P4_Etiketov_KAM_Result_OK : BOOL;
+	P4_Etiketov_KAM_Result_NG : BOOL;
+	P4_Etiketov_CakaNaKameru : BOOL;
+	P4_Vytah_KAM_Result_OFF : BOOL;
+	P4_Vytah_CakaNaKameru : BOOL;
+	P4_Vytah_KAM_Result_NG : BOOL;
+	P4_Vytah_KAM_Result_Ignoruj : BOOL;
+	P4_Vytah_KAM_Result_OK : BOOL;
+	P4_FunkcnyTestA_ZATVOR : BOOL;
+	P4_FunkcnyTestA_OTVOR : BOOL;
+	P4_FunkcnyTestB_ZATVOR : BOOL;
+	P4_FunkcnyTestB_OTVOR : BOOL;
+	Kamery_PAUZA : BOOL;
+END_VAR

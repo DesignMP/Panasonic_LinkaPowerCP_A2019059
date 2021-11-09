@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.5.60 SP?>
+<Package SubType="PagesPackage" PackageType="PagesPackage" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package" Description="AreaContents">AreaContents</Object>
+    <Object Type="Package">PageBoot</Object>
+    <Object Type="Package">PageAutomat</Object>
+    <Object Type="Package">PageAlarm</Object>
+    <Object Type="Package">PageInfo</Object>
+    <Object Type="Package">PageSetup_page1</Object>
+    <Object Type="Package">PageParametreMainP3</Object>
+    <Object Type="Package">PageParametreP3_page1</Object>
+    <Object Type="Package">PageParametreMainP4</Object>
+    <Object Type="Package">PageParametreP4_page1</Object>
+    <Object Type="Package">PageTolerancieSkrutkovania</Object>
+    <Object Type="Package">PageManualMainP3</Object>
+    <Object Type="Package">PageManual_DopravnikyP3</Object>
+    <Object Type="Package">PageManual_Skrutkovanie</Object>
+    <Object Type="Package">PageManual_Skrutkovanie_page2</Object>
+    <Object Type="Package">PageManual_Skrutkovanie_page3</Object>
+    <Object Type="Package">PageManual_LeakageTestA</Object>
+    <Object Type="Package">PageManual_LeakageTestB</Object>
+    <Object Type="Package">PageManualMainP4</Object>
+    <Object Type="Package">PageManual_DopravnikyP4</Object>
+    <Object Type="Package">PageManual_FunkcnyTestA</Object>
+    <Object Type="Package">PageManual_FunkcnyTestB</Object>
+    <Object Type="Package">PageManual_Etiketovanie</Object>
+    <Object Type="Package">PageManual_Vytah</Object>
+    <Object Type="Package">PageStavyStanicP3</Object>
+    <Object Type="Package">PageStavyStanicP4</Object>
+  </Objects>
+</Package>

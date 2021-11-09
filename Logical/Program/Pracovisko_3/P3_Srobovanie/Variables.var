@@ -1,0 +1,50 @@
+VAR
+	Triger_0 : BOOL;
+	CasPowerON_OsY : TON;
+	SC_OvlManipulatora_OsY : SequenceControlTyp;
+	OsY_JoggVPRED : BOOL;
+	OsY_JoggVZAD : BOOL;
+	OsY_POLOHUJ : BOOL;
+	OsY_HOME : BOOL;
+	OsY_STOP : BOOL;
+	ZadanaPoziciaUINT_OsY : UINT;
+	AktualnaPoziciaUINT_OsY : UINT;
+	SC_OvlZdvihuHV_Testu : SequenceControlTyp;
+	HV_Test_VYSUN : BOOL;
+	HV_Test_ZASUN : BOOL;
+	SC_OvlKontaktovHV_Testu : SequenceControlTyp;
+	Kontakty_VYSUN : BOOL;
+	Kontakty_ZASUN : BOOL;
+	SC_OvlTesteraHV : SequenceControlTyp;
+	SKTcpClientTester_0 : SKTcpClientTester;
+	dataStr : STRING[32];
+	HV_Test_START : BOOL;
+	HV_Test_UKONCENY : BOOL;
+	i : USINT;
+	CasSrobovania : REAL;
+	M5_DosiahnutyMoment_REAL : REAL;
+	M5_Moment_ToleranciaMAX_REAL : REAL;
+	M5_Moment_ToleranciaMIN_REAL : REAL;
+	K40_DosiahnutyMoment_REAL : REAL;
+	K40_Moment_ToleranciaMAX_REAL : REAL;
+	K40_Moment_ToleranciaMIN_REAL : REAL;
+	M5_PrevodMomentu : PrevodMomentu;
+	K40_PrevodMomentu : PrevodMomentu;
+	CasZastaveniaServa : TON;
+	FazaNavratu : UINT;
+	CasKontrolyZasobSkrutiek_K40 : TON;
+	CasKontrolyZasobSkrutiek_M5 : TON;
+	TEST : BOOL;
+	PocetDopytovNaTester : USINT;
+	SkrutkovanieK40_Ukoncene : BOOL;
+	SkrutkovanieM5_Ukoncene : BOOL;
+	Skrutkovanie_VysledkyDONE : BOOL;
+	PocetVysunutiSkrutkovacky_M5 : USINT;
+END_VAR
+(******Zápis do ParID serva*************)
+VAR
+	MC_BR_ProcessParID_AcpAx_0 : MC_BR_ProcessParID_AcpAx := (0);
+	McAcpAxProcessParIDType_0 : ARRAY[0..1] OF McAcpAxProcessParIDType;
+	OsY_NovaHodnotaMomentu_POS : REAL := 0.0;
+	OsY_NovaHodnotaMomentu_NEG : REAL := 0.0;
+END_VAR

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="PageManualP2_Maticovacka_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bindings>
+  
+		
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:P2_StoperMaticovacky.IN.Centrovanie_ZASUNUTE_IS13" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageManualP2_Maticovacka" widgetRefId="ImageList5" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:P2_StoperMaticovacky.IN.Centrovanie_VYSUNUTE_IS12" attribute="value" />
+			<Target xsi:type="brease" contentRefId="AreaPageManualP2_Maticovacka" widgetRefId="ImageList4" attribute="selectedIndex" />
+		</Binding>
+	<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P2_StoperMaticovacky.OUT.ZasunStoper_YV52" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP2_Maticovacka" widgetRefId="ToggleSwitch_Stoper" attribute="value" />
+</Binding>
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P2_SkrutkovacMatic.IN.ZasobMatic_PRAZDNY_IS23" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP2_Maticovacka" widgetRefId="ImageList19" attribute="selectedIndex" />
+</Binding>
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P2_StoperMaticovacky.IN.PritomnostPaletky_S7" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP2_Maticovacka" widgetRefId="ImageList17" attribute="selectedIndex" />
+</Binding>
+
+
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P2_SkrutkovacMatic.IN.DavkMatic_ZASUNUTY_IS25" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP2_Maticovacka" widgetRefId="ImageList15" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P2_SkrutkovacMatic.IN.DavkMatic_VYSUNUTY_IS26" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP2_Maticovacka" widgetRefId="ImageList14" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P2_SkrutkovacMatic.IN.SkrutkMatic_VysunutieHrotu_IOS7" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP2_Maticovacka" widgetRefId="NumericOutput_PoziciaVysunutiaMaticovacky" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P2_SkrutkovacMatic.OUT.SkrutkMatic_PrisavMatic_RUN_YV67" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP2_Maticovacka" widgetRefId="ToggleSwitch_Stoper2" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P2_SkrutkovacMatic.IN.SkrutkMatic_ZASUNUTY_MS9" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP2_Maticovacka" widgetRefId="ImageList18" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P2_SkrutkovacMatic.IN.DavkMatic_PritomnostMatice_OS2" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP2_Maticovacka" widgetRefId="ImageList16" attribute="selectedIndex" />
+</Binding>
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P2_SkrutkovacMatic.RR_PodajMaticu" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP2_Maticovacka" widgetRefId="ImageList6" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P2_SkrutkovacMatic.RR_ZapniHrniec" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP2_Maticovacka" widgetRefId="ToggleSwitch_Stoper4" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P2_SkrutkovacMatic.RR_Maticovacku_VYSUN" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP2_Maticovacka" widgetRefId="ToggleSwitch_Stoper1" attribute="value" />
+</Binding>
+</Bindings>
+</BindingsSet>

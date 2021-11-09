@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.5.60 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Global data types">UsersGlobal.typ</Object>
+    <Object Type="File" Description="Global variables">UsersGlobal.var</Object>
+    <Object Type="Program" Language="IEC">RFID_Prg</Object>
+    <Object Type="Program" Language="IEC">Users_Main</Object>
+    <Object Type="Program" Language="IEC">Users_Panel1</Object>
+    <Object Type="Program" Language="IEC">Users_Panel2</Object>
+    <Object Type="Program" Language="IEC">Users_Panel3</Object>
+  </Objects>
+</Package>

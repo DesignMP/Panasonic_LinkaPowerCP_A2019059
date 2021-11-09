@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="AreaPageBootP34" height="768" width="1366" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Image" id="Image1" top="0" left="0" width="1366" height="768" zIndex="0" image="Media/Pozadie/PozadieDesignMP_1366x768.jpg" opacity="1" />
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="668" left="244" width="878" height="66" zIndex="1" text="Čakajte prosím, spúšťa sa systém ! " borderWidth="5px" cornerRadius="10px" backColor="rgba(211, 211, 211, 1)" borderColor="rgba(153, 153, 153, 1)" borderStyle="ridge" textColor="rgba(0, 0, 0, 1)" textAlign="center" fontSize="40px" bold="true" shadow="4px 4px 14px rgba(0, 0, 0, 1)" />
+  </Widgets>
+</Content>

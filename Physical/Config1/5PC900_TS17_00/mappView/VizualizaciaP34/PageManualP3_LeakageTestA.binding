@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="PageManualP3_LeakageTestA_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Bindings>
+  
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_LeakageTestA.IN.Centrovanie_VYSUNUTE_IS71" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP3_LeakageTestA" widgetRefId="ImageList9" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_LeakageTestA.IN.Centrovanie_ZASUNUTE_IS72" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP3_LeakageTestA" widgetRefId="ImageList7" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_LeakageTestA.IN.Kopito_ZASUNUTE_IS68" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP3_LeakageTestA" widgetRefId="ImageList23" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_LeakageTestA.IN.Tester_TypKonektoru_5F_5H" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP3_LeakageTestA" widgetRefId="ImageList22" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_LeakageTestA.IN.Tester_TypKonektoru_4F" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP3_LeakageTestA" widgetRefId="ImageList21" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_LeakageTestA.RR_VysunSpodneKopito" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP3_LeakageTestA" widgetRefId="ToggleSwitch_SpodneKopito" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_LeakageTestA.IN.Pritlak_ZASUNUTY_MS46" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP3_LeakageTestA" widgetRefId="ImageList4" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_LeakageTestA.IN.Pritlak_VYSUNUTY_MS47" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP3_LeakageTestA" widgetRefId="ImageList5" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_LeakageTestA.OUT.ZasunStoper_YV134" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP3_LeakageTestA" widgetRefId="ToggleSwitch_Stoper" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_LeakageTestA.IN.PritomnostPaletky_S23" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP3_LeakageTestA" widgetRefId="ImageList19" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_LeakageTestA.IN.PritomnostKopita_IS67" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP3_LeakageTestA" widgetRefId="ImageList24" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.LeakageTestA_RR_ENABLE" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP3_LeakageTestA" widgetRefId="Button_ZdvihHornehoPritlaku" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.LeakageTestA_RR_ENABLE" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP3_LeakageTestA" widgetRefId="Button_ZostupHornehoPritlaku" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.LeakageTestA_RR_ENABLE" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP3_LeakageTestA" widgetRefId="Button_ZostupCentrovania" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.LeakageTestA_RR_ENABLE" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP3_LeakageTestA" widgetRefId="ToggleSwitch_SpodneKopito" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.LeakageTestA_RR_ENABLE" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP3_LeakageTestA" widgetRefId="Button_ZdvihCentrovania" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_LeakageTestA.STAV.TestovaciaSekvencia_BUSY" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP3_LeakageTestA" widgetRefId="ImageList6" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.LeakageTestA_Testovanie_ENABLE" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP3_LeakageTestA" widgetRefId="Button_StartTestovacejSekvencie" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P3_LeakageTestA.IN.PreratanyVyrovnavaciTlak_Bar" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageManualP3_LeakageTestA" widgetRefId="NumericOutput_LeakageTest_VyrovnTlak" attribute="value" />
+</Binding>
+</Bindings>
+</BindingsSet>

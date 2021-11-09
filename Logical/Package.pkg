@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.5.60 SP?>
+<Package Version="1.00.0" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Global data types">Global.typ</Object>
+    <Object Type="File">KameryGlobal.typ</Object>
+    <Object Type="File" Description="Global variables">Global.var</Object>
+    <Object Type="File">KameryGlobal.var</Object>
+    <Object Type="Package" Description="Global libraries">Libraries</Object>
+    <Object Type="Package">Program</Object>
+    <Object Type="Package">mappView</Object>
+    <Object Type="Package">Blikace</Object>
+    <Object Type="Package">TracebilitySystem</Object>
+    <Object Type="Package">RiadenieServ</Object>
+    <Object Type="Package">RemanentnePremenne</Object>
+    <Object Type="Package">OdosielanieFotiek</Object>
+    <Object Type="Package">MeranieTaktimePracovisk</Object>
+    <Object Type="Package">Receptury</Object>
+    <Object Type="Package">Uzivatelia</Object>
+    <Object Type="Package">Alarmy</Object>
+    <Object Type="Package">UkladacieBuffery</Object>
+    <Object Type="Package">Audit</Object>
+    <Object Type="Package">FileExplorer</Object>
+    <Object Type="Package">USBdevice</Object>
+    <Object Type="Package">NETdevice</Object>
+    <Object Type="Package">DatumCasPLC</Object>
+    <Object Type="File">Poznamky.txt</Object>
+  </Objects>
+</Package>

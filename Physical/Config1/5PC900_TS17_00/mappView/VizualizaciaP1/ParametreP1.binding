@@ -1,0 +1,640 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="ParametreP1_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Bindings>
+  		
+	
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Vytah_RychlostZdvihu" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page1" widgetRefId="NumericInput_1" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Vytah_PoziciaVykladania" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page1" widgetRefId="NumericInput_2" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Vytah_PoziciaNakladania" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page1" widgetRefId="NumericInput_3" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob4F_PozX_PravejSkrutkyK30" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page1" widgetRefId="NumericInput_5" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob4F_PozX_LavejSkrutkyK30" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page1" widgetRefId="NumericInput_4" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob4F_PozY_LavejSkrutkyK30" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page1" widgetRefId="NumericInput_9" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob4F_PozY_PravejSkrutkyK30" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page1" widgetRefId="NumericInput_10" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob4F_PozX_ZadnejSkrutkyM4" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page1" widgetRefId="NumericInput_6" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob4F_PozY_ZadnejSkrutkyM4" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page1" widgetRefId="NumericInput_11" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob4F_PozX_PrednejSkrutkyM4" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page1" widgetRefId="NumericInput_7" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob4F_PozY_PrednejSkrutkyM4" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page1" widgetRefId="NumericInput_12" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob4F_PozX_SkrutkyDPS_M4" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page1" widgetRefId="NumericInput_8" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob4F_PozY_SkrutkyDPS_M4" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page1" widgetRefId="NumericInput_13" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5F_PozY_SkrutkyDPS_M4" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_10" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5F_PozX_SkrutkyDPS_M4" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_5" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5F_PozY_PrednejSkrutkyM4" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_9" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5F_PozX_PrednejSkrutkyM4" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_4" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5F_PozY_ZadnejSkrutkyM4" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_8" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5F_PozX_ZadnejSkrutkyM4" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_3" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5F_PozY_PravejSkrutkyK30" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_7" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5F_PozX_PravejSkrutkyK30" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_2" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5F_PozY_LavejSkrutkyK30" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_6" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5F_PozX_LavejSkrutkyK30" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_1" attribute="value" />
+        </Binding>
+
+
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5H_PozY_LavejSkrutkyK30" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_17" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5H_PozX_LavejSkrutkyK30" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_11" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5H_PozX_PravejSkrutkyK30" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_12" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5H_PozY_PravejSkrutkyK30" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_18" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5H_PozX_LavejSkrutkyM5" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_13" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5H_PozY_LavejSkrutkyM5" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_19" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5H_PozX_StrednejSkrutkyM5" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_14" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5H_PozY_StrednejSkrutkyM5" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_20" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5H_PozX_PravejSkrutkyM5" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_15" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5H_PozY_PravejSkrutkyM5" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_21" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5H_PozX_OdobratSkrutkyM5" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_16" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5H_PozY_OdobratSkrutkyM5" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_22" attribute="value" />
+        </Binding>
+
+
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_ManipSrob_OsX_Rychlost" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page1" widgetRefId="NumericInput_14" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_ManipSrob_OsY_Rychlost" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page1" widgetRefId="NumericInput_15" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page1" widgetRefId="NumericInput_14" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page1" widgetRefId="NumericInput_5" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page1" widgetRefId="NumericInput_4" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page1" widgetRefId="NumericInput_3" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page1" widgetRefId="NumericInput_12" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page1" widgetRefId="NumericInput_15" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page1" widgetRefId="NumericInput_2" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page1" widgetRefId="NumericInput_10" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page1" widgetRefId="NumericInput_1" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page1" widgetRefId="NumericInput_7" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page1" widgetRefId="NumericInput_13" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page1" widgetRefId="NumericInput_9" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page1" widgetRefId="NumericInput_6" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page1" widgetRefId="NumericInput_11" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page1" widgetRefId="NumericInput_8" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_21" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_7" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_1" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_10" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_2" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_15" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_12" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_20" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_3" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_17" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_22" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_4" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_5" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_14" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_19" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_18" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_13" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_9" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_6" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_16" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_11" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageParametreP1_page2" widgetRefId="NumericInput_8" attribute="enable" />
+        </Binding>
+        
+        
+        
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob4F_LavaK30_Vysunutie_HI" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_2" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob4F_LavaK30_Vysunutie_LO" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_3" attribute="value" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob4F_PravaK30_Vysunutie_HI" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_5" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob4F_PravaK30_Vysunutie_LO" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_6" attribute="value" />
+        </Binding>
+       
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob4F_ZadnaM4_Vysunutie_HI" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_8" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob4F_ZadnaM4_Vysunutie_LO" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_9" attribute="value" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob4F_PrednaM4_Vysunutie_HI" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_11" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob4F_PrednaM4_Vysunutie_LO" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_12" attribute="value" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob4F_DPS_M4_Vysunutie_HI" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_14" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob4F_DPS_M4_Vysunutie_LO" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_15" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5F_DPS_M4_Vysunutie_LO" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_30" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5F_DPS_M4_Vysunutie_HI" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_29" attribute="value" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5F_PrednaM4_Vysunutie_LO" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_27" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5F_PrednaM4_Vysunutie_HI" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_26" attribute="value" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5F_ZadnaM4_Vysunutie_LO" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_24" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5F_ZadnaM4_Vysunutie_HI" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_23" attribute="value" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5F_PravaK30_Vysunutie_LO" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_21" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5F_PravaK30_Vysunutie_HI" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_20" attribute="value" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5F_LavaK30_Vysunutie_LO" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_18" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5F_LavaK30_Vysunutie_HI" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_17" attribute="value" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5H_PravaM5_Vysunutie_LO" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_45" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5H_PravaM5_Vysunutie_HI" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_44" attribute="value" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5H_StrednaM5_Vysunutie_LO" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_42" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5H_StrednaM5_Vysunutie_HI" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_41" attribute="value" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5H_LavaM5_Vysunutie_LO" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_39" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5H_LavaM5_Vysunutie_HI" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_38" attribute="value" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5H_PravaK30_Vysunutie_LO" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_36" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5H_PravaK30_Vysunutie_HI" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_35" attribute="value" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5H_LavaK30_Vysunutie_LO" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_33" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_RemPremenne.P1_Srob5H_LavaK30_Vysunutie_HI" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_32" attribute="value" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_5" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_23" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_21" attribute="enable" />
+        </Binding>
+        
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_12" attribute="enable" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_27" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_8" attribute="enable" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_3" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_6" attribute="enable" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_14" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_29" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_30" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_2" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_15" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_17" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_24" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_26" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_18" attribute="enable" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_11" attribute="enable" />
+        </Binding>
+        
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_9" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_20" attribute="enable" />
+        </Binding>
+       
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_38" attribute="enable" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_33" attribute="enable" />
+        </Binding>
+       
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_42" attribute="enable" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_36" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_45" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_32" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_39" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_41" attribute="enable" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_35" attribute="enable" />
+        </Binding>
+
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.EditaciaParametrov_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericInput_44" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Skrutk_5H_PravaM5_Vysunutie" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericOutput15" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Skrutk_5H_StrednaM5_Vysunutie" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericOutput14" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Skrutk_5H_LavaM5_Vysunutie" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericOutput13" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Skrutk_5H_PravaK30_Vysunutie" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericOutput11" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Skrutk_5H_LavaK30_Vysunutie" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericOutput12" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Skrutk_5F_DPS_M4_Vysunutie" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericOutput10" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Skrutk_5F_PrednaM4_Vysunutie" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericOutput9" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Skrutk_5F_ZadnaM4_Vysunutie" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericOutput8" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Skrutk_5F_PravaK30_Vysunutie" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericOutput6" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Skrutk_5F_LavaK30_Vysunutie" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericOutput7" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Skrutk_4F_DPS_M4_Vysunutie" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericOutput5" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Skrutk_4F_PrednaM4_Vysunutie" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericOutput4" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Skrutk_4F_ZadnaM4_Vysunutie" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericOutput3" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Skrutk_4F_PravaK30_Vysunutie" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericOutput2" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Skrutk_4F_LavaK30_Vysunutie" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageTolerancieSkrutkovaniaP1" widgetRefId="NumericOutput1" attribute="value" />
+        </Binding>
+    </Bindings>
+</BindingsSet>

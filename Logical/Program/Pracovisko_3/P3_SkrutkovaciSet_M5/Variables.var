@@ -1,0 +1,18 @@
+VAR
+	SkrutkovaciSet : SkrutkovaciSetStruc;
+	TprazdnyZasobnik : TON;
+	TakumulaciaPrazdna : TON;
+	TakumulaciaPlna : TON;
+	TvytvorenieVakua : TON;
+	TodvetranieVakua : TON;
+	TvibrovanieLista : TON;
+	TvibrovanieHrniec : TON;
+	TpredOtocenim : TON;
+	TvyfukovaniePredVibrovanim : TON;
+	ZapniHrniec : BOOL;
+	ZapniListu : BOOL;
+	TpodaniaSkrutky : TON;
+	TvypnutieOfuku : TON;
+	TpoOtoceni : TON;
+	TofukVibrolisty : TON;
+END_VAR

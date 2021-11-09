@@ -1,0 +1,20 @@
+VAR
+	UsersVizu : UsersVizu_typ;
+	MpRecipeXml_1 : MpRecipeXml := (0);
+	MpRecipeRegPar_1 : MpRecipeRegPar := (0);
+	Uzivatel : ARRAY[0..100] OF ParametreUzivatelovTyp;
+	PrecitaneData_Panel1 : ARRAY[0..19] OF UDINT;
+	PrecitaneData_Panel2 : ARRAY[0..19] OF UDINT;
+	PrecitaneData_Panel3 : ARRAY[0..19] OF UDINT;
+	PrecitaneData_Panel4 : ARRAY[0..19] OF UDINT;
+	CisloPrihlasenejKarty_Panel1 : STRING[80];
+	P1_UzivatelPrihlaseny : BOOL;
+	P1_UrovenPrihlasenehoUzivatela : UINT; (*10 - operator, 20 - technik, 100 - administrátor*)
+	P2_UzivatelPrihlaseny : BOOL;
+	P2_UrovenPrihlasenehoUzivatela : UINT; (*10 - operator, 20 - technik, 100 - administrátor*)
+	P34_UzivatelPrihlaseny : BOOL;
+	P34_UrovenPrihlasenehoUzivatela : UINT; (*10 - operator, 20 - technik, 100 - administrátor*)
+	Citacka1_AKTIVNA : BOOL;
+	Citacka2_AKTIVNA : BOOL;
+	Citacka3_AKTIVNA : BOOL;
+END_VAR

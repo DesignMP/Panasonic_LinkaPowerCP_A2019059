@@ -1,0 +1,21 @@
+VAR
+	strCategory : STRING[80];
+	MpRecipeUI_1 : MpRecipeUI;
+	UISetup : MpRecipeUISetupType;
+	UIConnect : MpRecipeUIConnectType := (0);
+	i : UINT := 0;
+	a : UINT;
+	CasOdhlaseniaUzivatela : TON;
+	ListBoxPole_Sprava : ARRAY[0..100] OF STRING[100];
+	ListBox_Value : ARRAY[0..100] OF STRING[10];
+	b : USINT;
+	c : UINT;
+	IndexPrazdPole : UINT;
+	d : UINT;
+	e : UINT;
+	f : UINT;
+	g : UINT;
+	h : UINT;
+	SC_Uzivatelia : SequenceControlTyp;
+	UrovenUzivatela : UINT;
+END_VAR

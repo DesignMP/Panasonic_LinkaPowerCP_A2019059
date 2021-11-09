@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.6.114 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">5ACPCI_XPNM_00.dtm</Object>
+    <Object Type="Package">5ACPCI_XPNM_00_IF1</Object>
+    <Object Type="Package">KAM_ControlUNit</Object>
+    <Object Type="Package">P1_KAM3</Object>
+    <Object Type="Package">P1_KAM5</Object>
+    <Object Type="Package">P2_KAM8</Object>
+    <Object Type="Package">P2_KAM9</Object>
+    <Object Type="Package">P4_KAM14</Object>
+  </Objects>
+</Package>

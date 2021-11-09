@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="HlavickaP34_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bindings>
+		
+		<!--Zobrazenie varningov pracoviska P3 v hlavičke-->
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.WarningsP3_Index" attribute="value" />
+			<Target xsi:type="snippet" refId="Snippet_WarningsP3" attribute="value" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="Snippet_WarningsP3" attribute="value" />
+			<Target xsi:type="brease" widgetRefId="TextOut_WarningsP3" contentRefId="HlavickaP34" attribute="value" />
+		</Binding>
+		
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.WarningsP3_Farba" attribute="value" />
+            <Target xsi:type="brease" contentRefId="HlavickaP34" widgetRefId="TextOut_WarningsP3" attribute="style" />
+        </Binding>
+        
+		<!--Zobrazenie varningov pracoviska P4 v hlavičke-->
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.WarningsP4_Index" attribute="value" />
+			<Target xsi:type="snippet" refId="Snippet_WarningsP4" attribute="value" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="Snippet_WarningsP4" attribute="value" />
+			<Target xsi:type="brease" widgetRefId="TextOut_WarningsP4" contentRefId="HlavickaP34" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.WarningsP4_Farba" attribute="value" />
+			<Target xsi:type="brease" contentRefId="HlavickaP34" widgetRefId="TextOut_WarningsP4" attribute="style" />
+		</Binding>
+		
+		
+		
+		
+        <!--<Binding mode="twoWay">
+        <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.KartaPrilozena" attribute="value" />
+        <Target xsi:type="brease" contentRefId="HlavickaP1" widgetRefId="Image3" attribute="visible" />
+        </Binding>-->
+		
+		
+		
+	
+	    <!--Farba tlačítok ovládania dverí pracoviska 3-->
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.TL_PrednyZamokPS_Farba_P3" attribute="value" />
+			<Target xsi:type="brease" contentRefId="HlavickaP34" widgetRefId="ButtonPredneDverePSBunka3" attribute="style" />
+		</Binding>
+		
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.TL_PrednyZamokLS_Farba_P3" attribute="value" />
+            <Target xsi:type="brease" contentRefId="HlavickaP34" widgetRefId="ButtonPredneDvereLSBunka3" attribute="style" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.TL_ZadnyZamok_Farba_P3" attribute="value" />
+            <Target xsi:type="brease" contentRefId="HlavickaP34" widgetRefId="ButtonZadneDvereBunka3" attribute="style" />
+        </Binding>
+        
+        <!--Farba tlačítok ovládania dverí pracoviska 4-->
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.TL_PrednyZamok_Farba_P4" attribute="value" />
+            <Target xsi:type="brease" contentRefId="HlavickaP34" widgetRefId="ButtonPredneDvereBunka4" attribute="style" />
+        </Binding>
+        
+        
+		
+		
+       
+        <!--Farba tlačítka Reset CS-->
+		<Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Vizu.TL_ResetCS_Farba" attribute="value" />
+            <Target xsi:type="brease" contentRefId="HlavickaP34" widgetRefId="ButtonResetCS" attribute="style" />
+        </Binding>
+
+		
+        <!--Zamknutie tlacitok ovládania zamkov pracoviska 3-->
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.TL_OvladaniaZamkov_ENABLE_P3" attribute="value" />
+			<Target xsi:type="brease" contentRefId="HlavickaP34" widgetRefId="ButtonPredneDverePSBunka3" attribute="enable" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.TL_OvladaniaZamkov_ENABLE_P3" attribute="value" />
+            <Target xsi:type="brease" contentRefId="HlavickaP34" widgetRefId="ButtonPredneDvereLSBunka3" attribute="enable" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.TL_OvladaniaZamkov_ENABLE_P3" attribute="value" />
+            <Target xsi:type="brease" contentRefId="HlavickaP34" widgetRefId="ButtonZadneDvereBunka3" attribute="enable" />
+        </Binding>
+        
+        
+        <!--Zamknutie tlacitok ovládania zamkov pracoviska 4-->
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.TL_OvladaniaZamkov_ENABLE_P4" attribute="value" />
+            <Target xsi:type="brease" contentRefId="HlavickaP34" widgetRefId="ButtonPredneDvereBunka4" attribute="enable" />
+        </Binding>
+        
+        
+        <!--Prepínanie symbolov zámkov na tlačítkach ovládania zámkov pracovisko 3-->
+        	
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Safety.OUT.P3_ZamkniZamok_PredneDverePS" attribute="value" />
+            <Target xsi:type="brease" contentRefId="HlavickaP34" widgetRefId="ImageList4" attribute="selectedIndex" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Safety.OUT.P3_ZamkniZamok_PredneDvereLS" attribute="value" />
+            <Target xsi:type="brease" contentRefId="HlavickaP34" widgetRefId="ImageList3" attribute="selectedIndex" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Safety.OUT.P3_ZamkniZamok_ZadneDvere" attribute="value" />
+            <Target xsi:type="brease" contentRefId="HlavickaP34" widgetRefId="ImageList2" attribute="selectedIndex" />
+        </Binding>
+       
+        
+        <!--Prepínanie symbolov zámkov na tlačítkach ovládania zámkov pracovisko 4-->
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Safety.OUT.P4_ZamkniZamok_PredneDvere" attribute="value" />
+            <Target xsi:type="brease" contentRefId="HlavickaP34" widgetRefId="ImageList5" attribute="selectedIndex" />
+        </Binding>
+        
+   
+    </Bindings>
+</BindingsSet>

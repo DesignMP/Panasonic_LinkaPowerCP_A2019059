@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/StavyUsers</prop>
+  </header>
+  <body>
+    <tu tuid="0">
+      <tuv xml:lang="sk">
+        <seg>READY</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Example informational user message. For customer events bit 3 must be always set in the event id</seg>
+      </tuv>
+    </tu>
+    <tu tuid="1">
+      <tuv xml:lang="sk">
+        <seg>Uživatel bol uložený.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="2">
+      <tuv xml:lang="sk">
+        <seg>Uživatel už existuje !!!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="3">
+      <tuv xml:lang="sk">
+        <seg>Uživatel bol načítaný.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="4">
+      <tuv xml:lang="sk">
+        <seg>Uživatel bol vymazaný.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="5">
+      <tuv xml:lang="sk">
+        <seg>Zoznam uživatelov je plný !!!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="6">
+      <tuv xml:lang="sk">
+        <seg>Ukladám uživatela...</seg>
+      </tuv>
+    </tu>
+    <tu tuid="7">
+      <tuv xml:lang="sk">
+        <seg>Chýba meno alebo heslo uživatela !!!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="8">
+      <tuv xml:lang="sk">
+        <seg>Chýbajú prihlasovacie údaje !!!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="9">
+      <tuv xml:lang="sk">
+        <seg>BUSY</seg>
+      </tuv>
+    </tu>
+    <tu tuid="10">
+      <tuv xml:lang="sk">
+        <seg>Uživatel bol prihlásený.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="11">
+      <tuv xml:lang="sk">
+        <seg>Uživatel nebol nájdený !!!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="12">
+      <tuv xml:lang="sk">
+        <seg>Uživatel bol odhlásený.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="13">
+      <tuv xml:lang="sk">
+        <seg>Chýba meno alebo číslo karty uživatela !!!</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

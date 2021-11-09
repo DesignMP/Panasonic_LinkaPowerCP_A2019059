@@ -1,0 +1,33 @@
+(*****Pracovisko 1*********)
+VAR
+	CAM2 : CAM2_typ; (*P1_ST1_Vytah - kontrola kusov na paletke*)
+	CAM3 : CAM3_typ; (*P1_ST1_Vytah - kontrola QR kódu DPS*)
+	CAM4 : CAM4_typ; (*P1_ST1_Vytah - kontrola klipov krytu DPS*)
+	CAM5 : CAM5_typ; (*P1_ST1_Vytah - kontrola QR kódu PowerCP*)
+	CAM6 : CAM6_typ; (*P1_ST2_StoperSkrutkovania - Kontrola paletky*)
+END_VAR
+(******Pracovisko 2**********)
+VAR
+	CAM1 : CAM1_typ; (*P2_ST1_ZaklTesnenia - Kontrola tesnenia a QR kódu Power CP*)
+	CAM7 : CAM7_typ; (*P2_ST1_StoperZaklTesnenia - Kontrola Power CP a QR kódu filtra*)
+	CAM8 : CAM8_typ; (*P2_ST1_StoperZaklTesnenia - Kontrola spodného QR kódu Power CP*)
+	CAM9 : CAM9_typ; (*P2_ST2_StoperMaticovacky - Kontrola paletky*)
+	CAM10 : CAM10_typ; (*P2_ST3_StoperSkrutkovania - Kontrola paletky*)
+	CAM11 : CAM11_typ; (*P2_ST4_StoperZvarania - Kontrola pravého MV case*)
+	CAM12 : CAM12_typ; (*P2_ST4_StoperZvarania - Kontrola lavého MV case a Power CP*)
+	CAM17 : CAM17_typ; (*P2_ST1_StoperZaklTesnenia - Kontrola paletky*)
+END_VAR
+(*******Pracovisko 3**************)
+VAR
+	CAM13 : CAM13_typ; (*P3_ST1_*)
+END_VAR
+(********Pracovisko 4*************)
+VAR
+	CAM14 : CAM14_typ; (*P4_ST3_*)
+	CAM15 : CAM15_typ; (*P4_ST3_*)
+	CAM16 : CAM16_typ; (*P4_ST4_*)
+END_VAR
+(*********Control Unit********************)
+VAR
+	ControlUnit : ControlUnit_typ;
+END_VAR

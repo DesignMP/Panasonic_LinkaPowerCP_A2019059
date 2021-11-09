@@ -1,0 +1,79 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Library: RFID
+ * File: RFID.var
+ * Author: houx
+ * Created: March 25, 2009
+ ********************************************************************
+ * Constants of library RFID
+ ********************************************************************)
+VAR CONSTANT
+	REG1 : USINT := 1;
+	REG2 : USINT := 2;
+	REG4 : USINT := 4;
+	REG5 : USINT := 5;
+	REG6 : USINT := 6;
+	REG8 : USINT := 8;
+	REG9 : USINT := 9;
+	REG11 : USINT := 11;
+	REG14 : USINT := 14;
+	REG13 : USINT := 13;
+	REG12 : USINT := 12;
+	REG10 : USINT := 10;
+	REG7 : USINT := 7;
+	REG15 : USINT := 15;
+	REG16 : USINT := 16;
+	REG19 : USINT := 19;
+	REG18 : USINT := 18;
+	REG17 : USINT := 17;
+	REG20 : USINT := 20;
+	REG25 : USINT := 25;
+	REG26 : USINT := 26;
+	REG28 : USINT := 28;
+	READ : USINT := 2;
+	WRITE : USINT := 1;
+	REG30 : USINT := 30;
+	REG33 : USINT := 33;
+	CLOSE : USINT := 100;
+	REG32 : USINT := 32;
+	REG31 : USINT := 31;
+	SEARCHTP : USINT := 1;
+	SEARCHTPLIST : USINT := 0;
+	REG29 : USINT := 29;
+	REG27 : USINT := 27;
+	STACKWRITE : USINT := 5;
+	TRANSPONDER_VENDOR_ID : UINT := 1659;
+	TYPEREAD : USINT := 2;
+	TRANSPONDER_PRODUCT_ID : UINT := 8963;
+	TYPEWRITE : USINT := 1;
+	TRANSPONDER_BCD : UINT := 768;
+	STACKREAD : USINT := 6;
+	REG24 : USINT := 24;
+	RW : USINT := 1;
+	REG23 : USINT := 23;
+	REG22 : USINT := 22;
+	REG21 : USINT := 21;
+	OPEN : USINT := 0;
+	IDWRITE : USINT := 3;
+	IDREAD : USINT := 4;
+	rfidError_lock_wrongType : UDINT := 41;
+	rfidError_password_wrongType : UDINT := 61;
+	rfidError_stacklevel_failed : UDINT := 23;
+	rfidError_unlock_failed : UDINT := 52;
+	rfidError_unlock_wrongType : UDINT := 51;
+	rfidError_tag_failed : UDINT := 21;
+	rfidError_crc_failed : USINT := 31;
+	rfidError_id_failed : UDINT := 22;
+	rfidError_write_failed : UDINT := 83;
+	rfidError_write_wrongRegNr : UDINT := 82;
+	rfidError_write_wrongType : UDINT := 81;
+	rfidError_read_wrongRegNr : UDINT := 72;
+	rfidError_read_wrongType : UDINT := 71;
+	rfidError_rf_failed : UDINT := 11;
+	rfidError_read_failed : UDINT := 73;
+	rfidError_password_failed : UDINT := 62;
+	rfidError_lock_failed : UDINT := 42;
+	DATAREAD : USINT := 3;
+	REG3 : USINT := 3;
+END_VAR

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">AuditText</prop>
+  </header>
+  <body>
+    <tu tuid="Root">
+      <tuv xml:lang="sk">
+        <seg>{=$AuditText/{&amp;ev}} 
+</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>{=$AuditText/{&amp;ev}} </seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>{&amp;evtime[TIME=%F %R]} {=$AuditText/{&amp;ev}} </seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="33">
+      <tuv xml:lang="sk">
+        <seg>Alarm: {&amp;name}  ,  {&amp;msg} ,  Stav:{&amp;stnew}
+</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Alarm: {&amp;name}  ,  {&amp;msg} ,  Stav:{&amp;stnew}
+</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Alarm: {&amp;name} Alter Zustand: {&amp;stold}, Neuer Zustand:{&amp;stnew}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="16">
+      <tuv xml:lang="sk">
+        <seg>Hodnota premennej {&amp;dpid} sa zmenila. Stará hodnota: {&amp;old|.2f} {&amp;old[UNIT=%s]}, Nová hodnota: {&amp;new|.2f} {&amp;new[UNIT=%s]}
+</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Hodnota premennej {&amp;dpid} sa zmenila. Stará hodnota: {&amp;old|.2f} {&amp;old[UNIT=%s]}, Nová hodnota: {&amp;new|.2f} {&amp;new[UNIT=%s]}</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Wert von '{=$AuditText/Value/{&amp;dpid}}' hat sich geändert. Alter Wert: {&amp;old|.2f} {&amp;old[UNIT=%s]}, Neuer Wert: {&amp;new|.2f} {&amp;new[UNIT=%s]}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="18">
+      <tuv xml:lang="sk">
+        <seg>{&amp;typ} {&amp;msg} {&amp;cmt}
+</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>{&amp;typ} {&amp;msg} {&amp;cmt}</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

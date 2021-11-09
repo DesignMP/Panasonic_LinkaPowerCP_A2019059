@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.5.60 SP?>
+<Package SubType="DialogsPackage" PackageType="DialogsPackage" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package">LoginDialog</Object>
+    <Object Type="Package">TimeDialog</Object>
+    <Object Type="Package">Hlasenie1_ST7</Object>
+    <Object Type="Package">Hlasenie1_ST8</Object>
+    <Object Type="Package">Hlasenie2_ST8</Object>
+    <Object Type="Package" Description="KontrolaQR_kodu">Hlasenie1_ST9</Object>
+    <Object Type="Package" Description="KontrolaEtikety">Hlasenie2_ST9</Object>
+    <Object Type="Package">Hlasenie3_ST9</Object>
+    <Object Type="Package">Hlasenie1_ST10</Object>
+    <Object Type="Package">Hlasenie2_ST10</Object>
+    <Object Type="Package">Hlasenie3_ST10</Object>
+    <Object Type="Package">Hlasenie4_ST10</Object>
+    <Object Type="Package">Hlasenie5_ST10</Object>
+    <Object Type="Package">Hlasenie6_ST10</Object>
+    <Object Type="Package">Hlasenie7_ST10</Object>
+    <Object Type="Package" Description="VstupnaKontrola">Hlasenie8_ST10</Object>
+    <Object Type="Package">Hlasenie9_ST10</Object>
+  </Objects>
+</Package>

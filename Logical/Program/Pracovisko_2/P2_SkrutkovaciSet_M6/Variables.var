@@ -1,0 +1,24 @@
+VAR
+	Stav_PodavacVycisteny : BOOL;
+	Stav_SkrutkaM6_Pripravena : BOOL;
+	SkrutkovaciSet : SkrutkovaciSetStruc;
+	TprazdnyZasobnik : TON;
+	TakumulaciaPlna : TON;
+	TvytvorenieVakua : TON;
+	TodvetranieVakua : TON;
+	TprefukPredBrzdou : TON;
+	TvysuvanieSpindle : TON;
+	TprefukZaBrzdou : TON;
+	PocetPokusovOpripravuSkrutky : USINT;
+	ToddelovacZakladnaPoloha : TON;
+	TpripravaSkrutky : TON;
+	TodsatieNecistot : TON;
+	Tvibrovanie : TON;
+	TvyfukovaniePredVibrovanim : TON;
+	ZapniHrniec : BOOL;
+	TpodaniaSkrutky : TON;
+	TpredSkrutkaPripravena : TON;
+	TvypnutieOfuku : TON;
+	StavSkrutkovackaVysunuta : BOOL;
+	TalarmuVysunutiaSkrutkovacky : TON;
+END_VAR

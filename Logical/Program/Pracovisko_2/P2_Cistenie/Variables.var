@@ -1,0 +1,5 @@
+VAR
+	SC_OvlDveri : SequenceControlTyp;
+	Dvere_OTVOR : BOOL;
+	Dvere_ZATVOR : BOOL;
+END_VAR

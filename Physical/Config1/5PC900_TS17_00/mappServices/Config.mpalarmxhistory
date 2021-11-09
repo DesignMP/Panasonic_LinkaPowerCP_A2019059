@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Element ID="gAlarmXHistory" Type="mpalarmxhistory">
+    <Group ID="mapp.AlarmX.History">
+      <Group ID="Export">
+        <Property ID="FileNamePattern" Value="Alarms_%d_%m_%Y_%H_%M_%S.csv" />
+        <Property ID="TimeStampPattern" Value="%d-%m-%Y %H:%M:%S:%L" />
+      </Group>
+    </Group>
+  </Element>
+</Configuration>

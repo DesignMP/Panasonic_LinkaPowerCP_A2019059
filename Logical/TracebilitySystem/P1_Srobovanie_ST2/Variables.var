@@ -1,0 +1,8 @@
+VAR
+	SC_KOM_Server : SequenceControlTyp;
+	SKTcpClientTrace_1 : SKTcpClientTrace;
+	a : USINT;
+	Report : ARRAY[0..50] OF Report_typ;
+	ret : UDINT;
+	PocetDopytovNaServer : USINT;
+END_VAR

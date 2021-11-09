@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="VizuP34_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Bindings>
+		
+		
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.TL_RezimAutomat_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="PataP34" widgetRefId="NavigationButton_Automat" attribute="enable" />
+        </Binding>
+		
+
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:CAM16.RESULT.Paletka.Pritomn_PowerCP" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaHlasenie1_ST10" widgetRefId="ImageList4" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:CAM16.RESULT.Paletka.Pritomn_PravyMVcase" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaHlasenie1_ST10" widgetRefId="ImageList3" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:CAM16.RESULT.Paletka.Pritomn_LavyMVcase" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaHlasenie1_ST10" widgetRefId="ImageList2" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:CAM16.RESULT.Paletka.Pritomn_Busbarov_4F" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaHlasenie1_ST10" widgetRefId="ImageList1" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:CAM16.RESULT.Paletka.Pritomn_PowerCP" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaHlasenie2_ST10" widgetRefId="ImageList4" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:CAM16.RESULT.Paletka.Pritomn_PravyMVcase" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaHlasenie2_ST10" widgetRefId="ImageList3" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:CAM16.RESULT.Paletka.Pritomn_LavyMVcase" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaHlasenie2_ST10" widgetRefId="ImageList2" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:CAM16.RESULT.Paletka.Pritomn_Busbarov_5F" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaHlasenie2_ST10" widgetRefId="ImageList1" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:CAM16.RESULT.Paletka.Pritomn_PowerCP" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaHlasenie3_ST10" widgetRefId="ImageList4" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:CAM16.RESULT.Paletka.Pritomn_PravyMVcase" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaHlasenie3_ST10" widgetRefId="ImageList3" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:CAM16.RESULT.Paletka.Pritomn_LavyMVcase" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaHlasenie3_ST10" widgetRefId="ImageList2" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:CAM16.RESULT.Paletka.Pritomn_Busbarov_5H" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaHlasenie3_ST10" widgetRefId="ImageList1" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.TL_RezimManual_ENABLE_P3" attribute="value" />
+            <Target xsi:type="brease" contentRefId="PataP34" widgetRefId="NavigationButton_ManualP3" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P34_Vizu.TL_RezimManual_ENABLE_P4" attribute="value" />
+            <Target xsi:type="brease" contentRefId="PataP34" widgetRefId="NavigationButton_ManualP4" attribute="enable" />
+        </Binding>
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P4_Etiketovacka.STAV.PowerCP_ZhodaQRkodu_OK" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaHlasenie1_ST9" widgetRefId="ImageList6" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM14.RESULT.PowerCP.CitanieQRkodu_PowerCP_OK" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaHlasenie1_ST9" widgetRefId="ImageList5" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P4_Etiketovacka.STAV.Etiketa_ZhodaQRkodu_OK" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaHlasenie2_ST9" widgetRefId="ImageList6" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM15.RESULT.Pritomn_Etikety" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaHlasenie2_ST9" widgetRefId="ImageList5" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM16.RESULT.PowerCP.PritomnostSkrutky_K40" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaHlasenie8_ST10" widgetRefId="ImageList5" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:CAM16.RESULT.PowerCP.PritomnostSkrutky_M5" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaHlasenie8_ST10" widgetRefId="ImageList6" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P4_Vytah.STAV.Kamera_VysledkyM5_ENABLE" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaHlasenie8_ST10" widgetRefId="Label3" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P4_Vytah.STAV.Kamera_VysledkyM5_ENABLE" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaHlasenie8_ST10" widgetRefId="ImageList6" attribute="visible" />
+</Binding>
+</Bindings>
+</BindingsSet>

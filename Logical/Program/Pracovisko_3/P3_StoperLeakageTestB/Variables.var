@@ -1,0 +1,24 @@
+VAR
+	SC_OvlCentrovacky : SequenceControlTyp;
+	Centrovacku_VYSUN : BOOL;
+	Centrovacku_ZASUN : BOOL;
+	PrecitaneCisloPaletky : STRING[3];
+	ServerOdpoved_StavPowerCP : STRING[5];
+	i : USINT;
+	SC_OvlPritlaku : SequenceControlTyp;
+	Pritlak_VYSUN : BOOL;
+	Pritlak_ZASUN : BOOL;
+	TEST : BOOL;
+	PocetDopytovNaServer : USINT;
+	CasPneniaREAL : REAL;
+	TlakPlneniaREAL : REAL;
+	ToleranciaREAL : REAL;
+	CasStabilizacieREAL : REAL;
+	TlakUnikuREAL : REAL;
+	TestovaciKus : BOOL;
+	Revork : BOOL;
+	Triger_0 : BOOL;
+	Triger_1 : BOOL;
+	PocetOpakovaniTestu : USINT;
+	OpakovanyTest : BOOL;
+END_VAR

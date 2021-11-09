@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="PageStavyStanicP2_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SC_P2_Dopravniky.StepName" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageStavyStanicP2" widgetRefId="TextOutput1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SC_P2_StoperMaticovacky.StepName" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageStavyStanicP2" widgetRefId="TextOutput3" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SC_P2_ZakladacTesnenia.StepName" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageStavyStanicP2" widgetRefId="TextOutput2" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SC_P2_StoperZaklTesnenia.StepName" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageStavyStanicP2" widgetRefId="TextOutput4" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SC_P2_StoperSrobovania.StepName" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageStavyStanicP2" widgetRefId="TextOutput5" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SC_P2_Srobovanie.StepName" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageStavyStanicP2" widgetRefId="TextOutput6" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SC_P2_Robot.StepName" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageStavyStanicP2" widgetRefId="TextOutput7" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SC_P2_StoperZvarania.StepName" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageStavyStanicP2" widgetRefId="TextOutput8" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SC_P2_Zvaranie.StepName" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageStavyStanicP2" widgetRefId="TextOutput9" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SC_P2_Cistenie.StepName" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageStavyStanicP2" widgetRefId="TextOutput10" attribute="value" />
+</Binding>
+</Bindings>
+</BindingsSet>

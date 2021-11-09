@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.6.114 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package">5ACPCI_XPNM_00</Object>
+    <Object Type="Package">Communication</Object>
+    <Object Type="Package">AB2_1_Profinet</Object>
+  </Objects>
+</Package>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ddef:Dialog xmlns:ddef="http://www.br-automation.com/iat2015/dialogDefinition/v2" id="Hlasenie8_ST6" layoutRefId="LayoutHlasenie">
+  <Assignments>
+    <Assignment type="Content" baseContentRefId="AreaHlasenie8_ST6" areaRefId="Area" />
+  </Assignments>
+</ddef:Dialog>

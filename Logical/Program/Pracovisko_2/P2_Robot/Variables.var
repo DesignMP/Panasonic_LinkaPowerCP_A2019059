@@ -1,0 +1,4 @@
+VAR
+	Triger_0 : BOOL;
+	CasOtvoreniaGripraMV : TON;
+END_VAR

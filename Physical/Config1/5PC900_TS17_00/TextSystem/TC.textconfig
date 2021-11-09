@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Element ID="TextConfig" Type="TextConfig">
+    <Group ID="Languages">
+      <Property ID="UserDefaultLanguage" Value="sk" />
+      <Property ID="UserFallbackLanguage" Value="sk" />
+      <Group ID="TargetLanguages">
+        <Property ID="TargetLanguage[1]" Value="sk" />
+        <Property ID="TargetLanguage[2]" Value="en" />
+      </Group>
+    </Group>
+    <Group ID="TargetFiles">
+      <Property ID="TargetFile[1]" Value="mappView.Resources.Texts.TextyTlacidiel.tmx" />
+      <Property ID="TargetFile[2]" Value="mappView.Resources.Texts.TextyDatumu.tmx" />
+      <Property ID="TargetFile[3]" Value="mappView.Resources.Texts.TextyVolby.tmx" />
+      <Property ID="TargetFile[4]" Value="mappView.Resources.Texts.WarningsP2.tmx" />
+      <Property ID="TargetFile[5]" Value="mappView.Resources.Texts.StavyZariadenia.tmx" />
+      <Property ID="TargetFile[6]" Value="mappView.Resources.Texts.StavyUsers.tmx" />
+      <Property ID="TargetFile[7]" Value="mappView.Resources.Texts.AuditText.tmx" />
+      <Property ID="TargetFile[8]" Value="mappView.Resources.Texts.WarningsP1.tmx" />
+      <Property ID="TargetFile[9]" Value="mappView.Resources.Texts.WarningsP3.tmx" />
+      <Property ID="TargetFile[10]" Value="mappView.Resources.Texts.WarningsP4.tmx" />
+    </Group>
+  </Element>
+</Configuration>

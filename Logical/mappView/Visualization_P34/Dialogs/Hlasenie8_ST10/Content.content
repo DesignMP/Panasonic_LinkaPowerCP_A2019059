@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="AreaHlasenie8_ST10" height="520" width="500" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox6" top="0" left="0" width="500" height="520" zIndex="0" borderWidth="7px" cornerRadius="6px 6px 6px 6px" backColor="rgba(255, 192, 128, 1)" borderStyle="groove" textColor="rgba(0, 0, 0, 1)" shadow="4px 4px 14px rgba(0, 0, 0, 1)">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.ImageList" id="ImageList5" top="84" left="429" width="25" height="25" zIndex="3" imageList="['Button_NO_25x25.png', 'Button_YES_25x25.png']" imagePrefix="Media/Pictures/" borderStyle="none" borderWidth="0px" />
+        <Widget xsi:type="widgets.brease.Button" id="Button_OznacPaletkuOK" top="431" left="55" width="149" height="45" zIndex="0" multiLine="true" text="Označ paletku\nOK" cornerRadius="10px" backGroundGradient="linear-gradient(to bottom, rgba(192, 255, 192, 1) 20%,rgba(0,255,0,1) 100%)" textColor="rgba(0, 0, 0, 1)" textAlign="center" shadow="4px 4px 14px rgba(0, 0, 0, 1)" />
+        <Widget xsi:type="widgets.brease.Button" id="Button_OznacPaletkuNG" top="431" left="277" width="149" height="45" zIndex="1" multiLine="true" text="Označ paletku\nNG" cornerRadius="10px" backGroundGradient="linear-gradient(to bottom, rgba(255, 192, 192, 1) 20%,rgba(255,0,0,1) 100%)" textColor="rgba(0, 0, 0, 1)" textAlign="center" shadow="4px 4px 14px rgba(0, 0, 0, 1)" />
+        <Widget xsi:type="widgets.brease.Label" id="Label2" top="81" left="22" width="443" zIndex="2" multiLine="true" text="Plate - prítomnosť skrutky K40" borderWidth="2px" backColor="rgba(224, 224, 224, 1)" borderColor="rgba(0, 0, 0, 1)" borderStyle="outset" textColor="rgba(0, 0, 0, 1)" textAlign="left" fontSize="15px" bold="true" underline="false" />
+        <Widget xsi:type="widgets.brease.ImageList" id="ImageList6" top="117" left="429" width="25" height="25" zIndex="5" imageList="['Button_NO_25x25.png', 'Button_YES_25x25.png']" imagePrefix="Media/Pictures/" borderStyle="none" borderWidth="0px" />
+        <Widget xsi:type="widgets.brease.Label" id="Label3" top="113" left="22" width="443" zIndex="4" multiLine="true" text="Plate - prítomnosť skrutky M5" borderWidth="2px" backColor="rgba(224, 224, 224, 1)" borderColor="rgba(0, 0, 0, 1)" borderStyle="outset" textColor="rgba(0, 0, 0, 1)" textAlign="left" fontSize="15px" bold="true" underline="false" />
+        <Widget xsi:type="widgets.brease.Label" id="Label4" top="6" left="22" width="443" height="62" zIndex="6" multiLine="true" text="Stanica 10 - Výťah\nVstupná kontrola paletky" borderWidth="4px" cornerRadius="2px" backColor="rgba(169, 169, 169, 1)" borderColor="rgba(0, 0, 0, 1)" borderStyle="double" textColor="rgba(0, 0, 0, 1)" textAlign="center" fontSize="20px" bold="true" underline="false" />
+      </Widgets>
+    </Widget>
+  </Widgets>
+</Content>

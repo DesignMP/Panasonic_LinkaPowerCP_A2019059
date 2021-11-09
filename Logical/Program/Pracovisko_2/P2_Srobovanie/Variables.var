@@ -1,0 +1,55 @@
+VAR
+	SC_OvlManipulatora_OsX : SequenceControlTyp;
+	OsX_JoggVPRED : BOOL;
+	OsX_JoggVZAD : BOOL;
+	OsX_POLOHUJ : BOOL;
+	OsX_HOME : BOOL;
+	OsX_STOP : BOOL;
+	SC_OvlManipulatora_OsY : SequenceControlTyp;
+	OsY_JoggVPRED : BOOL;
+	OsY_JoggVZAD : BOOL;
+	OsY_POLOHUJ : BOOL;
+	OsY_HOME : BOOL;
+	OsY_STOP : BOOL;
+	Test : BOOL;
+	ZadanaPoziciaUINT_OsX : UINT;
+	AktualnaPoziciaUINT_OsX : UINT;
+	ZadanaPoziciaUINT_OsY : UINT;
+	AktualnaPoziciaUINT_OsY : UINT;
+	Triger_0 : BOOL;
+	TEST : BOOL;
+	CasPowerON_OsX : TON;
+	CasPowerON_OsY : TON;
+	PAUZA : BOOL;
+	i : USINT;
+	CasSrobovania : REAL;
+	M5_DosiahnutyMoment_REAL : REAL;
+	M5_Moment_ToleranciaMAX_REAL : REAL;
+	M5_Moment_ToleranciaMIN_REAL : REAL;
+	M4_DosiahnutyMoment_REAL : REAL;
+	M4_Moment_ToleranciaMAX_REAL : REAL;
+	M4_Moment_ToleranciaMIN_REAL : REAL;
+	M6_DosiahnutyMoment_REAL : REAL;
+	M6_Moment_ToleranciaMAX_REAL : REAL;
+	M6_Moment_ToleranciaMIN_REAL : REAL;
+	M5_PrevodMomentu : PrevodMomentu;
+	M6_PrevodMomentu : PrevodMomentu;
+	M4_PrevodMomentu : PrevodMomentu;
+	CasZastaveniaServa : TON;
+	CasZastaveniaServa_2 : TON;
+	FazaNavratu : UINT;
+	CasKontrolyZasobSkrutiek_M4 : TON;
+	CasKontrolyZasobSkrutiek_M5 : TON;
+	CasKontrolyZasobSkrutiek_M6 : TON;
+END_VAR
+(******Zápis do ParID serva*************)
+VAR
+	MC_BR_ProcessParID_AcpAx_0 : MC_BR_ProcessParID_AcpAx := (0);
+	McAcpAxProcessParIDType_0 : ARRAY[0..1] OF McAcpAxProcessParIDType;
+	OsX_NovaHodnotaMomentu_POS : REAL := 0.0;
+	OsX_NovaHodnotaMomentu_NEG : REAL := 0.0;
+	MC_BR_ProcessParID_AcpAx_1 : MC_BR_ProcessParID_AcpAx := (0);
+	McAcpAxProcessParIDType_1 : ARRAY[0..1] OF McAcpAxProcessParIDType;
+	OsY_NovaHodnotaMomentu_POS : REAL := 0.0;
+	OsY_NovaHodnotaMomentu_NEG : REAL := 0.0;
+END_VAR

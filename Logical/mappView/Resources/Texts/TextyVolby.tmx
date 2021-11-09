@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/TextyVolby</prop>
+  </header>
+  <body>
+    <tu tuid="1">
+      <tuv xml:lang="sk">
+        <seg>Pondelok</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Example informational user message. For customer events bit 3 must be always set in the event id</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Beispiel für benutzerdefinierte Informationsnachricht. Bei benutzerdefinierten Events muss Bit 3 immer gesetzt sein.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="2">
+      <tuv xml:lang="sk">
+        <seg>Utorok</seg>
+      </tuv>
+    </tu>
+    <tu tuid="3">
+      <tuv xml:lang="sk">
+        <seg>Streda</seg>
+      </tuv>
+    </tu>
+    <tu tuid="4">
+      <tuv xml:lang="sk">
+        <seg>Štvrtok</seg>
+      </tuv>
+    </tu>
+    <tu tuid="5">
+      <tuv xml:lang="sk">
+        <seg>Piatok</seg>
+      </tuv>
+    </tu>
+    <tu tuid="6">
+      <tuv xml:lang="sk">
+        <seg>Sobota</seg>
+      </tuv>
+    </tu>
+    <tu tuid="7">
+      <tuv xml:lang="sk">
+        <seg>Nedela</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

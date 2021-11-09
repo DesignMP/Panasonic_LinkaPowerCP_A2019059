@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.5.60 SP?>
+<Package SubType="PagesPackage" PackageType="PagesPackage" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package" Description="AreaContents">AreaContents</Object>
+    <Object Type="Package">PageBoot</Object>
+    <Object Type="Package">PageAutomat</Object>
+    <Object Type="Package">PageAlarm</Object>
+    <Object Type="Package">PageInfo</Object>
+    <Object Type="Package">PageSetup_page1</Object>
+    <Object Type="Package">PageParametreMain</Object>
+    <Object Type="Package">PageParametre_page1</Object>
+    <Object Type="Package">PageParametre_page2</Object>
+    <Object Type="Package">PageTolerancieSkrutkovania</Object>
+    <Object Type="Package">PageStavyStanic</Object>
+    <Object Type="Package">PageKameraCAM2</Object>
+    <Object Type="Package">PageKameryMain</Object>
+    <Object Type="Package">PageManualMain</Object>
+    <Object Type="Package">PageManual_Dopravniky</Object>
+    <Object Type="Package">PageManual_Vytah</Object>
+    <Object Type="Package">PageManual_Skrutkovanie</Object>
+    <Object Type="Package">PageManual_Skrutkovanie_page2</Object>
+    <Object Type="Package">PageManual_Skrutkovanie_page3</Object>
+    <Object Type="Package">PageUsers</Object>
+  </Objects>
+</Package>

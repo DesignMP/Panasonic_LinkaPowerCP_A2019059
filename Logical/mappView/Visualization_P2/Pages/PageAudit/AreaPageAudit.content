@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="AreaPageAuditP2" height="588" width="1366" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Image" id="Image1" top="0" left="0" width="1366" height="588" zIndex="0" image="Media/Pozadie/BackGround_588x1366.png" opacity="0.2" />
+    <Widget xsi:type="widgets.brease.AuditList" id="AuditList1" top="18" left="23" width="1320" height="488" zIndex="1" format="dd.MM.yyyy HH:mm" itemsPerPage="10" borderStyle="solid" borderColor="rgba(0, 0, 0, 1)" headerBackGroundGradient="linear-gradient(to bottom, rgba(192, 255, 192, 1) 20%,rgba(0,255,0,1) 100%)" headerTextColor="rgba(0, 0, 0, 1)" headerFontSize="18px" textColor="rgba(0, 0, 0, 1)" fontSize="14px" sortingButtonColor="rgba(255, 255, 255, 0)" shadow="4px 4px 14px rgba(0, 0, 0, 1)" cornerRadius="8px" headerTextAlign="center" headerCellBorderColor="rgba(0, 0, 0, 1)" headerCellBorderStyle="solid" cellBorderColor="rgba(0, 0, 0, 1)" backGroundGradient="linear-gradient(to bottom,#F7F7F7 0%,#C6C6C6 100%)">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.AuditListItem" id="AuditList_Stlpec1" width="320" zIndex="0" columnType="timestamp" text="Dátum a čas" />
+        <Widget xsi:type="widgets.brease.AuditListItem" id="AuditList_Stlpec2" width="1000" zIndex="1" text="Popis auditu" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.Button" id="Button_ArchivaciaAuditu" top="524" left="1185" width="158" height="50" zIndex="2" image="Media/Pictures/Uloz_32x32.png" multiLine="true" text="Archivácia \n auditov" cornerRadius="10px" textColor="rgba(0, 0, 0, 1)" textAlign="center" shadow="4px 4px 14px rgba(0, 0, 0, 1)" />
+  </Widgets>
+</Content>

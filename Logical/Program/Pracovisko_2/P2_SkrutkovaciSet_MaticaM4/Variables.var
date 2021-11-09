@@ -1,0 +1,17 @@
+VAR
+	TvytvorenieVakua : TON;
+	TodvetranieVakua : TON;
+	TprazdnyZasobnik : TON;
+	TakumulaciaPlna : TON;
+	ToneskorenieVysunutia : TON;
+	ToneskorenieZasunutia : TON;
+	SkrutkovaciSet : SkrutkovaciSetStruc;
+	Stav_MaticaPripravena : BOOL;
+	TvyfukovaniePredVibrovanim : TON;
+	ZapniHrniec : BOOL;
+	TpodaniaSkrutky : TON;
+	Tvibrovanie : TON;
+	TpredMaticaPripravena : TON;
+	TpripravaMatice : TON;
+	TvypnutieOfuku : TON;
+END_VAR

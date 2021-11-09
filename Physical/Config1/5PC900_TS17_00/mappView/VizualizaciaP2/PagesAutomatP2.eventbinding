@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="PagesAutomatP2_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bindings>
+			
+		<EventBinding id="AreaPageAutomatP2.Button_START.Click">
+			<Source contentRefId="AreaPageAutomatP2" widgetRefId="Button_START" xsi:type="widgets.brease.Button.Event" event="Click" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Pracovisko.Automat" >
+						<Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		
+		<EventBinding id="AreaPageAutomatP2.Button_STOP.Click">
+			<Source contentRefId="AreaPageAutomatP2" widgetRefId="Button_STOP" xsi:type="widgets.brease.Button.Event" event="Click" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Pracovisko.Reset" >
+						<Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		
+		<EventBinding id="AreaPageAutomatP2.Button_KoniecCyklu.Click">
+			<Source contentRefId="AreaPageAutomatP2" widgetRefId="Button_KoniecCyklu" xsi:type="widgets.brease.Button.Event" event="Click" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Pracovisko.KoniecCyklu" >
+						<Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		
+	</Bindings>
+</EventBindingSet>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="PageStavyStanicP3_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SC_P3_LeakageTestB.StepName" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageStavyStanicP3" widgetRefId="TextOutput8" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SC_P3_LeakageTestA.StepName" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageStavyStanicP3" widgetRefId="TextOutput7" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SC_P3_AkumulacnyStoper.StepName" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageStavyStanicP3" widgetRefId="TextOutput6" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SC_P3_Srobovanie.StepName" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageStavyStanicP3" widgetRefId="TextOutput5" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SC_P3_StoperSrobovania.StepName" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageStavyStanicP3" widgetRefId="TextOutput3" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SC_P3_VstupnyStoper.StepName" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageStavyStanicP3" widgetRefId="TextOutput2" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SC_P3_SpodnyStoper.StepName" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageStavyStanicP3" widgetRefId="TextOutput4" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SC_P3_Dopravniky.StepName" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageStavyStanicP3" widgetRefId="TextOutput1" attribute="value" />
+</Binding>
+</Bindings>
+</BindingsSet>

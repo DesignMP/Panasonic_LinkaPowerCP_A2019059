@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.5.60 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Program" Language="IEC">TaktimeVytah_ST1</Object>
+    <Object Type="Program" Language="IEC">TaktimeSrobovanie_ST2</Object>
+    <Object Type="Program" Language="IEC">TaktimeZaklTesnenia_ST3</Object>
+    <Object Type="Program" Language="IEC">TaktimeMaticovacka_ST4</Object>
+    <Object Type="Program" Language="IEC">TaktimeSrobovanie_ST5</Object>
+    <Object Type="Program" Language="IEC">TaktimeZvaranie_ST6</Object>
+    <Object Type="Program" Language="IEC">Taktime_Srobovanie_ST7</Object>
+    <Object Type="Program" Language="IEC">Taktime_LeakageTestA_ST8A</Object>
+    <Object Type="Program" Language="IEC">Taktime_LeakageTestB_ST8B</Object>
+    <Object Type="Program" Language="IEC">Taktime_FunkcnyTestA_ST9A</Object>
+    <Object Type="Program" Language="IEC">Taktime_FunkcnyTestB_ST9B</Object>
+    <Object Type="Program" Language="IEC">Taktime_Etiketovacka_ST9</Object>
+    <Object Type="Program" Language="IEC">Taktime_Vytah_ST10</Object>
+  </Objects>
+</Package>

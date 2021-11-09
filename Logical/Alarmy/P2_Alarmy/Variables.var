@@ -1,0 +1,20 @@
+VAR
+	i : UINT;
+	CasKontroly_TlakVzduchu : TON;
+	CasKontroly_KAMsystem : TON;
+	CasKontroly_Moduly : TON;
+	CasKontroly_VentTerminalov : TON;
+	CasKontroly_Skrutkovacky : TON;
+	CasKontroly_Robota : TON;
+	CasPoruchyServaZdvihuZakladaca : TON;
+	CasPoruchyServaPojazduZakladaca : TON;
+	CasPoruchyServaSrobovaniaOsX : TON;
+	CasPoruchyServaSrobovaniaOsY : TON;
+	CasPoruchyServaZdvihuZvarania : TON;
+	CasResetServaZdvihuZakladaca : TON;
+	CasResetServaPojazduZakladaca : TON;
+	CasResetovaniaServaSrobovaniaOsX : TON;
+	CasResetovaniaServaSrobovaniaOsY : TON;
+	CasResetServaZdvihuZvarania : TON;
+	a : INT;
+END_VAR

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="HlavickaP34_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bindings>
+		<EventBinding id="HlavickaP34.TextOutput1.Click">
+			<Source contentRefId="HlavickaP34" widgetRefId="TextOutput1" xsi:type="widgets.brease.TextOutput.Event" event="Click" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="clientSystem.Action">
+						<Method xsi:type="clientSystem.Action.OpenDialog" dialogId="LoginDialogP34" horizontalPos="center" verticalPos="middle" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		
+        <!--Tlačítko reset CS-->
+        <EventBinding id="HlavickaP34.ButtonResetCS.Click">
+			<Source contentRefId="HlavickaP34" widgetRefId="ButtonResetCS" xsi:type="widgets.brease.Button.Event" event="Click" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P34_Vizu.TL_ResetCS" >
+						<Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		
+		
+		<!--Tlacítka ovládania zámkov pracovisko 3-->
+		<EventBinding id="HlavickaP34.ButtonZadneDvereBunka3.Click">
+			<Source contentRefId="HlavickaP34" widgetRefId="ButtonZadneDvereBunka3" xsi:type="widgets.brease.Button.Event" event="Click" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P34_Vizu.TL_ZamkniZadnyZamok_P3" >
+						<Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		
+        
+        <EventBinding id="HlavickaP34.ButtonPredneDvereLSBunka3.Click">
+			<Source contentRefId="HlavickaP34" widgetRefId="ButtonPredneDvereLSBunka3" xsi:type="widgets.brease.Button.Event" event="Click" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P34_Vizu.TL_ZamkniPrednyZamokLS_P3" >
+						<Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		
+		
+        <EventBinding id="HlavickaP34.ButtonPredneDverePSBunka3.Click">
+            <Source contentRefId="HlavickaP34" widgetRefId="ButtonPredneDverePSBunka3" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P34_Vizu.TL_ZamkniPrednyZamokPS_P3" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+		
+		
+        <!--Tlacítka ovládania zámkov pracovisko 4-->
+        <EventBinding id="HlavickaP34.ButtonPredneDvereBunka4.Click">
+            <Source contentRefId="HlavickaP34" widgetRefId="ButtonPredneDvereBunka4" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P34_Vizu.TL_ZamkniPrednyZamok_P4" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        
+        
+       
+	
+		
+		
+			
+			
+    </Bindings>
+</EventBindingSet>

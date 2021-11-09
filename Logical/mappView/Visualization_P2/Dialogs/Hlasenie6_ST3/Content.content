@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="AreaHlasenie6_ST3" height="300" width="500" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox6" top="0" left="0" width="500" height="300" zIndex="0" borderWidth="7px" cornerRadius="6px 6px 6px 6px" backColor="rgba(255, 192, 128, 1)" borderStyle="groove" textColor="rgba(0, 0, 0, 1)" shadow="4px 4px 14px rgba(0, 0, 0, 1)">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.Image" id="Image1" top="7" left="415" width="62" height="62" zIndex="0" image="Media/Pictures/Info2_48x48.png" />
+        <Widget xsi:type="widgets.brease.Label" id="Label1" top="93" left="22" width="443" height="100" zIndex="1" multiLine="true" text="V zakladači chýba tesnenie !!!" textColor="rgba(0, 0, 0, 1)" textAlign="center" fontSize="24px" bold="true" underline="false" />
+      </Widgets>
+    </Widget>
+  </Widgets>
+</Content>

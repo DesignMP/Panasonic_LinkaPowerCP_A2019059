@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.5.60 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">R1_IRB120.dtmdri</Object>
+    <Object Type="File">R1_IRB120.dtmdre</Object>
+    <Object Type="File">R1_IRB120.dtmtre</Object>
+  </Objects>
+</Package>

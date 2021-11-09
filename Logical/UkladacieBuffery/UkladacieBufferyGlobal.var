@@ -1,0 +1,22 @@
+VAR RETAIN
+	Buffer_1 : UkladaciBuffer_typ;
+	Buffer_2 : UkladaciBuffer_typ;
+	Buffer_3 : UkladaciBuffer_typ;
+	Buffer_4 : UkladaciBuffer_typ;
+	Buffer_5 : UkladaciBuffer_typ;
+	Buffer_6 : UkladaciBuffer_typ;
+	Buffer_7 : UkladaciBuffer_typ;
+	Buffer_8 : UkladaciBuffer_typ;
+	Buffer_9 : UkladaciBuffer_typ;
+	Buffer_10 : UkladaciBuffer_typ;
+	Buffer_11 : UkladaciBuffer_typ;
+	Buffer_12 : UkladaciBuffer_typ;
+	Buffer_13 : UkladaciBuffer_typ;
+	Buffer_14 : UkladaciBuffer_typ;
+	Buffer_15 : UkladaciBuffer_typ;
+	Buffer_16 : UkladaciBuffer_typ;
+	Buffer_17 : UkladaciBuffer_typ;
+	Buffer_18 : UkladaciBuffer_typ;
+	Buffer_19 : UkladaciBuffer_typ;
+	Buffer_20 : UkladaciBuffer_typ;
+END_VAR

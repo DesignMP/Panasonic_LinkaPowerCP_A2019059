@@ -1,0 +1,1712 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Element ID="gAlarmXCore" Type="mpalarmxcore">
+    <Group ID="mapp.AlarmX.Core.Configuration">
+      <Group ID="[0]">
+        <Property ID="Name" Value="A100" />
+        <Property ID="Message" Value="ST1_Vytah - paletka na vystupe dopravnika vytahu !!!" />
+        <Property ID="Code" Value="100" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[1]">
+        <Property ID="Name" Value="A101" />
+        <Property ID="Message" Value="ST1_Vytah - narusenie optickej bariery !!! " />
+        <Property ID="Code" Value="101" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[2]">
+        <Property ID="Name" Value="A102" />
+        <Property ID="Message" Value="ST1_Vytah - porucha navezenia paletky na dopravnik vytahu !!! " />
+        <Property ID="Code" Value="102" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[3]">
+        <Property ID="Name" Value="A103" />
+        <Property ID="Message" Value="ST1_Vytah - porucha precitania kodu paletky !!!" />
+        <Property ID="Code" Value="103" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[4]">
+        <Property ID="Name" Value="A104" />
+        <Property ID="Message" Value="ST1_Vytah - porucha komunikacie zo serverom !!!" />
+        <Property ID="Code" Value="104" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[5]">
+        <Property ID="Name" Value="A105" />
+        <Property ID="Message" Value="ST1_Vytah - porucha odoslania fotiek na server !!!" />
+        <Property ID="Code" Value="105" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[6]">
+        <Property ID="Name" Value="A106" />
+        <Property ID="Message" Value="ST1_Vytah - CAM 2 porucha komunikacie FTP !!!" />
+        <Property ID="Code" Value="106" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[7]">
+        <Property ID="Name" Value="A107" />
+        <Property ID="Message" Value="ST1_Vytah - CAM 3 porucha komunikacie FTP !!!" />
+        <Property ID="Code" Value="107" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[8]">
+        <Property ID="Name" Value="A108" />
+        <Property ID="Message" Value="ST1_Vytah - CAM 4 porucha komunikacie FTP !!!" />
+        <Property ID="Code" Value="108" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[9]">
+        <Property ID="Name" Value="A109" />
+        <Property ID="Message" Value="ST1_Vytah - CAM 5 porucha komunikacie FTP !!!" />
+        <Property ID="Code" Value="109" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[10]">
+        <Property ID="Name" Value="A110" />
+        <Property ID="Message" Value="ST1_Vytah - porucha serva zdvihu vytahu !!! " />
+        <Property ID="Code" Value="110" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[11]">
+        <Property ID="Name" Value="A111" />
+        <Property ID="Message" Value="ST2_Srobovanie - porucha vysunutia centrovacky !!!" />
+        <Property ID="Code" Value="111" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[12]">
+        <Property ID="Name" Value="A112" />
+        <Property ID="Message" Value="ST2_Srobovanie - porucha zasunutia centrovacky !!!" />
+        <Property ID="Code" Value="112" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[13]">
+        <Property ID="Name" Value="A113" />
+        <Property ID="Message" Value="ST2_Srobovanie - porucha precitania kodu paletky !!!" />
+        <Property ID="Code" Value="113" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[14]">
+        <Property ID="Name" Value="A114" />
+        <Property ID="Message" Value="ST2_Srobovanie - porucha komunikacie zo serverom !!!" />
+        <Property ID="Code" Value="114" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[15]">
+        <Property ID="Name" Value="A115" />
+        <Property ID="Message" Value="ST2_Srobovanie - porucha odoslania fotiek na server !!!" />
+        <Property ID="Code" Value="115" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[16]">
+        <Property ID="Name" Value="A116" />
+        <Property ID="Message" Value="ST2_Srobovanie - CAM 6 porucha komunikacie FTP !!!" />
+        <Property ID="Code" Value="116" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[17]">
+        <Property ID="Name" Value="A117" />
+        <Property ID="Message" Value="ST2_Srobovanie - porucha serva manipulatora os X !!!" />
+        <Property ID="Code" Value="117" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[18]">
+        <Property ID="Name" Value="A118" />
+        <Property ID="Message" Value="ST2_Srobovanie - porucha serva manipulatora os Y !!!" />
+        <Property ID="Code" Value="118" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[19]">
+        <Property ID="Name" Value="A119" />
+        <Property ID="Message" Value="ST2_Srobovanie - skrutka K30 nieje pripravena !!!" />
+        <Property ID="Code" Value="119" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[20]">
+        <Property ID="Name" Value="A120" />
+        <Property ID="Message" Value="ST2_Srobovanie - skrutka M5 nieje pripravena !!!" />
+        <Property ID="Code" Value="120" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[21]">
+        <Property ID="Name" Value="A121" />
+        <Property ID="Message" Value="ST2_Srobovanie - skrutka M4 nieje pripravena !!!" />
+        <Property ID="Code" Value="121" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[22]">
+        <Property ID="Name" Value="A122" />
+        <Property ID="Message" Value="P1_Robot - porucha napajania !!!" />
+        <Property ID="Code" Value="122" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[23]">
+        <Property ID="Name" Value="A123" />
+        <Property ID="Message" Value="P1_Robot - nieje online !!!" />
+        <Property ID="Code" Value="123" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[24]">
+        <Property ID="Name" Value="A124" />
+        <Property ID="Message" Value="Pracovisko 1 - Porucha tlaku vzduchu !!!" />
+        <Property ID="Code" Value="124" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[25]">
+        <Property ID="Name" Value="A125" />
+        <Property ID="Message" Value="Pracovisko 1 - Modul DI11 nieje online !!!" />
+        <Property ID="Code" Value="125" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[26]">
+        <Property ID="Name" Value="A126" />
+        <Property ID="Message" Value="Pracovisko 1 - Modul DI12 nieje online !!!" />
+        <Property ID="Code" Value="126" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[27]">
+        <Property ID="Name" Value="A127" />
+        <Property ID="Message" Value="Pracovisko 1 - Modul DI13 nieje online !!!" />
+        <Property ID="Code" Value="127" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[28]">
+        <Property ID="Name" Value="A128" />
+        <Property ID="Message" Value="Pracovisko 1 - Modul DI14 nieje online !!!" />
+        <Property ID="Code" Value="128" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[29]">
+        <Property ID="Name" Value="A129" />
+        <Property ID="Message" Value="Pracovisko 1 - Modul DM11 nieje online !!!" />
+        <Property ID="Code" Value="129" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[30]">
+        <Property ID="Name" Value="A130" />
+        <Property ID="Message" Value="Pracovisko 1 - Modul DS11 nieje online !!!" />
+        <Property ID="Code" Value="130" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[31]">
+        <Property ID="Name" Value="A131" />
+        <Property ID="Message" Value="Pracovisko 1 - Modul DS12 nieje online !!!" />
+        <Property ID="Code" Value="131" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[32]">
+        <Property ID="Name" Value="A132" />
+        <Property ID="Message" Value="Pracovisko 1 - Modul SI11 nieje online !!!" />
+        <Property ID="Code" Value="132" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[33]">
+        <Property ID="Name" Value="A133" />
+        <Property ID="Message" Value="Pracovisko 1 - Modul SI12 nieje online !!!" />
+        <Property ID="Code" Value="133" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[34]">
+        <Property ID="Name" Value="A134" />
+        <Property ID="Message" Value="Pracovisko 1 - Ventilovy termnal VT4 nieje online !!!" />
+        <Property ID="Code" Value="134" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[35]">
+        <Property ID="Name" Value="A135" />
+        <Property ID="Message" Value="Pracovisko 1 - Ventilovy termnal VT5 nieje online !!!" />
+        <Property ID="Code" Value="135" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[36]">
+        <Property ID="Name" Value="A136" />
+        <Property ID="Message" Value="ST2_Srobovanie - Skrutkovacka K30 nieje online !!!" />
+        <Property ID="Code" Value="136" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[37]">
+        <Property ID="Name" Value="A137" />
+        <Property ID="Message" Value="ST2_Srobovanie - Skrutkovacka M5 nieje online !!!" />
+        <Property ID="Code" Value="137" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[38]">
+        <Property ID="Name" Value="A138" />
+        <Property ID="Message" Value="ST2_Srobovanie - Skrutkovacka M4 nieje online !!!" />
+        <Property ID="Code" Value="138" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[39]">
+        <Property ID="Name" Value="A139" />
+        <Property ID="Message" Value="Pracovisko 1 - Kamery KAM2, KAM4 a KAM6 niesu online !!!" />
+        <Property ID="Code" Value="139" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[40]">
+        <Property ID="Name" Value="A140" />
+        <Property ID="Message" Value="Pracovisko 1 - Kamera KAM3 nieje online !!!" />
+        <Property ID="Code" Value="140" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[41]">
+        <Property ID="Name" Value="A141" />
+        <Property ID="Message" Value="Pracovisko 1 - Kamera KAM5 nieje online !!!" />
+        <Property ID="Code" Value="141" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[42]">
+        <Property ID="Name" Value="A142" />
+        <Property ID="Message" Value="ST2_Srobovanie - Porucha vysunutia skrutkovacky K30 !!!" />
+        <Property ID="Code" Value="142" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[43]">
+        <Property ID="Name" Value="A143" />
+        <Property ID="Message" Value="ST2_Srobovanie - Porucha vysunutia skrutkovacky M5  !!!" />
+        <Property ID="Code" Value="143" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[44]">
+        <Property ID="Name" Value="A144" />
+        <Property ID="Message" Value="ST2_Srobovanie - Porucha vysunutia skrutkovacky M4 !!!" />
+        <Property ID="Code" Value="144" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[45]">
+        <Property ID="Name" Value="A145" />
+        <Property ID="Message" Value="P1_Robot - porucha !!!" />
+        <Property ID="Code" Value="145" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[46]">
+        <Property ID="Name" Value="A146" />
+        <Property ID="Message" Value="ST2_Srobovanie - Presiahnuty cas skrutkovania skrutky K30 !!!" />
+        <Property ID="Code" Value="146" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[47]">
+        <Property ID="Name" Value="A147" />
+        <Property ID="Message" Value="ST2_Srobovanie - Presiahnuty cas skrutkovania skrutky M5 !!!" />
+        <Property ID="Code" Value="147" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[48]">
+        <Property ID="Name" Value="A148" />
+        <Property ID="Message" Value="ST2_Srobovanie - Presiahnuty cas skrutkovania skrutky M4 !!!" />
+        <Property ID="Code" Value="148" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[49]">
+        <Property ID="Name" Value="A149" />
+        <Property ID="Message" Value="ST2_Srobovanie - Skrutkovacka K30 nieje READY !!!" />
+        <Property ID="Code" Value="149" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[50]">
+        <Property ID="Name" Value="A150" />
+        <Property ID="Message" Value="ST2_Srobovanie - Skrutkovacka M5 nieje READY !!!" />
+        <Property ID="Code" Value="150" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[51]">
+        <Property ID="Name" Value="A151" />
+        <Property ID="Message" Value="ST2_Srobovanie - Skrutkovacka M4 nieje READY !!!" />
+        <Property ID="Code" Value="151" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[52]">
+        <Property ID="Name" Value="A152" />
+        <Property ID="Message" Value="Pracovisko 1 - Prekrocena teplota motora vrchneho dopravnika !!!" />
+        <Property ID="Code" Value="152" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[53]">
+        <Property ID="Name" Value="A153" />
+        <Property ID="Message" Value="Pracovisko 1 - Prekrocena teplota motora spodneho dopravnika !!!" />
+        <Property ID="Code" Value="153" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[54]">
+        <Property ID="Name" Value="A154" />
+        <Property ID="Message" Value="Pracovisko 1 - Narusenie optickej bariery na vstupe !!!" />
+        <Property ID="Code" Value="154" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[55]">
+        <Property ID="Name" Value="A155" />
+        <Property ID="Message" Value="ST1_Vytah - Prekrocena teplota motora dopravnika !!!" />
+        <Property ID="Code" Value="155" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[56]">
+        <Property ID="Name" Value="A156" />
+        <Property ID="Message" Value="Pracovisko 1 - Bolo stlacene tlacitko CS na ovladacom paneli !!!" />
+        <Property ID="Code" Value="156" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[57]">
+        <Property ID="Name" Value="A157" />
+        <Property ID="Message" Value="Pracovisko 1 - Bolo stlacene tlacitko CS na rozvodnej skrini !!!" />
+        <Property ID="Code" Value="157" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[58]">
+        <Property ID="Name" Value="A158" />
+        <Property ID="Message" Value="Pracovisko 1 - Bolo stlacene tlacitko CS robota !!!" />
+        <Property ID="Code" Value="158" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[59]">
+        <Property ID="Name" Value="A159" />
+        <Property ID="Message" Value="P1_Robot - Porucha odobratia foamov z paletky !!!" />
+        <Property ID="Code" Value="159" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[60]">
+        <Property ID="Name" Value="A160" />
+        <Property ID="Message" Value="P1_Robot - Porucha odobratia busbarov z paletky !!!" />
+        <Property ID="Code" Value="160" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[61]">
+        <Property ID="Name" Value="A161" />
+        <Property ID="Message" Value="ST2_Srobovanie - Porucha vyvezenia paletky zo stopra !!!" />
+        <Property ID="Code" Value="161" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[62]">
+        <Property ID="Name" Value="A162" />
+        <Property ID="Message" Value="P1_Akumulacny stoper - Porucha vyvezenia paletky zo stopra !!!" />
+        <Property ID="Code" Value="162" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[63]">
+        <Property ID="Name" Value="A163" />
+        <Property ID="Message" Value="P1_Spodny stoper - Porucha vyvezenia paletky zo stopra !!!" />
+        <Property ID="Code" Value="163" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[64]">
+        <Property ID="Name" Value="A164" />
+        <Property ID="Message" Value="ST1_Vytah - Porucha komunikacie s kamerou CAM 2 !!!" />
+        <Property ID="Code" Value="164" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[65]">
+        <Property ID="Name" Value="A165" />
+        <Property ID="Message" Value="ST1_Vytah - Porucha komunikacie s kamerou CAM 5 !!!" />
+        <Property ID="Code" Value="165" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[66]">
+        <Property ID="Name" Value="A166" />
+        <Property ID="Message" Value="ST1_Vytah - Porucha komunikacie s kamerou CAM 4 !!!" />
+        <Property ID="Code" Value="166" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[67]">
+        <Property ID="Name" Value="A167" />
+        <Property ID="Message" Value="ST1_Vytah - Porucha komunikacie s kamerou CAM 3 !!!" />
+        <Property ID="Code" Value="167" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[68]">
+        <Property ID="Name" Value="A168" />
+        <Property ID="Message" Value="ST2_Srobovanie - Porucha komunikacie s kamerou CAM 6 !!!" />
+        <Property ID="Code" Value="168" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[69]">
+        <Property ID="Name" Value="A200" />
+        <Property ID="Message" Value="ST3_Zakladanie tesnenia - porucha precitania kodu paletky !!!" />
+        <Property ID="Code" Value="200" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[70]">
+        <Property ID="Name" Value="A201" />
+        <Property ID="Message" Value="ST3_Zakladanie tesnenia - porucha precitania QR kodu !!!" />
+        <Property ID="Code" Value="201" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[71]">
+        <Property ID="Name" Value="A202" />
+        <Property ID="Message" Value="ST3_Zakladanie tesnenia - porucha serva zdvihu !!!" />
+        <Property ID="Code" Value="202" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[72]">
+        <Property ID="Name" Value="A203" />
+        <Property ID="Message" Value="ST3_Zakladanie tesnenia - porucha serva pojazdu !!!" />
+        <Property ID="Code" Value="203" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[73]">
+        <Property ID="Name" Value="A204" />
+        <Property ID="Message" Value="ST3_Zakladanie tesnenia - porucha vysunutia pritlacania !!!" />
+        <Property ID="Code" Value="204" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[74]">
+        <Property ID="Name" Value="A205" />
+        <Property ID="Message" Value="ST3_Zakladanie tesnenia - porucha zasunutia pritlacania !!!" />
+        <Property ID="Code" Value="205" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[75]">
+        <Property ID="Name" Value="A206" />
+        <Property ID="Message" Value="ST3_Zakladanie tesnenia - narusenie optickej bariery !!!" />
+        <Property ID="Code" Value="206" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[76]">
+        <Property ID="Name" Value="A207" />
+        <Property ID="Message" Value="ST3_Zakladanie tesnenia - bol stlaceny bumper suflika !!!" />
+        <Property ID="Code" Value="207" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[77]">
+        <Property ID="Name" Value="A208" />
+        <Property ID="Message" Value="ST3_Zakladanie tesnenia - porucha snimaca kopita IS7 !!!" />
+        <Property ID="Code" Value="208" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[78]">
+        <Property ID="Name" Value="A209" />
+        <Property ID="Message" Value="ST4_Maticovacka - porucha vysunutia centrovacky !!!" />
+        <Property ID="Code" Value="209" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[79]">
+        <Property ID="Name" Value="A210" />
+        <Property ID="Message" Value="ST4_Maticovacka - porucha zasunutia centrovacky !!!" />
+        <Property ID="Code" Value="210" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[80]">
+        <Property ID="Name" Value="A211" />
+        <Property ID="Message" Value="ST4_Maticovacka - porucha precitania kodu paletky !!!" />
+        <Property ID="Code" Value="211" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[81]">
+        <Property ID="Name" Value="A212" />
+        <Property ID="Message" Value="ST5_Srobovanie - porucha vysunutia centrovacky !!!" />
+        <Property ID="Code" Value="212" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[82]">
+        <Property ID="Name" Value="A213" />
+        <Property ID="Message" Value="ST5_Srobovanie - porucha zasunutia centrovacky !!! " />
+        <Property ID="Code" Value="213" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[83]">
+        <Property ID="Name" Value="A214" />
+        <Property ID="Message" Value="ST5_Srobovanie - porucha precitania kodu paletky !!!" />
+        <Property ID="Code" Value="214" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[84]">
+        <Property ID="Name" Value="A215" />
+        <Property ID="Message" Value="ST5_Srobovanie - porucha serva manipulatora os X !!!" />
+        <Property ID="Code" Value="215" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[85]">
+        <Property ID="Name" Value="A216" />
+        <Property ID="Message" Value="ST5_Srobovanie - porucha serva manipulatora os Y !!!" />
+        <Property ID="Code" Value="216" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[86]">
+        <Property ID="Name" Value="A217" />
+        <Property ID="Message" Value="ST6_Zvaranie - porucha vysunutia centrovacky !!!" />
+        <Property ID="Code" Value="217" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[87]">
+        <Property ID="Name" Value="A218" />
+        <Property ID="Message" Value="ST6_Zvaranie - porucha zasunutia centrovacky !!!" />
+        <Property ID="Code" Value="218" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[88]">
+        <Property ID="Name" Value="A219" />
+        <Property ID="Message" Value="ST6_Zvaranie - porucha precitania kodu paletky !!!" />
+        <Property ID="Code" Value="219" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[89]">
+        <Property ID="Name" Value="A220" />
+        <Property ID="Message" Value="ST6_Zvaranie - porucha serva zdvihu zvarania !!!" />
+        <Property ID="Code" Value="220" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[90]">
+        <Property ID="Name" Value="A221" />
+        <Property ID="Message" Value="ST6_Zvaranie - porucha presunu pojazdu zvarania !!!" />
+        <Property ID="Code" Value="221" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[91]">
+        <Property ID="Name" Value="A222" />
+        <Property ID="Message" Value="ST6_Zvaranie - porucha zvaracky !!!" />
+        <Property ID="Code" Value="222" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[92]">
+        <Property ID="Name" Value="A223" />
+        <Property ID="Message" Value="ST6_Cistenie - porucha zatvorenia dveri !!!" />
+        <Property ID="Code" Value="223" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[93]">
+        <Property ID="Name" Value="A224" />
+        <Property ID="Message" Value="ST6_Cistenie - porucha otvorenia dveri !!!" />
+        <Property ID="Code" Value="224" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[94]">
+        <Property ID="Name" Value="A225" />
+        <Property ID="Message" Value="ST3_Zakladanie tesnenia - CAM 1 porucha komunikacie FTP !!!" />
+        <Property ID="Code" Value="225" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[95]">
+        <Property ID="Name" Value="A226" />
+        <Property ID="Message" Value="ST3_Zakladanie tesnenia - CAM 7 porucha komunikacie FTP !!!" />
+        <Property ID="Code" Value="226" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[96]">
+        <Property ID="Name" Value="A227" />
+        <Property ID="Message" Value="ST3_Zakladanie tesnenia - CAM 8 porucha komunikacie FTP !!!" />
+        <Property ID="Code" Value="227" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[97]">
+        <Property ID="Name" Value="A228" />
+        <Property ID="Message" Value="ST3_Zakladanie tesnenia - CAM 17 porucha komunikacie FTP !!!" />
+        <Property ID="Code" Value="228" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[98]">
+        <Property ID="Name" Value="A229" />
+        <Property ID="Message" Value="ST4_Maticovacka - CAM 9 porucha komunikacie FTP !!!" />
+        <Property ID="Code" Value="229" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[99]">
+        <Property ID="Name" Value="A230" />
+        <Property ID="Message" Value="ST3_Zakladanie tesnenia - porucha komunikacie zo serverom !!!" />
+        <Property ID="Code" Value="230" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[100]">
+        <Property ID="Name" Value="A231" />
+        <Property ID="Message" Value="ST4_Maticovacka - porucha komunikacie zo serverom !!!" />
+        <Property ID="Code" Value="231" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[101]">
+        <Property ID="Name" Value="A232" />
+        <Property ID="Message" Value="ST5_Srobovanie - CAM 10 porucha komunikacie FTP !!!" />
+        <Property ID="Code" Value="232" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[102]">
+        <Property ID="Name" Value="A233" />
+        <Property ID="Message" Value="ST5_Srobovanie - porucha komunikacie zo serverom !!!" />
+        <Property ID="Code" Value="233" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[103]">
+        <Property ID="Name" Value="A234" />
+        <Property ID="Message" Value="ST6_Zvaranie - CAM 11 porucha komunikacie FTP !!!" />
+        <Property ID="Code" Value="234" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[104]">
+        <Property ID="Name" Value="A235" />
+        <Property ID="Message" Value="ST6_Zvaranie - CAM 12 porucha komunikacie FTP !!!" />
+        <Property ID="Code" Value="235" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[105]">
+        <Property ID="Name" Value="A236" />
+        <Property ID="Message" Value="ST6_Zvaranie - porucha komunikacie zo serverom !!!" />
+        <Property ID="Code" Value="236" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[106]">
+        <Property ID="Name" Value="A237" />
+        <Property ID="Message" Value="ST5_Srobovanie - skrutka M4 nieje pripravena !!!" />
+        <Property ID="Code" Value="237" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[107]">
+        <Property ID="Name" Value="A238" />
+        <Property ID="Message" Value="ST5_Srobovanie - skrutka M5 nieje pripravena !!!" />
+        <Property ID="Code" Value="238" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[108]">
+        <Property ID="Name" Value="A239" />
+        <Property ID="Message" Value="ST5_Srobovanie - skrutka M6 nieje pripravena !!!" />
+        <Property ID="Code" Value="239" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[109]">
+        <Property ID="Name" Value="A240" />
+        <Property ID="Message" Value="ST4_Maticovacka - matica M4 nieje pripravena !!!" />
+        <Property ID="Code" Value="240" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[110]">
+        <Property ID="Name" Value="A241" />
+        <Property ID="Message" Value="ST5_Srobovanie - porucha serva manipulatora os X !!!" />
+        <Property ID="Code" Value="241" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[111]">
+        <Property ID="Name" Value="A242" />
+        <Property ID="Message" Value="ST5_Srobovanie - porucha serva manipulatora os Y !!!" />
+        <Property ID="Code" Value="242" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[112]">
+        <Property ID="Name" Value="A243" />
+        <Property ID="Message" Value="P2_Robot - porucha napajania !!!" />
+        <Property ID="Code" Value="243" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[113]">
+        <Property ID="Name" Value="A244" />
+        <Property ID="Message" Value="P2_Robot - nieje online !!!" />
+        <Property ID="Code" Value="244" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[114]">
+        <Property ID="Name" Value="A245" />
+        <Property ID="Message" Value="Pracovisko 2 - Porucha tlaku vzduchu !!!" />
+        <Property ID="Code" Value="245" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[115]">
+        <Property ID="Name" Value="A246" />
+        <Property ID="Message" Value="Pracovisko 2 - Modul DI21 nieje online !!!" />
+        <Property ID="Code" Value="246" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[116]">
+        <Property ID="Name" Value="A247" />
+        <Property ID="Message" Value="Pracovisko 2 - Modul DI22 nieje online !!!" />
+        <Property ID="Code" Value="247" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[117]">
+        <Property ID="Name" Value="A248" />
+        <Property ID="Message" Value="Pracovisko 2 - Modul DI23 nieje online !!!" />
+        <Property ID="Code" Value="248" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[118]">
+        <Property ID="Name" Value="A249" />
+        <Property ID="Message" Value="Pracovisko 2 - Modul DI24 nieje online !!!" />
+        <Property ID="Code" Value="249" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[119]">
+        <Property ID="Name" Value="A250" />
+        <Property ID="Message" Value="Pracovisko 2 - Modul DI25 nieje online !!!" />
+        <Property ID="Code" Value="250" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[120]">
+        <Property ID="Name" Value="A251" />
+        <Property ID="Message" Value="Pracovisko 2 - Modul DM21 nieje online !!!" />
+        <Property ID="Code" Value="251" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[121]">
+        <Property ID="Name" Value="A252" />
+        <Property ID="Message" Value="Pracovisko 2 - Modul DS21 nieje online !!!" />
+        <Property ID="Code" Value="252" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[122]">
+        <Property ID="Name" Value="A253" />
+        <Property ID="Message" Value="Pracovisko 2 - Modul DS22 nieje online !!!" />
+        <Property ID="Code" Value="253" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[123]">
+        <Property ID="Name" Value="A254" />
+        <Property ID="Message" Value="Pracovisko 2 - Modul DS23 nieje online !!!" />
+        <Property ID="Code" Value="254" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[124]">
+        <Property ID="Name" Value="A255" />
+        <Property ID="Message" Value="Pracovisko 2 - Modul SI21 nieje online !!!" />
+        <Property ID="Code" Value="255" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[125]">
+        <Property ID="Name" Value="A256" />
+        <Property ID="Message" Value="Pracovisko 2 - Modul SI22 nieje online !!!" />
+        <Property ID="Code" Value="256" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[126]">
+        <Property ID="Name" Value="A257" />
+        <Property ID="Message" Value="Pracovisko 2 - Ventilovy termnal VT1 nieje online !!!" />
+        <Property ID="Code" Value="257" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[127]">
+        <Property ID="Name" Value="A258" />
+        <Property ID="Message" Value="Pracovisko 2 - Ventilovy termnal VT2 nieje online !!!" />
+        <Property ID="Code" Value="258" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[128]">
+        <Property ID="Name" Value="A259" />
+        <Property ID="Message" Value="Pracovisko 2 - Ventilovy termnal VT3 nieje online !!!" />
+        <Property ID="Code" Value="259" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[129]">
+        <Property ID="Name" Value="A260" />
+        <Property ID="Message" Value="ST5_Srobovanie - Skrutkovacka M4 nieje online !!!" />
+        <Property ID="Code" Value="260" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[130]">
+        <Property ID="Name" Value="A261" />
+        <Property ID="Message" Value="ST5_Srobovanie - Skrutkovacka M5 nieje online !!!" />
+        <Property ID="Code" Value="261" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[131]">
+        <Property ID="Name" Value="A262" />
+        <Property ID="Message" Value="ST5_Srobovanie - Skrutkovacka M6 nieje online !!!" />
+        <Property ID="Code" Value="262" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[132]">
+        <Property ID="Name" Value="A263" />
+        <Property ID="Message" Value="ST4_Maticovacka - Maticovacka M4 nieje online !!!" />
+        <Property ID="Code" Value="263" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[133]">
+        <Property ID="Name" Value="A264" />
+        <Property ID="Message" Value="Pracovisko 2 - Kamery KAM1, KAM7, KAM10, KAM11, KAM12 a KAM17 niesu online !!!" />
+        <Property ID="Code" Value="264" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[134]">
+        <Property ID="Name" Value="A265" />
+        <Property ID="Message" Value="Pracovisko 2 - Kamera KAM8 nieje online !!!" />
+        <Property ID="Code" Value="265" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[135]">
+        <Property ID="Name" Value="A266" />
+        <Property ID="Message" Value="Pracovisko 2 - Kamera KAM9 nieje online !!!" />
+        <Property ID="Code" Value="266" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[136]">
+        <Property ID="Name" Value="A267" />
+        <Property ID="Message" Value="ST4_Maticovacka - Porucha maticovacky M4 !!!" />
+        <Property ID="Code" Value="267" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[137]">
+        <Property ID="Name" Value="A268" />
+        <Property ID="Message" Value="ST5_Srobovanie - Porucha vysunutia skrutkovacky M4 !!!" />
+        <Property ID="Code" Value="268" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[138]">
+        <Property ID="Name" Value="A269" />
+        <Property ID="Message" Value="ST5_Srobovanie - Porucha vysunutia skrutkovacky M5 !!!" />
+        <Property ID="Code" Value="269" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[139]">
+        <Property ID="Name" Value="A270" />
+        <Property ID="Message" Value="ST5_Srobovanie - Porucha vysunutia skrutkovacky M6 !!!" />
+        <Property ID="Code" Value="270" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[140]">
+        <Property ID="Name" Value="A271" />
+        <Property ID="Message" Value="P2_Robot - porucha !!!" />
+        <Property ID="Code" Value="271" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[141]">
+        <Property ID="Name" Value="A272" />
+        <Property ID="Message" Value="ST5_Srobovanie - Presiahnuty cas skrutkovania skrutky M4 !!!" />
+        <Property ID="Code" Value="272" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[142]">
+        <Property ID="Name" Value="A273" />
+        <Property ID="Message" Value="ST5_Srobovanie - Presiahnuty cas skrutkovania skrutky M5 !!!" />
+        <Property ID="Code" Value="273" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[143]">
+        <Property ID="Name" Value="A274" />
+        <Property ID="Message" Value="ST5_Srobovanie - Presiahnuty cas skrutkovania skrutky M6 !!!" />
+        <Property ID="Code" Value="274" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[144]">
+        <Property ID="Name" Value="A275" />
+        <Property ID="Message" Value="ST5_Srobovanie - Skrutkovacka M4 nieje READY !!!" />
+        <Property ID="Code" Value="275" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[145]">
+        <Property ID="Name" Value="A276" />
+        <Property ID="Message" Value="ST5_Srobovanie - Skrutkovacka M5 nieje READY !!!" />
+        <Property ID="Code" Value="276" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[146]">
+        <Property ID="Name" Value="A277" />
+        <Property ID="Message" Value="ST5_Srobovanie - Skrutkovacka M6 nieje READY !!!" />
+        <Property ID="Code" Value="277" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[147]">
+        <Property ID="Name" Value="A278" />
+        <Property ID="Message" Value="Pracovisko 2 - Prekrocena teplota motora vrchneho dopravnika !!!" />
+        <Property ID="Code" Value="278" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[148]">
+        <Property ID="Name" Value="A279" />
+        <Property ID="Message" Value="Pracovisko 2 - Prekrocena teplota motora spodneho dopravnika !!!" />
+        <Property ID="Code" Value="279" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[149]">
+        <Property ID="Name" Value="A280" />
+        <Property ID="Message" Value="Pracovisko 2 - Narusenie optickej bariery na vystupe !!!" />
+        <Property ID="Code" Value="280" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[150]">
+        <Property ID="Name" Value="A281" />
+        <Property ID="Message" Value="Pracovisko 2 - Bolo stlacene tlacitko CS na ovladacom paneli !!!" />
+        <Property ID="Code" Value="281" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[151]">
+        <Property ID="Name" Value="A282" />
+        <Property ID="Message" Value="Pracovisko 2 - Bolo stlacene tlacitko CS na rozvodnej skrini !!!" />
+        <Property ID="Code" Value="282" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[152]">
+        <Property ID="Name" Value="A283" />
+        <Property ID="Message" Value="Pracovisko 2 - Bolo stlacene tlacitko CS robota !!!" />
+        <Property ID="Code" Value="283" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[153]">
+        <Property ID="Name" Value="A284" />
+        <Property ID="Message" Value="Pracovisko 2 - Bolo stlacene tlacitko CS na dvojrucnom ovladani !!!" />
+        <Property ID="Code" Value="284" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[154]">
+        <Property ID="Name" Value="A285" />
+        <Property ID="Message" Value="P2_Robot - Porucha odobratia Top Coveru z paletky !!!" />
+        <Property ID="Code" Value="285" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[155]">
+        <Property ID="Name" Value="A286" />
+        <Property ID="Message" Value="ST3_Zakladanie tesnenia - Porucha vyvezenia paletky zo stopra !!!" />
+        <Property ID="Code" Value="286" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[156]">
+        <Property ID="Name" Value="A287" />
+        <Property ID="Message" Value="ST4_Maticovacka - Porucha vyvezenia paletky zo stopra !!!" />
+        <Property ID="Code" Value="287" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[157]">
+        <Property ID="Name" Value="A288" />
+        <Property ID="Message" Value="ST5_Srobovanie - Porucha vyvezenia paletky zo stopra !!!" />
+        <Property ID="Code" Value="288" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[158]">
+        <Property ID="Name" Value="A289" />
+        <Property ID="Message" Value="ST6_Zvaranie - Porucha vyvezenia paletky zo stopra !!!" />
+        <Property ID="Code" Value="289" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[159]">
+        <Property ID="Name" Value="A290" />
+        <Property ID="Message" Value="ST3_Zakladanie tesnenia - Porucha komunikacie s kamerou CAM 1 !!!" />
+        <Property ID="Code" Value="290" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[160]">
+        <Property ID="Name" Value="A291" />
+        <Property ID="Message" Value="ST3_Zakladanie tesnenia - Porucha komunikacie s kamerou CAM 7 !!!" />
+        <Property ID="Code" Value="291" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[161]">
+        <Property ID="Name" Value="A292" />
+        <Property ID="Message" Value="ST3_Zakladanie tesnenia - Porucha komunikacie s kamerou CAM 8 !!!" />
+        <Property ID="Code" Value="292" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[162]">
+        <Property ID="Name" Value="A293" />
+        <Property ID="Message" Value="ST3_Zakladanie tesnenia - Porucha komunikacie s kamerou CAM 17 !!!" />
+        <Property ID="Code" Value="293" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[163]">
+        <Property ID="Name" Value="A294" />
+        <Property ID="Message" Value="ST4_Maticovacka - Porucha komunikacie s kamerou CAM 9 !!!" />
+        <Property ID="Code" Value="294" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[164]">
+        <Property ID="Name" Value="A295" />
+        <Property ID="Message" Value="ST5_Srobovanie - Porucha komunikacie s kamerou CAM 10 !!!" />
+        <Property ID="Code" Value="295" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[165]">
+        <Property ID="Name" Value="A296" />
+        <Property ID="Message" Value="ST6_Zvaranie - Porucha komunikacie s kamerou CAM 11 !!!" />
+        <Property ID="Code" Value="296" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[166]">
+        <Property ID="Name" Value="A297" />
+        <Property ID="Message" Value="ST6_Zvaranie - Porucha komunikacie s kamerou CAM 12 !!!" />
+        <Property ID="Code" Value="297" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[167]">
+        <Property ID="Name" Value="A300" />
+        <Property ID="Message" Value="ST7_Srobovanie - porucha vysunutia centrovacky !!!" />
+        <Property ID="Code" Value="300" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[168]">
+        <Property ID="Name" Value="A301" />
+        <Property ID="Message" Value="ST7_Srobovanie - porucha zasunutia centrovacky !!! " />
+        <Property ID="Code" Value="301" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[169]">
+        <Property ID="Name" Value="A302" />
+        <Property ID="Message" Value="ST8A_Leakage test A - porucha vysunutia centrovacky !!!" />
+        <Property ID="Code" Value="302" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[170]">
+        <Property ID="Name" Value="A303" />
+        <Property ID="Message" Value="ST8A_Leakage test A - porucha zasunutia centrovacky !!!" />
+        <Property ID="Code" Value="303" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[171]">
+        <Property ID="Name" Value="A304" />
+        <Property ID="Message" Value="ST8B_Leakage test B - porucha vysunutia centrovacky !!!" />
+        <Property ID="Code" Value="304" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[172]">
+        <Property ID="Name" Value="A305" />
+        <Property ID="Message" Value="ST8B_Leakage test B - porucha zasunutia centrovacky !!! " />
+        <Property ID="Code" Value="305" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[173]">
+        <Property ID="Name" Value="A306" />
+        <Property ID="Message" Value="ST8A_Leakage test A - porucha vysunutia pritlaku !!!" />
+        <Property ID="Code" Value="306" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[174]">
+        <Property ID="Name" Value="A307" />
+        <Property ID="Message" Value="ST8A_Leakage test A - porucha zasunutia pritlaku !!!" />
+        <Property ID="Code" Value="307" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[175]">
+        <Property ID="Name" Value="A308" />
+        <Property ID="Message" Value="ST8B_Leakage test B - porucha vysunutia pritlaku !!!" />
+        <Property ID="Code" Value="308" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[176]">
+        <Property ID="Name" Value="A309" />
+        <Property ID="Message" Value="ST8B_Leakage test B - porucha zasunutia pritlaku !!!" />
+        <Property ID="Code" Value="309" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[177]">
+        <Property ID="Name" Value="A310" />
+        <Property ID="Message" Value="ST8A_Leakage test A - porucha precitania kodu paletky !!!" />
+        <Property ID="Code" Value="310" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[178]">
+        <Property ID="Name" Value="A311" />
+        <Property ID="Message" Value="ST8A_Leakage test A - porucha komunikacie zo serverom !!!" />
+        <Property ID="Code" Value="311" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[179]">
+        <Property ID="Name" Value="A312" />
+        <Property ID="Message" Value="ST8B_Leakage test B - porucha precitania kodu paletky !!!" />
+        <Property ID="Code" Value="312" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[180]">
+        <Property ID="Name" Value="A313" />
+        <Property ID="Message" Value="ST8B_Leakage test B - porucha komunikacie zo serverom !!!" />
+        <Property ID="Code" Value="313" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[181]">
+        <Property ID="Name" Value="A314" />
+        <Property ID="Message" Value="ST8A_Leakage test A - je zalozeny nespravny typ spodneho kopita !!!" />
+        <Property ID="Code" Value="314" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[182]">
+        <Property ID="Name" Value="A315" />
+        <Property ID="Message" Value="ST8B_Leakage test B - je zalozeny nespravny typ spodneho kopita !!!" />
+        <Property ID="Code" Value="315" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[183]">
+        <Property ID="Name" Value="A316" />
+        <Property ID="Message" Value="ST7_Srobovanie - porucha vysunutia kontaktov HV testu !!!" />
+        <Property ID="Code" Value="316" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[184]">
+        <Property ID="Name" Value="A317" />
+        <Property ID="Message" Value="ST7_Srobovanie - porucha zasunutia kontaktov HV testu !!!" />
+        <Property ID="Code" Value="317" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[185]">
+        <Property ID="Name" Value="A318" />
+        <Property ID="Message" Value="ST7_Srobovanie - porucha vysunutia HV testu !!!" />
+        <Property ID="Code" Value="318" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[186]">
+        <Property ID="Name" Value="A319" />
+        <Property ID="Message" Value="ST7_Srobovanie - porucha zasunutia HV testu !!!" />
+        <Property ID="Code" Value="319" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[187]">
+        <Property ID="Name" Value="A320" />
+        <Property ID="Message" Value="ST7_Srobovanie - CAM 13 porucha komunikacie FTP !!!" />
+        <Property ID="Code" Value="320" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[188]">
+        <Property ID="Name" Value="A321" />
+        <Property ID="Message" Value="ST7_Srobovanie - porucha precitania kodu paletky !!!" />
+        <Property ID="Code" Value="321" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[189]">
+        <Property ID="Name" Value="A322" />
+        <Property ID="Message" Value="ST7_Srobovanie - porucha serva manipulatora os Y !!!" />
+        <Property ID="Code" Value="322" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[190]">
+        <Property ID="Name" Value="A323" />
+        <Property ID="Message" Value="Pracovisko 3 - Porucha tlaku vzduchu !!!" />
+        <Property ID="Code" Value="323" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[191]">
+        <Property ID="Name" Value="A324" />
+        <Property ID="Message" Value="ST7_Srobovanie - Skrutkovacka M5 nieje online !!!" />
+        <Property ID="Code" Value="324" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[192]">
+        <Property ID="Name" Value="A325" />
+        <Property ID="Message" Value="ST7_Srobovanie - porucha komunikacie zo serverom !!!" />
+        <Property ID="Code" Value="325" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[193]">
+        <Property ID="Name" Value="A326" />
+        <Property ID="Message" Value="ST7_HV Test - je zalozeny nespravny typ spodneho kopita !!!" />
+        <Property ID="Code" Value="326" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[194]">
+        <Property ID="Name" Value="A327" />
+        <Property ID="Message" Value="ST7_Srobovanie - skrutka M5 nieje pripravena !!!" />
+        <Property ID="Code" Value="327" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[195]">
+        <Property ID="Name" Value="A328" />
+        <Property ID="Message" Value="ST7_Srobovanie - skrutka K40 nieje pripravena !!!" />
+        <Property ID="Code" Value="328" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[196]">
+        <Property ID="Name" Value="A329" />
+        <Property ID="Message" Value="ST7_Srobovanie - Skrutkovacka K40 nieje online !!!" />
+        <Property ID="Code" Value="329" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[197]">
+        <Property ID="Name" Value="A330" />
+        <Property ID="Message" Value="ST7_Srobovanie - Kamera KAM13 nieje online !!!" />
+        <Property ID="Code" Value="330" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[198]">
+        <Property ID="Name" Value="A331" />
+        <Property ID="Message" Value="Pracovisko 3 - Modul DI31 nieje online !!!" />
+        <Property ID="Code" Value="331" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[199]">
+        <Property ID="Name" Value="A332" />
+        <Property ID="Message" Value="Pracovisko 3 - Modul DI32 nieje online !!!" />
+        <Property ID="Code" Value="332" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[200]">
+        <Property ID="Name" Value="A333" />
+        <Property ID="Message" Value="Pracovisko 3 - Modul DI33 nieje online !!!" />
+        <Property ID="Code" Value="333" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[201]">
+        <Property ID="Name" Value="A334" />
+        <Property ID="Message" Value="Pracovisko 3 - Modul DI34 nieje online !!!" />
+        <Property ID="Code" Value="334" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[202]">
+        <Property ID="Name" Value="A335" />
+        <Property ID="Message" Value="Pracovisko 3 - Modul DM31 nieje online !!!" />
+        <Property ID="Code" Value="335" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[203]">
+        <Property ID="Name" Value="A336" />
+        <Property ID="Message" Value="Pracovisko 3 - Modul DS31 nieje online !!!" />
+        <Property ID="Code" Value="336" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[204]">
+        <Property ID="Name" Value="A337" />
+        <Property ID="Message" Value="Pracovisko 3 - Modul DS32 nieje online !!!" />
+        <Property ID="Code" Value="337" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[205]">
+        <Property ID="Name" Value="A338" />
+        <Property ID="Message" Value="Pracovisko 3 - Modul DS33 nieje online !!!" />
+        <Property ID="Code" Value="338" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[206]">
+        <Property ID="Name" Value="A339" />
+        <Property ID="Message" Value="Pracovisko 3 - Modul SI31 nieje online !!!" />
+        <Property ID="Code" Value="339" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[207]">
+        <Property ID="Name" Value="A340" />
+        <Property ID="Message" Value="Pracovisko 3 - Ventilovy termnal VT6 nieje online !!!" />
+        <Property ID="Code" Value="340" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[208]">
+        <Property ID="Name" Value="A341" />
+        <Property ID="Message" Value="Pracovisko 3 - Ventilovy termnal VT7 nieje online !!!" />
+        <Property ID="Code" Value="341" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[209]">
+        <Property ID="Name" Value="A342" />
+        <Property ID="Message" Value="ST7_Srobovanie - Porucha vysunutia skrutkovacky K40 !!!" />
+        <Property ID="Code" Value="342" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[210]">
+        <Property ID="Name" Value="A343" />
+        <Property ID="Message" Value="ST7_Srobovanie - Porucha vysunutia skrutkovacky M5 !!!" />
+        <Property ID="Code" Value="343" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[211]">
+        <Property ID="Name" Value="A344" />
+        <Property ID="Message" Value="ST7_Srobovanie - Skrutkovacka K40 nieje READY !!!" />
+        <Property ID="Code" Value="344" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[212]">
+        <Property ID="Name" Value="A345" />
+        <Property ID="Message" Value="ST7_Srobovanie - Skrutkovacka M5 nieje READY !!!" />
+        <Property ID="Code" Value="345" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[213]">
+        <Property ID="Name" Value="A346" />
+        <Property ID="Message" Value="ST7_Srobovanie - Presiahnuty cas skrutkovania skrutky K40 !!!" />
+        <Property ID="Code" Value="346" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[214]">
+        <Property ID="Name" Value="A347" />
+        <Property ID="Message" Value="ST7_Srobovanie - Presiahnuty cas skrutkovania skrutky M5 !!!" />
+        <Property ID="Code" Value="347" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[215]">
+        <Property ID="Name" Value="A348" />
+        <Property ID="Message" Value="Pracovisko 3 - Prekrocena teplota motora vrchneho dopravnika !!!" />
+        <Property ID="Code" Value="348" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[216]">
+        <Property ID="Name" Value="A349" />
+        <Property ID="Message" Value="Pracovisko 3 - Prekrocena teplota motora spodneho dopravnika !!!" />
+        <Property ID="Code" Value="349" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[217]">
+        <Property ID="Name" Value="A350" />
+        <Property ID="Message" Value="Pracovisko 3 - Narusenie optickej bariery na vstupe !!!" />
+        <Property ID="Code" Value="350" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[218]">
+        <Property ID="Name" Value="A351" />
+        <Property ID="Message" Value="Pracovisko 3 - Narusenie optickej bariery na vystupe !!!" />
+        <Property ID="Code" Value="351" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[219]">
+        <Property ID="Name" Value="A352" />
+        <Property ID="Message" Value="Pracovisko 3 - Bolo stlacene tlacitko CS na rozvodnej skrini !!!" />
+        <Property ID="Code" Value="352" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[220]">
+        <Property ID="Name" Value="A353" />
+        <Property ID="Message" Value="P3_Spodny stoper - Porucha vyvezenia paletky zo stopra !!!" />
+        <Property ID="Code" Value="353" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[221]">
+        <Property ID="Name" Value="A354" />
+        <Property ID="Message" Value="P3_Vstupny stoper - Porucha vyvezenia paletky zo stopra !!!" />
+        <Property ID="Code" Value="354" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[222]">
+        <Property ID="Name" Value="A355" />
+        <Property ID="Message" Value="ST7_Srobovanie - Porucha vyvezenia paletky zo stopra !!!" />
+        <Property ID="Code" Value="355" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[223]">
+        <Property ID="Name" Value="A356" />
+        <Property ID="Message" Value="P3_Akumulacny stoper - Porucha vyvezenia paletky zo stopra !!!" />
+        <Property ID="Code" Value="356" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[224]">
+        <Property ID="Name" Value="A357" />
+        <Property ID="Message" Value="ST8A_Leakage test A - Porucha vyvezenia paletky zo stopra !!!" />
+        <Property ID="Code" Value="357" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[225]">
+        <Property ID="Name" Value="A358" />
+        <Property ID="Message" Value="ST8B_Leakage test B - Porucha vyvezenia paletky zo stopra !!!" />
+        <Property ID="Code" Value="358" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[226]">
+        <Property ID="Name" Value="A359" />
+        <Property ID="Message" Value="ST7_Srobovanie - Porucha komunikacie s kamerou CAM 13 !!!" />
+        <Property ID="Code" Value="359" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[227]">
+        <Property ID="Name" Value="A360" />
+        <Property ID="Code" Value="360" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[228]">
+        <Property ID="Name" Value="A400" />
+        <Property ID="Message" Value="ST_Funkcny test A - porucha vysunutia centrovacky !!!" />
+        <Property ID="Code" Value="400" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[229]">
+        <Property ID="Name" Value="A401" />
+        <Property ID="Message" Value="ST_Funkcny test A - porucha zasunutia centrovacky !!! " />
+        <Property ID="Code" Value="401" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[230]">
+        <Property ID="Name" Value="A402" />
+        <Property ID="Message" Value="ST_Funkcny test B - porucha vysunutia centrovacky !!!" />
+        <Property ID="Code" Value="402" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[231]">
+        <Property ID="Name" Value="A403" />
+        <Property ID="Message" Value="ST_Funkcny test B - porucha zasunutia centrovacky !!!" />
+        <Property ID="Code" Value="403" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[232]">
+        <Property ID="Name" Value="A404" />
+        <Property ID="Message" Value="ST9_Etiketovacka - porucha vysunutia centrovacky !!!" />
+        <Property ID="Code" Value="404" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[233]">
+        <Property ID="Name" Value="A405" />
+        <Property ID="Message" Value="ST9_Etiketovacka - porucha zasunutia centrovacky !!! " />
+        <Property ID="Code" Value="405" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[234]">
+        <Property ID="Name" Value="A406" />
+        <Property ID="Message" Value="ST9_Etiketovacka - porucha precitania kodu paletky !!!" />
+        <Property ID="Code" Value="406" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[235]">
+        <Property ID="Name" Value="A407" />
+        <Property ID="Message" Value="Pracovisko 4 - Porucha tlaku vzduchu !!!" />
+        <Property ID="Code" Value="407" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[236]">
+        <Property ID="Name" Value="A408" />
+        <Property ID="Message" Value="ST9_Etiketovacka - porucha serva zdvihu aplikatora etikiet !!!" />
+        <Property ID="Code" Value="408" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[237]">
+        <Property ID="Name" Value="A409" />
+        <Property ID="Message" Value="ST9_Etiketovacka - porucha komunikacie zo serverom !!!" />
+        <Property ID="Code" Value="409" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[238]">
+        <Property ID="Name" Value="A410" />
+        <Property ID="Message" Value="ST10_Vytah - CAM 16 porucha komunikacie FTP !!!" />
+        <Property ID="Code" Value="410" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[239]">
+        <Property ID="Name" Value="A411" />
+        <Property ID="Message" Value="ST10_Vytah - paletka na vystupe dopravnika vytahu !!! " />
+        <Property ID="Code" Value="411" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[240]">
+        <Property ID="Name" Value="A412" />
+        <Property ID="Message" Value="ST10_Vytah - narusenie optickej bariery !!!" />
+        <Property ID="Code" Value="412" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[241]">
+        <Property ID="Name" Value="A413" />
+        <Property ID="Message" Value="Pracovisko 4 - Kamera KAM15 a KAM16 nieje online !!!" />
+        <Property ID="Code" Value="413" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[242]">
+        <Property ID="Name" Value="A414" />
+        <Property ID="Message" Value="Pracovisko 4 - Kamera KAM14 nieje online !!!" />
+        <Property ID="Code" Value="414" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[243]">
+        <Property ID="Name" Value="A415" />
+        <Property ID="Message" Value="ST10_Vytah - porucha komunikacie zo serverom !!!" />
+        <Property ID="Code" Value="415" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[244]">
+        <Property ID="Name" Value="A416" />
+        <Property ID="Message" Value="ST10_Vytah - porucha navezenia paletky na dopravnik vytahu !!!" />
+        <Property ID="Code" Value="416" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[245]">
+        <Property ID="Name" Value="A417" />
+        <Property ID="Message" Value="Pracovisko 4 - Ventilovy termnal VT8 nieje online !!!" />
+        <Property ID="Code" Value="417" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[246]">
+        <Property ID="Name" Value="A418" />
+        <Property ID="Message" Value="ST10_Vytah - porucha precitania kodu paletky !!!" />
+        <Property ID="Code" Value="418" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[247]">
+        <Property ID="Name" Value="A419" />
+        <Property ID="Message" Value="ST_Funkcny test A - porucha vysunutia hornych kontaktov !!!" />
+        <Property ID="Code" Value="419" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[248]">
+        <Property ID="Name" Value="A420" />
+        <Property ID="Message" Value="ST_Funkcny test A - porucha zasunutia hornych kontaktov !!!" />
+        <Property ID="Code" Value="420" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[249]">
+        <Property ID="Name" Value="A421" />
+        <Property ID="Message" Value="ST_Funkcny test A - porucha vysunutia spodnych kontaktov !!!" />
+        <Property ID="Code" Value="421" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[250]">
+        <Property ID="Name" Value="A422" />
+        <Property ID="Message" Value="ST_Funkcny test A - porucha zasunutia spodnych kontaktov !!!" />
+        <Property ID="Code" Value="422" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[251]">
+        <Property ID="Name" Value="A423" />
+        <Property ID="Message" Value="ST_Funkcny test B - porucha vysunutia hornych kontaktov !!!" />
+        <Property ID="Code" Value="423" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[252]">
+        <Property ID="Name" Value="A424" />
+        <Property ID="Message" Value="ST_Funkcny test B - porucha zasunutia hornych kontaktov !!!" />
+        <Property ID="Code" Value="424" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[253]">
+        <Property ID="Name" Value="A425" />
+        <Property ID="Message" Value="ST_Funkcny test B - porucha vysunutia spodnych kontaktov !!!" />
+        <Property ID="Code" Value="425" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[254]">
+        <Property ID="Name" Value="A426" />
+        <Property ID="Message" Value="ST_Funkcny test B - porucha zasunutia spodnych kontaktov !!!" />
+        <Property ID="Code" Value="426" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[255]">
+        <Property ID="Name" Value="A427" />
+        <Property ID="Message" Value="ST_Funkcny test A - porucha precitania kodu paletky !!!" />
+        <Property ID="Code" Value="427" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[256]">
+        <Property ID="Name" Value="A428" />
+        <Property ID="Message" Value="Pracovisko 4 - Modul DI41 nieje online !!!" />
+        <Property ID="Code" Value="428" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[257]">
+        <Property ID="Name" Value="A429" />
+        <Property ID="Message" Value="ST_Funkcny test B - porucha precitania kodu paletky !!!" />
+        <Property ID="Code" Value="429" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[258]">
+        <Property ID="Name" Value="A430" />
+        <Property ID="Message" Value="Pracovisko 4 - Modul DI42 nieje online !!!" />
+        <Property ID="Code" Value="430" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[259]">
+        <Property ID="Name" Value="A431" />
+        <Property ID="Message" Value="ST9_Etiketovacka - porucha vytlacenie etikety !!!" />
+        <Property ID="Code" Value="431" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[260]">
+        <Property ID="Name" Value="A432" />
+        <Property ID="Message" Value="ST9_Etiketovacka - pritlak pasky v tlaciarni je odisteny !!!" />
+        <Property ID="Code" Value="432" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[261]">
+        <Property ID="Name" Value="A433" />
+        <Property ID="Message" Value="ST9_Etiketovacka - CAM 14 porucha komunikacie FTP !!!" />
+        <Property ID="Code" Value="433" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[262]">
+        <Property ID="Name" Value="A434" />
+        <Property ID="Message" Value="ST9_Etiketovacka - CAM 15 porucha komunikacie FTP !!!" />
+        <Property ID="Code" Value="434" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[263]">
+        <Property ID="Name" Value="A435" />
+        <Property ID="Message" Value="Pracovisko 4 - Modul DM41 nieje online !!!" />
+        <Property ID="Code" Value="435" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[264]">
+        <Property ID="Name" Value="A436" />
+        <Property ID="Message" Value="Pracovisko 4 - Modul DS41 nieje online !!!" />
+        <Property ID="Code" Value="436" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[265]">
+        <Property ID="Name" Value="A437" />
+        <Property ID="Message" Value="ST_Funkcny test A - je zalozeny nespravny typ spodneho kopita !!!" />
+        <Property ID="Code" Value="437" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[266]">
+        <Property ID="Name" Value="A438" />
+        <Property ID="Message" Value="ST_Funkcny test B - je zalozeny nespravny typ spodneho kopita !!!" />
+        <Property ID="Code" Value="438" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[267]">
+        <Property ID="Name" Value="A439" />
+        <Property ID="Message" Value="Pracovisko 4 - Modul DS42 nieje online !!!" />
+        <Property ID="Code" Value="439" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[268]">
+        <Property ID="Name" Value="A440" />
+        <Property ID="Message" Value="Pracovisko 4 - Modul SI41 nieje online !!!" />
+        <Property ID="Code" Value="440" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[269]">
+        <Property ID="Name" Value="A441" />
+        <Property ID="Message" Value="Pracovisko 4 - Modul SI42 nieje online !!!" />
+        <Property ID="Code" Value="441" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[270]">
+        <Property ID="Name" Value="A442" />
+        <Property ID="Message" Value="ST10_Vytah - porucha serva zdvihu vytahu !!!" />
+        <Property ID="Code" Value="442" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[271]">
+        <Property ID="Name" Value="A443" />
+        <Property ID="Message" Value="Pracovisko 4 - Prekrocena teplota motora vrchneho dopravnika !!!" />
+        <Property ID="Code" Value="443" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[272]">
+        <Property ID="Name" Value="A444" />
+        <Property ID="Message" Value="Pracovisko 4 - Prekrocena teplota motora spodneho dopravnika !!!" />
+        <Property ID="Code" Value="444" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[273]">
+        <Property ID="Name" Value="A445" />
+        <Property ID="Message" Value="ST10_Vytah - Prekrocena teplota motora dopravnika !!!" />
+        <Property ID="Code" Value="445" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[274]">
+        <Property ID="Name" Value="A446" />
+        <Property ID="Message" Value="Pracovisko 4 - Narusenie optickej bariery na vstupe !!!" />
+        <Property ID="Code" Value="446" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[275]">
+        <Property ID="Name" Value="A447" />
+        <Property ID="Message" Value="Pracovisko 4 - Narusenie optickej bariery na vystupe !!!" />
+        <Property ID="Code" Value="447" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[276]">
+        <Property ID="Name" Value="A448" />
+        <Property ID="Message" Value="Pracovisko 4 - Bolo stlacene tlacitko CS na ovladacom paneli !!!" />
+        <Property ID="Code" Value="448" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[277]">
+        <Property ID="Name" Value="A449" />
+        <Property ID="Message" Value="Pracovisko 4 - Bolo stlacene tlacitko CS na rozvodnej skrini !!!" />
+        <Property ID="Code" Value="449" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[278]">
+        <Property ID="Name" Value="A450" />
+        <Property ID="Message" Value="ST_Funkcny test A - Porucha vyvezenia paletky zo stopra !!!" />
+        <Property ID="Code" Value="450" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[279]">
+        <Property ID="Name" Value="A451" />
+        <Property ID="Message" Value="ST_Funkcny test B - Porucha vyvezenia paletky zo stopra !!!" />
+        <Property ID="Code" Value="451" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[280]">
+        <Property ID="Name" Value="A452" />
+        <Property ID="Message" Value="ST9_Etiketovacka - Porucha vyvezenia paletky zo stopra !!!" />
+        <Property ID="Code" Value="452" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[281]">
+        <Property ID="Name" Value="A453" />
+        <Property ID="Message" Value="ST9_Etiketovacka - Porucha komunikacie s kamerou CAM 14 !!!" />
+        <Property ID="Code" Value="453" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[282]">
+        <Property ID="Name" Value="A454" />
+        <Property ID="Message" Value="ST9_Etiketovacka - Porucha komunikacie s kamerou CAM 15 !!!" />
+        <Property ID="Code" Value="454" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[283]">
+        <Property ID="Name" Value="A455" />
+        <Property ID="Message" Value="ST10_Vytah - Porucha komunikacie s kamerou CAM 16 !!!" />
+        <Property ID="Code" Value="455" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gAlarmXCore_1" Type="mpalarmxcore" />
+  <Element ID="gAlarmXCore_2" Type="mpalarmxcore" />
+</Configuration>

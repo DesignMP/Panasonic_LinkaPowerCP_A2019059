@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="AreaTimeP34" height="350" width="500" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle1" top="0" left="0" width="500" height="350" zIndex="0" backColor="rgba(153, 180, 209, 1)" />
+    <Widget xsi:type="widgets.brease.Line" id="Line1" zIndex="1" x1="10" x2="490" y1="76" y2="76" lineColor="rgba(255, 255, 255, 1)" lineWidth="3px" style="Solid_LightGray_Wide" />
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="24" left="122" width="250" zIndex="2" text="Nastavenie času a dátumu" textColor="rgba(0, 0, 0, 1)" textAlign="center" fontSize="20px" bold="true" />
+    <Widget xsi:type="widgets.brease.Image" id="Image1" top="8" left="24" width="60" height="58" zIndex="3" image="Media/Pictures/CasDatum48x48.png" />
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="135" left="24" zIndex="4" text="Čas:" textColor="rgba(0, 0, 0, 1)" fontSize="20px" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label3" top="197" left="24" zIndex="5" text="Dátum:" textColor="rgba(0, 0, 0, 1)" fontSize="20px" bold="true" />
+    <Widget xsi:type="widgets.brease.DateTimeInput" id="DateTimeInput1" top="132" left="125" height="35" zIndex="6" format="HH:mm" borderWidth="2px 4px 2px 2px" activeTextColor="rgba(0, 0, 0, 1)" textColor="rgba(0, 0, 0, 1)" textAlign="center" fontSize="20px" shadow="4px 4px 8px rgba(0, 0, 0, 1)" />
+    <Widget xsi:type="widgets.brease.DateTimeInput" id="DateTimeInput2" top="194" left="125" height="35" zIndex="7" format="dd/MM/yyyy" borderWidth="2px 4px 2px 2px" activeTextColor="rgba(0, 0, 0, 1)" textColor="rgba(0, 0, 0, 1)" textAlign="center" fontSize="20px" shadow="4px 4px 8px rgba(0, 0, 0, 1)" />
+    <Widget xsi:type="widgets.brease.LogoutButton" id="LogoutButton2" top="276" left="175" width="150" height="40" zIndex="8" image="Media/Pictures/Cancel-icon32x32.png" text="Exit" cornerRadius="10px" textColor="rgba(0, 0, 0, 1)" textAlign="center" shadow="4px 4px 14px rgba(0, 0, 0, 1)" />
+  </Widgets>
+</Content>

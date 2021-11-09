@@ -1,0 +1,485 @@
+121
+82
+0 0 120 0
+@V2 2 RESOURCE CPU 0 0 0
+	
+86
+119 1 0 0
+@V2 10 @ Global_Variables 0 0 0
+F C\PLC\R\CPU\Global_Variables.vbb
+86
+120 1 0 0
+@V2 10 @ Exchange_Variables 0 0 0
+F C\PLC\R\CPU\Exchange_Variables.vbb
+5
+61 1 57 0
+@V2 6 FUNCTIONS FUNCTIONS 0 0 0
+	
+78
+62 2 0 0
+@V2 6 MUL_S MUL_S 0 77 0
+	
+78
+63 2 0 0
+@V2 6 MUL MUL 0 76 0
+	
+78
+64 2 0 0
+@V2 6 DIV_S DIV_S 0 75 0
+	
+78
+65 2 0 0
+@V2 6 DIV DIV 0 74 0
+	
+78
+66 2 0 0
+@V2 6 R_BIT_IN_DWORD R_BIT_IN_DWORD 0 73 0
+	
+78
+67 2 0 0
+@V2 6 R_BIT_IN_WORD R_BIT_IN_WORD 0 72 0
+	
+78
+68 2 0 0
+@V2 6 R_BIT_IN_BYTE R_BIT_IN_BYTE 0 71 0
+	
+78
+69 2 0 0
+@V2 6 S_BIT_IN_DWORD S_BIT_IN_DWORD 0 70 0
+	
+78
+70 2 0 0
+@V2 6 S_BIT_IN_WORD S_BIT_IN_WORD 0 69 0
+	
+78
+71 2 0 0
+@V2 6 S_BIT_IN_BYTE S_BIT_IN_BYTE 0 68 0
+	
+78
+72 2 0 0
+@V2 6 I_BIT_IN_DWORD I_BIT_IN_DWORD 0 67 0
+	
+78
+73 2 0 0
+@V2 6 I_BIT_IN_WORD I_BIT_IN_WORD 0 66 0
+	
+78
+74 2 0 0
+@V2 6 I_BIT_IN_BYTE I_BIT_IN_BYTE 0 65 0
+	
+78
+75 2 0 0
+@V2 6 SWAP SWAP 0 64 0
+	
+78
+76 2 0 0
+@V2 6 SET_LSB SET_LSB 0 63 0
+	
+78
+77 2 0 0
+@V2 6 SET_MSB SET_MSB 0 62 0
+	
+78
+78 2 0 0
+@V2 6 GET_LSB GET_LSB 0 61 0
+	
+78
+79 2 0 0
+@V2 6 GET_MSB GET_MSB 0 60 0
+	
+78
+80 2 0 0
+@V2 6 BIT_TEST BIT_TEST 0 59 0
+	
+78
+81 2 0 0
+@V2 6 SAFETIME_TO_TIME SAFETIME_TO_TIME 0 58 0
+	
+78
+82 2 0 0
+@V2 6 TIME_TO_SAFETIME TIME_TO_SAFETIME 0 57 0
+	
+78
+83 2 0 0
+@V2 6 SAFEINT_TO_INT SAFEINT_TO_INT 0 56 0
+	
+78
+84 2 0 0
+@V2 6 INT_TO_SAFEINT INT_TO_SAFEINT 0 55 0
+	
+78
+85 2 0 0
+@V2 6 SAFEDWORD_TO_DWORD SAFEDWORD_TO_DWORD 0 54 0
+	
+78
+86 2 0 0
+@V2 6 DWORD_TO_SAFEDWORD DWORD_TO_SAFEDWORD 0 53 0
+	
+78
+87 2 0 0
+@V2 6 SAFEWORD_TO_WORD SAFEWORD_TO_WORD 0 52 0
+	
+78
+88 2 0 0
+@V2 6 WORD_TO_SAFEWORD WORD_TO_SAFEWORD 0 51 0
+	
+78
+89 2 0 0
+@V2 6 SAFEBYTE_TO_BYTE SAFEBYTE_TO_BYTE 0 50 0
+	
+78
+90 2 0 0
+@V2 6 BYTE_TO_SAFEBYTE BYTE_TO_SAFEBYTE 0 49 0
+	
+78
+91 2 0 0
+@V2 6 SAFEBOOL_TO_BOOL SAFEBOOL_TO_BOOL 0 48 0
+	
+78
+92 2 0 0
+@V2 6 BOOL_TO_SAFEBOOL BOOL_TO_SAFEBOOL 0 47 0
+	
+78
+93 2 0 0
+@V2 6 XOR_S XOR_S 0 46 0
+	
+78
+94 2 0 0
+@V2 6 SUB_S SUB_S 0 42 0
+	
+78
+95 2 0 0
+@V2 6 OR_S OR_S 0 38 0
+	
+78
+96 2 0 0
+@V2 6 NOT_S NOT_S 0 37 0
+	
+78
+97 2 0 0
+@V2 6 NE_S NE_S 0 36 0
+	
+78
+98 2 0 0
+@V2 6 LT_S LT_S 0 35 0
+	
+78
+99 2 0 0
+@V2 6 LE_S LE_S 0 34 0
+	
+78
+100 2 0 0
+@V2 6 GT_S GT_S 0 33 0
+	
+78
+101 2 0 0
+@V2 6 GE_S GE_S 0 32 0
+	
+78
+102 2 0 0
+@V2 6 EQ_S EQ_S 0 30 0
+	
+78
+103 2 0 0
+@V2 6 AND_S AND_S 0 26 0
+	
+78
+104 2 0 0
+@V2 6 ADD_S ADD_S 0 25 0
+	
+78
+105 2 0 0
+@V2 6 ACTF_S ACTF_S 0 24 0
+	
+78
+106 2 0 0
+@V2 6 XOR XOR 0 23 0
+	
+78
+107 2 0 0
+@V2 6 SUB SUB 0 19 0
+	
+78
+108 2 0 0
+@V2 6 OR OR 0 15 0
+	
+78
+109 2 0 0
+@V2 6 NOT NOT 0 14 0
+	
+78
+110 2 0 0
+@V2 6 NE NE 0 13 0
+	
+78
+111 2 0 0
+@V2 6 LT LT 0 12 0
+	
+78
+112 2 0 0
+@V2 6 LE LE 0 11 0
+	
+78
+113 2 0 0
+@V2 6 GT GT 0 10 0
+	
+78
+114 2 0 0
+@V2 6 GE GE 0 9 0
+	
+78
+115 2 0 0
+@V2 6 EQ EQ 0 7 0
+	
+78
+116 2 0 0
+@V2 6 AND AND 0 3 0
+	
+78
+117 2 0 0
+@V2 6 ADD ADD 0 2 0
+	
+78
+118 2 0 0
+@V2 6 ACTF ACTF 0 1 0
+	
+84
+1 1 59 0
+@V2 3 @ TASK 0 0 0
+F 
+80
+2 2 58 0
+@V2 4 Main Main 1 80 0
+	
+70
+3 3 0 0
+@V2 5 SF_Equivalent_V1_00 P2_CS_DvojrucOvladanie 2 81 1
+	
+70
+4 3 0 0
+@V2 5 SF_Equivalent_V1_00 P2_CS_Robot 3 81 2
+	
+70
+5 3 0 0
+@V2 5 SF_Equivalent_V1_00 P2_CS_OvladaciPanel 4 81 3
+	
+70
+6 3 0 0
+@V2 5 SF_Equivalent_V1_00 P2_CS_Rozvadzac 5 81 4
+	
+70
+7 3 0 0
+@V2 5 SF_EmergencyStop_V1_00 Zona_CS 6 82 5
+	
+70
+8 3 0 0
+@V2 5 SF_EmergencyStop_V1_00 P2_Zona_ZaklTesnenia_Pojazd 7 82 6
+	
+70
+9 3 0 0
+@V2 5 SF_Equivalent_V1_00 P2_PrepinacVyblokovaniaSafety 8 81 7
+	
+70
+10 3 0 0
+@V2 5 SF_Equivalent_V1_00 P2_DvojrucneOvladanie 9 81 8
+	
+70
+11 3 0 0
+@V2 5 SF_Equivalent_V1_00 P2_Bumper 10 81 9
+	
+70
+12 3 0 0
+@V2 5 SF_EmergencyStop_V1_00 P2_Zona_ZaklTesnenia_Zdvih 11 82 10
+	
+70
+13 3 0 0
+@V2 5 SF_Equivalent_V1_00 P2_ZadnySnimacPojazdu 12 81 11
+	
+70
+14 3 0 0
+@V2 5 SF_Equivalent_V1_00 P2_ZaklTesnenia_OptickaBariera 13 81 12
+	
+70
+15 3 0 0
+@V2 5 SF_Equivalent_V1_00 P2_ZamkyBunky 14 81 13
+	
+70
+16 3 0 0
+@V2 5 SF_EmergencyStop_V1_00 P2_Zona_Bunky 15 82 14
+	
+70
+17 3 0 0
+@V2 5 SF_EmergencyStop_V1_00 P2_Zona_Maticovacky 16 82 15
+	
+70
+18 3 0 0
+@V2 5 SF_Equivalent_V1_00 P2_BarieraVstupuBunky 17 81 16
+	
+70
+19 3 0 0
+@V2 5 SF_Equivalent_V1_00 P1_CS_Robot 18 81 17
+	
+70
+20 3 0 0
+@V2 5 SF_Equivalent_V1_00 P1_CS_OvladaciPanel 19 81 18
+	
+70
+21 3 0 0
+@V2 5 SF_Equivalent_V1_00 P1_CS_Rozvadzac 20 81 19
+	
+70
+22 3 0 0
+@V2 5 SF_Equivalent_V1_00 P1_PrepinacVyblokovaniaSafety 21 81 20
+	
+70
+23 3 0 0
+@V2 5 SF_EmergencyStop_V1_00 P1_Zona_Vytah 22 82 21
+	
+70
+24 3 0 0
+@V2 5 SF_Equivalent_V1_00 P1_SnimacHornaPolohaVytahu 23 81 22
+	
+70
+25 3 0 0
+@V2 5 SF_Equivalent_V1_00 P1_BarieraVytahu 24 81 23
+	
+70
+26 3 0 0
+@V2 5 SF_EmergencyStop_V1_00 P1_ZonaBunka 25 82 24
+	
+70
+27 3 0 0
+@V2 5 SF_Equivalent_V1_00 P1_VstupnaBarieraBunky 26 81 25
+	
+70
+28 3 0 0
+@V2 5 SF_Equivalent_V1_00 P1_ZamkyBunky 27 81 26
+	
+70
+29 3 0 0
+@V2 5 SF_Equivalent_V1_00 P1_VystupnaBarieraTunela 28 81 27
+	
+70
+30 3 0 0
+@V2 5 SF_Equivalent_V1_00 P3_CS_Rozvadzac 29 81 28
+	
+70
+31 3 0 0
+@V2 5 SF_Equivalent_V1_00 P3_PrepinacVyblokovanieSafety 30 81 29
+	
+70
+32 3 0 0
+@V2 5 SF_EmergencyStop_V1_00 P3_ZonaBunka 31 82 30
+	
+70
+33 3 0 0
+@V2 5 SF_Equivalent_V1_00 P3_VystupnaBarieraBunky 32 81 31
+	
+70
+34 3 0 0
+@V2 5 SF_Equivalent_V1_00 P3_ZamkyBunky 33 81 32
+	
+70
+35 3 0 0
+@V2 5 SF_Equivalent_V1_00 P4_CS_OvladaciPanel 34 81 33
+	
+70
+36 3 0 0
+@V2 5 SF_Equivalent_V1_00 P4_CS_Rozvadzac 35 81 34
+	
+70
+37 3 0 0
+@V2 5 SF_Equivalent_V1_00 P4_PrepinacVyblokovaniaSafety 36 81 35
+	
+70
+38 3 0 0
+@V2 5 SF_EmergencyStop_V1_00 P4_Zona_Vytah 37 82 36
+	
+70
+39 3 0 0
+@V2 5 SF_Equivalent_V1_00 P4_SnimacHornaPolohaVytahu 38 81 37
+	
+70
+40 3 0 0
+@V2 5 SF_Equivalent_V1_00 P4_BarieraVytahu 39 81 38
+	
+70
+41 3 0 0
+@V2 5 SF_EmergencyStop_V1_00 P4_ZonaBunka 40 82 39
+	
+70
+42 3 0 0
+@V2 5 SF_Equivalent_V1_00 P4_ZamkyBunky 41 81 40
+	
+70
+43 3 0 0
+@V2 5 TON_S Cas_1 42 44 41
+	
+70
+44 3 0 0
+@V2 5 TON_S Cas_2 43 44 42
+	
+70
+45 3 0 0
+@V2 5 TON_S Cas_3 44 44 43
+	
+70
+46 3 0 0
+@V2 5 TON_S Cas_4 45 44 44
+	
+70
+47 3 0 0
+@V2 5 SF_Equivalent_V1_00 P3_Bunka_VstupnaBariera 46 81 45
+	
+70
+48 3 0 0
+@V2 5 SF_Equivalent_V1_00 P4_VstupnaBarieraTunela 47 81 46
+	
+70
+49 3 0 0
+@V2 5 SF_Equivalent_V1_00 P4_VystupnaBarieraTunela 48 81 47
+	
+70
+50 3 0 0
+@V2 5 TON_S Cas_MutinguBariery 49 44 48
+	
+70
+51 3 0 0
+@V2 5 TON CasRelease_ZonaCS 50 21 49
+	
+70
+52 3 0 0
+@V2 5 TON CasRelease_P1_ZonaVytah 51 21 50
+	
+70
+53 3 0 0
+@V2 5 TON CasRelease_P1_ZonaBunky 52 21 51
+	
+70
+54 3 0 0
+@V2 5 TON CasRelease_P4_ZonaBunky 53 21 52
+	
+70
+55 3 0 0
+@V2 5 TON CasRelease_P2_ZaklTesnPojazd 54 21 53
+	
+70
+56 3 0 0
+@V2 5 TON CasRelease_P2_ZaklTesnZdvih 55 21 54
+	
+70
+57 3 0 0
+@V2 5 TON CasRelease_P2_ZonaMaticovacky 56 21 55
+	
+70
+58 3 0 0
+@V2 5 TON CasRelease_P2_ZonaBunky 57 21 56
+	
+70
+59 3 0 0
+@V2 5 TON CasRelease_P3_ZonaBunky 58 21 57
+	
+70
+60 3 0 0
+@V2 5 TON CasRelease_P4_ZonaVytah 59 21 58
+	

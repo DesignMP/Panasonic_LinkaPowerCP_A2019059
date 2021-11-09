@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="SetupP1_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bindings>
+		
+		<EventBinding id="AreaPageSetupP1_page1.Button_Vytah_IgnorujKameru.Click">
+			<Source contentRefId="AreaPageSetupP1_page1" widgetRefId="Button_Vytah_IgnorujKameru" xsi:type="widgets.brease.Button.Event" event="Click" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P1_Vytah_KAM_Result_Ignoruj" >
+						<Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		
+		
+		<EventBinding id="AreaHlasenie1_ST1.Button_Vytah_IgnorujKameru.Click">
+			<Source contentRefId="AreaHlasenie1_ST1" widgetRefId="Button_Vytah_IgnorujKameru" xsi:type="widgets.brease.Button.Event" event="Click" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P1_Vytah_KAM_Result_Ignoruj" >
+						<Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		
+		<EventBinding id="AreaHlasenie2_ST1.Button_Vytah_IgnorujKameru.Click">
+			<Source contentRefId="AreaHlasenie2_ST1" widgetRefId="Button_Vytah_IgnorujKameru" xsi:type="widgets.brease.Button.Event" event="Click" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P1_Vytah_KAM_Result_Ignoruj" >
+						<Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		
+		<EventBinding id="AreaHlasenie3_ST1.Button_Vytah_IgnorujKameru.Click">
+			<Source contentRefId="AreaHlasenie3_ST1" widgetRefId="Button_Vytah_IgnorujKameru" xsi:type="widgets.brease.Button.Event" event="Click" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P1_Vytah_KAM_Result_Ignoruj" >
+						<Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		
+				
+		
+		       
+        
+        <EventBinding id="AreaHlasenie5_ST1.Button_Vytah_IgnorujKameru.Click">
+            <Source contentRefId="AreaHlasenie5_ST1" widgetRefId="Button_Vytah_IgnorujKameru" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P1_Vytah_KAM_Result_Ignoruj" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+		
+		
+        
+        
+        
+        
+       
+        
+        
+        
+        
+		
+    </Bindings>
+</EventBindingSet>

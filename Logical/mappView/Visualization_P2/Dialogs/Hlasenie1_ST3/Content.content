@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="AreaHlasenie1_ST3" height="520" width="500" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox6" top="0" left="0" width="500" height="520" zIndex="0" borderWidth="7px" cornerRadius="6px 6px 6px 6px" backColor="rgba(255, 192, 128, 1)" borderStyle="groove" textColor="rgba(0, 0, 0, 1)" shadow="4px 4px 14px rgba(0, 0, 0, 1)">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.Image" id="Image1" top="7" left="415" width="62" height="62" zIndex="0" image="Media/Pictures/Info2_48x48.png" />
+        <Widget xsi:type="widgets.brease.Label" id="Label1" top="41" left="3" width="443" height="36" zIndex="1" multiLine="true" text="Skontroluj materiál na paletke !!!" textColor="rgba(0, 0, 0, 1)" textAlign="center" fontSize="24px" bold="true" underline="true" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.Image" id="Image2" top="100" left="31" width="438" height="389" zIndex="1" image="Media/Pozadie/P3_4F_Paletka.jpg" borderStyle="groove" borderWidth="5px" cornerRadius="10px" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList6" top="418" left="376" width="35" height="35" zIndex="2" imageList="['Button_YES_25x25.png', 'Button_NO_25x25.png']" imagePrefix="Media/Pictures/" borderStyle="none" borderWidth="0px" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList5" top="194" left="402" width="35" height="35" zIndex="3" imageList="['Button_NO_25x25.png', 'Button_YES_25x25.png']" imagePrefix="Media/Pictures/" borderStyle="none" borderWidth="0px" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList4" top="194" left="350" width="35" height="35" zIndex="4" imageList="['Button_NO_25x25.png', 'Button_YES_25x25.png']" imagePrefix="Media/Pictures/" borderStyle="none" borderWidth="0px" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList3" top="418" left="258" width="35" height="35" zIndex="5" imageList="['Button_NO_25x25.png', 'Button_YES_25x25.png']" imagePrefix="Media/Pictures/" borderStyle="none" borderWidth="0px" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList2" top="282" left="140" width="35" height="35" zIndex="6" imageList="['Button_NO_25x25.png', 'Button_YES_25x25.png']" imagePrefix="Media/Pictures/" borderStyle="none" borderWidth="0px" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList1" top="154" left="266" width="35" height="35" zIndex="7" imageList="['Button_NO_25x25.png', 'Button_YES_25x25.png']" imagePrefix="Media/Pictures/" borderStyle="none" borderWidth="0px" />
+    <Widget xsi:type="widgets.brease.Button" id="Button_ZaklTesnenia_IgnorujKameru" top="118" left="50" width="149" height="45" zIndex="8" multiLine="true" text="Ignoruj výsledok\nkamery" cornerRadius="10px" textColor="rgba(0, 0, 0, 1)" textAlign="center" shadow="4px 4px 14px rgba(0, 0, 0, 1)" />
+  </Widgets>
+</Content>

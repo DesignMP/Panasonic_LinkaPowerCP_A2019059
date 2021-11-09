@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.5.60 SP?>
+<Package SubType="DialogsPackage" PackageType="DialogsPackage" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package">LoginDialog</Object>
+    <Object Type="Package">TimeDialog</Object>
+    <Object Type="Package">Hlasenie1_ST3</Object>
+    <Object Type="Package">Hlasenie2_ST3</Object>
+    <Object Type="Package">Hlasenie3_ST3</Object>
+    <Object Type="Package">Hlasenie4_ST3</Object>
+    <Object Type="Package">Hlasenie5_ST3</Object>
+    <Object Type="Package">Hlasenie6_ST3</Object>
+    <Object Type="Package">Hlasenie7_ST3</Object>
+    <Object Type="Package">Hlasenie8_ST3</Object>
+    <Object Type="Package">Hlasenie9_ST3</Object>
+    <Object Type="Package">Hlasenie10_ST3</Object>
+    <Object Type="Package">Hlasenie11_ST3</Object>
+    <Object Type="Package">Hlasenie12_ST3</Object>
+    <Object Type="Package">Hlasenie13_ST3</Object>
+    <Object Type="Package">Hlasenie14_ST3</Object>
+    <Object Type="Package" Description="Model_5H_Vstup">Hlasenie1_ST4</Object>
+    <Object Type="Package" Description="Model_5H_Vystup">Hlasenie2_ST4</Object>
+    <Object Type="Package">Hlasenie3_ST4</Object>
+    <Object Type="Package" Description="Model_4F_Vystup">Hlasenie1_ST5</Object>
+    <Object Type="Package" Description="Model_5F_Vystup">Hlasenie2_ST5</Object>
+    <Object Type="Package" Description="Model_5H_Vystup">Hlasenie3_ST5</Object>
+    <Object Type="Package">Hlasenie4_ST5</Object>
+    <Object Type="Package" Description="Model_4F_Vstup">Hlasenie1_ST6</Object>
+    <Object Type="Package" Description="Model_5F_Vstup">Hlasenie2_ST6</Object>
+    <Object Type="Package" Description="Model_5H_Vstup">Hlasenie3_ST6</Object>
+    <Object Type="Package" Description="KontrolaZvaru">Hlasenie4_ST6</Object>
+    <Object Type="Package" Description="Model_4F_Vystup">Hlasenie5_ST6</Object>
+    <Object Type="Package" Description="Model_5F_Vystup">Hlasenie6_ST6</Object>
+    <Object Type="Package" Description="Model_5H_Vystup">Hlasenie7_ST6</Object>
+    <Object Type="Package">Hlasenie8_ST6</Object>
+  </Objects>
+</Package>

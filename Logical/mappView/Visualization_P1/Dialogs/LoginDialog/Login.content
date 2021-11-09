@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="AreaLoginP1" height="350" width="500" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle1" top="0" left="0" width="500" height="350" zIndex="0" borderWidth="2px" cornerRadius="10px" backColor="rgba(153, 180, 209, 1)" />
+    <Widget xsi:type="widgets.brease.Line" id="Line1" zIndex="1" x1="10" x2="490" y1="80" y2="80" lineColor="rgba(255, 255, 255, 1)" lineWidth="3px" style="Solid_LightGray_Wide" />
+    <Widget xsi:type="widgets.brease.Image" id="Image1" top="10" left="20" width="60" height="60" zIndex="2" image="Media/SVGsymbols/User/User.svg" />
+    <Widget xsi:type="widgets.brease.LogoutButton" id="LogoutButton1" top="260" left="315" width="150" height="40" zIndex="3" image="Media/SVGsymbols/User/Logout.svg" text="Odhlásenie" cornerRadius="10px" textColor="rgba(0, 0, 0, 1)" shadow="4px 4px 14px rgba(0, 0, 0, 1)" />
+    <Widget xsi:type="widgets.brease.LogoutButton" id="LogoutButton2" top="260" left="35" width="150" height="40" zIndex="4" image="Media/Pictures/Cancel-icon32x32.png" text="Exit" cornerRadius="10px" textColor="rgba(0, 0, 0, 1)" textAlign="center" shadow="4px 4px 14px rgba(0, 0, 0, 1)" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput1" top="15" left="134" width="236" height="50" zIndex="5" value="" textAlign="center" fontSize="30px" />
+  </Widgets>
+</Content>

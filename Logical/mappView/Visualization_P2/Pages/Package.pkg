@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.5.60 SP?>
+<Package SubType="PagesPackage" PackageType="PagesPackage" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package" Description="AreaContents">AreaContents</Object>
+    <Object Type="Package">PageBoot</Object>
+    <Object Type="Package">PageAutomat</Object>
+    <Object Type="Package">PageManualMain</Object>
+    <Object Type="Package">PageManual_Dopravniky</Object>
+    <Object Type="Package">PageManual_ZakladanieTesnenia</Object>
+    <Object Type="Package">PageManual_Maticovacka</Object>
+    <Object Type="Package">PageManual_Skrutkovanie</Object>
+    <Object Type="Package">PageManual_Skrutkovanie_page2</Object>
+    <Object Type="Package">PageManual_Skrutkovanie_page3</Object>
+    <Object Type="Package">PageManual_Zvaranie</Object>
+    <Object Type="Package">PageManual_Zvaranie_page2</Object>
+    <Object Type="Package">PageManual_Robot</Object>
+    <Object Type="Package">PageAlarm</Object>
+    <Object Type="Package">PageUsers</Object>
+    <Object Type="Package">PageMain</Object>
+    <Object Type="Package">PageSafety</Object>
+    <Object Type="Package">PageSetupMain</Object>
+    <Object Type="Package">PageInfo</Object>
+    <Object Type="Package">PageRecipe</Object>
+    <Object Type="Package">PageAudit</Object>
+    <Object Type="Package">PageExplorer</Object>
+    <Object Type="Package">PageSetup_page1</Object>
+    <Object Type="Package">PageParametreMain</Object>
+    <Object Type="Package">PageParametre_page1</Object>
+    <Object Type="Package">PageParametre_page2</Object>
+    <Object Type="Package">PageTolerancieSkrutkovania_page1</Object>
+    <Object Type="Package">PageTolerancieSkrutkovania_page2</Object>
+    <Object Type="Package">PageStavyStanic</Object>
+  </Objects>
+</Package>

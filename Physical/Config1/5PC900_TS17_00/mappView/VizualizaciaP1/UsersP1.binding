@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="UsersP1_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Bindings>
+		
+        <!--Zobrazenie symbolu karty v hlavičke panela-->
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.KartaPrilozena_Panel1" attribute="value" />
+            <Target xsi:type="brease" contentRefId="HlavickaP1" widgetRefId="Image3" attribute="visible" />
+        </Binding>
+        
+         
+        
+               
+        
+        <!--Zobrazenie zvoleného uzivatela v hlavičke panela-->
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.MenoPrihlasenehoUzivatela_Panel1" attribute="value" />
+            <Target xsi:type="brease" contentRefId="HlavickaP1" widgetRefId="TextOutput1" attribute="value" />
+        </Binding>
+              
+        
+       
+        
+               
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.LB_Index" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageUsers" widgetRefId="ZoznamUzivatelov" attribute="selectedIndex" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.ZoznamUzivatelov" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageUsers" widgetRefId="ZoznamUzivatelov" attribute="dataProvider" />
+        </Binding>
+	
+		
+        <!--<Namapovanie premenej na zobrazenie stavou uzivatelov -->
+        <Binding mode="oneWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.StavyUsers_Index" attribute="value" />
+            <Target xsi:type="snippet" refId="Snippet_StavyUsers" attribute="value" />
+        </Binding>		
+		
+        <Binding mode="oneWay">
+            <Source xsi:type="snippet" refId="Snippet_StavyUsers" attribute="value" />
+            <Target xsi:type="brease" widgetRefId="TextOut_StavyUsers" contentRefId="AreaPageUsers" attribute="value" />
+        </Binding>
+		
+	
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.Edit_CisloKarty" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageUsers" widgetRefId="txtRecFilter2" attribute="value" />
+        </Binding>
+        
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.EditaciaKarty_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageUsers" widgetRefId="txtRecFilter2" attribute="enable" />
+        </Binding>
+        
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.Edit_HesloUzivatela" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageUsers" widgetRefId="txtRecFilter1" attribute="value" />
+        </Binding>
+        
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.EditaciaHesla_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageUsers" widgetRefId="txtRecFilter1" attribute="enable" />
+        </Binding>
+        
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.Edit_MenoUzivatela" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageUsers" widgetRefId="txtRecFilter" attribute="value" />
+        </Binding>
+
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.LB_IndexSTRING" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageUsers" widgetRefId="ZoznamUzivatelov" attribute="selectedValue" />
+        </Binding>
+        
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.Edit_UrovenUzivatela" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageUsers" widgetRefId="DropDownBox1" attribute="selectedValue" />
+        </Binding>
+
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.KartaPrilozena_Panel1" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageUsers" widgetRefId="Image2" attribute="visible" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.TL_UlozUzivatela_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageUsers" widgetRefId="btnUlozUzivatela" attribute="enable" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:UsersVizu.MenoPrihlasenehoUzivatela_Panel1" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaLoginP1" widgetRefId="TextOutput1" attribute="value" />
+        </Binding>
+
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.TL_PrihlasovOperatora_AKTIVNE" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageUsers" widgetRefId="ToggleButton_Prihlasenie" attribute="value" />
+</Binding>
+</Bindings>
+</BindingsSet>

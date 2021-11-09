@@ -1,0 +1,1228 @@
+(*
+T: RESOURCE CPU
+FW: NO
+CI#: 0
+QSL: 203
+QVE: 203
+QVPC: 203
+QPar: 0
+QFBI: 0
+*)
+@V 1 2 0
+siP2_CS_Robot_CH1	1	VAR_GLOBAL	@TYP:43
+%SIX 64.0		     
+
+;
+
+@V 1 3 0
+siP2_CS_Robot_CH2	2	VAR_GLOBAL	@TYP:43
+%SIX 64.1		     
+
+;
+
+@V 1 4 0
+siP2_CS_Panel_CH1	3	VAR_GLOBAL	@TYP:43
+%SIX 64.2		     
+
+;
+
+@V 1 5 0
+siP2_CS_Panel_CH2	4	VAR_GLOBAL	@TYP:43
+%SIX 64.3		     
+
+;
+
+@V 1 6 0
+siP2_VyblokovanieSafety_CH1	5	VAR_GLOBAL	@TYP:43
+%SIX 64.4		     
+
+;
+
+@V 1 7 0
+siP2_VyblokovanieSafety_CH2	6	VAR_GLOBAL	@TYP:43
+%SIX 64.5		     
+
+;
+
+@V 1 8 0
+siP2_CS_Rozvadzac_CH1	7	VAR_GLOBAL	@TYP:43
+%SIX 64.6		     
+
+;
+
+@V 1 9 0
+siP2_CS_Rozvadzac_CH2	8	VAR_GLOBAL	@TYP:43
+%SIX 64.7		     
+
+;
+
+@V 1 10 0
+siP2_Snimac_ZaklTesnPojazd_CH1	9	VAR_GLOBAL	@TYP:43
+%SIX 65.0		     
+
+;
+
+@V 1 11 0
+siP2_Snimac_ZaklTesnPojazd_CH2	10	VAR_GLOBAL	@TYP:43
+%SIX 65.1		     
+
+;
+
+@V 1 12 0
+siP2_Bumper_ZaklTesnPojazd_CH1	11	VAR_GLOBAL	@TYP:43
+%SIX 65.4		     
+
+;
+
+@V 1 13 0
+siP2_Bumper_ZaklTesnPojazd_CH2	12	VAR_GLOBAL	@TYP:43
+%SIX 65.5		     
+
+;
+
+@V 1 14 0
+siP2_ZamkyBunky_CH1	13	VAR_GLOBAL	@TYP:43
+%SIX 96.0		     
+
+;
+
+@V 1 15 0
+siP2_ZamkyBunky_CH2	14	VAR_GLOBAL	@TYP:43
+%SIX 96.1		     
+
+;
+
+@V 1 16 0
+siP2_Bariera_ZaklTesn_CH1	15	VAR_GLOBAL	@TYP:43
+%SIX 96.2		     
+
+;
+
+@V 1 17 0
+siP2_Bariera_ZaklTesn_CH2	16	VAR_GLOBAL	@TYP:43
+%SIX 96.3		     
+
+;
+
+@V 1 18 0
+siP2_CS_DvojrucneOvladanie_CH1	17	VAR_GLOBAL	@TYP:43
+%SIX 96.4		     
+
+;
+
+@V 1 19 0
+siP2_CS_DvojrucneOvladanie_CH2	18	VAR_GLOBAL	@TYP:43
+%SIX 96.5		     
+
+;
+
+@V 1 20 0
+siP2_Bariera_Bunky_CH1	19	VAR_GLOBAL	@TYP:43
+%SIX 100.0		     
+
+;
+
+@V 1 21 0
+siP2_Bariera_Bunky_CH2	20	VAR_GLOBAL	@TYP:43
+%SIX 100.1		     
+
+;
+
+@V 1 22 0
+siP2_DvojrucneOvlad_CH1	21	VAR_GLOBAL	@TYP:43
+%SIX 100.4		     
+
+;
+
+@V 1 23 0
+siP2_DvojrucneOvlad_CH2	22	VAR_GLOBAL	@TYP:43
+%SIX 100.6		     
+
+;
+
+@V 1 24 0
+siP1_CS_Robot_CH1	23	VAR_GLOBAL	@TYP:43
+%SIX 56.0		     
+
+;
+
+@V 1 25 0
+siP1_CS_Robot_CH2	24	VAR_GLOBAL	@TYP:43
+%SIX 56.1		     
+
+;
+
+@V 1 26 0
+siP1_ZamkyBunky_CH1	25	VAR_GLOBAL	@TYP:43
+%SIX 104.0		     
+
+;
+
+@V 1 27 0
+siP1_ZamkyBunky_CH2	26	VAR_GLOBAL	@TYP:43
+%SIX 104.1		     
+
+;
+
+@V 1 28 0
+siP1_Bariera_Vytah_CH1	27	VAR_GLOBAL	@TYP:43
+%SIX 104.2		     
+
+;
+
+@V 1 29 0
+siP1_Bariera_Vytah_CH2	28	VAR_GLOBAL	@TYP:43
+%SIX 104.3		     
+
+;
+
+@V 1 30 0
+siP1_BarieraBunky_CH1	29	VAR_GLOBAL	@TYP:43
+%SIX 108.0		     
+
+;
+
+@V 1 31 0
+siP1_BarieraBunky_CH2	30	VAR_GLOBAL	@TYP:43
+%SIX 108.1		     
+
+;
+
+@V 1 32 0
+siP1_Bariera_VystupTunela_CH1	31	VAR_GLOBAL	@TYP:43
+%SIX 108.2		     
+
+;
+
+@V 1 33 0
+siP1_Bariera_VystupTunela_CH2	32	VAR_GLOBAL	@TYP:43
+%SIX 108.3		     
+
+;
+
+@V 1 34 0
+siP1_CS_Panel_CH1	33	VAR_GLOBAL	@TYP:43
+%SIX 56.2		     
+
+;
+
+@V 1 35 0
+siP1_CS_Panel_CH2	34	VAR_GLOBAL	@TYP:43
+%SIX 56.3		     
+
+;
+
+@V 1 36 0
+siP1_VyblokovanieSafety_CH1	35	VAR_GLOBAL	@TYP:43
+%SIX 56.4		     
+
+;
+
+@V 1 37 0
+siP1_VyblokovanieSafety_CH2	36	VAR_GLOBAL	@TYP:43
+%SIX 56.5		     
+
+;
+
+@V 1 38 0
+siP1_CS_Rozvadzac_CH1	37	VAR_GLOBAL	@TYP:43
+%SIX 56.6		     
+
+;
+
+@V 1 39 0
+siP1_CS_Rozvadzac_CH2	38	VAR_GLOBAL	@TYP:43
+%SIX 56.7		     
+
+;
+
+@V 1 40 0
+siP1_Vytah_SnimacHornaPoz_CH1	39	VAR_GLOBAL	@TYP:43
+%SIX 57.0		     
+
+;
+
+@V 1 41 0
+siP1_Vytah_SnimacHornaPoz_CH2	40	VAR_GLOBAL	@TYP:43
+%SIX 57.1		     
+
+;
+
+@V 1 42 0
+siP3_CS_Rozvadzac_CH1	41	VAR_GLOBAL	@TYP:43
+%SIX 76.2		     
+
+;
+
+@V 1 43 0
+siP3_CS_Rozvadzac_CH2	42	VAR_GLOBAL	@TYP:43
+%SIX 76.3		     
+
+;
+
+@V 1 44 0
+siP3_VyblokovanieSafety_CH1	43	VAR_GLOBAL	@TYP:43
+%SIX 76.0		     
+
+;
+
+@V 1 45 0
+siP3_VyblokovanieSafety_CH2	44	VAR_GLOBAL	@TYP:43
+%SIX 76.1		     
+
+;
+
+@V 1 46 0
+siP3_ZamkyBunky_CH1	45	VAR_GLOBAL	@TYP:43
+%SIX 76.6		     
+
+;
+
+@V 1 47 0
+siP3_ZamkyBunky_CH2	46	VAR_GLOBAL	@TYP:43
+%SIX 76.7		     
+
+;
+
+@V 1 48 0
+siP3_Bariera_VstupBunky_CH1	47	VAR_GLOBAL	@TYP:43
+%SIX 112.0		     
+
+;
+
+@V 1 49 0
+siP3_Bariera_VstupBunky_CH2	48	VAR_GLOBAL	@TYP:43
+%SIX 112.1		     
+
+;
+
+@V 1 50 0
+siP3_Bariera_VystupBunky_CH1	49	VAR_GLOBAL	@TYP:43
+%SIX 112.2		     
+
+;
+
+@V 1 51 0
+siP3_Bariera_VystupBunky_CH2	50	VAR_GLOBAL	@TYP:43
+%SIX 112.3		     
+
+;
+
+@V 1 52 0
+siP4_CS_Panel_CH1	51	VAR_GLOBAL	@TYP:43
+%SIX 84.2		     
+
+;
+
+@V 1 53 0
+siP4_CS_Panel_CH2	52	VAR_GLOBAL	@TYP:43
+%SIX 84.3		     
+
+;
+
+@V 1 54 0
+siP4_CS_Rozvadzac_CH1	53	VAR_GLOBAL	@TYP:43
+%SIX 84.0		     
+
+;
+
+@V 1 55 0
+siP4_CS_Rozvadzac_CH2	54	VAR_GLOBAL	@TYP:43
+%SIX 84.1		     
+
+;
+
+@V 1 56 0
+siP4_VyblokovanieSafety_CH1	55	VAR_GLOBAL	@TYP:43
+%SIX 84.4		     
+
+;
+
+@V 1 57 0
+siP4_VyblokovanieSafety_CH2	56	VAR_GLOBAL	@TYP:43
+%SIX 84.5		     
+
+;
+
+@V 1 58 0
+siP4_Vytah_SnimacHornaPoz_CH1	57	VAR_GLOBAL	@TYP:43
+%SIX 84.6		     
+
+;
+
+@V 1 59 0
+siP4_Vytah_SnimacHornaPoz_CH2	58	VAR_GLOBAL	@TYP:43
+%SIX 84.7		     
+
+;
+
+@V 1 60 0
+siP4_ZamkyBunky_CH1	59	VAR_GLOBAL	@TYP:43
+%SIX 120.0		     
+
+;
+
+@V 1 61 0
+siP4_ZamkyBunky_CH2	60	VAR_GLOBAL	@TYP:43
+%SIX 120.1		     
+
+;
+
+@V 1 62 0
+siP4_Bariera_Vytah_CH1	61	VAR_GLOBAL	@TYP:43
+%SIX 120.2		     
+
+;
+
+@V 1 63 0
+siP4_Bariera_Vytah_CH2	62	VAR_GLOBAL	@TYP:43
+%SIX 120.3		     
+
+;
+
+@V 1 64 0
+siP4_Bariera_VstupBunky_CH1	63	VAR_GLOBAL	@TYP:43
+%SIX 116.0		     
+
+;
+
+@V 1 65 0
+siP4_Bariera_VstupBunky_CH2	64	VAR_GLOBAL	@TYP:43
+%SIX 116.1		     
+
+;
+
+@V 1 66 0
+siP4_Bariera_VystupBunky_CH1	65	VAR_GLOBAL	@TYP:43
+%SIX 116.2		     
+
+;
+
+@V 1 67 0
+siP4_Bariera_VystupBunky_CH2	66	VAR_GLOBAL	@TYP:43
+%SIX 116.3		     
+
+;
+
+@V 1 69 0
+soP2_ZonaCS	67	VAR_GLOBAL	@TYP:43
+%SQX 18.0		     
+
+;
+
+@V 1 70 0
+soP2_ZonaBunka	68	VAR_GLOBAL	@TYP:43
+%SQX 18.2		     
+
+;
+
+@V 1 71 0
+soP2_ZonaZaklTesnPojazd	69	VAR_GLOBAL	@TYP:43
+%SQX 18.1		     
+
+;
+
+@V 1 72 0
+Release_P2_ZonaSkrutkovMatic	70	VAR_GLOBAL	@TYP:1
+%NSQX 136.0		     
+
+;
+
+@V 1 73 0
+Release_P2_ZonaZaklTesnZdvih	71	VAR_GLOBAL	@TYP:1
+%NSQX 136.2		     
+
+;
+
+@V 1 74 0
+soP2_ZonaSkrutkovacaMatic	72	VAR_GLOBAL	@TYP:43
+%SQX 30.0		     
+
+;
+
+@V 1 75 0
+soP2_ZonaZaklTesnZdvih	73	VAR_GLOBAL	@TYP:43
+%SQX 30.2		     
+
+;
+
+@V 1 76 0
+Release_P2_ZonaCS	74	VAR_GLOBAL	@TYP:1
+%NSQX 133.0		     
+
+;
+
+@V 1 77 0
+Release_P2_ZonaBunka	75	VAR_GLOBAL	@TYP:1
+%NSQX 133.2		     
+
+;
+
+@V 1 78 0
+Release_P2_ZonaZaklTesnPojazd	76	VAR_GLOBAL	@TYP:1
+%NSQX 133.1		     
+
+;
+
+@V 1 79 0
+soP1_ZonaCS	77	VAR_GLOBAL	@TYP:43
+%SQX 14.0		     
+
+;
+
+@V 1 80 0
+soP1_ZonaVytah	78	VAR_GLOBAL	@TYP:43
+%SQX 14.1		     
+
+;
+
+@V 1 81 0
+soP1_ZonaBunka	79	VAR_GLOBAL	@TYP:43
+%SQX 14.2		     
+
+;
+
+@V 1 82 0
+Release_P1_ZonaCS	80	VAR_GLOBAL	@TYP:1
+%NSQX 132.0		     
+
+;
+
+@V 1 83 0
+Release_P1_ZonaVytah	81	VAR_GLOBAL	@TYP:1
+%NSQX 132.1		     
+
+;
+
+@V 1 84 0
+Release_P1_ZonaBunka	82	VAR_GLOBAL	@TYP:1
+%NSQX 132.2		     
+
+;
+
+@V 1 85 0
+soP3_ZonaCS	83	VAR_GLOBAL	@TYP:43
+%SQX 22.0		     
+
+;
+
+@V 1 86 0
+soP3_ZonaBunka	84	VAR_GLOBAL	@TYP:43
+%SQX 22.2		     
+
+;
+
+@V 1 87 0
+soP3_HVTester	85	VAR_GLOBAL	@TYP:43
+%SQX 22.1		     
+
+;
+
+@V 1 88 0
+Release_P3_ZonaCS	86	VAR_GLOBAL	@TYP:1
+%NSQX 134.0		     
+
+;
+
+@V 1 89 0
+Release_P3_HVTester	87	VAR_GLOBAL	@TYP:1
+%NSQX 134.1		     
+
+;
+
+@V 1 90 0
+Release_P3_ZonaBunka	88	VAR_GLOBAL	@TYP:1
+%NSQX 134.2		     
+
+;
+
+@V 1 91 0
+soP4_ZonaCS	89	VAR_GLOBAL	@TYP:43
+%SQX 26.0		     
+
+;
+
+@V 1 92 0
+soP4_ZonaVytah	90	VAR_GLOBAL	@TYP:43
+%SQX 26.1		     
+
+;
+
+@V 1 93 0
+soP4_ZonaBunka	91	VAR_GLOBAL	@TYP:43
+%SQX 26.2		     
+
+;
+
+@V 1 94 0
+Release_P4_ZonaCS	92	VAR_GLOBAL	@TYP:1
+%NSQX 135.0		     
+
+;
+
+@V 1 95 0
+Release_P4_ZonaVytah	93	VAR_GLOBAL	@TYP:1
+%NSQX 135.1		     
+
+;
+
+@V 1 96 0
+Release_P4_ZonaBunka	94	VAR_GLOBAL	@TYP:1
+%NSQX 135.2		     
+
+;
+
+@V 1 98 0
+ResetZony_CS	95	VAR_GLOBAL	@TYP:1
+%NSIX 0.0		     
+
+;
+
+@V 1 99 0
+P2_ResetZony_ZaklTesnPojazd	96	VAR_GLOBAL	@TYP:1
+%NSIX 0.1		     
+
+;
+
+@V 1 100 0
+P2_ResetZony_ZaklTesnZdvih	97	VAR_GLOBAL	@TYP:1
+%NSIX 0.2		     
+
+;
+
+@V 1 101 0
+P2_ResetZony_Maticovacky	98	VAR_GLOBAL	@TYP:1
+%NSIX 0.3		     
+
+;
+
+@V 1 102 0
+P2_ResetZony_Bunky	99	VAR_GLOBAL	@TYP:1
+%NSIX 0.4		     
+
+;
+
+@V 1 103 0
+P2_TlakVzduchuOK	100	VAR_GLOBAL	@TYP:1
+%NSIX 0.5		     
+
+;
+
+@V 1 104 0
+P2_SpatVezba_Ventil_Maticovac	101	VAR_GLOBAL	@TYP:1
+%NSIX 0.6		     
+
+;
+
+@V 1 105 0
+P2_SpatVezba_Ventil1_Bunka	102	VAR_GLOBAL	@TYP:1
+%NSIX 0.7		     
+
+;
+
+@V 1 106 0
+P2_SpatVezba_Ventil2_Bunka	103	VAR_GLOBAL	@TYP:1
+%NSIX 1.0		     
+
+;
+
+@V 1 107 0
+P2_SpatVezba_ZonaBunka	104	VAR_GLOBAL	@TYP:1
+%NSIX 1.1		     
+
+;
+
+@V 1 108 0
+P2_SpatVezba_ZonaCS	105	VAR_GLOBAL	@TYP:1
+%NSIX 1.2		     
+
+;
+
+@V 1 109 0
+P2_SpatVezba_ZonaZaklTesnPojaz	106	VAR_GLOBAL	@TYP:1
+%NSIX 1.3		     
+
+;
+
+@V 1 110 0
+P2_SpatVezba_ZonaZaklTesnZdvih	107	VAR_GLOBAL	@TYP:1
+%NSIX 1.4		     
+
+;
+
+@V 1 111 0
+P2_ReleaseKartySO_AB25	108	VAR_GLOBAL	@TYP:1
+%NSIX 1.5		     
+
+;
+
+@V 1 112 0
+P2_ReleaseKartySO_AB26	109	VAR_GLOBAL	@TYP:1
+%NSIX 1.6		     
+
+;
+
+@V 1 113 0
+P2_ZaklTesnenia_Zdvih_BUSY	110	VAR_GLOBAL	@TYP:1
+%NSIX 3.3		     
+
+;
+
+@V 1 114 0
+P2_ZaklTesnenia_Vysuvanie_BUSY	111	VAR_GLOBAL	@TYP:1
+%NSIX 3.1		     
+
+;
+
+@V 1 115 0
+P2_ZaklTesnenia_Zasuvanie_BUSY	112	VAR_GLOBAL	@TYP:1
+%NSIX 3.2		     
+
+;
+
+@V 1 116 0
+P1_TlakVzduchuOK	113	VAR_GLOBAL	@TYP:1
+%NSIX 1.7		     
+
+;
+
+@V 1 117 0
+P1_ResetZony_Bunky	114	VAR_GLOBAL	@TYP:1
+%NSIX 2.0		     
+
+;
+
+@V 1 118 0
+P1_ResetZony_Vytahu	115	VAR_GLOBAL	@TYP:1
+%NSIX 2.1		     
+
+;
+
+@V 1 119 0
+P1_SpatVezba_Ventil1_Bunka	116	VAR_GLOBAL	@TYP:1
+%NSIX 2.2		     
+
+;
+
+@V 1 120 0
+P1_SpatVezba_Ventil2_Bunka	117	VAR_GLOBAL	@TYP:1
+%NSIX 2.3		     
+
+;
+
+@V 1 121 0
+P1_SpatVezba_ZonaBunka	118	VAR_GLOBAL	@TYP:1
+%NSIX 2.4		     
+
+;
+
+@V 1 122 0
+P1_SpatVezba_ZonaCS	119	VAR_GLOBAL	@TYP:1
+%NSIX 2.5		     
+
+;
+
+@V 1 123 0
+P1_SpatVezba_ZonaVytah	120	VAR_GLOBAL	@TYP:1
+%NSIX 2.6		     
+
+;
+
+@V 1 124 0
+P1_ReleaseKartySO_AB15	121	VAR_GLOBAL	@TYP:1
+%NSIX 2.7		     
+
+;
+
+@V 1 125 0
+P1_Vytah_Zdvih_BUSY	122	VAR_GLOBAL	@TYP:1
+%NSIX 3.0		     
+
+;
+
+@V 1 126 0
+P3_TlakVzduchuOK	123	VAR_GLOBAL	@TYP:1
+%NSIX 3.4		     
+
+;
+
+@V 1 127 0
+P3_ResetZony_Bunky	124	VAR_GLOBAL	@TYP:1
+%NSIX 3.5		     
+
+;
+
+@V 1 128 0
+P3_SpatVezba_Ventil1_Bunka	125	VAR_GLOBAL	@TYP:1
+%NSIX 3.6		     
+
+;
+
+@V 1 129 0
+P3_SpatVezba_Ventil2_Bunka	126	VAR_GLOBAL	@TYP:1
+%NSIX 3.7		     
+
+;
+
+@V 1 130 0
+P3_SpatVezba_ZonaBunka	127	VAR_GLOBAL	@TYP:1
+%NSIX 4.0		     
+
+;
+
+@V 1 131 0
+P3_SpatVezba_ZonaCS	128	VAR_GLOBAL	@TYP:1
+%NSIX 4.1		     
+
+;
+
+@V 1 132 0
+P3_ReleaseKartySO_AB36	129	VAR_GLOBAL	@TYP:1
+%NSIX 4.2		     
+
+;
+
+@V 1 133 0
+P4_TlakVzduchuOK	130	VAR_GLOBAL	@TYP:1
+%NSIX 4.3		     
+
+;
+
+@V 1 134 0
+P4_ResetZony_Bunky	131	VAR_GLOBAL	@TYP:1
+%NSIX 4.4		     
+
+;
+
+@V 1 135 0
+P4_ResetZony_Vytahu	132	VAR_GLOBAL	@TYP:1
+%NSIX 4.5		     
+
+;
+
+@V 1 136 0
+P4_SpatVezba_Ventil1_Bunka	133	VAR_GLOBAL	@TYP:1
+%NSIX 4.6		     
+
+;
+
+@V 1 137 0
+P4_SpatVezba_Ventil2_Bunka	134	VAR_GLOBAL	@TYP:1
+%NSIX 4.7		     
+
+;
+
+@V 1 138 0
+P4_SpatVezba_ZonaBunka	135	VAR_GLOBAL	@TYP:1
+%NSIX 5.0		     
+
+;
+
+@V 1 139 0
+P4_SpatVezba_ZonaCS	136	VAR_GLOBAL	@TYP:1
+%NSIX 5.1		     
+
+;
+
+@V 1 140 0
+P4_SpatVezba_ZonaVytah	137	VAR_GLOBAL	@TYP:1
+%NSIX 5.2		     
+
+;
+
+@V 1 141 0
+P4_ReleaseKartySO_AB45	138	VAR_GLOBAL	@TYP:1
+%NSIX 5.3		     
+
+;
+
+@V 1 142 0
+P4_Vytah_Zdvih_BUSY	139	VAR_GLOBAL	@TYP:1
+%NSIX 5.4		     
+
+;
+
+@V 1 144 0
+SafetyPLC_Nabehlo	140	VAR_GLOBAL	@TYP:1
+%NSQX 0.0		     
+
+;
+
+@V 1 145 0
+P2_DvojOvladanie_CS_AKTIVNY	141	VAR_GLOBAL	@TYP:1
+%NSQX 0.1		     
+
+;
+
+@V 1 146 0
+P2_OvladaciPanel_CS_AKTIVNY	142	VAR_GLOBAL	@TYP:1
+%NSQX 0.2		     
+
+;
+
+@V 1 147 0
+P2_Robot_CS_AKTIVNY	143	VAR_GLOBAL	@TYP:1
+%NSQX 0.3		     
+
+;
+
+@V 1 148 0
+P2_Rozvadzac_CS_AKTIVNY	144	VAR_GLOBAL	@TYP:1
+%NSQX 0.4		     
+
+;
+
+@V 1 149 0
+P2_VstupBunky_Bariera_AKTIVNA	145	VAR_GLOBAL	@TYP:1
+%NSQX 0.5		     
+
+;
+
+@V 1 150 0
+P2_ZaklTesn_Bariera_AKTIVNA	146	VAR_GLOBAL	@TYP:1
+%NSQX 0.6		     
+
+;
+
+@V 1 151 0
+P2_ZaklTesn_Bumper_AKTIVNY	147	VAR_GLOBAL	@TYP:1
+%NSQX 0.7		     
+
+;
+
+@V 1 152 0
+P2_DvojrucneOvladanie_AKTIVNE	148	VAR_GLOBAL	@TYP:1
+%NSQX 1.0		     
+
+;
+
+@V 1 153 0
+P2_ZaklTesn_Pojazd_ZASUNUTY	149	VAR_GLOBAL	@TYP:1
+%NSQX 2.0		     
+
+;
+
+@V 1 154 0
+P2_ZamkyBunky_AKTIVNE	150	VAR_GLOBAL	@TYP:1
+%NSQX 1.1		     
+
+;
+
+@V 1 155 0
+P2_ZonaMaticovacky_AKTIVNA	151	VAR_GLOBAL	@TYP:1
+%NSQX 1.2		     
+
+;
+
+@V 1 156 0
+P2_ZaklTesnPojazd_Zona_AKTIVNA	152	VAR_GLOBAL	@TYP:1
+%NSQX 1.3		     
+
+;
+
+@V 1 157 0
+P2_ZaklTesnZdvih_Zona_AKTIVNA	153	VAR_GLOBAL	@TYP:1
+%NSQX 1.4		     
+
+;
+
+@V 1 158 0
+ZonaCS_AKTIVNA	154	VAR_GLOBAL	@TYP:1
+%NSQX 1.5		     
+
+;
+
+@V 1 159 0
+P2_ZonaBunky_AKTIVNA	155	VAR_GLOBAL	@TYP:1
+%NSQX 1.6		     
+
+;
+
+@V 1 160 0
+P2_VyblokovanieSafety_AKTIVNE	156	VAR_GLOBAL	@TYP:1
+%NSQX 1.7		     
+
+;
+
+@V 1 161 0
+P1_OvladaciPanel_CS_AKTIVNY	157	VAR_GLOBAL	@TYP:1
+%NSQX 2.1		     
+
+;
+
+@V 1 162 0
+P1_Robot_CS_AKTIVNY	158	VAR_GLOBAL	@TYP:1
+%NSQX 2.2		     
+
+;
+
+@V 1 163 0
+P1_Rozvadzac_CS_AKTIVNY	159	VAR_GLOBAL	@TYP:1
+%NSQX 2.3		     
+
+;
+
+@V 1 164 0
+P1_VstupBunky_Bariera_AKTIVNA	160	VAR_GLOBAL	@TYP:1
+%NSQX 2.4		     
+
+;
+
+@V 1 165 0
+P1_VystTunela_Bariera_AKTIVNA	161	VAR_GLOBAL	@TYP:1
+%NSQX 2.5		     
+
+;
+
+@V 1 166 0
+P1_Vytah_Bariera_AKTIVNA	162	VAR_GLOBAL	@TYP:1
+%NSQX 2.6		     
+
+;
+
+@V 1 167 0
+P1_VyblokovanieSafety_AKTIVNE	163	VAR_GLOBAL	@TYP:1
+%NSQX 2.7		     
+
+;
+
+@V 1 168 0
+P1_ZamkyBunky_AKTIVNE	164	VAR_GLOBAL	@TYP:1
+%NSQX 3.0		     
+
+;
+
+@V 1 169 0
+P1_ZonaBunky_AKTIVNA	165	VAR_GLOBAL	@TYP:1
+%NSQX 3.1		     
+
+;
+
+@V 1 170 0
+P1_ZonaVytahu_AKTIVNA	166	VAR_GLOBAL	@TYP:1
+%NSQX 3.2		     
+
+;
+
+@V 1 171 0
+P1_SnimacVytahu_AKTIVNY	167	VAR_GLOBAL	@TYP:1
+%NSQX 3.3		     
+
+;
+
+@V 1 172 0
+P3_Rozvadzac_CS_AKTIVNY	168	VAR_GLOBAL	@TYP:1
+%NSQX 3.4		     
+
+;
+
+@V 1 173 0
+P3_VstupBunky_Bariera_AKTIVNA	169	VAR_GLOBAL	@TYP:1
+%NSQX 3.5		     
+
+;
+
+@V 1 174 0
+P3_VyblokovanieSafety_AKTIVNE	170	VAR_GLOBAL	@TYP:1
+%NSQX 3.6		     
+
+;
+
+@V 1 175 0
+P3_VystupBunky_Bariera_AKTIVNA	171	VAR_GLOBAL	@TYP:1
+%NSQX 3.7		     
+
+;
+
+@V 1 176 0
+P3_ZamkyBunky_AKTIVNE	172	VAR_GLOBAL	@TYP:1
+%NSQX 4.0		     
+
+;
+
+@V 1 177 0
+P3_ZonaBunky_AKTIVNA	173	VAR_GLOBAL	@TYP:1
+%NSQX 4.1		     
+
+;
+
+@V 1 178 0
+P4_OvladaciPanel_CS_AKTIVNY	174	VAR_GLOBAL	@TYP:1
+%NSQX 4.2		     
+
+;
+
+@V 1 179 0
+P4_Rozvadzac_CS_AKTIVNY	175	VAR_GLOBAL	@TYP:1
+%NSQX 4.3		     
+
+;
+
+@V 1 180 0
+P4_VstupBunky_Bariera_AKTIVNA	176	VAR_GLOBAL	@TYP:1
+%NSQX 4.4		     
+
+;
+
+@V 1 181 0
+P4_VystupBunky_Bariera_AKTIVNA	177	VAR_GLOBAL	@TYP:1
+%NSQX 4.5		     
+
+;
+
+@V 1 182 0
+P4_Vytah_Bariera_AKTIVNA	178	VAR_GLOBAL	@TYP:1
+%NSQX 4.6		     
+
+;
+
+@V 1 183 0
+P4_VyblokovanieSafety_AKTIVNE	179	VAR_GLOBAL	@TYP:1
+%NSQX 4.7		     
+
+;
+
+@V 1 184 0
+P4_ZamkyBunky_AKTIVNE	180	VAR_GLOBAL	@TYP:1
+%NSQX 5.0		     
+
+;
+
+@V 1 185 0
+P4_ZonaBunky_AKTIVNA	181	VAR_GLOBAL	@TYP:1
+%NSQX 5.1		     
+
+;
+
+@V 1 186 0
+P4_ZonaVytahu_AKTIVNA	182	VAR_GLOBAL	@TYP:1
+%NSQX 5.2		     
+
+;
+
+@V 1 187 0
+P4_SnimacVytahu_AKTIVNY	183	VAR_GLOBAL	@TYP:1
+%NSQX 5.3		     
+
+;
+
+@V 1 189 0
+Status_ZonaCS_AKTIVNA	184	VAR_GLOBAL	@TYP:43
+		     
+
+;
+
+@V 1 190 0
+Status_P2_VyblokSafety_AKTIVNE	185	VAR_GLOBAL	@TYP:43
+		     
+
+;
+
+@V 1 191 0
+Status_P2_ZonaBunky_AKTIVNA	186	VAR_GLOBAL	@TYP:43
+		     
+
+;
+
+@V 1 192 0
+Status_P1_VyblokSafety_AKTIVNE	187	VAR_GLOBAL	@TYP:43
+		     
+
+;
+
+@V 1 193 0
+Status_P1_ZonaBunky_AKTIVNA	188	VAR_GLOBAL	@TYP:43
+		     
+
+;
+
+@V 1 194 0
+Status_P3_VyblokSafety_AKTIVNE	189	VAR_GLOBAL	@TYP:43
+		     
+
+;
+
+@V 1 195 0
+Status_P3_ZonaBunky_AKTIVNA	190	VAR_GLOBAL	@TYP:43
+		     
+
+;
+
+@V 1 196 0
+Status_P4_VyblokSafety_AKTIVNE	191	VAR_GLOBAL	@TYP:43
+		     
+
+;
+
+@V 1 197 0
+Status_P4_ZonaBunky_AKTIVNA	192	VAR_GLOBAL	@TYP:43
+		     
+
+;
+
+@V 1 198 0
+Status_P1_ZamkyBunky_AKTIVNE	193	VAR_GLOBAL	@TYP:43
+		     
+
+;
+
+@V 1 199 0
+Status_P2_ZamkyBunky_AKTIVNE	194	VAR_GLOBAL	@TYP:43
+		     
+
+;
+
+@V 1 200 0
+Status_P3_ZamkyBunky_AKTIVNE	195	VAR_GLOBAL	@TYP:43
+		     
+
+;
+
+@V 1 201 0
+Status_P4_ZamkyBunky_AKTIVNE	196	VAR_GLOBAL	@TYP:43
+		     
+
+;
+
+@V 1 202 0
+Status_P1_VstupTunela_AKTIVNY	197	VAR_GLOBAL	@TYP:43
+		     
+
+;
+
+@V 1 203 0
+Status_P1_VystupTunela_AKTIVNY	198	VAR_GLOBAL	@TYP:43
+		     
+
+;
+
+@V 1 204 0
+Status_P2_VstupBariera_AKTIVNA	199	VAR_GLOBAL	@TYP:43
+		     
+
+;
+
+@V 1 205 0
+Status_P3_VstupBariera_AKTIVNA	200	VAR_GLOBAL	@TYP:43
+		     
+
+;
+
+@V 1 206 0
+Status_P3_VystBariera_AKTIVNA	201	VAR_GLOBAL	@TYP:43
+		     
+
+;
+
+@V 1 207 0
+Status_P4_VstupTunela_AKTIVNY	202	VAR_GLOBAL	@TYP:43
+		     
+
+;
+
+@V 1 208 0
+Status_P4_VystupTunela_AKTIVNY	203	VAR_GLOBAL	@TYP:43
+		     
+
+;
+

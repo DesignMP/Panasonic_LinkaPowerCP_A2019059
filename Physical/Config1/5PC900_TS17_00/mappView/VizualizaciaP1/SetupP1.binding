@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="SetupP1_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Bindings>
+  		
+		
+		
+		
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vytah_KAM_Result_OFF" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageSetupP1_page1" widgetRefId="ToggleSwitch_Vytah_KameraOFF" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobov_K30_Result_OFF" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageSetupP1_page1" widgetRefId="ToggleSwitch_Skrutkovanie_K30_VysledkyOFF" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobov_KAM_Result_OFF" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageSetupP1_page1" widgetRefId="ToggleSwitch_Skrutkovanie_KameraOFF" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobov_M4_Result_OFF" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageSetupP1_page1" widgetRefId="ToggleSwitch_Skrutkovanie_M4_VysledkyOFF" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Srobov_M5_Result_OFF" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageSetupP1_page1" widgetRefId="ToggleSwitch_Skrutkovanie_M5_VysledkyOFF" attribute="value" />
+        </Binding>
+                
+        
+  
+       
+    </Bindings>
+</BindingsSet>

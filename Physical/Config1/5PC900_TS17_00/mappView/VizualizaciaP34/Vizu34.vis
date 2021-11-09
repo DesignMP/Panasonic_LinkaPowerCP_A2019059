@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<vdef:Visualization id="Vizu_P34" xmlns:vdef="http://www.br-automation.com/iat2015/visualizationDefinition/v2">
+	<StartPage pageRefId="PageBootP34" />
+	<Pages>
+		<Page refId="PageBootP34"/>
+        <Page refId="PageAutomatP34"/>
+        <Page refId="PageManualMainP3"/>
+        <Page refId="PageManualMainP4"/>
+        <Page refId="PageManualP3_Dopravniky"/>
+        <Page refId="PageManualP3_Skrutkovanie"/>
+        <Page refId="PageManualP3_Skrutkovanie_page2"/>
+        <Page refId="PageManualP3_Skrutkovanie_page3"/>
+        <Page refId="PageManualP3_LeakageTestA"/>
+        <Page refId="PageManualP3_LeakageTestB"/>
+        <Page refId="PageManualP4_Vytah"/>
+        <Page refId="PageManualP4_Dopravniky"/>
+        <Page refId="PageManualP4_Etiketovanie"/>
+        <Page refId="PageManualP4_FunkcnyTestA"/>
+        <Page refId="PageManualP4_FunkcnyTestB"/>
+        <Page refId="PageAlarmP34"/>
+		<Page refId="PageInfoP34"/>
+        <Page refId="PageSetupP34_page1"/>
+        <Page refId="PageParametreMainP3"/>
+        <Page refId="PageParametreP3_page1"/>
+        <Page refId="PageParametreMainP4"/>
+        <Page refId="PageParametreP4_page1"/>
+        <Page refId="PageTolerancieSkrutkovaniaP3"/>
+        <Page refId="PageStavyStanicP3"/>
+        <Page refId="PageStavyStanicP4"/>
+	</Pages>
+	<Navigations>
+		<!--<Navigation refId="" />-->
+	</Navigations>  
+	<BindingsSets>
+		<BindingsSet refId="VizuP34_binding" />
+		<BindingsSet refId="HlavickaP34_binding" />
+        <BindingsSet refId="TimeP34_binding" />
+        <BindingsSet refId="PagesAutomatP34_binding" />
+        <BindingsSet refId="PageManualP3_Dopravniky_binding" />
+        <BindingsSet refId="PageManualP3_Skrutkovanie_binding" />
+        <BindingsSet refId="PageManualP3_LeakageTestA_binding" />
+        <BindingsSet refId="PageManualP3_LeakageTestB_binding" />
+        <BindingsSet refId="PageManualP4_Vytah_binding" />
+        <BindingsSet refId="PageManualP4_Dopravniky_binding" />
+        <BindingsSet refId="PageManualP4_Etiketovanie_binding" />
+        <BindingsSet refId="PageManualP4_FunkcnyTestA_binding" />
+        <BindingsSet refId="PageManualP4_FunkcnyTestB_binding" />
+		<BindingsSet refId="AlarmP34_binding" />
+		<BindingsSet refId="SetupP34_binding" />
+        <BindingsSet refId="ParametreP34_binding" />
+        <BindingsSet refId="PageStavyStanicP3_binding" />
+        <BindingsSet refId="PageStavyStanicP4_binding" />
+        <BindingsSet refId="UsersP34_binding" />
+	</BindingsSets>
+	<EventBindingsSets>
+		<EventBindingsSet refId="VizuP34_eventbinding" />
+        <EventBindingsSet refId="HlavickaP34_eventbinding" />
+        <EventBindingsSet refId="TimeP34_eventbinding" />
+        <EventBindingsSet refId="PagesAutomatP34_eventbinding" />
+        <EventBindingsSet refId="PageManualP3_Dopravniky_eventbinding" />
+        <EventBindingsSet refId="PageManualP3_Skrutkovanie_eventbinding" />
+        <EventBindingsSet refId="PageManualP3_LeakageTestA_eventbinding" />
+        <EventBindingsSet refId="PageManualP3_LeakageTestB_eventbinding" />
+        <EventBindingsSet refId="PageManualP4_Vytah_eventbinding" />
+        <EventBindingsSet refId="PageManualP4_Dopravniky_eventbinding" />
+        <EventBindingsSet refId="PageManualP4_Etiketovanie_eventbinding" />
+        <EventBindingsSet refId="PageManualP4_FunkcnyTestA_eventbinding" />
+        <EventBindingsSet refId="PageManualP4_FunkcnyTestB_eventbinding" />
+        <EventBindingsSet refId="PopUpWindowsP34_eventbinding" />
+		<EventBindingsSet refId="AlarmP34_eventbinding" />
+		<EventBindingsSet refId="SetupP34_eventbinding" />
+        <EventBindingsSet refId="ParametreP34_eventbinding" />
+        <EventBindingsSet refId="UsersP34_eventbinding" />
+	</EventBindingsSets>
+	<Dialogs>
+		<Dialog refId="LoginDialogP34" />
+        <Dialog refId="TimeDialogP34" />
+        <Dialog refId="Hlasenie1_ST7" />
+        <Dialog refId="Hlasenie1_ST8" />
+        <Dialog refId="Hlasenie2_ST8" />
+        <Dialog refId="Hlasenie1_ST9" />
+        <Dialog refId="Hlasenie2_ST9" />
+        <Dialog refId="Hlasenie3_ST9" />
+        <Dialog refId="Hlasenie1_ST10" />
+        <Dialog refId="Hlasenie2_ST10" />
+        <Dialog refId="Hlasenie3_ST10" />
+        <Dialog refId="Hlasenie4_ST10" />
+        <Dialog refId="Hlasenie5_ST10" />
+        <Dialog refId="Hlasenie6_ST10" />
+        <Dialog refId="Hlasenie7_ST10" />
+        <Dialog refId="Hlasenie8_ST10" />
+        <Dialog refId="Hlasenie9_ST10" />
+    </Dialogs>
+	<Contents>
+		<Content refId="AreaPageBootP34" />
+        <Content refId="AreaPageAutomatP34" />
+        <Content refId="AreaPageManualMainP3" />
+        <Content refId="AreaPageManualMainP4" />
+        <Content refId="AreaPageManualP3_Dopravniky" />
+        <Content refId="AreaPageManualP3_Skrutkovanie" />
+        <Content refId="AreaPageManualP3_Skrutkovanie_page2" />
+        <Content refId="AreaPageManualP3_Skrutkovanie_page3" />
+        <Content refId="AreaPageManualP3_LeakageTestA" />
+        <Content refId="AreaPageManualP3_LeakageTestB" />
+        <Content refId="AreaPageManualP4_Vytah" />
+        <Content refId="AreaPageManualP4_Dopravniky" />
+        <Content refId="AreaPageManualP4_Etiketovanie" />
+        <Content refId="AreaPageManualP4_FunkcnyTestA" />
+        <Content refId="AreaPageManualP4_FunkcnyTestB" />
+        <Content refId="AreaPageAlarmP34" />
+        <Content refId="AreaPageInfoP34" />
+        <Content refId="AreaHlasenie1_ST7" />
+        <Content refId="AreaHlasenie1_ST8" />
+        <Content refId="AreaHlasenie2_ST8" />
+        <Content refId="AreaHlasenie1_ST9" />
+        <Content refId="AreaHlasenie2_ST9" />
+        <Content refId="AreaHlasenie3_ST9" />
+        <Content refId="AreaHlasenie1_ST10" />
+        <Content refId="AreaHlasenie2_ST10" />
+        <Content refId="AreaHlasenie3_ST10" />
+        <Content refId="AreaHlasenie4_ST10" />
+        <Content refId="AreaHlasenie5_ST10" />
+        <Content refId="AreaHlasenie6_ST10" />
+        <Content refId="AreaHlasenie7_ST10" />
+        <Content refId="AreaHlasenie8_ST10" />
+        <Content refId="AreaHlasenie9_ST10" />
+        <Content refId="AreaPageSetupP34_page1" />
+        <Content refId="AreaPageParametreMainP3" />
+        <Content refId="AreaPageParametreP3_page1" />
+        <Content refId="AreaPageParametreMainP4" />
+        <Content refId="AreaPageParametreP4_page1" />
+        <Content refId="AreaPageTolerancieSkrutkovaniaP3" />
+        <Content refId="AreaPageStavyStanicP3" />
+        <Content refId="AreaPageStavyStanicP4" />
+        <Content refId="AreaLoginP34" />
+        <Content refId="AreaTimeP34" />
+	</Contents>
+	<SnippetsSets>
+		<SnippetsSet refId="Snippets"/>
+	
+	</SnippetsSets>
+	<ExpressionsSets>
+		<!--<ExpressionsSet refId=""/>-->
+	</ExpressionsSets>
+	<VariablesSets>
+		<!--<VariablesSet refId="" />-->
+	</VariablesSets>
+	<StartTheme themeRefId="BuRTheme1" />
+	<Themes>
+		<Theme refId="BuRTheme1"/>
+	</Themes>
+	<Configurations>
+		<Configuration key="activityCount" value="false" />
+		<Configuration key="zoom" value="true" />
+		<Gestures>
+			<!--<SystemGesture1 touchPoints="2" />
+			<SystemGesture2 touchPoints="2" />
+			<SystemGesture3 touchPoints="2" />-->
+		</Gestures>
+		<VirtualKeyboards>
+			<!--<InputProcessing onKeyDown="true" />-->
+		</VirtualKeyboards> 
+	</Configurations>
+</vdef:Visualization>

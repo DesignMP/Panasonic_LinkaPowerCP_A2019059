@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="PagesAutomatP1_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Bindings>
+		
+		
+		
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.TL_KoniecCyklu_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP1" widgetRefId="Button_KoniecCyklu" attribute="enable" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Linka.PAR.ZvolenyModel" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP1" widgetRefId="TextOutput_NazovModelu" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.IndexStavu_AkumulacnyStoper" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP1" widgetRefId="ImageList10" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.IndexStavu_Srobovanie" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP1" widgetRefId="ImageList9" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.IndexStavu_StoperSrobovania" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP1" widgetRefId="ImageList8" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.IndexStavu_SpodnyStoper" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP1" widgetRefId="ImageList7" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.IndexStavu_Dopravnik" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP1" widgetRefId="ImageList6" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.IndexStavu_Vytah" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP1" widgetRefId="ImageList5" attribute="selectedIndex" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.IndexStavu_Robot" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP1" widgetRefId="ImageList11" attribute="selectedIndex" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.TL_StartAutomat_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP1" widgetRefId="Button_START" attribute="enable" />
+        </Binding>
+       
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.TL_STOP_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP1" widgetRefId="Button_STOP" attribute="enable" />
+        </Binding>
+        
+        
+        
+        
+        
+    
+
+
+
+
+
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Taktime_Vytah_ST1.OUTPUTS.NameraneMinuty_1" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP1" widgetRefId="NumericOutput_ST1_TaktimeMIN" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Taktime_Vytah_ST1.OUTPUTS.NameraneSekundy_1" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP1" widgetRefId="NumericOutput_ST1_TaktimeSEC" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Taktime_Vytah_ST1.OUTPUTS.NameraneMilisekundy_1" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP1" widgetRefId="NumericOutput_ST1_TaktimeMILISEC" attribute="value" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Taktime_Srobovanie_ST2.OUTPUTS.NameraneMinuty_1" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP1" widgetRefId="NumericOutput_ST2_TaktimeMIN" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Taktime_Srobovanie_ST2.OUTPUTS.NameraneSekundy_1" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP1" widgetRefId="NumericOutput_ST2_TaktimeSEC" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Taktime_Srobovanie_ST2.OUTPUTS.NameraneMilisekundy_1" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP1" widgetRefId="NumericOutput_ST2_TaktimeMILISEC" attribute="value" />
+        </Binding>
+        
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.TL_PaletkaPrechadza_ENABLE" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP1" widgetRefId="Button_PaletkaPrechadza" attribute="enable" />
+        </Binding>
+
+
+        <Binding mode="twoWay">
+            <Source xsi:type="opcUa" refId="::AsGlobalPV:Linka.TestovaciKus" attribute="value" />
+            <Target xsi:type="brease" contentRefId="AreaPageAutomatP1" widgetRefId="ToggleButton_TestovaciKus" attribute="value" />
+        </Binding>
+        <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.TL_TestovaciKus_ENABLE" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageAutomatP1" widgetRefId="ToggleButton_TestovaciKus" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.TL_Revork_ENABLE" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageAutomatP1" widgetRefId="ToggleButton_Revork" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Linka.Revork" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageAutomatP1" widgetRefId="ToggleButton_Revork" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Linka.VyprazdnenieLinky" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageAutomatP1" widgetRefId="ToggleButton_VyprazdnenieLinky" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.TL_PrihlasenieOperatora_ENABLE" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageAutomatP1" widgetRefId="ToggleButton_Prihlasenie" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P1_Vizu.TL_PrihlasovOperatora_AKTIVNE" attribute="value" />
+<Target xsi:type="brease" contentRefId="AreaPageAutomatP1" widgetRefId="ToggleButton_Prihlasenie" attribute="value" />
+</Binding>
+</Bindings>
+</BindingsSet>

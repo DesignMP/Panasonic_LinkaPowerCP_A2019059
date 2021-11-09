@@ -1,0 +1,4 @@
+VAR
+	AuditVizu : AuditVizu_typ;
+	ZvolenyUzivatel_Audit : WSTRING[80];
+END_VAR

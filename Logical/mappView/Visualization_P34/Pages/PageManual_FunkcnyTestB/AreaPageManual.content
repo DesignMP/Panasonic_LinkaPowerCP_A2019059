@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="AreaPageManualP4_FunkcnyTestB" height="588" width="1366" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Image" id="Image1" top="0" left="0" width="1366" height="588" zIndex="0" image="Media/Pozadie/BackGround_588x1366.png" opacity="0.2" />
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="20" left="483" width="400" height="35" zIndex="1" text="Manualny režim - Funkčný Test B" borderWidth="5px" cornerRadius="5px" borderStyle="ridge" textColor="rgba(0, 0, 0, 1)" textAlign="center" fontSize="20px" shadow="4px 4px 14px rgba(0, 0, 0, 1)" style="FavoriteWatch" />
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox6" top="70" left="469" width="429" height="510" zIndex="2" text="Ovladanie Funkčného Testu" backColor="rgba(253, 245, 230, 1)" textColor="rgba(0, 0, 0, 1)" shadow="4px 4px 14px rgba(0, 0, 0, 1)">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.Button" id="Button_HorneKontaktyZostup" top="19" left="10" width="165" height="45" zIndex="0" image="Media/Pictures/SipkaDole2_32x32.png" imageAlign="right" multiLine="true" text="Horné\nkontakty" cornerRadius="10px" textColor="rgba(0, 0, 0, 1)" textAlign="left" shadow="4px 4px 14px rgba(0, 0, 0, 1)" />
+        <Widget xsi:type="widgets.brease.ImageList" id="ImageList5" top="29" left="140" width="25" height="25" zIndex="1" imageList="['LEDsiva_24x24.png', 'LEDgreen_24x24.png']" imagePrefix="Media/Pictures/" borderStyle="none" borderWidth="0px" />
+        <Widget xsi:type="widgets.brease.Button" id="Button_HorneKontaktyZdvih" top="19" left="252" width="165" height="45" zIndex="2" image="Media/Pictures/SipkaHore2_32x32.png" imageAlign="right" multiLine="true" text="Horné\nkontakty" cornerRadius="10px" textColor="rgba(0, 0, 0, 1)" textAlign="left" shadow="4px 4px 14px rgba(0, 0, 0, 1)" />
+        <Widget xsi:type="widgets.brease.ImageList" id="ImageList4" top="29" left="382" width="25" height="25" zIndex="3" imageList="['LEDsiva_24x24.png', 'LEDgreen_24x24.png']" imagePrefix="Media/Pictures/" borderStyle="none" borderWidth="0px" />
+        <Widget xsi:type="widgets.brease.Line" id="Line5" zIndex="4" x1="213" x2="213" y1="465" y2="271" lineWidth="2px" />
+        <Widget xsi:type="widgets.brease.ImageList" id="ImageList21" top="280" left="173" width="25" height="25" zIndex="12" imageList="['LEDsiva_24x24.png', 'LEDgreen_24x24.png']" imagePrefix="Media/Pictures/" borderStyle="none" borderWidth="0px" />
+        <Widget xsi:type="widgets.brease.ImageList" id="ImageList22" top="322" left="173" width="25" height="25" zIndex="14" imageList="['LEDsiva_24x24.png', 'LEDgreen_24x24.png']" imagePrefix="Media/Pictures/" borderStyle="none" borderWidth="0px" />
+        <Widget xsi:type="widgets.brease.Button" id="Button_SpodneKontaktyZostup" top="99" left="10" width="165" height="45" zIndex="5" image="Media/Pictures/SipkaDole2_32x32.png" imageAlign="right" multiLine="true" text="Spodné\nkontakty" cornerRadius="10px" textColor="rgba(0, 0, 0, 1)" textAlign="left" shadow="4px 4px 14px rgba(0, 0, 0, 1)" />
+        <Widget xsi:type="widgets.brease.ImageList" id="ImageList6" top="109" left="140" width="25" height="25" zIndex="6" imageList="['LEDsiva_24x24.png', 'LEDgreen_24x24.png']" imagePrefix="Media/Pictures/" borderStyle="none" borderWidth="0px" />
+        <Widget xsi:type="widgets.brease.Button" id="Button_SpodneKontaktyZdvih" top="99" left="252" width="165" height="45" zIndex="7" image="Media/Pictures/SipkaHore2_32x32.png" imageAlign="right" multiLine="true" text="Spodné\nkontakty" cornerRadius="10px" textColor="rgba(0, 0, 0, 1)" textAlign="left" shadow="4px 4px 14px rgba(0, 0, 0, 1)" />
+        <Widget xsi:type="widgets.brease.ImageList" id="ImageList8" top="109" left="382" width="25" height="25" zIndex="8" imageList="['LEDsiva_24x24.png', 'LEDgreen_24x24.png']" imagePrefix="Media/Pictures/" borderStyle="none" borderWidth="0px" />
+        <Widget xsi:type="widgets.brease.ToggleSwitch" id="ToggleSwitch_OdpruzenieKontaktov" top="179" left="10" width="165" height="45" zIndex="9" mouseDownText="Odpr. kontaktov\nVypni" multiLine="true" text="Odpr. kontaktov\nZapni" textColor="rgba(0, 0, 0, 1)" fontSize="16px" shadow="4px 4px 14px rgba(0, 0, 0, 1)" />
+        <Widget xsi:type="widgets.brease.ToggleSwitch" id="ToggleSwitch_KontaktyTestera" top="179" left="252" width="165" height="45" zIndex="10" mouseDownText="Kontakty testera\nUvolni" multiLine="true" text="Kontakty testera\nPritlač" textColor="rgba(0, 0, 0, 1)" fontSize="16px" shadow="4px 4px 14px rgba(0, 0, 0, 1)" />
+        <Widget xsi:type="widgets.brease.Label" id="Label25" top="275" left="10" width="195" height="35" zIndex="11" multiLine="true" text="Spodné kopito 4F" borderWidth="2px" cornerRadius="5px" backColor="rgba(192, 192, 192, 1)" borderColor="rgba(0, 0, 0, 1)" borderStyle="outset" textColor="rgba(0, 0, 0, 1)" fontSize="14px" bold="true" />
+        <Widget xsi:type="widgets.brease.Label" id="Label26" top="317" left="10" width="195" height="35" zIndex="13" multiLine="true" text="Spodné kopito 5F/5H" borderWidth="2px" cornerRadius="5px" backColor="rgba(192, 192, 192, 1)" borderColor="rgba(0, 0, 0, 1)" borderStyle="outset" textColor="rgba(0, 0, 0, 1)" fontSize="14px" bold="true" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox2" top="70" left="12" width="430" height="250" zIndex="3" text="Ovládanie centrovania paletky" backColor="rgba(253, 245, 230, 1)" textColor="rgba(0, 0, 0, 1)" shadow="4px 4px 14px rgba(0, 0, 0, 1)">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.Button" id="Button_ZostupCentrovania" top="71" left="11" width="165" height="45" zIndex="0" image="Media/Pictures/SipkaDole2_32x32.png" imageAlign="right" text="DOLE" cornerRadius="10px" textColor="rgba(0, 0, 0, 1)" textAlign="left" shadow="4px 4px 14px rgba(0, 0, 0, 1)" />
+        <Widget xsi:type="widgets.brease.ImageList" id="ImageList7" top="81" left="141" width="25" height="25" zIndex="1" imageList="['LEDsiva_24x24.png', 'LEDgreen_24x24.png']" imagePrefix="Media/Pictures/" borderStyle="none" borderWidth="0px" />
+        <Widget xsi:type="widgets.brease.Button" id="Button_ZdvihCentrovania" top="71" left="251" width="165" height="45" zIndex="2" image="Media/Pictures/SipkaHore2_32x32.png" imageAlign="right" text="HORE" cornerRadius="10px" textColor="rgba(0, 0, 0, 1)" textAlign="left" shadow="4px 4px 14px rgba(0, 0, 0, 1)" />
+        <Widget xsi:type="widgets.brease.ImageList" id="ImageList9" top="81" left="381" width="25" height="25" zIndex="3" imageList="['LEDsiva_24x24.png', 'LEDgreen_24x24.png']" imagePrefix="Media/Pictures/" borderStyle="none" borderWidth="0px" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox4" top="330" left="12" width="430" height="250" zIndex="4" text="Ovladanie stopra" backColor="rgba(253, 245, 230, 1)" textColor="rgba(0, 0, 0, 1)" shadow="4px 4px 14px rgba(0, 0, 0, 1)">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.ToggleSwitch" id="ToggleSwitch_Stoper" top="107" left="132" width="165" height="45" zIndex="0" mouseDownText="Vysuň stoper" multiLine="true" text="Zasuň stoper" textColor="rgba(0, 0, 0, 1)" fontSize="16px" shadow="4px 4px 14px rgba(0, 0, 0, 1)" />
+        <Widget xsi:type="widgets.brease.ImageList" id="ImageList19" top="20" left="175" width="25" height="25" zIndex="2" imageList="['LEDsiva_24x24.png', 'LEDgreen_24x24.png']" imagePrefix="Media/Pictures/" borderStyle="none" borderWidth="0px" />
+        <Widget xsi:type="widgets.brease.Label" id="Label16" top="15" left="11" width="195" height="35" zIndex="1" multiLine="true" text="Prítomnosť paletky" borderWidth="2px" cornerRadius="5px" backColor="rgba(192, 192, 192, 1)" borderColor="rgba(0, 0, 0, 1)" borderStyle="outset" textColor="rgba(0, 0, 0, 1)" fontSize="14px" bold="true" />
+      </Widgets>
+    </Widget>
+  </Widgets>
+</Content>

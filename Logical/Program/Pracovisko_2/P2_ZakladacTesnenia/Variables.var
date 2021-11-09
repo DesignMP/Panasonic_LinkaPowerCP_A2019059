@@ -1,0 +1,49 @@
+VAR
+	SC_OvlZdvihu : SequenceControlTyp;
+	Zdvih_JoggDOLE : BOOL;
+	Zdvih_JoggHORE : BOOL;
+	Zdvih_POLOHUJ : BOOL;
+	Zdvih_PRITLAK : BOOL;
+	Zdvih_HOME : BOOL;
+	Zdvih_STOP : BOOL;
+	SC_OvlPojazdu : SequenceControlTyp;
+	Pojazd_JoggVPRED : BOOL;
+	Pojazd_JoggVZAD : BOOL;
+	Pojazd_POLOHUJ : BOOL;
+	Pojazd_HOME : BOOL;
+	Pojazd_STOP : BOOL;
+	PocetZatlaceniServom : USINT;
+	Dotlacanie_VYSUNUTE : BOOL;
+	Dotlacanie_ZASUNUTE : BOOL;
+	ZadanaPoziciaUINT_Zdvih : UINT;
+	AktualnaPoziciaUINT_Zdvih : UINT;
+	ZadanaPoziciaUINT_Pojazd : UINT;
+	AktualnaPoziciaUINT_Pojazd : UINT;
+END_VAR
+VAR RETAIN
+	TorqRychlost : REAL;
+	TorqMoment : REAL;
+END_VAR
+VAR
+	Start : BOOL;
+	MomentDosiahnuty : BOOL;
+	CasPowerON_Zdvih : TON;
+	CasPowerON_Pojazd : TON;
+	i : USINT;
+	CasZastaveniaServa : TON;
+	CasZastaveniaServa_2 : TON;
+	Stav_ZvihPoINIT : BOOL;
+	Stav_PojazdPoINIT : BOOL;
+END_VAR
+(******Zápis do ParID serva*************)
+VAR
+	MC_BR_ProcessParID_AcpAx_0 : MC_BR_ProcessParID_AcpAx := (0);
+	McAcpAxProcessParIDType_0 : ARRAY[0..1] OF McAcpAxProcessParIDType;
+	Zdvih_NovaHodnotaMomentu_POS : REAL := 0.0;
+	Zdvih_NovaHodnotaMomentu_NEG : REAL := 0.0;
+	MC_BR_ProcessParID_AcpAx_1 : MC_BR_ProcessParID_AcpAx := (0);
+	McAcpAxProcessParIDType_1 : ARRAY[0..1] OF McAcpAxProcessParIDType;
+	Pojazd_NovaHodnotaMomentu_POS : REAL := 0.0;
+	Pojazd_NovaHodnotaMomentu_NEG : REAL := 0.0;
+	PocetTrigrovKamery : USINT;
+END_VAR

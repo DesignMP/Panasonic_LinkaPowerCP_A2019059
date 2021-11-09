@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="AreaPageManualP2_Zvaranie_page2" height="588" width="1366" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Image" id="Image1" top="0" left="0" width="1366" height="588" zIndex="0" image="Media/Pozadie/BackGround_588x1366.png" opacity="0.2" />
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="20" left="483" width="400" height="35" zIndex="1" text="Manualny režim - Zváranie, Čistenie (2/2)" borderWidth="5px" cornerRadius="5px" borderStyle="ridge" textColor="rgba(0, 0, 0, 1)" textAlign="center" fontSize="20px" shadow="4px 4px 14px rgba(0, 0, 0, 1)" style="FavoriteWatch" />
+    <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationButton_PreviewPage" top="8" left="18" width="105" height="50" zIndex="2" image="Media/Pictures/PreviewPage1_48x48.png" multiLine="true" pageId="PageManualP2_Zvaranie" borderStyle="solid" borderWidth="1px 1px 1px 1px" cornerRadius="8px" backGroundGradient="linear-gradient(to bottom,#F7F7F7 0%,#C6C6C6 100%)" mouseDownBackGroundGradient="linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,133,0,1) 100%)" textColor="rgba(0, 0, 0, 1)" mouseDownBorderWidth="1px 1px 1px 1px" mouseDownTextColor="rgba(0, 0, 0, 1)" fontSize="20px" shadow="4px 4px 14px rgba(0, 0, 0, 1)" />
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox3" top="68" left="18" width="430" height="250" zIndex="3" text="Ovládanie čistenia" backColor="rgba(253, 245, 230, 1)" textColor="rgba(0, 0, 0, 1)" shadow="4px 4px 14px rgba(0, 0, 0, 1)">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.Button" id="Button_ZatvorenieCistenia" top="71" left="11" width="165" height="45" zIndex="0" image="Media/Pictures/SipkaDole2_32x32.png" imageAlign="right" text="DOLE" cornerRadius="10px" textColor="rgba(0, 0, 0, 1)" textAlign="left" shadow="4px 4px 14px rgba(0, 0, 0, 1)" />
+        <Widget xsi:type="widgets.brease.ImageList" id="ImageList5" top="81" left="141" width="25" height="25" zIndex="1" imageList="['LEDsiva_24x24.png', 'LEDgreen_24x24.png']" imagePrefix="Media/Pictures/" borderStyle="none" borderWidth="0px" />
+        <Widget xsi:type="widgets.brease.Button" id="Button_OtvorenieCistenia" top="71" left="251" width="165" height="45" zIndex="2" image="Media/Pictures/SipkaHore2_32x32.png" imageAlign="right" text="HORE" cornerRadius="10px" textColor="rgba(0, 0, 0, 1)" textAlign="left" shadow="4px 4px 14px rgba(0, 0, 0, 1)" />
+        <Widget xsi:type="widgets.brease.ImageList" id="ImageList4" top="81" left="379" width="25" height="25" zIndex="3" imageList="['LEDsiva_24x24.png', 'LEDgreen_24x24.png']" imagePrefix="Media/Pictures/" borderStyle="none" borderWidth="0px" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox4" top="328" left="18" width="430" height="250" zIndex="4" text="Ovládanie ionizátora" backColor="rgba(253, 245, 230, 1)" textColor="rgba(0, 0, 0, 1)" shadow="4px 4px 14px rgba(0, 0, 0, 1)">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.ToggleSwitch" id="ToggleSwitch_Stoper" top="19" left="132" width="165" height="45" zIndex="0" mouseDownText="Vypni ionizátor" multiLine="true" text="Zapni ionizátor" textColor="rgba(0, 0, 0, 1)" fontSize="16px" shadow="4px 4px 14px rgba(0, 0, 0, 1)" />
+        <Widget xsi:type="widgets.brease.ToggleSwitch" id="ToggleSwitch_Stoper1" top="83" left="132" width="165" height="45" zIndex="1" mouseDownText="Vypni vzduch" multiLine="true" text="Zapni vzduch" textColor="rgba(0, 0, 0, 1)" fontSize="16px" shadow="4px 4px 14px rgba(0, 0, 0, 1)" />
+        <Widget xsi:type="widgets.brease.ToggleSwitch" id="ToggleSwitch_Stoper2" top="149" left="132" width="165" height="45" zIndex="2" mouseDownText="Vypni odsávanie" multiLine="true" text="Zapni odsávanie" textColor="rgba(0, 0, 0, 1)" fontSize="16px" shadow="4px 4px 14px rgba(0, 0, 0, 1)" />
+      </Widgets>
+    </Widget>
+  </Widgets>
+</Content>

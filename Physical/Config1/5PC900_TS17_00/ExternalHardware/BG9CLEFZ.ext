@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with SICK IODD editor 2.0.0.0004 --><IODevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns="http://www.io-link.com/IODD/2010/10"
+          xsi:schemaLocation="http://www.io-link.com/IODD/2010/10 IODD1.1.xsd">
+  <DocumentInfo copyright="Copyright 2012, SICK AG"
+                 releaseDate="2013-09-02"
+                 version="V1.3"/>
+  <ProfileHeader>
+      <ProfileIdentification>IO Device Profile</ProfileIdentification>
+      <ProfileRevision>1.1</ProfileRevision>
+      <ProfileName>Device Profile for IO Devices</ProfileName>
+      <ProfileSource>IO-Link Consortium</ProfileSource>
+      <ProfileClassID>Device</ProfileClassID>
+      <ISO15745Reference>
+         <ISO15745Part>1</ISO15745Part>
+         <ISO15745Edition>1</ISO15745Edition>
+         <ProfileTechnology>IODD</ProfileTechnology>
+      </ISO15745Reference>
+  </ProfileHeader>
+  <ProfileBody>
+      <DeviceIdentity deviceId="8388619" vendorId="26" vendorName="SICK AG">
+         <VendorText textId="TI_VendorText"/>
+         <VendorUrl textId="TI_VendorUrl"/>
+         <VendorLogo name="SICK-logo.png"/>
+         <DeviceName textId="TI_Device"/>
+         <DeviceFamily textId="TI_DeviceFamily"/>
+         <DeviceVariantCollection>
+            <DeviceVariant deviceIcon="SICK-MPS32-icon.png"
+                           deviceSymbol="SICK-MPS32-pic.png"
+                           productId="1062506                                                         ">
+               <Name textId="TI_ProductNameVariant"/>
+               <Description textId="TI_ProductDescriptionVariant"/>
+            </DeviceVariant>
+            <DeviceVariant deviceIcon="SICK-MPS-icon.png"
+                           deviceSymbol="SICK-MPS-pic.png"
+                           productId="1062507                                                         ">
+               <Name textId="TI_8199fd22-ac79-4cac-92fb-945ade503ee8"/>
+               <Description textId="TI_48553947-5d9e-4971-8e55-ddc60c38ec65"/>
+            </DeviceVariant>
+            <DeviceVariant deviceIcon="SICK-MPS-icon.png"
+                           deviceSymbol="SICK-MPS-pic.png"
+                           productId="1062508                                                         ">
+               <Name textId="TI_2e263dfc-6fb1-4f1d-bd10-2329490ca8f8"/>
+               <Description textId="TI_1c4e369d-c144-4612-b41b-f4f966bb1746"/>
+            </DeviceVariant>
+            <DeviceVariant deviceIcon="SICK-MPS-icon.png"
+                           deviceSymbol="SICK-MPS-pic.png"
+                           productId="1062518                                                         ">
+               <Name textId="TI_5cd073d2-b0e5-4cdc-b648-ccdc98d20c51"/>
+               <Description textId="TI_6b082894-3274-49ea-9a82-8e2d24eb2d31"/>
+            </DeviceVariant>
+            <DeviceVariant deviceIcon="SICK-MPS-icon.png"
+                           deviceSymbol="SICK-MPS-pic.png"
+                           productId="1062519                                                         ">
+               <Name textId="TI_7951c07f-d883-46fb-b5d1-bc2350d01356"/>
+               <Description textId="TI_ba380407-6b64-4b7e-9548-141ec2e056d4"/>
+            </DeviceVariant>
+            <DeviceVariant deviceIcon="SICK-MPS-icon.png"
+                           deviceSymbol="SICK-MPS-pic.png"
+                           productId="1062520                                                         ">
+               <Name textId="TI_15708827-a90e-4e44-bf98-3fd69a5a3057"/>
+               <Description textId="TI_103ff65f-c213-4e10-a953-3eb38199ad3e"/>
+            </DeviceVariant>
+            <DeviceVariant deviceIcon="SICK-MPS-icon.png"
+                           deviceSymbol="SICK-MPS-pic.png"
+                           productId="1062521                                                         ">
+               <Name textId="TI_8d3c16c0-e416-4d1d-921b-88516c538ab4"/>
+               <Description textId="TI_99321f65-36c0-4966-990a-2832549946ee"/>
+            </DeviceVariant>
+            <DeviceVariant deviceIcon="SICK-MPS-icon.png"
+                           deviceSymbol="SICK-MPS-pic.png"
+                           productId="1062522                                                         ">
+               <Name textId="TI_047fddb0-3c77-4da1-aab2-7eb247a48374"/>
+               <Description textId="TI_896fcd14-e97a-4e4b-b234-eebeeefb8ee0"/>
+            </DeviceVariant>
+         </DeviceVariantCollection>
+      </DeviceIdentity>
+      <DeviceFunction>
+         <Features blockParameter="false" dataStorage="false"/>
+         <VariableCollection>
+            <StdVariableRef excludedFromDataStorage="false" id="V_DirectParameters_1"/>
+            <StdVariableRef excludedFromDataStorage="false" id="V_DirectParameters_2"/>
+            <StdVariableRef defaultValue="SICK AG"
+                            excludedFromDataStorage="false"
+                            fixedLengthRestriction="16"
+                            id="V_VendorName"/>
+            <StdVariableRef excludedFromDataStorage="false"
+                            fixedLengthRestriction="16"
+                            id="V_ProductName"/>
+            <StdVariableRef defaultValue="SICK Sensor Intelligence."
+                            excludedFromDataStorage="false"
+                            id="V_VendorText"/>
+            <StdVariableRef excludedFromDataStorage="false" id="V_ProductID"/>
+            <StdVariableRef defaultValue="Magnetic Cylinder Sensor"
+                            excludedFromDataStorage="false"
+                            id="V_ProductText"/>
+            <StdVariableRef excludedFromDataStorage="false"
+                            fixedLengthRestriction="8"
+                            id="V_SerialNumber"/>
+            <StdVariableRef excludedFromDataStorage="false"
+                            fixedLengthRestriction="5"
+                            id="V_HardwareRevision"/>
+            <StdVariableRef excludedFromDataStorage="false"
+                            fixedLengthRestriction="5"
+                            id="V_FirmwareRevision"/>
+            <StdVariableRef defaultValue="SICK AG"
+                            excludedFromDataStorage="true"
+                            fixedLengthRestriction="16"
+                            id="V_ApplicationSpecificTag"/>
+            <StdVariableRef excludedFromDataStorage="false" id="V_ProcessDataInput"/>
+            <StdVariableRef excludedFromDataStorage="false" id="V_SystemCommand">
+               <SingleValue value="160">
+                  <Name textId="TI_22f20fac-b1c0-43f3-87b1-fed873a558dc"/>
+               </SingleValue>
+               <SingleValue value="161">
+                  <Name textId="TI_db59cfea-2c07-4832-8918-3f81001463bc"/>
+               </SingleValue>
+               <SingleValue value="162">
+                  <Name textId="TI_9aee219f-cbba-4f0f-bfb7-3b0aa7f4046d"/>
+               </SingleValue>
+               <SingleValue value="163">
+                  <Name textId="TI_bf748e0b-2282-4af8-8f1d-6f6239409651"/>
+               </SingleValue>
+               <SingleValue value="164">
+                  <Name textId="TI_18464afe-0d8c-4c51-989c-c77a47b02523"/>
+               </SingleValue>
+            </StdVariableRef>
+            <Variable id="V_KeyLock"
+                      accessRights="rw"
+                      dynamic="true"
+                      excludedFromDataStorage="true"
+                      modifiesOtherVariables="false"
+                      index="81"
+                      defaultValue="0">
+               <Datatype xsi:type="UIntegerT" bitLength="8">
+                  <SingleValue value="0">
+                     <Name textId="TI_a5df32ab-cc48-438c-b6bb-b12dc812852b"/>
+                  </SingleValue>
+                  <SingleValue value="1">
+                     <Name textId="TI_1cb032e8-7f37-476d-9f14-69ec509de37b"/>
+                  </SingleValue>
+               </Datatype>
+               <Name textId="TI_68557f1f-5d54-4600-b7f4-e953287d65a9"/>
+            </Variable>
+         </VariableCollection>
+         <ProcessDataCollection>
+            <ProcessData id="PD_ProcessData">
+               <ProcessDataIn id="PD_ProcessDataIn" bitLength="16">
+                  <Datatype xsi:type="IntegerT" bitLength="16"/>
+                  <Name textId="TI_PD_ProcessDataIn"/>
+               </ProcessDataIn>
+            </ProcessData>
+         </ProcessDataCollection>
+         <ErrorTypeCollection/>
+         <UserInterface>
+            <MenuCollection>
+               <Menu id="ME_MSR_Ident">
+                  <VariableRef variableId="V_VendorName"/>
+                  <VariableRef variableId="V_VendorText"/>
+                  <VariableRef variableId="V_ProductName"/>
+                  <VariableRef variableId="V_ProductID"/>
+                  <VariableRef variableId="V_ProductText"/>
+                  <VariableRef variableId="V_SerialNumber"/>
+                  <VariableRef variableId="V_HardwareRevision"/>
+                  <VariableRef variableId="V_FirmwareRevision"/>
+                  <VariableRef variableId="V_ApplicationSpecificTag"/>
+               </Menu>
+               <Menu id="ME_MSR_Param">
+                  <Name textId="TI_6e66e4df-325f-4e89-b40a-316d65ec8ace"/>
+                  <VariableRef variableId="V_KeyLock"/>
+                  <VariableRef variableId="V_ProcessDataInput"/>
+                  <VariableRef accessRightRestriction="wo" variableId="V_SystemCommand">
+                     <Button buttonValue="160"/>
+                  </VariableRef>
+                  <VariableRef accessRightRestriction="wo" variableId="V_SystemCommand">
+                     <Button buttonValue="161"/>
+                  </VariableRef>
+                  <VariableRef accessRightRestriction="wo" variableId="V_SystemCommand">
+                     <Button buttonValue="162"/>
+                  </VariableRef>
+                  <VariableRef accessRightRestriction="wo" variableId="V_SystemCommand">
+                     <Button buttonValue="163"/>
+                  </VariableRef>
+                  <VariableRef accessRightRestriction="wo" variableId="V_SystemCommand">
+                     <Button buttonValue="164"/>
+                  </VariableRef>
+               </Menu>
+            </MenuCollection>
+            <ObserverRoleMenuSet>
+               <IdentificationMenu xsi:type="UIMenuRefT" menuId="ME_MSR_Ident"/>
+               <ParameterMenu menuId="ME_MSR_Param"/>
+            </ObserverRoleMenuSet>
+            <MaintenanceRoleMenuSet>
+               <IdentificationMenu menuId="ME_MSR_Ident"/>
+               <ParameterMenu xsi:type="UIMenuRefT" menuId="ME_MSR_Param"/>
+            </MaintenanceRoleMenuSet>
+            <SpecialistRoleMenuSet>
+               <IdentificationMenu menuId="ME_MSR_Ident"/>
+               <ParameterMenu xsi:type="UIMenuRefT" menuId="ME_MSR_Param"/>
+            </SpecialistRoleMenuSet>
+         </UserInterface>
+      </DeviceFunction>
+  </ProfileBody>
+  <CommNetworkProfile xsi:type="IOLinkCommNetworkProfileT" iolinkRevision="V1.1">
+      <TransportLayers>
+         <PhysicalLayer bitrate="COM2"
+                        minCycleTime="2300"
+                        mSequenceCapability="33"
+                        sioSupported="false">
+            <Connection xsi:type="M5ConnectionT">
+               <ProductRef productId="1062506                                                         "/>
+               <ProductRef productId="1062507                                                         "/>
+               <ProductRef productId="1062508                                                         "/>
+               <ProductRef productId="1062518                                                         "/>
+               <ProductRef productId="1062519                                                         "/>
+               <ProductRef productId="1062520                                                         "/>
+               <ProductRef productId="1062521                                                         "/>
+               <ProductRef productId="1062522                                                         "/>
+               <Wire1/>
+               <Wire2 function="NC"/>
+               <Wire3/>
+               <Wire4/>
+            </Connection>
+         </PhysicalLayer>
+      </TransportLayers>
+      <Test>
+         <Config1 index="24"
+                  testValue="0x61,0x62,0x63,0x64,0x65,0x66,0x67,0x68,0x69,0x6a,0x6b,0x6c,0x6d,0x6e,0x6f,0x70"/>
+         <Config2 index="333" testValue="0xab,0xce"/>
+         <Config3 index="24"
+                  testValue="0x41,0x42,0x43,0x44,0x45,0x46,0x47,0x48,0x49,0x4a,0x4b,0x4c,0x4d,0x4e,0x4f,0x50"/>
+      </Test>
+  </CommNetworkProfile>
+  <ExternalTextCollection>
+      <PrimaryLanguage xml:lang="en">
+         <Text id="TI_VendorText" value="SICK Sensor Intelligence."/>
+         <Text id="TI_VendorUrl" value="http://www.sick.com"/>
+         <Text id="TI_Device" value="Magnetic Cylinder Sensors"/>
+         <Text id="TI_DeviceFamily" value="Magnetic cylinder sensors"/>
+         <Text id="TI_ProductNameVariant" value="MPS-032TLTQ0"/>
+         <Text id="TI_ProductDescriptionVariant" value="Magnetischer Positionssensor"/>
+         <Text id="TI_PD_ProcessDataIn" value="Position (in 1mm/128)"/>
+         <Text id="TI_48553947-5d9e-4971-8e55-ddc60c38ec65"
+               value="Magnetic Cylinder Sensor"/>
+         <Text id="TI_8199fd22-ac79-4cac-92fb-945ade503ee8" value="MPS-064TLTQ0"/>
+         <Text id="TI_1c4e369d-c144-4612-b41b-f4f966bb1746"
+               value="Magnetic Cylinder Sensor"/>
+         <Text id="TI_2e263dfc-6fb1-4f1d-bd10-2329490ca8f8" value="MPS-096TLTQ0"/>
+         <Text id="TI_6b082894-3274-49ea-9a82-8e2d24eb2d31"
+               value="Magnetic Cylinder Sensor"/>
+         <Text id="TI_5cd073d2-b0e5-4cdc-b648-ccdc98d20c51" value="MPS-128TLTQ0"/>
+         <Text id="TI_ba380407-6b64-4b7e-9548-141ec2e056d4"
+               value="Magnetic Cylinder Sensor"/>
+         <Text id="TI_7951c07f-d883-46fb-b5d1-bc2350d01356" value="MPS-192TLTQ0"/>
+         <Text id="TI_103ff65f-c213-4e10-a953-3eb38199ad3e"
+               value="Magnetic Cylinder Sensor"/>
+         <Text id="TI_15708827-a90e-4e44-bf98-3fd69a5a3057" value="MPS-256TLTQ0"/>
+         <Text id="TI_99321f65-36c0-4966-990a-2832549946ee"
+               value="Magnetic Cylinder Sensor"/>
+         <Text id="TI_8d3c16c0-e416-4d1d-921b-88516c538ab4" value="MPS-160TLTQ0"/>
+         <Text id="TI_896fcd14-e97a-4e4b-b234-eebeeefb8ee0"
+               value="Magnetic Cylinder Sensor"/>
+         <Text id="TI_047fddb0-3c77-4da1-aab2-7eb247a48374" value="MPS-224TLTQ0"/>
+         <Text id="TI_68557f1f-5d54-4600-b7f4-e953287d65a9" value="Key Lock"/>
+         <Text id="TI_a5df32ab-cc48-438c-b6bb-b12dc812852b" value="inactive"/>
+         <Text id="TI_1cb032e8-7f37-476d-9f14-69ec509de37b" value="active"/>
+         <Text id="TI_6e66e4df-325f-4e89-b40a-316d65ec8ace" value="Parameter Menu"/>
+         <Text id="TI_22f20fac-b1c0-43f3-87b1-fed873a558dc"
+               value="Teach measuring range start"/>
+         <Text id="TI_db59cfea-2c07-4832-8918-3f81001463bc"
+               value="Teach measuring range end"/>
+         <Text id="TI_9aee219f-cbba-4f0f-bfb7-3b0aa7f4046d"
+               value="Reset  measuring range"/>
+         <Text id="TI_bf748e0b-2282-4af8-8f1d-6f6239409651" value="Key Lock"/>
+         <Text id="TI_18464afe-0d8c-4c51-989c-c77a47b02523" value="Key Unlock"/>
+      </PrimaryLanguage>
+      <Language xml:lang="de">
+         <Text id="TI_VendorText" value="SICK Sensor Intelligence."/>
+         <Text id="TI_VendorUrl" value="http://www.sick.de"/>
+         <Text id="TI_Device" value="Magnetischer Positionssensor"/>
+         <Text id="TI_DeviceFamily" value="Magnetische Zylindersensoren"/>
+         <Text id="TI_ProductNameVariant" value="MPS-032TLTQ0"/>
+         <Text id="TI_ProductDescriptionVariant" value="Magnetischer Positionssensor"/>
+         <Text id="TI_PD_ProcessDataIn" value="Position (in 1mm/128)"/>
+         <Text id="TI_48553947-5d9e-4971-8e55-ddc60c38ec65"
+               value="Magnetischer Positionssensor"/>
+         <Text id="TI_8199fd22-ac79-4cac-92fb-945ade503ee8" value="MPS-064TLTQ0"/>
+         <Text id="TI_1c4e369d-c144-4612-b41b-f4f966bb1746"
+               value="Magnetischer Positionssensor"/>
+         <Text id="TI_2e263dfc-6fb1-4f1d-bd10-2329490ca8f8" value="MPS-096TLTQ0"/>
+         <Text id="TI_6b082894-3274-49ea-9a82-8e2d24eb2d31"
+               value="Magnetischer Positionssensor"/>
+         <Text id="TI_5cd073d2-b0e5-4cdc-b648-ccdc98d20c51" value="MPS-128TLTQ0"/>
+         <Text id="TI_ba380407-6b64-4b7e-9548-141ec2e056d4"
+               value="Magnetischer Positionssensor"/>
+         <Text id="TI_7951c07f-d883-46fb-b5d1-bc2350d01356" value="MPS-192TLTQ0"/>
+         <Text id="TI_103ff65f-c213-4e10-a953-3eb38199ad3e"
+               value="Magnetischer Positionssensor"/>
+         <Text id="TI_15708827-a90e-4e44-bf98-3fd69a5a3057" value="MPS-256TLTQ0"/>
+         <Text id="TI_99321f65-36c0-4966-990a-2832549946ee"
+               value="Magnetischer Positionssensor"/>
+         <Text id="TI_8d3c16c0-e416-4d1d-921b-88516c538ab4" value="MPS-160TLTQ0"/>
+         <Text id="TI_896fcd14-e97a-4e4b-b234-eebeeefb8ee0"
+               value="Magnetischer Positionssensor"/>
+         <Text id="TI_047fddb0-3c77-4da1-aab2-7eb247a48374" value="MPS-224TLTQ0"/>
+         <Text id="TI_68557f1f-5d54-4600-b7f4-e953287d65a9" value="Tastensperre"/>
+         <Text id="TI_a5df32ab-cc48-438c-b6bb-b12dc812852b" value="inaktiv"/>
+         <Text id="TI_1cb032e8-7f37-476d-9f14-69ec509de37b" value="aktiv"/>
+         <Text id="TI_6e66e4df-325f-4e89-b40a-316d65ec8ace" value="Parametermenü"/>
+         <Text id="TI_22f20fac-b1c0-43f3-87b1-fed873a558dc"
+               value="Teach Messbereich Anfang"/>
+         <Text id="TI_db59cfea-2c07-4832-8918-3f81001463bc"
+               value="Teach Messbereich Ende"/>
+         <Text id="TI_9aee219f-cbba-4f0f-bfb7-3b0aa7f4046d" value="Reset Messbereich"/>
+         <Text id="TI_bf748e0b-2282-4af8-8f1d-6f6239409651" value="Tastensperre ein"/>
+         <Text id="TI_18464afe-0d8c-4c51-989c-c77a47b02523" value="Tastensperre aus"/>
+      </Language>
+  </ExternalTextCollection>
+  <Stamp crc="1307039555"><Checker name="IODD-Checker V1.1.1" version="V1.1.1.0"/></Stamp>
+</IODevice>

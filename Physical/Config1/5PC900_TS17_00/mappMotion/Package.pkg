@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.3.93 SP?>
+<Package SubType="mappMotion" PackageType="mappMotion" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">Config_2.axis</Object>
+    <Object Type="File">Config_3.axis</Object>
+    <Object Type="File">Config_5.axis</Object>
+    <Object Type="File">Config_6.axis</Object>
+    <Object Type="File">Config_7.axis</Object>
+    <Object Type="File">Config_18.axis</Object>
+    <Object Type="File">Config_19.axis</Object>
+    <Object Type="File">Config_20.axis</Object>
+    <Object Type="File">Config_21.axis</Object>
+    <Object Type="File">Config_22.axis</Object>
+    <Object Type="File">Config_23.axis</Object>
+  </Objects>
+</Package>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="AreaPageManualP1_Dopravniky" height="588" width="1366" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Image" id="Image1" top="0" left="0" width="1366" height="588" zIndex="0" image="Media/Pozadie/BackGround_588x1366.png" opacity="0.2" />
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="20" left="483" width="400" height="35" zIndex="1" text="Manualny režim - Dopravníky" borderWidth="5px" cornerRadius="5px" borderStyle="ridge" textColor="rgba(0, 0, 0, 1)" textAlign="center" fontSize="20px" shadow="4px 4px 14px rgba(0, 0, 0, 1)" style="FavoriteWatch" />
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox_OvladanieDopravnikov" top="74" left="18" width="430" height="250" zIndex="2" text="Ovládanie dopravníkov" backColor="rgba(253, 245, 230, 1)" textColor="rgba(0, 0, 0, 1)" shadow="4px 4px 14px rgba(0, 0, 0, 1)">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.ToggleSwitch" id="ToggleSwitch_HornyDopravnik" top="31" left="132" width="165" height="45" zIndex="0" mouseDownText="Vypni horný\ndopravník" multiLine="true" text="Zapni horný\ndopravník" textColor="rgba(0, 0, 0, 1)" fontSize="16px" shadow="4px 4px 14px rgba(0, 0, 0, 1)" />
+        <Widget xsi:type="widgets.brease.ToggleSwitch" id="ToggleSwitch_SpodnyDopravnik" top="117" left="132" width="165" height="45" zIndex="1" mouseDownText="Vypni spodný\ndopravník" multiLine="true" text="Zapni spodný\ndopravník" textColor="rgba(0, 0, 0, 1)" fontSize="16px" shadow="4px 4px 14px rgba(0, 0, 0, 1)" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox4" top="74" left="468" width="430" height="250" zIndex="3" text="Ovladanie akumulačného stopra" backColor="rgba(253, 245, 230, 1)" textColor="rgba(0, 0, 0, 1)" shadow="4px 4px 14px rgba(0, 0, 0, 1)">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.ToggleSwitch" id="ToggleSwitch_Stoper" top="117" left="132" width="165" height="45" zIndex="0" mouseDownText="Vysuň stoper" multiLine="true" text="Zasuň stoper" textColor="rgba(0, 0, 0, 1)" fontSize="16px" shadow="4px 4px 14px rgba(0, 0, 0, 1)" />
+        <Widget xsi:type="widgets.brease.Label" id="Label15" top="23" left="15" width="195" height="35" zIndex="1" multiLine="true" text="Prítomnosť paletky" borderWidth="2px" cornerRadius="5px" backColor="rgba(192, 192, 192, 1)" borderColor="rgba(0, 0, 0, 1)" borderStyle="outset" textColor="rgba(0, 0, 0, 1)" fontSize="15px" bold="true" />
+        <Widget xsi:type="widgets.brease.ImageList" id="ImageList19" top="28" left="177" width="25" height="25" zIndex="2" imageList="['LEDsiva_24x24.png', 'LEDgreen_24x24.png']" imagePrefix="Media/Pictures/" borderStyle="none" borderWidth="0px" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox5" top="74" left="918" width="430" height="250" zIndex="4" text="Ovladanie spodného stopra" backColor="rgba(253, 245, 230, 1)" textColor="rgba(0, 0, 0, 1)" shadow="4px 4px 14px rgba(0, 0, 0, 1)">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.ToggleSwitch" id="ToggleSwitch_Stoper1" top="117" left="132" width="165" height="45" zIndex="0" mouseDownText="Vysuň stoper" multiLine="true" text="Zasuň stoper" textColor="rgba(0, 0, 0, 1)" fontSize="16px" shadow="4px 4px 14px rgba(0, 0, 0, 1)" />
+        <Widget xsi:type="widgets.brease.Label" id="Label16" top="23" left="15" width="195" height="35" zIndex="1" multiLine="true" text="Prítomnosť paletky" borderWidth="2px" cornerRadius="5px" backColor="rgba(192, 192, 192, 1)" borderColor="rgba(0, 0, 0, 1)" borderStyle="outset" textColor="rgba(0, 0, 0, 1)" fontSize="15px" bold="true" />
+        <Widget xsi:type="widgets.brease.ImageList" id="ImageList20" top="28" left="177" width="25" height="25" zIndex="2" imageList="['LEDsiva_24x24.png', 'LEDgreen_24x24.png']" imagePrefix="Media/Pictures/" borderStyle="none" borderWidth="0px" />
+      </Widgets>
+    </Widget>
+  </Widgets>
+</Content>

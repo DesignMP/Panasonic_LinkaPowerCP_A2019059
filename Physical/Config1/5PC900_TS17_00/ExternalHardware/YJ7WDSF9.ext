@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ISO15745Profile xmlns="http://www.profibus.com/GSDML/2003/11/DeviceProfile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.profibus.com/GSDML/2003/11/DeviceProfile ..\xsd\GSDML-DeviceProfile-V2.3.xsd">
+	<ProfileHeader>
+		<ProfileIdentification>PROFINET Device Profile</ProfileIdentification>
+		<ProfileRevision>1.00</ProfileRevision>
+		<ProfileName>Device Profile for PROFINET Devices</ProfileName>
+		<ProfileSource>PROFIBUS Nutzerorganisation e. V. (PNO)</ProfileSource>
+		<ProfileClassID>Device</ProfileClassID>
+		<ISO15745Reference>
+			<ISO15745Part>4</ISO15745Part>
+			<ISO15745Edition>1</ISO15745Edition>
+			<ProfileTechnology>GSDML</ProfileTechnology>
+		</ISO15745Reference>
+	</ProfileHeader>
+	<ProfileBody>
+		<DeviceIdentity VendorID="0x01D3" DeviceID="0x0301">
+			<InfoText TextId="TXT_ID_DEVIDENT_InfoTxt" />
+			<VendorName Value="wenglor sensoric gmbh" />
+		</DeviceIdentity>
+		<DeviceFunction>
+			<Family MainFamily="Ident Systems" ProductFamily="wenglor ident" />
+		</DeviceFunction>
+		<ApplicationProcess>
+			<DeviceAccessPointList>
+				<DeviceAccessPointItem ID="DAP 1" PhysicalSlots="0..16" ModuleIdentNumber="0x00000400" MinDeviceInterval="512" ImplementationType="ARM" DNS_CompatibleName="weqube" ExtendedAddressAssignmentSupported="true" FixedInSlots="0" ObjectUUID_LocalIndex="1" RequiredSchemaVersion="V2.3" DeviceAccessSupported="false" PNIO_Version="V2.2">
+					<ModuleInfo>
+						<Name TextId="TXT_weQube V1.4" />
+						<InfoText TextId="TXT_weQube V1.4" />
+						<VendorName Value="wenglor sensoric gmbh" />
+						<OrderNumber Value="weQube" />
+						<HardwareRelease Value="100" />
+						<SoftwareRelease Value="V1.1.4" />
+					</ModuleInfo>
+					<SubslotList>
+						<SubslotItem SubslotNumber="32768" TextId="TXT_ID_Subslot_8000" />
+						<SubslotItem SubslotNumber="32769" TextId="TXT_ID_Subslot_8001" />
+					</SubslotList>
+					<IOConfigData MaxInputLength="1024" MaxOutputLength="1024" />
+					<UseableModules>
+						<ModuleItemRef ModuleItemTarget="ID_Mod_01" AllowedInSlots="3..6" />
+						<ModuleItemRef ModuleItemTarget="ID_Mod_02" AllowedInSlots="3..6" />
+						<ModuleItemRef ModuleItemTarget="ID_Mod_03" AllowedInSlots="3..6" />
+						<ModuleItemRef ModuleItemTarget="ID_Mod_04" AllowedInSlots="3..6" />
+						<ModuleItemRef ModuleItemTarget="ID_Mod_05" AllowedInSlots="3..6" />
+						<ModuleItemRef ModuleItemTarget="ID_Mod_06" AllowedInSlots="3..6" />
+						<ModuleItemRef ModuleItemTarget="ID_Mod_07" AllowedInSlots="3..6" />
+						<ModuleItemRef ModuleItemTarget="ID_Mod_08" AllowedInSlots="3..6" />
+						<ModuleItemRef ModuleItemTarget="ID_Mod_09" AllowedInSlots="3..6" />
+						<ModuleItemRef ModuleItemTarget="ID_Mod_10" FixedInSlots="1" />
+						<ModuleItemRef ModuleItemTarget="ID_Mod_11" FixedInSlots="2" />
+						<ModuleItemRef ModuleItemTarget="ID_Mod_12" AllowedInSlots="3..6" />
+						<ModuleItemRef ModuleItemTarget="ID_Mod_13" AllowedInSlots="3..6" />
+						<ModuleItemRef ModuleItemTarget="ID_Mod_14" AllowedInSlots="3..6" />
+						<ModuleItemRef ModuleItemTarget="ID_Mod_15" AllowedInSlots="3..6" />
+						<ModuleItemRef ModuleItemTarget="ID_Mod_16" AllowedInSlots="3..6" />
+						<ModuleItemRef ModuleItemTarget="ID_Mod_17" AllowedInSlots="3..6" />
+						<ModuleItemRef ModuleItemTarget="ID_Mod_18" AllowedInSlots="3..6" />
+						<ModuleItemRef ModuleItemTarget="ID_Mod_19" AllowedInSlots="3..6" />
+					</UseableModules>
+					<VirtualSubmoduleList>
+						<VirtualSubmoduleItem ID="DAP 1" SubmoduleIdentNumber="0x10000000">
+							<IOData IOPS_Length="1" IOCS_Length="1" />
+							<ModuleInfo>
+								<Name TextId="TXT_weQube" />
+								<InfoText TextId="TXT_weQube" />
+							</ModuleInfo>
+						</VirtualSubmoduleItem>
+					</VirtualSubmoduleList>
+					<SystemDefinedSubmoduleList>
+						<InterfaceSubmoduleItem ID="IDS_1I" SubslotNumber="32768" SubmoduleIdentNumber="0x00000001" SupportedRT_Classes="RT_CLASS_1" TextId="TXT_ID_InterfaceInfo" IsochroneModeSupported="false" SupportedProtocols="LLDP" SupportedMibs="false">
+							<ApplicationRelations NumberOfAdditionalInputCR="0" NumberOfAdditionalMulticastProviderCR="0" NumberOfAdditionalOutputCR="0" NumberOfMulticastConsumerCR="0">
+								<TimingProperties SendClock="32" ReductionRatio="1 2 4 8 16 32 64 128 256 512" />
+							</ApplicationRelations>
+						</InterfaceSubmoduleItem>
+						<PortSubmoduleItem ID="IDS_1P" SubslotNumber="32769" SubmoduleIdentNumber="0x00000002" MAUType="100BASETXFD" TextId="TXT_ID_Port1" MAUTypes="16">
+							<!--<RecordDataList>
+								<ParameterRecordDataItem Index="256" Length="2" TransferSequence="0">
+									<Name TextId="TXT_TextId_PORT_Config" />
+									<Ref ValueItemTarget="VAL_PORT_Config" DataType="BitArea" BitLength="1" ByteOffset="0" BitOffset="0" DefaultValue="0" AllowedValues="0 1" TextId="TXT_PORT_Config_Test1" />
+								</ParameterRecordDataItem>
+							</RecordDataList>-->
+						</PortSubmoduleItem>
+					</SystemDefinedSubmoduleList>
+					<Graphics>
+						<GraphicItemRef Type="DeviceSymbol" GraphicItemTarget="ID_Graph_weQube" />
+					</Graphics>
+				</DeviceAccessPointItem>
+			</DeviceAccessPointList>
+			<ModuleList>
+				<ModuleItem ID="ID_Mod_01" ModuleIdentNumber="0x00000001">
+					<ModuleInfo>
+						<Name TextId="TXT_TextId_Mod_1" />
+						<InfoText TextId="TXT_TextId_Mod_1" />
+					</ModuleInfo>
+					<VirtualSubmoduleList>
+						<VirtualSubmoduleItem ID="1" SubmoduleIdentNumber="0x00000001" API="0">
+							<IOData IOPS_Length="1" IOCS_Length="1">
+								<Input Consistency="All items consistency">
+									<DataItem DataType="OctetString" TextId="TXT_In_DataItem_16" Length="16" UseAsBits="false" />
+								</Input>
+							</IOData>
+							<ModuleInfo>
+								<Name TextId="TXT_TextId_Mod_1" />
+								<InfoText TextId="TXT_TextId_Mod_1" />
+							</ModuleInfo>
+						</VirtualSubmoduleItem>
+					</VirtualSubmoduleList>
+				</ModuleItem>
+				<ModuleItem ID="ID_Mod_02" ModuleIdentNumber="0x00000002">
+					<ModuleInfo>
+						<Name TextId="TXT_TextId_Mod_2" />
+						<InfoText TextId="TXT_TextId_Mod_2" />
+					</ModuleInfo>
+					<VirtualSubmoduleList>
+						<VirtualSubmoduleItem ID="2" SubmoduleIdentNumber="0x00000002" API="0">
+							<IOData IOPS_Length="1" IOCS_Length="1">
+								<Input Consistency="All items consistency">
+									<DataItem DataType="OctetString" TextId="TXT_In_DataItem_16" Length="16" UseAsBits="false" />
+								</Input>
+							</IOData>
+							<ModuleInfo>
+								<Name TextId="TXT_TextId_Mod_2" />
+								<InfoText TextId="TXT_TextId_Mod_2" />
+							</ModuleInfo>
+						</VirtualSubmoduleItem>
+					</VirtualSubmoduleList>
+				</ModuleItem>
+				<ModuleItem ID="ID_Mod_03" ModuleIdentNumber="0x00000003">
+					<ModuleInfo>
+						<Name TextId="TXT_TextId_Mod_3" />
+						<InfoText TextId="TXT_TextId_Mod_3" />
+					</ModuleInfo>
+					<VirtualSubmoduleList>
+						<VirtualSubmoduleItem ID="3" SubmoduleIdentNumber="0x00000003" API="0">
+							<IOData IOPS_Length="1" IOCS_Length="1">
+								<Input Consistency="All items consistency">
+									<DataItem DataType="OctetString" TextId="TXT_In_DataItem_1" Length="1" UseAsBits="true" />
+								</Input>
+							</IOData>
+							<ModuleInfo>
+								<Name TextId="TXT_TextId_Mod_3" />
+								<InfoText TextId="TXT_TextId_Mod_3" />
+							</ModuleInfo>
+						</VirtualSubmoduleItem>
+					</VirtualSubmoduleList>
+				</ModuleItem>
+				<ModuleItem ID="ID_Mod_04" ModuleIdentNumber="0x00000004">
+					<ModuleInfo>
+						<Name TextId="TXT_TextId_Mod_4" />
+						<InfoText TextId="TXT_TextId_Mod_4" />
+					</ModuleInfo>
+					<VirtualSubmoduleList>
+						<VirtualSubmoduleItem ID="4" SubmoduleIdentNumber="0x00000004" API="0">
+							<IOData IOPS_Length="1" IOCS_Length="1">
+								<Input Consistency="All items consistency">
+									<DataItem DataType="OctetString" TextId="TXT_In_DataItem_128" Length="128" UseAsBits="false" />
+								</Input>
+							</IOData>
+							<ModuleInfo>
+								<Name TextId="TXT_TextId_Mod_4" />
+								<InfoText TextId="TXT_TextId_Mod_4" />
+							</ModuleInfo>
+						</VirtualSubmoduleItem>
+					</VirtualSubmoduleList>
+				</ModuleItem>
+				<ModuleItem ID="ID_Mod_05" ModuleIdentNumber="0x00000005">
+					<ModuleInfo>
+						<Name TextId="TXT_TextId_Mod_5" />
+						<InfoText TextId="TXT_TextId_Mod_5" />
+					</ModuleInfo>
+					<VirtualSubmoduleList>
+						<VirtualSubmoduleItem ID="5" SubmoduleIdentNumber="0x00000005" API="0">
+							<IOData IOPS_Length="1" IOCS_Length="1">
+								<Input Consistency="All items consistency">
+									<DataItem DataType="OctetString" TextId="TXT_In_DataItem_1024" Length="1024" UseAsBits="false" />
+								</Input>
+							</IOData>
+							<ModuleInfo>
+								<Name TextId="TXT_TextId_Mod_5" />
+								<InfoText TextId="TXT_TextId_Mod_5" />
+							</ModuleInfo>
+						</VirtualSubmoduleItem>
+					</VirtualSubmoduleList>
+				</ModuleItem>
+				<ModuleItem ID="ID_Mod_06" ModuleIdentNumber="0x00000006">
+					<ModuleInfo>
+						<Name TextId="TXT_TextId_Mod_6" />
+						<InfoText TextId="TXT_TextId_Mod_6" />
+					</ModuleInfo>
+					<VirtualSubmoduleList>
+						<VirtualSubmoduleItem ID="6" SubmoduleIdentNumber="0x00000006" API="0">
+							<IOData IOPS_Length="1" IOCS_Length="1">
+								<Output Consistency="All items consistency">
+									<DataItem DataType="OctetString" TextId="TXT_Out_DataItem_16" Length="16" UseAsBits="false" />
+								</Output>
+							</IOData>
+							<ModuleInfo>
+								<Name TextId="TXT_TextId_Mod_6" />
+								<InfoText TextId="TXT_TextId_Mod_6" />
+							</ModuleInfo>
+						</VirtualSubmoduleItem>
+					</VirtualSubmoduleList>
+				</ModuleItem>
+				<ModuleItem ID="ID_Mod_07" ModuleIdentNumber="0x00000007">
+					<ModuleInfo>
+						<Name TextId="TXT_TextId_Mod_7" />
+						<InfoText TextId="TXT_TextId_Mod_7" />
+					</ModuleInfo>
+					<VirtualSubmoduleList>
+						<VirtualSubmoduleItem ID="7" SubmoduleIdentNumber="0x00000007" API="0">
+							<IOData IOPS_Length="1" IOCS_Length="1">
+								<Output Consistency="All items consistency">
+									<DataItem DataType="OctetString" TextId="TXT_Out_DataItem_16" Length="16" UseAsBits="false" />
+								</Output>
+							</IOData>
+							<ModuleInfo>
+								<Name TextId="TXT_TextId_Mod_7" />
+								<InfoText TextId="TXT_TextId_Mod_7" />
+							</ModuleInfo>
+						</VirtualSubmoduleItem>
+					</VirtualSubmoduleList>
+				</ModuleItem>
+				<ModuleItem ID="ID_Mod_08" ModuleIdentNumber="0x00000008">
+					<ModuleInfo>
+						<Name TextId="TXT_TextId_Mod_8" />
+						<InfoText TextId="TXT_TextId_Mod_8" />
+					</ModuleInfo>
+					<VirtualSubmoduleList>
+						<VirtualSubmoduleItem ID="8" SubmoduleIdentNumber="0x00000008" API="0">
+							<IOData IOPS_Length="1" IOCS_Length="1">
+								<Output Consistency="All items consistency">
+									<DataItem DataType="OctetString" TextId="TXT_Out_DataItem_1" Length="1" UseAsBits="true" />
+								</Output>
+							</IOData>
+							<ModuleInfo>
+								<Name TextId="TXT_TextId_Mod_8" />
+								<InfoText TextId="TXT_TextId_Mod_8" />
+							</ModuleInfo>
+						</VirtualSubmoduleItem>
+					</VirtualSubmoduleList>
+				</ModuleItem>
+				<ModuleItem ID="ID_Mod_09" ModuleIdentNumber="0x00000009">
+					<ModuleInfo>
+						<Name TextId="TXT_TextId_Mod_9" />
+						<InfoText TextId="TXT_TextId_Mod_9" />
+					</ModuleInfo>
+					<VirtualSubmoduleList>
+						<VirtualSubmoduleItem ID="9" SubmoduleIdentNumber="0x00000009" API="0">
+							<IOData IOPS_Length="1" IOCS_Length="1">
+								<Output Consistency="All items consistency">
+									<DataItem DataType="OctetString" TextId="TXT_Out_DataItem_128" Length="128" UseAsBits="false" />
+								</Output>
+							</IOData>
+							<ModuleInfo>
+								<Name TextId="TXT_TextId_Mod_9" />
+								<InfoText TextId="TXT_TextId_Mod_9" />
+							</ModuleInfo>
+						</VirtualSubmoduleItem>
+					</VirtualSubmoduleList>
+				</ModuleItem>
+				<ModuleItem ID="ID_Mod_10" ModuleIdentNumber="0x0000000a">
+					<ModuleInfo>
+						<Name TextId="TXT_TextId_Mod_10" />
+						<InfoText TextId="TXT_TextId_Mod_10" />
+					</ModuleInfo>
+					<VirtualSubmoduleList>
+						<VirtualSubmoduleItem ID="10" SubmoduleIdentNumber="0x0000000a" API="0">
+							<IOData IOPS_Length="1" IOCS_Length="1">
+								<Output Consistency="All items consistency">
+									<DataItem DataType="OctetString" TextId="TXT_Out_DataItem_1" Length="1" UseAsBits="false" />
+								</Output>
+							</IOData>
+							<ModuleInfo>
+								<Name TextId="TXT_TextId_Mod_10" />
+								<InfoText TextId="TXT_TextId_Mod_10" />
+							</ModuleInfo>
+						</VirtualSubmoduleItem>
+					</VirtualSubmoduleList>
+				</ModuleItem>
+				<ModuleItem ID="ID_Mod_11" ModuleIdentNumber="0x0000000b">
+					<ModuleInfo>
+						<Name TextId="TXT_TextId_Mod_11" />
+						<InfoText TextId="TXT_TextId_Mod_11" />
+					</ModuleInfo>
+					<VirtualSubmoduleList>
+						<VirtualSubmoduleItem ID="11" SubmoduleIdentNumber="0x0000000b" API="0">
+							<IOData IOPS_Length="1" IOCS_Length="1">
+								<Input Consistency="All items consistency">
+									<DataItem DataType="OctetString" TextId="TXT_In_DataItem_4" Length="4" UseAsBits="false" />
+								</Input>
+							</IOData>
+							<ModuleInfo>
+								<Name TextId="TXT_TextId_Mod_11" />
+								<InfoText TextId="TXT_TextId_Mod_11" />
+							</ModuleInfo>
+						</VirtualSubmoduleItem>
+					</VirtualSubmoduleList>
+				</ModuleItem>
+				<ModuleItem ID="ID_Mod_12" ModuleIdentNumber="0x0000000c">
+					<ModuleInfo>
+						<Name TextId="TXT_TextId_Mod_12" />
+						<InfoText TextId="TXT_TextId_Mod_12" />
+					</ModuleInfo>
+					<VirtualSubmoduleList>
+						<VirtualSubmoduleItem ID="12" SubmoduleIdentNumber="0x0000000c" API="0">
+							<IOData IOPS_Length="1" IOCS_Length="1">
+								<Input Consistency="All items consistency">
+									<DataItem DataType="OctetString" TextId="TXT_In_DataItem_32" Length="32" UseAsBits="false" />
+								</Input>
+							</IOData>
+							<ModuleInfo>
+								<Name TextId="TXT_TextId_Mod_12" />
+								<InfoText TextId="TXT_TextId_Mod_12" />
+							</ModuleInfo>
+						</VirtualSubmoduleItem>
+					</VirtualSubmoduleList>
+				</ModuleItem>
+				<ModuleItem ID="ID_Mod_13" ModuleIdentNumber="0x0000000d">
+					<ModuleInfo>
+						<Name TextId="TXT_TextId_Mod_13" />
+						<InfoText TextId="TXT_TextId_Mod_13" />
+					</ModuleInfo>
+					<VirtualSubmoduleList>
+						<VirtualSubmoduleItem ID="13" SubmoduleIdentNumber="0x0000000d" API="0">
+							<IOData IOPS_Length="1" IOCS_Length="1">
+								<Input Consistency="All items consistency">
+									<DataItem DataType="OctetString" TextId="TXT_In_DataItem_64" Length="64" UseAsBits="false" />
+								</Input>
+							</IOData>
+							<ModuleInfo>
+								<Name TextId="TXT_TextId_Mod_13" />
+								<InfoText TextId="TXT_TextId_Mod_13" />
+							</ModuleInfo>
+						</VirtualSubmoduleItem>
+					</VirtualSubmoduleList>
+				</ModuleItem>
+				<ModuleItem ID="ID_Mod_14" ModuleIdentNumber="0x0000000e">
+					<ModuleInfo>
+						<Name TextId="TXT_TextId_Mod_14" />
+						<InfoText TextId="TXT_TextId_Mod_14" />
+					</ModuleInfo>
+					<VirtualSubmoduleList>
+						<VirtualSubmoduleItem ID="14" SubmoduleIdentNumber="0x0000000e" API="0">
+							<IOData IOPS_Length="1" IOCS_Length="1">
+								<Input Consistency="All items consistency">
+									<DataItem DataType="OctetString" TextId="TXT_In_DataItem_256" Length="256" UseAsBits="false" />
+								</Input>
+							</IOData>
+							<ModuleInfo>
+								<Name TextId="TXT_TextId_Mod_14" />
+								<InfoText TextId="TXT_TextId_Mod_14" />
+							</ModuleInfo>
+						</VirtualSubmoduleItem>
+					</VirtualSubmoduleList>
+				</ModuleItem>
+				<ModuleItem ID="ID_Mod_15" ModuleIdentNumber="0x0000000f">
+					<ModuleInfo>
+						<Name TextId="TXT_TextId_Mod_15" />
+						<InfoText TextId="TXT_TextId_Mod_15" />
+					</ModuleInfo>
+					<VirtualSubmoduleList>
+						<VirtualSubmoduleItem ID="15" SubmoduleIdentNumber="0x0000000f" API="0">
+							<IOData IOPS_Length="1" IOCS_Length="1">
+								<Input Consistency="All items consistency">
+									<DataItem DataType="OctetString" TextId="TXT_In_DataItem_512" Length="512" UseAsBits="false" />
+								</Input>
+							</IOData>
+							<ModuleInfo>
+								<Name TextId="TXT_TextId_Mod_15" />
+								<InfoText TextId="TXT_TextId_Mod_15" />
+							</ModuleInfo>
+						</VirtualSubmoduleItem>
+					</VirtualSubmoduleList>
+				</ModuleItem>
+				<ModuleItem ID="ID_Mod_16" ModuleIdentNumber="0x00000010">
+					<ModuleInfo>
+						<Name TextId="TXT_TextId_Mod_16" />
+						<InfoText TextId="TXT_TextId_Mod_16" />
+					</ModuleInfo>
+					<VirtualSubmoduleList>
+						<VirtualSubmoduleItem ID="16" SubmoduleIdentNumber="0x00000010" API="0">
+							<IOData IOPS_Length="1" IOCS_Length="1">
+								<Output Consistency="All items consistency">
+									<DataItem DataType="OctetString" TextId="TXT_Out_DataItem_32" Length="32" UseAsBits="false" />
+								</Output>
+							</IOData>
+							<ModuleInfo>
+								<Name TextId="TXT_TextId_Mod_16" />
+								<InfoText TextId="TXT_TextId_Mod_16" />
+							</ModuleInfo>
+						</VirtualSubmoduleItem>
+					</VirtualSubmoduleList>
+				</ModuleItem>
+				<ModuleItem ID="ID_Mod_17" ModuleIdentNumber="0x00000011">
+					<ModuleInfo>
+						<Name TextId="TXT_TextId_Mod_17" />
+						<InfoText TextId="TXT_TextId_Mod_17" />
+					</ModuleInfo>
+					<VirtualSubmoduleList>
+						<VirtualSubmoduleItem ID="17" SubmoduleIdentNumber="0x00000011" API="0">
+							<IOData IOPS_Length="1" IOCS_Length="1">
+								<Output Consistency="All items consistency">
+									<DataItem DataType="OctetString" TextId="TXT_Out_DataItem_64" Length="64" UseAsBits="false" />
+								</Output>
+							</IOData>
+							<ModuleInfo>
+								<Name TextId="TXT_TextId_Mod_17" />
+								<InfoText TextId="TXT_TextId_Mod_17" />
+							</ModuleInfo>
+						</VirtualSubmoduleItem>
+					</VirtualSubmoduleList>
+				</ModuleItem>
+				<ModuleItem ID="ID_Mod_18" ModuleIdentNumber="0x00000012">
+					<ModuleInfo>
+						<Name TextId="TXT_TextId_Mod_18" />
+						<InfoText TextId="TXT_TextId_Mod_18" />
+					</ModuleInfo>
+					<VirtualSubmoduleList>
+						<VirtualSubmoduleItem ID="18" SubmoduleIdentNumber="0x00000012" API="0">
+							<IOData IOPS_Length="1" IOCS_Length="1">
+								<Output Consistency="All items consistency">
+									<DataItem DataType="OctetString" TextId="TXT_Out_DataItem_256" Length="256" UseAsBits="false" />
+								</Output>
+							</IOData>
+							<ModuleInfo>
+								<Name TextId="TXT_TextId_Mod_18" />
+								<InfoText TextId="TXT_TextId_Mod_18" />
+							</ModuleInfo>
+						</VirtualSubmoduleItem>
+					</VirtualSubmoduleList>
+				</ModuleItem>
+				<ModuleItem ID="ID_Mod_19" ModuleIdentNumber="0x00000013">
+					<ModuleInfo>
+						<Name TextId="TXT_TextId_Mod_19" />
+						<InfoText TextId="TXT_TextId_Mod_19" />
+					</ModuleInfo>
+					<VirtualSubmoduleList>
+						<VirtualSubmoduleItem ID="19" SubmoduleIdentNumber="0x00000013" API="0">
+							<IOData IOPS_Length="1" IOCS_Length="1">
+								<Output Consistency="All items consistency">
+									<DataItem DataType="OctetString" TextId="TXT_Out_DataItem_512" Length="512" UseAsBits="false" />
+								</Output>
+							</IOData>
+							<ModuleInfo>
+								<Name TextId="TXT_TextId_Mod_19" />
+								<InfoText TextId="TXT_TextId_Mod_19" />
+							</ModuleInfo>
+						</VirtualSubmoduleItem>
+					</VirtualSubmoduleList>
+				</ModuleItem>
+			</ModuleList>
+			<ValueList>
+				<ValueItem ID="VAL_DAP_Config">
+					<Assignments>
+						<Assign Content="0" TextId="TXT_ID_DAP_Config_0" />
+						<Assign Content="1" TextId="TXT_ID_DAP_Config_1" />
+					</Assignments>
+				</ValueItem>
+				<ValueItem ID="VAL_PORT_Config">
+					<Assignments>
+						<Assign Content="0" TextId="TXT_ID_PORT_Config_0" />
+						<Assign Content="1" TextId="TXT_ID_PORT_Config_1" />
+					</Assignments>
+				</ValueItem>
+			</ValueList>
+			<!--<ChannelDiagList></ChannelDiagList>-->
+			<GraphicsList>
+				<GraphicItem ID="ID_Graph_weQube" GraphicFile="GSDML-01D3-0301-weQube" />
+			</GraphicsList>
+			<CategoryList>
+				<CategoryItem ID="ID_In" TextId="TXT_In" />
+				<CategoryItem ID="ID_Out" TextId="TXT_Out" />
+				<CategoryItem ID="ID_InOut" TextId="TXT_InOut" />
+			</CategoryList>
+			<ExternalTextList>
+				<PrimaryLanguage>
+					<Text TextId="wenglor sensoric gmbh" Value="wenglor sensoric gmbh" />
+					<Text TextId="TXT_weQube V1.4" Value="weQube V1.4" />
+					<Text TextId="TXT_weQube" Value="weQube" />
+					<Text TextId="TXT_In" Value="DI" />
+					<Text TextId="TXT_Out" Value="DO" />
+					<Text TextId="TXT_InOut" Value="DI/DO" />
+					<Text TextId="TXT_ID_Subslot_8000" Value="X1" />
+					<Text TextId="TXT_ID_Subslot_8001" Value="X1 P1" />
+					<Text TextId="TXT_ID_Subslot_8002" Value="X1 P2" />
+					<Text TextId="TXT_ID_InterfaceInfo" Value="PN-IO" />
+					<Text TextId="TXT_ID_Port1" Value="Port 1" />
+					<Text TextId="TXT_ID_Port2" Value="Port 2" />
+					<!--DAP 1, 2, 3, 4 ,5 -->
+					<Text TextId="TXT_ID_DEVIDENT_InfoTxt" Value="PROFINET IO Device with 1 Ethernet Port" />
+					<Text TextId="TXT_ID_InfoTxt_DAP1" Value="PROFINET IO device" />
+					<Text TextId="TXT_ID_InfoTxt_DAP2" Value="PROFINET IO device; PROFINET interface" />
+					<!--module name-->
+					<Text TextId="TXT_TextId_Mod_1" Value="16 Byte Input (4 DINT)" />
+					<Text TextId="TXT_TextId_Mod_2" Value="16 Byte Input (4 REAL)" />
+					<Text TextId="TXT_TextId_Mod_3" Value="1 Byte Input (8 BOOL)" />
+					<Text TextId="TXT_TextId_Mod_4" Value="128 Byte Input (2 CHAR[64])" />
+					<Text TextId="TXT_TextId_Mod_5" Value="1024 Byte Input (1 CHAR[1024])" />
+					<Text TextId="TXT_TextId_Mod_6" Value="16 Byte Output (4 DINT)" />
+					<Text TextId="TXT_TextId_Mod_7" Value="16 Byte Output (4 REAL)" />
+					<Text TextId="TXT_TextId_Mod_8" Value="1 Byte Output (8 BOOL)" />
+					<Text TextId="TXT_TextId_Mod_9" Value="128 Byte Output (2 CHAR[64])" />
+					<Text TextId="TXT_TextId_Mod_10" Value="Project Number" />
+					<Text TextId="TXT_TextId_Mod_11" Value="State" />
+					<Text TextId="TXT_TextId_Mod_12" Value="32 Byte Input (2 CHAR[16])" />
+					<Text TextId="TXT_TextId_Mod_13" Value="64 Byte Input (2 CHAR[32])" />
+					<Text TextId="TXT_TextId_Mod_14" Value="256 Byte Input (2 CHAR[128])" />
+					<Text TextId="TXT_TextId_Mod_15" Value="512 Byte Input (2 CHAR[256])" />
+					<Text TextId="TXT_TextId_Mod_16" Value="32 Byte Output (2 CHAR[16])" />
+					<Text TextId="TXT_TextId_Mod_17" Value="64 Byte Output (2 CHAR[32])" />
+					<Text TextId="TXT_TextId_Mod_18" Value="256 Byte Output (2 CHAR[128])" />
+					<Text TextId="TXT_TextId_Mod_19" Value="512 Byte Output (2 CHAR[256])" />
+					<!--dataitem name-->
+					<Text TextId="TXT_In_DataItem_1" Value="Input 1 Byte" />
+					<Text TextId="TXT_In_DataItem_4" Value="Input 4 Byte" />
+					<Text TextId="TXT_In_DataItem_16" Value="Input 16 Byte" />
+					<Text TextId="TXT_In_DataItem_32" Value="Input 32 Byte" />
+					<Text TextId="TXT_In_DataItem_64" Value="Input 64 Byte" />
+					<Text TextId="TXT_In_DataItem_128" Value="Input 128 Byte" />
+					<Text TextId="TXT_In_DataItem_256" Value="Input 256 Byte" />
+					<Text TextId="TXT_In_DataItem_512" Value="Input 512 Byte" />
+					<Text TextId="TXT_In_DataItem_1024" Value="Input 1024 Byte" />
+					<Text TextId="TXT_Out_DataItem_1" Value="Output 1 Byte" />
+					<Text TextId="TXT_Out_DataItem_16" Value="Output 16 Byte" />
+					<Text TextId="TXT_Out_DataItem_32" Value="Output 32 Byte" />
+					<Text TextId="TXT_Out_DataItem_64" Value="Output 64 Byte" />
+					<Text TextId="TXT_Out_DataItem_128" Value="Output 128 Byte" />
+					<Text TextId="TXT_Out_DataItem_256" Value="Output 256 Byte" />
+					<Text TextId="TXT_Out_DataItem_512" Value="Output 512 Byte" />
+					<!-- DAP configuration -->
+					<Text TextId="TXT_TextId_DAP_Config" Value="DAP Configuration" />
+					<Text TextId="TXT_DAP_Config_Test1" Value="DAP Configuration Test1" />
+					<Text TextId="TXT_DAP_Config_Test2" Value="DAP Configuration Test2" />
+					<Text TextId="TXT_DAP_Config_Test3" Value="DAP Configuration Test3" />
+					<Text TextId="TXT_ID_DAP_Config_0" Value="DAP Config disable" />
+					<Text TextId="TXT_ID_DAP_Config_1" Value="DAP Config enable" />
+					<!-- PORT configuration -->
+					<Text TextId="TXT_TextId_PORT_Config" Value="PORT Configuration" />
+					<Text TextId="TXT_PORT_Config_Test1" Value="PORT Configuration Test1" />
+					<Text TextId="TXT_PORT_Config_Test2" Value="PORT Configuration Test2" />
+					<Text TextId="TXT_PORT_Config_Test3" Value="PORT Configuration Test3" />
+					<Text TextId="TXT_ID_PORT_Config_0" Value="PORT Config disable" />
+					<Text TextId="TXT_ID_PORT_Config_1" Value="PORT Config enable" />
+				</PrimaryLanguage>
+				<Language xml:lang="de">
+					<!--without translation-->
+					<Text TextId="wenglor sensoric gmbh" Value="wenglor sensoric gmbh" />
+					<Text TextId="TXT_weQube V1.4" Value="weQube V1.4" />
+					<Text TextId="TXT_weQube" Value="weQube" />
+					<Text TextId="TXT_In" Value="DI" />
+					<Text TextId="TXT_Out" Value="DO" />
+					<Text TextId="TXT_InOut" Value="DI/DO" />
+					<Text TextId="TXT_ID_Subslot_8000" Value="X1" />
+					<Text TextId="TXT_ID_Subslot_8001" Value="X1 P1" />
+					<Text TextId="TXT_ID_Subslot_8002" Value="X1 P2" />
+					<Text TextId="TXT_ID_InterfaceInfo" Value="PN-IO" />
+					<Text TextId="TXT_ID_Port1" Value="Port 1" />
+					<Text TextId="TXT_ID_Port2" Value="Port 2" />
+					<!--  DAPs  -->
+					<Text TextId="TXT_ID_DEVIDENT_InfoTxt" Value="PROFINET IO mit 1 Ethernet Port" />
+					<Text TextId="TXT_ID_InfoTxt_DAP1" Value="PROFINET IO-Device" />
+					<Text TextId="TXT_ID_InfoTxt_DAP2" Value="PROFINET IO-Device; PROFINET Schnittstelle" />
+					<!--module name-->
+					<Text TextId="TXT_TextId_Mod_1" Value="16 Byte Eingang (4 DINT)" />
+					<Text TextId="TXT_TextId_Mod_2" Value="16 Byte Eingang (4 REAL)" />
+					<Text TextId="TXT_TextId_Mod_3" Value="1 Byte Eingang (8 BOOL)" />
+					<Text TextId="TXT_TextId_Mod_4" Value="128 Byte Eingang (2 CHAR[64])" />
+					<Text TextId="TXT_TextId_Mod_5" Value="1024 Byte Eingang (1 CHAR[1024])" />
+					<Text TextId="TXT_TextId_Mod_6" Value="16 Byte Ausgang (4 DINT)" />
+					<Text TextId="TXT_TextId_Mod_7" Value="16 Byte Ausgang (4 REAL)" />
+					<Text TextId="TXT_TextId_Mod_8" Value="1 Byte Ausgang (8 BOOL)" />
+					<Text TextId="TXT_TextId_Mod_9" Value="128 Byte Ausgang (2 CHAR[64])" />
+					<Text TextId="TXT_TextId_Mod_10" Value="Projektnummer" />
+					<Text TextId="TXT_TextId_Mod_11" Value="Status" />
+					<Text TextId="TXT_TextId_Mod_12" Value="32 Byte Eingang (2 CHAR[16])" />
+					<Text TextId="TXT_TextId_Mod_13" Value="64 Byte Eingang (2 CHAR[32])" />
+					<Text TextId="TXT_TextId_Mod_14" Value="256 Byte Eingang (2 CHAR[128])" />
+					<Text TextId="TXT_TextId_Mod_15" Value="512 Byte Eingang (2 CHAR[256])" />
+					<Text TextId="TXT_TextId_Mod_16" Value="32 Byte Ausgang (2 CHAR[16])" />
+					<Text TextId="TXT_TextId_Mod_17" Value="64 Byte Ausgang (2 CHAR[32])" />
+					<Text TextId="TXT_TextId_Mod_18" Value="256 Byte Ausgang (2 CHAR[128])" />
+					<Text TextId="TXT_TextId_Mod_19" Value="512 Byte Ausgang (2 CHAR[256])" />
+					<!--dataitem name-->
+					<Text TextId="TXT_In_DataItem_1" Value="Eingang 1 Byte" />
+					<Text TextId="TXT_In_DataItem_4" Value="Eingang 4 Byte" />
+					<Text TextId="TXT_In_DataItem_16" Value="Eingang 16 Byte" />
+					<Text TextId="TXT_In_DataItem_32" Value="Eingang 32 Byte" />
+					<Text TextId="TXT_In_DataItem_64" Value="Eingang 64 Byte" />
+					<Text TextId="TXT_In_DataItem_128" Value="Eingang 128 Byte" />
+					<Text TextId="TXT_In_DataItem_256" Value="Eingang 256 Byte" />
+					<Text TextId="TXT_In_DataItem_512" Value="Eingang 512 Byte" />
+					<Text TextId="TXT_In_DataItem_1024" Value="Eingang 1024 Byte" />
+					<Text TextId="TXT_Out_DataItem_1" Value="Ausgang 1 Byte" />
+					<Text TextId="TXT_Out_DataItem_16" Value="Ausgang 16 Byte" />
+					<Text TextId="TXT_Out_DataItem_32" Value="Ausgang 32 Byte" />
+					<Text TextId="TXT_Out_DataItem_64" Value="Ausgang 64 Byte" />
+					<Text TextId="TXT_Out_DataItem_128" Value="Ausgang 128 Byte" />
+					<Text TextId="TXT_Out_DataItem_256" Value="Ausgang 256 Byte" />
+					<Text TextId="TXT_Out_DataItem_512" Value="Ausgang 512 Byte" />
+					<!-- DAP configuration -->
+					<Text TextId="TXT_TextId_DAP_Config" Value="DAP Konfiguration" />
+					<Text TextId="TXT_DAP_Config_Test1" Value="DAP Konfiguration Test1" />
+					<Text TextId="TXT_DAP_Config_Test2" Value="DAP Konfiguration Test2" />
+					<Text TextId="TXT_DAP_Config_Test3" Value="DAP Konfiguration Test3" />
+					<Text TextId="TXT_ID_DAP_Config_0" Value="DAP Config disable" />
+					<Text TextId="TXT_ID_DAP_Config_1" Value="DAP Config enable" />
+					<!-- Port configuration -->
+					<Text TextId="TXT_TextId_PORT_Config" Value="PORT Konfiguration" />
+					<Text TextId="TXT_PORT_Config_Test1" Value="PORT Konfiguration Test1" />
+					<Text TextId="TXT_PORT_Config_Test2" Value="PORT Konfiguration Test2" />
+					<Text TextId="TXT_PORT_Config_Test3" Value="PORT Konfiguration Test3" />
+					<Text TextId="TXT_ID_PORT_Config_0" Value="PORT Config disable" />
+					<Text TextId="TXT_ID_PORT_Config_1" Value="PORT Config enable" />
+					<!--errortype name-->
+				</Language>
+			</ExternalTextList>
+		</ApplicationProcess>
+	</ProfileBody>
+</ISO15745Profile>

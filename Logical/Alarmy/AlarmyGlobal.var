@@ -1,0 +1,24 @@
+VAR
+	NastalaPorucha : BOOL;
+	P1_AlarmyVizu : AlarmyVizu_typ;
+	P2_AlarmyVizu : AlarmyVizu_typ;
+	P34_AlarmyVizu : AlarmyVizu_typ;
+	P1_PoruchaST1 : BOOL; (*Výtah*)
+	P1_PoruchaST2 : BOOL; (*Šrobovanie*)
+	P2_PoruchaST1 : BOOL; (*Zakladanie tesnenia*)
+	P2_PoruchaST2 : BOOL; (*Skrutkovanie matic*)
+	P2_PoruchaST3 : BOOL; (*Šrobovanie*)
+	P2_PoruchaST4 : BOOL; (*Zvaranie*)
+	P3_PoruchaST1 : BOOL;
+	P3_PoruchaST2 : BOOL;
+	P3_PoruchaST3 : BOOL;
+	P4_PoruchaST1 : BOOL;
+	P4_PoruchaST2 : BOOL;
+	P4_PoruchaST3 : BOOL;
+	P4_PoruchaST4 : BOOL;
+	P1_Alarmy : ARRAY[100..199] OF BOOL;
+	P2_Alarmy : ARRAY[200..299] OF BOOL;
+	P34_Alarmy : ARRAY[300..499] OF BOOL;
+	MpAlarmXCore_1 : MpAlarmXCore;
+	MpAlarmXHistory_1 : MpAlarmXHistory;
+END_VAR

@@ -1,0 +1,22 @@
+VAR
+	SC_OvlCentrovacky : SequenceControlTyp;
+	Centrovacku_VYSUN : BOOL;
+	Centrovacku_ZASUN : BOOL;
+	PrecitaneCisloPaletky : STRING[3];
+	ServerOdpoved_StavPowerCP : STRING[5];
+	i : USINT;
+	TEST : BOOL;
+	PocetDopytovNaServer : USINT;
+	TestovaciKus : BOOL;
+	Revork : BOOL;
+	Triger_0 : BOOL;
+	Triger_1 : BOOL;
+	CisloFotky : USINT;
+	Round_0 : Round;
+	Round_1 : Round;
+	Round_2 : Round;
+	a : USINT;
+	VysunutieSkrutkovacky_OK : BOOL;
+	PocetTrigrovKamery : USINT;
+	DoskrutkovaniePriPoruche : BOOL;
+END_VAR

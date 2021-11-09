@@ -1,0 +1,18 @@
+(*
+
+         projekt: SKTcp - Panasonic
+       
+         autor: Ing. Milan Jun
+         company: B+R Automatizace spol. s r.o.
+         date: 10.09.2020
+
+*)
+VAR CONSTANT
+	MAX_CHARACTER : UINT := 1;
+	MAX_STRING : UINT := 5000;
+	MAX_STRING_MINUS_ONE : UINT := 4999;
+END_VAR
+(**)
+VAR CONSTANT
+	MAX_TRACE_LOGGER_ENTIRES : USINT := 90;
+END_VAR

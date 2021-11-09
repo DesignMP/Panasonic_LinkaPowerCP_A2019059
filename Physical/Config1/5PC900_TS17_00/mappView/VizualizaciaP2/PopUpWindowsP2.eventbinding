@@ -1,0 +1,1172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="PopUpWindowsP2_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bindings>
+    
+		<!--Ak je premenna ZobrazPopUp_1 TRUE tak sa otvorí vyskakovacie okno s tlačítkami OK a CANCEL ak je stlačené tlačítko OK tak zruší premennu ZobrazPopUp_1 -->
+		
+		<EventBinding>
+			<Source xsi:type="opcUa.Event" refId="::AsGlobalPV:P2_Vizu.ZobrazPopUp_1" event="ValueChanged" />
+			<EventHandler condition="newValue = true">
+				<Action>
+					<Target xsi:type="clientSystem.Action">
+						<Method xsi:type="clientSystem.Action.ShowMessageBox" type="OKCancel" message="Teplota je príliš vysoká !!!" header="Upozornenie!" icon="Warning"  />
+					</Target>
+					<Result>
+						<!--Bolo stlačené tlačítko OK-->
+						<ResultHandler condition="result = 4"> 
+							<Action>
+								<Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Vizu.ZobrazPopUp_1" >
+									<Method xsi:type="opcUa.NodeAction.SetValueBool" value="false" />
+								</Target>
+							</Action>
+						</ResultHandler>
+					</Result>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		
+		
+		<!--Ak je premenna ZobrazPopUp_2 TRUE tak sa otvorí vyskakovacie okno s tlačítkami YES a NO ak je stlačené tlačítko YES tak sa nasetuje premenná PopUpButtonYES a ak sa stlačí tlačitko NO tak sa nasetuje premenna PopUpButtonNO  -->
+		
+		<EventBinding>
+			<Source xsi:type="opcUa.Event" refId="::AsGlobalPV:P2_Vizu.ZobrazPopUp_2" event="ValueChanged" />
+			<EventHandler condition="newValue = true">
+				<Action>
+					<Target xsi:type="clientSystem.Action">
+						<Method xsi:type="clientSystem.Action.ShowMessageBox" type="YesNo" message="Má sa spustiť zariadenie od začiatku ?" header="Otázka ?" icon="Question"  />
+					</Target>
+					<Result>
+						<!--Bolo stlačené tlačítko YES-->
+						<ResultHandler condition="result = 1"> 
+							<Parallel>
+								<Action>
+									<Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Vizu.ZobrazPopUp_2" >
+										<Method xsi:type="opcUa.NodeAction.SetValueBool" value="false" />
+									</Target>
+								</Action>
+								<Action>
+									<Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Vizu.PopUpButtonYES" >
+										<Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+									</Target>
+								</Action>
+							</Parallel>
+						</ResultHandler>
+						<!--Bolo stlačené tlačítko NO-->
+						<ResultHandler condition="result = 2"> 
+							<Parallel>
+								<Action>
+									<Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Vizu.ZobrazPopUp_2" >
+										<Method xsi:type="opcUa.NodeAction.SetValueBool" value="false" />
+									</Target>
+								</Action>
+								<Action>
+									<Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Vizu.PopUpButtonNO" >
+										<Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+									</Target>
+								</Action>
+							</Parallel>
+						</ResultHandler>	
+					</Result>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		
+		
+	
+		
+		<!--****************************************Pracovisko 3*************************************-->
+        <!--***************************Vyskakovacie okno Hlasenie 1***************************-->
+        <EventBinding>
+            <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:P2_Vizu.ZobrazHL1_ST3" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="Hlasenie1_ST3" horizontalPos="center" verticalPos="middle" headerText="Info" />
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="Hlasenie1_ST3" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+		
+                
+        
+        <!--***************************Vyskakovacie okno Hlasenie 2***************************-->
+        <EventBinding>
+            <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:P2_Vizu.ZobrazHL2_ST3" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="Hlasenie2_ST3" horizontalPos="center" verticalPos="middle" headerText="Info" />
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="Hlasenie2_ST3" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+		
+               
+        
+        <!--***************************Vyskakovacie okno Hlasenie 3***************************-->
+        <EventBinding>
+            <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:P2_Vizu.ZobrazHL3_ST3" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="Hlasenie3_ST3" horizontalPos="center" verticalPos="middle" headerText="Info" />
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="Hlasenie3_ST3" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+		
+               
+        
+        <!--***************************Vyskakovacie okno Hlasenie 4***************************-->
+        <EventBinding>
+            <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:P2_Vizu.ZobrazHL4_ST3" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="Hlasenie4_ST3" horizontalPos="center" verticalPos="middle" headerText="Info" />
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="Hlasenie4_ST3" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+		
+               
+        <!--***************************Vyskakovacie okno Hlasenie 5***************************-->
+        <EventBinding>
+            <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:P2_Vizu.ZobrazHL5_ST3" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="Hlasenie5_ST3" horizontalPos="center" verticalPos="middle" headerText="Info" />
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="Hlasenie5_ST3" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+		
+               
+        
+        <!--***************************Vyskakovacie okno Hlasenie 6***************************-->
+        <EventBinding>
+            <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:P2_Vizu.ZobrazHL6_ST3" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="Hlasenie6_ST3" horizontalPos="center" verticalPos="middle" headerText="Info" />
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="Hlasenie6_ST3" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+		
+          
+        <!--***************************Vyskakovacie okno Hlasenie 7***************************-->
+        <EventBinding>
+            <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:P2_Vizu.ZobrazHL7_ST3" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="Hlasenie7_ST3" horizontalPos="center" verticalPos="middle" headerText="Info" />
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="Hlasenie7_ST3" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+		
+                
+		
+        <EventBinding id="AreaHlasenie7_ST3.Button_ZaklTesnenia_IgnorujKameru.Click">
+            <Source contentRefId="AreaHlasenie7_ST3" widgetRefId="Button_ZaklTesnenia_IgnorujKameru" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+				<Action>
+					<Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P2_ZaklTesn_KAM_Result_Ignoruj" >
+						<Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+        <!--***************************Vyskakovacie okno Hlasenie 8***************************-->
+        <EventBinding>
+            <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:P2_Vizu.ZobrazHL8_ST3" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="Hlasenie8_ST3" horizontalPos="center" verticalPos="middle" headerText="Info" />
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="Hlasenie8_ST3" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+		
+       
+        
+        <!--***************************Vyskakovacie okno Hlasenie 9***************************-->
+        <EventBinding>
+            <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:P2_Vizu.ZobrazHL9_ST3" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="Hlasenie9_ST3" horizontalPos="center" verticalPos="middle" headerText="Info" />
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="Hlasenie9_ST3" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+		
+       
+		
+        <!--***************************Vyskakovacie okno Hlasenie 10***************************-->
+        <EventBinding>
+            <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:P2_Vizu.ZobrazHL10_ST3" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="Hlasenie10_ST3" horizontalPos="center" verticalPos="middle" headerText="Info" />
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="Hlasenie10_ST3" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+		
+       	
+        
+        <!--***************************Vyskakovacie okno Hlasenie 11***************************-->
+        <EventBinding>
+            <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:P2_Vizu.ZobrazHL11_ST3" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="Hlasenie11_ST3" horizontalPos="center" verticalPos="middle" headerText="Info" />
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="Hlasenie11_ST3" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+		
+       
+        
+
+        <!--***************************Vyskakovacie okno Hlasenie 12***************************-->
+        <EventBinding>
+            <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:P2_Vizu.ZobrazHL12_ST3" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="Hlasenie12_ST3" horizontalPos="center" verticalPos="middle" headerText="Info" />
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="Hlasenie12_ST3" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+		
+               
+   
+        <!--***************************Vyskakovacie okno Hlasenie 13***************************-->
+        <EventBinding>
+            <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:P2_Vizu.ZobrazHL13_ST3" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="Hlasenie13_ST3" horizontalPos="center" verticalPos="middle" headerText="Info" />
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="Hlasenie13_ST3" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+		
+                
+        
+        
+        <!--Tlačítko - Opatovný dopyt na Panatrace-->
+        <EventBinding id="AreaHlasenie13_ST3.Button_OpatovnyDopyt.Click">
+            <Source contentRefId="AreaHlasenie13_ST3" widgetRefId="Button_OpatovnyDopyt" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:TRCB_P2_ZaklTesn_OpatovnyDopyt" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        
+        
+        <!--Tlačítko - Označ paletku NG-->
+        <EventBinding id="AreaHlasenie13_ST3.Button_OznacPaletkuNG.Click">
+            <Source contentRefId="AreaHlasenie13_ST3" widgetRefId="Button_OznacPaletkuNG" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:TRCB_P2_ZaklTesn_PaletkaNG" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        
+        
+        
+        <!--***************************Vyskakovacie okno Hlasenie 14***************************-->
+        <EventBinding>
+            <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:P2_Vizu.ZobrazHL14_ST3" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="Hlasenie14_ST3" horizontalPos="center" verticalPos="middle" headerText="Info" />
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="Hlasenie14_ST3" />
+                    </Target>
+                </Action>
+            </EventHandler> 
+        </EventBinding>
+		
+          
+		<!--Tlačítko - Označ paletku NG-->
+		<EventBinding id="AreaHlasenie14_ST3.Button_OznacPaletkuNG.Click">
+			<Source contentRefId="AreaHlasenie14_ST3" widgetRefId="Button_OznacPaletkuNG" xsi:type="widgets.brease.Button.Event" event="Click" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P2_StoperZaklTesnenia.STAV.ObsluhaOznacilaPaletku_NG" >
+						<Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+        
+        
+        
+        
+        
+        
+        <!--****************************************Pracovisko 4*************************************-->
+        <!--***************************Vyskakovacie okno Hlasenie 1***************************-->
+        <EventBinding>
+            <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:P2_Vizu.ZobrazHL1_ST4" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="Hlasenie1_ST4" horizontalPos="center" verticalPos="middle" headerText="Info" />
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="Hlasenie1_ST4" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+		
+                
+        
+        <!--Tlačítko - Označ paletku OK-->
+        <EventBinding id="AreaHlasenie1_ST4.Button_OznacPaletkuOK.Click">
+            <Source contentRefId="AreaHlasenie1_ST4" widgetRefId="Button_OznacPaletkuOK" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Maticov_KAM_Result_OK" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        
+        <!--Tlačítko - Označ paletku NG-->
+        <EventBinding id="AreaHlasenie1_ST4.Button_OznacPaletkuNG.Click">
+            <Source contentRefId="AreaHlasenie1_ST4" widgetRefId="Button_OznacPaletkuNG" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Maticov_KAM_Result_NG" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        
+         
+        <!--***************************Vyskakovacie okno Hlasenie 2***************************-->
+        <EventBinding>
+            <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:P2_Vizu.ZobrazHL2_ST4" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="Hlasenie2_ST4" horizontalPos="center" verticalPos="middle" headerText="Info" />
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="Hlasenie2_ST4" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+		
+               
+        
+        <!--Tlačítko - Označ paletku OK-->
+        <EventBinding id="AreaHlasenie2_ST4.Button_OznacPaletkuOK.Click">
+            <Source contentRefId="AreaHlasenie2_ST4" widgetRefId="Button_OznacPaletkuOK" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Maticov_KAM_Result_OK" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        
+        <!--Tlačítko - Označ paletku NG-->
+        <EventBinding id="AreaHlasenie2_ST4.Button_OznacPaletkuNG.Click">
+            <Source contentRefId="AreaHlasenie2_ST4" widgetRefId="Button_OznacPaletkuNG" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Maticov_KAM_Result_NG" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+         
+        
+        
+        
+        
+        <!--***************************Vyskakovacie okno Hlasenie 3***************************-->
+        <!--Otvorenie okna-->
+        <EventBinding>
+            <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:P2_Vizu.ZobrazHL3_ST4" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="Hlasenie3_ST4" horizontalPos="center" verticalPos="middle" headerText="Info" />
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="Hlasenie3_ST4" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+		
+             
+        
+        
+        <!--Tlačítko - Opatovný dopyt na Panatrace-->
+        <EventBinding id="AreaHlasenie3_ST4.Button_OpatovnyDopyt.Click">
+            <Source contentRefId="AreaHlasenie3_ST4" widgetRefId="Button_OpatovnyDopyt" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:TRCB_P2_Maticov_OpatovnyDopyt" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        
+        
+        <!--Tlačítko - Označ paletku NG-->
+        <EventBinding id="AreaHlasenie3_ST4.Button_OznacPaletkuNG.Click">
+            <Source contentRefId="AreaHlasenie3_ST4" widgetRefId="Button_OznacPaletkuNG" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:TRCB_P2_Maticov_PaletkaNG" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+       
+        <!--****************************************Pracovisko 5*************************************-->
+        <!--***************************Vyskakovacie okno Hlasenie 1***************************-->
+        <EventBinding>
+            <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:P2_Vizu.ZobrazHL1_ST5" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="Hlasenie1_ST5" horizontalPos="center" verticalPos="middle" headerText="Info" />
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="Hlasenie1_ST5" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+		
+               
+        
+        <!--Tlačítko - Označ paletku OK-->
+        <EventBinding id="AreaHlasenie1_ST5.Button_OznacPaletkuOK.Click">
+            <Source contentRefId="AreaHlasenie1_ST5" widgetRefId="Button_OznacPaletkuOK" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Srobov_KAM_Result_OK" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        
+        <!--Tlačítko - Označ paletku NG-->
+        <EventBinding id="AreaHlasenie1_ST5.Button_OznacPaletkuNG.Click">
+            <Source contentRefId="AreaHlasenie1_ST5" widgetRefId="Button_OznacPaletkuNG" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Srobov_KAM_Result_NG" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        
+         
+        <!--***************************Vyskakovacie okno Hlasenie 2***************************-->
+        <EventBinding>
+            <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:P2_Vizu.ZobrazHL2_ST5" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="Hlasenie2_ST5" horizontalPos="center" verticalPos="middle" headerText="Info" />
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="Hlasenie2_ST5" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+		
+                
+        
+        <!--Tlačítko - Označ paletku OK-->
+        <EventBinding id="AreaHlasenie2_ST5.Button_OznacPaletkuOK.Click">
+            <Source contentRefId="AreaHlasenie2_ST5" widgetRefId="Button_OznacPaletkuOK" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Srobov_KAM_Result_OK" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        
+        <!--Tlačítko - Označ paletku NG-->
+        <EventBinding id="AreaHlasenie2_ST5.Button_OznacPaletkuNG.Click">
+            <Source contentRefId="AreaHlasenie2_ST5" widgetRefId="Button_OznacPaletkuNG" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Srobov_KAM_Result_NG" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        
+        
+        <!--***************************Vyskakovacie okno Hlasenie 3***************************-->
+        <!--Otvorenie okna-->
+        <EventBinding>
+            <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:P2_Vizu.ZobrazHL3_ST5" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="Hlasenie3_ST5" horizontalPos="center" verticalPos="middle" headerText="Info" />
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="Hlasenie3_ST5" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+		
+               
+        
+        <!--Tlačítko - Označ paletku OK-->
+        <EventBinding id="AreaHlasenie3_ST5.Button_OznacPaletkuOK.Click">
+            <Source contentRefId="AreaHlasenie3_ST5" widgetRefId="Button_OznacPaletkuOK" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Srobov_KAM_Result_OK" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        
+        <!--Tlačítko - Označ paletku NG-->
+        <EventBinding id="AreaHlasenie3_ST5.Button_OznacPaletkuNG.Click">
+            <Source contentRefId="AreaHlasenie3_ST5" widgetRefId="Button_OznacPaletkuNG" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Srobov_KAM_Result_NG" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        
+        
+        
+        <!--***************************Vyskakovacie okno Hlasenie 4***************************-->
+        <EventBinding>
+            <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:P2_Vizu.ZobrazHL4_ST5" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="Hlasenie4_ST5" horizontalPos="center" verticalPos="middle" headerText="Info" />
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="Hlasenie4_ST5" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+		
+        
+        
+        
+        
+        <!--Tlačítko - Opatovný dopyt na Panatrace-->
+        <EventBinding id="AreaHlasenie4_ST5.Button_OpatovnyDopyt.Click">
+            <Source contentRefId="AreaHlasenie4_ST5" widgetRefId="Button_OpatovnyDopyt" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:TRCB_P2_Srobov_OpatovnyDopyt" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        
+        
+        <!--Tlačítko - Označ paletku NG-->
+        <EventBinding id="AreaHlasenie4_ST5.Button_OznacPaletkuNG.Click">
+            <Source contentRefId="AreaHlasenie4_ST5" widgetRefId="Button_OznacPaletkuNG" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:TRCB_P2_Srobov_PaletkaNG" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <!--****************************************Pracovisko 6*************************************-->
+        <!--***************************Vyskakovacie okno Hlasenie 1***************************-->
+        <EventBinding>
+            <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:P2_Vizu.ZobrazHL1_ST6" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="Hlasenie1_ST6" horizontalPos="center" verticalPos="middle" headerText="Info" />
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="Hlasenie1_ST6" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+		
+                
+        
+        <!--Tlačítko - Označ paletku OK-->
+        <EventBinding id="AreaHlasenie1_ST6.Button_OznacPaletkuOK.Click">
+            <Source contentRefId="AreaHlasenie1_ST6" widgetRefId="Button_OznacPaletkuOK" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Zvaranie_KAM_Result_OK" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        
+        <!--Tlačítko - Označ paletku NG-->
+        <EventBinding id="AreaHlasenie1_ST6.Button_OznacPaletkuNG.Click">
+            <Source contentRefId="AreaHlasenie1_ST6" widgetRefId="Button_OznacPaletkuNG" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Zvaranie_KAM_Result_NG" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        
+         
+        <!--***************************Vyskakovacie okno Hlasenie 2***************************-->
+        <EventBinding>
+            <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:P2_Vizu.ZobrazHL2_ST6" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="Hlasenie2_ST6" horizontalPos="center" verticalPos="middle" headerText="Info" />
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="Hlasenie2_ST6" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+		
+               
+        
+        <!--Tlačítko - Označ paletku OK-->
+        <EventBinding id="AreaHlasenie2_ST6.Button_OznacPaletkuOK.Click">
+            <Source contentRefId="AreaHlasenie2_ST6" widgetRefId="Button_OznacPaletkuOK" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Zvaranie_KAM_Result_OK" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        
+        <!--Tlačítko - Označ paletku NG-->
+        <EventBinding id="AreaHlasenie2_ST6.Button_OznacPaletkuNG.Click">
+            <Source contentRefId="AreaHlasenie2_ST6" widgetRefId="Button_OznacPaletkuNG" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Zvaranie_KAM_Result_NG" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        
+        
+        <!--***************************Vyskakovacie okno Hlasenie 3***************************-->
+        <EventBinding>
+            <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:P2_Vizu.ZobrazHL3_ST6" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="Hlasenie3_ST6" horizontalPos="center" verticalPos="middle" headerText="Info" />
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="Hlasenie3_ST6" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+		
+                
+        
+        <!--Tlačítko - Označ paletku OK-->
+        <EventBinding id="AreaHlasenie3_ST6.Button_OznacPaletkuOK.Click">
+            <Source contentRefId="AreaHlasenie3_ST6" widgetRefId="Button_OznacPaletkuOK" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Zvaranie_KAM_Result_OK" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        
+        <!--Tlačítko - Označ paletku NG-->
+        <EventBinding id="AreaHlasenie3_ST6.Button_OznacPaletkuNG.Click">
+            <Source contentRefId="AreaHlasenie3_ST6" widgetRefId="Button_OznacPaletkuNG" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Zvaranie_KAM_Result_NG" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+         
+        
+        <!--***************************Vyskakovacie okno Hlasenie 4***************************-->
+        <EventBinding>
+            <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:P2_Vizu.ZobrazHL4_ST6" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="Hlasenie4_ST6" horizontalPos="center" verticalPos="middle" headerText="Info" />
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="Hlasenie4_ST6" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+		
+               
+        
+        <!--Tlačítko - Označ paletku OK-->
+        <EventBinding id="AreaHlasenie4_ST6.Button_OznacPaletkuOK.Click">
+            <Source contentRefId="AreaHlasenie4_ST6" widgetRefId="Button_OznacPaletkuOK" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Zvaranie_KAM_Result_OK" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        
+        <!--Tlačítko - Označ paletku NG-->
+        <EventBinding id="AreaHlasenie4_ST6.Button_OznacPaletkuNG.Click">
+            <Source contentRefId="AreaHlasenie4_ST6" widgetRefId="Button_OznacPaletkuNG" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Zvaranie_KAM_Result_NG" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        
+        
+        <!--***************************Vyskakovacie okno Hlasenie 5***************************-->
+        <EventBinding>
+            <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:P2_Vizu.ZobrazHL5_ST6" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="Hlasenie5_ST6" horizontalPos="center" verticalPos="middle" headerText="Info" />
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="Hlasenie5_ST6" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+		
+       
+        
+        
+        <!--Tlačítko - Označ paletku OK-->
+        <EventBinding id="AreaHlasenie5_ST6.Button_OznacPaletkuOK.Click">
+            <Source contentRefId="AreaHlasenie5_ST6" widgetRefId="Button_OznacPaletkuOK" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Zvaranie_KAM_Result_OK" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        
+        <!--Tlačítko - Označ paletku NG-->
+        <EventBinding id="AreaHlasenie5_ST6.Button_OznacPaletkuNG.Click">
+            <Source contentRefId="AreaHlasenie5_ST6" widgetRefId="Button_OznacPaletkuNG" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Zvaranie_KAM_Result_NG" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        
+        
+        <!--***************************Vyskakovacie okno Hlasenie 6***************************-->
+        <EventBinding>
+            <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:P2_Vizu.ZobrazHL6_ST6" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="Hlasenie6_ST6" horizontalPos="center" verticalPos="middle" headerText="Info" />
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="Hlasenie6_ST6" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+		
+               
+        
+        <!--Tlačítko - Označ paletku OK-->
+        <EventBinding id="AreaHlasenie6_ST6.Button_OznacPaletkuOK.Click">
+            <Source contentRefId="AreaHlasenie6_ST6" widgetRefId="Button_OznacPaletkuOK" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Zvaranie_KAM_Result_OK" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        
+        <!--Tlačítko - Označ paletku NG-->
+        <EventBinding id="AreaHlasenie6_ST6.Button_OznacPaletkuNG.Click">
+            <Source contentRefId="AreaHlasenie6_ST6" widgetRefId="Button_OznacPaletkuNG" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Zvaranie_KAM_Result_NG" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        
+       
+        <!--***************************Vyskakovacie okno Hlasenie 7***************************-->
+        <EventBinding>
+            <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:P2_Vizu.ZobrazHL7_ST6" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="Hlasenie7_ST6" horizontalPos="center" verticalPos="middle" headerText="Info" />
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="Hlasenie7_ST6" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+		
+               
+        
+        <!--Tlačítko - Označ paletku OK-->
+        <EventBinding id="AreaHlasenie7_ST6.Button_OznacPaletkuOK.Click">
+            <Source contentRefId="AreaHlasenie7_ST6" widgetRefId="Button_OznacPaletkuOK" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Zvaranie_KAM_Result_OK" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        
+        <!--Tlačítko - Označ paletku NG-->
+        <EventBinding id="AreaHlasenie7_ST6.Button_OznacPaletkuNG.Click">
+            <Source contentRefId="AreaHlasenie7_ST6" widgetRefId="Button_OznacPaletkuNG" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:P2_Zvaranie_KAM_Result_NG" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        
+        
+         
+        <!--***************************Vyskakovacie okno Hlasenie 8***************************-->
+        <EventBinding>
+            <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:P2_Vizu.ZobrazHL8_ST6" event="ValueChanged" />
+            <EventHandler condition="newValue = TRUE">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="Hlasenie8_ST6" horizontalPos="center" verticalPos="middle" headerText="Info" />
+                    </Target>
+                </Action>
+            </EventHandler>
+            <EventHandler condition="NOT newValue">
+                <Action>
+                    <Target xsi:type="clientSystem.Action">
+                        <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="Hlasenie8_ST6" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+		
+               
+        
+        
+        <!--Tlačítko - Opatovný dopyt na Panatrace-->
+        <EventBinding id="AreaHlasenie8_ST6.Button_OpatovnyDopyt.Click">
+            <Source contentRefId="AreaHlasenie8_ST6" widgetRefId="Button_OpatovnyDopyt" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:TRCB_P2_Zvaranie_OpatovnyDopyt" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        
+        
+        <!--Tlačítko - Označ paletku NG-->
+        <EventBinding id="AreaHlasenie8_ST6.Button_OznacPaletkuNG.Click">
+            <Source contentRefId="AreaHlasenie8_ST6" widgetRefId="Button_OznacPaletkuNG" xsi:type="widgets.brease.Button.Event" event="Click" />
+            <EventHandler>
+                <Action>
+                    <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:TRCB_P2_Zvaranie_PaletkaNG" >
+                        <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+                    </Target>
+                </Action>
+            </EventHandler>
+        </EventBinding>
+        
+        
+        
+        
+        
+        
+        
+        
+
+    </Bindings>
+</EventBindingSet>
