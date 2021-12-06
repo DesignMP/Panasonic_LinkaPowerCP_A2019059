@@ -294,9 +294,10 @@ PROGRAM _CYCLIC
 		
             			
             IF NOT SC_KOM_Server.Switch1 THEN
-                //Kamera 16//
                 brsmemset(ADR(Report),0,SIZEOF(Report));
-               
+				brsmemset(ADR(TRCB_P4_Vytah_ST10.INPUTS.Report), 0, SIZEOF(TRCB_P4_Vytah_ST10.INPUTS.Report));
+				
+				//Kamera 16//
                 Report[0].PoradoveCislo:= '1';
                 Report[0].Popis:= 'KAM_16_KontrolaPaletky';
                 Report[0].FormatHodnoty:= '2';

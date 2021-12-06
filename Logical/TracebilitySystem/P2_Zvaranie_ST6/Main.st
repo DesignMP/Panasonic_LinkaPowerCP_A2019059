@@ -300,9 +300,11 @@ PROGRAM _CYCLIC
 		
             //Vytvorenie spravy pre report//
             IF NOT SC_KOM_Server.Switch1 THEN
-                //Zvaranie//
-                //Lavý zvar//
                 brsmemset(ADR(Report),0,SIZEOF(Report));
+				brsmemset(ADR(TRCB_P2_Zvaranie_ST6.INPUTS.Report), 0, SIZEOF(TRCB_P2_Zvaranie_ST6.INPUTS.Report));
+				
+				//Zvaranie//
+                //Lavý zvar//
                 Report[0].PoradoveCislo:= '1';
                 Report[0].Popis:= 'LavyZvar_Moment';
                 Report[0].FormatHodnoty:= '1';

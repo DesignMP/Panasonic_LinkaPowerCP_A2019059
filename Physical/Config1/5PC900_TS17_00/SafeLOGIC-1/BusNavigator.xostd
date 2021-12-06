@@ -4,7 +4,7 @@
     <GeneratorDescription Name="AutomationStudio" Version="4.10.3.60" LanguageID="1">
       <Info Name="ARVersion" Value="49102" />
       <Info Name="SafetyRelease" Value="1.10" />
-      <Info Name="Communication" Value="/IF=tcpip /LOPO=11159 /SA=1 /COMT=2500 /RT=1000 /AM=* /SDT=5 /DAIP=192.168.1.110 /REPO=11159 /ANSL=1 /PT=11169 /PORT=50000" />
+      <Info Name="Communication" Value="/IF=tcpip /LOPO=11159 /SA=1 /COMT=2500 /RT=1000 /AM=* /SDT=5 /DAIP=192.168.1.2 /REPO=11159 /ANSL=1 /PT=11169 /PORT=50000" />
     </GeneratorDescription>
     <SafetyConfigurationManager TransportSAddr="1">
       <DeviceDescription Module="X20SL81XX_110.SCM" minOpenSafetyRelease="1.5"><![CDATA[C:\BrAutomation\AS410\AS\Hardware\Modules\X20SL8100\1.10.10.2\OSDD\X20SL81XX_SCM_R1104.xosdd]]></DeviceDescription>
@@ -348,15 +348,15 @@
       <ChannelConfiguration />
     </SafetyNode>
     <SafetyNode SAddr="11">
-      <DeviceDescription Module="X20SO4120_110" minOpenSafetyRelease="1.5"><![CDATA[C:\BrAutomation\AS410\AS\Hardware\Modules\X20SO4120\1.10.9.1\OSDD\\X20SO4120_1_10_9_0.xosdd]]></DeviceDescription>
+      <DeviceDescription Module="X20SO4120_110" minOpenSafetyRelease="1.5"><![CDATA[C:\BrAutomation\AS410\AS\Hardware\Modules\X20SO4120\1.10.11.0\OSDD\\X20SO4120_1_10_11_0.xosdd]]></DeviceDescription>
       <NodeDescription>
         <Classification Type="Digital" />
         <Classification Type="Output" />
         <Classification Type="VendorSpecific">Safe</Classification>
         <Classification Type="VendorSpecific">IO</Classification>
         <Info Name="Interface" Value="SL1.IF1.ST11.IF1.ST3" />
-        <Info Name="HWC_Revision" Value="1.10.9.1" />
-        <Info Name="HWC_LastEdit" Value="26.04.2019 14:52:42" />
+        <Info Name="HWC_Revision" Value="1.10.11.0" />
+        <Info Name="HWC_LastEdit" Value="11.03.2021 13:18:50" />
         <Info Name="AS_Name" Value="AB1.5_4xSO" />
         <Info Name="FirstPublishedSafetyRelease" Value="1.5" />
         <Info Name="Description-de" Value="X20 Safe Digital Out, 4xA, 24 V, 2A" />
@@ -445,15 +445,15 @@
       <ChannelConfiguration />
     </SafetyNode>
     <SafetyNode SAddr="21">
-      <DeviceDescription Module="X20SO4120_110" minOpenSafetyRelease="1.5"><![CDATA[C:\BrAutomation\AS410\AS\Hardware\Modules\X20SO4120\1.10.9.1\OSDD\\X20SO4120_1_10_9_0.xosdd]]></DeviceDescription>
+      <DeviceDescription Module="X20SO4120_110" minOpenSafetyRelease="1.5"><![CDATA[C:\BrAutomation\AS410\AS\Hardware\Modules\X20SO4120\1.10.11.0\OSDD\\X20SO4120_1_10_11_0.xosdd]]></DeviceDescription>
       <NodeDescription>
         <Classification Type="Digital" />
         <Classification Type="Output" />
         <Classification Type="VendorSpecific">Safe</Classification>
         <Classification Type="VendorSpecific">IO</Classification>
         <Info Name="Interface" Value="SL1.IF1.ST21.IF1.ST3" />
-        <Info Name="HWC_Revision" Value="1.10.9.1" />
-        <Info Name="HWC_LastEdit" Value="26.04.2019 14:52:42" />
+        <Info Name="HWC_Revision" Value="1.10.11.0" />
+        <Info Name="HWC_LastEdit" Value="11.03.2021 13:18:50" />
         <Info Name="AS_Name" Value="AB2.5_4xSO" />
         <Info Name="FirstPublishedSafetyRelease" Value="1.5" />
         <Info Name="Description-de" Value="X20 Safe Digital Out, 4xA, 24 V, 2A" />
@@ -510,15 +510,15 @@
       </ChannelConfiguration>
     </SafetyNode>
     <SafetyNode SAddr="22">
-      <DeviceDescription Module="X20SO4120_110" minOpenSafetyRelease="1.5"><![CDATA[C:\BrAutomation\AS410\AS\Hardware\Modules\X20SO4120\1.10.9.1\OSDD\\X20SO4120_1_10_9_0.xosdd]]></DeviceDescription>
+      <DeviceDescription Module="X20SO4120_110" minOpenSafetyRelease="1.5"><![CDATA[C:\BrAutomation\AS410\AS\Hardware\Modules\X20SO4120\1.10.11.0\OSDD\\X20SO4120_1_10_11_0.xosdd]]></DeviceDescription>
       <NodeDescription>
         <Classification Type="Digital" />
         <Classification Type="Output" />
         <Classification Type="VendorSpecific">Safe</Classification>
         <Classification Type="VendorSpecific">IO</Classification>
         <Info Name="Interface" Value="SL1.IF1.ST21.IF1.ST4" />
-        <Info Name="HWC_Revision" Value="1.10.9.1" />
-        <Info Name="HWC_LastEdit" Value="26.04.2019 14:52:42" />
+        <Info Name="HWC_Revision" Value="1.10.11.0" />
+        <Info Name="HWC_LastEdit" Value="11.03.2021 13:18:50" />
         <Info Name="AS_Name" Value="AB2.6_4xSO" />
         <Info Name="FirstPublishedSafetyRelease" Value="1.5" />
         <Info Name="Description-de" Value="X20 Safe Digital Out, 4xA, 24 V, 2A" />
@@ -775,15 +775,15 @@
       <ChannelConfiguration />
     </SafetyNode>
     <SafetyNode SAddr="31">
-      <DeviceDescription Module="X20SO4120_110" minOpenSafetyRelease="1.5"><![CDATA[C:\BrAutomation\AS410\AS\Hardware\Modules\X20SO4120\1.10.9.1\OSDD\\X20SO4120_1_10_9_0.xosdd]]></DeviceDescription>
+      <DeviceDescription Module="X20SO4120_110" minOpenSafetyRelease="1.5"><![CDATA[C:\BrAutomation\AS410\AS\Hardware\Modules\X20SO4120\1.10.11.0\OSDD\\X20SO4120_1_10_11_0.xosdd]]></DeviceDescription>
       <NodeDescription>
         <Classification Type="Digital" />
         <Classification Type="Output" />
         <Classification Type="VendorSpecific">Safe</Classification>
         <Classification Type="VendorSpecific">IO</Classification>
         <Info Name="Interface" Value="SL1.IF1.ST31.IF1.ST5" />
-        <Info Name="HWC_Revision" Value="1.10.9.1" />
-        <Info Name="HWC_LastEdit" Value="26.04.2019 14:52:42" />
+        <Info Name="HWC_Revision" Value="1.10.11.0" />
+        <Info Name="HWC_LastEdit" Value="11.03.2021 13:18:50" />
         <Info Name="AS_Name" Value="AB3.6_4xSO" />
         <Info Name="FirstPublishedSafetyRelease" Value="1.5" />
         <Info Name="Description-de" Value="X20 Safe Digital Out, 4xA, 24 V, 2A" />
@@ -954,15 +954,15 @@
       <ChannelConfiguration />
     </SafetyNode>
     <SafetyNode SAddr="41">
-      <DeviceDescription Module="X20SO4120_110" minOpenSafetyRelease="1.5"><![CDATA[C:\BrAutomation\AS410\AS\Hardware\Modules\X20SO4120\1.10.9.1\OSDD\\X20SO4120_1_10_9_0.xosdd]]></DeviceDescription>
+      <DeviceDescription Module="X20SO4120_110" minOpenSafetyRelease="1.5"><![CDATA[C:\BrAutomation\AS410\AS\Hardware\Modules\X20SO4120\1.10.11.0\OSDD\\X20SO4120_1_10_11_0.xosdd]]></DeviceDescription>
       <NodeDescription>
         <Classification Type="Digital" />
         <Classification Type="Output" />
         <Classification Type="VendorSpecific">Safe</Classification>
         <Classification Type="VendorSpecific">IO</Classification>
         <Info Name="Interface" Value="SL1.IF1.ST41.IF1.ST3" />
-        <Info Name="HWC_Revision" Value="1.10.9.1" />
-        <Info Name="HWC_LastEdit" Value="26.04.2019 14:52:42" />
+        <Info Name="HWC_Revision" Value="1.10.11.0" />
+        <Info Name="HWC_LastEdit" Value="11.03.2021 13:18:50" />
         <Info Name="AS_Name" Value="AB4.5_4xSO" />
         <Info Name="FirstPublishedSafetyRelease" Value="1.5" />
         <Info Name="Description-de" Value="X20 Safe Digital Out, 4xA, 24 V, 2A" />

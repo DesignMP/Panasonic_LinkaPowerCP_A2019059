@@ -295,7 +295,9 @@ PROGRAM _CYCLIC
             //Vytvorenie spravy pre report//
             IF NOT SC_KOM_Server.Switch1 THEN
                 brsmemset(ADR(Report),0,SIZEOF(Report));
-                //Skrutka K40//
+                brsmemset(ADR(TRCB_P3_Srobovanie_ST7.INPUTS.Report), 0, SIZEOF(TRCB_P3_Srobovanie_ST7.INPUTS.Report));
+				
+				//Skrutka K40//
                 Report[0].PoradoveCislo:= '1';
                 Report[0].Popis:= 'SkrutkaK40_Moment';
                 Report[0].FormatHodnoty:= '1';

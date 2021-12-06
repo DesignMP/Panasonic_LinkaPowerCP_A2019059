@@ -297,8 +297,10 @@ PROGRAM _CYCLIC
 		
             //Vytvorenie spravy pre report//
             IF NOT SC_KOM_Server.Switch1 THEN
-                //Lavá skrutka M6//
                 brsmemset(ADR(Report),0,SIZEOF(Report));
+				brsmemset(ADR(TRCB_P2_Srobovanie_ST5.INPUTS.Report), 0, SIZEOF(TRCB_P2_Srobovanie_ST5.INPUTS.Report));
+				
+				//Lavá skrutka M6//
                 Report[0].PoradoveCislo:= '1';
                 Report[0].Popis:= 'LavaSkrutkaM6_Moment';
                 Report[0].FormatHodnoty:= '1';

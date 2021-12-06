@@ -64,12 +64,14 @@
     <Parameter ID="SelectedFavoriteWeb" Value="192.168.122.2:85/index.html?visuId=Vizu_P1" />
     <Parameter ID="BrowserVKeyboard" Value="0" />
     <Parameter ID="DisablePinchZoom" Value="0" />
+    <Parameter ID="EnableViewportOvrd" Value="0" />
     <Parameter ID="USBmemshare" Value="0" />
     <Parameter ID="Usermemshare" Value="0" />
     <Parameter ID="PasswordCIFSEncrypt" Value="0" />
     <Parameter ID="UpdateServerType" Value="1" />
     <Parameter ID="UpdateServerFromDhcp" Value="1" />
     <Parameter ID="PasswordServiceEncrypt" Value="0" />
+    <Parameter ID="ActivateRemoteAccess" Value="0" />
     <Parameter ID="ActivateOpcUaServer" Value="0" />
     <Parameter ID="PPTLogo" Value="none" />
     <Parameter ID="AnimatedBootLogo" Value="none" />
@@ -112,12 +114,14 @@
     <Parameter ID="SelectedFavoriteWeb" Value="192.168.122.2:85/index.html?visuId=Vizu_P2" />
     <Parameter ID="BrowserVKeyboard" Value="0" />
     <Parameter ID="DisablePinchZoom" Value="0" />
+    <Parameter ID="EnableViewportOvrd" Value="0" />
     <Parameter ID="USBmemshare" Value="0" />
     <Parameter ID="Usermemshare" Value="0" />
     <Parameter ID="PasswordCIFSEncrypt" Value="0" />
     <Parameter ID="UpdateServerType" Value="1" />
     <Parameter ID="UpdateServerFromDhcp" Value="1" />
     <Parameter ID="PasswordServiceEncrypt" Value="0" />
+    <Parameter ID="ActivateRemoteAccess" Value="0" />
     <Parameter ID="ActivateOpcUaServer" Value="0" />
     <Parameter ID="PPTLogo" Value="none" />
     <Parameter ID="AnimatedBootLogo" Value="none" />
@@ -160,12 +164,14 @@
     <Parameter ID="SelectedFavoriteWeb" Value="192.168.122.2:85/index.html?visuId=Vizu_P34" />
     <Parameter ID="BrowserVKeyboard" Value="0" />
     <Parameter ID="DisablePinchZoom" Value="0" />
+    <Parameter ID="EnableViewportOvrd" Value="0" />
     <Parameter ID="USBmemshare" Value="0" />
     <Parameter ID="Usermemshare" Value="0" />
     <Parameter ID="PasswordCIFSEncrypt" Value="0" />
     <Parameter ID="UpdateServerType" Value="1" />
     <Parameter ID="UpdateServerFromDhcp" Value="1" />
     <Parameter ID="PasswordServiceEncrypt" Value="0" />
+    <Parameter ID="ActivateRemoteAccess" Value="0" />
     <Parameter ID="ActivateOpcUaServer" Value="0" />
     <Parameter ID="PPTLogo" Value="none" />
     <Parameter ID="AnimatedBootLogo" Value="none" />

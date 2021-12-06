@@ -191,7 +191,7 @@ PROGRAM _CYCLIC
             TRCB_P1_Vytah_ST1.INPUTS.CisloPaletky;
             TRCB_P1_Vytah_ST1.INPUTS.QRkodPowerCP:= Paletka[a].PAR.QRkodPowerCP;
             TRCB_P1_Vytah_ST1.INPUTS.QRkodFiltra:= Paletka[a].PAR.QRkodFiltra_4F5F;
-            TRCB_P1_Vytah_ST1.INPUTS.ID_Operatora:= Paletka[a].PAR.ID_Operatora;;
+            TRCB_P1_Vytah_ST1.INPUTS.ID_Operatora:= Paletka[a].PAR.ID_Operatora;
             TRCB_P1_Vytah_ST1.INPUTS.Report:= '';
             TRCB_P1_Vytah_ST1.INPUTS.StavPaletky:= 'OK';
             SKTcpClientTrace_1.Cmd.Send:= TRUE;
@@ -321,7 +321,9 @@ PROGRAM _CYCLIC
             //Vytvorenie spravy pre report//
             
             IF NOT SC_KOM_Server.Switch1 THEN
-                brsmemset(ADR(Report),0,SIZEOF(Report));
+				brsmemset(ADR(Report),0,SIZEOF(Report));
+				brsmemset(ADR(TRCB_P1_Vytah_ST1.INPUTS.Report), 0, SIZEOF(TRCB_P1_Vytah_ST1.INPUTS.Report));
+				
                 //Kamera 2 - Kontrola paletky//
                 Report[0].PoradoveCislo:= '1';
                 Report[0].Popis:= 'KAM_2_KontrolaPaletky';

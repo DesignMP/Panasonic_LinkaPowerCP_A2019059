@@ -319,7 +319,11 @@ PROGRAM _CYCLIC
             //Vytvorenie spravy pre report//
             
             IF NOT SC_KOM_Server.Switch1 THEN
-                //Kamera 17 - kontrola paletky//
+				brsmemset(ADR(Report),0,SIZEOF(Report));
+				brsmemset(ADR(TRCB_P2_ZakladacTesnenia_ST3.INPUTS.Report), 0, SIZEOF(TRCB_P2_ZakladacTesnenia_ST3.INPUTS.Report));
+				
+				
+				//Kamera 17 - kontrola paletky//
                 Report[0].PoradoveCislo:= '1';
                 Report[0].Popis:= 'KAM_17_KontrolaPaletky';
                 Report[0].FormatHodnoty:= '2';

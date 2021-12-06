@@ -295,7 +295,10 @@ PROGRAM _CYCLIC
             //Vytvorenie spravy pre report//
             IF NOT SC_KOM_Server.Switch1 THEN
                 brsmemset(ADR(Report),0,SIZEOF(Report));
-                //Èas plnenia//
+                brsmemset(ADR(TRCB_P3_LeakageTestA_ST8A.INPUTS.Report), 0, SIZEOF(TRCB_P3_LeakageTestA_ST8A.INPUTS.Report));
+				
+				
+				//Èas plnenia//
                 Report[0].PoradoveCislo:= '1';
                 Report[0].Popis:= 'StanicaA_CasPlnenia';
                 Report[0].FormatHodnoty:= '1';

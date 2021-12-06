@@ -1,3 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?AutomationStudio FileVersion="4.9"?>
-<State Top="0" Left="0" Width="0" Height="0" WindowState="Normal" xmlns="http://br-automation.co.at/AS/State" />
+<State Top="0" Left="0" Width="0" Height="0" WindowState="Normal" xmlns="http://br-automation.co.at/AS/State">
+  <TextEdit ID="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\TracebilitySystem\P2_Maticovacka_ST4\Main.st" CaretLine="301" CaretColumn="109" FirstVisibleLine="286">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\TracebilitySystem\P4_Vytah_ST10\Main.st" CaretLine="306" CaretColumn="42" FirstVisibleLine="283">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="D:\Projekty BER\Panasonic_LinkaPowerCP_A2019059\Logical\TracebilitySystem\P3_LeakageTestB_ST8B\Main.st" CaretLine="293" CaretColumn="3" FirstVisibleLine="279">
+    <Bookmarks />
+  </TextEdit>
+</State>

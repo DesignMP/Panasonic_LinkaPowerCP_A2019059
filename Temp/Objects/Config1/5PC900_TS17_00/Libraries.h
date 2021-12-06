@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _LIBRARIES_20211109105158_
-#define _LIBRARIES_20211109105158_
+#ifndef _LIBRARIES_20211206081524_
+#define _LIBRARIES_20211206081524_
 
 __asm__(".section \".plc\"");
 
@@ -1091,5 +1091,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/CoTrace/CoTrace.var\\\" scope \\
 __asm__(".previous");
 
 
-#endif /* _LIBRARIES_20211109105158_ */
+#endif /* _LIBRARIES_20211206081524_ */
 

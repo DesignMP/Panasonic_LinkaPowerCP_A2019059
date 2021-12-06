@@ -315,9 +315,10 @@ PROGRAM _CYCLIC
 		    
                        
             IF NOT SC_KOM_Server.Switch1 THEN
-                //Kamera 15//
                 brsmemset(ADR(Report),0,SIZEOF(Report));
-               
+               	brsmemset(ADR(TRCB_P4_Etiketovacka_ST9.INPUTS.Report), 0, SIZEOF(TRCB_P4_Etiketovacka_ST9.INPUTS.Report));
+				
+				//Kamera 15//
                 Report[0].PoradoveCislo:= '1';
                 Report[0].Popis:= 'KAM_15_KontrolaEtikety';
                 Report[0].FormatHodnoty:= '2';

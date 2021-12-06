@@ -1554,6 +1554,7 @@
   <Module Name="M1.0.0" Type="8LVA23.B8015S200-0" Version="2.2.0.3">
     <Connection Connector="EC" TargetModule="FM4_ZdvihVytahu" TargetConnector="EC1" />
     <Connection Connector="MT" TargetModule="FM4_ZdvihVytahu" TargetConnector="MT1" />
+    <Parameter ID="MOTOR_AMB_TEMP_RATED" Location="M1/MotorParameters" Value="40" />
   </Module>
   <Module Name="M1.1.0" Type="8LVA23.B9015S200-0" Version="2.2.0.3">
     <Connection Connector="EC" TargetModule="FM5_ManipulatorSrobovacky" TargetConnector="EC1" />
@@ -1573,6 +1574,7 @@
   <Module Name="M26_ZdvihVytahu" Type="8LVA23.B8015S200-0" Version="2.2.0.3">
     <Connection Connector="EC" TargetModule="FM18_ZdvihVytahu" TargetConnector="EC1" />
     <Connection Connector="MT" TargetModule="FM18_ZdvihVytahu" TargetConnector="MT1" />
+    <Parameter ID="MOTOR_AMB_TEMP_RATED" Location="M1/MotorParameters" Value="40" />
   </Module>
   <Module Name="M28_ZdvihEtiketovacky" Type="8LVA23.B9015S200-0" Version="2.2.0.3">
     <Connection Connector="EC" TargetModule="FM19_ZdvihEtiketovacky" TargetConnector="EC1" />
@@ -1587,6 +1589,7 @@
   <Module Name="M4_ZdvihZakladacaTesnenia" Type="8LSA46.DB030S200-3" Version="2.2.0.1">
     <Connection Connector="EC" TargetModule="FM6_ZdvihZakladacaTesnenia" TargetConnector="EC1" />
     <Connection Connector="MT" TargetModule="FM6_ZdvihZakladacaTesnenia" TargetConnector="MT1" />
+    <Parameter ID="MOTOR_AMB_TEMP_RATED" Location="M1/MotorParameters" Value="40" />
   </Module>
   <Module Name="M5_PojazdZakladacaTesnenia" Type="8LSAA2.D9045S000-3" Version="2.2.0.1">
     <Connection Connector="EC" TargetModule="FM7_PojazdZakladacaTesnenia" TargetConnector="EC1" />
